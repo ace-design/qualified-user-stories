@@ -1,0 +1,2991 @@
+[
+    {
+        "PID": "#G28#",
+        "Text": "#G28# As a user, I want to search and discover music using content identification or fingerprinting.",
+        "Persona": [
+            "user"
+        ],
+        "Action": {
+            "Primary Action": [
+                "search",
+                "discover"
+            ],
+            "Secondary Action": [
+                "using"
+            ]
+        },
+        "Entity": {
+            "Primary Entity": [
+                "music"
+            ],
+            "Secondary Entity": [
+                "content identification",
+                "fingerprinting"
+            ]
+        },
+        "Benefit": "",
+        "Triggers": [
+            [
+                "user",
+                "search"
+            ],
+            [
+                "user",
+                "discover"
+            ]
+        ],
+        "Targets": [
+            [
+                "search",
+                "music"
+            ],
+            [
+                "discover",
+                "music"
+            ],
+            [
+                "using",
+                "content identification"
+            ],
+            [
+                "using",
+                "fingerprinting"
+            ]
+        ],
+        "Contains": []
+    },
+    {
+        "PID": "#G28#",
+        "Text": "#G28# As a user, I want to search and discover music based on my profile.",
+        "Persona": [
+            "user"
+        ],
+        "Action": {
+            "Primary Action": [
+                "search",
+                "discover"
+            ],
+            "Secondary Action": [
+                ""
+            ]
+        },
+        "Entity": {
+            "Primary Entity": [
+                "music"
+            ],
+            "Secondary Entity": [
+                "profile"
+            ]
+        },
+        "Benefit": "",
+        "Triggers": [
+            [
+                "user",
+                "search"
+            ],
+            [
+                "user",
+                "discover"
+            ]
+        ],
+        "Targets": [
+            [
+                "search",
+                "music"
+            ],
+            [
+                "discover",
+                "music"
+            ]
+        ],
+        "Contains": []
+    },
+    {
+        "PID": "#G28#",
+        "Text": "#G28# As a user, I want to search and discover music based on other users similar to myself.",
+        "Persona": [
+            "user"
+        ],
+        "Action": {
+            "Primary Action": [
+                "search",
+                "discover"
+            ],
+            "Secondary Action": [
+                ""
+            ]
+        },
+        "Entity": {
+            "Primary Entity": [
+                "music"
+            ],
+            "Secondary Entity": [
+                "other users similar to myself"
+            ]
+        },
+        "Benefit": "",
+        "Triggers": [
+            [
+                "user",
+                "search"
+            ],
+            [
+                "user",
+                "discover"
+            ]
+        ],
+        "Targets": [
+            [
+                "discover",
+                "music"
+            ],
+            [
+                "search",
+                "music"
+            ]
+        ],
+        "Contains": [
+            [
+                "other users similar to myself",
+                "music"
+            ]
+        ]
+    },
+    {
+        "PID": "#G28#",
+        "Text": "#G28# As a user, I want to search and discover music or ringback tones similar to a given music video based on content similarity.",
+        "Persona": [
+            "user"
+        ],
+        "Action": {
+            "Primary Action": [
+                "search",
+                "discover"
+            ],
+            "Secondary Action": [
+                ""
+            ]
+        },
+        "Entity": {
+            "Primary Entity": [
+                "ringback tones",
+                "music"
+            ],
+            "Secondary Entity": [
+                "given music video",
+                "content similarity"
+            ]
+        },
+        "Benefit": "",
+        "Triggers": [
+            [
+                "user",
+                "search"
+            ],
+            [
+                "user",
+                "discover"
+            ]
+        ],
+        "Targets": [
+            [
+                "discover",
+                "music"
+            ],
+            [
+                "discover",
+                "ringback tones"
+            ],
+            [
+                "search",
+                "ringback tones"
+            ],
+            [
+                "search",
+                "music"
+            ]
+        ],
+        "Contains": [
+            [
+                "given music video",
+                "content similarity"
+            ]
+        ]
+    },
+    {
+        "PID": "#G28#",
+        "Text": "#G28# As a user, I want to search and discover music by exploiting enriched metadata and image tags, so that I find related artists, new genre, or other relevant listening path.",
+        "Persona": [
+            "user"
+        ],
+        "Action": {
+            "Primary Action": [
+                "search",
+                "discover"
+            ],
+            "Secondary Action": [
+                "exploiting",
+                "find"
+            ]
+        },
+        "Entity": {
+            "Primary Entity": [
+                "music"
+            ],
+            "Secondary Entity": [
+                "enriched metadata",
+                "image tags",
+                "related artists",
+                "new genre",
+                "other relevant listening path"
+            ]
+        },
+        "Benefit": "I find related artists, new genre, or other relevant listening path",
+        "Triggers": [
+            [
+                "user",
+                "search"
+            ],
+            [
+                "user",
+                "discover"
+            ]
+        ],
+        "Targets": [
+            [
+                "search",
+                "music"
+            ],
+            [
+                "discover",
+                "music"
+            ],
+            [
+                "exploiting",
+                "enriched metadata"
+            ],
+            [
+                "exploiting",
+                "image tags"
+            ],
+            [
+                "find",
+                "related artists"
+            ],
+            [
+                "find",
+                "new genre"
+            ],
+            [
+                "find",
+                "other relevant listening path"
+            ]
+        ],
+        "Contains": []
+    },
+    {
+        "PID": "#G28#",
+        "Text": "#G28# As a user, I want to upload tagged videos and have tags available for all further processing steps.",
+        "Persona": [
+            "user"
+        ],
+        "Action": {
+            "Primary Action": [
+                "upload",
+                "have"
+            ],
+            "Secondary Action": [
+                ""
+            ]
+        },
+        "Entity": {
+            "Primary Entity": [
+                "tagged videos",
+                "tags"
+            ],
+            "Secondary Entity": [
+                "all further processing steps"
+            ]
+        },
+        "Benefit": "",
+        "Triggers": [
+            [
+                "user",
+                "upload"
+            ],
+            [
+                "user",
+                "have"
+            ]
+        ],
+        "Targets": [
+            [
+                "upload",
+                "tagged videos"
+            ],
+            [
+                "have",
+                "tags"
+            ]
+        ],
+        "Contains": [
+            [
+                "all further processing steps",
+                "tags"
+            ],
+            [
+                "tagged videos",
+                "tags"
+            ]
+        ]
+    },
+    {
+        "PID": "#G28#",
+        "Text": "#G28# As a user, I want to view thumbnail sequences of video segments.",
+        "Persona": [
+            "user"
+        ],
+        "Action": {
+            "Primary Action": [
+                "view"
+            ],
+            "Secondary Action": [
+                ""
+            ]
+        },
+        "Entity": {
+            "Primary Entity": [
+                "thumbnail sequences"
+            ],
+            "Secondary Entity": [
+                "video segments"
+            ]
+        },
+        "Benefit": "",
+        "Triggers": [
+            [
+                "user",
+                "view"
+            ]
+        ],
+        "Targets": [
+            [
+                "view",
+                "thumbnail sequences"
+            ]
+        ],
+        "Contains": [
+            [
+                "video segments",
+                "thumbnail sequences"
+            ]
+        ]
+    },
+    {
+        "PID": "#G28#",
+        "Text": "#G28# As a user, I want to get info about similar video items and segments.",
+        "Persona": [
+            "user"
+        ],
+        "Action": {
+            "Primary Action": [
+                "get"
+            ],
+            "Secondary Action": [
+                ""
+            ]
+        },
+        "Entity": {
+            "Primary Entity": [
+                "info"
+            ],
+            "Secondary Entity": [
+                "similar video items",
+                "segments"
+            ]
+        },
+        "Benefit": "",
+        "Triggers": [
+            [
+                "user",
+                "get"
+            ]
+        ],
+        "Targets": [
+            [
+                "get",
+                "info"
+            ]
+        ],
+        "Contains": [
+            [
+                "similar video items",
+                "info"
+            ],
+            [
+                "segments",
+                "info"
+            ]
+        ]
+    },
+    {
+        "PID": "#G28#",
+        "Text": "#G28# As a user, I want to get info about perceptually similar video items and segments.",
+        "Persona": [
+            "user"
+        ],
+        "Action": {
+            "Primary Action": [
+                "get"
+            ],
+            "Secondary Action": [
+                ""
+            ]
+        },
+        "Entity": {
+            "Primary Entity": [
+                "info"
+            ],
+            "Secondary Entity": [
+                "perceptually similar video items",
+                "segments"
+            ]
+        },
+        "Benefit": "",
+        "Triggers": [
+            [
+                "user",
+                "get"
+            ]
+        ],
+        "Targets": [
+            [
+                "get",
+                "info"
+            ]
+        ],
+        "Contains": [
+            [
+                "perceptually similar video items",
+                "info"
+            ],
+            [
+                "segments",
+                "info"
+            ]
+        ]
+    },
+    {
+        "PID": "#G28#",
+        "Text": "#G28# As a user, I want to receive content recommendations from similar profiles.",
+        "Persona": [
+            "user"
+        ],
+        "Action": {
+            "Primary Action": [
+                "receive"
+            ],
+            "Secondary Action": [
+                ""
+            ]
+        },
+        "Entity": {
+            "Primary Entity": [
+                "content recommendations"
+            ],
+            "Secondary Entity": [
+                "similar profiles"
+            ]
+        },
+        "Benefit": "",
+        "Triggers": [
+            [
+                "user",
+                "receive"
+            ]
+        ],
+        "Targets": [
+            [
+                "receive",
+                "content recommendations"
+            ]
+        ],
+        "Contains": [
+            [
+                "similar profiles",
+                "content recommendations"
+            ]
+        ]
+    },
+    {
+        "PID": "#G28#",
+        "Text": "#G28# As a user, I want to receive content recommendations based on most relevant news events in my area.",
+        "Persona": [
+            "user"
+        ],
+        "Action": {
+            "Primary Action": [
+                "receive"
+            ],
+            "Secondary Action": [
+                ""
+            ]
+        },
+        "Entity": {
+            "Primary Entity": [
+                "content recommendations"
+            ],
+            "Secondary Entity": [
+                "most relevant news events",
+                "area"
+            ]
+        },
+        "Benefit": "",
+        "Triggers": [
+            [
+                "user",
+                "receive"
+            ]
+        ],
+        "Targets": [
+            [
+                "receive",
+                "content recommendations"
+            ]
+        ],
+        "Contains": [
+            [
+                "area",
+                "most relevant news events"
+            ]
+        ]
+    },
+    {
+        "PID": "#G28#",
+        "Text": "#G28# As a user, I want to identify persons in videos, and receive related information about them.",
+        "Persona": [
+            "user"
+        ],
+        "Action": {
+            "Primary Action": [
+                "identify",
+                "receive"
+            ],
+            "Secondary Action": [
+                ""
+            ]
+        },
+        "Entity": {
+            "Primary Entity": [
+                "persons",
+                "related information"
+            ],
+            "Secondary Entity": [
+                "videos"
+            ]
+        },
+        "Benefit": "",
+        "Triggers": [
+            [
+                "user",
+                "identify"
+            ],
+            [
+                "user",
+                "receive"
+            ]
+        ],
+        "Targets": [
+            [
+                "identify",
+                "persons"
+            ],
+            [
+                "receive",
+                "related information"
+            ]
+        ],
+        "Contains": [
+            [
+                "videos",
+                "persons"
+            ],
+            [
+                "persons",
+                "related information"
+            ]
+        ]
+    },
+    {
+        "PID": "#G28#",
+        "Text": "#G28# As a user, I want to identify products in videos, and receive related information about them.",
+        "Persona": [
+            "user"
+        ],
+        "Action": {
+            "Primary Action": [
+                "identify",
+                "receive"
+            ],
+            "Secondary Action": [
+                ""
+            ]
+        },
+        "Entity": {
+            "Primary Entity": [
+                "products",
+                "related information"
+            ],
+            "Secondary Entity": [
+                "videos"
+            ]
+        },
+        "Benefit": "",
+        "Triggers": [
+            [
+                "user",
+                "identify"
+            ],
+            [
+                "user",
+                "receive"
+            ]
+        ],
+        "Targets": [
+            [
+                "identify",
+                "products"
+            ],
+            [
+                "receive",
+                "related information"
+            ]
+        ],
+        "Contains": [
+            [
+                "videos",
+                "products"
+            ],
+            [
+                "products",
+                "related information"
+            ]
+        ]
+    },
+    {
+        "PID": "#G28#",
+        "Text": "#G28# As a user, I want to identify broadcaster logos in videos, and receive related information about them.",
+        "Persona": [
+            "user"
+        ],
+        "Action": {
+            "Primary Action": [
+                "identify",
+                "receive"
+            ],
+            "Secondary Action": [
+                ""
+            ]
+        },
+        "Entity": {
+            "Primary Entity": [
+                "broadcaster logos",
+                "related information"
+            ],
+            "Secondary Entity": [
+                "videos"
+            ]
+        },
+        "Benefit": "",
+        "Triggers": [
+            [
+                "user",
+                "identify"
+            ],
+            [
+                "user",
+                "receive"
+            ]
+        ],
+        "Targets": [
+            [
+                "identify",
+                "broadcaster logos"
+            ],
+            [
+                "receive",
+                "related information"
+            ]
+        ],
+        "Contains": [
+            [
+                "videos",
+                "broadcaster logos"
+            ]
+        ]
+    },
+    {
+        "PID": "#G28#",
+        "Text": "#G28# As a user, I want to identify brands in videos, and receive related information about them.",
+        "Persona": [
+            "user"
+        ],
+        "Action": {
+            "Primary Action": [
+                "identify",
+                "receive"
+            ],
+            "Secondary Action": [
+                ""
+            ]
+        },
+        "Entity": {
+            "Primary Entity": [
+                "brands",
+                "related information"
+            ],
+            "Secondary Entity": [
+                "videos"
+            ]
+        },
+        "Benefit": "",
+        "Triggers": [
+            [
+                "user",
+                "identify"
+            ],
+            [
+                "user",
+                "receive"
+            ]
+        ],
+        "Targets": [
+            [
+                "identify",
+                "brands"
+            ],
+            [
+                "receive",
+                "related information"
+            ]
+        ],
+        "Contains": [
+            [
+                "videos",
+                "brands"
+            ],
+            [
+                "brands",
+                "related information"
+            ]
+        ]
+    },
+    {
+        "PID": "#G28#",
+        "Text": "#G28# As a user, I want to take a picture or upload an image, so that I am recommended with videos related to that picture or image.",
+        "Persona": [
+            "user"
+        ],
+        "Action": {
+            "Primary Action": [
+                "take",
+                "upload"
+            ],
+            "Secondary Action": [
+                "recommended"
+            ]
+        },
+        "Entity": {
+            "Primary Entity": [
+                "picture",
+                "image"
+            ],
+            "Secondary Entity": [
+                "videos",
+                "picture",
+                "image"
+            ]
+        },
+        "Benefit": "I am recommended with videos related to that picture or image",
+        "Triggers": [
+            [
+                "user",
+                "take"
+            ],
+            [
+                "user",
+                "upload"
+            ]
+        ],
+        "Targets": [
+            [
+                "take",
+                "picture"
+            ],
+            [
+                "upload",
+                "image"
+            ],
+            [
+                "recommended",
+                "videos"
+            ]
+        ],
+        "Contains": []
+    },
+    {
+        "PID": "#G28#",
+        "Text": "#G28# As a user, I want to walk around, access content using a geographical map and be informed if there are videos covering the area, monuments or any other relevant point of interest.",
+        "Persona": [
+            "user"
+        ],
+        "Action": {
+            "Primary Action": [
+                "walk around",
+                "access",
+                "be informed"
+            ],
+            "Secondary Action": [
+                "using",
+                "covering"
+            ]
+        },
+        "Entity": {
+            "Primary Entity": [
+                "content"
+            ],
+            "Secondary Entity": [
+                "geographical map",
+                "videos",
+                "area",
+                "monuments",
+                "any other relevant point of interest"
+            ]
+        },
+        "Benefit": "",
+        "Triggers": [
+            [
+                "user",
+                "walk around"
+            ],
+            [
+                "user",
+                "access"
+            ],
+            [
+                "user",
+                "be informed"
+            ]
+        ],
+        "Targets": [
+            [
+                "access",
+                "content"
+            ],
+            [
+                "using",
+                "geographical map"
+            ],
+            [
+                "covering",
+                "area"
+            ],
+            [
+                "covering",
+                "monuments"
+            ],
+            [
+                "covering",
+                "any other relevant point of interest"
+            ]
+        ],
+        "Contains": [
+            [
+                "geographical map",
+                "content"
+            ],
+            [
+                "videos",
+                "area"
+            ],
+            [
+                "videos",
+                "monuments"
+            ],
+            [
+                "videos",
+                "any other relevant point of interest"
+            ]
+        ]
+    },
+    {
+        "PID": "#G28#",
+        "Text": "#G28# As a user, I want to search content items using automatic speech recognition.",
+        "Persona": [
+            "user"
+        ],
+        "Action": {
+            "Primary Action": [
+                "search"
+            ],
+            "Secondary Action": [
+                "using"
+            ]
+        },
+        "Entity": {
+            "Primary Entity": [
+                "content items"
+            ],
+            "Secondary Entity": [
+                "automatic speech recognition"
+            ]
+        },
+        "Benefit": "",
+        "Triggers": [
+            [
+                "user",
+                "search"
+            ]
+        ],
+        "Targets": [
+            [
+                "search",
+                "content items"
+            ],
+            [
+                "using",
+                "automatic speech recognition"
+            ]
+        ],
+        "Contains": []
+    },
+    {
+        "PID": "#G28#",
+        "Text": "#G28# As an admin, I want to see, validate and edit segmentation of videos.",
+        "Persona": [
+            "admin"
+        ],
+        "Action": {
+            "Primary Action": [
+                "see",
+                "validate",
+                "edit"
+            ],
+            "Secondary Action": [
+                ""
+            ]
+        },
+        "Entity": {
+            "Primary Entity": [
+                "segmentation"
+            ],
+            "Secondary Entity": [
+                "videos"
+            ]
+        },
+        "Benefit": "",
+        "Triggers": [
+            [
+                "admin",
+                "see"
+            ],
+            [
+                "admin",
+                "validate"
+            ],
+            [
+                "admin",
+                "edit"
+            ]
+        ],
+        "Targets": [
+            [
+                "see",
+                "segmentation"
+            ],
+            [
+                "validate",
+                "segmentation"
+            ],
+            [
+                "edit",
+                "segmentation"
+            ]
+        ],
+        "Contains": [
+            [
+                "videos",
+                "segmentation"
+            ]
+        ]
+    },
+    {
+        "PID": "#G28#",
+        "Text": "#G28# As an admin, I want to annotate news video segments and extract a topic for each segment.",
+        "Persona": [
+            "admin"
+        ],
+        "Action": {
+            "Primary Action": [
+                "annotate",
+                "extract"
+            ],
+            "Secondary Action": [
+                ""
+            ]
+        },
+        "Entity": {
+            "Primary Entity": [
+                "news video segments",
+                "topic"
+            ],
+            "Secondary Entity": [
+                "each segment"
+            ]
+        },
+        "Benefit": "",
+        "Triggers": [
+            [
+                "admin",
+                "annotate"
+            ],
+            [
+                "admin",
+                "extract"
+            ]
+        ],
+        "Targets": [
+            [
+                "annotate",
+                "news video segments"
+            ],
+            [
+                "extract",
+                "topic"
+            ]
+        ],
+        "Contains": [
+            [
+                "each segment",
+                "topic"
+            ]
+        ]
+    },
+    {
+        "PID": "#G28#",
+        "Text": "#G28# As an admin, I want to filter and rank videos based on A/V quality aspects.",
+        "Persona": [
+            "admin"
+        ],
+        "Action": {
+            "Primary Action": [
+                "filter",
+                "rank"
+            ],
+            "Secondary Action": [
+                ""
+            ]
+        },
+        "Entity": {
+            "Primary Entity": [
+                "videos"
+            ],
+            "Secondary Entity": [
+                "A/V quality aspects"
+            ]
+        },
+        "Benefit": "",
+        "Triggers": [
+            [
+                "admin",
+                "filter"
+            ],
+            [
+                "admin",
+                "rank"
+            ]
+        ],
+        "Targets": [
+            [
+                "filter",
+                "videos"
+            ],
+            [
+                "rank",
+                "videos"
+            ]
+        ],
+        "Contains": [
+            [
+                "videos",
+                "A/V quality aspects"
+            ]
+        ]
+    },
+    {
+        "PID": "#G28#",
+        "Text": "#G28# As an admin, I want to get a quick assessment of whether audio material has been edited before the upload.",
+        "Persona": [
+            "admin"
+        ],
+        "Action": {
+            "Primary Action": [
+                "get"
+            ],
+            "Secondary Action": [
+                "edited before"
+            ]
+        },
+        "Entity": {
+            "Primary Entity": [
+                "quick assessment"
+            ],
+            "Secondary Entity": [
+                "audio material",
+                "upload"
+            ]
+        },
+        "Benefit": "",
+        "Triggers": [
+            [
+                "admin",
+                "get"
+            ]
+        ],
+        "Targets": [
+            [
+                "get",
+                "quick assessment"
+            ],
+            [
+                "edited before",
+                "audio material"
+            ]
+        ],
+        "Contains": [
+            [
+                "upload",
+                "audio material"
+            ],
+            [
+                "audio material",
+                "quick assessment"
+            ]
+        ]
+    },
+    {
+        "PID": "#G28#",
+        "Text": "#G28# As an admin, I want to prefilter nudity content.",
+        "Persona": [
+            "admin"
+        ],
+        "Action": {
+            "Primary Action": [
+                "prefilter"
+            ],
+            "Secondary Action": [
+                ""
+            ]
+        },
+        "Entity": {
+            "Primary Entity": [
+                "nudity content"
+            ],
+            "Secondary Entity": [
+                ""
+            ]
+        },
+        "Benefit": "",
+        "Triggers": [
+            [
+                "admin",
+                "prefilter"
+            ]
+        ],
+        "Targets": [
+            [
+                "prefilter",
+                "nudity content"
+            ]
+        ],
+        "Contains": []
+    },
+    {
+        "PID": "#G28#",
+        "Text": "#G28# As an admin, I want to prefilter content using search based on low-level asset information.",
+        "Persona": [
+            "admin"
+        ],
+        "Action": {
+            "Primary Action": [
+                "prefilter"
+            ],
+            "Secondary Action": [
+                "using"
+            ]
+        },
+        "Entity": {
+            "Primary Entity": [
+                "content"
+            ],
+            "Secondary Entity": [
+                "search",
+                "low-level asset information"
+            ]
+        },
+        "Benefit": "",
+        "Triggers": [
+            [
+                "admin",
+                "prefilter"
+            ]
+        ],
+        "Targets": [
+            [
+                "prefilter",
+                "content"
+            ],
+            [
+                "using",
+                "search"
+            ]
+        ],
+        "Contains": [
+            [
+                "content",
+                "low-level asset information"
+            ]
+        ]
+    },
+    {
+        "PID": "#G28#",
+        "Text": "#G28# As an admin, I want to automatically validated the ingested contents for copyright infringement.",
+        "Persona": [
+            "admin"
+        ],
+        "Action": {
+            "Primary Action": [
+                "automatically validated"
+            ],
+            "Secondary Action": [
+                ""
+            ]
+        },
+        "Entity": {
+            "Primary Entity": [
+                "ingested contents"
+            ],
+            "Secondary Entity": [
+                "copyright infringement"
+            ]
+        },
+        "Benefit": "",
+        "Triggers": [
+            [
+                "admin",
+                "automatically validated"
+            ]
+        ],
+        "Targets": [
+            [
+                "automatically validated",
+                "ingested contents"
+            ]
+        ],
+        "Contains": [
+            [
+                "ingested contents",
+                "copyright infringement"
+            ]
+        ]
+    },
+    {
+        "PID": "#G28#",
+        "Text": "#G28# As an admin, I want to prefilter the content using search on high-level asset information such as metadata and tags either recognized by the system of provided by the user.",
+        "Persona": [
+            "admin"
+        ],
+        "Action": {
+            "Primary Action": [
+                "prefilter"
+            ],
+            "Secondary Action": [
+                "using"
+            ]
+        },
+        "Entity": {
+            "Primary Entity": [
+                "content"
+            ],
+            "Secondary Entity": [
+                "search",
+                "high-level asset information",
+                "metadata",
+                "tags",
+                "user",
+                "system of provided"
+            ]
+        },
+        "Benefit": "",
+        "Triggers": [
+            [
+                "admin",
+                "prefilter"
+            ]
+        ],
+        "Targets": [
+            [
+                "prefilter",
+                "content"
+            ],
+            [
+                "using",
+                "search"
+            ]
+        ],
+        "Contains": [
+            [
+                "high-level asset information",
+                "metadata"
+            ],
+            [
+                "high-level asset information",
+                "tags"
+            ],
+            [
+                "user",
+                "system of provided"
+            ],
+            [
+                "content",
+                "high-level asset information"
+            ]
+        ]
+    },
+    {
+        "PID": "#G28#",
+        "Text": "#G28# As a Zooniverse admin, I want to assess how interesting or appealing or complex a picture is based on automated analysis, citizen annotations, and comments on Talk.",
+        "Persona": [
+            "Zooniverse admin"
+        ],
+        "Action": {
+            "Primary Action": [
+                "assess"
+            ],
+            "Secondary Action": [
+                ""
+            ]
+        },
+        "Entity": {
+            "Primary Entity": [
+                "how interesting or appealing or complex"
+            ],
+            "Secondary Entity": [
+                "picture",
+                "automated analysis",
+                "citizen annotations",
+                "comments",
+                "Talk"
+            ]
+        },
+        "Benefit": "",
+        "Triggers": [
+            [
+                "Zooniverse admin",
+                "assess"
+            ]
+        ],
+        "Targets": [
+            [
+                "assess",
+                "how interesting or appealing or complex"
+            ]
+        ],
+        "Contains": [
+            [
+                "picture",
+                "automated analysis"
+            ],
+            [
+                "picture",
+                "citizen annotations"
+            ],
+            [
+                "Talk",
+                "comments"
+            ],
+            [
+                "picture",
+                "comments"
+            ]
+        ]
+    },
+    {
+        "PID": "#G28#",
+        "Text": "#G28# As a Zooniverse admin, I want to detect when a scientist should be prompted to look at a subject, based on annotations and information from Talk comments.",
+        "Persona": [
+            "Zooniverse admin"
+        ],
+        "Action": {
+            "Primary Action": [
+                "detect"
+            ],
+            "Secondary Action": [
+                "look",
+                "prompted"
+            ]
+        },
+        "Entity": {
+            "Primary Entity": [
+                "when"
+            ],
+            "Secondary Entity": [
+                "scientist",
+                "subject",
+                "annotations",
+                "information",
+                "Talk comments"
+            ]
+        },
+        "Benefit": "",
+        "Triggers": [
+            [
+                "Zooniverse admin",
+                "detect"
+            ]
+        ],
+        "Targets": [
+            [
+                "detect",
+                "when"
+            ],
+            [
+                "prompted",
+                "scientist"
+            ],
+            [
+                "look",
+                "subject"
+            ]
+        ],
+        "Contains": [
+            [
+                "Talk comments",
+                "information"
+            ],
+            [
+                "Talk comments",
+                "annotations"
+            ]
+        ]
+    },
+    {
+        "PID": "#G28#",
+        "Text": "#G28# As a Zooniverse admin, I want to identify volunteer types.",
+        "Persona": [
+            "Zooniverse admin"
+        ],
+        "Action": {
+            "Primary Action": [
+                "identify"
+            ],
+            "Secondary Action": [
+                ""
+            ]
+        },
+        "Entity": {
+            "Primary Entity": [
+                "volunteer types"
+            ],
+            "Secondary Entity": [
+                ""
+            ]
+        },
+        "Benefit": "",
+        "Triggers": [
+            [
+                "Zooniverse admin",
+                "identify"
+            ]
+        ],
+        "Targets": [
+            [
+                "identify",
+                "volunteer types"
+            ]
+        ],
+        "Contains": []
+    },
+    {
+        "PID": "#G28#",
+        "Text": "#G28# As a Zooniverse admin, I want to preclassify the Galaxy Zoo images using simple low-level image features.",
+        "Persona": [
+            "Zooniverse admin"
+        ],
+        "Action": {
+            "Primary Action": [
+                "preclassify"
+            ],
+            "Secondary Action": [
+                "using"
+            ]
+        },
+        "Entity": {
+            "Primary Entity": [
+                "Galaxy Zoo images"
+            ],
+            "Secondary Entity": [
+                "simple low-level image features"
+            ]
+        },
+        "Benefit": "",
+        "Triggers": [
+            [
+                "Zooniverse admin",
+                "preclassify"
+            ]
+        ],
+        "Targets": [
+            [
+                "preclassify",
+                "Galaxy Zoo images"
+            ],
+            [
+                "using",
+                "simple low-level image features"
+            ]
+        ],
+        "Contains": [
+            [
+                "Galaxy Zoo images",
+                "simple low-level image features"
+            ]
+        ]
+    },
+    {
+        "PID": "#G28#",
+        "Text": "#G28# As a Zooniverse admin, I want to automatically detect Snapshot Serengeti images with no classifiable animals in them.",
+        "Persona": [
+            "Zooniverse admin"
+        ],
+        "Action": {
+            "Primary Action": [
+                "automatically detect"
+            ],
+            "Secondary Action": [
+                ""
+            ]
+        },
+        "Entity": {
+            "Primary Entity": [
+                "Snapshot Serengeti images"
+            ],
+            "Secondary Entity": [
+                "no classifiable animals"
+            ]
+        },
+        "Benefit": "",
+        "Triggers": [
+            [
+                "Zooniverse admin",
+                "automatically detect"
+            ]
+        ],
+        "Targets": [
+            [
+                "automatically detect",
+                "Snapshot Serengeti images"
+            ]
+        ],
+        "Contains": [
+            [
+                "Snapshot Serengeti images",
+                "no classifiable animals"
+            ]
+        ]
+    },
+    {
+        "PID": "#G28#",
+        "Text": "#G28# As a Zooniverse admin, I want to perform automatic image series detection for the case of timestamping malfunction in Snapshot Serengeti images.",
+        "Persona": [
+            "Zooniverse admin"
+        ],
+        "Action": {
+            "Primary Action": [
+                "perform"
+            ],
+            "Secondary Action": [
+                ""
+            ]
+        },
+        "Entity": {
+            "Primary Entity": [
+                "automatic image series detection"
+            ],
+            "Secondary Entity": [
+                "timestamping malfunction",
+                "Snapshot Serengeti images",
+                "case"
+            ]
+        },
+        "Benefit": "",
+        "Triggers": [
+            [
+                "Zooniverse admin",
+                "perform"
+            ]
+        ],
+        "Targets": [
+            [
+                "perform",
+                "automatic image series detection"
+            ]
+        ],
+        "Contains": [
+            [
+                "Snapshot Serengeti images",
+                "timestamping malfunction"
+            ],
+            [
+                "case",
+                "timestamping malfunction"
+            ],
+            [
+                "Snapshot Serengeti images",
+                "automatic image series detection"
+            ]
+        ]
+    },
+    {
+        "PID": "#G28#",
+        "Text": "#G28# As a Zooniverse admin, I want to perform automatic animal species preclassification in Snapshot Serengeti.",
+        "Persona": [
+            "Zooniverse admin"
+        ],
+        "Action": {
+            "Primary Action": [
+                "perform"
+            ],
+            "Secondary Action": [
+                ""
+            ]
+        },
+        "Entity": {
+            "Primary Entity": [
+                "automatic animal species preclassification"
+            ],
+            "Secondary Entity": [
+                "Snapshot Serengeti"
+            ]
+        },
+        "Benefit": "",
+        "Triggers": [
+            [
+                "Zooniverse admin",
+                "perform"
+            ]
+        ],
+        "Targets": [
+            [
+                "perform",
+                "automatic animal species preclassification"
+            ]
+        ],
+        "Contains": [
+            [
+                "Snapshot Serengeti",
+                "automatic animal species preclassification"
+            ]
+        ]
+    },
+    {
+        "PID": "#G28#",
+        "Text": "#G28# As a Zooniverse admin, I want to perform automatic animal attribute preclassification in Snapshot Serengeti.",
+        "Persona": [
+            "Zooniverse admin"
+        ],
+        "Action": {
+            "Primary Action": [
+                "perform"
+            ],
+            "Secondary Action": [
+                ""
+            ]
+        },
+        "Entity": {
+            "Primary Entity": [
+                "automatic animal attribute preclassification"
+            ],
+            "Secondary Entity": [
+                "Snapshot Serengeti"
+            ]
+        },
+        "Benefit": "",
+        "Triggers": [
+            [
+                "Zooniverse admin",
+                "perform"
+            ]
+        ],
+        "Targets": [
+            [
+                "perform",
+                "automatic animal attribute preclassification"
+            ]
+        ],
+        "Contains": [
+            [
+                "Snapshot Serengeti",
+                "automatic animal attribute preclassification"
+            ]
+        ]
+    },
+    {
+        "PID": "#G28#",
+        "Text": "#G28# As a Zooniverse admin, I want to perform automatic animal number detection in Snapshot Serengeti.",
+        "Persona": [
+            "Zooniverse admin"
+        ],
+        "Action": {
+            "Primary Action": [
+                "perform"
+            ],
+            "Secondary Action": [
+                ""
+            ]
+        },
+        "Entity": {
+            "Primary Entity": [
+                "automatic animal number detection"
+            ],
+            "Secondary Entity": [
+                "Snapshot Serengeti"
+            ]
+        },
+        "Benefit": "",
+        "Triggers": [
+            [
+                "Zooniverse admin",
+                "perform"
+            ]
+        ],
+        "Targets": [
+            [
+                "perform",
+                "automatic animal number detection"
+            ]
+        ],
+        "Contains": [
+            [
+                "Snapshot Serengeti",
+                "automatic animal number detection"
+            ]
+        ]
+    },
+    {
+        "PID": "#G28#",
+        "Text": "#G28# As a Zooniverse admin, I want to perform automatic segmentation or localization of plankton in Plankton Portal.",
+        "Persona": [
+            "Zooniverse admin"
+        ],
+        "Action": {
+            "Primary Action": [
+                "perform"
+            ],
+            "Secondary Action": [
+                ""
+            ]
+        },
+        "Entity": {
+            "Primary Entity": [
+                "automatic segmentation",
+                "localization"
+            ],
+            "Secondary Entity": [
+                "plankton",
+                "Plankton Portal"
+            ]
+        },
+        "Benefit": "",
+        "Triggers": [
+            [
+                "Zooniverse admin",
+                "perform"
+            ]
+        ],
+        "Targets": [
+            [
+                "perform",
+                "automatic segmentation"
+            ],
+            [
+                "perform",
+                "localization"
+            ]
+        ],
+        "Contains": [
+            [
+                "Plankton Portal",
+                "automatic segmentation"
+            ],
+            [
+                "Plankton Portal",
+                "localization"
+            ],
+            [
+                "localization",
+                "plankton"
+            ],
+            [
+                "automatic segmentation",
+                "plankton"
+            ]
+        ]
+    },
+    {
+        "PID": "#G28#",
+        "Text": "#G28# As a Zooniverse admin, I want to automatically detect Plankton Portal images with no classifiable plankton in them.",
+        "Persona": [
+            "Zooniverse admin"
+        ],
+        "Action": {
+            "Primary Action": [
+                "automatically detect"
+            ],
+            "Secondary Action": [
+                ""
+            ]
+        },
+        "Entity": {
+            "Primary Entity": [
+                "Plankton Portal images"
+            ],
+            "Secondary Entity": [
+                "no classifiable plankton"
+            ]
+        },
+        "Benefit": "",
+        "Triggers": [
+            [
+                "Zooniverse admin",
+                "automatically detect"
+            ]
+        ],
+        "Targets": [
+            [
+                "automatically detect",
+                "Plankton Portal images"
+            ]
+        ],
+        "Contains": [
+            [
+                "Plankton Portal images",
+                "no classifiable plankton"
+            ]
+        ]
+    },
+    {
+        "PID": "#G28#",
+        "Text": "#G28# As a Zooniverse admin, I want to perform automatic detection of plankton size or orientation in Plankton Portal images.",
+        "Persona": [
+            "Zooniverse admin"
+        ],
+        "Action": {
+            "Primary Action": [
+                "perform"
+            ],
+            "Secondary Action": [
+                ""
+            ]
+        },
+        "Entity": {
+            "Primary Entity": [
+                "automatic detection"
+            ],
+            "Secondary Entity": [
+                "plankton size",
+                "orientation",
+                "Plankton Portal images"
+            ]
+        },
+        "Benefit": "",
+        "Triggers": [
+            [
+                "Zooniverse admin",
+                "perform"
+            ]
+        ],
+        "Targets": [
+            [
+                "perform",
+                "automatic detection"
+            ]
+        ],
+        "Contains": [
+            [
+                "Plankton Portal images",
+                "automatic detection"
+            ],
+            [
+                "automatic detection",
+                "plankton size"
+            ],
+            [
+                "automatic detection",
+                "orientation"
+            ]
+        ]
+    },
+    {
+        "PID": "#G28#",
+        "Text": "#G28# As a Zooniverse admin, I want to perform automatic preclassification of plankton species in Plankton Portal images.",
+        "Persona": [
+            "Zooniverse admin"
+        ],
+        "Action": {
+            "Primary Action": [
+                "perform"
+            ],
+            "Secondary Action": [
+                ""
+            ]
+        },
+        "Entity": {
+            "Primary Entity": [
+                "automatic preclassification"
+            ],
+            "Secondary Entity": [
+                "plankton species",
+                "Plankton Portal images"
+            ]
+        },
+        "Benefit": "",
+        "Triggers": [
+            [
+                "Zooniverse admin",
+                "perform"
+            ]
+        ],
+        "Targets": [
+            [
+                "perform",
+                "automatic preclassification"
+            ]
+        ],
+        "Contains": [
+            [
+                "Plankton Portal images",
+                "automatic preclassification"
+            ],
+            [
+                "automatic preclassification",
+                "plankton species"
+            ]
+        ]
+    },
+    {
+        "PID": "#G28#",
+        "Text": "#G28# As a Zooniverse admin, I want to perform automatic worm motion analysis to reduce video duration in Worm Watch Lab.",
+        "Persona": [
+            "Zooniverse admin"
+        ],
+        "Action": {
+            "Primary Action": [
+                "perform"
+            ],
+            "Secondary Action": [
+                "reduce"
+            ]
+        },
+        "Entity": {
+            "Primary Entity": [
+                "automatic worm motion analysis"
+            ],
+            "Secondary Entity": [
+                "video duration",
+                "Worm Watch Lab"
+            ]
+        },
+        "Benefit": "",
+        "Triggers": [
+            [
+                "Zooniverse admin",
+                "perform"
+            ]
+        ],
+        "Targets": [
+            [
+                "perform",
+                "automatic worm motion analysis"
+            ],
+            [
+                "reduce",
+                "video duration"
+            ]
+        ],
+        "Contains": [
+            [
+                "Worm Watch Lab",
+                "automatic worm motion analysis"
+            ]
+        ]
+    },
+    {
+        "PID": "#G28#",
+        "Text": "#G28# As a Zooniverse admin, I want to automatically detect the time in a Worm Watch Lab video where the worm lays an egg.",
+        "Persona": [
+            "Zooniverse admin"
+        ],
+        "Action": {
+            "Primary Action": [
+                "automatically detect"
+            ],
+            "Secondary Action": [
+                "lays"
+            ]
+        },
+        "Entity": {
+            "Primary Entity": [
+                "time"
+            ],
+            "Secondary Entity": [
+                "Worm Watch Lab video",
+                "worm",
+                "egg"
+            ]
+        },
+        "Benefit": "",
+        "Triggers": [
+            [
+                "Zooniverse admin",
+                "automatically detect"
+            ]
+        ],
+        "Targets": [
+            [
+                "automatically detect",
+                "time"
+            ],
+            [
+                "lays",
+                "egg"
+            ]
+        ],
+        "Contains": [
+            [
+                "Worm Watch Lab video",
+                "time"
+            ],
+            [
+                "worm",
+                "egg"
+            ]
+        ]
+    },
+    {
+        "PID": "#G28#",
+        "Text": "#G28# As a Zooniverse admin, I want to detect important features such as areas of flooding, damage, temporary shelters, blocked roads etc in the satellite images.",
+        "Persona": [
+            "Zooniverse admin"
+        ],
+        "Action": {
+            "Primary Action": [
+                "detect"
+            ],
+            "Secondary Action": [
+                ""
+            ]
+        },
+        "Entity": {
+            "Primary Entity": [
+                "important features"
+            ],
+            "Secondary Entity": [
+                "areas",
+                "flooding",
+                "damage",
+                "temporary shelters",
+                "blocked roads",
+                "satellite images"
+            ]
+        },
+        "Benefit": "",
+        "Triggers": [
+            [
+                "Zooniverse admin",
+                "detect"
+            ]
+        ],
+        "Targets": [
+            [
+                "detect",
+                "important features"
+            ]
+        ],
+        "Contains": [
+            [
+                "important features",
+                "areas"
+            ],
+            [
+                "areas",
+                "flooding"
+            ],
+            [
+                "satellite images",
+                "important features"
+            ],
+            [
+                "areas",
+                "damage"
+            ],
+            [
+                "areas",
+                "temporary shelters"
+            ],
+            [
+                "areas",
+                "blocked roads"
+            ]
+        ]
+    },
+    {
+        "PID": "#G28#",
+        "Text": "#G28# As a Zooniverse admin, I want to assess the probability/weight of a volunteer's classification based on their experience.",
+        "Persona": [
+            "Zooniverse admin"
+        ],
+        "Action": {
+            "Primary Action": [
+                "assess"
+            ],
+            "Secondary Action": [
+                ""
+            ]
+        },
+        "Entity": {
+            "Primary Entity": [
+                "probability",
+                "weight"
+            ],
+            "Secondary Entity": [
+                "volunteer's classification",
+                "experience"
+            ]
+        },
+        "Benefit": "",
+        "Triggers": [
+            [
+                "Zooniverse admin",
+                "assess"
+            ]
+        ],
+        "Targets": [
+            [
+                "assess",
+                "probability"
+            ],
+            [
+                "assess",
+                "weight"
+            ]
+        ],
+        "Contains": [
+            [
+                "volunteer's classification",
+                "weight"
+            ],
+            [
+                "volunteer's classification",
+                "probability"
+            ],
+            [
+                "volunteer's classification",
+                "experience"
+            ]
+        ]
+    },
+    {
+        "PID": "#G28#",
+        "Text": "#G28# As a Zooniverse admin, I want to perform prefiltering of the images to remove artefacts such as bright stars and camera read errors.",
+        "Persona": [
+            "Zooniverse admin"
+        ],
+        "Action": {
+            "Primary Action": [
+                "perform"
+            ],
+            "Secondary Action": [
+                "prefiltering",
+                "remove"
+            ]
+        },
+        "Entity": {
+            "Primary Entity": [
+                ""
+            ],
+            "Secondary Entity": [
+                "images",
+                "artefacts",
+                "bright stars",
+                "camera read errors"
+            ]
+        },
+        "Benefit": "",
+        "Triggers": [
+            [
+                "Zooniverse admin",
+                "perform"
+            ]
+        ],
+        "Targets": [
+            [
+                "prefiltering",
+                "images"
+            ],
+            [
+                "remove",
+                "artefacts"
+            ]
+        ],
+        "Contains": [
+            [
+                "artefacts",
+                "bright stars"
+            ],
+            [
+                "artefacts",
+                "camera read errors"
+            ]
+        ]
+    },
+    {
+        "PID": "#G28#",
+        "Text": "#G28# As a Zooniverse admin, I want to detect moving and transient objects in the images.",
+        "Persona": [
+            "Zooniverse admin"
+        ],
+        "Action": {
+            "Primary Action": [
+                "detect"
+            ],
+            "Secondary Action": [
+                ""
+            ]
+        },
+        "Entity": {
+            "Primary Entity": [
+                "moving and transient objects"
+            ],
+            "Secondary Entity": [
+                "images"
+            ]
+        },
+        "Benefit": "",
+        "Triggers": [
+            [
+                "Zooniverse admin",
+                "detect"
+            ]
+        ],
+        "Targets": [
+            [
+                "detect",
+                "moving and transient objects"
+            ]
+        ],
+        "Contains": [
+            [
+                "images",
+                "moving and transient objects"
+            ]
+        ]
+    },
+    {
+        "PID": "#G28#",
+        "Text": "#G28# As a Zooniverse admin, I want to remove background noise and distracting sounds from the audio files.",
+        "Persona": [
+            "Zooniverse admin"
+        ],
+        "Action": {
+            "Primary Action": [
+                "remove"
+            ],
+            "Secondary Action": [
+                ""
+            ]
+        },
+        "Entity": {
+            "Primary Entity": [
+                "background noise",
+                "distracting sounds"
+            ],
+            "Secondary Entity": [
+                "audio files"
+            ]
+        },
+        "Benefit": "",
+        "Triggers": [
+            [
+                "Zooniverse admin",
+                "remove"
+            ]
+        ],
+        "Targets": [
+            [
+                "remove",
+                "background noise"
+            ],
+            [
+                "remove",
+                "distracting sounds"
+            ]
+        ],
+        "Contains": [
+            [
+                "audio files",
+                "background noise"
+            ],
+            [
+                "audio files",
+                "distracting sounds"
+            ]
+        ]
+    },
+    {
+        "PID": "#G28#",
+        "Text": "#G28# As a Zooniverse admin, I want to group whale calls that are similar.",
+        "Persona": [
+            "Zooniverse admin"
+        ],
+        "Action": {
+            "Primary Action": [
+                "group"
+            ],
+            "Secondary Action": [
+                ""
+            ]
+        },
+        "Entity": {
+            "Primary Entity": [
+                "whale calls"
+            ],
+            "Secondary Entity": [
+                ""
+            ]
+        },
+        "Benefit": "",
+        "Triggers": [
+            [
+                "Zooniverse admin",
+                "group"
+            ]
+        ],
+        "Targets": [
+            [
+                "group",
+                "whale calls"
+            ]
+        ],
+        "Contains": []
+    },
+    {
+        "PID": "#G28#",
+        "Text": "#G28# As a Zooniverse admin, I want to identify the number of whales heard in a single audio file.",
+        "Persona": [
+            "Zooniverse admin"
+        ],
+        "Action": {
+            "Primary Action": [
+                "identify"
+            ],
+            "Secondary Action": [
+                ""
+            ]
+        },
+        "Entity": {
+            "Primary Entity": [
+                "number of whales heard"
+            ],
+            "Secondary Entity": [
+                "single audio file"
+            ]
+        },
+        "Benefit": "",
+        "Triggers": [
+            [
+                "Zooniverse admin",
+                "identify"
+            ]
+        ],
+        "Targets": [
+            [
+                "identify",
+                "number of whales heard"
+            ]
+        ],
+        "Contains": [
+            [
+                "single audio file",
+                "number of whales heard"
+            ]
+        ]
+    },
+    {
+        "PID": "#G28#",
+        "Text": "#G28# As a Zooniverse admin, I want to know when I should interrupt a volunteer.",
+        "Persona": [
+            "Zooniverse admin"
+        ],
+        "Action": {
+            "Primary Action": [
+                "know"
+            ],
+            "Secondary Action": [
+                "interrupt"
+            ]
+        },
+        "Entity": {
+            "Primary Entity": [
+                "when"
+            ],
+            "Secondary Entity": [
+                "volunteer"
+            ]
+        },
+        "Benefit": "",
+        "Triggers": [
+            [
+                "Zooniverse admin",
+                "know"
+            ]
+        ],
+        "Targets": [
+            [
+                "know",
+                "when"
+            ],
+            [
+                "interrupt",
+                "volunteer"
+            ]
+        ],
+        "Contains": []
+    },
+    {
+        "PID": "#G28#",
+        "Text": "#G28# As a Zooniverse admin, I want to know whether I should interrupt a volunteer with text, an image, or a video.",
+        "Persona": [
+            "Zooniverse admin"
+        ],
+        "Action": {
+            "Primary Action": [
+                "know"
+            ],
+            "Secondary Action": [
+                "interrupt"
+            ]
+        },
+        "Entity": {
+            "Primary Entity": [
+                ""
+            ],
+            "Secondary Entity": [
+                "volunteer",
+                "text",
+                "image",
+                "video"
+            ]
+        },
+        "Benefit": "",
+        "Triggers": [
+            [
+                "Zooniverse admin",
+                "know"
+            ]
+        ],
+        "Targets": [
+            [
+                "interrupt",
+                "volunteer"
+            ]
+        ],
+        "Contains": [
+            [
+                "volunteer",
+                "text"
+            ],
+            [
+                "volunteer",
+                "image"
+            ],
+            [
+                "volunteer",
+                "video"
+            ]
+        ]
+    },
+    {
+        "PID": "#G28#",
+        "Text": "#G28# As a Zooniverse admin, I want to know when I should educate a volunteer.",
+        "Persona": [
+            "Zooniverse admin"
+        ],
+        "Action": {
+            "Primary Action": [
+                "know"
+            ],
+            "Secondary Action": [
+                "educate"
+            ]
+        },
+        "Entity": {
+            "Primary Entity": [
+                "when"
+            ],
+            "Secondary Entity": [
+                "volunteer"
+            ]
+        },
+        "Benefit": "",
+        "Triggers": [
+            [
+                "Zooniverse admin",
+                "know"
+            ]
+        ],
+        "Targets": [
+            [
+                "know",
+                "when"
+            ],
+            [
+                "educate",
+                "volunteer"
+            ]
+        ],
+        "Contains": []
+    },
+    {
+        "PID": "#G28#",
+        "Text": "#G28# As a Zooniverse admin, I want to know whether I should educate a volunteer with text, an image, or a video.",
+        "Persona": [
+            "Zooniverse admin"
+        ],
+        "Action": {
+            "Primary Action": [
+                "know"
+            ],
+            "Secondary Action": [
+                "educate"
+            ]
+        },
+        "Entity": {
+            "Primary Entity": [
+                ""
+            ],
+            "Secondary Entity": [
+                "volunteer",
+                "text",
+                "image",
+                "video"
+            ]
+        },
+        "Benefit": "",
+        "Triggers": [
+            [
+                "Zooniverse admin",
+                "know"
+            ]
+        ],
+        "Targets": [
+            [
+                "educate",
+                "volunteer"
+            ]
+        ],
+        "Contains": [
+            [
+                "volunteer",
+                "text"
+            ],
+            [
+                "volunteer",
+                "image"
+            ],
+            [
+                "volunteer",
+                "video"
+            ]
+        ]
+    },
+    {
+        "PID": "#G28#",
+        "Text": "#G28# As a Zooniverse admin, I want to know which piece of education I should give to a volunteer.",
+        "Persona": [
+            "Zooniverse admin"
+        ],
+        "Action": {
+            "Primary Action": [
+                "know"
+            ],
+            "Secondary Action": [
+                "give"
+            ]
+        },
+        "Entity": {
+            "Primary Entity": [
+                "piece"
+            ],
+            "Secondary Entity": [
+                "education",
+                "volunteer"
+            ]
+        },
+        "Benefit": "",
+        "Triggers": [
+            [
+                "Zooniverse admin",
+                "know"
+            ]
+        ],
+        "Targets": [
+            [
+                "know",
+                "piece"
+            ],
+            [
+                "give",
+                "piece"
+            ]
+        ],
+        "Contains": [
+            [
+                "piece",
+                "education"
+            ],
+            [
+                "volunteer",
+                "piece"
+            ]
+        ]
+    },
+    {
+        "PID": "#G28#",
+        "Text": "#G28# As a Zooniverse admin, I want to know when a volunteer has made an interesting comment on a subject.",
+        "Persona": [
+            "Zooniverse admin"
+        ],
+        "Action": {
+            "Primary Action": [
+                "know"
+            ],
+            "Secondary Action": [
+                "made"
+            ]
+        },
+        "Entity": {
+            "Primary Entity": [
+                "when"
+            ],
+            "Secondary Entity": [
+                "volunteer",
+                "interesting comment",
+                "subject"
+            ]
+        },
+        "Benefit": "",
+        "Triggers": [
+            [
+                "Zooniverse admin",
+                "know"
+            ]
+        ],
+        "Targets": [
+            [
+                "know",
+                "when"
+            ],
+            [
+                "made",
+                "interesting comment"
+            ]
+        ],
+        "Contains": [
+            [
+                "volunteer",
+                "interesting comment"
+            ],
+            [
+                "subject",
+                "interesting comment"
+            ]
+        ]
+    },
+    {
+        "PID": "#G28#",
+        "Text": "#G28# As a Zooniverse admin, I want to know when Zoonibot should comment on a subject.",
+        "Persona": [
+            "Zooniverse admin"
+        ],
+        "Action": {
+            "Primary Action": [
+                "know"
+            ],
+            "Secondary Action": [
+                "comment"
+            ]
+        },
+        "Entity": {
+            "Primary Entity": [
+                "when"
+            ],
+            "Secondary Entity": [
+                "Zoonibot",
+                "subject"
+            ]
+        },
+        "Benefit": "",
+        "Triggers": [
+            [
+                "Zooniverse admin",
+                "know"
+            ]
+        ],
+        "Targets": [
+            [
+                "know",
+                "when"
+            ],
+            [
+                "comment",
+                "subject"
+            ]
+        ],
+        "Contains": []
+    },
+    {
+        "PID": "#G28#",
+        "Text": "#G28# As a Zooniverse admin, I want to know when Zoonibot should give an explanation.",
+        "Persona": [
+            "Zooniverse admin"
+        ],
+        "Action": {
+            "Primary Action": [
+                "know"
+            ],
+            "Secondary Action": [
+                "give"
+            ]
+        },
+        "Entity": {
+            "Primary Entity": [
+                "when"
+            ],
+            "Secondary Entity": [
+                "Zoonibot",
+                "explanation"
+            ]
+        },
+        "Benefit": "",
+        "Triggers": [
+            [
+                "Zooniverse admin",
+                "know"
+            ]
+        ],
+        "Targets": [
+            [
+                "know",
+                "when"
+            ],
+            [
+                "give",
+                "explanation"
+            ]
+        ],
+        "Contains": [
+            [
+                "Zoonibot",
+                "explanation"
+            ]
+        ]
+    },
+    {
+        "PID": "#G28#",
+        "Text": "#G28# As a Zooniverse admin, I want to know what Zoonibot should say to a volunteer.",
+        "Persona": [
+            "Zooniverse admin"
+        ],
+        "Action": {
+            "Primary Action": [
+                "know"
+            ],
+            "Secondary Action": [
+                "say"
+            ]
+        },
+        "Entity": {
+            "Primary Entity": [
+                "what"
+            ],
+            "Secondary Entity": [
+                "Zoonibot",
+                "volunteer"
+            ]
+        },
+        "Benefit": "",
+        "Triggers": [
+            [
+                "Zooniverse admin",
+                "know"
+            ]
+        ],
+        "Targets": [
+            [
+                "know",
+                "what"
+            ],
+            [
+                "say",
+                "what"
+            ]
+        ],
+        "Contains": []
+    },
+    {
+        "PID": "#G28#",
+        "Text": "#G28# As a Zooniverse admin, I want to group subjects by similarity.",
+        "Persona": [
+            "Zooniverse admin"
+        ],
+        "Action": {
+            "Primary Action": [
+                "group"
+            ],
+            "Secondary Action": [
+                ""
+            ]
+        },
+        "Entity": {
+            "Primary Entity": [
+                "subjects"
+            ],
+            "Secondary Entity": [
+                "similarity"
+            ]
+        },
+        "Benefit": "",
+        "Triggers": [
+            [
+                "Zooniverse admin",
+                "group"
+            ]
+        ],
+        "Targets": [
+            [
+                "group",
+                "subjects"
+            ]
+        ],
+        "Contains": [
+            [
+                "subjects",
+                "similarity"
+            ]
+        ]
+    },
+    {
+        "PID": "#G28#",
+        "Text": "#G28# As a Zooniverse admin, I want to recommend different projects to volunteers based on their previous experiences.",
+        "Persona": [
+            "Zooniverse admin"
+        ],
+        "Action": {
+            "Primary Action": [
+                "recommend"
+            ],
+            "Secondary Action": [
+                ""
+            ]
+        },
+        "Entity": {
+            "Primary Entity": [
+                "different projects"
+            ],
+            "Secondary Entity": [
+                "volunteers",
+                "previous experiences"
+            ]
+        },
+        "Benefit": "",
+        "Triggers": [
+            [
+                "Zooniverse admin",
+                "recommend"
+            ]
+        ],
+        "Targets": [
+            [
+                "recommend",
+                "different projects"
+            ]
+        ],
+        "Contains": [
+            [
+                "volunteers",
+                "previous experiences"
+            ],
+            [
+                "volunteers",
+                "different projects"
+            ]
+        ]
+    },
+    {
+        "PID": "#G28#",
+        "Text": "#G28# As an admin, I want to see a summary of articles, so that I reuse them.",
+        "Persona": [
+            "admin"
+        ],
+        "Action": {
+            "Primary Action": [
+                "see"
+            ],
+            "Secondary Action": [
+                "reuse"
+            ]
+        },
+        "Entity": {
+            "Primary Entity": [
+                "summary"
+            ],
+            "Secondary Entity": [
+                "articles"
+            ]
+        },
+        "Benefit": "I reuse them",
+        "Triggers": [
+            [
+                "admin",
+                "see"
+            ]
+        ],
+        "Targets": [
+            [
+                "see",
+                "summary"
+            ],
+            [
+                "reuse",
+                "articles"
+            ]
+        ],
+        "Contains": [
+            [
+                "articles",
+                "summary"
+            ]
+        ]
+    }
+]

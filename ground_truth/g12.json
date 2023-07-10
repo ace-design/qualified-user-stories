@@ -1,0 +1,2569 @@
+[
+    {
+        "PID": "#G12#",
+        "Text": "#G12# As a camp administrator, I want to be able to add campers, so that I can keep track of each individual camper.",
+        "Persona": [
+            "camp administrator"
+        ],
+        "Action": {
+            "Primary Action": [
+                "add"
+            ],
+            "Secondary Action": [
+                "keep track"
+            ]
+        },
+        "Entity": {
+            "Primary Entity": [
+                "campers"
+            ],
+            "Secondary Entity": [
+                "individual camper"
+            ]
+        },
+        "Benefit": "I can keep track of each individual camper",
+        "Triggers": [
+            [
+                "camp administrator",
+                "add"
+            ]
+        ],
+        "Targets": [
+            [
+                "add",
+                "campers"
+            ],
+            [
+                "keep track",
+                "individual camper"
+            ]
+        ],
+        "Contains": []
+    },
+    {
+        "PID": "#G12#",
+        "Text": "#G12# As a camp administrator, I want to be able to remove campers if they don't attend the camp anymore, so that I can keep the records organized.",
+        "Persona": [
+            "camp administrator"
+        ],
+        "Action": {
+            "Primary Action": [
+                "remove"
+            ],
+            "Secondary Action": [
+                "keep"
+            ]
+        },
+        "Entity": {
+            "Primary Entity": [
+                "campers"
+            ],
+            "Secondary Entity": [
+                "camp",
+                "records organized"
+            ]
+        },
+        "Benefit": "I can keep the records organized",
+        "Triggers": [
+            [
+                "camp administrator",
+                "remove"
+            ]
+        ],
+        "Targets": [
+            [
+                "remove",
+                "campers"
+            ],
+            [
+                "keep",
+                "records organized"
+            ]
+        ],
+        "Contains": [
+            [
+                "camp",
+                "campers"
+            ]
+        ]
+    },
+    {
+        "PID": "#G12#",
+        "Text": "#G12# As a camp administrator, I want to be able to keep camper records from previous years, so that the amount of work I need to do is lowered.",
+        "Persona": [
+            "camp administrator"
+        ],
+        "Action": {
+            "Primary Action": [
+                "keep"
+            ],
+            "Secondary Action": [
+                "lowered"
+            ]
+        },
+        "Entity": {
+            "Primary Entity": [
+                "camper records"
+            ],
+            "Secondary Entity": [
+                "previous years",
+                "amount of work"
+            ]
+        },
+        "Benefit": "the amount of work I need to do is lowered",
+        "Triggers": [
+            [
+                "camp administrator",
+                "keep"
+            ]
+        ],
+        "Targets": [
+            [
+                "keep",
+                "camper records"
+            ],
+            [
+                "lowered",
+                "amount of work"
+            ]
+        ],
+        "Contains": [
+            [
+                "previous years",
+                "camper records"
+            ]
+        ]
+    },
+    {
+        "PID": "#G12#",
+        "Text": "#G12# As a camp administrator, I want to be able to upload consent forms, so that campers or their parents can easily access the forms.",
+        "Persona": [
+            "camp administrator"
+        ],
+        "Action": {
+            "Primary Action": [
+                "upload"
+            ],
+            "Secondary Action": [
+                "easily access"
+            ]
+        },
+        "Entity": {
+            "Primary Entity": [
+                "consent forms"
+            ],
+            "Secondary Entity": [
+                "campers",
+                "parents",
+                "forms"
+            ]
+        },
+        "Benefit": "campers or their parents can easily access the forms",
+        "Triggers": [
+            [
+                "camp administrator",
+                "upload"
+            ]
+        ],
+        "Targets": [
+            [
+                "upload",
+                "consent forms"
+            ],
+            [
+                "easily access",
+                "forms"
+            ]
+        ],
+        "Contains": []
+    },
+    {
+        "PID": "#G12#",
+        "Text": "#G12# As a camp administrator, I want to be able to keep track of which camper submitted which forms, so that legal issues are avoided.",
+        "Persona": [
+            "camp administrator"
+        ],
+        "Action": {
+            "Primary Action": [
+                "keep track"
+            ],
+            "Secondary Action": [
+                "avoided"
+            ]
+        },
+        "Entity": {
+            "Primary Entity": [
+                "forms"
+            ],
+            "Secondary Entity": [
+                "camper",
+                "egal issues"
+            ]
+        },
+        "Benefit": "legal issues are avoided",
+        "Triggers": [
+            [
+                "camp administrator",
+                "keep track"
+            ]
+        ],
+        "Targets": [
+            [
+                "keep track",
+                "forms"
+            ],
+            [
+                "avoided",
+                "egal issues"
+            ]
+        ],
+        "Contains": [
+            [
+                "camper",
+                "forms"
+            ]
+        ]
+    },
+    {
+        "PID": "#G12#",
+        "Text": "#G12# As a camp administrator, I want to be able to schedule activities for campers, so that camp workers can easily keep track of who is where at all times.",
+        "Persona": [
+            "camp administrator"
+        ],
+        "Action": {
+            "Primary Action": [
+                "schedule"
+            ],
+            "Secondary Action": [
+                "easily keep track"
+            ]
+        },
+        "Entity": {
+            "Primary Entity": [
+                "activities"
+            ],
+            "Secondary Entity": [
+                "campers",
+                "camp workers"
+            ]
+        },
+        "Benefit": "camp workers can easily keep track of who is where at all times",
+        "Triggers": [
+            [
+                "camp administrator",
+                "schedule"
+            ]
+        ],
+        "Targets": [
+            [
+                "schedule",
+                "activities"
+            ],
+            [
+                "easily keep track",
+                "campers"
+            ]
+        ],
+        "Contains": []
+    },
+    {
+        "PID": "#G12#",
+        "Text": "#G12# As a camp administrator, I want to be able to automatically create nametags for campers, so that I can lower the amount of work I need to do.",
+        "Persona": [
+            "camp administrator"
+        ],
+        "Action": {
+            "Primary Action": [
+                "automatically create"
+            ],
+            "Secondary Action": [
+                "lower"
+            ]
+        },
+        "Entity": {
+            "Primary Entity": [
+                "nametags"
+            ],
+            "Secondary Entity": [
+                "campers",
+                "amount of work"
+            ]
+        },
+        "Benefit": "I can lower the amount of work I need to do",
+        "Triggers": [
+            [
+                "camp administrator",
+                "automatically create"
+            ]
+        ],
+        "Targets": [
+            [
+                "automatically create",
+                "nametags"
+            ],
+            [
+                "lower",
+                "amount of work"
+            ]
+        ],
+        "Contains": [
+            [
+                "campers",
+                "nametags"
+            ]
+        ]
+    },
+    {
+        "PID": "#G12#",
+        "Text": "#G12# As a camp administrator, I want to be able to suspend a camper who had behavioral problems.",
+        "Persona": [
+            "camp administrator"
+        ],
+        "Action": {
+            "Primary Action": [
+                "suspend"
+            ],
+            "Secondary Action": [
+                ""
+            ]
+        },
+        "Entity": {
+            "Primary Entity": [
+                "camper"
+            ],
+            "Secondary Entity": [
+                "behavioral problems"
+            ]
+        },
+        "Benefit": "",
+        "Triggers": [
+            [
+                "camp administrator",
+                "suspend"
+            ]
+        ],
+        "Targets": [
+            [
+                "suspend",
+                "camper"
+            ]
+        ],
+        "Contains": [
+            [
+                "camper",
+                "behavioral problems"
+            ]
+        ]
+    },
+    {
+        "PID": "#G12#",
+        "Text": "#G12# As a camp administrator, I want to be able to set a reminders related to specific tasks that has to be done.",
+        "Persona": [
+            "camp administrator"
+        ],
+        "Action": {
+            "Primary Action": [
+                "set"
+            ],
+            "Secondary Action": [
+                ""
+            ]
+        },
+        "Entity": {
+            "Primary Entity": [
+                "reminders"
+            ],
+            "Secondary Entity": [
+                "specific tasks"
+            ]
+        },
+        "Benefit": "",
+        "Triggers": [
+            [
+                "camp administrator",
+                "set"
+            ]
+        ],
+        "Targets": [
+            [
+                "set",
+                "reminders"
+            ]
+        ],
+        "Contains": [
+            [
+                "specific tasks",
+                "reminders"
+            ]
+        ]
+    },
+    {
+        "PID": "#G12#",
+        "Text": "#G12# As a camp administrator, I want to be able to assign different positions to the staff members, so that it is possible to organize activities in terms of responsibilities.",
+        "Persona": [
+            "camp administrator"
+        ],
+        "Action": {
+            "Primary Action": [
+                "assign"
+            ],
+            "Secondary Action": [
+                "organize"
+            ]
+        },
+        "Entity": {
+            "Primary Entity": [
+                "different positions"
+            ],
+            "Secondary Entity": [
+                "staff members",
+                "activities",
+                "responsibilities"
+            ]
+        },
+        "Benefit": "it is possible to organize activities in terms of responsibilities",
+        "Triggers": [
+            [
+                "camp administrator",
+                "assign"
+            ]
+        ],
+        "Targets": [
+            [
+                "assign",
+                "different positions"
+            ],
+            [
+                "organize",
+                "activities"
+            ]
+        ],
+        "Contains": [
+            [
+                "staff members",
+                "different positions"
+            ],
+            [
+                "activities",
+                "responsibilities"
+            ]
+        ]
+    },
+    {
+        "PID": "#G12#",
+        "Text": "#G12# As a camp administrator, I want to be able to warn a camp worker who I think did his/her job inappropriate.",
+        "Persona": [
+            "camp administrator"
+        ],
+        "Action": {
+            "Primary Action": [
+                "warn"
+            ],
+            "Secondary Action": [
+                ""
+            ]
+        },
+        "Entity": {
+            "Primary Entity": [
+                "camp worker"
+            ],
+            "Secondary Entity": [
+                "job inappropriate"
+            ]
+        },
+        "Benefit": "",
+        "Triggers": [
+            [
+                "camp administrator",
+                "warn"
+            ]
+        ],
+        "Targets": [
+            [
+                "warn",
+                "camp worker"
+            ]
+        ],
+        "Contains": [
+            [
+                "camp worker",
+                "job inappropriate"
+            ]
+        ]
+    },
+    {
+        "PID": "#G12#",
+        "Text": "#G12# As a camp administrator, I want to be able to create, modify rules that campers and camp workers has to follow.",
+        "Persona": [
+            "camp administrator"
+        ],
+        "Action": {
+            "Primary Action": [
+                "create",
+                "modify"
+            ],
+            "Secondary Action": [
+                "follow"
+            ]
+        },
+        "Entity": {
+            "Primary Entity": [
+                "rules"
+            ],
+            "Secondary Entity": [
+                "campers",
+                "camp workers"
+            ]
+        },
+        "Benefit": "",
+        "Triggers": [
+            [
+                "camp administrator",
+                "create"
+            ],
+            [
+                "camp administrator",
+                "modify"
+            ]
+        ],
+        "Targets": [
+            [
+                "create",
+                "rules"
+            ],
+            [
+                "modify",
+                "rules"
+            ],
+            [
+                "follow",
+                "rules"
+            ]
+        ],
+        "Contains": []
+    },
+    {
+        "PID": "#G12#",
+        "Text": "#G12# As a camp administrator, I want to keep track of the usage of internal camp facilities, so that I don't create conflicting schedules for the different camp groups.",
+        "Persona": [
+            "camp administrator"
+        ],
+        "Action": {
+            "Primary Action": [
+                "keep track"
+            ],
+            "Secondary Action": [
+                ""
+            ]
+        },
+        "Entity": {
+            "Primary Entity": [
+                "usage of internal camp facilities"
+            ],
+            "Secondary Entity": [
+                "conflicting schedules",
+                "different camp groups"
+            ]
+        },
+        "Benefit": "don't create conflicting schedules for the different camp groups",
+        "Triggers": [
+            [
+                "camp administrator",
+                "keep track"
+            ]
+        ],
+        "Targets": [
+            [
+                "keep track",
+                "usage of internal camp facilities"
+            ]
+        ],
+        "Contains": []
+    },
+    {
+        "PID": "#G12#",
+        "Text": "#G12# As a camp administrator, I want to create an avenue so parents can submit feedback and general concerns, so that I can keep improving the services I provide.",
+        "Persona": [
+            "camp administrator"
+        ],
+        "Action": {
+            "Primary Action": [
+                "create"
+            ],
+            "Secondary Action": [
+                "submit",
+                "keep improving",
+                "provide"
+            ]
+        },
+        "Entity": {
+            "Primary Entity": [
+                "avenue"
+            ],
+            "Secondary Entity": [
+                "parents",
+                "feedback",
+                "general concerns",
+                "services"
+            ]
+        },
+        "Benefit": "I can keep improving the services I provide",
+        "Triggers": [
+            [
+                "camp administrator",
+                "create"
+            ]
+        ],
+        "Targets": [
+            [
+                "create",
+                "avenue"
+            ],
+            [
+                "submit",
+                "feedback"
+            ],
+            [
+                "submit",
+                "general concerns"
+            ],
+            [
+                "keep improving",
+                "services"
+            ],
+            [
+                "provide",
+                "services"
+            ]
+        ],
+        "Contains": [
+            [
+                "avenue",
+                "feedback"
+            ],
+            [
+                "avenue",
+                "general concerns"
+            ]
+        ]
+    },
+    {
+        "PID": "#G12#",
+        "Text": "#G12# As a camp administrator, I want to store campers' emergency information in a database, so that I can easily notify the necessary parties in case of an emergency.",
+        "Persona": [
+            "camp administrator"
+        ],
+        "Action": {
+            "Primary Action": [
+                "store"
+            ],
+            "Secondary Action": [
+                "easily notify"
+            ]
+        },
+        "Entity": {
+            "Primary Entity": [
+                "campers' emergency information"
+            ],
+            "Secondary Entity": [
+                "database",
+                "necessary parties",
+                "case of an emergency"
+            ]
+        },
+        "Benefit": "I can easily notify the necessary parties in case of an emergency",
+        "Triggers": [
+            [
+                "camp administrator",
+                "store"
+            ]
+        ],
+        "Targets": [
+            [
+                "store",
+                "campers' emergency information"
+            ],
+            [
+                "easily notify",
+                "necessary parties"
+            ]
+        ],
+        "Contains": [
+            [
+                "database",
+                "campers' emergency information"
+            ]
+        ]
+    },
+    {
+        "PID": "#G12#",
+        "Text": "#G12# As a camp administrator, I want to store camper's immediate parent/guardian's information, so that I can easily call to notify them in case a grossly unacceptable behavior.",
+        "Persona": [
+            "camp administrator"
+        ],
+        "Action": {
+            "Primary Action": [
+                "store"
+            ],
+            "Secondary Action": [
+                "easily call",
+                "notify"
+            ]
+        },
+        "Entity": {
+            "Primary Entity": [
+                "camper's immediate parent/guardian's information"
+            ],
+            "Secondary Entity": [
+                "grossly unacceptable behavior"
+            ]
+        },
+        "Benefit": "I can easily call to notify them in case a grossly unacceptable behavior",
+        "Triggers": [
+            [
+                "camp administrator",
+                "store"
+            ]
+        ],
+        "Targets": [
+            [
+                "store",
+                "camper's immediate parent/guardian's information"
+            ],
+            [
+                "notify",
+                "grossly unacceptable behavior"
+            ]
+        ],
+        "Contains": []
+    },
+    {
+        "PID": "#G12#",
+        "Text": "#G12# As a camp administrator, I want to provide bi-weekly feedback to camper's parents, so that they can be aware of their child's behavior and performance at camp.",
+        "Persona": [
+            "camp administrator"
+        ],
+        "Action": {
+            "Primary Action": [
+                "provide"
+            ],
+            "Secondary Action": [
+                "aware"
+            ]
+        },
+        "Entity": {
+            "Primary Entity": [
+                "bi-weekly feedback"
+            ],
+            "Secondary Entity": [
+                "camper's parents",
+                "child's behavior",
+                "performance",
+                "camp"
+            ]
+        },
+        "Benefit": "they can be aware of their child's behavior and performance at camp",
+        "Triggers": [
+            [
+                "camp administrator",
+                "provide"
+            ]
+        ],
+        "Targets": [
+            [
+                "provide",
+                "bi-weekly feedback"
+            ],
+            [
+                "aware",
+                "child's behavior"
+            ],
+            [
+                "aware",
+                "performance"
+            ]
+        ],
+        "Contains": [
+            [
+                "camper's parents",
+                "bi-weekly feedback"
+            ]
+        ]
+    },
+    {
+        "PID": "#G12#",
+        "Text": "#G12# As a camp administrator, I want to be able to make nametags faster, so that I don't have to spend two hours making 200+ nametags",
+        "Persona": [
+            "camp administrator"
+        ],
+        "Action": {
+            "Primary Action": [
+                "make"
+            ],
+            "Secondary Action": [
+                "making"
+            ]
+        },
+        "Entity": {
+            "Primary Entity": [
+                "nametags"
+            ],
+            "Secondary Entity": [
+                "two hours",
+                "200+ nametags"
+            ]
+        },
+        "Benefit": "I don't have to spend two hours making 200+ nametags",
+        "Triggers": [
+            [
+                "camp administrator",
+                "make"
+            ]
+        ],
+        "Targets": [
+            [
+                "make",
+                "nametags"
+            ],
+            [
+                "making",
+                "200+ nametags"
+            ]
+        ],
+        "Contains": []
+    },
+    {
+        "PID": "#G12#",
+        "Text": "#G12# As a camp administrator, I want to be able to create a registration form for both staff and kids, so that I can keep organized.",
+        "Persona": [
+            "camp administrator"
+        ],
+        "Action": {
+            "Primary Action": [
+                "create"
+            ],
+            "Secondary Action": [
+                "keep organized"
+            ]
+        },
+        "Entity": {
+            "Primary Entity": [
+                "registration form"
+            ],
+            "Secondary Entity": [
+                "staff",
+                "kids"
+            ]
+        },
+        "Benefit": "I can keep organized",
+        "Triggers": [
+            [
+                "camp administrator",
+                "create"
+            ]
+        ],
+        "Targets": [
+            [
+                "create",
+                "registration form"
+            ]
+        ],
+        "Contains": [
+            [
+                "staff",
+                "registration form"
+            ],
+            [
+                "kids",
+                "registration form"
+            ]
+        ]
+    },
+    {
+        "PID": "#G12#",
+        "Text": "#G12# As a camp administrator, I want to be able to keep my information in one place, so that the admins next year can improve on the previous years.",
+        "Persona": [
+            "camp administrator"
+        ],
+        "Action": {
+            "Primary Action": [
+                "keep"
+            ],
+            "Secondary Action": [
+                "improve"
+            ]
+        },
+        "Entity": {
+            "Primary Entity": [
+                "information"
+            ],
+            "Secondary Entity": [
+                "one place",
+                "admins next year",
+                "previous years"
+            ]
+        },
+        "Benefit": "the admins next year can improve on the previous years",
+        "Triggers": [
+            [
+                "camp administrator",
+                "keep"
+            ]
+        ],
+        "Targets": [
+            [
+                "keep",
+                "information"
+            ],
+            [
+                "improve",
+                "previous years"
+            ]
+        ],
+        "Contains": [
+            [
+                "one place",
+                "information"
+            ]
+        ]
+    },
+    {
+        "PID": "#G12#",
+        "Text": "#G12# As a camp administrator, I want to be able to see medical forms, so that we can be prepared for an allergy attack",
+        "Persona": [
+            "camp administrator"
+        ],
+        "Action": {
+            "Primary Action": [
+                "see"
+            ],
+            "Secondary Action": [
+                "be prepared"
+            ]
+        },
+        "Entity": {
+            "Primary Entity": [
+                "medical forms"
+            ],
+            "Secondary Entity": [
+                "allergy attack"
+            ]
+        },
+        "Benefit": "we can be prepared for an allergy attack",
+        "Triggers": [
+            [
+                "camp administrator",
+                "see"
+            ]
+        ],
+        "Targets": [
+            [
+                "see",
+                "medical forms"
+            ],
+            [
+                "be prepared",
+                "allergy attack"
+            ]
+        ],
+        "Contains": []
+    },
+    {
+        "PID": "#G12#",
+        "Text": "#G12# As a camp administrator, I want to be able to notify parents all at once, so that they can be notified of any upcoming events.",
+        "Persona": [
+            "camp administrator"
+        ],
+        "Action": {
+            "Primary Action": [
+                "notify"
+            ],
+            "Secondary Action": [
+                ""
+            ]
+        },
+        "Entity": {
+            "Primary Entity": [
+                "parents",
+                "any upcoming events"
+            ],
+            "Secondary Entity": [
+                ""
+            ]
+        },
+        "Benefit": "they can be notified of any upcoming events",
+        "Triggers": [
+            [
+                "camp administrator",
+                "notify"
+            ]
+        ],
+        "Targets": [
+            [
+                "notify",
+                "parents"
+            ],
+            [
+                "notify",
+                "any upcoming events"
+            ]
+        ],
+        "Contains": []
+    },
+    {
+        "PID": "#G12#",
+        "Text": "#G12# As a camp administrator, I want to be quickly log attendance everyday, so that I can track which kids are coming in.",
+        "Persona": [
+            "camp administrator"
+        ],
+        "Action": {
+            "Primary Action": [
+                "quickly log"
+            ],
+            "Secondary Action": [
+                "track"
+            ]
+        },
+        "Entity": {
+            "Primary Entity": [
+                "attendance"
+            ],
+            "Secondary Entity": [
+                "kids"
+            ]
+        },
+        "Benefit": "I can track which kids are coming in",
+        "Triggers": [
+            [
+                "camp administrator",
+                "quickly log"
+            ]
+        ],
+        "Targets": [
+            [
+                "quickly log",
+                "attendance"
+            ],
+            [
+                "track",
+                "kids"
+            ]
+        ],
+        "Contains": []
+    },
+    {
+        "PID": "#G12#",
+        "Text": "#G12# As a camp administrator, I want to be able to add parents, so that they can enroll their kids at camp.",
+        "Persona": [
+            "camp administrator"
+        ],
+        "Action": {
+            "Primary Action": [
+                "add"
+            ],
+            "Secondary Action": [
+                "enroll"
+            ]
+        },
+        "Entity": {
+            "Primary Entity": [
+                "parents"
+            ],
+            "Secondary Entity": [
+                "kids",
+                "camp"
+            ]
+        },
+        "Benefit": "they can enroll their kids at camp",
+        "Triggers": [
+            [
+                "camp administrator",
+                "add"
+            ]
+        ],
+        "Targets": [
+            [
+                "add",
+                "parents"
+            ],
+            [
+                "enroll",
+                "kids"
+            ]
+        ],
+        "Contains": [
+            [
+                "camp",
+                "kids"
+            ]
+        ]
+    },
+    {
+        "PID": "#G12#",
+        "Text": "#G12# As a camp administrator, I want to be able to create groups and add campers to the groups, so that I can easily organize the campers.",
+        "Persona": [
+            "camp administrator"
+        ],
+        "Action": {
+            "Primary Action": [
+                "create",
+                "add"
+            ],
+            "Secondary Action": [
+                "easily organize"
+            ]
+        },
+        "Entity": {
+            "Primary Entity": [
+                "groups",
+                "campers"
+            ],
+            "Secondary Entity": [
+                "groups",
+                "campers"
+            ]
+        },
+        "Benefit": "I can easily organize the campers",
+        "Triggers": [
+            [
+                "camp administrator",
+                "create"
+            ],
+            [
+                "camp administrator",
+                "add"
+            ]
+        ],
+        "Targets": [
+            [
+                "create",
+                "groups"
+            ],
+            [
+                "add",
+                "campers"
+            ],
+            [
+                "easily organize",
+                "campers"
+            ]
+        ],
+        "Contains": [
+            [
+                "groups",
+                "campers"
+            ]
+        ]
+    },
+    {
+        "PID": "#G12#",
+        "Text": "#G12# As a camp administrator, I want to be able to see all my camp groups and the events scheduled for each camp group, so that I can notify counselor of what their group will be doing for the day.",
+        "Persona": [
+            "camp administrator"
+        ],
+        "Action": {
+            "Primary Action": [
+                "see"
+            ],
+            "Secondary Action": [
+                "notify"
+            ]
+        },
+        "Entity": {
+            "Primary Entity": [
+                "camp groups",
+                "events scheduled"
+            ],
+            "Secondary Entity": [
+                "counselor",
+                "day",
+                "group",
+                "each camp group",
+                "what"
+            ]
+        },
+        "Benefit": "I can notify counselor of what their group will be doing for the day",
+        "Triggers": [
+            [
+                "camp administrator",
+                "see"
+            ]
+        ],
+        "Targets": [
+            [
+                "see",
+                "camp groups"
+            ],
+            [
+                "see",
+                "events scheduled"
+            ],
+            [
+                "notify",
+                "counselor"
+            ]
+        ],
+        "Contains": [
+            [
+                "counselor",
+                "group"
+            ],
+            [
+                "each camp group",
+                "events scheduled"
+            ]
+        ]
+    },
+    {
+        "PID": "#G12#",
+        "Text": "#G12# As a camp administrator, I want to be able to schedule tasks/activities for a specific camp group, so that I can track each groups daily/weekly and monthly activities.",
+        "Persona": [
+            "camp administrator"
+        ],
+        "Action": {
+            "Primary Action": [
+                "schedule"
+            ],
+            "Secondary Action": [
+                "track"
+            ]
+        },
+        "Entity": {
+            "Primary Entity": [
+                "tasks",
+                "activities"
+            ],
+            "Secondary Entity": [
+                "specific camp group",
+                "each groups daily/weekly and monthly activities"
+            ]
+        },
+        "Benefit": "I can track each groups daily/weekly and monthly activities",
+        "Triggers": [
+            [
+                "camp administrator",
+                "schedule"
+            ]
+        ],
+        "Targets": [
+            [
+                "schedule",
+                "tasks"
+            ],
+            [
+                "schedule",
+                "activities"
+            ],
+            [
+                "track",
+                "each groups daily/weekly and monthly activities"
+            ]
+        ],
+        "Contains": [
+            [
+                "specific camp group",
+                "activities"
+            ],
+            [
+                "specific camp group",
+                "tasks"
+            ]
+        ]
+    },
+    {
+        "PID": "#G12#",
+        "Text": "#G12# As a camp administrator, I want to be able to delete tasks/activities I scheduled, so that I can keep the schedule clean of unneeded activities.",
+        "Persona": [
+            "camp administrator"
+        ],
+        "Action": {
+            "Primary Action": [
+                "delete"
+            ],
+            "Secondary Action": [
+                "keep"
+            ]
+        },
+        "Entity": {
+            "Primary Entity": [
+                "tasks",
+                "activities"
+            ],
+            "Secondary Entity": [
+                "schedule",
+                "clean of unneeded activities"
+            ]
+        },
+        "Benefit": "I can keep the schedule clean of unneeded activities",
+        "Triggers": [
+            [
+                "camp administrator",
+                "delete"
+            ]
+        ],
+        "Targets": [
+            [
+                "delete",
+                "tasks"
+            ],
+            [
+                "delete",
+                "activities"
+            ],
+            [
+                "keep",
+                "schedule"
+            ]
+        ],
+        "Contains": [
+            [
+                "schedule",
+                "clean of unneeded activities"
+            ]
+        ]
+    },
+    {
+        "PID": "#G12#",
+        "Text": "#G12# As a camp administrator, I want to be able to modify tasks/events I scheduled in case there is a change, so that I can always keep the schedule up to date.",
+        "Persona": [
+            "camp administrator"
+        ],
+        "Action": {
+            "Primary Action": [
+                "modify"
+            ],
+            "Secondary Action": [
+                "always keep"
+            ]
+        },
+        "Entity": {
+            "Primary Entity": [
+                "tasks",
+                "events"
+            ],
+            "Secondary Entity": [
+                "schedule up to date"
+            ]
+        },
+        "Benefit": "I can always keep the schedule up to date",
+        "Triggers": [
+            [
+                "camp administrator",
+                "modify"
+            ]
+        ],
+        "Targets": [
+            [
+                "modify",
+                "tasks"
+            ],
+            [
+                "modify",
+                "events"
+            ],
+            [
+                "always keep",
+                "schedule up to date"
+            ]
+        ],
+        "Contains": []
+    },
+    {
+        "PID": "#G12#",
+        "Text": "#G12# As a camp administrator, I want to be able to modify the information of enrolled campers, so that I can keep the campers information up to date.",
+        "Persona": [
+            "camp administrator"
+        ],
+        "Action": {
+            "Primary Action": [
+                "modify"
+            ],
+            "Secondary Action": [
+                "keep"
+            ]
+        },
+        "Entity": {
+            "Primary Entity": [
+                "information"
+            ],
+            "Secondary Entity": [
+                "enrolled campers",
+                "campers information up to date"
+            ]
+        },
+        "Benefit": "I can keep the campers information up to date",
+        "Triggers": [
+            [
+                "camp administrator",
+                "modify"
+            ]
+        ],
+        "Targets": [
+            [
+                "modify",
+                "information"
+            ],
+            [
+                "keep",
+                "campers information up to date"
+            ]
+        ],
+        "Contains": [
+            [
+                "enrolled campers",
+                "information"
+            ]
+        ]
+    },
+    {
+        "PID": "#G12#",
+        "Text": "#G12# As a camp administrator, I want to be able to delete campers from the database, so that I can keep my pages free of clutter.",
+        "Persona": [
+            "camp administrator"
+        ],
+        "Action": {
+            "Primary Action": [
+                "delete"
+            ],
+            "Secondary Action": [
+                "keep"
+            ]
+        },
+        "Entity": {
+            "Primary Entity": [
+                "campers"
+            ],
+            "Secondary Entity": [
+                "database",
+                "pages",
+                "free of clutter"
+            ]
+        },
+        "Benefit": "I can keep my pages free of clutter",
+        "Triggers": [
+            [
+                "camp administrator",
+                "delete"
+            ]
+        ],
+        "Targets": [
+            [
+                "delete",
+                "campers"
+            ],
+            [
+                "keep",
+                "pages"
+            ]
+        ],
+        "Contains": [
+            [
+                "database",
+                "campers"
+            ],
+            [
+                "pages",
+                "free of clutter"
+            ]
+        ]
+    },
+    {
+        "PID": "#G12#",
+        "Text": "#G12# As a camp administrator, I want to be able to modify the information of added parents, so that I can keep parent's information up to date.",
+        "Persona": [
+            "camp administrator"
+        ],
+        "Action": {
+            "Primary Action": [
+                "modify"
+            ],
+            "Secondary Action": [
+                "keep"
+            ]
+        },
+        "Entity": {
+            "Primary Entity": [
+                "information"
+            ],
+            "Secondary Entity": [
+                "added parents",
+                "parent's information up to date"
+            ]
+        },
+        "Benefit": "I can keep parent's information up to date",
+        "Triggers": [
+            [
+                "camp administrator",
+                "modify"
+            ]
+        ],
+        "Targets": [
+            [
+                "modify",
+                "information"
+            ],
+            [
+                "keep",
+                "parent's information up to date"
+            ]
+        ],
+        "Contains": [
+            [
+                "added parents",
+                "information"
+            ]
+        ]
+    },
+    {
+        "PID": "#G12#",
+        "Text": "#G12# As a camp administrator, I want to be able to delete parents from the database, so that I can keep my pages free of unneeded clutter.",
+        "Persona": [
+            "camp administrator"
+        ],
+        "Action": {
+            "Primary Action": [
+                "delete"
+            ],
+            "Secondary Action": [
+                "keep"
+            ]
+        },
+        "Entity": {
+            "Primary Entity": [
+                "parents"
+            ],
+            "Secondary Entity": [
+                "database",
+                "pages",
+                "free of unneeded clutter"
+            ]
+        },
+        "Benefit": "I can keep my pages free of unneeded clutter",
+        "Triggers": [
+            [
+                "camp administrator",
+                "delete"
+            ]
+        ],
+        "Targets": [
+            [
+                "delete",
+                "parents"
+            ],
+            [
+                "keep",
+                "pages"
+            ]
+        ],
+        "Contains": [
+            [
+                "database",
+                "parents"
+            ],
+            [
+                "pages",
+                "free of unneeded clutter"
+            ]
+        ]
+    },
+    {
+        "PID": "#G12#",
+        "Text": "#G12# As a camp administrator, I want to be able to modify a group's information, so that I can keep the groups up to date.",
+        "Persona": [
+            "camp administrator"
+        ],
+        "Action": {
+            "Primary Action": [
+                "modify"
+            ],
+            "Secondary Action": [
+                "keep"
+            ]
+        },
+        "Entity": {
+            "Primary Entity": [
+                "group's information"
+            ],
+            "Secondary Entity": [
+                "groups up to date"
+            ]
+        },
+        "Benefit": "I can keep the groups up to date",
+        "Triggers": [
+            [
+                "camp administrator",
+                "modify"
+            ]
+        ],
+        "Targets": [
+            [
+                "modify",
+                "group's information"
+            ],
+            [
+                "keep",
+                "groups up to date"
+            ]
+        ],
+        "Contains": []
+    },
+    {
+        "PID": "#G12#",
+        "Text": "#G12# As a camp administrator, I want to be able to see only events for a specific group/groups on the event calendar, so that I can easily read the data on the calendar without too much clutter.",
+        "Persona": [
+            "camp administrator"
+        ],
+        "Action": {
+            "Primary Action": [
+                "see only"
+            ],
+            "Secondary Action": [
+                "easily read"
+            ]
+        },
+        "Entity": {
+            "Primary Entity": [
+                "events"
+            ],
+            "Secondary Entity": [
+                "event calendar",
+                "specific group",
+                "groups",
+                "data",
+                "calendar"
+            ]
+        },
+        "Benefit": "I can easily read the data on the calendar without too much clutter",
+        "Triggers": [
+            [
+                "camp administrator",
+                "see only"
+            ]
+        ],
+        "Targets": [
+            [
+                "see only",
+                "events"
+            ],
+            [
+                "easily read",
+                "data"
+            ]
+        ],
+        "Contains": [
+            [
+                "events",
+                "specific group"
+            ],
+            [
+                "events",
+                "groups"
+            ],
+            [
+                "event calendar",
+                "events"
+            ],
+            [
+                "calendar",
+                "data"
+            ]
+        ]
+    },
+    {
+        "PID": "#G12#",
+        "Text": "#G12# As a parent, I want to be able to see which consent forms I have submitted, so that I can know what I still need to do.",
+        "Persona": [
+            "parent"
+        ],
+        "Action": {
+            "Primary Action": [
+                "see"
+            ],
+            "Secondary Action": [
+                "know",
+                "do"
+            ]
+        },
+        "Entity": {
+            "Primary Entity": [
+                "consent forms I have submitted"
+            ],
+            "Secondary Entity": [
+                "what"
+            ]
+        },
+        "Benefit": "I can know what I still need to do",
+        "Triggers": [
+            [
+                "parent",
+                "see"
+            ]
+        ],
+        "Targets": [
+            [
+                "see",
+                "consent forms I have submitted"
+            ],
+            [
+                "know",
+                "what"
+            ],
+            [
+                "do",
+                "what"
+            ]
+        ],
+        "Contains": []
+    },
+    {
+        "PID": "#G12#",
+        "Text": "#G12# As a parent, I want to be able to track my child's activity and schedule at camp, so that I can have peace of mind.",
+        "Persona": [
+            "parent"
+        ],
+        "Action": {
+            "Primary Action": [
+                "track"
+            ],
+            "Secondary Action": [
+                "have"
+            ]
+        },
+        "Entity": {
+            "Primary Entity": [
+                "child's activity",
+                "schedule"
+            ],
+            "Secondary Entity": [
+                "camp",
+                "peace of mind"
+            ]
+        },
+        "Benefit": "I can have peace of mind",
+        "Triggers": [
+            [
+                "parent",
+                "track"
+            ]
+        ],
+        "Targets": [
+            [
+                "track",
+                "child's activity"
+            ],
+            [
+                "track",
+                "schedule"
+            ],
+            [
+                "have",
+                "peace of mind"
+            ]
+        ],
+        "Contains": []
+    },
+    {
+        "PID": "#G12#",
+        "Text": "#G12# As a parent, I want to be able to submit various type of forms to the camp management.",
+        "Persona": [
+            "parent"
+        ],
+        "Action": {
+            "Primary Action": [
+                "submit"
+            ],
+            "Secondary Action": [
+                ""
+            ]
+        },
+        "Entity": {
+            "Primary Entity": [
+                "various type of forms"
+            ],
+            "Secondary Entity": [
+                "camp management"
+            ]
+        },
+        "Benefit": "",
+        "Triggers": [
+            [
+                "parent",
+                "submit"
+            ]
+        ],
+        "Targets": [
+            [
+                "submit",
+                "various type of forms"
+            ]
+        ],
+        "Contains": []
+    },
+    {
+        "PID": "#G12#",
+        "Text": "#G12# As a parent, I want to be able to create an account, so that I can sign up my kids for camp online.",
+        "Persona": [
+            "parent"
+        ],
+        "Action": {
+            "Primary Action": [
+                "create"
+            ],
+            "Secondary Action": [
+                "sign up"
+            ]
+        },
+        "Entity": {
+            "Primary Entity": [
+                "account"
+            ],
+            "Secondary Entity": [
+                "kids",
+                "camp"
+            ]
+        },
+        "Benefit": "I can sign up my kids for camp online",
+        "Triggers": [
+            [
+                "parent",
+                "create"
+            ]
+        ],
+        "Targets": [
+            [
+                "create",
+                "account"
+            ],
+            [
+                "sign up",
+                "kids"
+            ]
+        ],
+        "Contains": [
+            [
+                "camp",
+                "kids"
+            ]
+        ]
+    },
+    {
+        "PID": "#G12#",
+        "Text": "#G12# As a parent, I want to see which counselors are assigned to my kids, so that I can have peace of mind.",
+        "Persona": [
+            "parent"
+        ],
+        "Action": {
+            "Primary Action": [
+                "see"
+            ],
+            "Secondary Action": [
+                "have"
+            ]
+        },
+        "Entity": {
+            "Primary Entity": [
+                "counselors"
+            ],
+            "Secondary Entity": [
+                "kids",
+                "peace of mind"
+            ]
+        },
+        "Benefit": "I can have peace of mind",
+        "Triggers": [
+            [
+                "parent",
+                "see"
+            ]
+        ],
+        "Targets": [
+            [
+                "see",
+                "counselors"
+            ],
+            [
+                "have",
+                "peace of mind"
+            ]
+        ],
+        "Contains": [
+            [
+                "counselors",
+                "kids"
+            ]
+        ]
+    },
+    {
+        "PID": "#G12#",
+        "Text": "#G12# As a parent, I want to be able to message my child's counselors, so that I can voice my concerns or check on my child's progress.",
+        "Persona": [
+            "parent"
+        ],
+        "Action": {
+            "Primary Action": [
+                "message"
+            ],
+            "Secondary Action": [
+                "voice",
+                "check"
+            ]
+        },
+        "Entity": {
+            "Primary Entity": [
+                "child's counselors"
+            ],
+            "Secondary Entity": [
+                "concerns",
+                "child's progress"
+            ]
+        },
+        "Benefit": "I can voice my concerns or check on my child's progress",
+        "Triggers": [
+            [
+                "parent",
+                "message"
+            ]
+        ],
+        "Targets": [
+            [
+                "message",
+                "child's counselors"
+            ],
+            [
+                "voice",
+                "concerns"
+            ],
+            [
+                "check",
+                "child's progress"
+            ]
+        ],
+        "Contains": []
+    },
+    {
+        "PID": "#G12#",
+        "Text": "#G12# As a parent, I want to be able to sign and submit consent forms online, so that I don't have to deal with my child losing a consent form.",
+        "Persona": [
+            "parent"
+        ],
+        "Action": {
+            "Primary Action": [
+                "sign",
+                "submit"
+            ],
+            "Secondary Action": [
+                "losing"
+            ]
+        },
+        "Entity": {
+            "Primary Entity": [
+                "consent forms online"
+            ],
+            "Secondary Entity": [
+                "child",
+                "consent form"
+            ]
+        },
+        "Benefit": "I don't have to deal with my child losing a consent form",
+        "Triggers": [
+            [
+                "parent",
+                "sign"
+            ],
+            [
+                "parent",
+                "submit"
+            ]
+        ],
+        "Targets": [
+            [
+                "submit",
+                "consent forms online"
+            ],
+            [
+                "sign",
+                "consent forms online"
+            ],
+            [
+                "losing",
+                "consent form"
+            ]
+        ],
+        "Contains": [
+            [
+                "child",
+                "consent form"
+            ]
+        ]
+    },
+    {
+        "PID": "#G12#",
+        "Text": "#G12# As a parent, I want to be able to see if I made all the necessary payments.",
+        "Persona": [
+            "parent"
+        ],
+        "Action": {
+            "Primary Action": [
+                "see"
+            ],
+            "Secondary Action": [
+                "made"
+            ]
+        },
+        "Entity": {
+            "Primary Entity": [
+                "necessary payments"
+            ],
+            "Secondary Entity": [
+                ""
+            ]
+        },
+        "Benefit": "",
+        "Triggers": [
+            [
+                "parent",
+                "see"
+            ]
+        ],
+        "Targets": [
+            [
+                "see",
+                "necessary payments"
+            ],
+            [
+                "made",
+                "necessary payments"
+            ]
+        ],
+        "Contains": []
+    },
+    {
+        "PID": "#G12#",
+        "Text": "#G12# As a parent, I want to be able to share any photos the camp has taken of my child.",
+        "Persona": [
+            "parent"
+        ],
+        "Action": {
+            "Primary Action": [
+                "share"
+            ],
+            "Secondary Action": [
+                ""
+            ]
+        },
+        "Entity": {
+            "Primary Entity": [
+                "any photos"
+            ],
+            "Secondary Entity": [
+                "camp",
+                "child"
+            ]
+        },
+        "Benefit": "",
+        "Triggers": [
+            [
+                "parent",
+                "share"
+            ]
+        ],
+        "Targets": [
+            [
+                "share",
+                "any photos"
+            ]
+        ],
+        "Contains": [
+            [
+                "camp",
+                "any photos"
+            ],
+            [
+                "any photos",
+                "child"
+            ]
+        ]
+    },
+    {
+        "PID": "#G12#",
+        "Text": "#G12# As a parent, I want to be able to connect with the staff in case of an emergency.",
+        "Persona": [
+            "parent"
+        ],
+        "Action": {
+            "Primary Action": [
+                "connect"
+            ],
+            "Secondary Action": [
+                ""
+            ]
+        },
+        "Entity": {
+            "Primary Entity": [
+                "staff"
+            ],
+            "Secondary Entity": [
+                "case of an emergency"
+            ]
+        },
+        "Benefit": "",
+        "Triggers": [
+            [
+                "parent",
+                "connect"
+            ]
+        ],
+        "Targets": [
+            [
+                "connect",
+                "staff"
+            ]
+        ],
+        "Contains": []
+    },
+    {
+        "PID": "#G12#",
+        "Text": "#G12# As a parent, I want to be able to enroll my children, so that they can be admitted to camp.",
+        "Persona": [
+            "parent"
+        ],
+        "Action": {
+            "Primary Action": [
+                "enroll"
+            ],
+            "Secondary Action": [
+                "admitted"
+            ]
+        },
+        "Entity": {
+            "Primary Entity": [
+                "children"
+            ],
+            "Secondary Entity": [
+                "camp"
+            ]
+        },
+        "Benefit": "they can be admitted to camp",
+        "Triggers": [
+            [
+                "parent",
+                "enroll"
+            ]
+        ],
+        "Targets": [
+            [
+                "enroll",
+                "children"
+            ],
+            [
+                "admitted",
+                "camp"
+            ]
+        ],
+        "Contains": [
+            [
+                "camp",
+                "children"
+            ]
+        ]
+    },
+    {
+        "PID": "#G12#",
+        "Text": "#G12# As a parent, I want to be able to see and edit my enrolled children to the camp year, so that I can know who I already enrolled to camp, who is still pending admission etc.",
+        "Persona": [
+            "parent"
+        ],
+        "Action": {
+            "Primary Action": [
+                "see",
+                "edit"
+            ],
+            "Secondary Action": [
+                "know",
+                "already enrolled",
+                "still pending"
+            ]
+        },
+        "Entity": {
+            "Primary Entity": [
+                "enrolled children"
+            ],
+            "Secondary Entity": [
+                "camp year",
+                "camp",
+                "admission",
+                "who",
+                "who"
+            ]
+        },
+        "Benefit": "I can know who I already enrolled to camp, who is still pending admission etc",
+        "Triggers": [
+            [
+                "parent",
+                "see"
+            ],
+            [
+                "parent",
+                "edit"
+            ]
+        ],
+        "Targets": [
+            [
+                "see",
+                "enrolled children"
+            ],
+            [
+                "edit",
+                "enrolled children"
+            ],
+            [
+                "already enrolled",
+                "camp"
+            ],
+            [
+                "still pending",
+                "admission"
+            ],
+            [
+                "know",
+                "who"
+            ],
+            [
+                "know",
+                "who"
+            ]
+        ],
+        "Contains": []
+    },
+    {
+        "PID": "#G12#",
+        "Text": "#G12# As a parent, I want to be able to see a schedule of the activities my children are involved in at camp, so that I can be more informed as to what they are doing at camp.",
+        "Persona": [
+            "parent"
+        ],
+        "Action": {
+            "Primary Action": [
+                "see"
+            ],
+            "Secondary Action": [
+                "be more informed"
+            ]
+        },
+        "Entity": {
+            "Primary Entity": [
+                "schedule"
+            ],
+            "Secondary Entity": [
+                "activities",
+                "children",
+                "camp",
+                "camp"
+            ]
+        },
+        "Benefit": "I can be more informed as to what they are doing at camp",
+        "Triggers": [
+            [
+                "parent",
+                "see"
+            ]
+        ],
+        "Targets": [
+            [
+                "see",
+                "schedule"
+            ],
+            [
+                "be more informed",
+                "children"
+            ],
+            [
+                "be more informed",
+                "activities"
+            ]
+        ],
+        "Contains": [
+            [
+                "schedule",
+                "activities"
+            ],
+            [
+                "camp",
+                "activities"
+            ],
+            [
+                "camp",
+                "children"
+            ]
+        ]
+    },
+    {
+        "PID": "#G12#",
+        "Text": "#G12# As a camp worker, I want to be able to see which campers I am in charge of and where, so that I can make sure I am doing my job properly.",
+        "Persona": [
+            "camp worker"
+        ],
+        "Action": {
+            "Primary Action": [
+                "see"
+            ],
+            "Secondary Action": [
+                "make sure",
+                "doing"
+            ]
+        },
+        "Entity": {
+            "Primary Entity": [
+                "campers I am in charge of"
+            ],
+            "Secondary Entity": [
+                "job"
+            ]
+        },
+        "Benefit": "I can make sure I am doing my job properly",
+        "Triggers": [
+            [
+                "camp worker",
+                "see"
+            ]
+        ],
+        "Targets": [
+            [
+                "doing",
+                "job"
+            ],
+            [
+                "see",
+                "campers I am in charge of"
+            ]
+        ],
+        "Contains": []
+    },
+    {
+        "PID": "#G12#",
+        "Text": "#G12# As a camp worker, I would be able to submit a completion report for the tasks which was assigned to me.",
+        "Persona": [
+            "camp worker"
+        ],
+        "Action": {
+            "Primary Action": [
+                "submit"
+            ],
+            "Secondary Action": [
+                ""
+            ]
+        },
+        "Entity": {
+            "Primary Entity": [
+                "completion report"
+            ],
+            "Secondary Entity": [
+                "tasks"
+            ]
+        },
+        "Benefit": "",
+        "Triggers": [
+            [
+                "camp worker",
+                "submit"
+            ]
+        ],
+        "Targets": [
+            [
+                "submit",
+                "completion report"
+            ]
+        ],
+        "Contains": [
+            [
+                "tasks",
+                "completion report"
+            ]
+        ]
+    },
+    {
+        "PID": "#G12#",
+        "Text": "#G12# As a camp worker, I'm able to report a camper to the manager with an inappropriate behavior.",
+        "Persona": [
+            "camp worker"
+        ],
+        "Action": {
+            "Primary Action": [
+                "report"
+            ],
+            "Secondary Action": [
+                ""
+            ]
+        },
+        "Entity": {
+            "Primary Entity": [
+                "camper"
+            ],
+            "Secondary Entity": [
+                "manager",
+                "inappropriate behavior"
+            ]
+        },
+        "Benefit": "",
+        "Triggers": [
+            [
+                "camp worker",
+                "report"
+            ]
+        ],
+        "Targets": [
+            [
+                "report",
+                "camper"
+            ]
+        ],
+        "Contains": [
+            [
+                "camper",
+                "inappropriate behavior"
+            ]
+        ]
+    },
+    {
+        "PID": "#G12#",
+        "Text": "#G12# As a camp worker, I'm able to report a list of supplies to the manager that the camp is short of.",
+        "Persona": [
+            "camp worker"
+        ],
+        "Action": {
+            "Primary Action": [
+                "report"
+            ],
+            "Secondary Action": [
+                ""
+            ]
+        },
+        "Entity": {
+            "Primary Entity": [
+                "list"
+            ],
+            "Secondary Entity": [
+                "supplies",
+                "manager",
+                "camp"
+            ]
+        },
+        "Benefit": "",
+        "Triggers": [
+            [
+                "camp worker",
+                "report"
+            ]
+        ],
+        "Targets": [
+            [
+                "report",
+                "list"
+            ]
+        ],
+        "Contains": [
+            [
+                "list",
+                "supplies"
+            ],
+            [
+                "camp",
+                "supplies"
+            ],
+            [
+                "manager",
+                "list"
+            ]
+        ]
+    },
+    {
+        "PID": "#G12#",
+        "Text": "#G12# As a camp worker, I'm able to report necessary repairs to the manager that the camp is needed of.",
+        "Persona": [
+            "camp worker"
+        ],
+        "Action": {
+            "Primary Action": [
+                "report"
+            ],
+            "Secondary Action": [
+                ""
+            ]
+        },
+        "Entity": {
+            "Primary Entity": [
+                "necessary repairs"
+            ],
+            "Secondary Entity": [
+                "camp",
+                "manager"
+            ]
+        },
+        "Benefit": "",
+        "Triggers": [
+            [
+                "camp worker",
+                "report"
+            ]
+        ],
+        "Targets": [
+            [
+                "report",
+                "necessary repairs"
+            ]
+        ],
+        "Contains": [
+            [
+                "camp",
+                "necessary repairs"
+            ]
+        ]
+    },
+    {
+        "PID": "#G12#",
+        "Text": "#G12# As a camp counselor, I want to be able to take attendance of my assigned kids, so that I can make ensure everybody is accounted for.",
+        "Persona": [
+            "camp counselor"
+        ],
+        "Action": {
+            "Primary Action": [
+                "take"
+            ],
+            "Secondary Action": [
+                "ensure",
+                "accounted"
+            ]
+        },
+        "Entity": {
+            "Primary Entity": [
+                "attendance"
+            ],
+            "Secondary Entity": [
+                "assigned kids",
+                "everybody"
+            ]
+        },
+        "Benefit": "I can make ensure everybody is accounted for",
+        "Triggers": [
+            [
+                "camp counselor",
+                "take"
+            ]
+        ],
+        "Targets": [
+            [
+                "take",
+                "attendance"
+            ],
+            [
+                "accounted",
+                "everybody"
+            ]
+        ],
+        "Contains": [
+            [
+                "attendance",
+                "assigned kids"
+            ]
+        ]
+    }
+]

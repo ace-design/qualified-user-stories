@@ -1,0 +1,2903 @@
+[
+    {
+        "PID": "#G05#",
+        "Text": "#G05# As a Data Publishing User, I want to be able to edit a dataset I have published, So that I can correct or enhance existing data.",
+        "Persona": [
+            "Data Publishing User"
+        ],
+        "Action": {
+            "Primary Action": [
+                "edit"
+            ],
+            "Secondary Action": [
+                "correct",
+                "enhance"
+            ]
+        },
+        "Entity": {
+            "Primary Entity": [
+                "dataset I have published"
+            ],
+            "Secondary Entity": [
+                "existing data"
+            ]
+        },
+        "Benefit": "I can correct or enhance existing data",
+        "Triggers": [
+            [
+                "Data Publishing User",
+                "edit"
+            ]
+        ],
+        "Targets": [
+            [
+                "correct",
+                "existing data"
+            ],
+            [
+                "enhance",
+                "existing data"
+            ],
+            [
+                "edit",
+                "dataset I have published"
+            ]
+        ],
+        "Contains": []
+    },
+    {
+        "PID": "#G05#",
+        "Text": "#G05# As a Data Publishing User, I want to be able to edit the model of data I have already imported, So that I can fix bugs or make enhancements in the API built for my data.",
+        "Persona": [
+            "Data Publishing User"
+        ],
+        "Action": {
+            "Primary Action": [
+                "edit"
+            ],
+            "Secondary Action": [
+                "fix",
+                "make"
+            ]
+        },
+        "Entity": {
+            "Primary Entity": [
+                "model"
+            ],
+            "Secondary Entity": [
+                "bugs",
+                "enhancements",
+                "data",
+                "API",
+                "data I have already imported"
+            ]
+        },
+        "Benefit": "I can fix bugs or make enhancements in the API built for my data",
+        "Triggers": [
+            [
+                "Data Publishing User",
+                "edit"
+            ]
+        ],
+        "Targets": [
+            [
+                "fix",
+                "bugs"
+            ],
+            [
+                "make",
+                "enhancements"
+            ],
+            [
+                "edit",
+                "model"
+            ]
+        ],
+        "Contains": [
+            [
+                "API",
+                "enhancements"
+            ],
+            [
+                "data",
+                "API"
+            ],
+            [
+                "data I have already imported",
+                "model"
+            ]
+        ]
+    },
+    {
+        "PID": "#G05#",
+        "Text": "#G05# As a Data Publishing User, I want to be able to delete a dataset I have published, So that I can remove unwanted data from OpenSpending.",
+        "Persona": [
+            "Data Publishing User"
+        ],
+        "Action": {
+            "Primary Action": [
+                "delete"
+            ],
+            "Secondary Action": [
+                "remove"
+            ]
+        },
+        "Entity": {
+            "Primary Entity": [
+                "dataset I have published"
+            ],
+            "Secondary Entity": [
+                "unwanted data",
+                "OpenSpending"
+            ]
+        },
+        "Benefit": "I can remove unwanted data from OpenSpending",
+        "Triggers": [
+            [
+                "Data Publishing User",
+                "delete"
+            ]
+        ],
+        "Targets": [
+            [
+                "remove",
+                "unwanted data"
+            ],
+            [
+                "delete",
+                "dataset I have published"
+            ]
+        ],
+        "Contains": [
+            [
+                "OpenSpending",
+                "unwanted data"
+            ]
+        ]
+    },
+    {
+        "PID": "#G05#",
+        "Text": "#G05# As a Platform Administrator, I want to be able to Hide any dataset already added as Public, So that I can maintain Public/Hidden status for other users.",
+        "Persona": [
+            "Platform Administrator"
+        ],
+        "Action": {
+            "Primary Action": [
+                "Hide"
+            ],
+            "Secondary Action": [
+                "maintain"
+            ]
+        },
+        "Entity": {
+            "Primary Entity": [
+                "any dataset already added"
+            ],
+            "Secondary Entity": [
+                "Public/Hidden status",
+                "other users"
+            ]
+        },
+        "Benefit": "I can maintain Public/Hidden status for other users",
+        "Triggers": [
+            [
+                "Platform Administrator",
+                "Hide"
+            ]
+        ],
+        "Targets": [
+            [
+                "maintain",
+                "Public/Hidden status"
+            ],
+            [
+                "Hide",
+                "any dataset already added"
+            ]
+        ],
+        "Contains": [
+            [
+                "other users",
+                "Public/Hidden status"
+            ]
+        ]
+    },
+    {
+        "PID": "#G05#",
+        "Text": "#G05# As a Platform Administrator, I want to have a view on all datasets published by all users, So that I can perform management actions on any dataset.",
+        "Persona": [
+            "Platform Administrator"
+        ],
+        "Action": {
+            "Primary Action": [
+                "have"
+            ],
+            "Secondary Action": [
+                "perform"
+            ]
+        },
+        "Entity": {
+            "Primary Entity": [
+                "view"
+            ],
+            "Secondary Entity": [
+                "all users",
+                "any dataset",
+                "datasets published",
+                "management actions"
+            ]
+        },
+        "Benefit": "I can perform management actions on any dataset",
+        "Triggers": [
+            [
+                "Platform Administrator",
+                "have"
+            ]
+        ],
+        "Targets": [
+            [
+                "have",
+                "view"
+            ],
+            [
+                "perform",
+                "management actions"
+            ]
+        ],
+        "Contains": [
+            [
+                "any dataset",
+                "management actions"
+            ],
+            [
+                "view",
+                "datasets published"
+            ]
+        ]
+    },
+    {
+        "PID": "#G05#",
+        "Text": "#G05# As a Platform Administrator, I want to be able to delete any dataset published, So that I can deal with takedown requests, or clean up test datasets.",
+        "Persona": [
+            "Platform Administrator"
+        ],
+        "Action": {
+            "Primary Action": [
+                "delete"
+            ],
+            "Secondary Action": [
+                "deal",
+                "clean up"
+            ]
+        },
+        "Entity": {
+            "Primary Entity": [
+                "any dataset published"
+            ],
+            "Secondary Entity": [
+                "takedown requests",
+                "test datasets"
+            ]
+        },
+        "Benefit": "I can deal with takedown requests, or clean up test datasets",
+        "Triggers": [
+            [
+                "Platform Administrator",
+                "delete"
+            ]
+        ],
+        "Targets": [
+            [
+                "delete",
+                "any dataset published"
+            ],
+            [
+                "deal",
+                "takedown requests"
+            ],
+            [
+                "clean up",
+                "test datasets"
+            ]
+        ],
+        "Contains": []
+    },
+    {
+        "PID": "#G05#",
+        "Text": "#G05# As a Data Publishing User, I want to be able to edit the data source of data I have already imported, So that I can fix bugs or make enhancements in the API built for my data.",
+        "Persona": [
+            "Data Publishing User"
+        ],
+        "Action": {
+            "Primary Action": [
+                "edit"
+            ],
+            "Secondary Action": [
+                "fix",
+                "make"
+            ]
+        },
+        "Entity": {
+            "Primary Entity": [
+                "data source"
+            ],
+            "Secondary Entity": [
+                "bugs",
+                "enhancements",
+                "data",
+                "API",
+                "data I have already imported"
+            ]
+        },
+        "Benefit": "I can fix bugs or make enhancements in the API built for my data",
+        "Triggers": [
+            [
+                "Data Publishing User",
+                "edit"
+            ]
+        ],
+        "Targets": [
+            [
+                "edit",
+                "data source"
+            ],
+            [
+                "fix",
+                "bugs"
+            ],
+            [
+                "make",
+                "enhancements"
+            ]
+        ],
+        "Contains": [
+            [
+                "API",
+                "enhancements"
+            ],
+            [
+                "data",
+                "API"
+            ],
+            [
+                "data I have already imported",
+                "data source"
+            ]
+        ]
+    },
+    {
+        "PID": "#G05#",
+        "Text": "#G05# As a Data Publishing User, I want to have the Packager support Constants, So that I can model dimensions that may not exist in the source file.",
+        "Persona": [
+            "Data Publishing User"
+        ],
+        "Action": {
+            "Primary Action": [
+                "have"
+            ],
+            "Secondary Action": [
+                "model"
+            ]
+        },
+        "Entity": {
+            "Primary Entity": [
+                "Packager support Constants"
+            ],
+            "Secondary Entity": [
+                "dimensions",
+                "source file"
+            ]
+        },
+        "Benefit": "I can model dimensions that may not exist in the source file",
+        "Triggers": [
+            [
+                "Data Publishing User",
+                "have"
+            ]
+        ],
+        "Targets": [
+            [
+                "model",
+                "dimensions"
+            ],
+            [
+                "have",
+                "Packager support Constants"
+            ]
+        ],
+        "Contains": [
+            [
+                "source file",
+                "dimensions"
+            ]
+        ]
+    },
+    {
+        "PID": "#G05#",
+        "Text": "#G05# As a Data Publishing User, I want to be able to import data in Excel, So that I do not have to convert data formats in order to use the data packager.",
+        "Persona": [
+            "Data Publishing User"
+        ],
+        "Action": {
+            "Primary Action": [
+                "import"
+            ],
+            "Secondary Action": [
+                "use"
+            ]
+        },
+        "Entity": {
+            "Primary Entity": [
+                "data"
+            ],
+            "Secondary Entity": [
+                "data packager",
+                "Excel",
+                "data formats"
+            ]
+        },
+        "Benefit": "I do not have to convert data formats in order to use the data packager",
+        "Triggers": [
+            [
+                "Data Publishing User",
+                "import"
+            ]
+        ],
+        "Targets": [
+            [
+                "import",
+                "data"
+            ],
+            [
+                "use",
+                "data packager"
+            ]
+        ],
+        "Contains": [
+            [
+                "Excel",
+                "data"
+            ],
+            [
+                "data",
+                "data formats"
+            ]
+        ]
+    },
+    {
+        "PID": "#G05#",
+        "Text": "#G05# As a Data Publishing User, I want to know what my data needs to be able to be visualised on a map, So that I can visualise it on a map.",
+        "Persona": [
+            "Data Publishing User"
+        ],
+        "Action": {
+            "Primary Action": [
+                "know"
+            ],
+            "Secondary Action": [
+                "visualise",
+                "visualised"
+            ]
+        },
+        "Entity": {
+            "Primary Entity": [
+                "what"
+            ],
+            "Secondary Entity": [
+                "map",
+                "map",
+                "data"
+            ]
+        },
+        "Benefit": "I can visualise it on a map",
+        "Triggers": [
+            [
+                "Data Publishing User",
+                "know"
+            ]
+        ],
+        "Targets": [
+            [
+                "visualised",
+                "data"
+            ],
+            [
+                "visualise",
+                "data"
+            ],
+            [
+                "know",
+                "what"
+            ]
+        ],
+        "Contains": [
+            [
+                "map",
+                "data"
+            ],
+            [
+                "map",
+                "data"
+            ]
+        ]
+    },
+    {
+        "PID": "#G05#",
+        "Text": "#G05# As a Data Publishing User, I want to be able to import data in JSON, So that I do not have to convert data formats in order to use the data packager.",
+        "Persona": [
+            "Data Publishing User"
+        ],
+        "Action": {
+            "Primary Action": [
+                "import"
+            ],
+            "Secondary Action": [
+                "use"
+            ]
+        },
+        "Entity": {
+            "Primary Entity": [
+                "data"
+            ],
+            "Secondary Entity": [
+                "JSON",
+                "data formats",
+                "data packager"
+            ]
+        },
+        "Benefit": "I do not have to convert data formats in order to use the data packager",
+        "Triggers": [
+            [
+                "Data Publishing User",
+                "import"
+            ]
+        ],
+        "Targets": [
+            [
+                "import",
+                "data"
+            ],
+            [
+                "use",
+                "data packager"
+            ]
+        ],
+        "Contains": [
+            [
+                "data",
+                "data formats"
+            ],
+            [
+                "JSON",
+                "data"
+            ]
+        ]
+    },
+    {
+        "PID": "#G05#",
+        "Text": "#G05# As a Data Publishing User, I want to be able to import data from a Google Spreadsheet, So that I do not have to convert data formats in order to use the data packager.",
+        "Persona": [
+            "Data Publishing User"
+        ],
+        "Action": {
+            "Primary Action": [
+                "import"
+            ],
+            "Secondary Action": [
+                "use"
+            ]
+        },
+        "Entity": {
+            "Primary Entity": [
+                "data"
+            ],
+            "Secondary Entity": [
+                "Google Spreadsheet",
+                "data formats",
+                "data packager"
+            ]
+        },
+        "Benefit": "I do not have to convert data formats in order to use the data packager",
+        "Triggers": [
+            [
+                "Data Publishing User",
+                "import"
+            ]
+        ],
+        "Targets": [
+            [
+                "import",
+                "data"
+            ],
+            [
+                "use",
+                "data packager"
+            ]
+        ],
+        "Contains": [
+            [
+                "Google Spreadsheet",
+                "data"
+            ],
+            [
+                "data",
+                "data formats"
+            ]
+        ]
+    },
+    {
+        "PID": "#G05#",
+        "Text": "#G05# As a Data Publishing User, I want to be able to import data from Fiscal Data Package descriptor file, So that I do not have to convert data formats in order to use the data packager.",
+        "Persona": [
+            "Data Publishing User"
+        ],
+        "Action": {
+            "Primary Action": [
+                "import"
+            ],
+            "Secondary Action": [
+                "use"
+            ]
+        },
+        "Entity": {
+            "Primary Entity": [
+                "data"
+            ],
+            "Secondary Entity": [
+                "Fiscal Data Package descriptor file",
+                "data formats",
+                "data packager"
+            ]
+        },
+        "Benefit": "I do not have to convert data formats in order to use the data packager",
+        "Triggers": [
+            [
+                "Data Publishing User",
+                "import"
+            ]
+        ],
+        "Targets": [
+            [
+                "import",
+                "data"
+            ],
+            [
+                "use",
+                "data packager"
+            ]
+        ],
+        "Contains": [
+            [
+                "Fiscal Data Package descriptor file",
+                "data"
+            ],
+            [
+                "data",
+                "data formats"
+            ]
+        ]
+    },
+    {
+        "PID": "#G05#",
+        "Text": "#G05# As a Data Publishing User, I want to be able to provide the Platform Administrator with additional GeoJSON sources, So that I can improve the map-based visualisations of my data.",
+        "Persona": [
+            "Data Publishing User"
+        ],
+        "Action": {
+            "Primary Action": [
+                "provide"
+            ],
+            "Secondary Action": [
+                "improve"
+            ]
+        },
+        "Entity": {
+            "Primary Entity": [
+                "Platform Administrator"
+            ],
+            "Secondary Entity": [
+                "additional GeoJSON sources",
+                "map-based visualisations",
+                "data"
+            ]
+        },
+        "Benefit": "I can improve the map-based visualisations of my data",
+        "Triggers": [
+            [
+                "Data Publishing User",
+                "provide"
+            ]
+        ],
+        "Targets": [
+            [
+                "provide",
+                "Platform Administrator"
+            ],
+            [
+                "improve",
+                "map-based visualisations"
+            ]
+        ],
+        "Contains": [
+            [
+                "Platform Administrator",
+                "additional GeoJSON sources"
+            ],
+            [
+                "map-based visualisations",
+                "data"
+            ]
+        ]
+    },
+    {
+        "PID": "#G05#",
+        "Text": "#G05# As a Data Consuming User, I want to be able to filter, sort and aggregate data by multiple dimensions and measures, So that I can get more granular views on the data.",
+        "Persona": [
+            "Data Consuming User"
+        ],
+        "Action": {
+            "Primary Action": [
+                "filter",
+                "sort",
+                "aggregate"
+            ],
+            "Secondary Action": [
+                "get"
+            ]
+        },
+        "Entity": {
+            "Primary Entity": [
+                "data"
+            ],
+            "Secondary Entity": [
+                "multiple dimensions",
+                "data",
+                "measures",
+                "more granular views"
+            ]
+        },
+        "Benefit": "I can get more granular views on the data",
+        "Triggers": [
+            [
+                "Data Consuming User",
+                "filter"
+            ],
+            [
+                "Data Consuming User",
+                "sort"
+            ],
+            [
+                "Data Consuming User",
+                "aggregate"
+            ]
+        ],
+        "Targets": [
+            [
+                "filter",
+                "data"
+            ],
+            [
+                "sort",
+                "data"
+            ],
+            [
+                "aggregate",
+                "data"
+            ],
+            [
+                "get",
+                "more granular views"
+            ]
+        ],
+        "Contains": [
+            [
+                "data",
+                "multiple dimensions"
+            ],
+            [
+                "data",
+                "measures"
+            ],
+            [
+                "data",
+                "more granular views"
+            ]
+        ]
+    },
+    {
+        "PID": "#G05#",
+        "Text": "#G05# As a Data Consuming User, I want to be able to download a CSV of the data that is used in any visualisation I am viewing, So that I can use the data in other tools.",
+        "Persona": [
+            "Data Consuming User"
+        ],
+        "Action": {
+            "Primary Action": [
+                "download"
+            ],
+            "Secondary Action": [
+                "use"
+            ]
+        },
+        "Entity": {
+            "Primary Entity": [
+                "CSV"
+            ],
+            "Secondary Entity": [
+                "data",
+                "data",
+                "other tools",
+                "any visualisation I am viewing"
+            ]
+        },
+        "Benefit": "I can use the data in other tools",
+        "Triggers": [
+            [
+                "Data Consuming User",
+                "download"
+            ]
+        ],
+        "Targets": [
+            [
+                "download",
+                "CSV"
+            ],
+            [
+                "use",
+                "data"
+            ]
+        ],
+        "Contains": [
+            [
+                "other tools",
+                "data"
+            ],
+            [
+                "CSV",
+                "data"
+            ],
+            [
+                "any visualisation I am viewing",
+                "data"
+            ]
+        ]
+    },
+    {
+        "PID": "#G05#",
+        "Text": "#G05# As a Data Consuming User, I want to be able to change the display of all monetary measures across a set of currencies, So that I can understand localised amounts in non-localised figures.",
+        "Persona": [
+            "Data Consuming User"
+        ],
+        "Action": {
+            "Primary Action": [
+                "change"
+            ],
+            "Secondary Action": [
+                "understand"
+            ]
+        },
+        "Entity": {
+            "Primary Entity": [
+                "display"
+            ],
+            "Secondary Entity": [
+                "monetary measures",
+                "set of currencies",
+                "localised amounts",
+                "non-localised figures"
+            ]
+        },
+        "Benefit": "I can understand localised amounts in non-localised figures",
+        "Triggers": [
+            [
+                "Data Consuming User",
+                "change"
+            ]
+        ],
+        "Targets": [
+            [
+                "change",
+                "display"
+            ],
+            [
+                "understand",
+                "localised amounts"
+            ]
+        ],
+        "Contains": [
+            [
+                "monetary measures",
+                "display"
+            ],
+            [
+                "set of currencies",
+                "monetary measures"
+            ],
+            [
+                "non-localised figures",
+                "localised amounts"
+            ]
+        ]
+    },
+    {
+        "PID": "#G05#",
+        "Text": "#G05# As a Data Consuming User, I want to see textual descriptions that accompany embedded visualisations, So that I can more easily understand what I am viewing.",
+        "Persona": [
+            "Data Consuming User"
+        ],
+        "Action": {
+            "Primary Action": [
+                "see"
+            ],
+            "Secondary Action": [
+                "easily understand"
+            ]
+        },
+        "Entity": {
+            "Primary Entity": [
+                "textual descriptions"
+            ],
+            "Secondary Entity": [
+                "embedded visualisations"
+            ]
+        },
+        "Benefit": "I can more easily understand what I am viewing",
+        "Triggers": [
+            [
+                "Data Consuming User",
+                "see "
+            ]
+        ],
+        "Targets": [
+            [
+                "see ",
+                "textual descriptions"
+            ],
+            [
+                "easily understand",
+                "embedded visualisations"
+            ]
+        ],
+        "Contains": [
+            [
+                "embedded visualisations",
+                "textual descriptions"
+            ]
+        ]
+    },
+    {
+        "PID": "#G05#",
+        "Text": "#G05# As a Data Consuming User, I want to be able to share a view state as a URL to social networks, So that I can share data that I have found with others.",
+        "Persona": [
+            "Data Consuming User"
+        ],
+        "Action": {
+            "Primary Action": [
+                "share"
+            ],
+            "Secondary Action": [
+                "share"
+            ]
+        },
+        "Entity": {
+            "Primary Entity": [
+                "view state"
+            ],
+            "Secondary Entity": [
+                "URL",
+                "social networks",
+                "others",
+                "data"
+            ]
+        },
+        "Benefit": "I can share data that I have found with others",
+        "Triggers": [
+            [
+                "Data Consuming User",
+                "share"
+            ]
+        ],
+        "Targets": [
+            [
+                "share",
+                "view state"
+            ],
+            [
+                "share",
+                "data"
+            ]
+        ],
+        "Contains": [
+            [
+                "view state",
+                "URL"
+            ],
+            [
+                "social networks",
+                "view state"
+            ]
+        ]
+    },
+    {
+        "PID": "#G05#",
+        "Text": "#G05# As a Data Consuming User, I want to be able to download an image ofa particular view state, So that I can use it offline.",
+        "Persona": [
+            "Data Consuming User"
+        ],
+        "Action": {
+            "Primary Action": [
+                "download"
+            ],
+            "Secondary Action": [
+                "use"
+            ]
+        },
+        "Entity": {
+            "Primary Entity": [
+                "image"
+            ],
+            "Secondary Entity": [
+                "particular view state"
+            ]
+        },
+        "Benefit": "I can use it offline",
+        "Triggers": [
+            [
+                "Data Consuming User",
+                "download"
+            ]
+        ],
+        "Targets": [
+            [
+                "download",
+                "image"
+            ],
+            [
+                "use",
+                "image"
+            ]
+        ],
+        "Contains": [
+            [
+                "image",
+                "particular view state"
+            ]
+        ]
+    },
+    {
+        "PID": "#G05#",
+        "Text": "#G05# As a Data Consuming User, I want to be able to share an image of a particular view state to the social networks that support this, So that I can provide richer context in those communication channels for data I am sharing.",
+        "Persona": [
+            "Data Consuming User"
+        ],
+        "Action": {
+            "Primary Action": [
+                "share"
+            ],
+            "Secondary Action": [
+                "provide",
+                "support"
+            ]
+        },
+        "Entity": {
+            "Primary Entity": [
+                "image"
+            ],
+            "Secondary Entity": [
+                "richer context",
+                "particular view state",
+                "social networks",
+                "communication channels",
+                "data I am sharing"
+            ]
+        },
+        "Benefit": "I can provide richer context in those communication channels for data I am sharing",
+        "Triggers": [
+            [
+                "Data Consuming User",
+                "share"
+            ]
+        ],
+        "Targets": [
+            [
+                "share",
+                "image"
+            ],
+            [
+                "provide",
+                "richer context"
+            ],
+            [
+                "support",
+                "image"
+            ]
+        ],
+        "Contains": [
+            [
+                "social networks",
+                "image"
+            ],
+            [
+                "image",
+                "particular view state"
+            ],
+            [
+                "communication channels",
+                "richer context"
+            ],
+            [
+                "data I am sharing",
+                "richer context"
+            ]
+        ]
+    },
+    {
+        "PID": "#G05#",
+        "Text": "#G05# As a Data Consuming User, I want to be able to have stepped zoom on map visualisations, So that I can have better control over the navigation experience inside a map view.",
+        "Persona": [
+            "Data Consuming User"
+        ],
+        "Action": {
+            "Primary Action": [
+                "have"
+            ],
+            "Secondary Action": [
+                "have"
+            ]
+        },
+        "Entity": {
+            "Primary Entity": [
+                "stepped zoom"
+            ],
+            "Secondary Entity": [
+                "map visualisations",
+                "better control",
+                "navigation experience",
+                "map view"
+            ]
+        },
+        "Benefit": "I can have better control over the navigation experience inside a map view",
+        "Triggers": [
+            [
+                "Data Consuming User",
+                "have"
+            ]
+        ],
+        "Targets": [
+            [
+                "have",
+                "stepped zoom"
+            ],
+            [
+                "have",
+                "better control"
+            ]
+        ],
+        "Contains": [
+            [
+                "map visualisations",
+                "stepped zoom"
+            ],
+            [
+                "map view",
+                "navigation experience"
+            ],
+            [
+                "navigation experience",
+                "better control"
+            ]
+        ]
+    },
+    {
+        "PID": "#G05#",
+        "Text": "#G05# As a Data Consuming User, I want to have consistent use of colour on map visualisations, So that I can better understand the visual logic of the map view.",
+        "Persona": [
+            "Data Consuming User"
+        ],
+        "Action": {
+            "Primary Action": [
+                "have"
+            ],
+            "Secondary Action": [
+                "better understand"
+            ]
+        },
+        "Entity": {
+            "Primary Entity": [
+                "consistent use"
+            ],
+            "Secondary Entity": [
+                "colour",
+                "map visualisations",
+                "visual logic",
+                "map view"
+            ]
+        },
+        "Benefit": "I can better understand the visual logic of the map view",
+        "Triggers": [
+            [
+                "Data Consuming User",
+                "have"
+            ]
+        ],
+        "Targets": [
+            [
+                "have",
+                "consistent use"
+            ],
+            [
+                "better understand",
+                "visual logic"
+            ]
+        ],
+        "Contains": [
+            [
+                "map visualisations",
+                "colour"
+            ],
+            [
+                "map view",
+                "visual logic"
+            ]
+        ]
+    },
+    {
+        "PID": "#G05#",
+        "Text": "#G05# As a Developer, I want to be able to customise the Brand Name and Icon, and Primary Color of all frontend Javascript apps, So that I can customise the branding for my own needs.",
+        "Persona": [
+            "Developer"
+        ],
+        "Action": {
+            "Primary Action": [
+                "customise"
+            ],
+            "Secondary Action": [
+                "customise"
+            ]
+        },
+        "Entity": {
+            "Primary Entity": [
+                "Brand Name",
+                "Icon",
+                "Primary Color"
+            ],
+            "Secondary Entity": [
+                "frontend Javascript apps",
+                "own needs",
+                "branding"
+            ]
+        },
+        "Benefit": "I can customise the branding for my own needs",
+        "Triggers": [
+            [
+                "Developer",
+                "customise"
+            ]
+        ],
+        "Targets": [
+            [
+                "customise",
+                "Brand Name"
+            ],
+            [
+                "customise",
+                "Icon"
+            ],
+            [
+                "customise",
+                "Primary Color"
+            ],
+            [
+                "customise",
+                "branding"
+            ]
+        ],
+        "Contains": [
+            [
+                "frontend Javascript apps",
+                "Brand Name"
+            ],
+            [
+                "frontend Javascript apps",
+                "Icon"
+            ],
+            [
+                "frontend Javascript apps",
+                "Primary Color"
+            ]
+        ]
+    },
+    {
+        "PID": "#G05#",
+        "Text": "#G05# As an API User, I want to be able to understand if a user is a Publisher, So that I can offer functionality based on Dataset Publisher privileges.",
+        "Persona": [
+            "API User"
+        ],
+        "Action": {
+            "Primary Action": [
+                "understand"
+            ],
+            "Secondary Action": [
+                "offer"
+            ]
+        },
+        "Entity": {
+            "Primary Entity": [
+                "user"
+            ],
+            "Secondary Entity": [
+                "Publisher",
+                "functionality",
+                "Dataset Publisher privileges"
+            ]
+        },
+        "Benefit": "I can offer functionality based on Dataset Publisher privileges",
+        "Triggers": [
+            [
+                "API User",
+                "understand"
+            ]
+        ],
+        "Targets": [
+            [
+                "understand",
+                "user"
+            ],
+            [
+                "offer",
+                "functionality"
+            ]
+        ],
+        "Contains": []
+    },
+    {
+        "PID": "#G05#",
+        "Text": "#G05# As an API User, I want to be able to understand if a user is an Administrator, So that I can offer functionality based on Platform Administration privileges.",
+        "Persona": [
+            "API User"
+        ],
+        "Action": {
+            "Primary Action": [
+                "understand"
+            ],
+            "Secondary Action": [
+                "offer"
+            ]
+        },
+        "Entity": {
+            "Primary Entity": [
+                "user"
+            ],
+            "Secondary Entity": [
+                "Administrator",
+                "functionality",
+                "Platform Administration privileges"
+            ]
+        },
+        "Benefit": "I can offer functionality based on Platform Administration privileges",
+        "Triggers": [
+            [
+                "API User",
+                "understand"
+            ]
+        ],
+        "Targets": [
+            [
+                "offer",
+                "functionality"
+            ],
+            [
+                "understand",
+                "user"
+            ]
+        ],
+        "Contains": []
+    },
+    {
+        "PID": "#G05#",
+        "Text": "#G05# As an API User, I want to be able to get bordering regions|cities when I query a region|city, So that I can provider wider visual context for mapping visualisations.",
+        "Persona": [
+            "API User"
+        ],
+        "Action": {
+            "Primary Action": [
+                "get"
+            ],
+            "Secondary Action": [
+                "query",
+                "provider"
+            ]
+        },
+        "Entity": {
+            "Primary Entity": [
+                "cities",
+                "bordering regions"
+            ],
+            "Secondary Entity": [
+                "region",
+                "city,",
+                "wider visual context",
+                "mapping visualisations"
+            ]
+        },
+        "Benefit": "I can provider wider visual context for mapping visualisations",
+        "Triggers": [
+            [
+                "API User",
+                "get"
+            ]
+        ],
+        "Targets": [
+            [
+                "provider",
+                "wider visual context"
+            ],
+            [
+                "get",
+                "cities"
+            ],
+            [
+                "query",
+                "city,"
+            ],
+            [
+                "get",
+                "bordering regions"
+            ],
+            [
+                "query",
+                "region"
+            ]
+        ],
+        "Contains": [
+            [
+                "mapping visualisations",
+                "wider visual context"
+            ]
+        ]
+    },
+    {
+        "PID": "#G05#",
+        "Text": "#G05# As an API User, I want to be able to dynamically request polygons based on the query made, So that I can provide maps that match the query.",
+        "Persona": [
+            "API User"
+        ],
+        "Action": {
+            "Primary Action": [
+                "dynamically request"
+            ],
+            "Secondary Action": [
+                "provide"
+            ]
+        },
+        "Entity": {
+            "Primary Entity": [
+                "polygons"
+            ],
+            "Secondary Entity": [
+                "query",
+                "maps",
+                "query"
+            ]
+        },
+        "Benefit": "I can provide maps that match the query",
+        "Triggers": [
+            [
+                "API User",
+                "dynamically request"
+            ]
+        ],
+        "Targets": [
+            [
+                "dynamically request",
+                "polygons"
+            ],
+            [
+                "provide",
+                "maps"
+            ]
+        ],
+        "Contains": []
+    },
+    {
+        "PID": "#G05#",
+        "Text": "#G05# As an API User, I want to have a flexible API using HASC codes for countries, regions and cities, So that I can visualise budget data on maps.",
+        "Persona": [
+            "API User"
+        ],
+        "Action": {
+            "Primary Action": [
+                "have"
+            ],
+            "Secondary Action": [
+                "visualise",
+                "using"
+            ]
+        },
+        "Entity": {
+            "Primary Entity": [
+                "flexible API"
+            ],
+            "Secondary Entity": [
+                "HASC codes",
+                "countries",
+                "regions",
+                "cities",
+                "budget data",
+                "maps"
+            ]
+        },
+        "Benefit": "I can visualise budget data on maps",
+        "Triggers": [
+            [
+                "API User",
+                "have"
+            ]
+        ],
+        "Targets": [
+            [
+                "have",
+                "flexible API"
+            ],
+            [
+                "visualise",
+                "budget data"
+            ],
+            [
+                "using",
+                "HASC codes"
+            ]
+        ],
+        "Contains": [
+            [
+                "maps",
+                "budget data"
+            ],
+            [
+                "cities",
+                "HASC codes"
+            ],
+            [
+                "regions",
+                "HASC codes"
+            ],
+            [
+                "countries",
+                "HASC codes"
+            ],
+            [
+                "flexible API",
+                "HASC codes"
+            ]
+        ]
+    },
+    {
+        "PID": "#G05#",
+        "Text": "#G05# As an API User, I want to be able to get a CSV output of any cube-based query, So that I can use work with tools that read CSV.",
+        "Persona": [
+            "API User"
+        ],
+        "Action": {
+            "Primary Action": [
+                "get"
+            ],
+            "Secondary Action": [
+                "use",
+                "read"
+            ]
+        },
+        "Entity": {
+            "Primary Entity": [
+                "CSV output"
+            ],
+            "Secondary Entity": [
+                "any cube-based query",
+                "work",
+                "tools",
+                "CSV"
+            ]
+        },
+        "Benefit": "I can use work with tools that read CSV",
+        "Triggers": [
+            [
+                "API User",
+                "get"
+            ]
+        ],
+        "Targets": [
+            [
+                "get",
+                "CSV output"
+            ],
+            [
+                "use",
+                "work"
+            ],
+            [
+                "read",
+                "CSV"
+            ]
+        ],
+        "Contains": [
+            [
+                "work",
+                "tools"
+            ],
+            [
+                "any cube-based query",
+                "CSV output"
+            ]
+        ]
+    },
+    {
+        "PID": "#G05#",
+        "Text": "#G05# As an API User, I want to be able to get a set of monetary measures transferred to different currencies, So that I can use this in scenarios that might enable comparison by normalisation.",
+        "Persona": [
+            "API User"
+        ],
+        "Action": {
+            "Primary Action": [
+                "get"
+            ],
+            "Secondary Action": [
+                "use",
+                "transferred",
+                "enable"
+            ]
+        },
+        "Entity": {
+            "Primary Entity": [
+                "set of monetary measures"
+            ],
+            "Secondary Entity": [
+                "different currencies",
+                "scenarios",
+                "comparison by normalisation"
+            ]
+        },
+        "Benefit": "I can use this in scenarios that might enable comparison by normalisation",
+        "Triggers": [
+            [
+                "API User",
+                "get"
+            ]
+        ],
+        "Targets": [
+            [
+                "get",
+                "set of monetary measures"
+            ],
+            [
+                "use",
+                "different currencies"
+            ],
+            [
+                "transferred",
+                "different currencies"
+            ],
+            [
+                "enable",
+                "comparison by normalisation"
+            ]
+        ],
+        "Contains": [
+            [
+                "scenarios",
+                "different currencies"
+            ]
+        ]
+    },
+    {
+        "PID": "#G05#",
+        "Text": "#G05# As an API User, I want to be able to use metadata to get results from multiple datasets, So that I can build user experiences based on more than one dataset more easily.",
+        "Persona": [
+            "API User"
+        ],
+        "Action": {
+            "Primary Action": [
+                "use"
+            ],
+            "Secondary Action": [
+                "get",
+                "build"
+            ]
+        },
+        "Entity": {
+            "Primary Entity": [
+                "metadata"
+            ],
+            "Secondary Entity": [
+                "results",
+                "multiple datasets",
+                "user experiences",
+                "more than one dataset"
+            ]
+        },
+        "Benefit": "I can build user experiences based on more than one dataset more easily",
+        "Triggers": [
+            [
+                "API User",
+                "use"
+            ]
+        ],
+        "Targets": [
+            [
+                "use",
+                "metadata"
+            ],
+            [
+                "get",
+                "results"
+            ],
+            [
+                "build",
+                "user experiences"
+            ]
+        ],
+        "Contains": [
+            [
+                "multiple datasets",
+                "results"
+            ]
+        ]
+    },
+    {
+        "PID": "#G05#",
+        "Text": "#G05# As an API User, I want to be able to use data to get results from multiple datasets, So that I can build user experiences based on more than one dataset more easily.",
+        "Persona": [
+            "API User"
+        ],
+        "Action": {
+            "Primary Action": [
+                "use"
+            ],
+            "Secondary Action": [
+                "build",
+                "get"
+            ]
+        },
+        "Entity": {
+            "Primary Entity": [
+                "data"
+            ],
+            "Secondary Entity": [
+                "multiple datasets",
+                "results",
+                "user experiences",
+                "more than one dataset"
+            ]
+        },
+        "Benefit": "I can build user experiences based on more than one dataset more easily",
+        "Triggers": [
+            [
+                "API User",
+                "use"
+            ]
+        ],
+        "Targets": [
+            [
+                "get",
+                "results"
+            ],
+            [
+                "use",
+                "data"
+            ],
+            [
+                "build",
+                "user experiences"
+            ]
+        ],
+        "Contains": [
+            [
+                "multiple datasets",
+                "results"
+            ]
+        ]
+    },
+    {
+        "PID": "#G05#",
+        "Text": "#G05# As an API User, I want to be able to normalise measures by population, So that I work with datasets in reference to their contextual constraints.",
+        "Persona": [
+            "API User"
+        ],
+        "Action": {
+            "Primary Action": [
+                "normalise"
+            ],
+            "Secondary Action": [
+                "work"
+            ]
+        },
+        "Entity": {
+            "Primary Entity": [
+                "measures"
+            ],
+            "Secondary Entity": [
+                "population",
+                "datasets",
+                "contextual constraints"
+            ]
+        },
+        "Benefit": "I work with datasets in reference to their contextual constraints",
+        "Triggers": [
+            [
+                "API User",
+                "normalise"
+            ]
+        ],
+        "Targets": [
+            [
+                "normalise",
+                "measures"
+            ],
+            [
+                "work",
+                "datasets"
+            ]
+        ],
+        "Contains": [
+            [
+                "datasets",
+                "contextual constraints"
+            ],
+            [
+                "measures",
+                "population"
+            ]
+        ]
+    },
+    {
+        "PID": "#G05#",
+        "Text": "#G05# As an API User, I want to be able to normalise measures by geographical area, So that I work with datasets in reference to their contextual constraints.",
+        "Persona": [
+            "API User"
+        ],
+        "Action": {
+            "Primary Action": [
+                "normalise"
+            ],
+            "Secondary Action": [
+                "work"
+            ]
+        },
+        "Entity": {
+            "Primary Entity": [
+                "measures"
+            ],
+            "Secondary Entity": [
+                "geographical area",
+                "datasets",
+                "contextual constraints"
+            ]
+        },
+        "Benefit": "I work with datasets in reference to their contextual constraints",
+        "Triggers": [
+            [
+                "API User",
+                "normalise"
+            ]
+        ],
+        "Targets": [
+            [
+                "work",
+                "datasets"
+            ],
+            [
+                "normalise",
+                "measures"
+            ]
+        ],
+        "Contains": [
+            [
+                "measures",
+                "geographical area"
+            ],
+            [
+                "datasets",
+                "contextual constraints"
+            ]
+        ]
+    },
+    {
+        "PID": "#G05#",
+        "Text": "#G05# As an API User, I want to be able to normalise measures by GDP, so I work with datasets in reference to their contextual constraints.",
+        "Persona": [
+            "API User"
+        ],
+        "Action": {
+            "Primary Action": [
+                "normalise"
+            ],
+            "Secondary Action": [
+                "work"
+            ]
+        },
+        "Entity": {
+            "Primary Entity": [
+                "measures"
+            ],
+            "Secondary Entity": [
+                "GDP",
+                "datasets",
+                "contextual constraints"
+            ]
+        },
+        "Benefit": "I work with datasets in reference to their contextual constraints",
+        "Triggers": [
+            [
+                "API User",
+                "normalise"
+            ]
+        ],
+        "Targets": [
+            [
+                "normalise",
+                "measures"
+            ],
+            [
+                "work",
+                "datasets"
+            ]
+        ],
+        "Contains": [
+            [
+                "datasets",
+                "contextual constraints"
+            ],
+            [
+                "measures",
+                "GDP"
+            ]
+        ]
+    },
+    {
+        "PID": "#G05#",
+        "Text": "#G05# As an API User, I want to be able to normalise measures by GINI and related socioeconomic indexes, So that I work with datasets in reference to their contextual constraints.",
+        "Persona": [
+            "API User"
+        ],
+        "Action": {
+            "Primary Action": [
+                "normalise"
+            ],
+            "Secondary Action": [
+                "work"
+            ]
+        },
+        "Entity": {
+            "Primary Entity": [
+                "measures"
+            ],
+            "Secondary Entity": [
+                "GINI",
+                "related socioeconomic indexes",
+                "datasets",
+                "contextual constraints"
+            ]
+        },
+        "Benefit": "I work with datasets in reference to their contextual constraints",
+        "Triggers": [
+            [
+                "API User",
+                "normalise"
+            ]
+        ],
+        "Targets": [
+            [
+                "normalise",
+                "measures"
+            ],
+            [
+                "work",
+                "datasets"
+            ]
+        ],
+        "Contains": [
+            [
+                "datasets",
+                "contextual constraints"
+            ],
+            [
+                "GINI",
+                "measures"
+            ],
+            [
+                "related socioeconomic indexes",
+                "measures"
+            ]
+        ]
+    },
+    {
+        "PID": "#G05#",
+        "Text": "#G05# As an API User, I want to be able to get a relative percentage of a measure to the total of the dataset it comes from, So that I can build alternative displays of the data.",
+        "Persona": [
+            "API User"
+        ],
+        "Action": {
+            "Primary Action": [
+                "get"
+            ],
+            "Secondary Action": [
+                "build"
+            ]
+        },
+        "Entity": {
+            "Primary Entity": [
+                "relative percentage"
+            ],
+            "Secondary Entity": [
+                "total of the dataset",
+                "alternative displays",
+                "data",
+                "measure"
+            ]
+        },
+        "Benefit": "I can build alternative displays of the data",
+        "Triggers": [
+            [
+                "API User",
+                "get"
+            ]
+        ],
+        "Targets": [
+            [
+                "build",
+                "alternative displays"
+            ],
+            [
+                "get",
+                "relative percentage"
+            ]
+        ],
+        "Contains": [
+            [
+                "data",
+                "alternative displays"
+            ],
+            [
+                "measure",
+                "relative percentage"
+            ],
+            [
+                "total of the dataset",
+                "measure"
+            ]
+        ]
+    },
+    {
+        "PID": "#G05#",
+        "Text": "#G05# As an API User, I want to be able to persistently store visualisation state in the database, So that such can be shared more easily and contribute to a visualisation gallery.",
+        "Persona": [
+            "API User"
+        ],
+        "Action": {
+            "Primary Action": [
+                "persistently store"
+            ],
+            "Secondary Action": [
+                "shared more easily",
+                "contribute"
+            ]
+        },
+        "Entity": {
+            "Primary Entity": [
+                "visualisation state"
+            ],
+            "Secondary Entity": [
+                "database",
+                "visualisation gallery"
+            ]
+        },
+        "Benefit": "such can be shared more easily and contribute to a visualisation gallery",
+        "Triggers": [
+            [
+                "API User",
+                "persistently store"
+            ]
+        ],
+        "Targets": [
+            [
+                "shared more easily",
+                "visualisation state"
+            ],
+            [
+                "contribute",
+                "visualisation gallery"
+            ],
+            [
+                "persistently store",
+                "visualisation state"
+            ]
+        ],
+        "Contains": [
+            [
+                "database",
+                "visualisation state"
+            ]
+        ]
+    },
+    {
+        "PID": "#G05#",
+        "Text": "#G05# As a Data Publishing User, I want to have my dataset update automatically as the source file/files changes, So that OpenSpending always shows current data.",
+        "Persona": [
+            "Data Publishing User"
+        ],
+        "Action": {
+            "Primary Action": [
+                "have"
+            ],
+            "Secondary Action": [
+                "update automatically",
+                "always shows"
+            ]
+        },
+        "Entity": {
+            "Primary Entity": [
+                "dataset"
+            ],
+            "Secondary Entity": [
+                "source file/files",
+                "OpenSpending",
+                "current data"
+            ]
+        },
+        "Benefit": "OpenSpending always shows current data",
+        "Triggers": [
+            [
+                "Data Publishing User",
+                "have"
+            ]
+        ],
+        "Targets": [
+            [
+                "always shows",
+                "current data"
+            ],
+            [
+                "update automatically",
+                "dataset"
+            ],
+            [
+                "have",
+                "dataset"
+            ]
+        ],
+        "Contains": [
+            [
+                "OpenSpending",
+                "dataset"
+            ],
+            [
+                "dataset",
+                "current data"
+            ]
+        ]
+    },
+    {
+        "PID": "#G05#",
+        "Text": "#G05# As an OpenSpending Community Member, I want to have a blog that highlights any and all projects in the open fiscal space, So that I can relate to openspending.org as the central hub of fiscal openness.",
+        "Persona": [
+            "OpenSpending Community Member"
+        ],
+        "Action": {
+            "Primary Action": [
+                "have"
+            ],
+            "Secondary Action": [
+                "highlights",
+                "relate"
+            ]
+        },
+        "Entity": {
+            "Primary Entity": [
+                "blog"
+            ],
+            "Secondary Entity": [
+                "any and all projects",
+                "open fiscal space",
+                "openspending.org",
+                "central hub",
+                "fiscal openness"
+            ]
+        },
+        "Benefit": "I can relate to openspending.org as the central hub of fiscal openness",
+        "Triggers": [
+            [
+                "OpenSpending Community Member",
+                "have"
+            ]
+        ],
+        "Targets": [
+            [
+                "have",
+                "blog"
+            ],
+            [
+                "highlights",
+                "any and all projects"
+            ],
+            [
+                "relate",
+                "openspending.org"
+            ]
+        ],
+        "Contains": [
+            [
+                "blog",
+                "any and all projects"
+            ],
+            [
+                "open fiscal space",
+                "any and all projects"
+            ],
+            [
+                "central hub",
+                "fiscal openness"
+            ]
+        ]
+    },
+    {
+        "PID": "#G05#",
+        "Text": "#G05# As a User, I want to be able to set my own username, So that my data is more easily discoverable.",
+        "Persona": [
+            "User"
+        ],
+        "Action": {
+            "Primary Action": [
+                "set"
+            ],
+            "Secondary Action": [
+                ""
+            ]
+        },
+        "Entity": {
+            "Primary Entity": [
+                "own username"
+            ],
+            "Secondary Entity": [
+                "data"
+            ]
+        },
+        "Benefit": "my data is more easily discoverable",
+        "Triggers": [
+            [
+                "User",
+                "set"
+            ]
+        ],
+        "Targets": [
+            [
+                "set",
+                "own username"
+            ]
+        ],
+        "Contains": [
+            [
+                "own username",
+                "data"
+            ]
+        ]
+    },
+    {
+        "PID": "#G05#",
+        "Text": "#G05# As a Data Publishing User, I want to be able to add a dataset in a Hidden state, So that I can work on a dataset before having it discoverable via OpenSpending user interfaces.",
+        "Persona": [
+            "Data Publishing User"
+        ],
+        "Action": {
+            "Primary Action": [
+                "add"
+            ],
+            "Secondary Action": [
+                "work"
+            ]
+        },
+        "Entity": {
+            "Primary Entity": [
+                "dataset"
+            ],
+            "Secondary Entity": [
+                "Hidden state",
+                "dataset",
+                "OpenSpending user interfaces"
+            ]
+        },
+        "Benefit": "I can work on a dataset before having it discoverable via OpenSpending user interfaces",
+        "Triggers": [
+            [
+                "Data Publishing User",
+                "add"
+            ]
+        ],
+        "Targets": [
+            [
+                "work",
+                "dataset"
+            ],
+            [
+                "add",
+                "dataset"
+            ]
+        ],
+        "Contains": [
+            [
+                "dataset",
+                "Hidden state"
+            ],
+            [
+                "OpenSpending user interfaces",
+                "dataset"
+            ]
+        ]
+    },
+    {
+        "PID": "#G05#",
+        "Text": "#G05# As a Data Publishing User, I want to be able to Hide a dataset that I have already added as Public, So that I can fix my mistakes or have a dataset primarily for my own use.",
+        "Persona": [
+            "Data Publishing User"
+        ],
+        "Action": {
+            "Primary Action": [
+                "Hide"
+            ],
+            "Secondary Action": [
+                "fix",
+                "have"
+            ]
+        },
+        "Entity": {
+            "Primary Entity": [
+                "dataset"
+            ],
+            "Secondary Entity": [
+                "mistakes",
+                "dataset"
+            ]
+        },
+        "Benefit": "I can fix my mistakes or have a dataset primarily for my own use",
+        "Triggers": [
+            [
+                "Data Publishing User",
+                "Hide"
+            ]
+        ],
+        "Targets": [
+            [
+                "Hide",
+                "dataset"
+            ],
+            [
+                "fix",
+                "mistakes"
+            ],
+            [
+                "have",
+                "dataset"
+            ]
+        ],
+        "Contains": []
+    },
+    {
+        "PID": "#G05#",
+        "Text": "#G05# As a Data Publishing User, I want to have a view on all the datasets I have published, So that I can perform management actions on my own datasets.",
+        "Persona": [
+            "Data Publishing User"
+        ],
+        "Action": {
+            "Primary Action": [
+                "have"
+            ],
+            "Secondary Action": [
+                "perform"
+            ]
+        },
+        "Entity": {
+            "Primary Entity": [
+                "view"
+            ],
+            "Secondary Entity": [
+                "management actions",
+                "own datasets",
+                "datasets I have published"
+            ]
+        },
+        "Benefit": "I can perform management actions on my own datasets",
+        "Triggers": [
+            [
+                "Data Publishing User",
+                "have"
+            ]
+        ],
+        "Targets": [
+            [
+                "perform",
+                "management actions"
+            ],
+            [
+                "have",
+                "view"
+            ]
+        ],
+        "Contains": [
+            [
+                "own datasets",
+                "management actions"
+            ],
+            [
+                "datasets I have published",
+                "view"
+            ]
+        ]
+    },
+    {
+        "PID": "#G05#",
+        "Text": "#G05# As a Data Publishing User, I want to have a functioning Python Client, So that I can add data to the datastore in bulk from the command line or my own programs.",
+        "Persona": [
+            "Data Publishing User"
+        ],
+        "Action": {
+            "Primary Action": [
+                "have"
+            ],
+            "Secondary Action": [
+                "add"
+            ]
+        },
+        "Entity": {
+            "Primary Entity": [
+                "functioning Python Client"
+            ],
+            "Secondary Entity": [
+                "datastore",
+                "command line",
+                "data",
+                "own programs"
+            ]
+        },
+        "Benefit": "I can add data to the datastore in bulk from the command line or my own programs",
+        "Triggers": [
+            [
+                "Data Publishing User",
+                "have"
+            ]
+        ],
+        "Targets": [
+            [
+                "have",
+                "functioning Python Client"
+            ],
+            [
+                "add",
+                "data"
+            ]
+        ],
+        "Contains": [
+            [
+                "datastore",
+                "data"
+            ]
+        ]
+    },
+    {
+        "PID": "#G05#",
+        "Text": "#G05# As an OpenSpending Community Member, I want to have an app where I can find examples of use of fiscal data visualisations, So that I can find guidance in creating my own with Open Spending.",
+        "Persona": [
+            "OpenSpending Community Member"
+        ],
+        "Action": {
+            "Primary Action": [
+                "have"
+            ],
+            "Secondary Action": [
+                "find",
+                "find",
+                "creating"
+            ]
+        },
+        "Entity": {
+            "Primary Entity": [
+                "app"
+            ],
+            "Secondary Entity": [
+                "examples",
+                "guidance",
+                "Open Spending",
+                "fiscal data visualisations",
+                "use"
+            ]
+        },
+        "Benefit": "I can find guidance in creating my own with Open Spending",
+        "Triggers": [
+            [
+                "OpenSpending Community Member",
+                "have"
+            ]
+        ],
+        "Targets": [
+            [
+                "have",
+                "app"
+            ],
+            [
+                "find",
+                "examples"
+            ],
+            [
+                "find",
+                "guidance"
+            ],
+            [
+                "creating",
+                "fiscal data visualisations"
+            ]
+        ],
+        "Contains": [
+            [
+                "use",
+                "fiscal data visualisations"
+            ],
+            [
+                "Open Spending",
+                "fiscal data visualisations"
+            ],
+            [
+                "examples",
+                "use"
+            ]
+        ]
+    },
+    {
+        "PID": "#G05#",
+        "Text": "#G05# As a Data Publishing User, I want to know if my CSV file is valid, So that I can fix possible data issues before publishing it on Open Spending.",
+        "Persona": [
+            "Data Publishing User"
+        ],
+        "Action": {
+            "Primary Action": [
+                "know"
+            ],
+            "Secondary Action": [
+                "fix",
+                "publishing"
+            ]
+        },
+        "Entity": {
+            "Primary Entity": [
+                "CSV file"
+            ],
+            "Secondary Entity": [
+                "possible data issues",
+                "Open Spending"
+            ]
+        },
+        "Benefit": "I can fix possible data issues before publishing it on Open Spending",
+        "Triggers": [
+            [
+                "Data Publishing User",
+                "know"
+            ]
+        ],
+        "Targets": [
+            [
+                "publishing",
+                "CSV file"
+            ],
+            [
+                "know",
+                "CSV file"
+            ],
+            [
+                "fix",
+                "possible data issues"
+            ]
+        ],
+        "Contains": [
+            [
+                "Open Spending",
+                "CSV file"
+            ]
+        ]
+    },
+    {
+        "PID": "#G05#",
+        "Text": "#G05# As a Data Consuming User, I want to be able to search any dataset published and publicly accessible by their title and metadata, So that I can find the datasets I'm interested in.",
+        "Persona": [
+            "Data Consuming User"
+        ],
+        "Action": {
+            "Primary Action": [
+                "search"
+            ],
+            "Secondary Action": [
+                "find"
+            ]
+        },
+        "Entity": {
+            "Primary Entity": [
+                "any dataset published and publicly accessible"
+            ],
+            "Secondary Entity": [
+                "title",
+                "metadata",
+                "datasets"
+            ]
+        },
+        "Benefit": "I can find the datasets I'm interested in",
+        "Triggers": [
+            [
+                "Data Consuming User",
+                "search"
+            ]
+        ],
+        "Targets": [
+            [
+                "find",
+                "datasets"
+            ],
+            [
+                "search",
+                "any dataset published and publicly accessible"
+            ]
+        ],
+        "Contains": [
+            [
+                "any dataset published and publicly accessible",
+                "title"
+            ],
+            [
+                "any dataset published and publicly accessible",
+                "metadata"
+            ]
+        ]
+    },
+    {
+        "PID": "#G05#",
+        "Text": "#G05# As a Data Consuming User, I want to visualize by default in treemap, bubble tree, map and pivot table the most recent year when my dataset contain multiple years, So that I'm not confused with the amounts.",
+        "Persona": [
+            "Data Consuming User"
+        ],
+        "Action": {
+            "Primary Action": [
+                "visualize by default"
+            ],
+            "Secondary Action": [
+                ""
+            ]
+        },
+        "Entity": {
+            "Primary Entity": [
+                "bubble tree",
+                "treemap",
+                "map",
+                "pivot table"
+            ],
+            "Secondary Entity": [
+                "most recent year",
+                "dataset",
+                "multiple years",
+                "amounts"
+            ]
+        },
+        "Benefit": "I'm not confused with the amounts",
+        "Triggers": [
+            [
+                "Data Consuming User",
+                "visualize by default"
+            ]
+        ],
+        "Targets": [
+            [
+                "visualize by default",
+                "bubble tree"
+            ],
+            [
+                "visualize by default",
+                "treemap"
+            ],
+            [
+                "visualize by default",
+                "map"
+            ],
+            [
+                "visualize by default",
+                "pivot table"
+            ]
+        ],
+        "Contains": [
+            [
+                "dataset",
+                "multiple years"
+            ],
+            [
+                "treemap",
+                "dataset"
+            ],
+            [
+                "bubble tree",
+                "dataset"
+            ],
+            [
+                "map",
+                "dataset"
+            ],
+            [
+                "pivot table",
+                "dataset"
+            ],
+            [
+                "most recent year",
+                "dataset"
+            ]
+        ]
+    },
+    {
+        "PID": "#G05#",
+        "Text": "#G05# As an API user, I want to be able to change the colors of the embedded visualisations in my own platform, So that I can customize the visualisations.",
+        "Persona": [
+            "API user"
+        ],
+        "Action": {
+            "Primary Action": [
+                "change"
+            ],
+            "Secondary Action": [
+                "customize"
+            ]
+        },
+        "Entity": {
+            "Primary Entity": [
+                "colors"
+            ],
+            "Secondary Entity": [
+                "visualisations",
+                "embedded visualisations",
+                "own platform"
+            ]
+        },
+        "Benefit": "I can customize the visualisations",
+        "Triggers": [
+            [
+                "API user",
+                "change"
+            ]
+        ],
+        "Targets": [
+            [
+                "change",
+                "colors"
+            ],
+            [
+                "customize",
+                "visualisations"
+            ]
+        ],
+        "Contains": [
+            [
+                "embedded visualisations",
+                "colors"
+            ],
+            [
+                "own platform",
+                "embedded visualisations"
+            ]
+        ]
+    },
+    {
+        "PID": "#G05#",
+        "Text": "#G05# As an API user, I want to be able to change some of the styling of the embedded Viewer in my own platform, So that I can brand it to my own organisation's color scheme.",
+        "Persona": [
+            "API user"
+        ],
+        "Action": {
+            "Primary Action": [
+                "change"
+            ],
+            "Secondary Action": [
+                "brand"
+            ]
+        },
+        "Entity": {
+            "Primary Entity": [
+                "styling"
+            ],
+            "Secondary Entity": [
+                "embedded Viewer",
+                "own platform",
+                "own organisation's color scheme"
+            ]
+        },
+        "Benefit": "I can brand it to my own organisation's color scheme",
+        "Triggers": [
+            [
+                "API user",
+                "change"
+            ]
+        ],
+        "Targets": [
+            [
+                "brand",
+                "own organisation's color scheme"
+            ],
+            [
+                "change",
+                "styling"
+            ]
+        ],
+        "Contains": [
+            [
+                "styling",
+                "own organisation's color scheme"
+            ],
+            [
+                "own platform",
+                "embedded Viewer"
+            ],
+            [
+                "embedded Viewer",
+                "styling"
+            ]
+        ]
+    },
+    {
+        "PID": "#G05#",
+        "Text": "#G05# As a Platform administrator, I want to be able to translate the data types hierarchies of the Viewer while in embed mode, So that my users can understand the interface in their native language.",
+        "Persona": [
+            "Platform administrator"
+        ],
+        "Action": {
+            "Primary Action": [
+                "translate"
+            ],
+            "Secondary Action": [
+                "understand"
+            ]
+        },
+        "Entity": {
+            "Primary Entity": [
+                "data types hierarchies"
+            ],
+            "Secondary Entity": [
+                "Viewer",
+                "embed mode",
+                "interface",
+                "native language",
+                "users"
+            ]
+        },
+        "Benefit": "my users can understand the interface in their native language",
+        "Triggers": [
+            [
+                "Platform administrator",
+                "translate"
+            ]
+        ],
+        "Targets": [
+            [
+                "translate",
+                "data types hierarchies"
+            ],
+            [
+                "understand",
+                "interface"
+            ]
+        ],
+        "Contains": [
+            [
+                "Viewer",
+                "data types hierarchies"
+            ],
+            [
+                "Viewer",
+                "embed mode"
+            ],
+            [
+                "interface",
+                "native language"
+            ],
+            [
+                "users",
+                "native language"
+            ]
+        ]
+    }
+]

@@ -1,0 +1,4399 @@
+[
+    {
+        "PID": "#G22#",
+        "Text": "#G22# As a PI, I want to properly record all metadata, so that I can ensure proper running of the project in case of staff changes.",
+        "Persona": [
+            "PI"
+        ],
+        "Action": {
+            "Primary Action": [
+                "properly record"
+            ],
+            "Secondary Action": [
+                "ensure",
+                "changes"
+            ]
+        },
+        "Entity": {
+            "Primary Entity": [
+                "all metadata"
+            ],
+            "Secondary Entity": [
+                "project",
+                "proper running",
+                "staff"
+            ]
+        },
+        "Benefit": "I can ensure proper running of the project in case of staff changes",
+        "Triggers": [
+            [
+                "PI",
+                "properly record"
+            ]
+        ],
+        "Targets": [
+            [
+                "properly record",
+                "all metadata"
+            ],
+            [
+                "ensure",
+                "proper running"
+            ],
+            [
+                "changes",
+                "staff"
+            ]
+        ],
+        "Contains": []
+    },
+    {
+        "PID": "#G22#",
+        "Text": "#G22# As a researcher, I want to indicate where my data will be stored during the project and where after the project, so that it remains accessible during all stages of the data lifecycle.",
+        "Persona": [
+            "researcher"
+        ],
+        "Action": {
+            "Primary Action": [
+                "indicate"
+            ],
+            "Secondary Action": [
+                "stored"
+            ]
+        },
+        "Entity": {
+            "Primary Entity": [
+                "where"
+            ],
+            "Secondary Entity": [
+                "data",
+                "project",
+                "where",
+                "project",
+                "all stages",
+                "data lifecycle"
+            ]
+        },
+        "Benefit": "it remains accessible during all stages of the data lifecycle",
+        "Triggers": [
+            [
+                "researcher",
+                "indicate"
+            ]
+        ],
+        "Targets": [
+            [
+                "indicate",
+                "where"
+            ],
+            [
+                "indicate",
+                "where"
+            ],
+            [
+                "stored",
+                "data"
+            ]
+        ],
+        "Contains": [
+            [
+                "where",
+                "data"
+            ],
+            [
+                "project",
+                "data"
+            ],
+            [
+                "data lifecycle",
+                "all stages"
+            ],
+            [
+                "project",
+                "data"
+            ]
+        ]
+    },
+    {
+        "PID": "#G22#",
+        "Text": "#G22# As a researcher, I want to import metadata that I captured with a metadata tool, so that I do not have to capture it again in a DMP.",
+        "Persona": [
+            "researcher"
+        ],
+        "Action": {
+            "Primary Action": [
+                "import"
+            ],
+            "Secondary Action": [
+                ""
+            ]
+        },
+        "Entity": {
+            "Primary Entity": [
+                "metadata"
+            ],
+            "Secondary Entity": [
+                "metadata tool",
+                "DMP"
+            ]
+        },
+        "Benefit": "I do not have to capture it again in a DMP",
+        "Triggers": [
+            [
+                "researcher",
+                "import"
+            ]
+        ],
+        "Targets": [
+            [
+                "import",
+                "metadata"
+            ]
+        ],
+        "Contains": [
+            [
+                "DMP",
+                "metadata"
+            ]
+        ]
+    },
+    {
+        "PID": "#G22#",
+        "Text": "#G22# As a data manager, I want to know how the data is used, so that I can develop more detailed usage and support scenarios with researchers.",
+        "Persona": [
+            "data manager"
+        ],
+        "Action": {
+            "Primary Action": [
+                "know"
+            ],
+            "Secondary Action": [
+                "used",
+                "develop",
+                "support"
+            ]
+        },
+        "Entity": {
+            "Primary Entity": [
+                "how"
+            ],
+            "Secondary Entity": [
+                "data",
+                "more detailed usage",
+                "researchers",
+                "scenarios"
+            ]
+        },
+        "Benefit": "I can develop more detailed usage and support scenarios with researchers",
+        "Triggers": [
+            [
+                "data manager",
+                "know"
+            ]
+        ],
+        "Targets": [
+            [
+                "know",
+                "how"
+            ],
+            [
+                "used",
+                "data"
+            ],
+            [
+                "develop",
+                "more detailed usage"
+            ],
+            [
+                "support",
+                "scenarios"
+            ]
+        ],
+        "Contains": []
+    },
+    {
+        "PID": "#G22#",
+        "Text": "#G22# As a repository owner, I want to be able to check the planned provenance of the data that will be submitted at the end of a project, so that I can calculate necessary submission fees and check whether it belongs to our target group.",
+        "Persona": [
+            "repository owner"
+        ],
+        "Action": {
+            "Primary Action": [
+                "check"
+            ],
+            "Secondary Action": [
+                "calculate",
+                "check"
+            ]
+        },
+        "Entity": {
+            "Primary Entity": [
+                "planned provenance"
+            ],
+            "Secondary Entity": [
+                "data",
+                "project",
+                "necessary submission fees",
+                "target group"
+            ]
+        },
+        "Benefit": "I can calculate necessary submission fees and check whether it belongs to our target group",
+        "Triggers": [
+            [
+                "repository owner",
+                "check"
+            ]
+        ],
+        "Targets": [
+            [
+                "check",
+                "planned provenance"
+            ],
+            [
+                "calculate",
+                "necessary submission fees"
+            ]
+        ],
+        "Contains": [
+            [
+                "data",
+                "planned provenance"
+            ],
+            [
+                "project",
+                "data"
+            ],
+            [
+                "target group",
+                "data"
+            ]
+        ]
+    },
+    {
+        "PID": "#G22#",
+        "Text": "#G22# As an IT manager, I want to know about IT resource requirements early in the project lifecycle, so that I can enable resource acquisition planning.",
+        "Persona": [
+            "IT manager"
+        ],
+        "Action": {
+            "Primary Action": [
+                "know"
+            ],
+            "Secondary Action": [
+                "enable"
+            ]
+        },
+        "Entity": {
+            "Primary Entity": [
+                "IT resource requirements"
+            ],
+            "Secondary Entity": [
+                "project lifecycle",
+                "resource acquisition planning"
+            ]
+        },
+        "Benefit": "I can enable resource acquisition planning",
+        "Triggers": [
+            [
+                "IT manager",
+                "know"
+            ]
+        ],
+        "Targets": [
+            [
+                "know",
+                "IT resource requirements"
+            ],
+            [
+                "enable",
+                "resource acquisition planning"
+            ]
+        ],
+        "Contains": [
+            [
+                "project lifecycle",
+                "IT resource requirements"
+            ]
+        ]
+    },
+    {
+        "PID": "#G22#",
+        "Text": "#G22# As a PI, I want to plan what kind of data I want to record/store, so that I can ensure it will possible to store it.",
+        "Persona": [
+            "PI"
+        ],
+        "Action": {
+            "Primary Action": [
+                "plan"
+            ],
+            "Secondary Action": [
+                "ensure",
+                "store"
+            ]
+        },
+        "Entity": {
+            "Primary Entity": [
+                "kind of data I want to record/store"
+            ],
+            "Secondary Entity": [
+                ""
+            ]
+        },
+        "Benefit": "I can ensure it will possible to store it",
+        "Triggers": [
+            [
+                "PI",
+                "plan"
+            ]
+        ],
+        "Targets": [
+            [
+                "plan",
+                "kind of data I want to record/store"
+            ],
+            [
+                "store",
+                "kind of data I want to record/store"
+            ]
+        ],
+        "Contains": []
+    },
+    {
+        "PID": "#G22#",
+        "Text": "#G22# As an IT staff member, I want to know the security requirements of the data, so that I know which kind of security measures to apply.",
+        "Persona": [
+            "IT staff member"
+        ],
+        "Action": {
+            "Primary Action": [
+                "know"
+            ],
+            "Secondary Action": [
+                "know",
+                "apply"
+            ]
+        },
+        "Entity": {
+            "Primary Entity": [
+                "security requirements"
+            ],
+            "Secondary Entity": [
+                "data",
+                " kind of security measures"
+            ]
+        },
+        "Benefit": "I know which kind of security measures to apply",
+        "Triggers": [
+            [
+                "IT staff member",
+                "know"
+            ]
+        ],
+        "Targets": [
+            [
+                "know",
+                "security requirements"
+            ],
+            [
+                "know",
+                " kind of security measures"
+            ],
+            [
+                "apply",
+                " kind of security measures"
+            ]
+        ],
+        "Contains": [
+            [
+                "data",
+                "security requirements"
+            ]
+        ]
+    },
+    {
+        "PID": "#G22#",
+        "Text": "#G22# As a data manager, I want to have the description of collected data sets that are used or updated throughout the project lifecycle, so that I can ensure the descriptions are current and add detail as the study proceeds.",
+        "Persona": [
+            "data manager"
+        ],
+        "Action": {
+            "Primary Action": [
+                "have"
+            ],
+            "Secondary Action": [
+                "ensure",
+                "add"
+            ]
+        },
+        "Entity": {
+            "Primary Entity": [
+                "description"
+            ],
+            "Secondary Entity": [
+                "collected data sets",
+                "project lifecycle",
+                "descriptions",
+                "detail",
+                "study"
+            ]
+        },
+        "Benefit": "I can ensure the descriptions are current and add detail as the study proceeds",
+        "Triggers": [
+            [
+                "data manager",
+                "have"
+            ]
+        ],
+        "Targets": [
+            [
+                "have",
+                "description"
+            ],
+            [
+                "add",
+                "detail"
+            ]
+        ],
+        "Contains": [
+            [
+                "collected data sets",
+                "description"
+            ],
+            [
+                "project lifecycle",
+                "description"
+            ],
+            [
+                "descriptions",
+                "detail"
+            ]
+        ]
+    },
+    {
+        "PID": "#G22#",
+        "Text": "#G22# As a researcher, I want to know which topics are mandatory and similar in all DMPs, so that I can save time through quickly writing it.",
+        "Persona": [
+            "researcher"
+        ],
+        "Action": {
+            "Primary Action": [
+                "know"
+            ],
+            "Secondary Action": [
+                "quickly writing"
+            ]
+        },
+        "Entity": {
+            "Primary Entity": [
+                "topics"
+            ],
+            "Secondary Entity": [
+                "all DMPs"
+            ]
+        },
+        "Benefit": "I can save time through quickly writing it",
+        "Triggers": [
+            [
+                "researcher",
+                "know"
+            ]
+        ],
+        "Targets": [
+            [
+                "know",
+                "topics"
+            ],
+            [
+                "quickly writing",
+                "topics"
+            ]
+        ],
+        "Contains": [
+            [
+                "all DMPs",
+                "topics"
+            ]
+        ]
+    },
+    {
+        "PID": "#G22#",
+        "Text": "#G22# As a data manager, I want to know what the content of the data is, so that I can decide to which collection or repository the data fits.",
+        "Persona": [
+            "data manager"
+        ],
+        "Action": {
+            "Primary Action": [
+                "know"
+            ],
+            "Secondary Action": [
+                "decide"
+            ]
+        },
+        "Entity": {
+            "Primary Entity": [
+                "content"
+            ],
+            "Secondary Entity": [
+                "data",
+                "collection",
+                "repository",
+                "data"
+            ]
+        },
+        "Benefit": "I can decide to which collection or repository the data fits",
+        "Triggers": [
+            [
+                "data manager",
+                "know"
+            ]
+        ],
+        "Targets": [
+            [
+                "know",
+                "content"
+            ],
+            [
+                "decide",
+                "collection"
+            ],
+            [
+                "decide",
+                "repository"
+            ]
+        ],
+        "Contains": [
+            [
+                "data",
+                "content"
+            ],
+            [
+                "repository",
+                "data"
+            ],
+            [
+                "collection",
+                "data"
+            ]
+        ]
+    },
+    {
+        "PID": "#G22#",
+        "Text": "#G22# As a PI, I want to record information about my DMP, so that an Ethics Committee can review this for compliance with ethical standards.",
+        "Persona": [
+            "PI"
+        ],
+        "Action": {
+            "Primary Action": [
+                "record"
+            ],
+            "Secondary Action": [
+                "review"
+            ]
+        },
+        "Entity": {
+            "Primary Entity": [
+                "information"
+            ],
+            "Secondary Entity": [
+                "DMP",
+                "Ethics Committee",
+                "compliance",
+                "ethical standards"
+            ]
+        },
+        "Benefit": "an Ethics Committee can review this for compliance with ethical standards",
+        "Triggers": [
+            [
+                "PI",
+                "record"
+            ]
+        ],
+        "Targets": [
+            [
+                "record",
+                "information"
+            ],
+            [
+                "review",
+                "information"
+            ]
+        ],
+        "Contains": [
+            [
+                "DMP",
+                "information"
+            ],
+            [
+                "information",
+                "ethical standards"
+            ]
+        ]
+    },
+    {
+        "PID": "#G22#",
+        "Text": "#G22# As a legalofficer, I want to know about data sensitivity, so that I can establish sharing options.",
+        "Persona": [
+            "legalofficer"
+        ],
+        "Action": {
+            "Primary Action": [
+                "know"
+            ],
+            "Secondary Action": [
+                "establish"
+            ]
+        },
+        "Entity": {
+            "Primary Entity": [
+                "data sensitivity"
+            ],
+            "Secondary Entity": [
+                "sharing options"
+            ]
+        },
+        "Benefit": "I can establish sharing options",
+        "Triggers": [
+            [
+                "legalofficer",
+                "know"
+            ]
+        ],
+        "Targets": [
+            [
+                "know",
+                "data sensitivity"
+            ],
+            [
+                "establish",
+                "sharing options"
+            ]
+        ],
+        "Contains": []
+    },
+    {
+        "PID": "#G22#",
+        "Text": "#G22# As a data librarian, I want to extract pointers from the DMP to metadata held in other systems, so that I can import this metadata into a data catalogue.",
+        "Persona": [
+            "data librarian"
+        ],
+        "Action": {
+            "Primary Action": [
+                "extract"
+            ],
+            "Secondary Action": [
+                "import"
+            ]
+        },
+        "Entity": {
+            "Primary Entity": [
+                "pointers"
+            ],
+            "Secondary Entity": [
+                "DMP",
+                "metadata",
+                "other systems",
+                "metadata",
+                "data catalogue"
+            ]
+        },
+        "Benefit": "I can import this metadata into a data catalogue",
+        "Triggers": [
+            [
+                "data librarian",
+                "extract"
+            ]
+        ],
+        "Targets": [
+            [
+                "extract",
+                "pointers"
+            ],
+            [
+                "import",
+                "metadata"
+            ]
+        ],
+        "Contains": [
+            [
+                "DMP",
+                "pointers"
+            ],
+            [
+                "other systems",
+                "metadata"
+            ],
+            [
+                "data catalogue",
+                "metadata"
+            ],
+            [
+                "metadata",
+                "pointers"
+            ]
+        ]
+    },
+    {
+        "PID": "#G22#",
+        "Text": "#G22# As an IT staff member, I want to have an estimate of the produced data volume, so that I can plan the overall storage consumption.",
+        "Persona": [
+            "IT staff member"
+        ],
+        "Action": {
+            "Primary Action": [
+                "have"
+            ],
+            "Secondary Action": [
+                "plan"
+            ]
+        },
+        "Entity": {
+            "Primary Entity": [
+                "estimate"
+            ],
+            "Secondary Entity": [
+                "produced data volume",
+                "overall storage consumption"
+            ]
+        },
+        "Benefit": "I can plan the overall storage consumption",
+        "Triggers": [
+            [
+                "IT staff member",
+                "have"
+            ]
+        ],
+        "Targets": [
+            [
+                "have",
+                "estimate"
+            ],
+            [
+                "plan",
+                "overall storage consumption"
+            ]
+        ],
+        "Contains": [
+            [
+                "produced data volume",
+                "estimate"
+            ]
+        ]
+    },
+    {
+        "PID": "#G22#",
+        "Text": "#G22# As an administrator, I want to know who funded the project and their requirements, so that I can track the funder specific obligations.",
+        "Persona": [
+            "administrator"
+        ],
+        "Action": {
+            "Primary Action": [
+                "know"
+            ],
+            "Secondary Action": [
+                "funded",
+                "track"
+            ]
+        },
+        "Entity": {
+            "Primary Entity": [
+                "who"
+            ],
+            "Secondary Entity": [
+                "project",
+                "requirements",
+                "funder specific obligations"
+            ]
+        },
+        "Benefit": "I can track the funder specific obligations",
+        "Triggers": [
+            [
+                "administrator",
+                "know"
+            ]
+        ],
+        "Targets": [
+            [
+                "know",
+                "who"
+            ],
+            [
+                "funded",
+                "project"
+            ],
+            [
+                "track",
+                "funder specific obligations"
+            ]
+        ],
+        "Contains": [
+            [
+                "who",
+                "requirements"
+            ]
+        ]
+    },
+    {
+        "PID": "#G22#",
+        "Text": "#G22# As an archivemanager, I want to know the legal status of data, so that I can apply the legal requirements accordingly.",
+        "Persona": [
+            "archivemanager"
+        ],
+        "Action": {
+            "Primary Action": [
+                "know"
+            ],
+            "Secondary Action": [
+                "apply"
+            ]
+        },
+        "Entity": {
+            "Primary Entity": [
+                "legal status"
+            ],
+            "Secondary Entity": [
+                "data",
+                "legal requirements"
+            ]
+        },
+        "Benefit": "I can apply the legal requirements accordingly",
+        "Triggers": [
+            [
+                "archivemanager",
+                "know"
+            ]
+        ],
+        "Targets": [
+            [
+                "know",
+                "legal status"
+            ],
+            [
+                "apply",
+                "legal requirements"
+            ]
+        ],
+        "Contains": [
+            [
+                "data",
+                "legal status"
+            ]
+        ]
+    },
+    {
+        "PID": "#G22#",
+        "Text": "#G22# As a data manager, I want to know which kind of data types will be produced or collected, so that I can determine what basic support services and functionalities are required.",
+        "Persona": [
+            "data manager"
+        ],
+        "Action": {
+            "Primary Action": [
+                "know"
+            ],
+            "Secondary Action": [
+                "produced",
+                "collected",
+                "determine"
+            ]
+        },
+        "Entity": {
+            "Primary Entity": [
+                "kind of data types"
+            ],
+            "Secondary Entity": [
+                "basic support services",
+                "functionalities"
+            ]
+        },
+        "Benefit": "I can determine what basic support services and functionalities are required",
+        "Triggers": [
+            [
+                "data manager",
+                "know"
+            ]
+        ],
+        "Targets": [
+            [
+                "know",
+                "kind of data types"
+            ],
+            [
+                "produced",
+                "kind of data types"
+            ],
+            [
+                "collected",
+                "kind of data types"
+            ],
+            [
+                "determine",
+                "basic support services"
+            ],
+            [
+                "determine",
+                "functionalities"
+            ]
+        ],
+        "Contains": []
+    },
+    {
+        "PID": "#G22#",
+        "Text": "#G22# As an IT staff member, I want to know which kind of data types will be produced or collected, so that I can determine what basic support services and functionalities are required.",
+        "Persona": [
+            "IT staff member"
+        ],
+        "Action": {
+            "Primary Action": [
+                "know"
+            ],
+            "Secondary Action": [
+                "produced",
+                "collected",
+                "determine"
+            ]
+        },
+        "Entity": {
+            "Primary Entity": [
+                "kind of data types"
+            ],
+            "Secondary Entity": [
+                "basic support services",
+                "functionalities"
+            ]
+        },
+        "Benefit": "I can determine what basic support services and functionalities are required",
+        "Triggers": [
+            [
+                "IT staff member",
+                "know"
+            ]
+        ],
+        "Targets": [
+            [
+                "know",
+                "kind of data types"
+            ],
+            [
+                "produced",
+                "kind of data types"
+            ],
+            [
+                "collected",
+                "kind of data types"
+            ],
+            [
+                "determine",
+                "basic support services"
+            ],
+            [
+                "determine",
+                "functionalities"
+            ]
+        ],
+        "Contains": []
+    },
+    {
+        "PID": "#G22#",
+        "Text": "#G22# As an archivemanager, I want to know in advance the conservation period of data, so that I can better organize the service by adapting the preservation actions.",
+        "Persona": [
+            "archivemanager"
+        ],
+        "Action": {
+            "Primary Action": [
+                "know in advance"
+            ],
+            "Secondary Action": [
+                "better organize",
+                "adapting"
+            ]
+        },
+        "Entity": {
+            "Primary Entity": [
+                "conservation period"
+            ],
+            "Secondary Entity": [
+                "data",
+                "service",
+                "preservation actions"
+            ]
+        },
+        "Benefit": "I can better organize the service by adapting the preservation actions",
+        "Triggers": [
+            [
+                "archivemanager",
+                "know in advance"
+            ]
+        ],
+        "Targets": [
+            [
+                "know in advance",
+                "conservation period"
+            ],
+            [
+                "better organize",
+                "service"
+            ],
+            [
+                "adapting",
+                "preservation actions"
+            ]
+        ],
+        "Contains": [
+            [
+                "data",
+                "conservation period"
+            ]
+        ]
+    },
+    {
+        "PID": "#G22#",
+        "Text": "#G22# As a data manager, I want to document all rights necessary for managing the data, so that I can curate and preserve the data.",
+        "Persona": [
+            "data manager"
+        ],
+        "Action": {
+            "Primary Action": [
+                "document"
+            ],
+            "Secondary Action": [
+                "managing",
+                "curate",
+                "preserve"
+            ]
+        },
+        "Entity": {
+            "Primary Entity": [
+                "all rights"
+            ],
+            "Secondary Entity": [
+                "data",
+                "data"
+            ]
+        },
+        "Benefit": "I can curate and preserve the data",
+        "Triggers": [
+            [
+                "data manager",
+                "document"
+            ]
+        ],
+        "Targets": [
+            [
+                "document",
+                "all rights"
+            ],
+            [
+                "managing",
+                "data"
+            ],
+            [
+                "curate",
+                "data"
+            ],
+            [
+                "preserve",
+                "data"
+            ]
+        ],
+        "Contains": [
+            [
+                "data",
+                "all rights"
+            ]
+        ]
+    },
+    {
+        "PID": "#G22#",
+        "Text": "#G22# As a data manager, I want to know what the content of the data is, so that I can check whether the necessary expertise for maintaining intellectual reusability is available.",
+        "Persona": [
+            "data manager"
+        ],
+        "Action": {
+            "Primary Action": [
+                "know"
+            ],
+            "Secondary Action": [
+                "check",
+                "maintaining"
+            ]
+        },
+        "Entity": {
+            "Primary Entity": [
+                "content"
+            ],
+            "Secondary Entity": [
+                "data",
+                "necessary expertise",
+                "intellectual reusability"
+            ]
+        },
+        "Benefit": "I can check whether the necessary expertise for maintaining intellectual reusability is available",
+        "Triggers": [
+            [
+                "data manager",
+                "know"
+            ]
+        ],
+        "Targets": [
+            [
+                "know",
+                "content"
+            ],
+            [
+                "maintaining",
+                "intellectual reusability"
+            ],
+            [
+                "check",
+                "necessary expertise"
+            ]
+        ],
+        "Contains": [
+            [
+                "data",
+                "content"
+            ]
+        ]
+    },
+    {
+        "PID": "#G22#",
+        "Text": "#G22# As a research head, I want to access to the persistent identifiers of datasets provided in the DMP, so that I can check that the DMP has been implemented.",
+        "Persona": [
+            "research head"
+        ],
+        "Action": {
+            "Primary Action": [
+                "access"
+            ],
+            "Secondary Action": [
+                "check",
+                "implemented"
+            ]
+        },
+        "Entity": {
+            "Primary Entity": [
+                "persistent identifiers"
+            ],
+            "Secondary Entity": [
+                "datasets",
+                "DMP",
+                "DMP"
+            ]
+        },
+        "Benefit": "I can check that the DMP has been implemented",
+        "Triggers": [
+            [
+                "research head",
+                "access"
+            ]
+        ],
+        "Targets": [
+            [
+                "access",
+                "persistent identifiers"
+            ],
+            [
+                "check",
+                "DMP"
+            ],
+            [
+                "implemented",
+                "DMP"
+            ]
+        ],
+        "Contains": [
+            [
+                "datasets",
+                "persistent identifiers"
+            ],
+            [
+                "DMP",
+                "persistent identifiers"
+            ]
+        ]
+    },
+    {
+        "PID": "#G22#",
+        "Text": "#G22# As a funder, I want to be able to read the costs for data management from the DMP, so that I can check whether our policies work as intended.",
+        "Persona": [
+            "funder"
+        ],
+        "Action": {
+            "Primary Action": [
+                "read"
+            ],
+            "Secondary Action": [
+                "check",
+                "work"
+            ]
+        },
+        "Entity": {
+            "Primary Entity": [
+                "costs"
+            ],
+            "Secondary Entity": [
+                "data management",
+                "DMP",
+                "policies"
+            ]
+        },
+        "Benefit": "I can check whether our policies work as intended",
+        "Triggers": [
+            [
+                "funder",
+                "read"
+            ]
+        ],
+        "Targets": [
+            [
+                "read",
+                "costs"
+            ],
+            [
+                "check",
+                "policies"
+            ]
+        ],
+        "Contains": [
+            [
+                "data management",
+                "costs"
+            ],
+            [
+                "DMP",
+                "data management"
+            ]
+        ]
+    },
+    {
+        "PID": "#G22#",
+        "Text": "#G22# As a researcher, I want the DMP to prepopulate information that I have already entered in other institutional systems, so that I do not have to re-enter information ensuring the DMP contains accurate and standardized information.",
+        "Persona": [
+            "researcher"
+        ],
+        "Action": {
+            "Primary Action": [
+                "want"
+            ],
+            "Secondary Action": [
+                "prepopulate",
+                "ensuring"
+            ]
+        },
+        "Entity": {
+            "Primary Entity": [
+                "DMP"
+            ],
+            "Secondary Entity": [
+                "information",
+                "institutional systems",
+                "information",
+                "DMP",
+                "accurate and standardized information"
+            ]
+        },
+        "Benefit": "I do not have to re-enter information ensuring the DMP contains accurate and standardized information",
+        "Triggers": [
+            [
+                "researcher",
+                "want"
+            ]
+        ],
+        "Targets": [
+            [
+                "want",
+                "DMP"
+            ],
+            [
+                "prepopulate",
+                "information"
+            ]
+        ],
+        "Contains": [
+            [
+                "institutional systems",
+                "information"
+            ],
+            [
+                "DMP",
+                "accurate and standardized information"
+            ]
+        ]
+    },
+    {
+        "PID": "#G22#",
+        "Text": "#G22# As a stakeholder, I want to know when the data management plan was created or updated, so that I know how up-to-date the plan is or whether it needs to be updated.",
+        "Persona": [
+            "stakeholder"
+        ],
+        "Action": {
+            "Primary Action": [
+                "know"
+            ],
+            "Secondary Action": [
+                "created",
+                "updated",
+                "know",
+                "updated"
+            ]
+        },
+        "Entity": {
+            "Primary Entity": [
+                "when"
+            ],
+            "Secondary Entity": [
+                "data management plan",
+                "how up-to-date",
+                "plan"
+            ]
+        },
+        "Benefit": "I know how up-to-date the plan is or whether it needs to be updated",
+        "Triggers": [
+            [
+                "stakeholder",
+                "know"
+            ]
+        ],
+        "Targets": [
+            [
+                "know",
+                "when"
+            ],
+            [
+                "created",
+                "data management plan"
+            ],
+            [
+                "updated",
+                "data management plan"
+            ],
+            [
+                "know",
+                "how up-to-date"
+            ],
+            [
+                "updated",
+                "data management plan"
+            ]
+        ],
+        "Contains": []
+    },
+    {
+        "PID": "#G22#",
+        "Text": "#G22# As a stakeholder, I want to know who is responsible for the DMP, so that I can ask them about further details.",
+        "Persona": [
+            "stakeholder"
+        ],
+        "Action": {
+            "Primary Action": [
+                "know"
+            ],
+            "Secondary Action": [
+                "ask"
+            ]
+        },
+        "Entity": {
+            "Primary Entity": [
+                "who is responsible"
+            ],
+            "Secondary Entity": [
+                "DMP",
+                "further details"
+            ]
+        },
+        "Benefit": "I can ask them about further details",
+        "Triggers": [
+            [
+                "stakeholder",
+                "know"
+            ]
+        ],
+        "Targets": [
+            [
+                "know",
+                "who is responsible"
+            ],
+            [
+                "ask",
+                "further details"
+            ]
+        ],
+        "Contains": []
+    },
+    {
+        "PID": "#G22#",
+        "Text": "#G22# As a stakeholder, I want to have references to the project proposal, so that I can look up further general information.",
+        "Persona": [
+            "stakeholder"
+        ],
+        "Action": {
+            "Primary Action": [
+                "have"
+            ],
+            "Secondary Action": [
+                "look up"
+            ]
+        },
+        "Entity": {
+            "Primary Entity": [
+                "references"
+            ],
+            "Secondary Entity": [
+                "project proposal",
+                "further general information"
+            ]
+        },
+        "Benefit": "I can look up further general information",
+        "Triggers": [
+            [
+                "stakeholder",
+                "have"
+            ]
+        ],
+        "Targets": [
+            [
+                "have",
+                "references"
+            ],
+            [
+                "look up",
+                "further general information"
+            ]
+        ],
+        "Contains": [
+            [
+                "project proposal",
+                "references"
+            ],
+            [
+                "references",
+                "further general information"
+            ]
+        ]
+    },
+    {
+        "PID": "#G22#",
+        "Text": "#G22# As a metadata manager, I want to have a short description of project, so that I can be informed about the metadata description.",
+        "Persona": [
+            "metadata manager"
+        ],
+        "Action": {
+            "Primary Action": [
+                "have"
+            ],
+            "Secondary Action": [
+                ""
+            ]
+        },
+        "Entity": {
+            "Primary Entity": [
+                "short description"
+            ],
+            "Secondary Entity": [
+                "project",
+                "metadata description"
+            ]
+        },
+        "Benefit": "I can be informed about the metadata description",
+        "Triggers": [
+            [
+                "metadata manager",
+                "have"
+            ]
+        ],
+        "Targets": [
+            [
+                "have",
+                "short description"
+            ]
+        ],
+        "Contains": [
+            [
+                "project",
+                "short description"
+            ]
+        ]
+    },
+    {
+        "PID": "#G22#",
+        "Text": "#G22# As a rector, I want to know how many data will be stored, so that I can plan long term resources.",
+        "Persona": [
+            "rector"
+        ],
+        "Action": {
+            "Primary Action": [
+                "know"
+            ],
+            "Secondary Action": [
+                "stored",
+                "plan"
+            ]
+        },
+        "Entity": {
+            "Primary Entity": [
+                "how many"
+            ],
+            "Secondary Entity": [
+                "data",
+                "long term resources"
+            ]
+        },
+        "Benefit": "I can plan long term resources",
+        "Triggers": [
+            [
+                "rector",
+                "know"
+            ]
+        ],
+        "Targets": [
+            [
+                "know",
+                "how many"
+            ],
+            [
+                "stored",
+                "data"
+            ],
+            [
+                "plan",
+                "long term resources"
+            ]
+        ],
+        "Contains": []
+    },
+    {
+        "PID": "#G22#",
+        "Text": "#G22# As a data manager, I want to know the time plan for collecting data, so that I can plan the data management.",
+        "Persona": [
+            "data manager"
+        ],
+        "Action": {
+            "Primary Action": [
+                "know"
+            ],
+            "Secondary Action": [
+                "collecting",
+                "plan"
+            ]
+        },
+        "Entity": {
+            "Primary Entity": [
+                "time plan"
+            ],
+            "Secondary Entity": [
+                "data",
+                "data management"
+            ]
+        },
+        "Benefit": "I can plan the data management",
+        "Triggers": [
+            [
+                "data manager",
+                "know"
+            ]
+        ],
+        "Targets": [
+            [
+                "know",
+                "time plan"
+            ],
+            [
+                "collecting",
+                "data"
+            ],
+            [
+                "plan",
+                "data management"
+            ]
+        ],
+        "Contains": [
+            [
+                "data",
+                "time plan"
+            ]
+        ]
+    },
+    {
+        "PID": "#G22#",
+        "Text": "#G22# As a data librarian, I want to import administrative information regarding a project into DMP, so that I can prepopulate the DMP.",
+        "Persona": [
+            "data librarian"
+        ],
+        "Action": {
+            "Primary Action": [
+                "import"
+            ],
+            "Secondary Action": [
+                "prepopulate"
+            ]
+        },
+        "Entity": {
+            "Primary Entity": [
+                "administrative information"
+            ],
+            "Secondary Entity": [
+                "project",
+                "DMP",
+                "DMP"
+            ]
+        },
+        "Benefit": "I can prepopulate the DMP",
+        "Triggers": [
+            [
+                "data librarian",
+                "import"
+            ]
+        ],
+        "Targets": [
+            [
+                "import",
+                "administrative information"
+            ],
+            [
+                "prepopulate",
+                "DMP"
+            ]
+        ],
+        "Contains": [
+            [
+                "DMP",
+                "administrative information"
+            ],
+            [
+                "project",
+                "administrative information"
+            ]
+        ]
+    },
+    {
+        "PID": "#G22#",
+        "Text": "#G22# As a manager, I want to know about all resources and services used for the data, so that I can estimate the true cost of the project.",
+        "Persona": [
+            "manager"
+        ],
+        "Action": {
+            "Primary Action": [
+                "know"
+            ],
+            "Secondary Action": [
+                "estimate"
+            ]
+        },
+        "Entity": {
+            "Primary Entity": [
+                "all resources",
+                "services used"
+            ],
+            "Secondary Entity": [
+                "data",
+                "true cost",
+                "project"
+            ]
+        },
+        "Benefit": "I can estimate the true cost of the project",
+        "Triggers": [
+            [
+                "manager",
+                "know"
+            ]
+        ],
+        "Targets": [
+            [
+                "know",
+                "all resources"
+            ],
+            [
+                "know",
+                "services used"
+            ],
+            [
+                "estimate",
+                "true cost"
+            ]
+        ],
+        "Contains": [
+            [
+                "project",
+                "true cost"
+            ]
+        ]
+    },
+    {
+        "PID": "#G22#",
+        "Text": "#G22# As an archivemanager, I want to reuse the information regarding file format, so that I can apply automated checks for the file validation.",
+        "Persona": [
+            "archivemanager"
+        ],
+        "Action": {
+            "Primary Action": [
+                "reuse"
+            ],
+            "Secondary Action": [
+                "apply"
+            ]
+        },
+        "Entity": {
+            "Primary Entity": [
+                "information"
+            ],
+            "Secondary Entity": [
+                "file format",
+                "automated checks",
+                "file validation"
+            ]
+        },
+        "Benefit": "I can apply automated checks for the file validation",
+        "Triggers": [
+            [
+                "archivemanager",
+                "reuse"
+            ]
+        ],
+        "Targets": [
+            [
+                "reuse",
+                "information"
+            ],
+            [
+                "apply",
+                "automated checks"
+            ]
+        ],
+        "Contains": [
+            [
+                "file format",
+                "information"
+            ],
+            [
+                "file validation",
+                "automated checks"
+            ]
+        ]
+    },
+    {
+        "PID": "#G22#",
+        "Text": "#G22# As a researcher, I want to know how many resources are needed during the project, so that I can calculate costs.",
+        "Persona": [
+            "researcher"
+        ],
+        "Action": {
+            "Primary Action": [
+                "know"
+            ],
+            "Secondary Action": [
+                "calculate"
+            ]
+        },
+        "Entity": {
+            "Primary Entity": [
+                "how many"
+            ],
+            "Secondary Entity": [
+                "resources",
+                "project",
+                "costs"
+            ]
+        },
+        "Benefit": "I can calculate costs",
+        "Triggers": [
+            [
+                "researcher",
+                "know"
+            ]
+        ],
+        "Targets": [
+            [
+                "know",
+                "how many"
+            ],
+            [
+                "calculate",
+                "costs"
+            ]
+        ],
+        "Contains": [
+            [
+                "project",
+                "resources"
+            ]
+        ]
+    },
+    {
+        "PID": "#G22#",
+        "Text": "#G22# As a researcher, I want to extract the description of the data collected, so that I can reuse it for the writing of a data paper.",
+        "Persona": [
+            "researcher"
+        ],
+        "Action": {
+            "Primary Action": [
+                "extract"
+            ],
+            "Secondary Action": [
+                "reuse",
+                "writing"
+            ]
+        },
+        "Entity": {
+            "Primary Entity": [
+                "description"
+            ],
+            "Secondary Entity": [
+                "data collected",
+                "data paper"
+            ]
+        },
+        "Benefit": "I can reuse it for the writing of a data paper",
+        "Triggers": [
+            [
+                "researcher",
+                "extract"
+            ]
+        ],
+        "Targets": [
+            [
+                "extract",
+                "description"
+            ],
+            [
+                "reuse",
+                "description"
+            ],
+            [
+                "writing",
+                "data paper"
+            ]
+        ],
+        "Contains": [
+            [
+                "data collected",
+                "description"
+            ]
+        ]
+    },
+    {
+        "PID": "#G22#",
+        "Text": "#G22# As a researcher, I want to record research publications in the institutional repository or CRIS with DMP records, so that I can generate reports of research output resulting from a project.",
+        "Persona": [
+            "researcher"
+        ],
+        "Action": {
+            "Primary Action": [
+                "record"
+            ],
+            "Secondary Action": [
+                "generate"
+            ]
+        },
+        "Entity": {
+            "Primary Entity": [
+                "research publications"
+            ],
+            "Secondary Entity": [
+                "institutional repository",
+                "CRIS",
+                "DMP records",
+                "reports",
+                "research output",
+                "project"
+            ]
+        },
+        "Benefit": "I can generate reports of research output resulting from a project",
+        "Triggers": [
+            [
+                "researcher",
+                "record"
+            ]
+        ],
+        "Targets": [
+            [
+                "record",
+                "research publications"
+            ],
+            [
+                "generate",
+                "reports"
+            ]
+        ],
+        "Contains": [
+            [
+                "institutional repository",
+                "research publications"
+            ],
+            [
+                "CRIS",
+                "research publications"
+            ],
+            [
+                "project",
+                "research output"
+            ],
+            [
+                "institutional repository",
+                "DMP records"
+            ],
+            [
+                "CRIS",
+                "DMP records"
+            ],
+            [
+                "reports",
+                "research output"
+            ]
+        ]
+    },
+    {
+        "PID": "#G22#",
+        "Text": "#G22# As a researcher, I want to link research publications in the institutional repository or CRIS with DMP records, so that I can generate reports of research output resulting from a project.",
+        "Persona": [
+            "researcher"
+        ],
+        "Action": {
+            "Primary Action": [
+                "link"
+            ],
+            "Secondary Action": [
+                "generate"
+            ]
+        },
+        "Entity": {
+            "Primary Entity": [
+                "research publications"
+            ],
+            "Secondary Entity": [
+                "institutional repository",
+                "CRIS",
+                "DMP records",
+                "reports",
+                "research output",
+                "project"
+            ]
+        },
+        "Benefit": "I can generate reports of research output resulting from a project",
+        "Triggers": [
+            [
+                "researcher",
+                "link"
+            ]
+        ],
+        "Targets": [
+            [
+                "link",
+                "research publications"
+            ],
+            [
+                "generate",
+                "reports"
+            ]
+        ],
+        "Contains": [
+            [
+                "institutional repository",
+                "research publications"
+            ],
+            [
+                "CRIS",
+                "research publications"
+            ],
+            [
+                "institutional repository",
+                "DMP records"
+            ],
+            [
+                "CRIS",
+                "DMP records"
+            ],
+            [
+                "project",
+                "research output"
+            ],
+            [
+                "reports",
+                "research output"
+            ]
+        ]
+    },
+    {
+        "PID": "#G22#",
+        "Text": "#G22# As a researcher, I want to store agreements relating to third party data used in a project, so that the data can be cited, attributed and used correctly.",
+        "Persona": [
+            "researcher"
+        ],
+        "Action": {
+            "Primary Action": [
+                "store"
+            ],
+            "Secondary Action": [
+                "cited",
+                "attributed",
+                "used correctly"
+            ]
+        },
+        "Entity": {
+            "Primary Entity": [
+                "agreements"
+            ],
+            "Secondary Entity": [
+                "third party data",
+                "project",
+                "data"
+            ]
+        },
+        "Benefit": "the data can be cited, attributed and used correctly",
+        "Triggers": [
+            [
+                "researcher",
+                "store"
+            ]
+        ],
+        "Targets": [
+            [
+                "store",
+                "agreements"
+            ],
+            [
+                "cited",
+                "data"
+            ],
+            [
+                "attributed",
+                "data"
+            ],
+            [
+                "used correctly",
+                "data"
+            ]
+        ],
+        "Contains": [
+            [
+                "project",
+                "third party data"
+            ]
+        ]
+    },
+    {
+        "PID": "#G22#",
+        "Text": "#G22# As an ethics manager, I want to be informed about the data, so that I can check for sensitivity of data.",
+        "Persona": [
+            "ethics manager"
+        ],
+        "Action": {
+            "Primary Action": [
+                "be informed"
+            ],
+            "Secondary Action": [
+                "check"
+            ]
+        },
+        "Entity": {
+            "Primary Entity": [
+                "data"
+            ],
+            "Secondary Entity": [
+                "sensitivity",
+                "data"
+            ]
+        },
+        "Benefit": "I can check for sensitivity of data",
+        "Triggers": [
+            [
+                "ethics manager",
+                "be informed"
+            ]
+        ],
+        "Targets": [
+            [
+                "be informed",
+                "data"
+            ],
+            [
+                "check",
+                "sensitivity"
+            ]
+        ],
+        "Contains": [
+            [
+                "data",
+                "sensitivity"
+            ]
+        ]
+    },
+    {
+        "PID": "#G22#",
+        "Text": "#G22# As a repository operator, I want to know about the kind of data, so that I can evaluate the storage size and system.",
+        "Persona": [
+            "repository operator"
+        ],
+        "Action": {
+            "Primary Action": [
+                "know"
+            ],
+            "Secondary Action": [
+                "evaluate"
+            ]
+        },
+        "Entity": {
+            "Primary Entity": [
+                "kind of data"
+            ],
+            "Secondary Entity": [
+                "storage size",
+                "system"
+            ]
+        },
+        "Benefit": "I can evaluate the storage size and system",
+        "Triggers": [
+            [
+                "repository operator",
+                "know"
+            ]
+        ],
+        "Targets": [
+            [
+                "know",
+                "kind of data"
+            ],
+            [
+                "evaluate",
+                "storage size"
+            ],
+            [
+                "evaluate",
+                "system"
+            ]
+        ],
+        "Contains": []
+    },
+    {
+        "PID": "#G22#",
+        "Text": "#G22# As a researcher, I want to know about costs, so that I can plan my research.",
+        "Persona": [
+            "researcher"
+        ],
+        "Action": {
+            "Primary Action": [
+                "know"
+            ],
+            "Secondary Action": [
+                "plan"
+            ]
+        },
+        "Entity": {
+            "Primary Entity": [
+                "costs"
+            ],
+            "Secondary Entity": [
+                "research"
+            ]
+        },
+        "Benefit": "I can plan my research",
+        "Triggers": [
+            [
+                "researcher",
+                "know"
+            ]
+        ],
+        "Targets": [
+            [
+                "know",
+                "costs"
+            ],
+            [
+                "plan",
+                "research"
+            ]
+        ],
+        "Contains": []
+    },
+    {
+        "PID": "#G22#",
+        "Text": "#G22# As a repository manager, I need details on the type of data, so that I can check if the archiving can be arranged.",
+        "Persona": [
+            "repository manager"
+        ],
+        "Action": {
+            "Primary Action": [
+                "need"
+            ],
+            "Secondary Action": [
+                "check",
+                "arranged"
+            ]
+        },
+        "Entity": {
+            "Primary Entity": [
+                "details"
+            ],
+            "Secondary Entity": [
+                "type of data",
+                "archiving"
+            ]
+        },
+        "Benefit": "I can check if the archiving can be arranged",
+        "Triggers": [
+            [
+                "repository manager",
+                "need"
+            ]
+        ],
+        "Targets": [
+            [
+                "need",
+                "details"
+            ],
+            [
+                "check",
+                "archiving"
+            ],
+            [
+                "arranged",
+                "archiving"
+            ]
+        ],
+        "Contains": [
+            [
+                "type of data",
+                "details"
+            ]
+        ]
+    },
+    {
+        "PID": "#G22#",
+        "Text": "#G22# As an IT officer, I want to know how secure data is, so that I can ensure legal compliance.",
+        "Persona": [
+            "IT officer"
+        ],
+        "Action": {
+            "Primary Action": [
+                "know"
+            ],
+            "Secondary Action": [
+                "ensure"
+            ]
+        },
+        "Entity": {
+            "Primary Entity": [
+                "how secure"
+            ],
+            "Secondary Entity": [
+                "data",
+                "legal compliance"
+            ]
+        },
+        "Benefit": "I can ensure legal compliance",
+        "Triggers": [
+            [
+                "IT officer",
+                "know"
+            ]
+        ],
+        "Targets": [
+            [
+                "know",
+                "how secure"
+            ],
+            [
+                "ensure",
+                "legal compliance"
+            ]
+        ],
+        "Contains": []
+    },
+    {
+        "PID": "#G22#",
+        "Text": "#G22# As a funder, I want to know how secure data is, so that I can ensure legal compliance.",
+        "Persona": [
+            "funder"
+        ],
+        "Action": {
+            "Primary Action": [
+                "know"
+            ],
+            "Secondary Action": [
+                "ensure"
+            ]
+        },
+        "Entity": {
+            "Primary Entity": [
+                "how secure"
+            ],
+            "Secondary Entity": [
+                "data",
+                "legal compliance"
+            ]
+        },
+        "Benefit": "I can ensure legal compliance",
+        "Triggers": [
+            [
+                "funder",
+                "know"
+            ]
+        ],
+        "Targets": [
+            [
+                "know",
+                "how secure"
+            ],
+            [
+                "ensure",
+                "legal compliance"
+            ]
+        ],
+        "Contains": []
+    },
+    {
+        "PID": "#G22#",
+        "Text": "#G22# As a Research Centre Director, I want to receive regular summary reports of research data, so that I understand trends in data use among staff and postgraduate students.",
+        "Persona": [
+            "Research Centre Director"
+        ],
+        "Action": {
+            "Primary Action": [
+                "receive"
+            ],
+            "Secondary Action": [
+                "understand"
+            ]
+        },
+        "Entity": {
+            "Primary Entity": [
+                "regular summary reports"
+            ],
+            "Secondary Entity": [
+                "research data",
+                "trends",
+                "data use",
+                "staff",
+                "postgraduate students"
+            ]
+        },
+        "Benefit": "I understand trends in data use among staff and postgraduate students",
+        "Triggers": [
+            [
+                "Research Centre Director",
+                "receive"
+            ]
+        ],
+        "Targets": [
+            [
+                "receive",
+                "regular summary reports"
+            ],
+            [
+                "understand",
+                "trends"
+            ]
+        ],
+        "Contains": [
+            [
+                "regular summary reports",
+                "research data"
+            ],
+            [
+                "data use",
+                "trends"
+            ]
+        ]
+    },
+    {
+        "PID": "#G22#",
+        "Text": "#G22# As a Postgraduate Convenor, I want to receive regular summary reports of research data, so that I understand trends in data use among staff and postgraduate students.",
+        "Persona": [
+            "Postgraduate Convenor"
+        ],
+        "Action": {
+            "Primary Action": [
+                "receive"
+            ],
+            "Secondary Action": [
+                "understand"
+            ]
+        },
+        "Entity": {
+            "Primary Entity": [
+                "regular summary reports"
+            ],
+            "Secondary Entity": [
+                "research data",
+                "trends",
+                "data use",
+                "staff",
+                "postgraduate students"
+            ]
+        },
+        "Benefit": "I understand trends in data use among staff and postgraduate students",
+        "Triggers": [
+            [
+                "Postgraduate Convenor",
+                "receive"
+            ]
+        ],
+        "Targets": [
+            [
+                "receive",
+                "regular summary reports"
+            ],
+            [
+                "understand",
+                "trends"
+            ]
+        ],
+        "Contains": [
+            [
+                "research data",
+                "regular summary reports"
+            ],
+            [
+                "data use",
+                "trends"
+            ]
+        ]
+    },
+    {
+        "PID": "#G22#",
+        "Text": "#G22# As a research support officer, I want to ensure compliance to the funders’ rules, so that I can ensure all costs will be accepted.",
+        "Persona": [
+            "research support officer"
+        ],
+        "Action": {
+            "Primary Action": [
+                "ensure"
+            ],
+            "Secondary Action": [
+                "ensure",
+                "accepted"
+            ]
+        },
+        "Entity": {
+            "Primary Entity": [
+                "compliance"
+            ],
+            "Secondary Entity": [
+                "funders’ rules",
+                "all costs"
+            ]
+        },
+        "Benefit": "I can ensure all costs will be accepted",
+        "Triggers": [
+            [
+                "research support officer",
+                "ensure"
+            ]
+        ],
+        "Targets": [
+            [
+                "ensure",
+                "compliance "
+            ],
+            [
+                "accepted",
+                "all costs"
+            ]
+        ],
+        "Contains": []
+    },
+    {
+        "PID": "#G22#",
+        "Text": "#G22# As a funder, I want to be able to check all the repositories mentioned in a DMP, so that I can verify whether the project has followed our funding rules.",
+        "Persona": [
+            "funder"
+        ],
+        "Action": {
+            "Primary Action": [
+                "check"
+            ],
+            "Secondary Action": [
+                "verify",
+                "followed"
+            ]
+        },
+        "Entity": {
+            "Primary Entity": [
+                "repositories mentioned"
+            ],
+            "Secondary Entity": [
+                "DMP",
+                "project",
+                "funding rules"
+            ]
+        },
+        "Benefit": "I can verify whether the project has followed our funding rules",
+        "Triggers": [
+            [
+                "funder",
+                "check"
+            ]
+        ],
+        "Targets": [
+            [
+                "check",
+                "repositories mentioned"
+            ],
+            [
+                "followed",
+                "funding rules"
+            ],
+            [
+                "verify",
+                "project"
+            ]
+        ],
+        "Contains": [
+            [
+                "DMP",
+                "repositories mentioned"
+            ],
+            [
+                "project",
+                "funding rules"
+            ]
+        ]
+    },
+    {
+        "PID": "#G22#",
+        "Text": "#G22# As a PI, I want to plan what kind of data I want to store, so that I can ensure it will be possible to store it.",
+        "Persona": [
+            "PI"
+        ],
+        "Action": {
+            "Primary Action": [
+                "plan"
+            ],
+            "Secondary Action": [
+                "ensure",
+                "store"
+            ]
+        },
+        "Entity": {
+            "Primary Entity": [
+                "kind of data I want to store"
+            ],
+            "Secondary Entity": [
+                ""
+            ]
+        },
+        "Benefit": "I can ensure it will be possible to store it",
+        "Triggers": [
+            [
+                "PI",
+                "plan"
+            ]
+        ],
+        "Targets": [
+            [
+                "plan",
+                "kind of data I want to store"
+            ],
+            [
+                "store",
+                "kind of data I want to store"
+            ]
+        ],
+        "Contains": []
+    },
+    {
+        "PID": "#G22#",
+        "Text": "#G22# As a PI, I want to know how secure data is, so that I can ensure legal compliance.",
+        "Persona": [
+            "PI"
+        ],
+        "Action": {
+            "Primary Action": [
+                "know"
+            ],
+            "Secondary Action": [
+                "ensure"
+            ]
+        },
+        "Entity": {
+            "Primary Entity": [
+                "how secure"
+            ],
+            "Secondary Entity": [
+                "data",
+                "legal compliance"
+            ]
+        },
+        "Benefit": "I can ensure legal compliance",
+        "Triggers": [
+            [
+                "PI",
+                "know"
+            ]
+        ],
+        "Targets": [
+            [
+                "know",
+                "how secure"
+            ],
+            [
+                "ensure",
+                "legal compliance"
+            ]
+        ],
+        "Contains": []
+    },
+    {
+        "PID": "#G22#",
+        "Text": "#G22# As a Director of Research Integrity, I want to access reports containing details of research projects in which data are classified as sensitive or highly sensitive, so that I can confirm security protocols are applied to these data.",
+        "Persona": [
+            "Director of Research Integrity"
+        ],
+        "Action": {
+            "Primary Action": [
+                "access"
+            ],
+            "Secondary Action": [
+                "confirm",
+                "applied",
+                "classified"
+            ]
+        },
+        "Entity": {
+            "Primary Entity": [
+                "reports"
+            ],
+            "Secondary Entity": [
+                "details",
+                "research projects",
+                "data",
+                "security protocols",
+                "data"
+            ]
+        },
+        "Benefit": "I can confirm security protocols are applied to these data",
+        "Triggers": [
+            [
+                "Director of Research Integrity",
+                "access"
+            ]
+        ],
+        "Targets": [
+            [
+                "access",
+                "reports"
+            ],
+            [
+                "confirm",
+                "security protocols"
+            ],
+            [
+                "applied",
+                "security protocols"
+            ],
+            [
+                "classified",
+                "data"
+            ]
+        ],
+        "Contains": [
+            [
+                "reports",
+                "details"
+            ],
+            [
+                "data",
+                "security protocols"
+            ],
+            [
+                "research projects",
+                "details"
+            ]
+        ]
+    },
+    {
+        "PID": "#G22#",
+        "Text": "#G22# As an archive, I want to get information about the volume of data to preserve at an early stage, so that I can provide the adequate storage infrastructure.",
+        "Persona": [
+            "archive"
+        ],
+        "Action": {
+            "Primary Action": [
+                "get"
+            ],
+            "Secondary Action": [
+                "provide"
+            ]
+        },
+        "Entity": {
+            "Primary Entity": [
+                "information"
+            ],
+            "Secondary Entity": [
+                "volume",
+                "early stage",
+                "adequate storage infrastructure",
+                "data to preserve"
+            ]
+        },
+        "Benefit": "I can provide the adequate storage infrastructure",
+        "Triggers": [
+            [
+                "archive",
+                "get"
+            ]
+        ],
+        "Targets": [
+            [
+                "get",
+                "information"
+            ],
+            [
+                "provide",
+                "adequate storage infrastructure"
+            ]
+        ],
+        "Contains": [
+            [
+                "volume",
+                "information"
+            ],
+            [
+                "data to preserve",
+                "volume"
+            ]
+        ]
+    },
+    {
+        "PID": "#G22#",
+        "Text": "#G22# As a researcher, I want to know how long it will take to archive, so that I can plan further steps.",
+        "Persona": [
+            "researcher"
+        ],
+        "Action": {
+            "Primary Action": [
+                "know"
+            ],
+            "Secondary Action": [
+                "archive",
+                "plan"
+            ]
+        },
+        "Entity": {
+            "Primary Entity": [
+                "how long"
+            ],
+            "Secondary Entity": [
+                "further steps"
+            ]
+        },
+        "Benefit": "I can plan further steps",
+        "Triggers": [
+            [
+                "researcher",
+                "know"
+            ]
+        ],
+        "Targets": [
+            [
+                "know",
+                "how long"
+            ],
+            [
+                "plan",
+                "further steps"
+            ]
+        ],
+        "Contains": []
+    },
+    {
+        "PID": "#G22#",
+        "Text": "#G22# As a PI, I want to know who owns the data, so that I know what I am allowed to do with it.",
+        "Persona": [
+            "PI"
+        ],
+        "Action": {
+            "Primary Action": [
+                "know"
+            ],
+            "Secondary Action": [
+                "know"
+            ]
+        },
+        "Entity": {
+            "Primary Entity": [
+                "who"
+            ],
+            "Secondary Entity": [
+                "data",
+                "what"
+            ]
+        },
+        "Benefit": "I know what I am allowed to do with it",
+        "Triggers": [
+            [
+                "PI",
+                "know"
+            ]
+        ],
+        "Targets": [
+            [
+                "know",
+                "who"
+            ],
+            [
+                "know",
+                "what"
+            ]
+        ],
+        "Contains": [
+            [
+                "who",
+                "data"
+            ]
+        ]
+    },
+    {
+        "PID": "#G22#",
+        "Text": "#G22# As a data manager, I want to have references to documentation of the data and its creation process, so that the data can be re-used and managed.",
+        "Persona": [
+            "data manager"
+        ],
+        "Action": {
+            "Primary Action": [
+                "have"
+            ],
+            "Secondary Action": [
+                "re-used",
+                "managed"
+            ]
+        },
+        "Entity": {
+            "Primary Entity": [
+                "references",
+                "creation process"
+            ],
+            "Secondary Entity": [
+                "documentation",
+                "data",
+                "data"
+            ]
+        },
+        "Benefit": "the data can be re-used and managed",
+        "Triggers": [
+            [
+                "data manager",
+                "have"
+            ]
+        ],
+        "Targets": [
+            [
+                "have",
+                "references"
+            ],
+            [
+                "have",
+                "creation process"
+            ],
+            [
+                "re-used",
+                "data"
+            ],
+            [
+                "managed",
+                "data"
+            ]
+        ],
+        "Contains": [
+            [
+                "documentation",
+                "references"
+            ],
+            [
+                "data",
+                "documentation"
+            ],
+            [
+                "documentation",
+                "creation process"
+            ]
+        ]
+    },
+    {
+        "PID": "#G22#",
+        "Text": "#G22# As an archivemanager, I want to make sure that detailed metadata are associated to data so that it will be understandable by future users.",
+        "Persona": [
+            "archivemanager"
+        ],
+        "Action": {
+            "Primary Action": [
+                "make sure"
+            ],
+            "Secondary Action": [
+                "associated"
+            ]
+        },
+        "Entity": {
+            "Primary Entity": [
+                ""
+            ],
+            "Secondary Entity": [
+                "detailed metadata",
+                "data",
+                "future users"
+            ]
+        },
+        "Benefit": "it will be understandable by future users",
+        "Triggers": [
+            [
+                "archivemanager",
+                "make sure"
+            ]
+        ],
+        "Targets": [
+            [
+                "associated",
+                "detailed metadata"
+            ]
+        ],
+        "Contains": [
+            [
+                "data",
+                "detailed metadata"
+            ]
+        ]
+    },
+    {
+        "PID": "#G22#",
+        "Text": "#G22# As a data manager, I want to know which kind of data types will be produced or collected, so that I can ensure that the necessary technical resources and technical know-how is available.",
+        "Persona": [
+            "data manager"
+        ],
+        "Action": {
+            "Primary Action": [
+                "know"
+            ],
+            "Secondary Action": [
+                "produced",
+                "collected",
+                "ensure"
+            ]
+        },
+        "Entity": {
+            "Primary Entity": [
+                "kind of data types"
+            ],
+            "Secondary Entity": [
+                "necessary technical resources",
+                "technical know-how"
+            ]
+        },
+        "Benefit": "I can ensure that the necessary technical resources and technical know-how is available",
+        "Triggers": [
+            [
+                "data manager",
+                "know"
+            ]
+        ],
+        "Targets": [
+            [
+                "know",
+                "kind of data types"
+            ],
+            [
+                "produced",
+                "kind of data types"
+            ],
+            [
+                "collected",
+                "kind of data types"
+            ]
+        ],
+        "Contains": []
+    },
+    {
+        "PID": "#G22#",
+        "Text": "#G22# As an IT staff member, I want to know which kind of data types will be produced or collected, so that I can ensure that the necessary technical resources and technical know-how is available.",
+        "Persona": [
+            "IT staff member"
+        ],
+        "Action": {
+            "Primary Action": [
+                "know"
+            ],
+            "Secondary Action": [
+                "produced",
+                "collected",
+                "ensure"
+            ]
+        },
+        "Entity": {
+            "Primary Entity": [
+                "kind of data types"
+            ],
+            "Secondary Entity": [
+                "necessary technical resources",
+                "technical know-how"
+            ]
+        },
+        "Benefit": "I can ensure that the necessary technical resources and technical know-how is available",
+        "Triggers": [
+            [
+                "IT staff member",
+                "know"
+            ]
+        ],
+        "Targets": [
+            [
+                "know",
+                "kind of data types"
+            ],
+            [
+                "produced",
+                "kind of data types"
+            ],
+            [
+                "collected",
+                "kind of data types"
+            ]
+        ],
+        "Contains": []
+    },
+    {
+        "PID": "#G22#",
+        "Text": "#G22# As an IT staff member, I want to know how the data is used, so that I can determine what kind of basic services and functionalities are required.",
+        "Persona": [
+            "IT staff member"
+        ],
+        "Action": {
+            "Primary Action": [
+                "know"
+            ],
+            "Secondary Action": [
+                "used",
+                "determine"
+            ]
+        },
+        "Entity": {
+            "Primary Entity": [
+                "how"
+            ],
+            "Secondary Entity": [
+                "data",
+                "kind of basic services",
+                "functionalities"
+            ]
+        },
+        "Benefit": "I can determine what kind of basic services and functionalities are required",
+        "Triggers": [
+            [
+                "IT staff member",
+                "know"
+            ]
+        ],
+        "Targets": [
+            [
+                "know",
+                "how"
+            ],
+            [
+                "used",
+                "data"
+            ],
+            [
+                "determine",
+                "kind of basic services"
+            ],
+            [
+                "determine",
+                "functionalities"
+            ]
+        ],
+        "Contains": []
+    },
+    {
+        "PID": "#G22#",
+        "Text": "#G22# As a data manager, I want to know whether the collected data depends on other data sets from my own or other institutions, so that I can ensure that these dependencies are maintained.",
+        "Persona": [
+            "data manager"
+        ],
+        "Action": {
+            "Primary Action": [
+                "know"
+            ],
+            "Secondary Action": [
+                "ensure",
+                "maintained"
+            ]
+        },
+        "Entity": {
+            "Primary Entity": [
+                ""
+            ],
+            "Secondary Entity": [
+                "collected data",
+                "other data sets",
+                "own or other institutions",
+                "dependencies"
+            ]
+        },
+        "Benefit": "I can ensure that these dependencies are maintained",
+        "Triggers": [
+            [
+                "data manager",
+                "know"
+            ]
+        ],
+        "Targets": [
+            [
+                "maintained",
+                "dependencies"
+            ]
+        ],
+        "Contains": [
+            [
+                "own or other institutions",
+                "other data sets"
+            ]
+        ]
+    },
+    {
+        "PID": "#G22#",
+        "Text": "#G22# As an IT staff member, I want to know which formats are used, so that I can determine what kind of technical services and functionalities are required.",
+        "Persona": [
+            "IT staff member"
+        ],
+        "Action": {
+            "Primary Action": [
+                "know"
+            ],
+            "Secondary Action": [
+                "used",
+                "determine"
+            ]
+        },
+        "Entity": {
+            "Primary Entity": [
+                "formats"
+            ],
+            "Secondary Entity": [
+                "kind of technical services",
+                "functionalities"
+            ]
+        },
+        "Benefit": "I can determine what kind of technical services and functionalities are required",
+        "Triggers": [
+            [
+                "IT staff member",
+                "know"
+            ]
+        ],
+        "Targets": [
+            [
+                "know",
+                "formats"
+            ],
+            [
+                "used",
+                "formats"
+            ],
+            [
+                "determine",
+                "kind of technical services"
+            ],
+            [
+                "determine",
+                "functionalities"
+            ]
+        ],
+        "Contains": []
+    },
+    {
+        "PID": "#G22#",
+        "Text": "#G22# As an IT staff member, I want to know with which software or technology the data is produced or used, so that I can determine what kind of technical services and functionalities are required.",
+        "Persona": [
+            "IT staff member"
+        ],
+        "Action": {
+            "Primary Action": [
+                "know"
+            ],
+            "Secondary Action": [
+                "produced",
+                "used",
+                "determine"
+            ]
+        },
+        "Entity": {
+            "Primary Entity": [
+                "software",
+                "technology"
+            ],
+            "Secondary Entity": [
+                "data",
+                "kind of technical services",
+                "functionalities"
+            ]
+        },
+        "Benefit": "I can determine what kind of technical services and functionalities are required",
+        "Triggers": [
+            [
+                "IT staff member",
+                "know"
+            ]
+        ],
+        "Targets": [
+            [
+                "know",
+                "software"
+            ],
+            [
+                "produced",
+                "data"
+            ],
+            [
+                "used",
+                "data"
+            ],
+            [
+                "know",
+                "technology"
+            ],
+            [
+                "determine",
+                "kind of technical services"
+            ],
+            [
+                "determine",
+                "functionalities"
+            ]
+        ],
+        "Contains": [
+            [
+                "software",
+                "data"
+            ],
+            [
+                "technology",
+                "data"
+            ]
+        ]
+    },
+    {
+        "PID": "#G22#",
+        "Text": "#G22# As a data manager, I want to know which information is necessary to re-use the data, so that it can be checked whether all necessary information is available for researchers interested in re-using the data.",
+        "Persona": [
+            "data manager"
+        ],
+        "Action": {
+            "Primary Action": [
+                "know"
+            ],
+            "Secondary Action": [
+                "re-use",
+                "checked",
+                "re-using"
+            ]
+        },
+        "Entity": {
+            "Primary Entity": [
+                "information"
+            ],
+            "Secondary Entity": [
+                "data",
+                "all necessary information",
+                "researchers",
+                "data"
+            ]
+        },
+        "Benefit": "it can be checked whether all necessary information is available for researchers interested in re-using the data",
+        "Triggers": [
+            [
+                "data manager",
+                "know"
+            ]
+        ],
+        "Targets": [
+            [
+                "know",
+                "information"
+            ],
+            [
+                "re-use",
+                "data"
+            ],
+            [
+                "re-using",
+                "data"
+            ],
+            [
+                "checked",
+                "information"
+            ]
+        ],
+        "Contains": [
+            [
+                "researchers",
+                "all necessary information"
+            ]
+        ]
+    },
+    {
+        "PID": "#G22#",
+        "Text": "#G22# As a data manager, I want to know which formats are used, so that I know what technology or background information might be necessary to use the data.",
+        "Persona": [
+            "data manager"
+        ],
+        "Action": {
+            "Primary Action": [
+                "know"
+            ],
+            "Secondary Action": [
+                "know",
+                "use",
+                "used"
+            ]
+        },
+        "Entity": {
+            "Primary Entity": [
+                "formats"
+            ],
+            "Secondary Entity": [
+                "technology",
+                "background information",
+                "data"
+            ]
+        },
+        "Benefit": "I know what technology or background information might be necessary to use the data",
+        "Triggers": [
+            [
+                "data manager",
+                "know"
+            ]
+        ],
+        "Targets": [
+            [
+                "know",
+                "formats"
+            ],
+            [
+                "used",
+                "formats"
+            ],
+            [
+                "know",
+                "technology"
+            ],
+            [
+                "know",
+                "background information"
+            ],
+            [
+                "use",
+                "data"
+            ]
+        ],
+        "Contains": []
+    },
+    {
+        "PID": "#G22#",
+        "Text": "#G22# As a data manager, I want to know whether the data can be reproduced efficiently, so that I can determine whether and how the data has to be stored.",
+        "Persona": [
+            "data manager"
+        ],
+        "Action": {
+            "Primary Action": [
+                "know"
+            ],
+            "Secondary Action": [
+                "reproduced efficiently",
+                "determine",
+                "stored"
+            ]
+        },
+        "Entity": {
+            "Primary Entity": [
+                ""
+            ],
+            "Secondary Entity": [
+                "data",
+                "how",
+                "data"
+            ]
+        },
+        "Benefit": "I can determine whether and how the data has to be stored",
+        "Triggers": [
+            [
+                "data manager",
+                "know"
+            ]
+        ],
+        "Targets": [
+            [
+                "reproduced efficiently",
+                "data"
+            ],
+            [
+                "determine",
+                "how"
+            ],
+            [
+                "stored",
+                "data"
+            ]
+        ],
+        "Contains": []
+    },
+    {
+        "PID": "#G22#",
+        "Text": "#G22# As a data manager, I want to know with which software or technology the data is produced or used, so that I know what technology or background information might be necessary to (re-)use the data.",
+        "Persona": [
+            "data manager"
+        ],
+        "Action": {
+            "Primary Action": [
+                "know"
+            ],
+            "Secondary Action": [
+                "produced",
+                "used",
+                "know",
+                "(re-)use"
+            ]
+        },
+        "Entity": {
+            "Primary Entity": [
+                "software",
+                "technology"
+            ],
+            "Secondary Entity": [
+                "data",
+                "technology",
+                "background information",
+                "data"
+            ]
+        },
+        "Benefit": "I know what technology or background information might be necessary to (re-)use the data",
+        "Triggers": [
+            [
+                "data manager",
+                "know"
+            ]
+        ],
+        "Targets": [
+            [
+                "know",
+                "software"
+            ],
+            [
+                "know",
+                "technology"
+            ],
+            [
+                "produced",
+                "data"
+            ],
+            [
+                "used",
+                "data"
+            ],
+            [
+                "know",
+                "technology"
+            ],
+            [
+                "know",
+                "background information"
+            ],
+            [
+                "(re-)use",
+                "data"
+            ]
+        ],
+        "Contains": [
+            [
+                "technology",
+                "data"
+            ],
+            [
+                "software",
+                "data"
+            ]
+        ]
+    },
+    {
+        "PID": "#G22#",
+        "Text": "#G22# As a research evaluation manager, I want to ensure all data are quoted correctly with our affiliation, so that they are counted towards our citation counts.",
+        "Persona": [
+            "research evaluation manager"
+        ],
+        "Action": {
+            "Primary Action": [
+                "ensure"
+            ],
+            "Secondary Action": [
+                "quoted correctly"
+            ]
+        },
+        "Entity": {
+            "Primary Entity": [
+                ""
+            ],
+            "Secondary Entity": [
+                "all data",
+                "affiliation",
+                "citation counts"
+            ]
+        },
+        "Benefit": "they are counted towards our citation counts",
+        "Triggers": [
+            [
+                "research evaluation manager",
+                "ensure"
+            ]
+        ],
+        "Targets": [
+            [
+                "quoted correctly",
+                "all data"
+            ]
+        ],
+        "Contains": [
+            [
+                "all data",
+                "affiliation"
+            ]
+        ]
+    },
+    {
+        "PID": "#G22#",
+        "Text": "#G22# As an administrator, I want to check that all data has the appropriate security level, so that I can demonstrate compliance.",
+        "Persona": [
+            "administrator"
+        ],
+        "Action": {
+            "Primary Action": [
+                "check"
+            ],
+            "Secondary Action": [
+                "demonstrate"
+            ]
+        },
+        "Entity": {
+            "Primary Entity": [
+                "all data"
+            ],
+            "Secondary Entity": [
+                "appropriate security level",
+                "compliance"
+            ]
+        },
+        "Benefit": "I can demonstrate compliance",
+        "Triggers": [
+            [
+                "administrator",
+                "check"
+            ]
+        ],
+        "Targets": [
+            [
+                "check",
+                "all data"
+            ],
+            [
+                "demonstrate",
+                "compliance"
+            ]
+        ],
+        "Contains": [
+            [
+                "all data",
+                "appropriate security level"
+            ]
+        ]
+    },
+    {
+        "PID": "#G22#",
+        "Text": "#G22# As a data manager, I want to know the security requirements of the data, so that I can check whether the data can be kept secure.",
+        "Persona": [
+            "data manager"
+        ],
+        "Action": {
+            "Primary Action": [
+                "know"
+            ],
+            "Secondary Action": [
+                "check",
+                "kept secure"
+            ]
+        },
+        "Entity": {
+            "Primary Entity": [
+                "security requirements"
+            ],
+            "Secondary Entity": [
+                "data",
+                "data"
+            ]
+        },
+        "Benefit": "I can check whether the data can be kept secure",
+        "Triggers": [
+            [
+                "data manager",
+                "know"
+            ]
+        ],
+        "Targets": [
+            [
+                "know",
+                "security requirements"
+            ],
+            [
+                "kept secure",
+                "data"
+            ]
+        ],
+        "Contains": [
+            [
+                "data",
+                "security requirements"
+            ]
+        ]
+    },
+    {
+        "PID": "#G22#",
+        "Text": "#G22# As a institutional data steward, I want to be able to extract the data sets that are submitted to external repositories, so that I can add them to an institutional data catalogue.",
+        "Persona": [
+            "institutional data steward"
+        ],
+        "Action": {
+            "Primary Action": [
+                "extract"
+            ],
+            "Secondary Action": [
+                "add"
+            ]
+        },
+        "Entity": {
+            "Primary Entity": [
+                "data sets"
+            ],
+            "Secondary Entity": [
+                "external repositories",
+                "institutional data catalogue"
+            ]
+        },
+        "Benefit": "I can add them to an institutional data catalogue",
+        "Triggers": [
+            [
+                "institutional data steward",
+                "extract"
+            ]
+        ],
+        "Targets": [
+            [
+                "extract",
+                "data sets"
+            ],
+            [
+                "add",
+                "data sets"
+            ]
+        ],
+        "Contains": [
+            [
+                "external repositories",
+                "data sets"
+            ],
+            [
+                "institutional data catalogue",
+                "data sets"
+            ]
+        ]
+    },
+    {
+        "PID": "#G22#",
+        "Text": "#G22# As an institutional data manager, I want to know about the privacy and security requirements of the data, so that I can plan the right storage system and sharing permissions.",
+        "Persona": [
+            "institutional data manager"
+        ],
+        "Action": {
+            "Primary Action": [
+                "know"
+            ],
+            "Secondary Action": [
+                "plan"
+            ]
+        },
+        "Entity": {
+            "Primary Entity": [
+                "privacy",
+                "security requirements"
+            ],
+            "Secondary Entity": [
+                "data",
+                "right storage system",
+                "sharing permissions"
+            ]
+        },
+        "Benefit": "I can plan the right storage system and sharing permissions",
+        "Triggers": [
+            [
+                "institutional data manager",
+                "know"
+            ]
+        ],
+        "Targets": [
+            [
+                "plan",
+                "right storage system"
+            ],
+            [
+                "plan",
+                "sharing permissions"
+            ],
+            [
+                "know",
+                "privacy"
+            ],
+            [
+                "know",
+                "security requirements"
+            ]
+        ],
+        "Contains": [
+            [
+                "data",
+                "privacy"
+            ],
+            [
+                "data",
+                "security requirements"
+            ]
+        ]
+    },
+    {
+        "PID": "#G22#",
+        "Text": "#G22# As a researcher, I want to see the sections on costing by other researchers in my department, so that I can see if we could share data manager posts.",
+        "Persona": [
+            "researcher"
+        ],
+        "Action": {
+            "Primary Action": [
+                "see"
+            ],
+            "Secondary Action": [
+                "see",
+                "share"
+            ]
+        },
+        "Entity": {
+            "Primary Entity": [
+                "sections"
+            ],
+            "Secondary Entity": [
+                "costing",
+                "other researchers",
+                "department",
+                "data manager posts"
+            ]
+        },
+        "Benefit": "I can see if we could share data manager posts",
+        "Triggers": [
+            [
+                "researcher",
+                "see"
+            ]
+        ],
+        "Targets": [
+            [
+                "see",
+                "sections"
+            ],
+            [
+                "share",
+                "data manager posts"
+            ]
+        ],
+        "Contains": [
+            [
+                "sections",
+                "costing"
+            ],
+            [
+                "department",
+                "other researchers"
+            ],
+            [
+                "other researchers",
+                "costing"
+            ]
+        ]
+    },
+    {
+        "PID": "#G22#",
+        "Text": "#G22# As a researcher, I want to see the sections on roles submitted by other researchers in my department, so that I can see if we could share data manager posts.",
+        "Persona": [
+            "researcher"
+        ],
+        "Action": {
+            "Primary Action": [
+                "see"
+            ],
+            "Secondary Action": [
+                "see",
+                "share",
+                "submitted"
+            ]
+        },
+        "Entity": {
+            "Primary Entity": [
+                "sections"
+            ],
+            "Secondary Entity": [
+                "other researchers",
+                "department",
+                "data manager posts",
+                "roles"
+            ]
+        },
+        "Benefit": "I can see if we could share data manager posts",
+        "Triggers": [
+            [
+                "researcher",
+                "see"
+            ]
+        ],
+        "Targets": [
+            [
+                "see",
+                "sections"
+            ],
+            [
+                "share",
+                "data manager posts"
+            ],
+            [
+                "submitted",
+                "roles"
+            ]
+        ],
+        "Contains": [
+            [
+                "department",
+                "other researchers"
+            ],
+            [
+                "sections",
+                "roles"
+            ],
+            [
+                "other researchers",
+                "roles"
+            ]
+        ]
+    },
+    {
+        "PID": "#G22#",
+        "Text": "#G22# As a researcher, I want to see the sections on responsibilities submitted by other researchers in my department, so that I can see if we could share data manager posts.",
+        "Persona": [
+            "researcher"
+        ],
+        "Action": {
+            "Primary Action": [
+                "see"
+            ],
+            "Secondary Action": [
+                "see",
+                "share",
+                "submitted"
+            ]
+        },
+        "Entity": {
+            "Primary Entity": [
+                "sections"
+            ],
+            "Secondary Entity": [
+                "other researchers",
+                "department",
+                "data manager posts",
+                "responsibilities"
+            ]
+        },
+        "Benefit": "I can see if we could share data manager posts",
+        "Triggers": [
+            [
+                "researcher",
+                "see"
+            ]
+        ],
+        "Targets": [
+            [
+                "see",
+                "sections"
+            ],
+            [
+                "share",
+                "data manager posts"
+            ],
+            [
+                "submitted",
+                "responsibilities"
+            ]
+        ],
+        "Contains": [
+            [
+                "department",
+                "other researchers"
+            ],
+            [
+                "sections",
+                "responsibilities"
+            ],
+            [
+                "other researchers",
+                "responsibilities"
+            ]
+        ]
+    },
+    {
+        "PID": "#G22#",
+        "Text": "#G22# As a faculty data steward, I want to see the sections on costing, so that I can ensure sufficient expertise on data management to support the project.",
+        "Persona": [
+            "faculty data steward"
+        ],
+        "Action": {
+            "Primary Action": [
+                "see"
+            ],
+            "Secondary Action": [
+                "ensure",
+                "support"
+            ]
+        },
+        "Entity": {
+            "Primary Entity": [
+                "sections"
+            ],
+            "Secondary Entity": [
+                "costing",
+                "sufficient expertise",
+                "data management",
+                "project"
+            ]
+        },
+        "Benefit": "I can ensure sufficient expertise on data management to support the project",
+        "Triggers": [
+            [
+                "faculty data steward",
+                "see"
+            ]
+        ],
+        "Targets": [
+            [
+                "see",
+                "sections"
+            ],
+            [
+                "ensure",
+                "sufficient expertise"
+            ],
+            [
+                "support",
+                "project"
+            ]
+        ],
+        "Contains": [
+            [
+                "sections",
+                "costing"
+            ],
+            [
+                "data management",
+                "sufficient expertise"
+            ],
+            [
+                "project",
+                "data management"
+            ]
+        ]
+    },
+    {
+        "PID": "#G22#",
+        "Text": "#G22# As a faculty data steward, I want to see the sections on roles, so that I can ensure sufficient expertise on data management to support the project.",
+        "Persona": [
+            "faculty data steward"
+        ],
+        "Action": {
+            "Primary Action": [
+                "see"
+            ],
+            "Secondary Action": [
+                "ensure",
+                "support"
+            ]
+        },
+        "Entity": {
+            "Primary Entity": [
+                "sections"
+            ],
+            "Secondary Entity": [
+                "roles",
+                "sufficient expertise",
+                "data management",
+                "project"
+            ]
+        },
+        "Benefit": "I can ensure sufficient expertise on data management to support the project",
+        "Triggers": [
+            [
+                "faculty data steward",
+                "see"
+            ]
+        ],
+        "Targets": [
+            [
+                "see",
+                "sections"
+            ],
+            [
+                "ensure",
+                "sufficient expertise"
+            ],
+            [
+                "support",
+                "project"
+            ]
+        ],
+        "Contains": [
+            [
+                "sections",
+                "roles"
+            ],
+            [
+                "data management",
+                "sufficient expertise"
+            ],
+            [
+                "project",
+                "data management"
+            ]
+        ]
+    },
+    {
+        "PID": "#G22#",
+        "Text": "#G22# As a faculty data steward, I want to see the sections on responsibilities, so that I can ensure sufficient expertise on data management to support the project.",
+        "Persona": [
+            "faculty data steward"
+        ],
+        "Action": {
+            "Primary Action": [
+                "see"
+            ],
+            "Secondary Action": [
+                "ensure",
+                "support"
+            ]
+        },
+        "Entity": {
+            "Primary Entity": [
+                "sections"
+            ],
+            "Secondary Entity": [
+                "responsibilities",
+                "sufficient expertise",
+                "data management",
+                "project"
+            ]
+        },
+        "Benefit": "I can ensure sufficient expertise on data management to support the project",
+        "Triggers": [
+            [
+                "faculty data steward,",
+                "see"
+            ]
+        ],
+        "Targets": [
+            [
+                "see",
+                "sections"
+            ],
+            [
+                "support",
+                "project"
+            ],
+            [
+                "ensure",
+                "sufficient expertise"
+            ]
+        ],
+        "Contains": [
+            [
+                "sections",
+                "responsibilities"
+            ],
+            [
+                "data management",
+                "sufficient expertise"
+            ],
+            [
+                "project",
+                "data management"
+            ]
+        ]
+    },
+    {
+        "PID": "#G22#",
+        "Text": "#G22# As a data manager, I want to clarify the necessary rights for re-using the data, so that it is legal to reuse the data.",
+        "Persona": [
+            "data manager"
+        ],
+        "Action": {
+            "Primary Action": [
+                "clarify"
+            ],
+            "Secondary Action": [
+                "re-using",
+                "reuse"
+            ]
+        },
+        "Entity": {
+            "Primary Entity": [
+                "necessary rights"
+            ],
+            "Secondary Entity": [
+                "data",
+                "data"
+            ]
+        },
+        "Benefit": "it is legal to reuse the data",
+        "Triggers": [
+            [
+                "data manager",
+                "clarify"
+            ]
+        ],
+        "Targets": [
+            [
+                "clarify",
+                "necessary rights"
+            ],
+            [
+                "re-using",
+                "data"
+            ],
+            [
+                "reuse",
+                "data"
+            ]
+        ],
+        "Contains": [
+            [
+                "data",
+                "necessary rights"
+            ]
+        ]
+    },
+    {
+        "PID": "#G22#",
+        "Text": "#G22# As a researcher, I want to record my intention to share data I have collected under terms of a particular licence, so that other researchers who use the data understand the rights of use.",
+        "Persona": [
+            "researcher"
+        ],
+        "Action": {
+            "Primary Action": [
+                "record"
+            ],
+            "Secondary Action": [
+                "share",
+                "use",
+                "understand"
+            ]
+        },
+        "Entity": {
+            "Primary Entity": [
+                "intention"
+            ],
+            "Secondary Entity": [
+                "data I have collected",
+                "other researchers",
+                "data",
+                "rights of use",
+                "particular licence",
+                "terms"
+            ]
+        },
+        "Benefit": "other researchers who use the data understand the rights of use",
+        "Triggers": [
+            [
+                "researcher",
+                "record"
+            ]
+        ],
+        "Targets": [
+            [
+                "record",
+                "intention"
+            ],
+            [
+                "share",
+                "data I have collected"
+            ],
+            [
+                "use",
+                "data"
+            ],
+            [
+                "understand",
+                "rights of use"
+            ]
+        ],
+        "Contains": [
+            [
+                "particular licence",
+                "terms"
+            ],
+            [
+                "data",
+                "rights of use"
+            ]
+        ]
+    },
+    {
+        "PID": "#G22#",
+        "Text": "#G22# As a data manager, I want to plan the anonymization of data, so that we protect the privacy of the people participating in the research as good as possible and still ensure reusability of data.",
+        "Persona": [
+            "data manager"
+        ],
+        "Action": {
+            "Primary Action": [
+                "plan"
+            ],
+            "Secondary Action": [
+                "protect",
+                "participating",
+                "still ensure"
+            ]
+        },
+        "Entity": {
+            "Primary Entity": [
+                "anonymization of data"
+            ],
+            "Secondary Entity": [
+                "research",
+                "reusability of data",
+                "privacy",
+                "people"
+            ]
+        },
+        "Benefit": "we protect the privacy of the people participating in the research as good as possible and still ensure reusability of data",
+        "Triggers": [
+            [
+                "data manager",
+                "plan"
+            ]
+        ],
+        "Targets": [
+            [
+                "participating",
+                "research"
+            ],
+            [
+                "still ensure",
+                "reusability of data"
+            ],
+            [
+                "protect",
+                "privacy"
+            ],
+            [
+                "plan",
+                "anonymization of data"
+            ]
+        ],
+        "Contains": [
+            [
+                "people",
+                "privacy"
+            ]
+        ]
+    },
+    {
+        "PID": "#G22#",
+        "Text": "#G22# As a repository manager, I want to have metadata in additional languages, so that I can allow for multilingual data archive.",
+        "Persona": [
+            "repository manager"
+        ],
+        "Action": {
+            "Primary Action": [
+                "have"
+            ],
+            "Secondary Action": [
+                "allow"
+            ]
+        },
+        "Entity": {
+            "Primary Entity": [
+                "metadata"
+            ],
+            "Secondary Entity": [
+                "additional languages",
+                "multilingual data archive"
+            ]
+        },
+        "Benefit": "I can allow for multilingual data archive",
+        "Triggers": [
+            [
+                "repository manager",
+                "have"
+            ]
+        ],
+        "Targets": [
+            [
+                "have",
+                "metadata"
+            ],
+            [
+                "allow",
+                "multilingual data archive"
+            ]
+        ],
+        "Contains": [
+            [
+                "metadata",
+                "additional languages"
+            ]
+        ]
+    },
+    {
+        "PID": "#G22#",
+        "Text": "#G22# As a data manager, I want to know whether the DMP was approved, so that I can proceed with the required next steps.",
+        "Persona": [
+            "data manager"
+        ],
+        "Action": {
+            "Primary Action": [
+                "know"
+            ],
+            "Secondary Action": [
+                "approved",
+                "proceed"
+            ]
+        },
+        "Entity": {
+            "Primary Entity": [
+                ""
+            ],
+            "Secondary Entity": [
+                "DMP",
+                "required next steps"
+            ]
+        },
+        "Benefit": "I can proceed with the required next steps",
+        "Triggers": [
+            [
+                "data manager",
+                "know"
+            ]
+        ],
+        "Targets": [
+            [
+                "approved",
+                "DMP"
+            ],
+            [
+                "proceed",
+                "required next steps"
+            ]
+        ],
+        "Contains": []
+    }
+]

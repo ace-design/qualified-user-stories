@@ -1,0 +1,2584 @@
+[
+    {
+        "PID": "#G23#",
+        "Text": "#G23# As a researcher, I want to be able to view a finding aid for a particular collection/Resource.",
+        "Persona": [
+            "researcher"
+        ],
+        "Action": {
+            "Primary Action": [
+                "view"
+            ],
+            "Secondary Action": [
+                ""
+            ]
+        },
+        "Entity": {
+            "Primary Entity": [
+                "finding aid"
+            ],
+            "Secondary Entity": [
+                "particular collection",
+                "Resource"
+            ]
+        },
+        "Benefit": "",
+        "Triggers": [
+            [
+                "researcher",
+                "view"
+            ]
+        ],
+        "Targets": [
+            [
+                "view",
+                "finding aid"
+            ]
+        ],
+        "Contains": [
+            [
+                "particular collection",
+                "finding aid"
+            ],
+            [
+                "Resource",
+                "finding aid"
+            ]
+        ]
+    },
+    {
+        "PID": "#G23#",
+        "Text": "#G23# As an Application Administrator, I want to be able to reset a User's password for them.",
+        "Persona": [
+            "Application Administrator"
+        ],
+        "Action": {
+            "Primary Action": [
+                "reset"
+            ],
+            "Secondary Action": [
+                ""
+            ]
+        },
+        "Entity": {
+            "Primary Entity": [
+                "User's password"
+            ],
+            "Secondary Entity": [
+                ""
+            ]
+        },
+        "Benefit": "",
+        "Triggers": [
+            [
+                "Application Administrator",
+                "reset"
+            ]
+        ],
+        "Targets": [
+            [
+                "reset",
+                "User's password"
+            ]
+        ],
+        "Contains": []
+    },
+    {
+        "PID": "#G23#",
+        "Text": "#G23# As a user, I want backend changes for managing enum lists.",
+        "Persona": [
+            "user"
+        ],
+        "Action": {
+            "Primary Action": [
+                "want"
+            ],
+            "Secondary Action": [
+                "managing"
+            ]
+        },
+        "Entity": {
+            "Primary Entity": [
+                "backend changes"
+            ],
+            "Secondary Entity": [
+                "enum lists"
+            ]
+        },
+        "Benefit": "",
+        "Triggers": [
+            [
+                "user",
+                "want"
+            ]
+        ],
+        "Targets": [
+            [
+                "want",
+                "backend changes"
+            ],
+            [
+                "managing",
+                "enum lists"
+            ]
+        ],
+        "Contains": []
+    },
+    {
+        "PID": "#G23#",
+        "Text": "#G23# As an Archivist, I want to import EAD files that were exported by Archon.",
+        "Persona": [
+            "Archivist"
+        ],
+        "Action": {
+            "Primary Action": [
+                "import"
+            ],
+            "Secondary Action": [
+                ""
+            ]
+        },
+        "Entity": {
+            "Primary Entity": [
+                "EAD files"
+            ],
+            "Secondary Entity": [
+                "Archon"
+            ]
+        },
+        "Benefit": "",
+        "Triggers": [
+            [
+                "Archivist",
+                "import"
+            ]
+        ],
+        "Targets": [
+            [
+                "import",
+                "EAD files"
+            ]
+        ],
+        "Contains": []
+    },
+    {
+        "PID": "#G23#",
+        "Text": "#G23# As an Archivist, I want to assign a component unique identifier to a Resource Component.",
+        "Persona": [
+            "Archivist"
+        ],
+        "Action": {
+            "Primary Action": [
+                "assign"
+            ],
+            "Secondary Action": [
+                ""
+            ]
+        },
+        "Entity": {
+            "Primary Entity": [
+                "component unique identifier"
+            ],
+            "Secondary Entity": [
+                "Resource Component"
+            ]
+        },
+        "Benefit": "",
+        "Triggers": [
+            [
+                "Archivist",
+                "assign"
+            ]
+        ],
+        "Targets": [
+            [
+                "assign",
+                "component unique identifier"
+            ]
+        ],
+        "Contains": [
+            [
+                "Resource Component",
+                "component unique identifier"
+            ]
+        ]
+    },
+    {
+        "PID": "#G23#",
+        "Text": "#G23# As a User , I want to authenticate using LDAP.",
+        "Persona": [
+            "User"
+        ],
+        "Action": {
+            "Primary Action": [
+                "authenticate"
+            ],
+            "Secondary Action": [
+                "using"
+            ]
+        },
+        "Entity": {
+            "Primary Entity": [
+                ""
+            ],
+            "Secondary Entity": [
+                "LDAP"
+            ]
+        },
+        "Benefit": "",
+        "Triggers": [
+            [
+                "User",
+                "authenticate"
+            ]
+        ],
+        "Targets": [
+            [
+                "using",
+                "LDAP"
+            ]
+        ],
+        "Contains": []
+    },
+    {
+        "PID": "#G23#",
+        "Text": "#G23# As a migration specialist, I want to store the AT or Archon source record ids in each ASpace record",
+        "Persona": [
+            "migration specialist"
+        ],
+        "Action": {
+            "Primary Action": [
+                "store"
+            ],
+            "Secondary Action": [
+                ""
+            ]
+        },
+        "Entity": {
+            "Primary Entity": [
+                "AT",
+                "Archon source record ids"
+            ],
+            "Secondary Entity": [
+                "each ASpace record"
+            ]
+        },
+        "Benefit": "",
+        "Triggers": [
+            [
+                "migration specialist",
+                "store"
+            ]
+        ],
+        "Targets": [
+            [
+                "store",
+                "AT"
+            ],
+            [
+                "store",
+                "Archon source record ids"
+            ]
+        ],
+        "Contains": [
+            [
+                "each ASpace record",
+                "Archon source record ids"
+            ],
+            [
+                "each ASpace record",
+                "AT"
+            ]
+        ]
+    },
+    {
+        "PID": "#G23#",
+        "Text": "#G23# As an Archivist, I want to associate a standard identifier string with a Subject heading.",
+        "Persona": [
+            "Archivist"
+        ],
+        "Action": {
+            "Primary Action": [
+                "associate"
+            ],
+            "Secondary Action": [
+                ""
+            ]
+        },
+        "Entity": {
+            "Primary Entity": [
+                "standard identifier string"
+            ],
+            "Secondary Entity": [
+                "Subject heading"
+            ]
+        },
+        "Benefit": "",
+        "Triggers": [
+            [
+                "Archivist",
+                "associate"
+            ]
+        ],
+        "Targets": [
+            [
+                "associate",
+                "standard identifier string"
+            ]
+        ],
+        "Contains": [
+            [
+                "Subject heading",
+                "standard identifier string"
+            ]
+        ]
+    },
+    {
+        "PID": "#G23#",
+        "Text": "#G23# As an Archivist, I want to be able to understand that an error occurred during import and why it might have occurred.",
+        "Persona": [
+            "Archivist"
+        ],
+        "Action": {
+            "Primary Action": [
+                "understand"
+            ],
+            "Secondary Action": [
+                "import",
+                "occurred",
+                "occurred"
+            ]
+        },
+        "Entity": {
+            "Primary Entity": [
+                "error",
+                "why"
+            ],
+            "Secondary Entity": [
+                ""
+            ]
+        },
+        "Benefit": "",
+        "Triggers": [
+            [
+                "Archivist",
+                "understand"
+            ]
+        ],
+        "Targets": [
+            [
+                "understand",
+                "error"
+            ],
+            [
+                "understand",
+                "why"
+            ]
+        ],
+        "Contains": []
+    },
+    {
+        "PID": "#G23#",
+        "Text": "#G23# As an Archivist, I want to import Accessions data in CSV.",
+        "Persona": [
+            "Archivist"
+        ],
+        "Action": {
+            "Primary Action": [
+                "import"
+            ],
+            "Secondary Action": [
+                ""
+            ]
+        },
+        "Entity": {
+            "Primary Entity": [
+                "Accessions data"
+            ],
+            "Secondary Entity": [
+                "CSV"
+            ]
+        },
+        "Benefit": "",
+        "Triggers": [
+            [
+                "Archivist",
+                "import"
+            ]
+        ],
+        "Targets": [
+            [
+                "import",
+                "Accessions data"
+            ]
+        ],
+        "Contains": [
+            [
+                "CSV",
+                "Accessions data"
+            ]
+        ]
+    },
+    {
+        "PID": "#G23#",
+        "Text": "#G23# As an Archivist, I want to import Resources from MARCXML records.",
+        "Persona": [
+            "Archivist"
+        ],
+        "Action": {
+            "Primary Action": [
+                "import"
+            ],
+            "Secondary Action": [
+                ""
+            ]
+        },
+        "Entity": {
+            "Primary Entity": [
+                "Resources"
+            ],
+            "Secondary Entity": [
+                "MARCXML records"
+            ]
+        },
+        "Benefit": "",
+        "Triggers": [
+            [
+                "Archivist",
+                "import"
+            ]
+        ],
+        "Targets": [
+            [
+                "import",
+                "Resources"
+            ]
+        ],
+        "Contains": [
+            [
+                "MARCXML records",
+                "Resources"
+            ]
+        ]
+    },
+    {
+        "PID": "#G23#",
+        "Text": "#G23# As a user, I want frontend changes for managing enum lists.",
+        "Persona": [
+            "user"
+        ],
+        "Action": {
+            "Primary Action": [
+                "want"
+            ],
+            "Secondary Action": [
+                "managing"
+            ]
+        },
+        "Entity": {
+            "Primary Entity": [
+                "frontend changes"
+            ],
+            "Secondary Entity": [
+                "enum lists"
+            ]
+        },
+        "Benefit": "",
+        "Triggers": [
+            [
+                "user",
+                "want"
+            ]
+        ],
+        "Targets": [
+            [
+                "want",
+                "frontend changes"
+            ],
+            [
+                "managing",
+                "enum lists"
+            ]
+        ],
+        "Contains": []
+    },
+    {
+        "PID": "#G23#",
+        "Text": "#G23# As an Authenticated User, I want to get access to links to contextual help.",
+        "Persona": [
+            "Authenticated User"
+        ],
+        "Action": {
+            "Primary Action": [
+                "get"
+            ],
+            "Secondary Action": [
+                ""
+            ]
+        },
+        "Entity": {
+            "Primary Entity": [
+                "access"
+            ],
+            "Secondary Entity": [
+                "links",
+                "contextual help"
+            ]
+        },
+        "Benefit": "",
+        "Triggers": [
+            [
+                "Authenticated User",
+                "get"
+            ]
+        ],
+        "Targets": [
+            [
+                "get",
+                "access"
+            ]
+        ],
+        "Contains": [
+            [
+                "links",
+                "access"
+            ],
+            [
+                "contextual help",
+                "links"
+            ]
+        ]
+    },
+    {
+        "PID": "#G23#",
+        "Text": "#G23# As an Archivist, I want to see Dates and Extents displayed in both the read and edit views for Accessions and/or Resources before the list of Subjects.",
+        "Persona": [
+            "Archivist"
+        ],
+        "Action": {
+            "Primary Action": [
+                "see"
+            ],
+            "Secondary Action": [
+                "displayed"
+            ]
+        },
+        "Entity": {
+            "Primary Entity": [
+                "Dates",
+                "Extents"
+            ],
+            "Secondary Entity": [
+                "read and edit views",
+                "Accessions",
+                "Resources",
+                "list",
+                "Subjects"
+            ]
+        },
+        "Benefit": "",
+        "Triggers": [
+            [
+                "Archivist",
+                "see"
+            ]
+        ],
+        "Targets": [
+            [
+                "see",
+                "Dates"
+            ],
+            [
+                "see",
+                "Extents"
+            ],
+            [
+                "displayed",
+                "Extents"
+            ],
+            [
+                "displayed",
+                "Dates"
+            ]
+        ],
+        "Contains": [
+            [
+                "read and edit views",
+                "Extents"
+            ],
+            [
+                "read and edit views",
+                "Dates"
+            ],
+            [
+                "list",
+                "Subjects"
+            ],
+            [
+                "Accessions",
+                "read and edit views"
+            ],
+            [
+                "Resources",
+                "read and edit views"
+            ]
+        ]
+    },
+    {
+        "PID": "#G23#",
+        "Text": "#G23# As an Archivist, I want to import Agent information from EAC-CPF records.",
+        "Persona": [
+            "Archivist"
+        ],
+        "Action": {
+            "Primary Action": [
+                "import"
+            ],
+            "Secondary Action": [
+                ""
+            ]
+        },
+        "Entity": {
+            "Primary Entity": [
+                "Agent information"
+            ],
+            "Secondary Entity": [
+                "EAC-CPF records"
+            ]
+        },
+        "Benefit": "",
+        "Triggers": [
+            [
+                "Archivist",
+                "import"
+            ]
+        ],
+        "Targets": [
+            [
+                "import",
+                "Agent information"
+            ]
+        ],
+        "Contains": [
+            [
+                "EAC-CPF records",
+                "Agent information"
+            ]
+        ]
+    },
+    {
+        "PID": "#G23#",
+        "Text": "#G23# As a user, I want backend changes to support loading enum value lists from the database.",
+        "Persona": [
+            "user"
+        ],
+        "Action": {
+            "Primary Action": [
+                "want"
+            ],
+            "Secondary Action": [
+                "support",
+                "loading"
+            ]
+        },
+        "Entity": {
+            "Primary Entity": [
+                "backend changes"
+            ],
+            "Secondary Entity": [
+                "database",
+                "enum value lists"
+            ]
+        },
+        "Benefit": "",
+        "Triggers": [
+            [
+                "user",
+                "want"
+            ]
+        ],
+        "Targets": [
+            [
+                "want",
+                "backend changes"
+            ],
+            [
+                "loading",
+                "enum value lists"
+            ]
+        ],
+        "Contains": [
+            [
+                "database",
+                "enum value lists"
+            ]
+        ]
+    },
+    {
+        "PID": "#G23#",
+        "Text": "#G23# As a user, I want backend changes for bulk updating one enum value to another.",
+        "Persona": [
+            "user"
+        ],
+        "Action": {
+            "Primary Action": [
+                "want"
+            ],
+            "Secondary Action": [
+                "bulk updating"
+            ]
+        },
+        "Entity": {
+            "Primary Entity": [
+                "backend changes"
+            ],
+            "Secondary Entity": [
+                "enum value"
+            ]
+        },
+        "Benefit": "",
+        "Triggers": [
+            [
+                "user",
+                "want"
+            ]
+        ],
+        "Targets": [
+            [
+                "want",
+                "backend changes"
+            ],
+            [
+                "bulk updating",
+                "enum value"
+            ]
+        ],
+        "Contains": []
+    },
+    {
+        "PID": "#G23#",
+        "Text": "#G23# As an Archivist, I want to export agent records as EAC-CPF.",
+        "Persona": [
+            "Archivist"
+        ],
+        "Action": {
+            "Primary Action": [
+                "export"
+            ],
+            "Secondary Action": [
+                ""
+            ]
+        },
+        "Entity": {
+            "Primary Entity": [
+                "agent records"
+            ],
+            "Secondary Entity": [
+                "EAC-CPF"
+            ]
+        },
+        "Benefit": "",
+        "Triggers": [
+            [
+                "Archivist",
+                "export"
+            ]
+        ],
+        "Targets": [
+            [
+                "export",
+                "agent records"
+            ]
+        ],
+        "Contains": [
+            [
+                "EAC-CPF",
+                "agent records"
+            ]
+        ]
+    },
+    {
+        "PID": "#G23#",
+        "Text": "#G23# As an Archivist, I want to import only Agent and Subject information from MARCXML records.",
+        "Persona": [
+            "Archivist"
+        ],
+        "Action": {
+            "Primary Action": [
+                "import only"
+            ],
+            "Secondary Action": [
+                ""
+            ]
+        },
+        "Entity": {
+            "Primary Entity": [
+                "Agent",
+                "Subject information"
+            ],
+            "Secondary Entity": [
+                "MARCXML records"
+            ]
+        },
+        "Benefit": "",
+        "Triggers": [
+            [
+                "Archivist",
+                "import only"
+            ]
+        ],
+        "Targets": [
+            [
+                "import only",
+                "Agent"
+            ],
+            [
+                "import only",
+                "Subject information"
+            ]
+        ],
+        "Contains": [
+            [
+                "MARCXML records",
+                "Subject information"
+            ],
+            [
+                "MARCXML records",
+                "Agent"
+            ]
+        ]
+    },
+    {
+        "PID": "#G23#",
+        "Text": "#G23# As an Application Administrator, I want to assign Users to an Advanced Data Entry and ensure that the appropriate permissions are enforced.",
+        "Persona": [
+            "Application Administrator"
+        ],
+        "Action": {
+            "Primary Action": [
+                "assign",
+                "ensure"
+            ],
+            "Secondary Action": [
+                "enforced"
+            ]
+        },
+        "Entity": {
+            "Primary Entity": [
+                "Users"
+            ],
+            "Secondary Entity": [
+                "Advanced Data Entry",
+                "appropriate permissions"
+            ]
+        },
+        "Benefit": "",
+        "Triggers": [
+            [
+                "Application Administrator",
+                "assign"
+            ],
+            [
+                "Application Administrator",
+                "ensure"
+            ]
+        ],
+        "Targets": [
+            [
+                "assign",
+                "Users"
+            ],
+            [
+                "enforced",
+                "appropriate permissions"
+            ]
+        ],
+        "Contains": [
+            [
+                "Advanced Data Entry",
+                "Users"
+            ]
+        ]
+    },
+    {
+        "PID": "#G23#",
+        "Text": "#G23# As an Application Administrator , I want to be able to configure the help center URL and topic mappings.",
+        "Persona": [
+            "Application Administrator"
+        ],
+        "Action": {
+            "Primary Action": [
+                "configure"
+            ],
+            "Secondary Action": [
+                ""
+            ]
+        },
+        "Entity": {
+            "Primary Entity": [
+                "help center URL",
+                "topic mappings"
+            ],
+            "Secondary Entity": [
+                ""
+            ]
+        },
+        "Benefit": "",
+        "Triggers": [
+            [
+                "Application Administrator",
+                "configure"
+            ]
+        ],
+        "Targets": [
+            [
+                "configure",
+                "help center URL"
+            ],
+            [
+                "configure",
+                "topic mappings"
+            ]
+        ],
+        "Contains": []
+    },
+    {
+        "PID": "#G23#",
+        "Text": "#G23# As a user, I want to add additional properties for repositories.",
+        "Persona": [
+            "user"
+        ],
+        "Action": {
+            "Primary Action": [
+                "add"
+            ],
+            "Secondary Action": [
+                ""
+            ]
+        },
+        "Entity": {
+            "Primary Entity": [
+                "additional properties"
+            ],
+            "Secondary Entity": [
+                "repositories"
+            ]
+        },
+        "Benefit": "",
+        "Triggers": [
+            [
+                "user",
+                "add"
+            ]
+        ],
+        "Targets": [
+            [
+                "add",
+                "additional properties"
+            ]
+        ],
+        "Contains": [
+            [
+                "repositories",
+                "additional properties"
+            ]
+        ]
+    },
+    {
+        "PID": "#G23#",
+        "Text": "#G23# As an Archivist, I want to add Notes to other record types.",
+        "Persona": [
+            "Archivist"
+        ],
+        "Action": {
+            "Primary Action": [
+                "add"
+            ],
+            "Secondary Action": [
+                ""
+            ]
+        },
+        "Entity": {
+            "Primary Entity": [
+                "Notes"
+            ],
+            "Secondary Entity": [
+                "other record types"
+            ]
+        },
+        "Benefit": "",
+        "Triggers": [
+            [
+                "Archivist",
+                "add"
+            ]
+        ],
+        "Targets": [
+            [
+                "add",
+                "Notes"
+            ]
+        ],
+        "Contains": [
+            [
+                "other record types",
+                "Notes"
+            ]
+        ]
+    },
+    {
+        "PID": "#G23#",
+        "Text": "#G23# As an Administrator, I want to create a new User account for someone else.",
+        "Persona": [
+            "Administrator"
+        ],
+        "Action": {
+            "Primary Action": [
+                "create"
+            ],
+            "Secondary Action": [
+                ""
+            ]
+        },
+        "Entity": {
+            "Primary Entity": [
+                "new User account"
+            ],
+            "Secondary Entity": [
+                "someone else"
+            ]
+        },
+        "Benefit": "",
+        "Triggers": [
+            [
+                "Administrator",
+                "create"
+            ]
+        ],
+        "Targets": [
+            [
+                "create",
+                "new User account"
+            ]
+        ],
+        "Contains": [
+            [
+                "someone else",
+                "new User account"
+            ]
+        ]
+    },
+    {
+        "PID": "#G23#",
+        "Text": "#G23# As an Archivist, I want to add administrative data about the archival description and finding aid-related data to a top-level Resource.",
+        "Persona": [
+            "Archivist"
+        ],
+        "Action": {
+            "Primary Action": [
+                "add"
+            ],
+            "Secondary Action": [
+                ""
+            ]
+        },
+        "Entity": {
+            "Primary Entity": [
+                "administrative data",
+                "finding aid-related data"
+            ],
+            "Secondary Entity": [
+                "archival description",
+                "top-level Resource"
+            ]
+        },
+        "Benefit": "",
+        "Triggers": [
+            [
+                "Archivist",
+                "add"
+            ]
+        ],
+        "Targets": [
+            [
+                "add",
+                "administrative data"
+            ],
+            [
+                "add",
+                "finding aid-related data"
+            ]
+        ],
+        "Contains": [
+            [
+                "administrative data",
+                "archival description"
+            ],
+            [
+                "top-level Resource",
+                "finding aid-related data"
+            ],
+            [
+                "top-level Resource",
+                "administrative data"
+            ]
+        ]
+    },
+    {
+        "PID": "#G23#",
+        "Text": "#G23# As an Archivist, I want to assign a Level of description to a Resource or Resource Component and optionally specify another value if the Level is not in a predefined list.",
+        "Persona": [
+            "Archivist"
+        ],
+        "Action": {
+            "Primary Action": [
+                "assign",
+                "optionally specify"
+            ],
+            "Secondary Action": [
+                ""
+            ]
+        },
+        "Entity": {
+            "Primary Entity": [
+                "Level",
+                "another value"
+            ],
+            "Secondary Entity": [
+                "Resource",
+                "Resource Component",
+                "Level",
+                "description",
+                "predefined list"
+            ]
+        },
+        "Benefit": "",
+        "Triggers": [
+            [
+                "Archivist",
+                "assign"
+            ],
+            [
+                "Archivist",
+                "optionally specify"
+            ]
+        ],
+        "Targets": [
+            [
+                "assign",
+                "Level"
+            ],
+            [
+                "optionally specify",
+                "another value"
+            ]
+        ],
+        "Contains": [
+            [
+                "description",
+                "Level"
+            ],
+            [
+                "Resource",
+                "Level"
+            ],
+            [
+                "Resource Component",
+                "Level"
+            ]
+        ]
+    },
+    {
+        "PID": "#G23#",
+        "Text": "#G23# As a developer, I want to use a configuration that is not prepackaged within a built version of application.",
+        "Persona": [
+            "developer"
+        ],
+        "Action": {
+            "Primary Action": [
+                "use"
+            ],
+            "Secondary Action": [
+                ""
+            ]
+        },
+        "Entity": {
+            "Primary Entity": [
+                "configuration"
+            ],
+            "Secondary Entity": [
+                "built version",
+                "application"
+            ]
+        },
+        "Benefit": "",
+        "Triggers": [
+            [
+                "developer",
+                "use"
+            ]
+        ],
+        "Targets": [
+            [
+                "use",
+                "configuration"
+            ]
+        ],
+        "Contains": [
+            [
+                "application",
+                "built version"
+            ]
+        ]
+    },
+    {
+        "PID": "#G23#",
+        "Text": "#G23# As an Archivist, I want to import EAD files that were exported by the Archivists' Toolkit.",
+        "Persona": [
+            "Archivist"
+        ],
+        "Action": {
+            "Primary Action": [
+                "import"
+            ],
+            "Secondary Action": [
+                ""
+            ]
+        },
+        "Entity": {
+            "Primary Entity": [
+                "EAD files"
+            ],
+            "Secondary Entity": [
+                "Archivists' Toolkit"
+            ]
+        },
+        "Benefit": "",
+        "Triggers": [
+            [
+                "Archivist",
+                "import"
+            ]
+        ],
+        "Targets": [
+            [
+                "import",
+                "EAD files"
+            ]
+        ],
+        "Contains": []
+    },
+    {
+        "PID": "#G23#",
+        "Text": "#G23# As a systems administrator, I want to be able to control the location of the demo database and I want it to be backed up.",
+        "Persona": [
+            "systems administrator"
+        ],
+        "Action": {
+            "Primary Action": [
+                "control"
+            ],
+            "Secondary Action": [
+                "backed up"
+            ]
+        },
+        "Entity": {
+            "Primary Entity": [
+                "location"
+            ],
+            "Secondary Entity": [
+                "demo database"
+            ]
+        },
+        "Benefit": "",
+        "Triggers": [
+            [
+                "systems administrator",
+                "control"
+            ]
+        ],
+        "Targets": [
+            [
+                "control",
+                "location"
+            ],
+            [
+                "backed up",
+                "demo database"
+            ]
+        ],
+        "Contains": [
+            [
+                "location",
+                "demo database"
+            ]
+        ]
+    },
+    {
+        "PID": "#G23#",
+        "Text": "#G23# As an archivist, I want to search within a repository for resource and accession and digital object records.",
+        "Persona": [
+            "archivist"
+        ],
+        "Action": {
+            "Primary Action": [
+                "search"
+            ],
+            "Secondary Action": [
+                ""
+            ]
+        },
+        "Entity": {
+            "Primary Entity": [
+                "resource",
+                "accession",
+                "digital object records"
+            ],
+            "Secondary Entity": [
+                "repository"
+            ]
+        },
+        "Benefit": "",
+        "Triggers": [
+            [
+                "archivist",
+                "search"
+            ]
+        ],
+        "Targets": [
+            [
+                "search",
+                "resource"
+            ],
+            [
+                "search",
+                "accession"
+            ],
+            [
+                "search",
+                "digital object records"
+            ]
+        ],
+        "Contains": [
+            [
+                "repository",
+                "resource"
+            ],
+            [
+                "repository",
+                "accession"
+            ],
+            [
+                "repository",
+                "digital object records"
+            ]
+        ]
+    },
+    {
+        "PID": "#G23#",
+        "Text": "#G23# As an archivist, I want to create and edit a Collection Management subrecord.",
+        "Persona": [
+            "archivist"
+        ],
+        "Action": {
+            "Primary Action": [
+                "create",
+                "edit"
+            ],
+            "Secondary Action": [
+                ""
+            ]
+        },
+        "Entity": {
+            "Primary Entity": [
+                "Collection Management subrecord"
+            ],
+            "Secondary Entity": [
+                ""
+            ]
+        },
+        "Benefit": "",
+        "Triggers": [
+            [
+                "archivist",
+                "create"
+            ],
+            [
+                "archivist",
+                "edit"
+            ]
+        ],
+        "Targets": [
+            [
+                "create",
+                "Collection Management subrecord"
+            ],
+            [
+                "edit",
+                "Collection Management subrecord"
+            ]
+        ],
+        "Contains": []
+    },
+    {
+        "PID": "#G23#",
+        "Text": "#G23# As an Archivist, I want to rearrange the Resource and/or Digital Object hierarchy using keyboard-based navigation.",
+        "Persona": [
+            "Archivist"
+        ],
+        "Action": {
+            "Primary Action": [
+                "rearrange"
+            ],
+            "Secondary Action": [
+                "using"
+            ]
+        },
+        "Entity": {
+            "Primary Entity": [
+                "Resource",
+                "Digital Object hierarchy"
+            ],
+            "Secondary Entity": [
+                "keyboard-based navigation"
+            ]
+        },
+        "Benefit": "",
+        "Triggers": [
+            [
+                "Archivist",
+                "rearrange"
+            ]
+        ],
+        "Targets": [
+            [
+                "rearrange",
+                "Resource"
+            ],
+            [
+                "rearrange",
+                "Digital Object hierarchy"
+            ],
+            [
+                "using",
+                "keyboard-based navigation"
+            ]
+        ],
+        "Contains": []
+    },
+    {
+        "PID": "#G23#",
+        "Text": "#G23# As an Archivist, I want to rearrange the resource description hierarchy by dragging an archival object to a different position in the hierarchy.",
+        "Persona": [
+            "Archivist"
+        ],
+        "Action": {
+            "Primary Action": [
+                "rearrange"
+            ],
+            "Secondary Action": [
+                "dragging"
+            ]
+        },
+        "Entity": {
+            "Primary Entity": [
+                "resource description hierarchy"
+            ],
+            "Secondary Entity": [
+                "archival object",
+                "different position",
+                "hierarchy"
+            ]
+        },
+        "Benefit": "",
+        "Triggers": [
+            [
+                "Archivist",
+                "rearrange"
+            ]
+        ],
+        "Targets": [
+            [
+                "rearrange",
+                "resource description hierarchy"
+            ],
+            [
+                "dragging",
+                "archival object"
+            ]
+        ],
+        "Contains": [
+            [
+                "hierarchy",
+                "different position"
+            ],
+            [
+                "different position",
+                "archival object"
+            ]
+        ]
+    },
+    {
+        "PID": "#G23#",
+        "Text": "#G23# As an Archivist, I would like to indicate an Agent is either the creator or source or subject of an Accession or Resource or Resource Component.",
+        "Persona": [
+            "Archivist"
+        ],
+        "Action": {
+            "Primary Action": [
+                "indicate"
+            ],
+            "Secondary Action": [
+                ""
+            ]
+        },
+        "Entity": {
+            "Primary Entity": [
+                "Agent"
+            ],
+            "Secondary Entity": [
+                "creator",
+                "source",
+                "subject",
+                "Accession",
+                "Resource",
+                "Resource Component"
+            ]
+        },
+        "Benefit": "",
+        "Triggers": [
+            [
+                "Archivist",
+                "indicate"
+            ]
+        ],
+        "Targets": [
+            [
+                "indicate",
+                "Agent"
+            ]
+        ],
+        "Contains": [
+            [
+                "Accession",
+                "creator"
+            ],
+            [
+                "Accession",
+                "source"
+            ],
+            [
+                "Accession",
+                "subject"
+            ],
+            [
+                "Resource",
+                "creator"
+            ],
+            [
+                "Resource",
+                "source"
+            ],
+            [
+                "Resource",
+                "subject"
+            ],
+            [
+                "Resource Component",
+                "creator"
+            ],
+            [
+                "Resource Component",
+                "source"
+            ],
+            [
+                "Resource Component",
+                "subject"
+            ]
+        ]
+    },
+    {
+        "PID": "#G23#",
+        "Text": "#G23# As an Archivist, I want to export a description as EAD.",
+        "Persona": [
+            "Archivist"
+        ],
+        "Action": {
+            "Primary Action": [
+                "export"
+            ],
+            "Secondary Action": [
+                ""
+            ]
+        },
+        "Entity": {
+            "Primary Entity": [
+                "description"
+            ],
+            "Secondary Entity": [
+                "EAD"
+            ]
+        },
+        "Benefit": "",
+        "Triggers": [
+            [
+                "Archivist",
+                "export"
+            ]
+        ],
+        "Targets": [
+            [
+                "export",
+                "description"
+            ]
+        ],
+        "Contains": [
+            [
+                "EAD",
+                "description"
+            ]
+        ]
+    },
+    {
+        "PID": "#G23#",
+        "Text": "#G23# As an Archivist, I want to create and edit Event records.",
+        "Persona": [
+            "Archivist"
+        ],
+        "Action": {
+            "Primary Action": [
+                "create",
+                "edit"
+            ],
+            "Secondary Action": [
+                ""
+            ]
+        },
+        "Entity": {
+            "Primary Entity": [
+                "Event records"
+            ],
+            "Secondary Entity": [
+                ""
+            ]
+        },
+        "Benefit": "",
+        "Triggers": [
+            [
+                "Archivist",
+                "create"
+            ],
+            [
+                "Archivist",
+                "edit"
+            ]
+        ],
+        "Targets": [
+            [
+                "create",
+                "Event records"
+            ],
+            [
+                "edit",
+                "Event records"
+            ]
+        ],
+        "Contains": []
+    },
+    {
+        "PID": "#G23#",
+        "Text": "#G23# As an Archivist, I want to manage Digital Objects.",
+        "Persona": [
+            "Archivist"
+        ],
+        "Action": {
+            "Primary Action": [
+                "manage"
+            ],
+            "Secondary Action": [
+                ""
+            ]
+        },
+        "Entity": {
+            "Primary Entity": [
+                "Digital Objects"
+            ],
+            "Secondary Entity": [
+                ""
+            ]
+        },
+        "Benefit": "",
+        "Triggers": [
+            [
+                "Archivist",
+                "manage"
+            ]
+        ],
+        "Targets": [
+            [
+                "manage",
+                "Digital Objects"
+            ]
+        ],
+        "Contains": []
+    },
+    {
+        "PID": "#G23#",
+        "Text": "#G23# As an Archivist, I want to associate an Instance with a Resource and/or Resource Component.",
+        "Persona": [
+            "Archivist"
+        ],
+        "Action": {
+            "Primary Action": [
+                "associate"
+            ],
+            "Secondary Action": [
+                ""
+            ]
+        },
+        "Entity": {
+            "Primary Entity": [
+                "Instance"
+            ],
+            "Secondary Entity": [
+                "Resource",
+                "Resource Component"
+            ]
+        },
+        "Benefit": "",
+        "Triggers": [
+            [
+                "Archivist",
+                "associate"
+            ]
+        ],
+        "Targets": [
+            [
+                "associate",
+                "Instance"
+            ]
+        ],
+        "Contains": [
+            [
+                "Resource",
+                "Instance"
+            ],
+            [
+                "Resource Component",
+                "Instance"
+            ]
+        ]
+    },
+    {
+        "PID": "#G23#",
+        "Text": "#G23# As an Archivist, I don't want to inadvertently overwrite someone else's changes to a record that I'm editing.",
+        "Persona": [
+            "Archivist"
+        ],
+        "Action": {
+            "Primary Action": [
+                "don't want to inadvertently overwrite"
+            ],
+            "Secondary Action": [
+                ""
+            ]
+        },
+        "Entity": {
+            "Primary Entity": [
+                "someone else's changes"
+            ],
+            "Secondary Entity": [
+                "record"
+            ]
+        },
+        "Benefit": "",
+        "Triggers": [
+            [
+                "Archivist",
+                "don't want to inadvertently overwrite"
+            ]
+        ],
+        "Targets": [
+            [
+                "don't want to inadvertently overwrite",
+                "someone else's changes"
+            ]
+        ],
+        "Contains": [
+            [
+                "record",
+                "someone else's changes"
+            ]
+        ]
+    },
+    {
+        "PID": "#G23#",
+        "Text": "#G23# As an Archivist, I want to create and edit Rights Management statements.",
+        "Persona": [
+            "Archivist"
+        ],
+        "Action": {
+            "Primary Action": [
+                "create",
+                "edit"
+            ],
+            "Secondary Action": [
+                ""
+            ]
+        },
+        "Entity": {
+            "Primary Entity": [
+                "Rights Management statements"
+            ],
+            "Secondary Entity": [
+                ""
+            ]
+        },
+        "Benefit": "",
+        "Triggers": [
+            [
+                "Archivist",
+                "create"
+            ],
+            [
+                "Archivist",
+                "edit"
+            ]
+        ],
+        "Targets": [
+            [
+                "create",
+                "Rights Management statements"
+            ],
+            [
+                "edit",
+                "Rights Management statements"
+            ]
+        ],
+        "Contains": []
+    },
+    {
+        "PID": "#G23#",
+        "Text": "#G23# As an Archivist, I want to upload an EAD for import from within the frontend application.",
+        "Persona": [
+            "Archivist"
+        ],
+        "Action": {
+            "Primary Action": [
+                "upload"
+            ],
+            "Secondary Action": [
+                "import"
+            ]
+        },
+        "Entity": {
+            "Primary Entity": [
+                "EAD"
+            ],
+            "Secondary Entity": [
+                "frontend application"
+            ]
+        },
+        "Benefit": "",
+        "Triggers": [
+            [
+                "Archivist",
+                "upload"
+            ]
+        ],
+        "Targets": [
+            [
+                "upload",
+                "EAD"
+            ],
+            [
+                "import",
+                "EAD"
+            ]
+        ],
+        "Contains": [
+            [
+                "frontend application",
+                "EAD"
+            ]
+        ]
+    },
+    {
+        "PID": "#G23#",
+        "Text": "#G23# As an Archivist, I want to import EAD data.",
+        "Persona": [
+            "Archivist"
+        ],
+        "Action": {
+            "Primary Action": [
+                "import"
+            ],
+            "Secondary Action": [
+                ""
+            ]
+        },
+        "Entity": {
+            "Primary Entity": [
+                "EAD data"
+            ],
+            "Secondary Entity": [
+                ""
+            ]
+        },
+        "Benefit": "",
+        "Triggers": [
+            [
+                "Archivist",
+                "import"
+            ]
+        ],
+        "Targets": [
+            [
+                "import",
+                "EAD data"
+            ]
+        ],
+        "Contains": []
+    },
+    {
+        "PID": "#G23#",
+        "Text": "#G23# As a Repository Manager , I want to create, update and delete archival descriptions in my repository.",
+        "Persona": [
+            "Repository Manager"
+        ],
+        "Action": {
+            "Primary Action": [
+                "create",
+                "update",
+                "delete"
+            ],
+            "Secondary Action": [
+                ""
+            ]
+        },
+        "Entity": {
+            "Primary Entity": [
+                "archival descriptions"
+            ],
+            "Secondary Entity": [
+                "repository"
+            ]
+        },
+        "Benefit": "",
+        "Triggers": [
+            [
+                "Repository Manager",
+                "create"
+            ],
+            [
+                "Repository Manager",
+                "update"
+            ],
+            [
+                "Repository Manager",
+                "delete"
+            ]
+        ],
+        "Targets": [
+            [
+                "create",
+                "archival descriptions"
+            ],
+            [
+                "update",
+                "archival descriptions"
+            ],
+            [
+                "delete",
+                "archival descriptions"
+            ]
+        ],
+        "Contains": [
+            [
+                "repository",
+                "archival descriptions"
+            ]
+        ]
+    },
+    {
+        "PID": "#G23#",
+        "Text": "#G23# As a Developer , I want to develop a custom importer.",
+        "Persona": [
+            "Developer"
+        ],
+        "Action": {
+            "Primary Action": [
+                "develop"
+            ],
+            "Secondary Action": [
+                ""
+            ]
+        },
+        "Entity": {
+            "Primary Entity": [
+                "custom importer"
+            ],
+            "Secondary Entity": [
+                ""
+            ]
+        },
+        "Benefit": "",
+        "Triggers": [
+            [
+                "Developer",
+                "develop"
+            ]
+        ],
+        "Targets": [
+            [
+                "develop",
+                "custom importer"
+            ]
+        ],
+        "Contains": []
+    },
+    {
+        "PID": "#G23#",
+        "Text": "#G23# As a Basic Data Entry user , I want to create and update basic archival description information.",
+        "Persona": [
+            "Basic Data Entry user"
+        ],
+        "Action": {
+            "Primary Action": [
+                "create",
+                "update"
+            ],
+            "Secondary Action": [
+                ""
+            ]
+        },
+        "Entity": {
+            "Primary Entity": [
+                "basic archival description information"
+            ],
+            "Secondary Entity": [
+                ""
+            ]
+        },
+        "Benefit": "",
+        "Triggers": [
+            [
+                "Basic Data Entry user",
+                "create"
+            ],
+            [
+                "Basic Data Entry user",
+                "update"
+            ]
+        ],
+        "Targets": [
+            [
+                "create",
+                "basic archival description information"
+            ],
+            [
+                "update",
+                "basic archival description information"
+            ]
+        ],
+        "Contains": []
+    },
+    {
+        "PID": "#G23#",
+        "Text": "#G23# As a Repository Manager , I want to create, update and delete any records in my repository.",
+        "Persona": [
+            "Repository Manager"
+        ],
+        "Action": {
+            "Primary Action": [
+                "create",
+                "update",
+                "delete"
+            ],
+            "Secondary Action": [
+                ""
+            ]
+        },
+        "Entity": {
+            "Primary Entity": [
+                "any records"
+            ],
+            "Secondary Entity": [
+                "repository"
+            ]
+        },
+        "Benefit": "",
+        "Triggers": [
+            [
+                "Repository Manager",
+                "create"
+            ],
+            [
+                "Repository Manager",
+                "update"
+            ],
+            [
+                "Repository Manager",
+                "delete"
+            ]
+        ],
+        "Targets": [
+            [
+                "create",
+                "any records"
+            ],
+            [
+                "update",
+                "any records"
+            ],
+            [
+                "delete",
+                "any records"
+            ]
+        ],
+        "Contains": [
+            [
+                "repository",
+                "any records"
+            ]
+        ]
+    },
+    {
+        "PID": "#G23#",
+        "Text": "#G23# As a ReadOnly user , I want to view archival descriptions in my repository.",
+        "Persona": [
+            "ReadOnly user"
+        ],
+        "Action": {
+            "Primary Action": [
+                "view"
+            ],
+            "Secondary Action": [
+                ""
+            ]
+        },
+        "Entity": {
+            "Primary Entity": [
+                "archival descriptions"
+            ],
+            "Secondary Entity": [
+                "repository"
+            ]
+        },
+        "Benefit": "",
+        "Triggers": [
+            [
+                "ReadOnly user",
+                "view"
+            ]
+        ],
+        "Targets": [
+            [
+                "view",
+                "archival descriptions"
+            ]
+        ],
+        "Contains": [
+            [
+                "repository",
+                "archival descriptions"
+            ]
+        ]
+    },
+    {
+        "PID": "#G23#",
+        "Text": "#G23# As an System Administrator, I want to declare that a user is has the Repository Manager role for a given Repository.",
+        "Persona": [
+            "System Administrator"
+        ],
+        "Action": {
+            "Primary Action": [
+                "declare"
+            ],
+            "Secondary Action": [
+                ""
+            ]
+        },
+        "Entity": {
+            "Primary Entity": [
+                "Repository Manager role"
+            ],
+            "Secondary Entity": [
+                "user",
+                "given Repository"
+            ]
+        },
+        "Benefit": "",
+        "Triggers": [
+            [
+                "System Administrator",
+                "declare"
+            ]
+        ],
+        "Targets": [
+            [
+                "declare",
+                "Repository Manager role"
+            ]
+        ],
+        "Contains": [
+            [
+                "user",
+                "Repository Manager role"
+            ],
+            [
+                "given Repository",
+                "Repository Manager role"
+            ]
+        ]
+    },
+    {
+        "PID": "#G23#",
+        "Text": "#G23# As an Archivist, I want to specify the Source for a Name Form of an Agent and add new Sources and edit existing Sources.",
+        "Persona": [
+            "Archivist"
+        ],
+        "Action": {
+            "Primary Action": [
+                "specify",
+                "add",
+                "edit"
+            ],
+            "Secondary Action": [
+                ""
+            ]
+        },
+        "Entity": {
+            "Primary Entity": [
+                "Source",
+                "new Sources",
+                "existing Sources"
+            ],
+            "Secondary Entity": [
+                "Name Form",
+                "Agent"
+            ]
+        },
+        "Benefit": "",
+        "Triggers": [
+            [
+                "Archivist",
+                "specify"
+            ],
+            [
+                "Archivist",
+                "add"
+            ],
+            [
+                "Archivist",
+                "edit"
+            ]
+        ],
+        "Targets": [
+            [
+                "specify",
+                "Source"
+            ],
+            [
+                "add",
+                "new Sources"
+            ],
+            [
+                "edit",
+                "existing Sources"
+            ]
+        ],
+        "Contains": [
+            [
+                "Name Form",
+                "Source"
+            ],
+            [
+                "Agent",
+                "Name Form"
+            ]
+        ]
+    },
+    {
+        "PID": "#G23#",
+        "Text": "#G23# As an Archivist, I want to create and edit Agent records.",
+        "Persona": [
+            "Archivist"
+        ],
+        "Action": {
+            "Primary Action": [
+                "create",
+                "edit"
+            ],
+            "Secondary Action": [
+                ""
+            ]
+        },
+        "Entity": {
+            "Primary Entity": [
+                "Agent records"
+            ],
+            "Secondary Entity": [
+                ""
+            ]
+        },
+        "Benefit": "",
+        "Triggers": [
+            [
+                "Archivist",
+                "create"
+            ],
+            [
+                "Archivist",
+                "edit"
+            ]
+        ],
+        "Targets": [
+            [
+                "create",
+                "Agent records"
+            ],
+            [
+                "edit",
+                "Agent records"
+            ]
+        ],
+        "Contains": []
+    },
+    {
+        "PID": "#G23#",
+        "Text": "#G23# As an Archivist, I want to create and edit a Resource record.",
+        "Persona": [
+            "Archivist"
+        ],
+        "Action": {
+            "Primary Action": [
+                "create",
+                "edit"
+            ],
+            "Secondary Action": [
+                ""
+            ]
+        },
+        "Entity": {
+            "Primary Entity": [
+                "Resource record"
+            ],
+            "Secondary Entity": [
+                ""
+            ]
+        },
+        "Benefit": "",
+        "Triggers": [
+            [
+                "Archivist",
+                "create"
+            ],
+            [
+                "Archivist",
+                "edit"
+            ]
+        ],
+        "Targets": [
+            [
+                "create",
+                "Resource record"
+            ],
+            [
+                "edit",
+                "Resource record"
+            ]
+        ],
+        "Contains": []
+    },
+    {
+        "PID": "#G23#",
+        "Text": "#G23# As an Archivist, I want to associate a Subject record with a Resource description.",
+        "Persona": [
+            "Archivist"
+        ],
+        "Action": {
+            "Primary Action": [
+                "associate"
+            ],
+            "Secondary Action": [
+                ""
+            ]
+        },
+        "Entity": {
+            "Primary Entity": [
+                "Subject record"
+            ],
+            "Secondary Entity": [
+                "Resource description"
+            ]
+        },
+        "Benefit": "",
+        "Triggers": [
+            [
+                "Archivist",
+                "associate"
+            ]
+        ],
+        "Targets": [
+            [
+                "associate",
+                "Subject record"
+            ]
+        ],
+        "Contains": [
+            [
+                "Resource description",
+                "Subject record"
+            ]
+        ]
+    },
+    {
+        "PID": "#G23#",
+        "Text": "#G23# As a User, I want to authenticate locally.",
+        "Persona": [
+            "User"
+        ],
+        "Action": {
+            "Primary Action": [
+                "authenticate locally"
+            ],
+            "Secondary Action": [
+                ""
+            ]
+        },
+        "Entity": {
+            "Primary Entity": [
+                ""
+            ],
+            "Secondary Entity": [
+                ""
+            ]
+        },
+        "Benefit": "",
+        "Triggers": [
+            [
+                "User",
+                "authenticate locally"
+            ]
+        ],
+        "Targets": [],
+        "Contains": []
+    },
+    {
+        "PID": "#G23#",
+        "Text": "#G23# As User, I want to be able to log in.",
+        "Persona": [
+            "User"
+        ],
+        "Action": {
+            "Primary Action": [
+                "log in"
+            ],
+            "Secondary Action": [
+                ""
+            ]
+        },
+        "Entity": {
+            "Primary Entity": [
+                ""
+            ],
+            "Secondary Entity": [
+                ""
+            ]
+        },
+        "Benefit": "",
+        "Triggers": [
+            [
+                "User",
+                "log in"
+            ]
+        ],
+        "Targets": [],
+        "Contains": []
+    },
+    {
+        "PID": "#G23#",
+        "Text": "#G23# As an Archivist, I want to associate an Instance with a Container.",
+        "Persona": [
+            "Archivist"
+        ],
+        "Action": {
+            "Primary Action": [
+                "associate"
+            ],
+            "Secondary Action": [
+                ""
+            ]
+        },
+        "Entity": {
+            "Primary Entity": [
+                "Instance"
+            ],
+            "Secondary Entity": [
+                "Container"
+            ]
+        },
+        "Benefit": "",
+        "Triggers": [
+            [
+                "Archivist",
+                "associate"
+            ]
+        ],
+        "Targets": [
+            [
+                "associate",
+                "Instance"
+            ]
+        ],
+        "Contains": [
+            [
+                "Container",
+                "Instance"
+            ]
+        ]
+    },
+    {
+        "PID": "#G23#",
+        "Text": "#G23# As an Archivist, I want to assign Location information to a Container.",
+        "Persona": [
+            "Archivist"
+        ],
+        "Action": {
+            "Primary Action": [
+                "assign"
+            ],
+            "Secondary Action": [
+                ""
+            ]
+        },
+        "Entity": {
+            "Primary Entity": [
+                "Location information"
+            ],
+            "Secondary Entity": [
+                "Container"
+            ]
+        },
+        "Benefit": "",
+        "Triggers": [
+            [
+                "Archivist",
+                "assign"
+            ]
+        ],
+        "Targets": [
+            [
+                "assign",
+                "Location information"
+            ]
+        ],
+        "Contains": [
+            [
+                "Container",
+                "Location information"
+            ]
+        ]
+    }
+]
