@@ -1,0 +1,2380 @@
+[
+    {
+        "Text": "#G24# As a depositor, I want to deposit and maintain datasets through a simple web interface, so that I don't need to install and learn new software to deposit.",
+        "Persona": [
+            "depositor"
+        ],
+        "Action": {
+            "Primary Action": [
+                "deposit",
+                "maintain"
+            ],
+            "Secondary Action": []
+        },
+        "Entity": {
+            "Primary Entity": [
+                "datasets",
+                "web interface"
+            ],
+            "Secondary Entity": [
+                "software"
+            ]
+        },
+        "Benefit": "I don't need to install and learn new software to deposit",
+        "Triggers": [
+            [
+                "depositor",
+                "deposit"
+            ],
+            [
+                "depositor",
+                "maintain"
+            ]
+        ],
+        "Targets": [
+            [
+                "deposit",
+                "datasets"
+            ],
+            [
+                "maintain",
+                "datasets"
+            ],
+            [
+                "depositor",
+                "web interface"
+            ],
+            [
+                "depositor",
+                "software"
+            ]
+        ]
+    },
+    {
+        "Text": "#G24# As a depositor, I want to link datasets to publications in Opus, so that both my data and publications are more easily discovered.",
+        "Persona": [
+            "depositor"
+        ],
+        "Action": {
+            "Primary Action": [
+                "link"
+            ],
+            "Secondary Action": []
+        },
+        "Entity": {
+            "Primary Entity": [
+                "datasets",
+                "publications",
+                "Opus"
+            ],
+            "Secondary Entity": []
+        },
+        "Benefit": "both my data and publications are more easily discovered",
+        "Triggers": [
+            [
+                "depositor",
+                "link"
+            ]
+        ],
+        "Targets": [
+            [
+                "link",
+                "datasets"
+            ],
+            [
+                "link",
+                "publications"
+            ],
+            [
+                "link",
+                "Opus"
+            ]
+        ]
+    },
+    {
+        "Text": "#G24# As a depositor, I want to mint DOIs for my data, so that it can be discovered and cited more easily and citations can be tracked so that I can receive credit.",
+        "Persona": [
+            "depositor"
+        ],
+        "Action": {
+            "Primary Action": [
+                "mint",
+                "discover",
+                "cite",
+                "track",
+                "receive"
+            ],
+            "Secondary Action": []
+        },
+        "Entity": {
+            "Primary Entity": [
+                "DOIs",
+                "data",
+                "citations"
+            ],
+            "Secondary Entity": []
+        },
+        "Benefit": "data can be discovered and cited more easily and citations can be tracked so that I can receive credit",
+        "Triggers": [
+            [
+                "depositor",
+                "mint"
+            ],
+            [
+                "DOIs",
+                "discover"
+            ],
+            [
+                "DOIs",
+                "cite"
+            ],
+            [
+                "citations",
+                "track"
+            ]
+        ],
+        "Targets": [
+            [
+                "mint",
+                "DOIs"
+            ],
+            [
+                "discover",
+                "data"
+            ],
+            [
+                "cite",
+                "citations"
+            ],
+            [
+                "track",
+                "receive"
+            ]
+        ]
+    },
+    {
+        "Text": "#G24# As a depositor, I want to have metadata automatically filled from other University systems and remembered from previous deposits, so that I don't have to waste time reentering the same information.",
+        "Persona": [
+            "depositor"
+        ],
+        "Action": {
+            "Primary Action": [
+                "filled",
+                "remembered"
+            ],
+            "Secondary Action": [
+                "reentering"
+            ]
+        },
+        "Entity": {
+            "Primary Entity": [
+                "metadata"
+            ],
+            "Secondary Entity": [
+                "University systems"
+            ]
+        },
+        "Benefit": "I don't have to waste time reentering the same information",
+        "Triggers": [
+            [
+                "depositor",
+                "filled"
+            ],
+            [
+                "depositor",
+                "remembered"
+            ],
+            [
+                "depositor",
+                "reentering"
+            ],
+            [
+                "depositor",
+                "reentering"
+            ]
+        ],
+        "Targets": [
+            [
+                "filled",
+                "metadata"
+            ],
+            [
+                "remembered",
+                "metadata"
+            ],
+            [
+                "reentering",
+                "metadata"
+            ],
+            [
+                "reentering",
+                "University systems"
+            ]
+        ]
+    },
+    {
+        "Text": "#G24# As a depositor, I want to link to data stored in external repositories, so that I can store my data in an appropriate repository but still register it with the University and I don't have to deposit my data in multiple places.",
+        "Persona": [
+            "depositor"
+        ],
+        "Action": {
+            "Primary Action": [
+                "link",
+                "store",
+                "register",
+                "deposit"
+            ],
+            "Secondary Action": []
+        },
+        "Entity": {
+            "Primary Entity": [
+                "data stored in external repositories",
+                "University"
+            ],
+            "Secondary Entity": []
+        },
+        "Benefit": "I can store my data in an appropriate repository but still register it with the University and I don't have to deposit my data in multiple places.",
+        "Triggers": [
+            [
+                "depositor",
+                "link"
+            ],
+            [
+                "depositor",
+                "store"
+            ],
+            [
+                "depositor",
+                "register"
+            ],
+            [
+                "depositor",
+                "deposit"
+            ]
+        ],
+        "Targets": [
+            [
+                "link",
+                "data stored in external repositories"
+            ],
+            [
+                "store",
+                "data stored in external repositories"
+            ],
+            [
+                "register",
+                "University"
+            ],
+            [
+                "deposit",
+                "data stored in external repositories"
+            ]
+        ]
+    },
+    {
+        "Text": "#G24# As a depositor, I want to specify a disposal policy for my data, so that I do not accidentally breach laws or collaboration agreements.",
+        "Persona": [
+            "depositor"
+        ],
+        "Action": {
+            "Primary Action": [
+                "specify"
+            ],
+            "Secondary Action": [
+                "breach"
+            ]
+        },
+        "Entity": {
+            "Primary Entity": [
+                "disposal policy",
+                "data"
+            ],
+            "Secondary Entity": [
+                "laws",
+                "collaboration agreements"
+            ]
+        },
+        "Benefit": "I do not accidentally breach laws or collaboration agreements",
+        "Triggers": [
+            [
+                "depositor",
+                "specify"
+            ]
+        ],
+        "Targets": [
+            [
+                "specify",
+                "disposal policy"
+            ],
+            [
+                "specify",
+                "data"
+            ],
+            [
+                "specify",
+                "laws"
+            ],
+            [
+                "specify",
+                "collaboration agreements"
+            ],
+            [
+                "breach",
+                "laws"
+            ],
+            [
+                "breach",
+                "collaboration agreements"
+            ]
+        ]
+    },
+    {
+        "Text": "#G24# As a depositor, I want to track downloads of my data, so that I can demonstrate the impact of my work.",
+        "Persona": [
+            "depositor"
+        ],
+        "Action": {
+            "Primary Action": [
+                "track"
+            ],
+            "Secondary Action": []
+        },
+        "Entity": {
+            "Primary Entity": [
+                "downloads"
+            ],
+            "Secondary Entity": [
+                "data"
+            ]
+        },
+        "Benefit": "I can demonstrate the impact of my work",
+        "Triggers": [
+            [
+                "depositor",
+                "track"
+            ]
+        ],
+        "Targets": [
+            [
+                "track",
+                "downloads"
+            ]
+        ]
+    },
+    {
+        "Text": "#G24# As a depositor, I want to track citations of my data, so that I can demonstrate the impact of my work",
+        "Persona": [
+            "depositor"
+        ],
+        "Action": {
+            "Primary Action": [
+                "track"
+            ],
+            "Secondary Action": []
+        },
+        "Entity": {
+            "Primary Entity": [
+                "citations"
+            ],
+            "Secondary Entity": [
+                "data"
+            ]
+        },
+        "Benefit": "I can demonstrate the impact of my work",
+        "Triggers": [
+            [
+                "depositor",
+                "track"
+            ]
+        ],
+        "Targets": [
+            [
+                "track",
+                "citations"
+            ]
+        ]
+    },
+    {
+        "Text": "#G24# As a depositor, I want to have guarantees about data integrity, so that I can use my data in the future and I can fulfil funder requirements for archival.",
+        "Persona": [
+            "depositor"
+        ],
+        "Action": {
+            "Primary Action": [
+                "have guarantees"
+            ],
+            "Secondary Action": [
+                "use",
+                "fulfil"
+            ]
+        },
+        "Entity": {
+            "Primary Entity": [
+                "data integrity"
+            ],
+            "Secondary Entity": []
+        },
+        "Benefit": "I can use my data in the future and I can fulfil funder requirements for archival.",
+        "Triggers": [
+            [
+                "depositor",
+                "have guarantees"
+            ],
+            [
+                "depositor",
+                "use"
+            ],
+            [
+                "depositor",
+                "fulfil"
+            ]
+        ],
+        "Targets": [
+            [
+                "have guarantees",
+                "data integrity"
+            ],
+            [
+                "use",
+                "data integrity"
+            ],
+            [
+                "fulfil",
+                "data integrity"
+            ]
+        ]
+    },
+    {
+        "Text": "#G24# As a depositor, I want to attach subject specific discoverability metadata to records, so that researchers in my discipline can find my data more easily.",
+        "Persona": [
+            "depositor",
+            "researchers"
+        ],
+        "Action": {
+            "Primary Action": [
+                "attach"
+            ],
+            "Secondary Action": [
+                "find"
+            ]
+        },
+        "Entity": {
+            "Primary Entity": [
+                "records",
+                "data"
+            ],
+            "Secondary Entity": [
+                "discoverability metadata"
+            ]
+        },
+        "Benefit": "researchers in my discipline can find my data more easily",
+        "Triggers": [
+            [
+                "depositor",
+                "attach"
+            ],
+            [
+                "researchers",
+                "find"
+            ]
+        ],
+        "Targets": [
+            [
+                "attach",
+                "records"
+            ],
+            [
+                "find",
+                "data"
+            ]
+        ]
+    },
+    {
+        "Text": "#G24# As a depositor, I want to link datasets with the project DMP, so that compliance with DMP can be demonstrated and whole project workflow is linked together.",
+        "Persona": [
+            "depositor"
+        ],
+        "Action": {
+            "Primary Action": [
+                "link"
+            ],
+            "Secondary Action": []
+        },
+        "Entity": {
+            "Primary Entity": [
+                "datasets",
+                "project DMP",
+                "compliance with DMP",
+                "project workflow"
+            ],
+            "Secondary Entity": []
+        },
+        "Benefit": "compliance with DMP can be demonstrated and whole project workflow is linked together",
+        "Triggers": [
+            [
+                "depositor",
+                "link"
+            ]
+        ],
+        "Targets": [
+            [
+                "link",
+                "datasets"
+            ],
+            [
+                "link",
+                "project DMP"
+            ],
+            [
+                "link",
+                "compliance with DMP"
+            ],
+            [
+                "link",
+                "project workflow"
+            ]
+        ]
+    },
+    {
+        "Text": "#G24# As a depositor, I want to have a user interface that is familiar to me, so that I feel like all the University systems are joined up.",
+        "Persona": [
+            "depositor"
+        ],
+        "Action": {
+            "Primary Action": [
+                "have"
+            ],
+            "Secondary Action": []
+        },
+        "Entity": {
+            "Primary Entity": [
+                "user interface",
+                "University systems"
+            ],
+            "Secondary Entity": []
+        },
+        "Benefit": "I feel like all the University systems are joined up",
+        "Triggers": [
+            [
+                "depositor",
+                "have"
+            ]
+        ],
+        "Targets": [
+            [
+                "have",
+                "user interface"
+            ],
+            [
+                "have",
+                "University systems"
+            ]
+        ]
+    },
+    {
+        "Text": "#G24# As a depositor, I want to manage and share 'live' research data, so that whole project workflow is linked together.",
+        "Persona": [
+            "depositor"
+        ],
+        "Action": {
+            "Primary Action": [
+                "manage",
+                "share",
+                "link together"
+            ],
+            "Secondary Action": []
+        },
+        "Entity": {
+            "Primary Entity": [
+                "'live' research data",
+                "whole project workflow"
+            ],
+            "Secondary Entity": []
+        },
+        "Benefit": "whole project workflow is linked together",
+        "Triggers": [
+            [
+                "depositor",
+                "manage"
+            ],
+            [
+                "depositor",
+                "share"
+            ],
+            [
+                "depositor",
+                "link together"
+            ]
+        ],
+        "Targets": [
+            [
+                "manage",
+                "'live' research data"
+            ],
+            [
+                "share",
+                "'live' research data"
+            ],
+            [
+                "link together",
+                "'live' research data"
+            ],
+            [
+                "link together",
+                "whole project workflow"
+            ]
+        ]
+    },
+    {
+        "Text": "#G24# As a depositor, I want to manage multiple versions of the same dataset, so that changes to the dataset are transparent and do not compromise research integrity.",
+        "Persona": [
+            "depositor"
+        ],
+        "Action": {
+            "Primary Action": [
+                "manage"
+            ],
+            "Secondary Action": []
+        },
+        "Entity": {
+            "Primary Entity": [
+                "multiple versions",
+                "dataset",
+                "changes",
+                "research integrity"
+            ],
+            "Secondary Entity": []
+        },
+        "Benefit": "changes to the dataset are transparent and do not compromise research integrity",
+        "Triggers": [
+            [
+                "depositor",
+                "manage"
+            ]
+        ],
+        "Targets": [
+            [
+                "manage",
+                "multiple versions"
+            ],
+            [
+                "manage",
+                "dataset"
+            ],
+            [
+                "manage",
+                "changes"
+            ],
+            [
+                "manage",
+                "research integrity"
+            ]
+        ]
+    },
+    {
+        "Text": "#G24# As a depositor, I want to allow others to deposit on my behalf, so that I can delegate research data management tasks appropriately.",
+        "Persona": [
+            "depositor"
+        ],
+        "Action": {
+            "Primary Action": [
+                "allow",
+                "deposit"
+            ],
+            "Secondary Action": [
+                "delegate"
+            ]
+        },
+        "Entity": {
+            "Primary Entity": [
+                "depositor"
+            ],
+            "Secondary Entity": [
+                "others",
+                "research data management tasks"
+            ]
+        },
+        "Benefit": "I can delegate research data management tasks appropriately",
+        "Triggers": [
+            [
+                "depositor",
+                "allow"
+            ],
+            [
+                "depositor",
+                "deposit"
+            ]
+        ],
+        "Targets": [
+            [
+                "allow",
+                "others"
+            ],
+            [
+                "deposit",
+                "others"
+            ],
+            [
+                "deposit",
+                "research data management tasks"
+            ],
+            [
+                "delegate",
+                "research data management tasks"
+            ]
+        ]
+    },
+    {
+        "Text": "#G24# As a data reuser, I want to search the archive through the web, so that I can easily find data relevant to my needs.",
+        "Persona": [
+            "data reuser"
+        ],
+        "Action": {
+            "Primary Action": [
+                "search"
+            ],
+            "Secondary Action": []
+        },
+        "Entity": {
+            "Primary Entity": [
+                "archive"
+            ],
+            "Secondary Entity": []
+        },
+        "Benefit": "I can easily find data relevant to my needs",
+        "Triggers": [
+            [
+                "data reuser",
+                "search"
+            ]
+        ],
+        "Targets": [
+            [
+                "search",
+                "archive"
+            ]
+        ]
+    },
+    {
+        "Text": "#G24# As a data reuser, I want to access the system in my native language, so that I am not put off reusing University of Bath data by language barriers.",
+        "Persona": [
+            "data reuser"
+        ],
+        "Action": {
+            "Primary Action": [
+                "access"
+            ],
+            "Secondary Action": []
+        },
+        "Entity": {
+            "Primary Entity": [
+                "system"
+            ],
+            "Secondary Entity": [
+                "University of Bath data"
+            ]
+        },
+        "Benefit": "I am not put off reusing University of Bath data by language barriers",
+        "Triggers": [
+            [
+                "data reuser",
+                "access"
+            ]
+        ],
+        "Targets": [
+            [
+                "access",
+                "system"
+            ]
+        ]
+    },
+    {
+        "Text": "#G24# As a data reuser, I want to examine and identify deposited files, so that I can make a preliminary assessment of usefulness without downloading the whole dataset.",
+        "Persona": [
+            "data reuser"
+        ],
+        "Action": {
+            "Primary Action": [
+                "examine",
+                "identify"
+            ],
+            "Secondary Action": [
+                "make a preliminary assessment"
+            ]
+        },
+        "Entity": {
+            "Primary Entity": [
+                "deposited files"
+            ],
+            "Secondary Entity": [
+                "whole dataset"
+            ]
+        },
+        "Benefit": "I can make a preliminary assessment of usefulness without downloading the whole dataset",
+        "Triggers": [
+            [
+                "data reuser",
+                "examine"
+            ],
+            [
+                "data reuser",
+                "identify"
+            ]
+        ],
+        "Targets": [
+            [
+                "examine",
+                "deposited files"
+            ],
+            [
+                "identify",
+                "deposited files"
+            ],
+            [
+                "make a preliminary assessment",
+                "whole dataset"
+            ]
+        ]
+    },
+    {
+        "Text": "#G24# As a data reuser, I want to view an example citation for a dataset, so that I can reference it correctly.",
+        "Persona": [
+            "data reuser"
+        ],
+        "Action": {
+            "Primary Action": [
+                "view",
+                "reference"
+            ],
+            "Secondary Action": []
+        },
+        "Entity": {
+            "Primary Entity": [
+                "example citation",
+                "dataset"
+            ],
+            "Secondary Entity": []
+        },
+        "Benefit": "I can reference the dataset correctly",
+        "Triggers": [
+            [
+                "data reuser",
+                "view"
+            ]
+        ],
+        "Targets": [
+            [
+                "view",
+                "example citation"
+            ],
+            [
+                "view",
+                "dataset"
+            ],
+            [
+                "reference",
+                "example citation"
+            ],
+            [
+                "reference",
+                "dataset"
+            ]
+        ]
+    },
+    {
+        "Text": "#G24# As a data reuser, I want to view a DOI for a dataset, so that I can get back to the data in future and I can import the dataset into my referencemanagement software automatically.",
+        "Persona": [
+            "data reuser"
+        ],
+        "Action": {
+            "Primary Action": [
+                "view",
+                "get back",
+                "import"
+            ],
+            "Secondary Action": []
+        },
+        "Entity": {
+            "Primary Entity": [
+                "DOI",
+                "dataset",
+                "referencemanagement software"
+            ],
+            "Secondary Entity": []
+        },
+        "Benefit": "I can get back to the data in future and I can import the dataset into my referencemanagement software automatically.",
+        "Triggers": [
+            [
+                "data reuser",
+                "view"
+            ]
+        ],
+        "Targets": [
+            [
+                "view",
+                "DOI"
+            ],
+            [
+                "view",
+                "dataset"
+            ],
+            [
+                "view",
+                "referencemanagement software"
+            ],
+            [
+                "get back",
+                "DOI"
+            ],
+            [
+                "import",
+                "dataset"
+            ],
+            [
+                "import",
+                "referencemanagement software"
+            ]
+        ]
+    },
+    {
+        "Text": "#G24# As a data reuser, I want to get a persistent URL for a dataset, so that I can get back to the data in future.",
+        "Persona": [
+            "data reuser"
+        ],
+        "Action": {
+            "Primary Action": [
+                "get"
+            ],
+            "Secondary Action": []
+        },
+        "Entity": {
+            "Primary Entity": [
+                "persistent URL"
+            ],
+            "Secondary Entity": [
+                "dataset"
+            ]
+        },
+        "Benefit": "I can get back to the data in future",
+        "Triggers": [
+            [
+                "data reuser",
+                "get"
+            ]
+        ],
+        "Targets": [
+            [
+                "get",
+                "persistent URL"
+            ]
+        ]
+    },
+    {
+        "Text": "#G24# As a data reuser, I want to search the archive through Primo , so that I can search books, articles and data all in one place.",
+        "Persona": [
+            "data reuser"
+        ],
+        "Action": {
+            "Primary Action": [
+                "search"
+            ],
+            "Secondary Action": []
+        },
+        "Entity": {
+            "Primary Entity": [
+                "archive",
+                "Primo"
+            ],
+            "Secondary Entity": [
+                "books",
+                "articles",
+                "data"
+            ]
+        },
+        "Benefit": "I can search books, articles and data all in one place",
+        "Triggers": [
+            [
+                "data reuser",
+                "search"
+            ]
+        ],
+        "Targets": [
+            [
+                "search",
+                "archive"
+            ],
+            [
+                "search",
+                "Primo"
+            ],
+            [
+                "search",
+                "books"
+            ],
+            [
+                "search",
+                "articles"
+            ],
+            [
+                "search",
+                "data"
+            ]
+        ]
+    },
+    {
+        "Text": "#G24# As a depositor, I want to deposit and maintain datasets through Pure, so that I have a single onestop shop for managing my research outputs.",
+        "Persona": [
+            "depositor"
+        ],
+        "Action": {
+            "Primary Action": [
+                "deposit",
+                "maintain"
+            ],
+            "Secondary Action": []
+        },
+        "Entity": {
+            "Primary Entity": [
+                "datasets",
+                "Pure",
+                "research outputs"
+            ],
+            "Secondary Entity": []
+        },
+        "Benefit": "have a single onestop shop for managing my research outputs",
+        "Triggers": [
+            [
+                "depositor",
+                "deposit"
+            ],
+            [
+                "depositor",
+                "maintain"
+            ]
+        ],
+        "Targets": [
+            [
+                "deposit",
+                "datasets"
+            ],
+            [
+                "deposit",
+                "Pure"
+            ],
+            [
+                "maintain",
+                "research outputs"
+            ]
+        ]
+    },
+    {
+        "Text": "#G24# As a data reuser, I want to see different versions of a dataset at a glance, so that I can be sure I'm using the right version of the dataset.",
+        "Persona": [
+            "data reuser"
+        ],
+        "Action": {
+            "Primary Action": [
+                "see"
+            ],
+            "Secondary Action": []
+        },
+        "Entity": {
+            "Primary Entity": [
+                "dataset"
+            ],
+            "Secondary Entity": []
+        },
+        "Benefit": "I can be sure I'm using the right version of the dataset",
+        "Triggers": [
+            [
+                "data reuser",
+                "see"
+            ]
+        ],
+        "Targets": [
+            [
+                "see",
+                "dataset"
+            ]
+        ]
+    },
+    {
+        "Text": "#G24# As an externalcollaborator, I want to gain privileged access to data for projects in which I am involved, so that I can collaborate effectively.",
+        "Persona": [
+            "externalcollaborator"
+        ],
+        "Action": {
+            "Primary Action": [
+                "gain privileged access",
+                "collaborate"
+            ],
+            "Secondary Action": []
+        },
+        "Entity": {
+            "Primary Entity": [
+                "data",
+                "projects"
+            ],
+            "Secondary Entity": []
+        },
+        "Benefit": "collaborate effectively",
+        "Triggers": [
+            [
+                "externalcollaborator",
+                "gain privileged access"
+            ],
+            [
+                "externalcollaborator",
+                "collaborate"
+            ]
+        ],
+        "Targets": [
+            [
+                "gain privileged access",
+                "data"
+            ],
+            [
+                "collaborate",
+                "projects"
+            ]
+        ]
+    },
+    {
+        "Text": "#G24# As an externalcoordinator, I want to have guarantees that my IP rights will not be breached, so that the risk of collaborating with Bath is acceptable to me.",
+        "Persona": [
+            "externalcoordinator"
+        ],
+        "Action": {
+            "Primary Action": [
+                "have guarantees",
+                "collaborating"
+            ],
+            "Secondary Action": [
+                "be breached"
+            ]
+        },
+        "Entity": {
+            "Primary Entity": [
+                "IP rights",
+                "Bath"
+            ],
+            "Secondary Entity": []
+        },
+        "Benefit": "the risk of collaborating with Bath is acceptable to me",
+        "Triggers": [
+            [
+                "externalcoordinator",
+                "have guarantees"
+            ]
+        ],
+        "Targets": [
+            [
+                "have guarantees",
+                "IP rights"
+            ],
+            [
+                "have guarantees",
+                "Bath"
+            ],
+            [
+                "collaborating",
+                "Bath"
+            ]
+        ]
+    },
+    {
+        "Text": "#G24# AS an externalcoordinator, I want to access data from Bath collaborators off campus, so that I can collaborate effectively.",
+        "Persona": [
+            "externalcoordinator"
+        ],
+        "Action": {
+            "Primary Action": [
+                "access"
+            ],
+            "Secondary Action": []
+        },
+        "Entity": {
+            "Primary Entity": [
+                "data"
+            ],
+            "Secondary Entity": [
+                "Bath collaborators"
+            ]
+        },
+        "Benefit": "collaborate effectively",
+        "Triggers": [
+            [
+                "externalcoordinator",
+                "access"
+            ]
+        ],
+        "Targets": [
+            [
+                "access",
+                "data"
+            ]
+        ]
+    },
+    {
+        "Text": "#G24# As a research facility manager, I want to deposit data from my facility directly into the archive on behalf of researchers, so that I am no longer required to maintain my own archive of facility data and researchers can access their own data as needed.",
+        "Persona": [
+            "research facility manager"
+        ],
+        "Action": {
+            "Primary Action": [
+                "deposit",
+                "maintain",
+                "access"
+            ],
+            "Secondary Action": []
+        },
+        "Entity": {
+            "Primary Entity": [
+                "data",
+                "archive",
+                "facility data",
+                "researchers"
+            ],
+            "Secondary Entity": []
+        },
+        "Benefit": "I am no longer required to maintain my own archive of facility data and researchers can access their own data as needed.",
+        "Triggers": [
+            [
+                "research facility manager",
+                "deposit"
+            ]
+        ],
+        "Targets": [
+            [
+                "deposit",
+                "data"
+            ],
+            [
+                "deposit",
+                "archive"
+            ],
+            [
+                "deposit",
+                "facility data"
+            ],
+            [
+                "deposit",
+                "researchers"
+            ],
+            [
+                "maintain",
+                "archive"
+            ],
+            [
+                "access",
+                "researchers"
+            ]
+        ]
+    },
+    {
+        "Text": "#G24# As a Bath Data Archive administrator, I want to make some checks on deposited datasets before they are made public, so that consistent quality of metadata is maintained, compliance with policies can be checked and details of licensing can be checked.",
+        "Persona": [
+            "Bath Data Archive administrator"
+        ],
+        "Action": {
+            "Primary Action": [
+                "make checks",
+                "maintain consistent quality",
+                "check compliance",
+                "check details"
+            ],
+            "Secondary Action": []
+        },
+        "Entity": {
+            "Primary Entity": [
+                "deposited datasets",
+                "metadata",
+                "policies",
+                "licensing"
+            ],
+            "Secondary Entity": []
+        },
+        "Benefit": "consistent quality of metadata is maintained, compliance with policies can be checked, and details of licensing can be checked",
+        "Triggers": [
+            [
+                "Bath Data Archive administrator",
+                "make checks"
+            ],
+            [
+                "Bath Data Archive administrator",
+                "maintain consistent quality"
+            ],
+            [
+                "Bath Data Archive administrator",
+                "check compliance"
+            ],
+            [
+                "Bath Data Archive administrator",
+                "check details"
+            ]
+        ],
+        "Targets": [
+            [
+                "make checks",
+                "deposited datasets"
+            ],
+            [
+                "make checks",
+                "metadata"
+            ],
+            [
+                "make checks",
+                "policies"
+            ],
+            [
+                "make checks",
+                "licensing"
+            ]
+        ]
+    },
+    {
+        "Text": "#G24# As a Bath Data Archive administrator, I want to require a minimum set of metadata, so that consistent quality of metadata is maintained.",
+        "Persona": [
+            "Bath Data Archive administrator"
+        ],
+        "Action": {
+            "Primary Action": [
+                "require"
+            ],
+            "Secondary Action": [
+                "maintain"
+            ]
+        },
+        "Entity": {
+            "Primary Entity": [
+                "minimum set of metadata"
+            ],
+            "Secondary Entity": [
+                "consistent quality of metadata"
+            ]
+        },
+        "Benefit": "consistent quality of metadata is maintained",
+        "Triggers": [
+            [
+                "Bath Data Archive administrator",
+                "require"
+            ],
+            [
+                "consistent quality of metadata",
+                "maintain"
+            ]
+        ],
+        "Targets": [
+            [
+                "require",
+                "minimum set of metadata"
+            ]
+        ]
+    },
+    {
+        "Text": "#G24# As a Bath Data Archive administrator, I want to approve scheduled disposal of data, so that data which is still required is not destroyed.",
+        "Persona": [
+            "Bath Data Archive administrator"
+        ],
+        "Action": {
+            "Primary Action": [
+                "approve"
+            ],
+            "Secondary Action": []
+        },
+        "Entity": {
+            "Primary Entity": [
+                "scheduled disposal of data"
+            ],
+            "Secondary Entity": []
+        },
+        "Benefit": "data which is still required is not destroyed",
+        "Triggers": [
+            [
+                "Bath Data Archive administrator",
+                "approve"
+            ]
+        ],
+        "Targets": [
+            [
+                "approve",
+                "scheduled disposal of data"
+            ]
+        ]
+    },
+    {
+        "Text": "#G24# As a Bath Data Archive administrator, I want to query the entire archive , so that I can report on particular aspects of the archive holdings.",
+        "Persona": [
+            "Bath Data Archive administrator"
+        ],
+        "Action": {
+            "Primary Action": [
+                "query"
+            ],
+            "Secondary Action": [
+                "report"
+            ]
+        },
+        "Entity": {
+            "Primary Entity": [
+                "archive"
+            ],
+            "Secondary Entity": []
+        },
+        "Benefit": "I can report on particular aspects of the archive holdings",
+        "Triggers": [
+            [
+                "Bath Data Archive administrator",
+                "query"
+            ]
+        ],
+        "Targets": [
+            [
+                "query",
+                "archive"
+            ]
+        ]
+    },
+    {
+        "Text": "#G24# As a Bath Data Archive administrator, I want to import Bath data from an external data centre wholesale, so that Bath data holdings in external archives are not lost if they close down.",
+        "Persona": [
+            "Bath Data Archive administrator"
+        ],
+        "Action": {
+            "Primary Action": [
+                "import"
+            ],
+            "Secondary Action": []
+        },
+        "Entity": {
+            "Primary Entity": [
+                "Bath data"
+            ],
+            "Secondary Entity": [
+                "external data centre",
+                "external archives"
+            ]
+        },
+        "Benefit": "Bath data holdings in external archives are not lost if they close down",
+        "Triggers": [
+            [
+                "Bath Data Archive administrator",
+                "import"
+            ]
+        ],
+        "Targets": [
+            [
+                "import",
+                "Bath data"
+            ]
+        ]
+    },
+    {
+        "Text": "#G24# As a depositor, I want to deposit and maintain datasets through Virtual Research Environments and other workflow tools, so that I can continue to work with tools with which I'm familiar.",
+        "Persona": [
+            "depositor"
+        ],
+        "Action": {
+            "Primary Action": [
+                "deposit"
+            ],
+            "Secondary Action": [
+                "maintain",
+                "work"
+            ]
+        },
+        "Entity": {
+            "Primary Entity": [
+                "datasets"
+            ],
+            "Secondary Entity": [
+                "Virtual Research Environments",
+                "workflow tools"
+            ]
+        },
+        "Benefit": "continue to work with tools with which I'm familiar",
+        "Triggers": [
+            [
+                "depositor",
+                "deposit"
+            ],
+            [
+                "depositor",
+                "maintain"
+            ],
+            [
+                "depositor",
+                "work"
+            ]
+        ],
+        "Targets": [
+            [
+                "deposit",
+                "datasets"
+            ],
+            [
+                "maintain",
+                "datasets"
+            ],
+            [
+                "work",
+                "datasets"
+            ]
+        ]
+    },
+    {
+        "Text": "#G24# As a Bath Data Archive administrator, I want to encourage and promote the use of open standards for deposit, so that data is as reusable as possible.",
+        "Persona": [
+            "Bath Data Archive administrator"
+        ],
+        "Action": {
+            "Primary Action": [
+                "encourage",
+                "promote",
+                "use"
+            ],
+            "Secondary Action": [
+                "reusable"
+            ]
+        },
+        "Entity": {
+            "Primary Entity": [
+                "open standards",
+                "deposit",
+                "data"
+            ],
+            "Secondary Entity": []
+        },
+        "Benefit": "data is as reusable as possible",
+        "Triggers": [
+            [
+                "Bath Data Archive administrator",
+                "encourage"
+            ],
+            [
+                "Bath Data Archive administrator",
+                "promote"
+            ],
+            [
+                "Bath Data Archive administrator",
+                "use"
+            ]
+        ],
+        "Targets": [
+            [
+                "encourage",
+                "open standards"
+            ],
+            [
+                "promote",
+                "open standards"
+            ],
+            [
+                "use",
+                "open standards"
+            ],
+            [
+                "use",
+                "deposit"
+            ],
+            [
+                "use",
+                "data"
+            ]
+        ]
+    },
+    {
+        "Text": "#G24# As a Research Information manager, I want to integrate the archive with CRIS, so that I can analyse impact of research data publication I can link funding to all of the outputs it produces.",
+        "Persona": [
+            "Research Information manager"
+        ],
+        "Action": {
+            "Primary Action": [
+                "integrate",
+                "analyse",
+                "link"
+            ],
+            "Secondary Action": []
+        },
+        "Entity": {
+            "Primary Entity": [
+                "archive",
+                "CRIS",
+                "research data publication",
+                "funding",
+                "outputs"
+            ],
+            "Secondary Entity": []
+        },
+        "Benefit": "I can analyse impact of research data publication and link funding to all of the outputs it produces.",
+        "Triggers": [
+            [
+                "Research Information manager",
+                "integrate"
+            ]
+        ],
+        "Targets": [
+            [
+                "integrate",
+                "archive"
+            ],
+            [
+                "integrate",
+                "CRIS"
+            ],
+            [
+                "analyse",
+                "research data publication"
+            ],
+            [
+                "link",
+                "funding"
+            ],
+            [
+                "link",
+                "outputs"
+            ]
+        ]
+    },
+    {
+        "Text": "#G24# As a Research Information manager, I want to include records for externally held data complete, so that the university's record of data holdings is complete.",
+        "Persona": [
+            "Research Information manager"
+        ],
+        "Action": {
+            "Primary Action": [
+                "include"
+            ],
+            "Secondary Action": []
+        },
+        "Entity": {
+            "Primary Entity": [
+                "externally held data"
+            ],
+            "Secondary Entity": []
+        },
+        "Benefit": "the university's record of data holdings is complete",
+        "Triggers": [
+            [
+                "Research Information manager",
+                "include"
+            ]
+        ],
+        "Targets": [
+            [
+                "include",
+                "externally held data"
+            ]
+        ]
+    },
+    {
+        "Text": "#G24# As a Research Information manager, I want to track citation counts for published datasets, so that impact of datasets within academia can be demonstrated.",
+        "Persona": [
+            "Research Information manager"
+        ],
+        "Action": {
+            "Primary Action": [
+                "track citation counts"
+            ],
+            "Secondary Action": []
+        },
+        "Entity": {
+            "Primary Entity": [
+                "published datasets"
+            ],
+            "Secondary Entity": [
+                "academia"
+            ]
+        },
+        "Benefit": "impact of datasets within academia can be demonstrated",
+        "Triggers": [
+            [
+                "Research Information manager",
+                "track citation counts"
+            ]
+        ],
+        "Targets": [
+            [
+                "track citation counts",
+                "published datasets"
+            ]
+        ]
+    },
+    {
+        "Text": "#G24# As a Research Information manager, I want to segment the view and download statistics by country and sector so that impact of datasets outside academia can be demonstrated.",
+        "Persona": [
+            "Research Information manager"
+        ],
+        "Action": {
+            "Primary Action": [
+                "segment"
+            ],
+            "Secondary Action": [
+                "demonstrate"
+            ]
+        },
+        "Entity": {
+            "Primary Entity": [
+                "view and download statistics",
+                "country",
+                "sector"
+            ],
+            "Secondary Entity": [
+                "datasets",
+                "academia"
+            ]
+        },
+        "Benefit": "impact of datasets outside academia can be demonstrated",
+        "Triggers": [
+            [
+                "Research Information manager",
+                "segment"
+            ]
+        ],
+        "Targets": [
+            [
+                "segment",
+                "view and download statistics"
+            ],
+            [
+                "segment",
+                "country"
+            ],
+            [
+                "segment",
+                "sector"
+            ],
+            [
+                "segment",
+                "datasets"
+            ],
+            [
+                "segment",
+                "academia"
+            ],
+            [
+                "segment",
+                "impact of datasets outside academia can be demonstrated"
+            ]
+        ]
+    },
+    {
+        "Text": "#G24# As a Research Information manager, I want to have datasets linked to metadata about projects, so that I can report on projects depositing datasets in relation to funder requirements.",
+        "Persona": [
+            "Research Information manager"
+        ],
+        "Action": {
+            "Primary Action": [
+                "have",
+                "linked",
+                "report",
+                "depositing"
+            ],
+            "Secondary Action": []
+        },
+        "Entity": {
+            "Primary Entity": [
+                "datasets",
+                "metadata",
+                "projects",
+                "funder requirements"
+            ],
+            "Secondary Entity": []
+        },
+        "Benefit": "I can report on projects depositing datasets in relation to funder requirements",
+        "Triggers": [
+            [
+                "Research Information manager",
+                "have"
+            ]
+        ],
+        "Targets": [
+            [
+                "have",
+                "datasets"
+            ],
+            [
+                "have",
+                "metadata"
+            ],
+            [
+                "have",
+                "projects"
+            ],
+            [
+                "have",
+                "funder requirements"
+            ],
+            [
+                "linked",
+                "datasets"
+            ],
+            [
+                "report",
+                "projects"
+            ],
+            [
+                "depositing",
+                "datasets"
+            ]
+        ]
+    },
+    {
+        "Text": "#G24# As an UnivITservice, I want to store archived data on existing storage systems, so that university data storage is consistent and maintainable and future availability of data can be guaranteed.",
+        "Persona": [
+            "UnivITservice"
+        ],
+        "Action": {
+            "Primary Action": [
+                "store"
+            ],
+            "Secondary Action": []
+        },
+        "Entity": {
+            "Primary Entity": [
+                "archived data",
+                "existing storage systems",
+                "university data storage"
+            ],
+            "Secondary Entity": []
+        },
+        "Benefit": "consistent and maintainable university data storage and guaranteed future availability of data",
+        "Triggers": [
+            [
+                "UnivITservice",
+                "store"
+            ]
+        ],
+        "Targets": [
+            [
+                "store",
+                "archived data"
+            ],
+            [
+                "store",
+                "existing storage systems"
+            ],
+            [
+                "store",
+                "university data storage"
+            ]
+        ]
+    },
+    {
+        "Text": "#G24# As an UnivITservice, I want to integrate the archive with existing university systems such as LDAP, so that the cost of administering the system can be kept low.",
+        "Persona": [
+            "UnivITservice"
+        ],
+        "Action": {
+            "Primary Action": [
+                "integrate"
+            ],
+            "Secondary Action": []
+        },
+        "Entity": {
+            "Primary Entity": [
+                "archive"
+            ],
+            "Secondary Entity": [
+                "university systems",
+                "LDAP"
+            ]
+        },
+        "Benefit": "the cost of administering the system can be kept low",
+        "Triggers": [
+            [
+                "UnivITservice",
+                "integrate"
+            ]
+        ],
+        "Targets": [
+            [
+                "integrate",
+                "archive"
+            ],
+            [
+                "integrate",
+                "university systems"
+            ],
+            [
+                "integrate",
+                "LDAP"
+            ]
+        ]
+    },
+    {
+        "Text": "#G24# As an UnivITservice, I want to store archived data directly on the HCP object store, so that  features can be made.",
+        "Persona": [
+            "UnivITservice"
+        ],
+        "Action": {
+            "Primary Action": [
+                "store",
+                "archive"
+            ],
+            "Secondary Action": []
+        },
+        "Entity": {
+            "Primary Entity": [
+                "HCP object store"
+            ],
+            "Secondary Entity": []
+        },
+        "Benefit": "features can be made",
+        "Triggers": [
+            [
+                "UnivITservice",
+                "store"
+            ],
+            [
+                "UnivITservice",
+                "archive"
+            ]
+        ],
+        "Targets": [
+            [
+                "store",
+                "HCP object store"
+            ],
+            [
+                "archive",
+                "HCP object store"
+            ]
+        ]
+    },
+    {
+        "Text": "#G24# As an UnivITservice, I want to be able to export all data to a different system, so that I am not tied into one system which may not be the most appropriate at some point in the future.",
+        "Persona": [
+            "UnivITservice"
+        ],
+        "Action": {
+            "Primary Action": [
+                "export"
+            ],
+            "Secondary Action": []
+        },
+        "Entity": {
+            "Primary Entity": [
+                "data"
+            ],
+            "Secondary Entity": [
+                "different system"
+            ]
+        },
+        "Benefit": "I am not tied into one system which may not be the most appropriate at some point in the future.",
+        "Triggers": [
+            [
+                "UnivITservice",
+                "export"
+            ]
+        ],
+        "Targets": [
+            [
+                "export",
+                "data"
+            ]
+        ]
+    },
+    {
+        "Text": "#G24# As a depositor, I want to deposit the files that I have, so that I don't have to spend a lot of time finding the right version and converting to the right format.",
+        "Persona": [
+            "depositor"
+        ],
+        "Action": {
+            "Primary Action": [
+                "deposit"
+            ],
+            "Secondary Action": []
+        },
+        "Entity": {
+            "Primary Entity": [
+                "files"
+            ],
+            "Secondary Entity": []
+        },
+        "Benefit": "I don't have to spend a lot of time finding the right version and converting to the right format.",
+        "Triggers": [
+            [
+                "depositor",
+                "deposit"
+            ]
+        ],
+        "Targets": [
+            [
+                "deposit",
+                "files"
+            ]
+        ]
+    },
+    {
+        "Text": "#G24# As a developer, I want to deposit and maintain datasets via an API such as SWORD2, so that my service can interact with the archive.",
+        "Persona": [
+            "developer"
+        ],
+        "Action": {
+            "Primary Action": [
+                "deposit",
+                "maintain",
+                "interact"
+            ],
+            "Secondary Action": []
+        },
+        "Entity": {
+            "Primary Entity": [
+                "datasets",
+                "API",
+                "SWORD2",
+                "service",
+                "archive"
+            ],
+            "Secondary Entity": []
+        },
+        "Benefit": "my service can interact with the archive",
+        "Triggers": [
+            [
+                "developer",
+                "deposit"
+            ],
+            [
+                "developer",
+                "maintain"
+            ],
+            [
+                "developer",
+                "interact"
+            ]
+        ],
+        "Targets": [
+            [
+                "deposit",
+                "datasets"
+            ],
+            [
+                "maintain",
+                "datasets"
+            ],
+            [
+                "interact",
+                "datasets"
+            ],
+            [
+                "interact",
+                "API"
+            ],
+            [
+                "interact",
+                "SWORD2"
+            ],
+            [
+                "interact",
+                "service"
+            ],
+            [
+                "interact",
+                "archive"
+            ]
+        ]
+    },
+    {
+        "Text": "#G24# As an academicpublisher, I want to make persistent web links between my articles and underlying datasets, so that my journals can be seen to be filled with robust, high quality research.",
+        "Persona": [
+            "academic publisher"
+        ],
+        "Action": {
+            "Primary Action": [
+                "make persistent web links"
+            ],
+            "Secondary Action": []
+        },
+        "Entity": {
+            "Primary Entity": [
+                "articles",
+                "journals"
+            ],
+            "Secondary Entity": [
+                "underlying datasets"
+            ]
+        },
+        "Benefit": "my journals can be seen to be filled with robust, high quality research",
+        "Triggers": [
+            [
+                "academic publisher",
+                "make persistent web links"
+            ]
+        ],
+        "Targets": [
+            [
+                "make persistent web links",
+                "articles"
+            ],
+            [
+                "make persistent web links",
+                "underlying datasets"
+            ],
+            [
+                "make persistent web links",
+                "journals"
+            ]
+        ]
+    },
+    {
+        "Text": "#G24# As a fundingbody, I want to be reassured that researchers I fund have robust archival plans for their data, so that I can be sure that funding them is a worthwhile investment.",
+        "Persona": [
+            "fundingbody"
+        ],
+        "Action": {
+            "Primary Action": [
+                "fund"
+            ],
+            "Secondary Action": [
+                "reassured",
+                "have robust archival plans"
+            ]
+        },
+        "Entity": {
+            "Primary Entity": [
+                "researchers"
+            ],
+            "Secondary Entity": [
+                "data"
+            ]
+        },
+        "Benefit": "be sure that funding them is a worthwhile investment",
+        "Triggers": [
+            [
+                "fundingbody",
+                "reassured"
+            ],
+            [
+                "fundingbody",
+                "fund"
+            ],
+            [
+                "researchers",
+                "have robust archival plans"
+            ]
+        ],
+        "Targets": [
+            [
+                "reassured",
+                "researchers"
+            ],
+            [
+                "fund",
+                "researchers"
+            ],
+            [
+                "have robust archival plans",
+                "data"
+            ]
+        ]
+    },
+    {
+        "Text": "#G24# As a fundingbody, I want to harvest metadata on outputs from research I fund, so that I can analyse effectiveness of funding strategy and I can encourage cross fertilisation of research outputs.",
+        "Persona": [
+            "fundingbody"
+        ],
+        "Action": {
+            "Primary Action": [
+                "harvest"
+            ],
+            "Secondary Action": [
+                "analyse",
+                "encourage"
+            ]
+        },
+        "Entity": {
+            "Primary Entity": [
+                "metadata",
+                "research"
+            ],
+            "Secondary Entity": [
+                "funding strategy",
+                "cross fertilisation"
+            ]
+        },
+        "Benefit": "I can analyse effectiveness of funding strategy and encourage cross fertilisation of research outputs",
+        "Triggers": [
+            [
+                "fundingbody",
+                "harvest"
+            ],
+            [
+                "fundingbody",
+                "analyse"
+            ],
+            [
+                "fundingbody",
+                "encourage"
+            ]
+        ],
+        "Targets": [
+            [
+                "harvest",
+                "metadata"
+            ],
+            [
+                "analyse",
+                "funding strategy"
+            ],
+            [
+                "encourage",
+                "cross fertilisation"
+            ]
+        ]
+    },
+    {
+        "Text": "#G24# As a depositor, I want to place data under an embargo, so that my right of first use is protected, and I can fulfil my confidentiality responsibilities.",
+        "Persona": [
+            "depositor"
+        ],
+        "Action": {
+            "Primary Action": [
+                "place"
+            ],
+            "Secondary Action": []
+        },
+        "Entity": {
+            "Primary Entity": [
+                "data",
+                "embargo",
+                "right of first use",
+                "confidentiality responsibilities"
+            ],
+            "Secondary Entity": []
+        },
+        "Benefit": "my right of first use is protected, and I can fulfil my confidentiality responsibilities",
+        "Triggers": [
+            [
+                "depositor",
+                "place"
+            ]
+        ],
+        "Targets": [
+            [
+                "place",
+                "data"
+            ],
+            [
+                "place",
+                "embargo"
+            ],
+            [
+                "place",
+                "right of first use"
+            ],
+            [
+                "place",
+                "confidentiality responsibilities"
+            ]
+        ]
+    },
+    {
+        "Text": "#G24# As a depositor, I want to apply licenses to datasets, so that my IP rights are protected appropriately.",
+        "Persona": [
+            "depositor"
+        ],
+        "Action": {
+            "Primary Action": [
+                "apply"
+            ],
+            "Secondary Action": []
+        },
+        "Entity": {
+            "Primary Entity": [
+                "licenses",
+                "datasets",
+                "IP rights"
+            ],
+            "Secondary Entity": []
+        },
+        "Benefit": "my IP rights are protected appropriately",
+        "Triggers": [
+            [
+                "depositor",
+                "apply"
+            ]
+        ],
+        "Targets": [
+            [
+                "apply",
+                "licenses"
+            ],
+            [
+                "apply",
+                "datasets"
+            ],
+            [
+                "apply",
+                "IP rights"
+            ]
+        ]
+    },
+    {
+        "Text": "#G24# As a depositor, I want to allow my collaborators privileged access to datasets, so that we continue to have a productive relationship.",
+        "Persona": [
+            "depositor"
+        ],
+        "Action": {
+            "Primary Action": [
+                "allow"
+            ],
+            "Secondary Action": []
+        },
+        "Entity": {
+            "Primary Entity": [
+                "collaborators",
+                "datasets"
+            ],
+            "Secondary Entity": []
+        },
+        "Benefit": "we continue to have a productive relationship",
+        "Triggers": [
+            [
+                "depositor",
+                "allow"
+            ]
+        ],
+        "Targets": [
+            [
+                "allow",
+                "collaborators"
+            ],
+            [
+                "allow",
+                "datasets"
+            ]
+        ]
+    },
+    {
+        "Text": "#G24# As a depositor, I want to deposit arbitrarily large files, so that I am not limited in what files I can and cannot deposit.",
+        "Persona": [
+            "depositor"
+        ],
+        "Action": {
+            "Primary Action": [
+                "deposit"
+            ],
+            "Secondary Action": []
+        },
+        "Entity": {
+            "Primary Entity": [
+                "arbitrarily large files"
+            ],
+            "Secondary Entity": []
+        },
+        "Benefit": "I am not limited in what files I can and cannot deposit",
+        "Triggers": [
+            [
+                "depositor",
+                "deposit"
+            ]
+        ],
+        "Targets": [
+            [
+                "deposit",
+                "arbitrarily large files"
+            ]
+        ]
+    }
+]

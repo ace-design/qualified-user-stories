@@ -1,0 +1,4280 @@
+[
+    {
+        "Text": "#G18# As a system administrator, I want to run a script that installs the Neurohub node onto a virgin Ubuntu operating system.",
+        "Persona": [
+            "system administrator"
+        ],
+        "Action": {
+            "Primary Action": [
+                "run",
+                "installs"
+            ],
+            "Secondary Action": []
+        },
+        "Entity": {
+            "Primary Entity": [
+                "Neurohub node",
+                "virgin Ubuntu operating system"
+            ],
+            "Secondary Entity": []
+        },
+        "Benefit": "I can install the Neurohub node onto a virgin Ubuntu operating system",
+        "Triggers": [
+            [
+                "system administrator",
+                "run"
+            ]
+        ],
+        "Targets": [
+            [
+                "run",
+                "Neurohub node"
+            ],
+            [
+                "run",
+                "virgin Ubuntu operating system"
+            ],
+            [
+                "installs",
+                "Neurohub node"
+            ],
+            [
+                "installs",
+                "virgin Ubuntu operating system"
+            ]
+        ]
+    },
+    {
+        "Text": "#G18# As a researcher, I want to create a log book page for an experiment and attach a directory that contains multiple files.",
+        "Persona": [
+            "researcher"
+        ],
+        "Action": {
+            "Primary Action": [
+                "create"
+            ],
+            "Secondary Action": [
+                "attach"
+            ]
+        },
+        "Entity": {
+            "Primary Entity": [
+                "log book page"
+            ],
+            "Secondary Entity": [
+                "directory",
+                "multiple files"
+            ]
+        },
+        "Benefit": "to keep track of the experiment and easily access the files",
+        "Triggers": [
+            [
+                "researcher",
+                "create"
+            ]
+        ],
+        "Targets": [
+            [
+                "create",
+                "log book page"
+            ],
+            [
+                "attach",
+                "directory"
+            ],
+            [
+                "attach",
+                "multiple files"
+            ]
+        ]
+    },
+    {
+        "Text": "#G18# As a researcher, I want to secure remote access to the Neurohub node when working away from the laboratory",
+        "Persona": [
+            "researcher"
+        ],
+        "Action": {
+            "Primary Action": [
+                "secure"
+            ],
+            "Secondary Action": []
+        },
+        "Entity": {
+            "Primary Entity": [
+                "remote access",
+                "Neurohub node",
+                "laboratory"
+            ],
+            "Secondary Entity": []
+        },
+        "Benefit": "working away from the laboratory",
+        "Triggers": [
+            [
+                "researcher",
+                "secure"
+            ]
+        ],
+        "Targets": [
+            [
+                "secure",
+                "remote access"
+            ],
+            [
+                "secure",
+                "Neurohub node"
+            ],
+            [
+                "secure",
+                "laboratory"
+            ]
+        ]
+    },
+    {
+        "Text": "#G18# As a researcher, I want to have a group-level repository for sharing papers/reviews/comments with other researchers.",
+        "Persona": [
+            "researcher"
+        ],
+        "Action": {
+            "Primary Action": [
+                "sharing"
+            ],
+            "Secondary Action": []
+        },
+        "Entity": {
+            "Primary Entity": [
+                "group-level repository"
+            ],
+            "Secondary Entity": [
+                "papers",
+                "reviews",
+                "comments",
+                "other researchers"
+            ]
+        },
+        "Benefit": "to share papers/reviews/comments with other researchers",
+        "Triggers": [
+            [
+                "researcher",
+                "sharing"
+            ]
+        ],
+        "Targets": [
+            [
+                "sharing",
+                "group-level repository"
+            ]
+        ]
+    },
+    {
+        "Text": "#G18# As a researcher, I want to have the details of the workflow plan as well as the execution history and results recorded in Neurohub while executing a workflow",
+        "Persona": [
+            "researcher"
+        ],
+        "Action": {
+            "Primary Action": [
+                "record"
+            ],
+            "Secondary Action": []
+        },
+        "Entity": {
+            "Primary Entity": [
+                "workflow plan",
+                "execution history",
+                "results"
+            ],
+            "Secondary Entity": [
+                "Neurohub"
+            ]
+        },
+        "Benefit": "I can have the details of the workflow plan, execution history, and results recorded in Neurohub while executing a workflow",
+        "Triggers": [
+            [
+                "researcher",
+                "record"
+            ]
+        ],
+        "Targets": [
+            [
+                "record",
+                "workflow plan"
+            ],
+            [
+                "record",
+                "execution history"
+            ],
+            [
+                "record",
+                "results"
+            ],
+            [
+                "record",
+                "Neurohub"
+            ]
+        ]
+    },
+    {
+        "Text": "#G18# As a researcher, I want to upload files prior to having them attached to a log book page.",
+        "Persona": [
+            "researcher"
+        ],
+        "Action": {
+            "Primary Action": [
+                "upload"
+            ],
+            "Secondary Action": []
+        },
+        "Entity": {
+            "Primary Entity": [
+                "files",
+                "log book page"
+            ],
+            "Secondary Entity": []
+        },
+        "Benefit": "prioritize files before attaching them to a log book page",
+        "Triggers": [
+            [
+                "researcher",
+                "upload"
+            ]
+        ],
+        "Targets": [
+            [
+                "upload",
+                "files"
+            ],
+            [
+                "upload",
+                "log book page"
+            ]
+        ]
+    },
+    {
+        "Text": "#G18# As a researcher, I want to upload files prior to having them attached to a log book page using the web interface.",
+        "Persona": [
+            "researcher"
+        ],
+        "Action": {
+            "Primary Action": [
+                "upload",
+                "attach"
+            ],
+            "Secondary Action": []
+        },
+        "Entity": {
+            "Primary Entity": [
+                "files",
+                "log book page"
+            ],
+            "Secondary Entity": [
+                "web interface"
+            ]
+        },
+        "Benefit": "prioritize files before attaching them to a log book page",
+        "Triggers": [
+            [
+                "researcher",
+                "upload"
+            ]
+        ],
+        "Targets": [
+            [
+                "upload",
+                "files"
+            ],
+            [
+                "upload",
+                "log book page"
+            ],
+            [
+                "attach",
+                "log book page"
+            ],
+            [
+                "attach",
+                "web interface"
+            ]
+        ]
+    },
+    {
+        "Text": "#G18# As a researcher, I want to upload files prior to having them attached to a log book page using a mapped network drive.",
+        "Persona": [
+            "researcher"
+        ],
+        "Action": {
+            "Primary Action": [
+                "upload"
+            ],
+            "Secondary Action": []
+        },
+        "Entity": {
+            "Primary Entity": [
+                "files",
+                "log book page"
+            ],
+            "Secondary Entity": [
+                "mapped network drive"
+            ]
+        },
+        "Benefit": "having them attached to a log book page",
+        "Triggers": [
+            [
+                "researcher",
+                "upload"
+            ]
+        ],
+        "Targets": [
+            [
+                "upload",
+                "files"
+            ],
+            [
+                "upload",
+                "log book page"
+            ],
+            [
+                "upload",
+                "mapped network drive"
+            ]
+        ]
+    },
+    {
+        "Text": "#G18# As a researcher, I want to attach currently non-attached files to a log book page.",
+        "Persona": [
+            "researcher"
+        ],
+        "Action": {
+            "Primary Action": [
+                "attach"
+            ],
+            "Secondary Action": []
+        },
+        "Entity": {
+            "Primary Entity": [
+                "currently non-attached files",
+                "log book page"
+            ],
+            "Secondary Entity": []
+        },
+        "Benefit": "to attach currently non-attached files to a log book page",
+        "Triggers": [
+            [
+                "researcher",
+                "attach"
+            ]
+        ],
+        "Targets": [
+            [
+                "attach",
+                "currently non-attached files"
+            ],
+            [
+                "attach",
+                "log book page"
+            ]
+        ]
+    },
+    {
+        "Text": "#G18# As a researcher, I want to receive an alert of any unattached files that are in my workspace.",
+        "Persona": [
+            "researcher"
+        ],
+        "Action": {
+            "Primary Action": [
+                "receive"
+            ],
+            "Secondary Action": [
+                "alert"
+            ]
+        },
+        "Entity": {
+            "Primary Entity": [
+                "unattached files"
+            ],
+            "Secondary Entity": [
+                "workspace"
+            ]
+        },
+        "Benefit": "I can be notified of any unattached files in my workspace",
+        "Triggers": [
+            [
+                "researcher",
+                "receive"
+            ]
+        ],
+        "Targets": [
+            [
+                "receive",
+                "unattached files"
+            ],
+            [
+                "receive",
+                "workspace"
+            ]
+        ]
+    },
+    {
+        "Text": "#G18# As a researcher, I want to download files attached to an experiment using my Web browser.",
+        "Persona": [
+            "researcher"
+        ],
+        "Action": {
+            "Primary Action": [
+                "download"
+            ],
+            "Secondary Action": []
+        },
+        "Entity": {
+            "Primary Entity": [
+                "files",
+                "experiment",
+                "Web browser"
+            ],
+            "Secondary Entity": []
+        },
+        "Benefit": "I can download files attached to an experiment using my Web browser",
+        "Triggers": [
+            [
+                "researcher",
+                "download"
+            ]
+        ],
+        "Targets": [
+            [
+                "download",
+                "files"
+            ],
+            [
+                "download",
+                "experiment"
+            ],
+            [
+                "download",
+                "Web browser"
+            ]
+        ]
+    },
+    {
+        "Text": "#G18# As a researcher, I want to access files stored in my Neurohub workspace, using a network drive attached to my workstation.",
+        "Persona": [
+            "researcher"
+        ],
+        "Action": {
+            "Primary Action": [
+                "access"
+            ],
+            "Secondary Action": []
+        },
+        "Entity": {
+            "Primary Entity": [
+                "files",
+                "Neurohub workspace",
+                "network drive",
+                "workstation"
+            ],
+            "Secondary Entity": []
+        },
+        "Benefit": "I can access files stored in my Neurohub workspace using a network drive attached to my workstation.",
+        "Triggers": [
+            [
+                "researcher",
+                "access"
+            ]
+        ],
+        "Targets": [
+            [
+                "access",
+                "files"
+            ],
+            [
+                "access",
+                "Neurohub workspace"
+            ],
+            [
+                "access",
+                "network drive"
+            ],
+            [
+                "access",
+                "workstation"
+            ]
+        ]
+    },
+    {
+        "Text": "#G18# As a researcher, I want to create a log book page.",
+        "Persona": [
+            "researcher"
+        ],
+        "Action": {
+            "Primary Action": [
+                "create"
+            ],
+            "Secondary Action": []
+        },
+        "Entity": {
+            "Primary Entity": [
+                "log book page"
+            ],
+            "Secondary Entity": []
+        },
+        "Benefit": "",
+        "Triggers": [
+            [
+                "researcher",
+                "create"
+            ]
+        ],
+        "Targets": [
+            [
+                "create",
+                "log book page"
+            ]
+        ]
+    },
+    {
+        "Text": "#G18# As a release engineer, I want to configure nightly builds that automatically perform a Neurohub installation on a virgin operating system, execute tests and report back results, without requiring any manual input/interaction.",
+        "Persona": [
+            "release engineer"
+        ],
+        "Action": {
+            "Primary Action": [
+                "configure",
+                "perform",
+                "execute",
+                "report"
+            ],
+            "Secondary Action": []
+        },
+        "Entity": {
+            "Primary Entity": [
+                "nightly builds",
+                "Neurohub installation",
+                "virgin operating system",
+                "tests",
+                "results"
+            ],
+            "Secondary Entity": []
+        },
+        "Benefit": "automatically perform a Neurohub installation on a virgin operating system, execute tests and report back results without requiring any manual input/interaction",
+        "Triggers": [
+            [
+                "release engineer",
+                "configure"
+            ]
+        ],
+        "Targets": [
+            [
+                "configure",
+                "nightly builds"
+            ],
+            [
+                "configure",
+                "Neurohub installation"
+            ],
+            [
+                "configure",
+                "virgin operating system"
+            ],
+            [
+                "perform",
+                "tests"
+            ],
+            [
+                "execute",
+                "tests"
+            ],
+            [
+                "report",
+                "results"
+            ]
+        ]
+    },
+    {
+        "Text": "#G18# As a system administrator, I want to run a script that tests to see if a Neurohub installation is functioning correctly.",
+        "Persona": [
+            "system administrator"
+        ],
+        "Action": {
+            "Primary Action": [
+                "run",
+                "tests"
+            ],
+            "Secondary Action": []
+        },
+        "Entity": {
+            "Primary Entity": [
+                "script",
+                "Neurohub installation"
+            ],
+            "Secondary Entity": []
+        },
+        "Benefit": "to see if a Neurohub installation is functioning correctly",
+        "Triggers": [
+            [
+                "system administrator",
+                "run"
+            ]
+        ],
+        "Targets": [
+            [
+                "run",
+                "script"
+            ],
+            [
+                "run",
+                "tests"
+            ],
+            [
+                "tests",
+                "Neurohub installation"
+            ]
+        ]
+    },
+    {
+        "Text": "#G18# As a supervisor, I want to view what my researchers were doing on a given date or period of time.",
+        "Persona": [
+            "supervisor"
+        ],
+        "Action": {
+            "Primary Action": [
+                "view"
+            ],
+            "Secondary Action": []
+        },
+        "Entity": {
+            "Primary Entity": [
+                "researchers"
+            ],
+            "Secondary Entity": []
+        },
+        "Benefit": "I can see what my researchers were doing on a given date or period of time.",
+        "Triggers": [
+            [
+                "supervisor",
+                "view"
+            ]
+        ],
+        "Targets": [
+            [
+                "view",
+                "researchers"
+            ]
+        ]
+    },
+    {
+        "Text": "#G18# As a user, I want to upload large files of over 1GB in size.",
+        "Persona": [
+            "user"
+        ],
+        "Action": {
+            "Primary Action": [
+                "upload"
+            ],
+            "Secondary Action": []
+        },
+        "Entity": {
+            "Primary Entity": [
+                "large files"
+            ],
+            "Secondary Entity": []
+        },
+        "Benefit": "I can upload large files of over 1GB in size.",
+        "Triggers": [
+            [
+                "user",
+                "upload"
+            ]
+        ],
+        "Targets": [
+            [
+                "upload",
+                "large files"
+            ]
+        ]
+    },
+    {
+        "Text": "#G18# As a user, I want to assign tags to files that I have uploaded.",
+        "Persona": [
+            "user"
+        ],
+        "Action": {
+            "Primary Action": [
+                "assign tags"
+            ],
+            "Secondary Action": []
+        },
+        "Entity": {
+            "Primary Entity": [
+                "files"
+            ],
+            "Secondary Entity": []
+        },
+        "Benefit": "organize and categorize my uploaded files",
+        "Triggers": [
+            [
+                "user",
+                "assign tags"
+            ]
+        ],
+        "Targets": [
+            [
+                "assign tags",
+                "files"
+            ]
+        ]
+    },
+    {
+        "Text": "#G18# As a user, I want to assign bespoke information to a file dependent on its type.",
+        "Persona": [
+            "user"
+        ],
+        "Action": {
+            "Primary Action": [
+                "assign"
+            ],
+            "Secondary Action": []
+        },
+        "Entity": {
+            "Primary Entity": [
+                "file"
+            ],
+            "Secondary Entity": []
+        },
+        "Benefit": "to assign bespoke information to a file dependent on its type",
+        "Triggers": [
+            [
+                "user",
+                "assign"
+            ]
+        ],
+        "Targets": [
+            [
+                "assign",
+                "file"
+            ]
+        ]
+    },
+    {
+        "Text": "#G18# As a user, I want to filter the files I get from search results based on their  type.",
+        "Persona": [
+            "user"
+        ],
+        "Action": {
+            "Primary Action": [
+                "filter"
+            ],
+            "Secondary Action": []
+        },
+        "Entity": {
+            "Primary Entity": [
+                "files",
+                "search results"
+            ],
+            "Secondary Entity": []
+        },
+        "Benefit": "I can filter the files based on their type",
+        "Triggers": [
+            [
+                "user",
+                "filter"
+            ]
+        ],
+        "Targets": [
+            [
+                "filter",
+                "files"
+            ],
+            [
+                "filter",
+                "search results"
+            ]
+        ]
+    },
+    {
+        "Text": "#G18# As a user, I want to use the tags that I use are part of a controlled vocabulary.",
+        "Persona": [
+            "user"
+        ],
+        "Action": {
+            "Primary Action": [
+                "use"
+            ],
+            "Secondary Action": []
+        },
+        "Entity": {
+            "Primary Entity": [
+                "tags"
+            ],
+            "Secondary Entity": []
+        },
+        "Benefit": "the tags I use are part of a controlled vocabulary",
+        "Triggers": [
+            [
+                "user",
+                "use"
+            ]
+        ],
+        "Targets": [
+            [
+                "use",
+                "tags"
+            ]
+        ]
+    },
+    {
+        "Text": "#G18# As a user, I want to make uploaded data files to be non-modifiable.",
+        "Persona": [
+            "user"
+        ],
+        "Action": {
+            "Primary Action": [
+                "make"
+            ],
+            "Secondary Action": [
+                "non-modifiable"
+            ]
+        },
+        "Entity": {
+            "Primary Entity": [
+                "uploaded data files"
+            ],
+            "Secondary Entity": []
+        },
+        "Benefit": "to ensure the integrity of the data",
+        "Triggers": [
+            [
+                "user",
+                "make"
+            ]
+        ],
+        "Targets": [
+            [
+                "make",
+                "uploaded data files"
+            ]
+        ]
+    },
+    {
+        "Text": "#G18# As a user, I want to make predicated links between files.",
+        "Persona": [
+            "user"
+        ],
+        "Action": {
+            "Primary Action": [
+                "make"
+            ],
+            "Secondary Action": []
+        },
+        "Entity": {
+            "Primary Entity": [
+                "predicated links"
+            ],
+            "Secondary Entity": [
+                "files"
+            ]
+        },
+        "Benefit": "I can make predicated links between files",
+        "Triggers": [
+            [
+                "user",
+                "make"
+            ]
+        ],
+        "Targets": [
+            [
+                "make",
+                "predicated links"
+            ]
+        ]
+    },
+    {
+        "Text": "#G18# As a user, I want to restrict what can be entered to a metadata field.",
+        "Persona": [
+            "user"
+        ],
+        "Action": {
+            "Primary Action": [
+                "restrict"
+            ],
+            "Secondary Action": []
+        },
+        "Entity": {
+            "Primary Entity": [
+                "metadata field"
+            ],
+            "Secondary Entity": []
+        },
+        "Benefit": "I can control what can be entered in the metadata field",
+        "Triggers": [
+            [
+                "user",
+                "restrict"
+            ]
+        ],
+        "Targets": [
+            [
+                "restrict",
+                "metadata field"
+            ]
+        ]
+    },
+    {
+        "Text": "#G18# As a user, I want to have files I might accidentally delete to be restorable.",
+        "Persona": [
+            "user"
+        ],
+        "Action": {
+            "Primary Action": [
+                "restorable"
+            ],
+            "Secondary Action": []
+        },
+        "Entity": {
+            "Primary Entity": [
+                "files"
+            ],
+            "Secondary Entity": []
+        },
+        "Benefit": "I can restore files that I might accidentally delete",
+        "Triggers": [
+            [
+                "user",
+                "restorable"
+            ]
+        ],
+        "Targets": [
+            [
+                "restorable",
+                "files"
+            ]
+        ]
+    },
+    {
+        "Text": "#G18# As a release engineer, I want to call a script to execute acceptance tests against a Neurohub installation and report back the results.",
+        "Persona": [
+            "release engineer"
+        ],
+        "Action": {
+            "Primary Action": [
+                "call",
+                "execute",
+                "report back"
+            ],
+            "Secondary Action": []
+        },
+        "Entity": {
+            "Primary Entity": [
+                "script",
+                "acceptance tests",
+                "Neurohub installation",
+                "results"
+            ],
+            "Secondary Entity": []
+        },
+        "Benefit": "to execute acceptance tests against a Neurohub installation and report back the results",
+        "Triggers": [
+            [
+                "release engineer",
+                "call"
+            ]
+        ],
+        "Targets": [
+            [
+                "call",
+                "script"
+            ],
+            [
+                "call",
+                "execute"
+            ],
+            [
+                "execute",
+                "acceptance tests"
+            ],
+            [
+                "execute",
+                "Neurohub installation"
+            ],
+            [
+                "report back",
+                "results"
+            ]
+        ]
+    },
+    {
+        "Text": "#G18# As a user, I want to revert to an older version of an uploaded file.",
+        "Persona": [
+            "user"
+        ],
+        "Action": {
+            "Primary Action": [
+                "revert"
+            ],
+            "Secondary Action": []
+        },
+        "Entity": {
+            "Primary Entity": [
+                "uploaded file"
+            ],
+            "Secondary Entity": []
+        },
+        "Benefit": "I can revert to an older version of an uploaded file",
+        "Triggers": [
+            [
+                "user",
+                "revert"
+            ]
+        ],
+        "Targets": [
+            [
+                "revert",
+                "uploaded file"
+            ]
+        ]
+    },
+    {
+        "Text": "#G18# As a user, I want to have a visual way of viewing particular files uploaded over a time period.",
+        "Persona": [
+            "user"
+        ],
+        "Action": {
+            "Primary Action": [
+                "viewing",
+                "uploaded"
+            ],
+            "Secondary Action": []
+        },
+        "Entity": {
+            "Primary Entity": [
+                "visual way",
+                "files"
+            ],
+            "Secondary Entity": []
+        },
+        "Benefit": "have a visual way of viewing particular files uploaded over a time period",
+        "Triggers": [
+            [
+                "user",
+                "viewing"
+            ]
+        ],
+        "Targets": [
+            [
+                "uploaded",
+                "files"
+            ]
+        ]
+    },
+    {
+        "Text": "#G18# As a user, I want to associate together files involved in a experiment.",
+        "Persona": [
+            "user"
+        ],
+        "Action": {
+            "Primary Action": [
+                "associate"
+            ],
+            "Secondary Action": []
+        },
+        "Entity": {
+            "Primary Entity": [
+                "files",
+                "experiment"
+            ],
+            "Secondary Entity": []
+        },
+        "Benefit": "I can easily manage and organize files related to an experiment.",
+        "Triggers": [
+            [
+                "user",
+                "associate"
+            ]
+        ],
+        "Targets": [
+            [
+                "associate",
+                "files"
+            ],
+            [
+                "associate",
+                "experiment"
+            ]
+        ]
+    },
+    {
+        "Text": "#G18# As a system administrator, I want to have a managed backup protocol for the system.",
+        "Persona": [
+            "system administrator"
+        ],
+        "Action": {
+            "Primary Action": [
+                "have"
+            ],
+            "Secondary Action": []
+        },
+        "Entity": {
+            "Primary Entity": [
+                "managed backup protocol",
+                "system"
+            ],
+            "Secondary Entity": []
+        },
+        "Benefit": "for the system",
+        "Triggers": [
+            [
+                "system administrator",
+                "have"
+            ]
+        ],
+        "Targets": [
+            [
+                "have",
+                "managed backup protocol"
+            ],
+            [
+                "have",
+                "system"
+            ]
+        ]
+    },
+    {
+        "Text": "#G18# As a user, I want to enter metadata / describe an experiment protocol before a file is even created.",
+        "Persona": [
+            "user"
+        ],
+        "Action": {
+            "Primary Action": [
+                "enter",
+                "describe"
+            ],
+            "Secondary Action": []
+        },
+        "Entity": {
+            "Primary Entity": [
+                "metadata",
+                "experiment protocol",
+                "file"
+            ],
+            "Secondary Entity": []
+        },
+        "Benefit": "to have the experiment protocol described before creating a file",
+        "Triggers": [
+            [
+                "user",
+                "enter"
+            ]
+        ],
+        "Targets": [
+            [
+                "enter",
+                "metadata"
+            ],
+            [
+                "enter",
+                "experiment protocol"
+            ],
+            [
+                "enter",
+                "file"
+            ],
+            [
+                "describe",
+                "metadata"
+            ],
+            [
+                "describe",
+                "experiment protocol"
+            ],
+            [
+                "describe",
+                "file"
+            ]
+        ]
+    },
+    {
+        "Text": "#G18# As lab administrator, I want to have increased access to the system to support regular users.",
+        "Persona": [
+            "lab administrator"
+        ],
+        "Action": {
+            "Primary Action": [
+                "have increased access"
+            ],
+            "Secondary Action": [
+                "support"
+            ]
+        },
+        "Entity": {
+            "Primary Entity": [
+                "system"
+            ],
+            "Secondary Entity": [
+                "regular users"
+            ]
+        },
+        "Benefit": "to support regular users",
+        "Triggers": [
+            [
+                "lab administrator",
+                "have increased access"
+            ],
+            [
+                "lab administrator",
+                "support"
+            ]
+        ],
+        "Targets": [
+            [
+                "have increased access",
+                "system"
+            ],
+            [
+                "support",
+                "regular users"
+            ]
+        ]
+    },
+    {
+        "Text": "#G18# As a user, I want to link together experimental runs to build an experiment.",
+        "Persona": [
+            "user"
+        ],
+        "Action": {
+            "Primary Action": [
+                "link together",
+                "build"
+            ],
+            "Secondary Action": []
+        },
+        "Entity": {
+            "Primary Entity": [
+                "experimental runs",
+                "experiment"
+            ],
+            "Secondary Entity": []
+        },
+        "Benefit": "I can build an experiment by linking together experimental runs",
+        "Triggers": [
+            [
+                "user",
+                "link together"
+            ],
+            [
+                "user",
+                "build"
+            ]
+        ],
+        "Targets": [
+            [
+                "link together",
+                "experimental runs"
+            ],
+            [
+                "link together",
+                "experiment"
+            ],
+            [
+                "build",
+                "experimental runs"
+            ],
+            [
+                "build",
+                "experiment"
+            ]
+        ]
+    },
+    {
+        "Text": "#G18# As a lab administrator, I want to create page templates with bespoke metadata fields.",
+        "Persona": [
+            "lab administrator"
+        ],
+        "Action": {
+            "Primary Action": [
+                "create"
+            ],
+            "Secondary Action": []
+        },
+        "Entity": {
+            "Primary Entity": [
+                "page templates"
+            ],
+            "Secondary Entity": [
+                "bespoke metadata fields"
+            ]
+        },
+        "Benefit": "to have page templates with bespoke metadata fields",
+        "Triggers": [
+            [
+                "lab administrator",
+                "create"
+            ]
+        ],
+        "Targets": [
+            [
+                "create",
+                "page templates"
+            ],
+            [
+                "create",
+                "bespoke metadata fields"
+            ]
+        ]
+    },
+    {
+        "Text": "#G18# As a user, I want to capture the same metadata for each file created in an experimental run.",
+        "Persona": [
+            "user"
+        ],
+        "Action": {
+            "Primary Action": [
+                "capture"
+            ],
+            "Secondary Action": []
+        },
+        "Entity": {
+            "Primary Entity": [
+                "metadata",
+                "file",
+                "experimental run"
+            ],
+            "Secondary Entity": []
+        },
+        "Benefit": "to capture the same metadata for each file created in an experimental run",
+        "Triggers": [
+            [
+                "user",
+                "capture"
+            ]
+        ],
+        "Targets": [
+            [
+                "capture",
+                "metadata"
+            ],
+            [
+                "capture",
+                "file"
+            ],
+            [
+                "capture",
+                "experimental run"
+            ]
+        ]
+    },
+    {
+        "Text": "#G18# As a lab administrator, I want a way of managing worm strain stocks that is integrated with Wormbase.",
+        "Persona": [
+            "lab administrator"
+        ],
+        "Action": {
+            "Primary Action": [
+                "managing"
+            ],
+            "Secondary Action": []
+        },
+        "Entity": {
+            "Primary Entity": [
+                "worm strain stocks"
+            ],
+            "Secondary Entity": [
+                "Wormbase"
+            ]
+        },
+        "Benefit": "a way of managing worm strain stocks that is integrated with Wormbase",
+        "Triggers": [
+            [
+                "lab administrator",
+                "managing"
+            ]
+        ],
+        "Targets": [
+            [
+                "managing",
+                "worm strain stocks"
+            ],
+            [
+                "managing",
+                "Wormbase"
+            ]
+        ]
+    },
+    {
+        "Text": "#G18# As an investigator, I want to view the acceptance test results, so that I can understand how feature-complete the Neurohub node currently is.",
+        "Persona": [
+            "investigator"
+        ],
+        "Action": {
+            "Primary Action": [
+                "view"
+            ],
+            "Secondary Action": []
+        },
+        "Entity": {
+            "Primary Entity": [
+                "acceptance test results",
+                "Neurohub node"
+            ],
+            "Secondary Entity": []
+        },
+        "Benefit": "I can understand how feature-complete the Neurohub node currently is.",
+        "Triggers": [
+            [
+                "investigator",
+                "view"
+            ]
+        ],
+        "Targets": [
+            [
+                "view",
+                "acceptance test results"
+            ],
+            [
+                "view",
+                "Neurohub node"
+            ]
+        ]
+    },
+    {
+        "Text": "#G18# As a user, I want to search for and download human-readable experimental protocols.",
+        "Persona": [
+            "user"
+        ],
+        "Action": {
+            "Primary Action": [
+                "search for",
+                "download"
+            ],
+            "Secondary Action": []
+        },
+        "Entity": {
+            "Primary Entity": [
+                "human-readable experimental protocols"
+            ],
+            "Secondary Entity": []
+        },
+        "Benefit": "I can access and use the experimental protocols easily.",
+        "Triggers": [
+            [
+                "user",
+                "search for"
+            ],
+            [
+                "user",
+                "download"
+            ]
+        ],
+        "Targets": [
+            [
+                "search for",
+                "human-readable experimental protocols"
+            ],
+            [
+                "download",
+                "human-readable experimental protocols"
+            ]
+        ]
+    },
+    {
+        "Text": "#G18# As a user, I want to modify or branch an experimental protocol, whilst retaining the original.",
+        "Persona": [
+            "user"
+        ],
+        "Action": {
+            "Primary Action": [
+                "modify",
+                "branch"
+            ],
+            "Secondary Action": []
+        },
+        "Entity": {
+            "Primary Entity": [
+                "experimental protocol"
+            ],
+            "Secondary Entity": []
+        },
+        "Benefit": "retain the original",
+        "Triggers": [
+            [
+                "user",
+                "modify"
+            ],
+            [
+                "user",
+                "branch"
+            ]
+        ],
+        "Targets": [
+            [
+                "modify",
+                "experimental protocol"
+            ],
+            [
+                "branch",
+                "experimental protocol"
+            ]
+        ]
+    },
+    {
+        "Text": "#G18# As a user, I want to view how an experimental protocol has evolved over time.",
+        "Persona": [
+            "user"
+        ],
+        "Action": {
+            "Primary Action": [
+                "view"
+            ],
+            "Secondary Action": [
+                "evolved over time"
+            ]
+        },
+        "Entity": {
+            "Primary Entity": [
+                "experimental protocol"
+            ],
+            "Secondary Entity": []
+        },
+        "Benefit": "I can see how an experimental protocol has changed over time",
+        "Triggers": [
+            [
+                "user",
+                "view"
+            ]
+        ],
+        "Targets": [
+            [
+                "view",
+                "experimental protocol"
+            ]
+        ]
+    },
+    {
+        "Text": "#G18# As a user, I want to create a protocol and assign metadata to any stag.",
+        "Persona": [
+            "user"
+        ],
+        "Action": {
+            "Primary Action": [
+                "create",
+                "assign"
+            ],
+            "Secondary Action": []
+        },
+        "Entity": {
+            "Primary Entity": [
+                "protocol",
+                "stag"
+            ],
+            "Secondary Entity": []
+        },
+        "Benefit": "I can assign metadata to any stag",
+        "Triggers": [
+            [
+                "user",
+                "create"
+            ]
+        ],
+        "Targets": [
+            [
+                "create",
+                "protocol"
+            ],
+            [
+                "create",
+                "stag"
+            ],
+            [
+                "assign",
+                "stag"
+            ]
+        ]
+    },
+    {
+        "Text": "#G18# As a user, I want to prove definitively that I created a page on a certain date.",
+        "Persona": [
+            "user"
+        ],
+        "Action": {
+            "Primary Action": [
+                "prove",
+                "created"
+            ],
+            "Secondary Action": []
+        },
+        "Entity": {
+            "Primary Entity": [
+                "page"
+            ],
+            "Secondary Entity": []
+        },
+        "Benefit": "I can prove definitively that I created a page on a certain date.",
+        "Triggers": [
+            [
+                "user",
+                "prove"
+            ],
+            [
+                "user",
+                "created"
+            ]
+        ],
+        "Targets": [
+            [
+                "prove",
+                "page"
+            ],
+            [
+                "created",
+                "page"
+            ]
+        ]
+    },
+    {
+        "Text": "#G18# As a user, I want to manage the references / papers I have investigated.",
+        "Persona": [
+            "user"
+        ],
+        "Action": {
+            "Primary Action": [
+                "manage"
+            ],
+            "Secondary Action": [
+                "investigated"
+            ]
+        },
+        "Entity": {
+            "Primary Entity": [
+                "references",
+                "papers"
+            ],
+            "Secondary Entity": []
+        },
+        "Benefit": "I can keep track of the references and papers I have investigated.",
+        "Triggers": [
+            [
+                "user",
+                "manage"
+            ]
+        ],
+        "Targets": [
+            [
+                "manage",
+                "references"
+            ],
+            [
+                "manage",
+                "papers"
+            ]
+        ]
+    },
+    {
+        "Text": "#G18# As a user, I want to search specifically for files rather than log book pages.",
+        "Persona": [
+            "user"
+        ],
+        "Action": {
+            "Primary Action": [
+                "search"
+            ],
+            "Secondary Action": []
+        },
+        "Entity": {
+            "Primary Entity": [
+                "files"
+            ],
+            "Secondary Entity": [
+                "log book pages"
+            ]
+        },
+        "Benefit": "search specifically for files",
+        "Triggers": [
+            [
+                "user",
+                "search"
+            ]
+        ],
+        "Targets": [
+            [
+                "search",
+                "files"
+            ]
+        ]
+    },
+    {
+        "Text": "#G18# As a user, I want to limit my search to a particular set of log books.",
+        "Persona": [
+            "user"
+        ],
+        "Action": {
+            "Primary Action": [
+                "limit"
+            ],
+            "Secondary Action": []
+        },
+        "Entity": {
+            "Primary Entity": [
+                "search"
+            ],
+            "Secondary Entity": [
+                "log books"
+            ]
+        },
+        "Benefit": "I can limit my search to a particular set of log books",
+        "Triggers": [
+            [
+                "user",
+                "limit"
+            ]
+        ],
+        "Targets": [
+            [
+                "limit",
+                "search"
+            ]
+        ]
+    },
+    {
+        "Text": "#G18# As a user, I want to limit my search results to one or more log book sections from one or more log books.",
+        "Persona": [
+            "user"
+        ],
+        "Action": {
+            "Primary Action": [
+                "limit"
+            ],
+            "Secondary Action": []
+        },
+        "Entity": {
+            "Primary Entity": [
+                "search results",
+                "log book sections",
+                "log books"
+            ],
+            "Secondary Entity": []
+        },
+        "Benefit": "I can limit my search results to specific log book sections from specific log books.",
+        "Triggers": [
+            [
+                "user",
+                "limit"
+            ]
+        ],
+        "Targets": [
+            [
+                "limit",
+                "search results"
+            ],
+            [
+                "limit",
+                "log book sections"
+            ],
+            [
+                "limit",
+                "log books"
+            ]
+        ]
+    },
+    {
+        "Text": "#G18# As a user, I want to download files directly from the search results page.",
+        "Persona": [
+            "user"
+        ],
+        "Action": {
+            "Primary Action": [
+                "download"
+            ],
+            "Secondary Action": []
+        },
+        "Entity": {
+            "Primary Entity": [
+                "files",
+                "search results page"
+            ],
+            "Secondary Entity": []
+        },
+        "Benefit": "I can download files directly from the search results page",
+        "Triggers": [
+            [
+                "user",
+                "download"
+            ]
+        ],
+        "Targets": [
+            [
+                "download",
+                "files"
+            ],
+            [
+                "download",
+                "search results page"
+            ]
+        ]
+    },
+    {
+        "Text": "#G18# As an MRI operator, I want to digitally record the responses that subjects make when completing paper-based forms.",
+        "Persona": [
+            "MRI operator"
+        ],
+        "Action": {
+            "Primary Action": [
+                "digitally record"
+            ],
+            "Secondary Action": [
+                "completing"
+            ]
+        },
+        "Entity": {
+            "Primary Entity": [
+                "responses"
+            ],
+            "Secondary Entity": [
+                "subjects",
+                "paper-based forms"
+            ]
+        },
+        "Benefit": "I can digitally record the responses that subjects make when completing paper-based forms",
+        "Triggers": [
+            [
+                "MRI operator",
+                "digitally record"
+            ]
+        ],
+        "Targets": [
+            [
+                "digitally record",
+                "responses"
+            ],
+            [
+                "digitally record",
+                "subjects"
+            ],
+            [
+                "digitally record",
+                "paper-based forms"
+            ],
+            [
+                "completing",
+                "responses"
+            ]
+        ]
+    },
+    {
+        "Text": "#G18# As a user, I want to see the provenance of the page as part of the search results.",
+        "Persona": [
+            "user"
+        ],
+        "Action": {
+            "Primary Action": [
+                "see"
+            ],
+            "Secondary Action": []
+        },
+        "Entity": {
+            "Primary Entity": [
+                "provenance",
+                "page",
+                "search results"
+            ],
+            "Secondary Entity": []
+        },
+        "Benefit": "I can see the provenance of the page as part of the search results",
+        "Triggers": [
+            [
+                "user",
+                "see"
+            ]
+        ],
+        "Targets": [
+            [
+                "see",
+                "provenance"
+            ],
+            [
+                "see",
+                "page"
+            ],
+            [
+                "see",
+                "search results"
+            ]
+        ]
+    },
+    {
+        "Text": "#G18# As a user, I want to attach multiple files at once to a log book page.",
+        "Persona": [
+            "user"
+        ],
+        "Action": {
+            "Primary Action": [
+                "attach"
+            ],
+            "Secondary Action": []
+        },
+        "Entity": {
+            "Primary Entity": [
+                "multiple files",
+                "log book page"
+            ],
+            "Secondary Entity": []
+        },
+        "Benefit": "I can attach multiple files at once to a log book page",
+        "Triggers": [
+            [
+                "user",
+                "attach"
+            ]
+        ],
+        "Targets": [
+            [
+                "attach",
+                "multiple files"
+            ],
+            [
+                "attach",
+                "log book page"
+            ]
+        ]
+    },
+    {
+        "Text": "#G18# As a user, I want to download multiple files from the search results in one go.",
+        "Persona": [
+            "user"
+        ],
+        "Action": {
+            "Primary Action": [
+                "download"
+            ],
+            "Secondary Action": []
+        },
+        "Entity": {
+            "Primary Entity": [
+                "multiple files",
+                "search results"
+            ],
+            "Secondary Entity": []
+        },
+        "Benefit": "I can download multiple files from the search results in one go.",
+        "Triggers": [
+            [
+                "user",
+                "download"
+            ]
+        ],
+        "Targets": [
+            [
+                "download",
+                "multiple files"
+            ],
+            [
+                "download",
+                "search results"
+            ]
+        ]
+    },
+    {
+        "Text": "#G18# As a user, I want to draw tables using HTML tags as part of the content of a log book page.",
+        "Persona": [
+            "user"
+        ],
+        "Action": {
+            "Primary Action": [
+                "draw"
+            ],
+            "Secondary Action": []
+        },
+        "Entity": {
+            "Primary Entity": [
+                "HTML tags",
+                "log book page"
+            ],
+            "Secondary Entity": []
+        },
+        "Benefit": "to include tables in the content of a log book page",
+        "Triggers": [
+            [
+                "user",
+                "draw"
+            ]
+        ],
+        "Targets": [
+            [
+                "draw",
+                "HTML tags"
+            ],
+            [
+                "draw",
+                "log book page"
+            ]
+        ]
+    },
+    {
+        "Text": "#G18# As a lab member, I want to view events and equipment bookings within the group.",
+        "Persona": [
+            "lab member"
+        ],
+        "Action": {
+            "Primary Action": [
+                "view"
+            ],
+            "Secondary Action": []
+        },
+        "Entity": {
+            "Primary Entity": [
+                "events",
+                "equipment bookings"
+            ],
+            "Secondary Entity": []
+        },
+        "Benefit": "within the group",
+        "Triggers": [
+            [
+                "lab member",
+                "view"
+            ]
+        ],
+        "Targets": [
+            [
+                "view",
+                "events"
+            ],
+            [
+                "view",
+                "equipment bookings"
+            ]
+        ]
+    },
+    {
+        "Text": "#G18# As a user, I want to store worm behaviour videos with an encoding that can be analysed by the worm analysis software written by Christopher James.",
+        "Persona": [
+            "user"
+        ],
+        "Action": {
+            "Primary Action": [
+                "store",
+                "analyse"
+            ],
+            "Secondary Action": []
+        },
+        "Entity": {
+            "Primary Entity": [
+                "worm behaviour videos",
+                "worm analysis software",
+                "Christopher James"
+            ],
+            "Secondary Entity": []
+        },
+        "Benefit": "the videos can be analysed by the worm analysis software",
+        "Triggers": [
+            [
+                "user",
+                "store"
+            ],
+            [
+                "user",
+                "analyse"
+            ]
+        ],
+        "Targets": [
+            [
+                "store",
+                "worm behaviour videos"
+            ],
+            [
+                "analyse",
+                "worm behaviour videos"
+            ],
+            [
+                "analyse",
+                "worm analysis software"
+            ],
+            [
+                "analyse",
+                "Christopher James"
+            ]
+        ]
+    },
+    {
+        "Text": "#G18# As a system administrator, I want to migrate data from an older version of NeuroHub to the current version.",
+        "Persona": [
+            "system administrator"
+        ],
+        "Action": {
+            "Primary Action": [
+                "migrate"
+            ],
+            "Secondary Action": []
+        },
+        "Entity": {
+            "Primary Entity": [
+                "data",
+                "current version"
+            ],
+            "Secondary Entity": [
+                "older version of NeuroHub"
+            ]
+        },
+        "Benefit": "to have the data migrated from an older version of NeuroHub to the current version",
+        "Triggers": [
+            [
+                "system administrator",
+                "migrate"
+            ]
+        ],
+        "Targets": [
+            [
+                "migrate",
+                "data"
+            ],
+            [
+                "migrate",
+                "current version"
+            ],
+            [
+                "migrate",
+                "older version of NeuroHub"
+            ]
+        ]
+    },
+    {
+        "Text": "#G18# As a user, I want to have the system to also forward important news items to an external mailing list.",
+        "Persona": [
+            "user"
+        ],
+        "Action": {
+            "Primary Action": [
+                "forward"
+            ],
+            "Secondary Action": []
+        },
+        "Entity": {
+            "Primary Entity": [
+                "system"
+            ],
+            "Secondary Entity": [
+                "external mailing list"
+            ]
+        },
+        "Benefit": "have the system to also forward important news items to an external mailing list",
+        "Triggers": [
+            [
+                "user",
+                "forward"
+            ]
+        ],
+        "Targets": [
+            [
+                "forward",
+                "system"
+            ],
+            [
+                "forward",
+                "external mailing list"
+            ]
+        ]
+    },
+    {
+        "Text": "#G18# As a user, I want to view and update an inventory of of the equipment and consumables that are present in the centre.",
+        "Persona": [
+            "user"
+        ],
+        "Action": {
+            "Primary Action": [
+                "view",
+                "update"
+            ],
+            "Secondary Action": []
+        },
+        "Entity": {
+            "Primary Entity": [
+                "inventory",
+                "equipment",
+                "consumables",
+                "centre"
+            ],
+            "Secondary Entity": []
+        },
+        "Benefit": "I can keep track of the equipment and consumables in the centre",
+        "Triggers": [
+            [
+                "user",
+                "view"
+            ],
+            [
+                "user",
+                "update"
+            ]
+        ],
+        "Targets": [
+            [
+                "view",
+                "inventory"
+            ],
+            [
+                "update",
+                "inventory"
+            ],
+            [
+                "view",
+                "equipment"
+            ],
+            [
+                "update",
+                "equipment"
+            ],
+            [
+                "view",
+                "consumables"
+            ],
+            [
+                "update",
+                "consumables"
+            ],
+            [
+                "view",
+                "centre"
+            ],
+            [
+                "update",
+                "centre"
+            ]
+        ]
+    },
+    {
+        "Text": "#G18# As a user, I want to have a spreadsheet hosted within the Neurohub Web page, so that I can edit and calculate costs collaboratively with others while working on the proposal.",
+        "Persona": [
+            "user"
+        ],
+        "Action": {
+            "Primary Action": [
+                "edit",
+                "calculate"
+            ],
+            "Secondary Action": []
+        },
+        "Entity": {
+            "Primary Entity": [
+                "spreadsheet",
+                "Neurohub Web page"
+            ],
+            "Secondary Entity": [
+                "costs",
+                "proposal"
+            ]
+        },
+        "Benefit": "collaboratively work on the proposal",
+        "Triggers": [
+            [
+                "user",
+                "edit"
+            ],
+            [
+                "user",
+                "calculate"
+            ]
+        ],
+        "Targets": [
+            [
+                "edit",
+                "spreadsheet"
+            ],
+            [
+                "calculate",
+                "spreadsheet"
+            ]
+        ]
+    },
+    {
+        "Text": "#G18# As a user, I want to navigate forwards and backwards between log books and log book pages without having to use my browser's back button.",
+        "Persona": [
+            "user"
+        ],
+        "Action": {
+            "Primary Action": [
+                "navigate forwards",
+                "navigate backwards"
+            ],
+            "Secondary Action": []
+        },
+        "Entity": {
+            "Primary Entity": [
+                "log books",
+                "log book pages"
+            ],
+            "Secondary Entity": [
+                "browser's back button"
+            ]
+        },
+        "Benefit": "without having to use my browser's back button",
+        "Triggers": [
+            [
+                "user",
+                "navigate forwards"
+            ],
+            [
+                "user",
+                "navigate backwards"
+            ]
+        ],
+        "Targets": [
+            [
+                "navigate forwards",
+                "log books"
+            ],
+            [
+                "navigate forwards",
+                "log book pages"
+            ],
+            [
+                "navigate backwards",
+                "log books"
+            ],
+            [
+                "navigate backwards",
+                "log book pages"
+            ],
+            [
+                "navigate forwards",
+                "browser's back button"
+            ],
+            [
+                "navigate backwards",
+                "browser's back button"
+            ]
+        ]
+    },
+    {
+        "Text": "#G18# As a supervisor, I want to create feedback forms within Neurohub, that my students can fill in and submit, in order to provide me with feedback about the course that they attended.",
+        "Persona": [
+            "supervisor",
+            "students"
+        ],
+        "Action": {
+            "Primary Action": [
+                "create",
+                "fill in",
+                "submit"
+            ],
+            "Secondary Action": [
+                "provide"
+            ]
+        },
+        "Entity": {
+            "Primary Entity": [
+                "feedback forms",
+                "Neurohub",
+                "course"
+            ],
+            "Secondary Entity": []
+        },
+        "Benefit": "provide me with feedback about the course that they attended",
+        "Triggers": [
+            [
+                "supervisor",
+                "create"
+            ],
+            [
+                "students",
+                "fill in"
+            ],
+            [
+                "students",
+                "submit"
+            ],
+            [
+                "students",
+                "provide"
+            ],
+            [
+                "students",
+                "provide"
+            ],
+            [
+                "students",
+                "provide"
+            ]
+        ],
+        "Targets": [
+            [
+                "create",
+                "feedback forms"
+            ],
+            [
+                "fill in",
+                "feedback forms"
+            ],
+            [
+                "submit",
+                "feedback forms"
+            ],
+            [
+                "provide",
+                "feedback forms"
+            ],
+            [
+                "provide",
+                "Neurohub"
+            ],
+            [
+                "provide",
+                "course"
+            ]
+        ]
+    },
+    {
+        "Text": "#G18# As a user, I want to have the option to tell Neurohub to push posted content to my Twitter feed at the same time.",
+        "Persona": [
+            "user"
+        ],
+        "Action": {
+            "Primary Action": [
+                "have the option",
+                "push posted content"
+            ],
+            "Secondary Action": []
+        },
+        "Entity": {
+            "Primary Entity": [
+                "Neurohub",
+                "Twitter feed"
+            ],
+            "Secondary Entity": []
+        },
+        "Benefit": "to be able to share content on Twitter",
+        "Triggers": [
+            [
+                "user",
+                "have the option"
+            ]
+        ],
+        "Targets": [
+            [
+                "have the option",
+                "Neurohub"
+            ],
+            [
+                "push posted content",
+                "Twitter feed"
+            ]
+        ]
+    },
+    {
+        "Text": "#G18# As a user, I want to either keep a logbook entry private or share it with individuals rather than groups.",
+        "Persona": [
+            "user"
+        ],
+        "Action": {
+            "Primary Action": [
+                "keep"
+            ],
+            "Secondary Action": [
+                "share"
+            ]
+        },
+        "Entity": {
+            "Primary Entity": [
+                "logbook entry"
+            ],
+            "Secondary Entity": [
+                "individuals",
+                "groups"
+            ]
+        },
+        "Benefit": "I can either keep a logbook entry private or share it with individuals rather than groups",
+        "Triggers": [
+            [
+                "user",
+                "keep"
+            ],
+            [
+                "user",
+                "share"
+            ]
+        ],
+        "Targets": [
+            [
+                "keep",
+                "logbook entry"
+            ],
+            [
+                "share",
+                "logbook entry"
+            ],
+            [
+                "share",
+                "individuals"
+            ],
+            [
+                "share",
+                "groups"
+            ]
+        ]
+    },
+    {
+        "Text": "#G18# As a user, I want to have the details of the workflow execution to be recorded in a neurohub log book while executing a workflow.",
+        "Persona": [
+            "user"
+        ],
+        "Action": {
+            "Primary Action": [
+                "record"
+            ],
+            "Secondary Action": []
+        },
+        "Entity": {
+            "Primary Entity": [
+                "workflow execution"
+            ],
+            "Secondary Entity": [
+                "neurohub log book"
+            ]
+        },
+        "Benefit": "have the details of the workflow execution recorded in a neurohub log book",
+        "Triggers": [
+            [
+                "user",
+                "record"
+            ]
+        ],
+        "Targets": [
+            [
+                "record",
+                "workflow execution"
+            ]
+        ]
+    },
+    {
+        "Text": "#G18# As a user, I want to have that my Twitter Tweets to appear in Neurohub, so that other researchers in the centre can see what I am up to.",
+        "Persona": [
+            "user",
+            "researchers"
+        ],
+        "Action": {
+            "Primary Action": [
+                "appear"
+            ],
+            "Secondary Action": [
+                "see"
+            ]
+        },
+        "Entity": {
+            "Primary Entity": [
+                "Twitter Tweets"
+            ],
+            "Secondary Entity": [
+                "Neurohub"
+            ]
+        },
+        "Benefit": "other researchers in the centre can see what I am up to",
+        "Triggers": [
+            [
+                "user",
+                "appear"
+            ],
+            [
+                "researchers",
+                "see"
+            ]
+        ],
+        "Targets": [
+            [
+                "appear",
+                "Twitter Tweets"
+            ],
+            [
+                "see",
+                "Twitter Tweets"
+            ]
+        ]
+    },
+    {
+        "Text": "#G18# As a user, I want to view the group's shared calendars via the Neurohub Nodes' Web page as well as on my mobile device.",
+        "Persona": [
+            "user"
+        ],
+        "Action": {
+            "Primary Action": [
+                "view"
+            ],
+            "Secondary Action": []
+        },
+        "Entity": {
+            "Primary Entity": [
+                "group's shared calendars"
+            ],
+            "Secondary Entity": [
+                "Neurohub Nodes' Web page",
+                "mobile device"
+            ]
+        },
+        "Benefit": "I can view the group's shared calendars on both the Neurohub Nodes' Web page and my mobile device.",
+        "Triggers": [
+            [
+                "user",
+                "view"
+            ]
+        ],
+        "Targets": [
+            [
+                "view",
+                "group's shared calendars"
+            ],
+            [
+                "view",
+                "Neurohub Nodes' Web page"
+            ],
+            [
+                "view",
+                "mobile device"
+            ]
+        ]
+    },
+    {
+        "Text": "#G18# As a user, I want to sync events created in NeuroHub with a web-based Calendar such as Google Calendar.",
+        "Persona": [
+            "user"
+        ],
+        "Action": {
+            "Primary Action": [
+                "sync"
+            ],
+            "Secondary Action": []
+        },
+        "Entity": {
+            "Primary Entity": [
+                "NeuroHub",
+                "Google Calendar"
+            ],
+            "Secondary Entity": [
+                "web-based Calendar"
+            ]
+        },
+        "Benefit": "I can sync events created in NeuroHub with a web-based Calendar such as Google Calendar",
+        "Triggers": [
+            [
+                "user",
+                "sync"
+            ]
+        ],
+        "Targets": [
+            [
+                "sync",
+                "NeuroHub"
+            ],
+            [
+                "sync",
+                "web-based Calendar"
+            ],
+            [
+                "sync",
+                "Google Calendar"
+            ]
+        ]
+    },
+    {
+        "Text": "#G18# As a researcher, I want to have the ability to insert Greek symbols into my logbook entries.",
+        "Persona": [
+            "researcher"
+        ],
+        "Action": {
+            "Primary Action": [
+                "insert"
+            ],
+            "Secondary Action": []
+        },
+        "Entity": {
+            "Primary Entity": [
+                "Greek symbols"
+            ],
+            "Secondary Entity": [
+                "logbook entries"
+            ]
+        },
+        "Benefit": "have the ability to insert Greek symbols into my logbook entries",
+        "Triggers": [
+            [
+                "researcher",
+                "insert"
+            ]
+        ],
+        "Targets": [
+            [
+                "insert",
+                "Greek symbols"
+            ],
+            [
+                "insert",
+                "logbook entries"
+            ]
+        ]
+    },
+    {
+        "Text": "#G18# As a user, I want to have the ability to move multiple files around and rearrange them using the Neurohub file browser while processing data.",
+        "Persona": [
+            "user"
+        ],
+        "Action": {
+            "Primary Action": [
+                "move",
+                "rearrange",
+                "processing"
+            ],
+            "Secondary Action": []
+        },
+        "Entity": {
+            "Primary Entity": [
+                "multiple files",
+                "Neurohub file browser",
+                "data"
+            ],
+            "Secondary Entity": []
+        },
+        "Benefit": "have the ability to move multiple files around and rearrange them while processing data",
+        "Triggers": [
+            [
+                "user",
+                "move"
+            ],
+            [
+                "user",
+                "rearrange"
+            ],
+            [
+                "user",
+                "processing"
+            ]
+        ],
+        "Targets": [
+            [
+                "move",
+                "multiple files"
+            ],
+            [
+                "rearrange",
+                "multiple files"
+            ],
+            [
+                "processing",
+                "data"
+            ]
+        ]
+    },
+    {
+        "Text": "#G18# As a researcher, I want to point my Mendeley client at a group-wide shared repository of research papers and get notifications via Mendeley when new content is added.",
+        "Persona": [
+            "researcher"
+        ],
+        "Action": {
+            "Primary Action": [
+                "point"
+            ],
+            "Secondary Action": [
+                "get notifications"
+            ]
+        },
+        "Entity": {
+            "Primary Entity": [
+                "Mendeley client"
+            ],
+            "Secondary Entity": [
+                "group-wide shared repository of research papers"
+            ]
+        },
+        "Benefit": "I can stay updated with new content added to the shared repository",
+        "Triggers": [
+            [
+                "researcher",
+                "point"
+            ],
+            [
+                "researcher",
+                "get notifications"
+            ]
+        ],
+        "Targets": [
+            [
+                "point",
+                "Mendeley client"
+            ],
+            [
+                "get notifications",
+                "Mendeley client"
+            ],
+            [
+                "point",
+                "group-wide shared repository of research papers"
+            ]
+        ]
+    },
+    {
+        "Text": "#G18# As a lab administrator, I want to theme the Web interface graphics/colours.",
+        "Persona": [
+            "lab administrator"
+        ],
+        "Action": {
+            "Primary Action": [
+                "theme"
+            ],
+            "Secondary Action": []
+        },
+        "Entity": {
+            "Primary Entity": [
+                "Web interface"
+            ],
+            "Secondary Entity": []
+        },
+        "Benefit": "improve graphics/colours",
+        "Triggers": [
+            [
+                "lab administrator",
+                "theme"
+            ]
+        ],
+        "Targets": [
+            [
+                "theme",
+                "Web interface"
+            ]
+        ]
+    },
+    {
+        "Text": "#G18# As a researcher, I want to have electronic support for keeping track of which data sets were used/output/modified as part of a particular experiment.",
+        "Persona": [
+            "researcher"
+        ],
+        "Action": {
+            "Primary Action": [
+                "keeping track"
+            ],
+            "Secondary Action": [
+                "used",
+                "output",
+                "modified"
+            ]
+        },
+        "Entity": {
+            "Primary Entity": [
+                "electronic support",
+                "data sets"
+            ],
+            "Secondary Entity": []
+        },
+        "Benefit": "to have a record of data sets used/output/modified in an experiment",
+        "Triggers": [
+            [
+                "researcher",
+                "keeping track"
+            ]
+        ],
+        "Targets": [
+            [
+                "keeping track",
+                "electronic support"
+            ],
+            [
+                "keeping track",
+                "data sets"
+            ],
+            [
+                "keeping track",
+                "used"
+            ],
+            [
+                "keeping track",
+                "output"
+            ],
+            [
+                "keeping track",
+                "modified"
+            ]
+        ]
+    },
+    {
+        "Text": "#G18# As a user, I want a mechanism for electronically sharing papers and notes with other researchers, so that we can collaborate effectively.",
+        "Persona": [
+            "user",
+            "researchers"
+        ],
+        "Action": {
+            "Primary Action": [
+                "sharing"
+            ],
+            "Secondary Action": [
+                "collaborate"
+            ]
+        },
+        "Entity": {
+            "Primary Entity": [
+                "mechanism",
+                "papers",
+                "notes"
+            ],
+            "Secondary Entity": [
+                "researchers"
+            ]
+        },
+        "Benefit": "collaborate effectively",
+        "Triggers": [
+            [
+                "user",
+                "sharing"
+            ]
+        ],
+        "Targets": [
+            [
+                "sharing",
+                "mechanism"
+            ],
+            [
+                "sharing",
+                "papers"
+            ],
+            [
+                "sharing",
+                "notes"
+            ],
+            [
+                "sharing",
+                "researchers"
+            ],
+            [
+                "collaborate",
+                "researchers"
+            ]
+        ]
+    },
+    {
+        "Text": "#G18# As a researcher, I want to have services to support the long term curation of data, so that I can be sure that data will not get 'lost' with the passage of time.",
+        "Persona": [
+            "researcher"
+        ],
+        "Action": {
+            "Primary Action": [
+                "support",
+                "curation"
+            ],
+            "Secondary Action": []
+        },
+        "Entity": {
+            "Primary Entity": [
+                "services",
+                "data"
+            ],
+            "Secondary Entity": []
+        },
+        "Benefit": "I can be sure that data will not get 'lost' with the passage of time.",
+        "Triggers": [
+            [
+                "researcher",
+                "support"
+            ],
+            [
+                "researcher",
+                "curation"
+            ]
+        ],
+        "Targets": [
+            [
+                "support",
+                "services"
+            ],
+            [
+                "curation",
+                "data"
+            ]
+        ]
+    },
+    {
+        "Text": "#G18# As a researcher, I want to have a timeline display of multiple data files and their associated images, so that I can compare the data taken from experiments on particular dates.",
+        "Persona": [
+            "researcher"
+        ],
+        "Action": {
+            "Primary Action": [
+                "compare"
+            ],
+            "Secondary Action": []
+        },
+        "Entity": {
+            "Primary Entity": [
+                "timeline display",
+                "data files",
+                "images"
+            ],
+            "Secondary Entity": [
+                "experiments",
+                "dates"
+            ]
+        },
+        "Benefit": "I can compare the data taken from experiments on particular dates",
+        "Triggers": [
+            [
+                "researcher",
+                "compare"
+            ]
+        ],
+        "Targets": [
+            [
+                "compare",
+                "timeline display"
+            ],
+            [
+                "compare",
+                "data files"
+            ],
+            [
+                "compare",
+                "images"
+            ],
+            [
+                "compare",
+                "experiments"
+            ],
+            [
+                "compare",
+                "dates"
+            ]
+        ]
+    },
+    {
+        "Text": "#G18# As a researcher, I want to have remote access to my data for off-site working , so that I can still work effectively while away from the lab.",
+        "Persona": [
+            "researcher"
+        ],
+        "Action": {
+            "Primary Action": [
+                "have"
+            ],
+            "Secondary Action": [
+                "work"
+            ]
+        },
+        "Entity": {
+            "Primary Entity": [
+                "remote access"
+            ],
+            "Secondary Entity": [
+                "data"
+            ]
+        },
+        "Benefit": "I can still work effectively while away from the lab",
+        "Triggers": [
+            [
+                "researcher",
+                "have"
+            ],
+            [
+                "researcher",
+                "work"
+            ]
+        ],
+        "Targets": [
+            [
+                "have",
+                "remote access"
+            ],
+            [
+                "work",
+                "data"
+            ]
+        ]
+    },
+    {
+        "Text": "#G18# As a researcher, I want to share post-experiment write-ups with other researchers, so that others can more easily replicate my work.",
+        "Persona": [
+            "researcher",
+            "other researchers"
+        ],
+        "Action": {
+            "Primary Action": [
+                "share",
+                "replicate"
+            ],
+            "Secondary Action": []
+        },
+        "Entity": {
+            "Primary Entity": [
+                "post-experiment write-ups"
+            ],
+            "Secondary Entity": []
+        },
+        "Benefit": "others can more easily replicate my work",
+        "Triggers": [
+            [
+                "researcher",
+                "share"
+            ],
+            [
+                "researcher",
+                "replicate"
+            ]
+        ],
+        "Targets": [
+            [
+                "share",
+                "post-experiment write-ups"
+            ],
+            [
+                "replicate",
+                "post-experiment write-ups"
+            ]
+        ]
+    },
+    {
+        "Text": "#G18# As a researcher, I want to collect data as a library of data, which can then be used by one or multiple experiments that are defined at a later stage.",
+        "Persona": [
+            "researcher"
+        ],
+        "Action": {
+            "Primary Action": [
+                "collect data"
+            ],
+            "Secondary Action": [
+                "use"
+            ]
+        },
+        "Entity": {
+            "Primary Entity": [
+                "library of data"
+            ],
+            "Secondary Entity": [
+                "experiments"
+            ]
+        },
+        "Benefit": "data can be used by one or multiple experiments",
+        "Triggers": [
+            [
+                "researcher",
+                "collect data"
+            ]
+        ],
+        "Targets": [
+            [
+                "collect data",
+                "library of data"
+            ],
+            [
+                "use",
+                "experiments"
+            ]
+        ]
+    },
+    {
+        "Text": "#G18# As a researcher, I want to indicate within my electronic log book which experimental data is good/bad, hide the bad data, but still keep it in the system just in case it is useful in the future.",
+        "Persona": [
+            "researcher"
+        ],
+        "Action": {
+            "Primary Action": [
+                "indicate",
+                "hide",
+                "keep"
+            ],
+            "Secondary Action": []
+        },
+        "Entity": {
+            "Primary Entity": [
+                "electronic log book",
+                "experimental data"
+            ],
+            "Secondary Entity": []
+        },
+        "Benefit": "keep the bad data in the system in case it is useful in the future",
+        "Triggers": [
+            [
+                "researcher",
+                "indicate"
+            ],
+            [
+                "researcher",
+                "hide"
+            ],
+            [
+                "researcher",
+                "keep"
+            ]
+        ],
+        "Targets": [
+            [
+                "indicate",
+                "electronic log book"
+            ],
+            [
+                "hide",
+                "experimental data"
+            ],
+            [
+                "keep",
+                "experimental data"
+            ]
+        ]
+    },
+    {
+        "Text": "#G18# As a researcher, I want to have the system to provide standard metadata, that all researchers in the centre (and beyond) can use, so that we can better understand each others' data.",
+        "Persona": [
+            "researcher"
+        ],
+        "Action": {
+            "Primary Action": [
+                "provide"
+            ],
+            "Secondary Action": []
+        },
+        "Entity": {
+            "Primary Entity": [
+                "system",
+                "standard metadata"
+            ],
+            "Secondary Entity": [
+                "researchers",
+                "centre"
+            ]
+        },
+        "Benefit": "better understand each others' data",
+        "Triggers": [
+            [
+                "researcher",
+                "provide"
+            ]
+        ],
+        "Targets": [
+            [
+                "provide",
+                "system"
+            ],
+            [
+                "provide",
+                "standard metadata"
+            ],
+            [
+                "provide",
+                "researchers"
+            ],
+            [
+                "provide",
+                "centre"
+            ]
+        ]
+    },
+    {
+        "Text": "#G18# As a researcher, I want to have physiology images to be annotated with standard meta data, so that my data can later be searched for and understood.",
+        "Persona": [
+            "researcher"
+        ],
+        "Action": {
+            "Primary Action": [
+                "annotated"
+            ],
+            "Secondary Action": [
+                "searched for",
+                "understood"
+            ]
+        },
+        "Entity": {
+            "Primary Entity": [
+                "physiology images",
+                "data"
+            ],
+            "Secondary Entity": [
+                "standard meta data"
+            ]
+        },
+        "Benefit": "my data can later be searched for and understood",
+        "Triggers": [
+            [
+                "researcher",
+                "annotated"
+            ]
+        ],
+        "Targets": [
+            [
+                "annotated",
+                "physiology images"
+            ],
+            [
+                "annotated",
+                "standard meta data"
+            ],
+            [
+                "searched for",
+                "data"
+            ],
+            [
+                "understood",
+                "data"
+            ]
+        ]
+    },
+    {
+        "Text": "#G18# As a systems administrator, I want  to install Neurohub dependencies into an Ubuntu 10.04 LTS machine using the normal Ubuntu package management tools.",
+        "Persona": [
+            "systems administrator"
+        ],
+        "Action": {
+            "Primary Action": [
+                "install"
+            ],
+            "Secondary Action": []
+        },
+        "Entity": {
+            "Primary Entity": [
+                "Neurohub dependencies"
+            ],
+            "Secondary Entity": [
+                "Ubuntu 10.04 LTS machine"
+            ]
+        },
+        "Benefit": "to use the normal Ubuntu package management tools",
+        "Triggers": [
+            [
+                "systems administrator",
+                "install"
+            ]
+        ],
+        "Targets": [
+            [
+                "install",
+                "Neurohub dependencies"
+            ],
+            [
+                "install",
+                "Ubuntu 10.04 LTS machine"
+            ]
+        ]
+    },
+    {
+        "Text": "#G18# As a researcher, I want to have the ability to attach standard meta data for behavioural observations (and video), so that my data can later be searched for and understood.",
+        "Persona": [
+            "researcher"
+        ],
+        "Action": {
+            "Primary Action": [
+                "attach",
+                "search",
+                "understand"
+            ],
+            "Secondary Action": []
+        },
+        "Entity": {
+            "Primary Entity": [
+                "standard meta data",
+                "behavioural observations",
+                "video",
+                "data"
+            ],
+            "Secondary Entity": []
+        },
+        "Benefit": "my data can later be searched for and understood",
+        "Triggers": [
+            [
+                "researcher",
+                "attach"
+            ]
+        ],
+        "Targets": [
+            [
+                "attach",
+                "standard meta data"
+            ],
+            [
+                "attach",
+                "behavioural observations"
+            ],
+            [
+                "attach",
+                "video"
+            ],
+            [
+                "search",
+                "data"
+            ],
+            [
+                "understand",
+                "data"
+            ]
+        ]
+    },
+    {
+        "Text": "#G18# As a researcher,  I want to have the ability to attach standard meta data for drug responses, so that my data can later be searched for and understood.",
+        "Persona": [
+            "researcher"
+        ],
+        "Action": {
+            "Primary Action": [
+                "attach",
+                "search",
+                "understand"
+            ],
+            "Secondary Action": []
+        },
+        "Entity": {
+            "Primary Entity": [
+                "standard meta data",
+                "drug responses",
+                "data"
+            ],
+            "Secondary Entity": []
+        },
+        "Benefit": "my data can later be searched for and understood",
+        "Triggers": [
+            [
+                "researcher",
+                "attach"
+            ],
+            [
+                "researcher",
+                "search"
+            ],
+            [
+                "researcher",
+                "understand"
+            ]
+        ],
+        "Targets": [
+            [
+                "attach",
+                "standard meta data"
+            ],
+            [
+                "search",
+                "data"
+            ],
+            [
+                "understand",
+                "data"
+            ]
+        ]
+    },
+    {
+        "Text": "#G18# As a researcher, I want to have the ability to search for images of cells using standard meta data.",
+        "Persona": [
+            "researcher"
+        ],
+        "Action": {
+            "Primary Action": [
+                "search"
+            ],
+            "Secondary Action": []
+        },
+        "Entity": {
+            "Primary Entity": [
+                "images of cells"
+            ],
+            "Secondary Entity": [
+                "standard meta data"
+            ]
+        },
+        "Benefit": "have the ability to search for images of cells using standard meta data",
+        "Triggers": [
+            [
+                "researcher",
+                "search"
+            ]
+        ],
+        "Targets": [
+            [
+                "search",
+                "images of cells"
+            ]
+        ]
+    },
+    {
+        "Text": "#G18# As a researcher, I want to have at least some meta data to be automatically inserted when new data is added to the system.",
+        "Persona": [
+            "researcher"
+        ],
+        "Action": {
+            "Primary Action": [
+                "automatically inserted",
+                "added"
+            ],
+            "Secondary Action": []
+        },
+        "Entity": {
+            "Primary Entity": [
+                "meta data",
+                "new data",
+                "system"
+            ],
+            "Secondary Entity": []
+        },
+        "Benefit": "have at least some meta data to be automatically inserted when new data is added to the system",
+        "Triggers": [
+            [
+                "researcher",
+                "automatically inserted"
+            ],
+            [
+                "new data",
+                "added"
+            ]
+        ],
+        "Targets": [
+            [
+                "automatically inserted",
+                "meta data"
+            ],
+            [
+                "added",
+                "system"
+            ]
+        ]
+    },
+    {
+        "Text": "#G18# As a researcher,  I want to have the ability to attach detailed meta data to the data and entries that I create.",
+        "Persona": [
+            "researcher"
+        ],
+        "Action": {
+            "Primary Action": [
+                "attach"
+            ],
+            "Secondary Action": []
+        },
+        "Entity": {
+            "Primary Entity": [
+                "meta data"
+            ],
+            "Secondary Entity": [
+                "data",
+                "entries"
+            ]
+        },
+        "Benefit": "have the ability to attach detailed meta data to the data and entries",
+        "Triggers": [
+            [
+                "researcher",
+                "attach"
+            ]
+        ],
+        "Targets": [
+            [
+                "attach",
+                "meta data"
+            ],
+            [
+                "attach",
+                "data"
+            ],
+            [
+                "attach",
+                "entries"
+            ]
+        ]
+    },
+    {
+        "Text": "#G18# As a researcher, I want to have the ability to select a partially pre-populated template that already contains commonly entered meta data while adding new data to the system, so that I do not waste time repeatedly inserting the same meta data over and over again for each individual file or log book entry.",
+        "Persona": [
+            "researcher"
+        ],
+        "Action": {
+            "Primary Action": [
+                "select",
+                "adding"
+            ],
+            "Secondary Action": [
+                "waste",
+                "repeatedly inserting"
+            ]
+        },
+        "Entity": {
+            "Primary Entity": [
+                "partially pre-populated template",
+                "meta data",
+                "system"
+            ],
+            "Secondary Entity": [
+                "individual file",
+                "log book entry"
+            ]
+        },
+        "Benefit": "do not waste time repeatedly inserting the same meta data over and over again for each individual file or log book entry",
+        "Triggers": [
+            [
+                "researcher",
+                "select"
+            ],
+            [
+                "researcher",
+                "adding"
+            ],
+            [
+                "researcher",
+                "waste"
+            ],
+            [
+                "researcher",
+                "repeatedly inserting"
+            ]
+        ],
+        "Targets": [
+            [
+                "select",
+                "partially pre-populated template"
+            ],
+            [
+                "adding",
+                "meta data"
+            ],
+            [
+                "adding",
+                "system"
+            ],
+            [
+                "waste",
+                "individual file"
+            ],
+            [
+                "waste",
+                "log book entry"
+            ],
+            [
+                "repeatedly inserting",
+                "meta data"
+            ],
+            [
+                "repeatedly inserting",
+                "individual file"
+            ],
+            [
+                "repeatedly inserting",
+                "log book entry"
+            ]
+        ]
+    },
+    {
+        "Text": "#G18# As a user, I want to be sure that existing metadata corresponding to the file is not lost when moving a file to a new location.",
+        "Persona": [
+            "user"
+        ],
+        "Action": {
+            "Primary Action": [
+                "moving"
+            ],
+            "Secondary Action": []
+        },
+        "Entity": {
+            "Primary Entity": [
+                "metadata",
+                "file"
+            ],
+            "Secondary Entity": []
+        },
+        "Benefit": "be sure that existing metadata corresponding to the file is not lost when moving a file to a new location",
+        "Triggers": [
+            [
+                "user",
+                "moving"
+            ]
+        ],
+        "Targets": [
+            [
+                "moving",
+                "metadata"
+            ],
+            [
+                "moving",
+                "file"
+            ]
+        ]
+    },
+    {
+        "Text": "#G18# As a researcher, I want to have the ability to form links between objects, for example File A is an analysis of File B, so that data can be searched by type and by association.",
+        "Persona": [
+            "researcher"
+        ],
+        "Action": {
+            "Primary Action": [
+                "form links"
+            ],
+            "Secondary Action": [
+                "search"
+            ]
+        },
+        "Entity": {
+            "Primary Entity": [
+                "objects"
+            ],
+            "Secondary Entity": [
+                "File A",
+                "File B"
+            ]
+        },
+        "Benefit": "data can be searched by type and by association",
+        "Triggers": [
+            [
+                "researcher",
+                "form links"
+            ]
+        ],
+        "Targets": [
+            [
+                "form links",
+                "objects"
+            ],
+            [
+                "search",
+                "objects"
+            ]
+        ]
+    },
+    {
+        "Text": "#G18# As a researcher, I want to have the ability to locate experiment files using meta data, regardless of where those files are located.",
+        "Persona": [
+            "researcher"
+        ],
+        "Action": {
+            "Primary Action": [
+                "locate"
+            ],
+            "Secondary Action": []
+        },
+        "Entity": {
+            "Primary Entity": [
+                "experiment files"
+            ],
+            "Secondary Entity": [
+                "meta data"
+            ]
+        },
+        "Benefit": "have the ability to locate experiment files using meta data, regardless of where those files are located",
+        "Triggers": [
+            [
+                "researcher",
+                "locate"
+            ]
+        ],
+        "Targets": [
+            [
+                "locate",
+                "experiment files"
+            ]
+        ]
+    },
+    {
+        "Text": "#G18# As a researcher, I want to have any data that I have written to the VRE to be protected from modification or deletion, so that original data can always be traced back to an experiment and a point in time.",
+        "Persona": [
+            "researcher"
+        ],
+        "Action": {
+            "Primary Action": [
+                "written",
+                "protected",
+                "traced back"
+            ],
+            "Secondary Action": [
+                "modification",
+                "deletion"
+            ]
+        },
+        "Entity": {
+            "Primary Entity": [
+                "data",
+                "VRE"
+            ],
+            "Secondary Entity": []
+        },
+        "Benefit": "original data can always be traced back to an experiment and a point in time",
+        "Triggers": [
+            [
+                "researcher",
+                "written"
+            ]
+        ],
+        "Targets": [
+            [
+                "written",
+                "data"
+            ],
+            [
+                "written",
+                "VRE"
+            ],
+            [
+                "protected",
+                "data"
+            ],
+            [
+                "traced back",
+                "data"
+            ]
+        ]
+    },
+    {
+        "Text": "#G18# As a researcher, I want to create a log book page for an experiment and attach a file to this page.",
+        "Persona": [
+            "researcher"
+        ],
+        "Action": {
+            "Primary Action": [
+                "create"
+            ],
+            "Secondary Action": [
+                "attach"
+            ]
+        },
+        "Entity": {
+            "Primary Entity": [
+                "log book page"
+            ],
+            "Secondary Entity": [
+                "file"
+            ]
+        },
+        "Benefit": "to keep a record of the experiment and have the file associated with it",
+        "Triggers": [
+            [
+                "researcher",
+                "create"
+            ],
+            [
+                "researcher",
+                "attach"
+            ]
+        ],
+        "Targets": [
+            [
+                "create",
+                "log book page"
+            ],
+            [
+                "attach",
+                "file"
+            ]
+        ]
+    },
+    {
+        "Text": "#G18# As a user,  I want to have the ability to keep my data private on the system, and only share data that I deem should be shared.",
+        "Persona": [
+            "user"
+        ],
+        "Action": {
+            "Primary Action": [
+                "keep",
+                "share"
+            ],
+            "Secondary Action": []
+        },
+        "Entity": {
+            "Primary Entity": [
+                "data",
+                "system"
+            ],
+            "Secondary Entity": []
+        },
+        "Benefit": "have the ability to keep my data private on the system, and only share data that I deem should be shared",
+        "Triggers": [
+            [
+                "user",
+                "keep"
+            ],
+            [
+                "user",
+                "share"
+            ]
+        ],
+        "Targets": [
+            [
+                "keep",
+                "data"
+            ],
+            [
+                "share",
+                "data"
+            ],
+            [
+                "keep",
+                "system"
+            ],
+            [
+                "share",
+                "system"
+            ]
+        ]
+    },
+    {
+        "Text": "#G18# As a researcher,  I want to have the ability to store all the inputs for an experiment so that the provenance of the results can be verified.",
+        "Persona": [
+            "researcher"
+        ],
+        "Action": {
+            "Primary Action": [
+                "store",
+                "verify"
+            ],
+            "Secondary Action": []
+        },
+        "Entity": {
+            "Primary Entity": [
+                "inputs",
+                "experiment",
+                "results"
+            ],
+            "Secondary Entity": []
+        },
+        "Benefit": "the provenance of the results can be verified",
+        "Triggers": [
+            [
+                "researcher",
+                "store"
+            ]
+        ],
+        "Targets": [
+            [
+                "store",
+                "inputs"
+            ],
+            [
+                "store",
+                "experiment"
+            ],
+            [
+                "store",
+                "results"
+            ],
+            [
+                "verify",
+                "results"
+            ]
+        ]
+    },
+    {
+        "Text": "#G18# As a researcher, I want to have the ability to search for files by file type and format.",
+        "Persona": [
+            "researcher"
+        ],
+        "Action": {
+            "Primary Action": [
+                "search"
+            ],
+            "Secondary Action": []
+        },
+        "Entity": {
+            "Primary Entity": [
+                "files"
+            ],
+            "Secondary Entity": []
+        },
+        "Benefit": "have the ability to search for files by file type and format",
+        "Triggers": [
+            [
+                "researcher",
+                "search"
+            ]
+        ],
+        "Targets": [
+            [
+                "search",
+                "files"
+            ]
+        ]
+    },
+    {
+        "Text": "#G18# As a researcher,  I want to have the ability to bulk upload directories and files with minimal effort.",
+        "Persona": [
+            "researcher"
+        ],
+        "Action": {
+            "Primary Action": [
+                "have the ability"
+            ],
+            "Secondary Action": []
+        },
+        "Entity": {
+            "Primary Entity": [
+                "bulk upload directories"
+            ],
+            "Secondary Entity": [
+                "files"
+            ]
+        },
+        "Benefit": "with minimal effort",
+        "Triggers": [
+            [
+                "researcher",
+                "have the ability"
+            ]
+        ],
+        "Targets": [
+            [
+                "have the ability",
+                "bulk upload directories"
+            ],
+            [
+                "have the ability",
+                "files"
+            ]
+        ]
+    },
+    {
+        "Text": "#G18# As a researcher, I want to associate meta data to the group as a whole at some point in time after the bulk upload has completed, so that I have a period of time to reflect on suitable values for the meta data.",
+        "Persona": [
+            "researcher"
+        ],
+        "Action": {
+            "Primary Action": [
+                "associate",
+                "bulk upload"
+            ],
+            "Secondary Action": [
+                "reflect"
+            ]
+        },
+        "Entity": {
+            "Primary Entity": [
+                "group"
+            ],
+            "Secondary Entity": []
+        },
+        "Benefit": "I have a period of time to reflect on suitable values for the meta data",
+        "Triggers": [
+            [
+                "researcher",
+                "associate"
+            ],
+            [
+                "researcher",
+                "bulk upload"
+            ],
+            [
+                "researcher",
+                "reflect"
+            ]
+        ],
+        "Targets": [
+            [
+                "associate",
+                "group"
+            ],
+            [
+                "bulk upload",
+                "group"
+            ]
+        ]
+    },
+    {
+        "Text": "#G18# As a user,  I want to have the ability to change the sharing and ownership of multiple files.",
+        "Persona": [
+            "user"
+        ],
+        "Action": {
+            "Primary Action": [
+                "change"
+            ],
+            "Secondary Action": []
+        },
+        "Entity": {
+            "Primary Entity": [
+                "sharing",
+                "ownership",
+                "multiple files"
+            ],
+            "Secondary Entity": []
+        },
+        "Benefit": "have the ability to change the sharing and ownership of multiple files",
+        "Triggers": [
+            [
+                "user",
+                "change"
+            ]
+        ],
+        "Targets": [
+            [
+                "change",
+                "sharing"
+            ],
+            [
+                "change",
+                "ownership"
+            ],
+            [
+                "change",
+                "multiple files"
+            ]
+        ]
+    },
+    {
+        "Text": "#G18# As a researcher,  I want to have the ability to restrict the data I share to certain researchers or groups of researchers.",
+        "Persona": [
+            "researcher"
+        ],
+        "Action": {
+            "Primary Action": [
+                "restrict"
+            ],
+            "Secondary Action": [
+                "share"
+            ]
+        },
+        "Entity": {
+            "Primary Entity": [
+                "data"
+            ],
+            "Secondary Entity": [
+                "researchers",
+                "groups of researchers"
+            ]
+        },
+        "Benefit": "have the ability to restrict the data I share to certain researchers or groups of researchers",
+        "Triggers": [
+            [
+                "researcher",
+                "restrict"
+            ]
+        ],
+        "Targets": [
+            [
+                "restrict",
+                "data"
+            ],
+            [
+                "restrict",
+                "researchers"
+            ],
+            [
+                "restrict",
+                "groups of researchers"
+            ],
+            [
+                "restrict",
+                "researchers"
+            ],
+            [
+                "restrict",
+                "groups of researchers"
+            ]
+        ]
+    },
+    {
+        "Text": "#G18# As a researcher,  I want to have the ability to locate and access data that colleagues want to share.",
+        "Persona": [
+            "researcher"
+        ],
+        "Action": {
+            "Primary Action": [
+                "locate",
+                "access"
+            ],
+            "Secondary Action": []
+        },
+        "Entity": {
+            "Primary Entity": [
+                "data"
+            ],
+            "Secondary Entity": [
+                "colleagues"
+            ]
+        },
+        "Benefit": "have the ability to locate and access data that colleagues want to share",
+        "Triggers": [
+            [
+                "researcher",
+                "locate"
+            ],
+            [
+                "researcher",
+                "access"
+            ]
+        ],
+        "Targets": [
+            [
+                "locate",
+                "data"
+            ],
+            [
+                "access",
+                "data"
+            ],
+            [
+                "locate",
+                "colleagues"
+            ],
+            [
+                "access",
+                "colleagues"
+            ]
+        ]
+    },
+    {
+        "Text": "#G18# As a researcher,  I want to have the ability to interact with a revision control system so that I can keep track of changes to files over time.",
+        "Persona": [
+            "researcher"
+        ],
+        "Action": {
+            "Primary Action": [
+                "interact",
+                "keep track of changes"
+            ],
+            "Secondary Action": []
+        },
+        "Entity": {
+            "Primary Entity": [
+                "revision control system",
+                "files"
+            ],
+            "Secondary Entity": []
+        },
+        "Benefit": "I can keep track of changes to files over time",
+        "Triggers": [
+            [
+                "researcher",
+                "interact"
+            ],
+            [
+                "researcher",
+                "keep track of changes"
+            ]
+        ],
+        "Targets": [
+            [
+                "interact",
+                "revision control system"
+            ],
+            [
+                "keep track of changes",
+                "files"
+            ]
+        ]
+    },
+    {
+        "Text": "#G18# As a JuniorResearcher,  I want to have the ability to harvest knowledge from within the group, so that I can learn from more experienced researchers.",
+        "Persona": [
+            "JuniorResearcher",
+            "experienced researchers"
+        ],
+        "Action": {
+            "Primary Action": [
+                "harvest"
+            ],
+            "Secondary Action": [
+                "learn"
+            ]
+        },
+        "Entity": {
+            "Primary Entity": [
+                "knowledge"
+            ],
+            "Secondary Entity": [
+                "group"
+            ]
+        },
+        "Benefit": "I can learn from more experienced researchers",
+        "Triggers": [
+            [
+                "JuniorResearcher",
+                "harvest"
+            ],
+            [
+                "JuniorResearcher",
+                "learn"
+            ]
+        ],
+        "Targets": [
+            [
+                "harvest",
+                "knowledge"
+            ],
+            [
+                "learn",
+                "experienced researchers"
+            ]
+        ]
+    }
+]

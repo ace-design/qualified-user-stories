@@ -1,0 +1,2785 @@
+[
+    {
+        "Text": "#G17# As an app developer, I want to include the code of a dataset type in my app artifact and create a dataset of that type when deploying the app.",
+        "Persona": [
+            "app developer"
+        ],
+        "Action": {
+            "Primary Action": [
+                "include",
+                "create",
+                "deploy"
+            ],
+            "Secondary Action": []
+        },
+        "Entity": {
+            "Primary Entity": [
+                "code",
+                "dataset type",
+                "app artifact",
+                "dataset"
+            ],
+            "Secondary Entity": []
+        },
+        "Benefit": "I can create a dataset of the specified type when deploying the app",
+        "Triggers": [
+            [
+                "app developer",
+                "include"
+            ],
+            [
+                "app developer",
+                "create"
+            ],
+            [
+                "app developer",
+                "deploy"
+            ]
+        ],
+        "Targets": [
+            [
+                "include",
+                "code"
+            ],
+            [
+                "create",
+                "dataset type"
+            ],
+            [
+                "deploy",
+                "app artifact"
+            ],
+            [
+                "deploy",
+                "dataset"
+            ]
+        ]
+    },
+    {
+        "Text": "#G17# As an app developer, I want to share a dataset type that I had previously deployed as part of an app.",
+        "Persona": [
+            "app developer"
+        ],
+        "Action": {
+            "Primary Action": [
+                "share",
+                "deployed"
+            ],
+            "Secondary Action": []
+        },
+        "Entity": {
+            "Primary Entity": [
+                "dataset type",
+                "app"
+            ],
+            "Secondary Entity": []
+        },
+        "Benefit": "I can share a dataset type that I had previously deployed as part of an app",
+        "Triggers": [
+            [
+                "app developer",
+                "share"
+            ],
+            [
+                "app developer",
+                "deployed"
+            ]
+        ],
+        "Targets": [
+            [
+                "share",
+                "dataset type"
+            ],
+            [
+                "share",
+                "app"
+            ],
+            [
+                "deployed",
+                "dataset type"
+            ],
+            [
+                "deployed",
+                "app"
+            ]
+        ]
+    },
+    {
+        "Text": "#G17# As a dataset developer, I want to deploy a dataset type independent from any app and allow apps to create and use dataset instances of that type.",
+        "Persona": [
+            "dataset developer",
+            "apps"
+        ],
+        "Action": {
+            "Primary Action": [
+                "deploy",
+                "create"
+            ],
+            "Secondary Action": [
+                "use"
+            ]
+        },
+        "Entity": {
+            "Primary Entity": [
+                "dataset type",
+                "app"
+            ],
+            "Secondary Entity": [
+                "dataset instances"
+            ]
+        },
+        "Benefit": "allow apps to create and use dataset instances of that type",
+        "Triggers": [
+            [
+                "dataset developer",
+                "deploy"
+            ],
+            [
+                "dataset developer",
+                "create"
+            ],
+            [
+                "apps",
+                "use"
+            ]
+        ],
+        "Targets": [
+            [
+                "deploy",
+                "dataset type"
+            ],
+            [
+                "create",
+                "dataset instances"
+            ],
+            [
+                "use",
+                "dataset instances"
+            ]
+        ]
+    },
+    {
+        "Text": "#G17# As a dataset developer, I want to have the option of forcing applications to have the dataset code injected at runtime.",
+        "Persona": [
+            "dataset developer"
+        ],
+        "Action": {
+            "Primary Action": [
+                "have the option of forcing"
+            ],
+            "Secondary Action": [
+                "injected at runtime"
+            ]
+        },
+        "Entity": {
+            "Primary Entity": [
+                "applications"
+            ],
+            "Secondary Entity": []
+        },
+        "Benefit": "to have the dataset code injected at runtime",
+        "Triggers": [
+            [
+                "dataset developer",
+                "have the option of forcing"
+            ]
+        ],
+        "Targets": [
+            [
+                "have the option of forcing",
+                "applications"
+            ],
+            [
+                "have the option of forcing",
+                "injected at runtime"
+            ]
+        ]
+    },
+    {
+        "Text": "#G17# As a dataset developer, I want to have an archetype that helps me package my dataset type properly.",
+        "Persona": [
+            "dataset developer"
+        ],
+        "Action": {
+            "Primary Action": [
+                "package"
+            ],
+            "Secondary Action": []
+        },
+        "Entity": {
+            "Primary Entity": [
+                "archetype",
+                "dataset type"
+            ],
+            "Secondary Entity": []
+        },
+        "Benefit": "helps me package my dataset type properly",
+        "Triggers": [
+            [
+                "dataset developer",
+                "package"
+            ]
+        ],
+        "Targets": [
+            [
+                "package",
+                "archetype"
+            ],
+            [
+                "package",
+                "dataset type"
+            ]
+        ]
+    },
+    {
+        "Text": "#G17# As a dataset developer, I want to separate the interface from the implementation of a dataset type.",
+        "Persona": [
+            "dataset developer"
+        ],
+        "Action": {
+            "Primary Action": [
+                "separate"
+            ],
+            "Secondary Action": []
+        },
+        "Entity": {
+            "Primary Entity": [
+                "interface",
+                "implementation",
+                "dataset type"
+            ],
+            "Secondary Entity": []
+        },
+        "Benefit": "to separate the interface from the implementation of a dataset type",
+        "Triggers": [
+            [
+                "dataset developer",
+                "separate"
+            ]
+        ],
+        "Targets": [
+            [
+                "separate",
+                "interface"
+            ],
+            [
+                "separate",
+                "implementation"
+            ],
+            [
+                "separate",
+                "dataset type"
+            ]
+        ]
+    },
+    {
+        "Text": "#G17# As an app developer, I want to only depend on the interface of a dataset type in my app and have the system inject the implementation at runtime.",
+        "Persona": [
+            "app developer"
+        ],
+        "Action": {
+            "Primary Action": [
+                "depend"
+            ],
+            "Secondary Action": [
+                "inject"
+            ]
+        },
+        "Entity": {
+            "Primary Entity": [
+                "interface",
+                "dataset type"
+            ],
+            "Secondary Entity": [
+                "system",
+                "implementation"
+            ]
+        },
+        "Benefit": "only depend on the interface of a dataset type in my app and have the system inject the implementation at runtime",
+        "Triggers": [
+            [
+                "app developer",
+                "depend"
+            ]
+        ],
+        "Targets": [
+            [
+                "depend",
+                "interface"
+            ],
+            [
+                "depend",
+                "dataset type"
+            ],
+            [
+                "depend",
+                "system"
+            ],
+            [
+                "depend",
+                "implementation"
+            ],
+            [
+                "inject",
+                "implementation"
+            ]
+        ]
+    },
+    {
+        "Text": "#G17# As an app developer, I want to write unit tests for an app that depends on the interface of a dataset type.",
+        "Persona": [
+            "app developer"
+        ],
+        "Action": {
+            "Primary Action": [
+                "write"
+            ],
+            "Secondary Action": []
+        },
+        "Entity": {
+            "Primary Entity": [
+                "app",
+                "unit tests",
+                "interface",
+                "dataset type"
+            ],
+            "Secondary Entity": []
+        },
+        "Benefit": "to ensure the app functions correctly with the dataset type interface",
+        "Triggers": [
+            [
+                "app developer",
+                "write"
+            ]
+        ],
+        "Targets": [
+            [
+                "write",
+                "app"
+            ],
+            [
+                "write",
+                "unit tests"
+            ],
+            [
+                "write",
+                "interface"
+            ],
+            [
+                "write",
+                "dataset type"
+            ]
+        ]
+    },
+    {
+        "Text": "#G17# As a dataset developer, I want to assign explicit versions to the code of a dataset type.",
+        "Persona": [
+            "dataset developer"
+        ],
+        "Action": {
+            "Primary Action": [
+                "assign explicit versions"
+            ],
+            "Secondary Action": []
+        },
+        "Entity": {
+            "Primary Entity": [
+                "code",
+                "dataset type"
+            ],
+            "Secondary Entity": []
+        },
+        "Benefit": "to track changes and ensure consistency",
+        "Triggers": [
+            [
+                "dataset developer",
+                "assign explicit versions"
+            ]
+        ],
+        "Targets": [
+            [
+                "assign explicit versions",
+                "code"
+            ],
+            [
+                "assign explicit versions",
+                "dataset type"
+            ]
+        ]
+    },
+    {
+        "Text": "#G17# As a dataset developer, I want to deploy a new version of a dataset type without affecting the dataset instances of that type.",
+        "Persona": [
+            "dataset developer"
+        ],
+        "Action": {
+            "Primary Action": [
+                "deploy"
+            ],
+            "Secondary Action": []
+        },
+        "Entity": {
+            "Primary Entity": [
+                "dataset type",
+                "dataset instances"
+            ],
+            "Secondary Entity": []
+        },
+        "Benefit": "without affecting the dataset instances of that type",
+        "Triggers": [
+            [
+                "dataset developer",
+                "deploy"
+            ]
+        ],
+        "Targets": [
+            [
+                "deploy",
+                "dataset type"
+            ],
+            [
+                "deploy",
+                "dataset instances"
+            ]
+        ]
+    },
+    {
+        "Text": "#G17# As an app developer, I want to create a dataset instance with a specific version of a dataset type.",
+        "Persona": [
+            "app developer"
+        ],
+        "Action": {
+            "Primary Action": [
+                "create"
+            ],
+            "Secondary Action": []
+        },
+        "Entity": {
+            "Primary Entity": [
+                "dataset instance",
+                "dataset type"
+            ],
+            "Secondary Entity": []
+        },
+        "Benefit": "I can create a dataset instance with a specific version of a dataset type",
+        "Triggers": [
+            [
+                "app developer",
+                "create"
+            ]
+        ],
+        "Targets": [
+            [
+                "create",
+                "dataset instance"
+            ],
+            [
+                "create",
+                "dataset type"
+            ]
+        ]
+    },
+    {
+        "Text": "#G17# As an app developer, I want to deploy a new version of a dataset type as part of deploying a new version of the app that includes it and I expect that all dataset instances of that type that were created as part of the app deployment start using the new code.",
+        "Persona": [
+            "app developer"
+        ],
+        "Action": {
+            "Primary Action": [
+                "deploy"
+            ],
+            "Secondary Action": [
+                "deploying",
+                "start using"
+            ]
+        },
+        "Entity": {
+            "Primary Entity": [
+                "dataset type",
+                "dataset instances"
+            ],
+            "Secondary Entity": []
+        },
+        "Benefit": "all dataset instances start using the new code",
+        "Triggers": [
+            [
+                "app developer",
+                "deploy"
+            ],
+            [
+                "dataset instances",
+                "start using"
+            ]
+        ],
+        "Targets": [
+            [
+                "deploy",
+                "dataset type"
+            ],
+            [
+                "deploy",
+                "dataset instances"
+            ],
+            [
+                "dataset instances",
+                "new code"
+            ]
+        ]
+    },
+    {
+        "Text": "#G17# As a dataset developer, I want to explore a dataset instance created from a dataset type that was deployed by itself.",
+        "Persona": [
+            "dataset developer"
+        ],
+        "Action": {
+            "Primary Action": [
+                "explore",
+                "created",
+                "deployed"
+            ],
+            "Secondary Action": []
+        },
+        "Entity": {
+            "Primary Entity": [
+                "dataset instance",
+                "dataset type"
+            ],
+            "Secondary Entity": []
+        },
+        "Benefit": "I can explore a dataset instance created from a dataset type that was deployed by itself.",
+        "Triggers": [
+            [
+                "dataset developer",
+                "explore"
+            ]
+        ],
+        "Targets": [
+            [
+                "explore",
+                "dataset instance"
+            ],
+            [
+                "created",
+                "dataset instance"
+            ],
+            [
+                "deployed",
+                "dataset type"
+            ]
+        ]
+    },
+    {
+        "Text": "#G17# As a dataset developer, I want to delete outdated versions of a dataset type and I expect this to fail if there are any dataset instances with that version of the type.",
+        "Persona": [
+            "dataset developer"
+        ],
+        "Action": {
+            "Primary Action": [
+                "delete"
+            ],
+            "Secondary Action": []
+        },
+        "Entity": {
+            "Primary Entity": [
+                "dataset type"
+            ],
+            "Secondary Entity": [
+                "dataset instances"
+            ]
+        },
+        "Benefit": "I expect this to fail if there are any dataset instances with that version of the type.",
+        "Triggers": [
+            [
+                "dataset developer",
+                "delete"
+            ]
+        ],
+        "Targets": [
+            [
+                "delete",
+                "dataset type"
+            ],
+            [
+                "delete",
+                "dataset instances"
+            ]
+        ]
+    },
+    {
+        "Text": "#G17# As a dataset developer, I want to list all dataset instances that use a dataset type or a specific version of a type.",
+        "Persona": [
+            "dataset developer"
+        ],
+        "Action": {
+            "Primary Action": [
+                "list"
+            ],
+            "Secondary Action": []
+        },
+        "Entity": {
+            "Primary Entity": [
+                "dataset instances"
+            ],
+            "Secondary Entity": [
+                "dataset type",
+                "specific version"
+            ]
+        },
+        "Benefit": "to find all dataset instances that use a dataset type or a specific version of a type",
+        "Triggers": [
+            [
+                "dataset developer",
+                "list"
+            ]
+        ],
+        "Targets": [
+            [
+                "list",
+                "dataset instances"
+            ],
+            [
+                "list",
+                "dataset type"
+            ],
+            [
+                "list",
+                "specific version"
+            ]
+        ]
+    },
+    {
+        "Text": "#G17# As a data scientist, I want to be able to create a dataset instance of an existing dataset type without writing code.",
+        "Persona": [
+            "data scientist"
+        ],
+        "Action": {
+            "Primary Action": [
+                "create"
+            ],
+            "Secondary Action": []
+        },
+        "Entity": {
+            "Primary Entity": [
+                "dataset instance"
+            ],
+            "Secondary Entity": [
+                "existing dataset type"
+            ]
+        },
+        "Benefit": "be able to create a dataset instance of an existing dataset type without writing code",
+        "Triggers": [
+            [
+                "data scientist",
+                "create"
+            ]
+        ],
+        "Targets": [
+            [
+                "create",
+                "dataset instance"
+            ],
+            [
+                "create",
+                "existing dataset type"
+            ]
+        ]
+    },
+    {
+        "Text": "#G17# As a data scientist, I want to be able to upgrade a dataset instance to a new version of its code.",
+        "Persona": [
+            "data scientist"
+        ],
+        "Action": {
+            "Primary Action": [
+                "upgrade"
+            ],
+            "Secondary Action": []
+        },
+        "Entity": {
+            "Primary Entity": [
+                "dataset instance"
+            ],
+            "Secondary Entity": [
+                "new version of its code"
+            ]
+        },
+        "Benefit": "be able to upgrade a dataset instance to a new version of its code",
+        "Triggers": [
+            [
+                "data scientist",
+                "upgrade"
+            ]
+        ],
+        "Targets": [
+            [
+                "upgrade",
+                "dataset instance"
+            ],
+            [
+                "upgrade",
+                "new version of its code"
+            ]
+        ]
+    },
+    {
+        "Text": "#G17# As a hydrator user, I want to create a pipeline that reads or writes an existing dataset instance.",
+        "Persona": [
+            "hydrator user"
+        ],
+        "Action": {
+            "Primary Action": [
+                "create"
+            ],
+            "Secondary Action": [
+                "reads",
+                "writes"
+            ]
+        },
+        "Entity": {
+            "Primary Entity": [
+                "pipeline"
+            ],
+            "Secondary Entity": [
+                "dataset instance"
+            ]
+        },
+        "Benefit": "to read or write an existing dataset instance",
+        "Triggers": [
+            [
+                "hydrator user",
+                "create"
+            ]
+        ],
+        "Targets": [
+            [
+                "create",
+                "pipeline"
+            ],
+            [
+                "reads",
+                "dataset instance"
+            ],
+            [
+                "writes",
+                "dataset instance"
+            ]
+        ]
+    },
+    {
+        "Text": "#G17# As a hydrator user, I want to create a pipeline that reads or writes a new dataset instance and I want to create that dataset instance as part of pipeline creation.",
+        "Persona": [
+            "hydrator user"
+        ],
+        "Action": {
+            "Primary Action": [
+                "create"
+            ],
+            "Secondary Action": [
+                "reads",
+                "writes"
+            ]
+        },
+        "Entity": {
+            "Primary Entity": [
+                "pipeline",
+                "dataset instance"
+            ],
+            "Secondary Entity": []
+        },
+        "Benefit": "I can create a pipeline that reads or writes a new dataset instance and create that dataset instance as part of pipeline creation.",
+        "Triggers": [
+            [
+                "hydrator user",
+                "create"
+            ]
+        ],
+        "Targets": [
+            [
+                "create",
+                "pipeline"
+            ],
+            [
+                "create",
+                "dataset instance"
+            ]
+        ]
+    },
+    {
+        "Text": "#G17# As a hydrator user, I want to specify an explicit version of the dataset types of the dataset instances created by my pipeline and I expect pipeline creation to fail if that results in incompatible upgrade of an existing dataset instance that is shared with other apps or pipelines.",
+        "Persona": [
+            "hydrator user"
+        ],
+        "Action": {
+            "Primary Action": [
+                "specify",
+                "create"
+            ],
+            "Secondary Action": [
+                "fail",
+                "upgrade",
+                "share"
+            ]
+        },
+        "Entity": {
+            "Primary Entity": [
+                "dataset types",
+                "dataset instances",
+                "pipeline"
+            ],
+            "Secondary Entity": [
+                "existing dataset instance",
+                "other apps",
+                "pipelines"
+            ]
+        },
+        "Benefit": "I can specify an explicit version of the dataset types and ensure compatibility with other apps and pipelines",
+        "Triggers": [
+            [
+                "hydrator user",
+                "specify"
+            ]
+        ],
+        "Targets": [
+            [
+                "specify",
+                "dataset types"
+            ],
+            [
+                "create",
+                "dataset instances"
+            ],
+            [
+                "fail",
+                "pipeline"
+            ],
+            [
+                "upgrade",
+                "existing dataset instance"
+            ],
+            [
+                "share",
+                "other apps"
+            ],
+            [
+                "share",
+                "pipelines"
+            ]
+        ]
+    },
+    {
+        "Text": "#G17# As a hydrator user, I want to explore the datasets created by my pipeline.",
+        "Persona": [
+            "hydrator user"
+        ],
+        "Action": {
+            "Primary Action": [
+                "explore"
+            ],
+            "Secondary Action": []
+        },
+        "Entity": {
+            "Primary Entity": [
+                "datasets"
+            ],
+            "Secondary Entity": [
+                "pipeline"
+            ]
+        },
+        "Benefit": "I can explore the datasets created by my pipeline",
+        "Triggers": [
+            [
+                "hydrator user",
+                "explore"
+            ]
+        ],
+        "Targets": [
+            [
+                "explore",
+                "datasets"
+            ]
+        ]
+    },
+    {
+        "Text": "#G17# As a hydrator user, I want to ensure that all dataset instances created by apps are available as sinks and sources for pipelines.",
+        "Persona": [
+            "hydrator user"
+        ],
+        "Action": {
+            "Primary Action": [
+                "ensure",
+                "created",
+                "available"
+            ],
+            "Secondary Action": []
+        },
+        "Entity": {
+            "Primary Entity": [
+                "dataset instances",
+                "apps",
+                "sinks",
+                "sources",
+                "pipelines"
+            ],
+            "Secondary Entity": []
+        },
+        "Benefit": "all dataset instances created by apps are available as sinks and sources for pipelines",
+        "Triggers": [
+            [
+                "hydrator user",
+                "ensure"
+            ]
+        ],
+        "Targets": [
+            [
+                "ensure",
+                "dataset instances"
+            ],
+            [
+                "ensure",
+                "apps"
+            ],
+            [
+                "ensure",
+                "sinks"
+            ],
+            [
+                "ensure",
+                "sources"
+            ],
+            [
+                "ensure",
+                "pipelines"
+            ]
+        ]
+    },
+    {
+        "Text": "#G17# As an app developer, I want to deploy a new version of a dataset type as part of an app artifact, without affecting other datasets of this type.",
+        "Persona": [
+            "app developer"
+        ],
+        "Action": {
+            "Primary Action": [
+                "deploy"
+            ],
+            "Secondary Action": []
+        },
+        "Entity": {
+            "Primary Entity": [
+                "dataset type",
+                "app artifact"
+            ],
+            "Secondary Entity": []
+        },
+        "Benefit": "deploy a new version of a dataset type without affecting other datasets of this type",
+        "Triggers": [
+            [
+                "app developer",
+                "deploy"
+            ]
+        ],
+        "Targets": [
+            [
+                "deploy",
+                "dataset type"
+            ],
+            [
+                "deploy",
+                "app artifact"
+            ]
+        ]
+    },
+    {
+        "Text": "#G17# As an app developer, I want to ensure that all dataset instances created by Hydrator pipelines are accessible to the app.",
+        "Persona": [
+            "app developer"
+        ],
+        "Action": {
+            "Primary Action": [
+                "ensure",
+                "created",
+                "accessible"
+            ],
+            "Secondary Action": []
+        },
+        "Entity": {
+            "Primary Entity": [
+                "dataset instances",
+                "Hydrator pipelines",
+                "app"
+            ],
+            "Secondary Entity": []
+        },
+        "Benefit": "all dataset instances created by Hydrator pipelines are accessible to the app",
+        "Triggers": [
+            [
+                "app developer",
+                "ensure"
+            ]
+        ],
+        "Targets": [
+            [
+                "ensure",
+                "dataset instances"
+            ],
+            [
+                "ensure",
+                "Hydrator pipelines"
+            ],
+            [
+                "ensure",
+                "app"
+            ]
+        ]
+    },
+    {
+        "Text": "#G17# As a plugin developer, I want to include the code for a dataset type in the plugin artifact, so that when a pipeline using this plugin is created a dataset instance of that type is created and it is explorable and available to apps.",
+        "Persona": [
+            "plugin developer"
+        ],
+        "Action": {
+            "Primary Action": [
+                "include",
+                "create"
+            ],
+            "Secondary Action": [
+                "explore",
+                "available"
+            ]
+        },
+        "Entity": {
+            "Primary Entity": [
+                "code",
+                "dataset type",
+                "plugin artifact",
+                "pipeline"
+            ],
+            "Secondary Entity": [
+                "dataset instance",
+                "apps"
+            ]
+        },
+        "Benefit": "when a pipeline using this plugin is created a dataset instance of that type is created and it is explorable and available to apps",
+        "Triggers": [
+            [
+                "plugin developer",
+                "include"
+            ],
+            [
+                "plugin developer",
+                "create"
+            ],
+            [
+                "plugin developer",
+                "create"
+            ]
+        ],
+        "Targets": [
+            [
+                "include",
+                "code"
+            ],
+            [
+                "create",
+                "dataset type"
+            ],
+            [
+                "create",
+                "plugin artifact"
+            ],
+            [
+                "create",
+                "pipeline"
+            ],
+            [
+                "create",
+                "dataset instance"
+            ],
+            [
+                "explore",
+                "dataset instance"
+            ],
+            [
+                "available",
+                "dataset instance"
+            ],
+            [
+                "available",
+                "apps"
+            ]
+        ]
+    },
+    {
+        "Text": "#G17# As a plugin developer, I want to use a custom dataset type that was deployed independently or as part of an app inside the plugin.",
+        "Persona": [
+            "plugin developer"
+        ],
+        "Action": {
+            "Primary Action": [
+                "use"
+            ],
+            "Secondary Action": [
+                "deploy"
+            ]
+        },
+        "Entity": {
+            "Primary Entity": [
+                "custom dataset type",
+                "plugin"
+            ],
+            "Secondary Entity": [
+                "app"
+            ]
+        },
+        "Benefit": "I can use a custom dataset type that was deployed independently or as part of an app inside the plugin",
+        "Triggers": [
+            [
+                "plugin developer",
+                "use"
+            ],
+            [
+                "plugin developer",
+                "deploy"
+            ]
+        ],
+        "Targets": [
+            [
+                "use",
+                "custom dataset type"
+            ],
+            [
+                "deploy",
+                "custom dataset type"
+            ],
+            [
+                "deploy",
+                "app"
+            ],
+            [
+                "deploy",
+                "plugin"
+            ]
+        ]
+    },
+    {
+        "Text": "#G17# As a plugin developer, I want to upgrade the code of a dataset type used by a dataset instance created by that plugin when I deploy a new version of the plugin and update the pipeline to use that version.",
+        "Persona": [
+            "plugin developer"
+        ],
+        "Action": {
+            "Primary Action": [
+                "upgrade"
+            ],
+            "Secondary Action": [
+                "deploy",
+                "update"
+            ]
+        },
+        "Entity": {
+            "Primary Entity": [
+                "dataset type",
+                "dataset instance"
+            ],
+            "Secondary Entity": [
+                "plugin",
+                "pipeline"
+            ]
+        },
+        "Benefit": "ensure compatibility between plugin version and dataset instance",
+        "Triggers": [
+            [
+                "plugin developer",
+                "upgrade"
+            ],
+            [
+                "plugin developer",
+                "deploy"
+            ],
+            [
+                "plugin developer",
+                "update"
+            ]
+        ],
+        "Targets": [
+            [
+                "upgrade",
+                "dataset type"
+            ],
+            [
+                "upgrade",
+                "dataset instance"
+            ],
+            [
+                "deploy",
+                "plugin"
+            ],
+            [
+                "deploy",
+                "pipeline"
+            ],
+            [
+                "update",
+                "pipeline"
+            ]
+        ]
+    },
+    {
+        "Text": "#G17# As a pipeline developer, I want to upgrade a dataset instance to a newer version of the code after the pipeline was created.",
+        "Persona": [
+            "pipeline developer"
+        ],
+        "Action": {
+            "Primary Action": [
+                "upgrade"
+            ],
+            "Secondary Action": []
+        },
+        "Entity": {
+            "Primary Entity": [
+                "dataset instance",
+                "newer version of the code"
+            ],
+            "Secondary Entity": [
+                "pipeline"
+            ]
+        },
+        "Benefit": "to ensure the dataset instance is using the latest code",
+        "Triggers": [
+            [
+                "pipeline developer",
+                "upgrade"
+            ]
+        ],
+        "Targets": [
+            [
+                "upgrade",
+                "dataset instance"
+            ],
+            [
+                "upgrade",
+                "newer version of the code"
+            ],
+            [
+                "upgrade",
+                "pipeline"
+            ]
+        ]
+    },
+    {
+        "Text": "#G17# As a dataset developer, I want to have the option of implementing an upgrade step for when a dataset instance is upgraded to a new version of the dataset type.",
+        "Persona": [
+            "dataset developer"
+        ],
+        "Action": {
+            "Primary Action": [
+                "implementing"
+            ],
+            "Secondary Action": []
+        },
+        "Entity": {
+            "Primary Entity": [
+                "upgrade step",
+                "dataset instance",
+                "new version",
+                "dataset type"
+            ],
+            "Secondary Entity": []
+        },
+        "Benefit": "have the option of implementing an upgrade step",
+        "Triggers": [
+            [
+                "dataset developer",
+                "implementing"
+            ]
+        ],
+        "Targets": [
+            [
+                "implementing",
+                "upgrade step"
+            ],
+            [
+                "implementing",
+                "dataset instance"
+            ],
+            [
+                "implementing",
+                "new version"
+            ],
+            [
+                "implementing",
+                "dataset type"
+            ]
+        ]
+    },
+    {
+        "Text": "#G17# As a dataset developer, I want to have a way to reject an upgrade of a dataset instance to a newer version of it type if the upgrade is not compatible.",
+        "Persona": [
+            "dataset developer"
+        ],
+        "Action": {
+            "Primary Action": [
+                "reject"
+            ],
+            "Secondary Action": []
+        },
+        "Entity": {
+            "Primary Entity": [
+                "dataset instance",
+                "newer version"
+            ],
+            "Secondary Entity": []
+        },
+        "Benefit": "have a way to reject an upgrade of a dataset instance to a newer version of its type if the upgrade is not compatible",
+        "Triggers": [
+            [
+                "dataset developer",
+                "reject"
+            ]
+        ],
+        "Targets": [
+            [
+                "reject",
+                "dataset instance"
+            ],
+            [
+                "reject",
+                "newer version"
+            ]
+        ]
+    },
+    {
+        "Text": "#G17# As a dataset developer, I want to have the option of implementing a migration procedure that can be run after an upgrade of a dataset instance to a new version of it type.",
+        "Persona": [
+            "dataset developer"
+        ],
+        "Action": {
+            "Primary Action": [
+                "implement",
+                "run",
+                "upgrade"
+            ],
+            "Secondary Action": []
+        },
+        "Entity": {
+            "Primary Entity": [
+                "migration procedure",
+                "dataset instance",
+                "new version"
+            ],
+            "Secondary Entity": []
+        },
+        "Benefit": "have the option of implementing a migration procedure that can be run after an upgrade of a dataset instance to a new version of it type",
+        "Triggers": [
+            [
+                "dataset developer",
+                "implement"
+            ],
+            [
+                "dataset developer",
+                "run"
+            ],
+            [
+                "dataset developer",
+                "upgrade"
+            ]
+        ],
+        "Targets": [
+            [
+                "implement",
+                "migration procedure"
+            ],
+            [
+                "run",
+                "dataset instance"
+            ],
+            [
+                "upgrade",
+                "new version"
+            ]
+        ]
+    },
+    {
+        "Text": "#G17# As a developer, I want to take a dataset offline, so that I can perform a long-running maintenance or migration procedure.",
+        "Persona": [
+            "developer"
+        ],
+        "Action": {
+            "Primary Action": [
+                "take offline",
+                "perform"
+            ],
+            "Secondary Action": []
+        },
+        "Entity": {
+            "Primary Entity": [
+                "dataset"
+            ],
+            "Secondary Entity": []
+        },
+        "Benefit": "I can perform a long-running maintenance or migration procedure",
+        "Triggers": [
+            [
+                "developer",
+                "take offline"
+            ],
+            [
+                "developer",
+                "perform"
+            ]
+        ],
+        "Targets": [
+            [
+                "take offline",
+                "dataset"
+            ],
+            [
+                "perform",
+                "dataset"
+            ]
+        ]
+    },
+    {
+        "Text": "#G17# As a dataset developer, I want to implement custom administrative operations such as \"compaction\" or \"rebalance\" that are no common to all dataset types.",
+        "Persona": [
+            "dataset developer"
+        ],
+        "Action": {
+            "Primary Action": [
+                "implement"
+            ],
+            "Secondary Action": []
+        },
+        "Entity": {
+            "Primary Entity": [
+                "custom administrative operations",
+                "dataset types"
+            ],
+            "Secondary Entity": [
+                "compaction",
+                "rebalance"
+            ]
+        },
+        "Benefit": "have custom administrative operations for specific dataset types",
+        "Triggers": [
+            [
+                "dataset developer",
+                "implement"
+            ]
+        ],
+        "Targets": [
+            [
+                "implement",
+                "custom administrative operations"
+            ],
+            [
+                "implement",
+                "dataset types"
+            ],
+            [
+                "implement",
+                "compaction"
+            ],
+            [
+                "implement",
+                "rebalance"
+            ]
+        ]
+    },
+    {
+        "Text": "#G17# As an app developer, I want to explore a dataset instance of a type that was deployed as part of an app.",
+        "Persona": [
+            "app developer"
+        ],
+        "Action": {
+            "Primary Action": [
+                "explore",
+                "deployed"
+            ],
+            "Secondary Action": []
+        },
+        "Entity": {
+            "Primary Entity": [
+                "dataset instance",
+                "type",
+                "app"
+            ],
+            "Secondary Entity": []
+        },
+        "Benefit": "I can explore a dataset instance of a type that was deployed as part of an app",
+        "Triggers": [
+            [
+                "app developer",
+                "explore"
+            ]
+        ],
+        "Targets": [
+            [
+                "explore",
+                "dataset instance"
+            ],
+            [
+                "explore",
+                "type"
+            ],
+            [
+                "explore",
+                "app"
+            ],
+            [
+                "deployed",
+                "dataset instance"
+            ],
+            [
+                "deployed",
+                "type"
+            ],
+            [
+                "deployed",
+                "app"
+            ]
+        ]
+    },
+    {
+        "Text": "#G17# As an app developer, I want to perform custom administrative operations on dataset instances from my app and the CLI and REST or the UI.",
+        "Persona": [
+            "app developer"
+        ],
+        "Action": {
+            "Primary Action": [
+                "perform custom administrative operations"
+            ],
+            "Secondary Action": []
+        },
+        "Entity": {
+            "Primary Entity": [
+                "dataset instances"
+            ],
+            "Secondary Entity": [
+                "CLI",
+                "REST",
+                "UI"
+            ]
+        },
+        "Benefit": "perform custom administrative operations on dataset instances from my app and the CLI and REST or the UI",
+        "Triggers": [
+            [
+                "app developer",
+                "perform custom administrative operations"
+            ]
+        ],
+        "Targets": [
+            [
+                "perform custom administrative operations",
+                "dataset instances"
+            ],
+            [
+                "perform custom administrative operations",
+                "CLI"
+            ],
+            [
+                "perform custom administrative operations",
+                "REST"
+            ],
+            [
+                "perform custom administrative operations",
+                "UI"
+            ]
+        ]
+    },
+    {
+        "Text": "#G17# As a user, I want to find out what properties are supported by the dataset type what values are allowed and what the defaults are when creating a dataset instance.",
+        "Persona": [
+            "user"
+        ],
+        "Action": {
+            "Primary Action": [
+                "find out",
+                "create"
+            ],
+            "Secondary Action": []
+        },
+        "Entity": {
+            "Primary Entity": [
+                "dataset type",
+                "dataset instance"
+            ],
+            "Secondary Entity": []
+        },
+        "Benefit": "knowing the properties, allowed values, and defaults of a dataset instance",
+        "Triggers": [
+            [
+                "user",
+                "find out"
+            ],
+            [
+                "user",
+                "create"
+            ]
+        ],
+        "Targets": [
+            [
+                "find out",
+                "dataset type"
+            ],
+            [
+                "find out",
+                "dataset instance"
+            ],
+            [
+                "create",
+                "dataset instance"
+            ]
+        ]
+    },
+    {
+        "Text": "#G17# As a user, I want to specify the schema of a dataset in a uniform way across all dataset types.",
+        "Persona": [
+            "user"
+        ],
+        "Action": {
+            "Primary Action": [
+                "specify"
+            ],
+            "Secondary Action": []
+        },
+        "Entity": {
+            "Primary Entity": [
+                "schema",
+                "dataset"
+            ],
+            "Secondary Entity": []
+        },
+        "Benefit": "uniform way across all dataset types",
+        "Triggers": [
+            [
+                "user",
+                "specify"
+            ]
+        ],
+        "Targets": [
+            [
+                "specify",
+                "schema"
+            ],
+            [
+                "specify",
+                "dataset"
+            ]
+        ]
+    },
+    {
+        "Text": "#G17# As a user, I want to specify schema as a JSON string.",
+        "Persona": [
+            "user"
+        ],
+        "Action": {
+            "Primary Action": [
+                "specify"
+            ],
+            "Secondary Action": []
+        },
+        "Entity": {
+            "Primary Entity": [
+                "schema"
+            ],
+            "Secondary Entity": []
+        },
+        "Benefit": "I can specify schema as a JSON string",
+        "Triggers": [
+            [
+                "user",
+                "specify"
+            ]
+        ],
+        "Targets": [
+            [
+                "specify",
+                "schema"
+            ]
+        ]
+    },
+    {
+        "Text": "#G17# As a user, I want to specify schema as a SQL schema string.",
+        "Persona": [
+            "user"
+        ],
+        "Action": {
+            "Primary Action": [
+                "specify"
+            ],
+            "Secondary Action": []
+        },
+        "Entity": {
+            "Primary Entity": [
+                "schema"
+            ],
+            "Secondary Entity": []
+        },
+        "Benefit": "I can specify schema as a SQL schema string",
+        "Triggers": [
+            [
+                "user",
+                "specify"
+            ]
+        ],
+        "Targets": [
+            [
+                "specify",
+                "schema"
+            ]
+        ]
+    },
+    {
+        "Text": "#G17# As a user, I want to configure time-to-live in a uniform way across all dataset types.",
+        "Persona": [
+            "user"
+        ],
+        "Action": {
+            "Primary Action": [
+                "configure"
+            ],
+            "Secondary Action": []
+        },
+        "Entity": {
+            "Primary Entity": [
+                "time-to-live"
+            ],
+            "Secondary Entity": [
+                "dataset types"
+            ]
+        },
+        "Benefit": "in a uniform way across all dataset types",
+        "Triggers": [
+            [
+                "user",
+                "configure"
+            ]
+        ],
+        "Targets": [
+            [
+                "configure",
+                "time-to-live"
+            ],
+            [
+                "configure",
+                "dataset types"
+            ]
+        ]
+    },
+    {
+        "Text": "#G17# As a user, I want to see the properties that were used to configure a dataset instance.",
+        "Persona": [
+            "user"
+        ],
+        "Action": {
+            "Primary Action": [
+                "see"
+            ],
+            "Secondary Action": []
+        },
+        "Entity": {
+            "Primary Entity": [
+                "properties",
+                "dataset instance"
+            ],
+            "Secondary Entity": []
+        },
+        "Benefit": "to understand the configuration of the dataset instance",
+        "Triggers": [
+            [
+                "user",
+                "see"
+            ]
+        ],
+        "Targets": [
+            [
+                "see",
+                "properties"
+            ],
+            [
+                "see",
+                "dataset instance"
+            ]
+        ]
+    },
+    {
+        "Text": "#G17# As a user, I want to find out what properties of a dataset can be updated.",
+        "Persona": [
+            "user"
+        ],
+        "Action": {
+            "Primary Action": [
+                "find out",
+                "update"
+            ],
+            "Secondary Action": []
+        },
+        "Entity": {
+            "Primary Entity": [
+                "dataset"
+            ],
+            "Secondary Entity": []
+        },
+        "Benefit": "I can update the properties of a dataset",
+        "Triggers": [
+            [
+                "user",
+                "find out"
+            ],
+            [
+                "user",
+                "update"
+            ]
+        ],
+        "Targets": [
+            [
+                "find out",
+                "dataset"
+            ],
+            [
+                "update",
+                "dataset"
+            ]
+        ]
+    },
+    {
+        "Text": "#G17# As a user, I want to update the properties of a dataset instance and I expect this to fail if the new properties are not compatible with a meaningful error message.",
+        "Persona": [
+            "user"
+        ],
+        "Action": {
+            "Primary Action": [
+                "update"
+            ],
+            "Secondary Action": []
+        },
+        "Entity": {
+            "Primary Entity": [
+                "dataset instance"
+            ],
+            "Secondary Entity": []
+        },
+        "Benefit": "I expect this to fail if the new properties are not compatible with a meaningful error message.",
+        "Triggers": [
+            [
+                "user",
+                "update"
+            ]
+        ],
+        "Targets": [
+            [
+                "update",
+                "dataset instance"
+            ]
+        ]
+    },
+    {
+        "Text": "#G17# As a user, I want to update a single property of a dataset instance without knowing all other properties.",
+        "Persona": [
+            "user"
+        ],
+        "Action": {
+            "Primary Action": [
+                "update"
+            ],
+            "Secondary Action": []
+        },
+        "Entity": {
+            "Primary Entity": [
+                "dataset instance"
+            ],
+            "Secondary Entity": []
+        },
+        "Benefit": "I can update a single property without knowing all other properties",
+        "Triggers": [
+            [
+                "user",
+                "update"
+            ]
+        ],
+        "Targets": [
+            [
+                "update",
+                "dataset instance"
+            ]
+        ]
+    },
+    {
+        "Text": "#G17# As an app developer, I want to ensure that when I deploy an artifact without creating an app this will not create any dataset types or instances.",
+        "Persona": [
+            "app developer"
+        ],
+        "Action": {
+            "Primary Action": [
+                "deploy"
+            ],
+            "Secondary Action": [
+                "create"
+            ]
+        },
+        "Entity": {
+            "Primary Entity": [
+                "artifact"
+            ],
+            "Secondary Entity": [
+                "app",
+                "dataset types",
+                "instances"
+            ]
+        },
+        "Benefit": "ensure that when I deploy an artifact without creating an app this will not create any dataset types or instances",
+        "Triggers": [
+            [
+                "app developer",
+                "deploy"
+            ],
+            [
+                "create",
+                "app"
+            ],
+            [
+                "create",
+                "dataset types"
+            ],
+            [
+                "create",
+                "instances"
+            ]
+        ],
+        "Targets": [
+            [
+                "deploy",
+                "artifact"
+            ],
+            [
+                "deploy",
+                "app"
+            ],
+            [
+                "deploy",
+                "dataset types"
+            ],
+            [
+                "deploy",
+                "instances"
+            ]
+        ]
+    },
+    {
+        "Text": "#G17# As a user, I want to remove a single property of a dataset instance without knowing all other properties.",
+        "Persona": [
+            "user"
+        ],
+        "Action": {
+            "Primary Action": [
+                "remove"
+            ],
+            "Secondary Action": []
+        },
+        "Entity": {
+            "Primary Entity": [
+                "dataset instance"
+            ],
+            "Secondary Entity": []
+        },
+        "Benefit": "I can remove a single property without knowing all other properties",
+        "Triggers": [
+            [
+                "user",
+                "remove"
+            ]
+        ],
+        "Targets": [
+            [
+                "remove",
+                "dataset instance"
+            ]
+        ]
+    },
+    {
+        "Text": "#G17# As a user, I want to trigger a migration process for a dataset if updating its properties requires that.",
+        "Persona": [
+            "user"
+        ],
+        "Action": {
+            "Primary Action": [
+                "trigger"
+            ],
+            "Secondary Action": [
+                "updating"
+            ]
+        },
+        "Entity": {
+            "Primary Entity": [
+                "migration process",
+                "dataset",
+                "properties"
+            ],
+            "Secondary Entity": []
+        },
+        "Benefit": "updating dataset properties requires migration process",
+        "Triggers": [
+            [
+                "user",
+                "trigger"
+            ]
+        ],
+        "Targets": [
+            [
+                "trigger",
+                "migration process"
+            ],
+            [
+                "trigger",
+                "dataset"
+            ],
+            [
+                "trigger",
+                "properties"
+            ]
+        ]
+    },
+    {
+        "Text": "#G17# As a user, I want to ensure that if reconfiguration of a dataset fails then no changes have taken effect, so that all steps required to reconfigure a dataset must be done as a single atomic action.",
+        "Persona": [
+            "user"
+        ],
+        "Action": {
+            "Primary Action": [
+                "ensure",
+                "fail",
+                "take effect",
+                "reconfigure",
+                "done",
+                "atomic action"
+            ],
+            "Secondary Action": []
+        },
+        "Entity": {
+            "Primary Entity": [
+                "reconfiguration of a dataset"
+            ],
+            "Secondary Entity": []
+        },
+        "Benefit": "all steps required to reconfigure a dataset must be done as a single atomic action",
+        "Triggers": [
+            [
+                "user",
+                "ensure"
+            ]
+        ],
+        "Targets": [
+            [
+                "ensure",
+                "reconfiguration of a dataset"
+            ]
+        ]
+    },
+    {
+        "Text": "#G17# As an app developer, I want to ensure that application creation fails if any of its datasets cannot be created.",
+        "Persona": [
+            "app developer"
+        ],
+        "Action": {
+            "Primary Action": [
+                "ensure",
+                "creation fails"
+            ],
+            "Secondary Action": [
+                "cannot be created"
+            ]
+        },
+        "Entity": {
+            "Primary Entity": [
+                "application",
+                "datasets"
+            ],
+            "Secondary Entity": []
+        },
+        "Benefit": "application creation fails if any of its datasets cannot be created",
+        "Triggers": [
+            [
+                "app developer",
+                "ensure"
+            ]
+        ],
+        "Targets": [
+            [
+                "ensure",
+                "application"
+            ],
+            [
+                "ensure",
+                "datasets"
+            ],
+            [
+                "creation fails",
+                "application"
+            ],
+            [
+                "creation fails",
+                "datasets"
+            ],
+            [
+                "cannot be created",
+                "datasets"
+            ]
+        ]
+    },
+    {
+        "Text": "#G17# As an app developer, I want to ensure that application redeployment fails if any of its datasets cannot be reconfigured.",
+        "Persona": [
+            "app developer"
+        ],
+        "Action": {
+            "Primary Action": [
+                "ensure"
+            ],
+            "Secondary Action": [
+                "redeployment fails",
+                "reconfigured"
+            ]
+        },
+        "Entity": {
+            "Primary Entity": [
+                "application"
+            ],
+            "Secondary Entity": [
+                "datasets"
+            ]
+        },
+        "Benefit": "application redeployment fails if any of its datasets cannot be reconfigured",
+        "Triggers": [
+            [
+                "app developer",
+                "ensure"
+            ]
+        ],
+        "Targets": [
+            [
+                "ensure",
+                "application"
+            ],
+            [
+                "ensure",
+                "datasets"
+            ]
+        ]
+    },
+    {
+        "Text": "#G17# As an app developer, I want to tolerate existing datasets if their properties are different but compatible when creating a dataset as part of app deployment.",
+        "Persona": [
+            "app developer"
+        ],
+        "Action": {
+            "Primary Action": [
+                "tolerate",
+                "creating"
+            ],
+            "Secondary Action": []
+        },
+        "Entity": {
+            "Primary Entity": [
+                "existing datasets",
+                "dataset",
+                "app deployment"
+            ],
+            "Secondary Entity": []
+        },
+        "Benefit": "tolerate existing datasets if their properties are different but compatible when creating a dataset as part of app deployment",
+        "Triggers": [
+            [
+                "app developer",
+                "tolerate"
+            ]
+        ],
+        "Targets": [
+            [
+                "tolerate",
+                "existing datasets"
+            ],
+            [
+                "tolerate",
+                "dataset"
+            ],
+            [
+                "creating",
+                "dataset"
+            ],
+            [
+                "creating",
+                "app deployment"
+            ]
+        ]
+    },
+    {
+        "Text": "#G17# As a pipeline designer, I want to get a meaningful error message when pipeline creation fails when I use an existing dataset as a sink or source, so that I know that the schema or any other property of the dataset is incompatible with what the pipeline requires.",
+        "Persona": [
+            "pipeline designer"
+        ],
+        "Action": {
+            "Primary Action": [
+                "get"
+            ],
+            "Secondary Action": [
+                "fail",
+                "use",
+                "know",
+                "require"
+            ]
+        },
+        "Entity": {
+            "Primary Entity": [
+                "pipeline creation"
+            ],
+            "Secondary Entity": [
+                "existing dataset"
+            ]
+        },
+        "Benefit": "I know that the schema or any other property of the dataset is incompatible with what the pipeline requires",
+        "Triggers": [
+            [
+                "pipeline designer",
+                "get"
+            ],
+            [
+                "pipeline designer",
+                "fail"
+            ],
+            [
+                "pipeline designer",
+                "use"
+            ],
+            [
+                "pipeline designer",
+                "know"
+            ],
+            [
+                "pipeline designer",
+                "require"
+            ]
+        ],
+        "Targets": [
+            [
+                "get",
+                "pipeline creation"
+            ],
+            [
+                "fail",
+                "pipeline creation"
+            ],
+            [
+                "use",
+                "existing dataset"
+            ],
+            [
+                "know",
+                "existing dataset"
+            ],
+            [
+                "require",
+                "pipeline creation"
+            ]
+        ]
+    },
+    {
+        "Text": "#G17# As a user, I want to specify as part of dataset configuration whether it is explorable.",
+        "Persona": [
+            "user"
+        ],
+        "Action": {
+            "Primary Action": [
+                "specify"
+            ],
+            "Secondary Action": []
+        },
+        "Entity": {
+            "Primary Entity": [
+                "dataset configuration"
+            ],
+            "Secondary Entity": []
+        },
+        "Benefit": "to determine if the dataset is explorable",
+        "Triggers": [
+            [
+                "user",
+                "specify"
+            ]
+        ],
+        "Targets": [
+            [
+                "specify",
+                "dataset configuration"
+            ]
+        ]
+    },
+    {
+        "Text": "#G17# As a user, I want to specify the explore schema separately.",
+        "Persona": [
+            "user"
+        ],
+        "Action": {
+            "Primary Action": [
+                "specify"
+            ],
+            "Secondary Action": []
+        },
+        "Entity": {
+            "Primary Entity": [
+                "explore schema"
+            ],
+            "Secondary Entity": []
+        },
+        "Benefit": "separately",
+        "Triggers": [
+            [
+                "user",
+                "specify"
+            ]
+        ],
+        "Targets": [
+            [
+                "specify",
+                "explore schema"
+            ]
+        ]
+    },
+    {
+        "Text": "#G17# As a user, I want to ensure that dataset creation fails if the dataset cannot be enabled for explore.",
+        "Persona": [
+            "user"
+        ],
+        "Action": {
+            "Primary Action": [
+                "ensure",
+                "creation fails",
+                "enable for explore"
+            ],
+            "Secondary Action": []
+        },
+        "Entity": {
+            "Primary Entity": [
+                "dataset"
+            ],
+            "Secondary Entity": []
+        },
+        "Benefit": "dataset creation fails if the dataset cannot be enabled for explore",
+        "Triggers": [
+            [
+                "user",
+                "ensure"
+            ]
+        ],
+        "Targets": [
+            [
+                "ensure",
+                "dataset"
+            ],
+            [
+                "creation fails",
+                "dataset"
+            ],
+            [
+                "enable for explore",
+                "dataset"
+            ]
+        ]
+    },
+    {
+        "Text": "#G17# As an app developer, I want to share a dataset type across multiple applications that include the dataset type's code in their artifacts.",
+        "Persona": [
+            "app developer"
+        ],
+        "Action": {
+            "Primary Action": [
+                "share"
+            ],
+            "Secondary Action": []
+        },
+        "Entity": {
+            "Primary Entity": [
+                "dataset type"
+            ],
+            "Secondary Entity": [
+                "multiple applications",
+                "artifacts"
+            ]
+        },
+        "Benefit": "include the dataset type's code in their artifacts",
+        "Triggers": [
+            [
+                "app developer",
+                "share"
+            ]
+        ],
+        "Targets": [
+            [
+                "share",
+                "dataset type"
+            ]
+        ]
+    },
+    {
+        "Text": "#G17# As a user, I want to ensure that dataset reconfiguration fails if the corresponding update of the explore table fails.",
+        "Persona": [
+            "user"
+        ],
+        "Action": {
+            "Primary Action": [
+                "ensure"
+            ],
+            "Secondary Action": [
+                "fails"
+            ]
+        },
+        "Entity": {
+            "Primary Entity": [
+                "dataset reconfiguration"
+            ],
+            "Secondary Entity": [
+                "explore table"
+            ]
+        },
+        "Benefit": "ensure that dataset reconfiguration fails if the corresponding update of the explore table fails",
+        "Triggers": [
+            [
+                "user",
+                "ensure"
+            ]
+        ],
+        "Targets": [
+            [
+                "ensure",
+                "dataset reconfiguration"
+            ],
+            [
+                "ensure",
+                "explore table"
+            ]
+        ]
+    },
+    {
+        "Text": "#G17# As a user, I want to ensure that a dataset operation fails if it fails to make its required changes to explore.",
+        "Persona": [
+            "user"
+        ],
+        "Action": {
+            "Primary Action": [
+                "ensure",
+                "fails",
+                "make required changes"
+            ],
+            "Secondary Action": [
+                "explore"
+            ]
+        },
+        "Entity": {
+            "Primary Entity": [
+                "dataset operation"
+            ],
+            "Secondary Entity": []
+        },
+        "Benefit": "ensure that a dataset operation fails if it fails to make its required changes to explore",
+        "Triggers": [
+            [
+                "user",
+                "ensure"
+            ]
+        ],
+        "Targets": [
+            [
+                "ensure",
+                "dataset operation"
+            ],
+            [
+                "fails",
+                "dataset operation"
+            ],
+            [
+                "make required changes",
+                "dataset operation"
+            ],
+            [
+                "explore",
+                "dataset operation"
+            ]
+        ]
+    },
+    {
+        "Text": "#G17# As a user, I want to ensure that an update of explore never leads to silent loss of data or data available for explore.",
+        "Persona": [
+            "user"
+        ],
+        "Action": {
+            "Primary Action": [
+                "ensure",
+                "update"
+            ],
+            "Secondary Action": [
+                "leads to",
+                "silent loss",
+                "data available"
+            ]
+        },
+        "Entity": {
+            "Primary Entity": [
+                "explore",
+                "data"
+            ],
+            "Secondary Entity": []
+        },
+        "Benefit": "never leads to silent loss of data or data available for explore",
+        "Triggers": [
+            [
+                "user",
+                "ensure"
+            ]
+        ],
+        "Targets": [
+            [
+                "ensure",
+                "explore"
+            ],
+            [
+                "ensure",
+                "data"
+            ],
+            [
+                "update",
+                "explore"
+            ],
+            [
+                "leads to",
+                "silent loss"
+            ],
+            [
+                "leads to",
+                "data available"
+            ]
+        ]
+    },
+    {
+        "Text": "#G17# As a user, I want to enable explore for a dataset that was not configured for explore initially.",
+        "Persona": [
+            "user"
+        ],
+        "Action": {
+            "Primary Action": [
+                "enable explore"
+            ],
+            "Secondary Action": []
+        },
+        "Entity": {
+            "Primary Entity": [
+                "dataset"
+            ],
+            "Secondary Entity": []
+        },
+        "Benefit": "explore a dataset that was not configured for explore initially",
+        "Triggers": [
+            [
+                "user",
+                "enable explore"
+            ]
+        ],
+        "Targets": [
+            [
+                "enable explore",
+                "dataset"
+            ]
+        ]
+    },
+    {
+        "Text": "#G17# As a user, I want to disable explore for a dataset that was configured for explore initially.",
+        "Persona": [
+            "user"
+        ],
+        "Action": {
+            "Primary Action": [
+                "disable"
+            ],
+            "Secondary Action": []
+        },
+        "Entity": {
+            "Primary Entity": [
+                "dataset"
+            ],
+            "Secondary Entity": []
+        },
+        "Benefit": "disable explore for a dataset that was configured for explore initially",
+        "Triggers": [
+            [
+                "user",
+                "disable"
+            ]
+        ],
+        "Targets": [
+            [
+                "disable",
+                "dataset"
+            ]
+        ]
+    },
+    {
+        "Text": "#G17# As an app developer, I want to ensure that when I deploy a new version of an app that includes a shared dataset type that all dataset instances created by this app start using the new code but all dataset instances created by other apps remain unchanged.",
+        "Persona": [
+            "app developer"
+        ],
+        "Action": {
+            "Primary Action": [
+                "deploy",
+                "start using"
+            ],
+            "Secondary Action": [
+                "remain unchanged"
+            ]
+        },
+        "Entity": {
+            "Primary Entity": [
+                "app",
+                "shared dataset type",
+                "dataset instances"
+            ],
+            "Secondary Entity": []
+        },
+        "Benefit": "ensure that all dataset instances created by this app start using the new code",
+        "Triggers": [
+            [
+                "app developer",
+                "deploy"
+            ],
+            [
+                "start using",
+                "shared dataset type"
+            ],
+            [
+                "remain unchanged",
+                "dataset instances"
+            ]
+        ],
+        "Targets": [
+            [
+                "deploy",
+                "shared dataset type"
+            ],
+            [
+                "deploy",
+                "dataset instances"
+            ]
+        ]
+    },
+    {
+        "Text": "#G17# As an app developer, I want to ensure that when I deploy a new version of an app that includes an older version of a dataset type deployed by another app and I expect that the dataset instances created by this app use the dataset type code included in this app.",
+        "Persona": [
+            "app developer"
+        ],
+        "Action": {
+            "Primary Action": [
+                "deploy",
+                "include",
+                "expect",
+                "use"
+            ],
+            "Secondary Action": []
+        },
+        "Entity": {
+            "Primary Entity": [
+                "app",
+                "dataset type",
+                "dataset instances"
+            ],
+            "Secondary Entity": []
+        },
+        "Benefit": "ensure that dataset instances use the correct dataset type code",
+        "Triggers": [
+            [
+                "app developer",
+                "deploy"
+            ],
+            [
+                "app",
+                "dataset type"
+            ],
+            [
+                "app",
+                "dataset instances"
+            ]
+        ],
+        "Targets": [
+            [
+                "deploy",
+                "app"
+            ],
+            [
+                "deploy",
+                "dataset type"
+            ],
+            [
+                "dataset type",
+                "dataset instances"
+            ]
+        ]
+    },
+    {
+        "Text": "#G17# As an app developer, I want to ensure that when I deploy a new version of an app that includes a different version of a dataset type deployed by another app and this app shares a dataset instance of this type with the other app the deployment will fail with a version conflict error.",
+        "Persona": [
+            "app developer"
+        ],
+        "Action": {
+            "Primary Action": [
+                "deploy",
+                "share"
+            ],
+            "Secondary Action": []
+        },
+        "Entity": {
+            "Primary Entity": [
+                "app",
+                "dataset type",
+                "another app",
+                "dataset instance"
+            ],
+            "Secondary Entity": []
+        },
+        "Benefit": "ensure deployment fails with version conflict error",
+        "Triggers": [
+            [
+                "app developer",
+                "deploy"
+            ]
+        ],
+        "Targets": [
+            [
+                "deploy",
+                "app"
+            ],
+            [
+                "deploy",
+                "dataset type"
+            ],
+            [
+                "deploy",
+                "another app"
+            ],
+            [
+                "deploy",
+                "dataset instance"
+            ],
+            [
+                "share",
+                "app"
+            ],
+            [
+                "share",
+                "dataset type"
+            ],
+            [
+                "share",
+                "another app"
+            ],
+            [
+                "share",
+                "dataset instance"
+            ]
+        ]
+    }
+]
