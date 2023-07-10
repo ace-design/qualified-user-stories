@@ -1,0 +1,367 @@
+[
+    {
+        "Text": "#G05# As a Data Publishing User, I want to be able to import data in Excel, So that I do not have to convert data formats in order to use the data packager.",
+        "Persona": [
+            "Data Publishing User"
+        ],
+        "Action": {
+            "Primary Action": [
+                "import"
+            ],
+            "Secondary Action": [
+                "use"
+            ]
+        },
+        "Entity": {
+            "Primary Entity": [
+                "data"
+            ],
+            "Secondary Entity": [
+                "Excel",
+                "data formats",
+                "data packager"
+            ]
+        },
+        "Triggers": [
+            [
+                "Data Publishing User",
+                "import"
+            ]
+        ],
+        "Targets": [
+            [
+                "import",
+                "data"
+            ]
+        ]
+    },
+    {
+        "Text": "#G05# As an API user, I want to be able to change the colors of the embedded visualisations in my own platform, So that I can customize the visualisations.",
+        "Persona": [
+            "API user"
+        ],
+        "Action": {
+            "Primary Action": [
+                "change"
+            ],
+            "Secondary Action": [
+                "customize"
+            ]
+        },
+        "Entity": {
+            "Primary Entity": [
+                "colors"
+            ],
+            "Secondary Entity": [
+                "embedded visualisations",
+                "own platform",
+                "visualisations"
+            ]
+        },
+        "Triggers": [
+            [
+                "API user",
+                "change"
+            ]
+        ],
+        "Targets": [
+            [
+                "change",
+                "colors"
+            ]
+        ]
+    },
+    {
+        "Text": "#G05# As a Data Consuming User, I want to be able to filter, sort and aggregate data by multiple dimensions and measures, So that I can get more granular views on the data.",
+        "Persona": [
+            "Data Consuming User"
+        ],
+        "Action": {
+            "Primary Action": [
+                "filter"
+            ],
+            "Secondary Action": [
+                "get"
+            ]
+        },
+        "Entity": {
+            "Primary Entity": [
+                ", sort"
+            ],
+            "Secondary Entity": [
+                "aggregate data",
+                "multiple dimensions",
+                "measures",
+                "more granular views",
+                "data"
+            ]
+        },
+        "Triggers": [
+            [
+                "Data Consuming User",
+                "filter"
+            ]
+        ],
+        "Targets": [
+            [
+                "filter",
+                ", sort"
+            ]
+        ]
+    },
+    {
+        "Text": "#G05# As a Data Consuming User, I want to be able to have stepped zoom on map visualisations, So that I can have better control over the navigation experience inside a map view.",
+        "Persona": [
+            "Data Consuming User"
+        ],
+        "Action": {
+            "Primary Action": [
+                "have"
+            ],
+            "Secondary Action": [
+                "have"
+            ]
+        },
+        "Entity": {
+            "Primary Entity": [
+                "stepped zoom"
+            ],
+            "Secondary Entity": [
+                "map visualisations",
+                "better control",
+                "navigation experience",
+                "map view"
+            ]
+        },
+        "Triggers": [
+            [
+                "Data Consuming User",
+                "have"
+            ]
+        ],
+        "Targets": [
+            [
+                "have",
+                "stepped zoom"
+            ]
+        ]
+    },
+    {
+        "Text": "#G05# As a Developer, I want to be able to customise the Brand Name and Icon, and Primary Color of all frontend Javascript apps, So that I can customise the branding for my own needs.",
+        "Persona": [
+            "Developer"
+        ],
+        "Action": {
+            "Primary Action": [
+                "customise"
+            ],
+            "Secondary Action": [
+                "customise"
+            ]
+        },
+        "Entity": {
+            "Primary Entity": [
+                "Brand Name"
+            ],
+            "Secondary Entity": [
+                "Icon",
+                "all frontend Javascript apps",
+                "branding",
+                "own needs"
+            ]
+        },
+        "Triggers": [
+            [
+                "Developer",
+                "customise"
+            ]
+        ],
+        "Targets": [
+            [
+                "customise",
+                "Brand Name"
+            ]
+        ]
+    },
+    {
+        "Text": "#G05# As a Data Publishing User, I want to be able to edit the data source of data I have already imported, So that I can fix bugs or make enhancements in the API built for my data.",
+        "Persona": [
+            "Data Publishing User"
+        ],
+        "Action": {
+            "Primary Action": [
+                "edit"
+            ],
+            "Secondary Action": [
+                "fix",
+                "make"
+            ]
+        },
+        "Entity": {
+            "Primary Entity": [
+                "data source"
+            ],
+            "Secondary Entity": [
+                "data I have already imported",
+                "bugs",
+                "enhancements",
+                "API",
+                "data"
+            ]
+        },
+        "Triggers": [
+            [
+                "Data Publishing User",
+                "edit"
+            ]
+        ],
+        "Targets": [
+            [
+                "edit",
+                "data source"
+            ]
+        ]
+    },
+    {
+        "Text": "#G05# As an API User, I want to be able to normalise measures by population, So that I work with datasets in reference to their contextual constraints.",
+        "Persona": [
+            "API User"
+        ],
+        "Action": {
+            "Primary Action": [
+                "normalise"
+            ],
+            "Secondary Action": [
+                "work"
+            ]
+        },
+        "Entity": {
+            "Primary Entity": [
+                "measures"
+            ],
+            "Secondary Entity": [
+                "population",
+                "datasets",
+                "contextual constraints"
+            ]
+        },
+        "Triggers": [
+            [
+                "API User",
+                "normalise"
+            ]
+        ],
+        "Targets": [
+            [
+                "normalise",
+                "measures"
+            ]
+        ]
+    },
+    {
+        "Text": "#G05# As a Data Consuming User, I want to be able to search any dataset published and publicly accessible by their title and metadata, So that I can find the datasets I'm interested in.",
+        "Persona": [
+            "Data Consuming User"
+        ],
+        "Action": {
+            "Primary Action": [
+                "search"
+            ],
+            "Secondary Action": [
+                "find"
+            ]
+        },
+        "Entity": {
+            "Primary Entity": [
+                "any dataset published"
+            ],
+            "Secondary Entity": [
+                "title",
+                "metadata",
+                "datasets",
+                "interested"
+            ]
+        },
+        "Triggers": [
+            [
+                "Data Consuming User",
+                "search"
+            ]
+        ],
+        "Targets": [
+            [
+                "search",
+                "any dataset published"
+            ]
+        ]
+    },
+    {
+        "Text": "#G05# As a Data Consuming User, I want to visualize by default in treemap, bubble tree, map and pivot table the most recent year when my dataset contain multiple years, So that I'm not confused with the amounts.",
+        "Persona": [
+            "Data Consuming User"
+        ],
+        "Action": {
+            "Primary Action": [
+                "visualize"
+            ],
+            "Secondary Action": [
+                "contain"
+            ]
+        },
+        "Entity": {
+            "Primary Entity": [
+                "by default"
+            ],
+            "Secondary Entity": [
+                "treemap, bubble tree",
+                "map",
+                "pivot table",
+                "recent year",
+                "dataset",
+                "multiple years",
+                "amounts"
+            ]
+        },
+        "Triggers": [
+            [
+                "Data Consuming User",
+                "visualize"
+            ]
+        ],
+        "Targets": [
+            [
+                "visualize",
+                "by default"
+            ]
+        ]
+    },
+    {
+        "Text": "#G05# As a Data Publishing User, I want to know if my CSV file is valid, So that I can fix possible data issues before publishing it on Open Spending.",
+        "Persona": [
+            "Data Publishing User"
+        ],
+        "Action": {
+            "Primary Action": [
+                "know"
+            ],
+            "Secondary Action": [
+                "fix"
+            ]
+        },
+        "Entity": {
+            "Primary Entity": [],
+            "Secondary Entity": [
+                "CSV file",
+                "possible data issues",
+                "Open Spending"
+            ]
+        },
+        "Triggers": [
+            [
+                "Data Publishing User",
+                "know"
+            ]
+        ],
+        "Targets": []
+    }
+]

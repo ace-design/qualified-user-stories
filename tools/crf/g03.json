@@ -1,0 +1,410 @@
+[
+    {
+        "Text": "#G03# As a Plan Review Staff member, I want to Track the Completion of Required Plan Reviews, so that I can ensure all plan review tasks are completed, results have been sent to the Applicant and any downstream steps are initiated such has a final review or payment for permit issuance.",
+        "Persona": [
+            "Plan Review Staff member"
+        ],
+        "Action": {
+            "Primary Action": [
+                "Track"
+            ],
+            "Secondary Action": [
+                "ensure"
+            ]
+        },
+        "Entity": {
+            "Primary Entity": [
+                "Completion"
+            ],
+            "Secondary Entity": [
+                "Plan Reviews",
+                "plan review tasks",
+                "results",
+                "Applicant",
+                "downstream steps",
+                "final review",
+                "payment",
+                "permit issuance"
+            ]
+        },
+        "Triggers": [
+            [
+                "Plan Review Staff member",
+                "Track"
+            ]
+        ],
+        "Targets": [
+            [
+                "Track",
+                "Completion"
+            ]
+        ]
+    },
+    {
+        "Text": "#G03# As an Applicant, I want to Complete Building Development Project, so that I can receive any posted bond and/or obtain occupancy.",
+        "Persona": [
+            "Applicant"
+        ],
+        "Action": {
+            "Primary Action": [
+                "Complete"
+            ],
+            "Secondary Action": [
+                "receive",
+                "obtain"
+            ]
+        },
+        "Entity": {
+            "Primary Entity": [
+                "Building Development Project"
+            ],
+            "Secondary Entity": [
+                "posted bond",
+                "occupancy"
+            ]
+        },
+        "Triggers": [
+            [
+                "Applicant",
+                "Complete"
+            ]
+        ],
+        "Targets": [
+            [
+                "Complete",
+                "Building Development Project"
+            ]
+        ]
+    },
+    {
+        "Text": "#G03# As a Zoning Staff member, I want to Process the Requests for Zoning Information, so that I can capture my response to the request in the system and also send a communication from the system to the Applicant.",
+        "Persona": [
+            "Zoning Staff member"
+        ],
+        "Action": {
+            "Primary Action": [
+                "Process"
+            ],
+            "Secondary Action": [
+                "capture",
+                "send"
+            ]
+        },
+        "Entity": {
+            "Primary Entity": [
+                "Requests"
+            ],
+            "Secondary Entity": [
+                "Zoning Information",
+                "response",
+                "request",
+                "system",
+                "communication",
+                "system",
+                "Applicant"
+            ]
+        },
+        "Triggers": [
+            [
+                "Zoning Staff member",
+                "Process"
+            ]
+        ],
+        "Targets": [
+            [
+                "Process",
+                "Requests"
+            ]
+        ]
+    },
+    {
+        "Text": "#G03# As a Customer, I want to Create a Customer Portal User Account, so that I can log on to the Customer Portal and perform transactions that first require user authentication.",
+        "Persona": [
+            "Customer"
+        ],
+        "Action": {
+            "Primary Action": [
+                "Create"
+            ],
+            "Secondary Action": [
+                "log",
+                "perform",
+                "require"
+            ]
+        },
+        "Entity": {
+            "Primary Entity": [
+                "Customer Portal User Account"
+            ],
+            "Secondary Entity": [
+                "Customer Portal",
+                "transactions",
+                "user authentication"
+            ]
+        },
+        "Triggers": [
+            [
+                "Customer",
+                "Create"
+            ]
+        ],
+        "Targets": [
+            [
+                "Create",
+                "Customer Portal User Account"
+            ]
+        ]
+    },
+    {
+        "Text": "#G03# As an Inspection Supervisor, I want to Manage Inspector Workload, so that I can meet service level and quality requirements.",
+        "Persona": [
+            "Inspection Supervisor"
+        ],
+        "Action": {
+            "Primary Action": [
+                "Manage"
+            ],
+            "Secondary Action": [
+                "meet"
+            ]
+        },
+        "Entity": {
+            "Primary Entity": [
+                "Inspector Workload"
+            ],
+            "Secondary Entity": [
+                "service level",
+                "quality requirements"
+            ]
+        },
+        "Triggers": [
+            [
+                "Inspection Supervisor",
+                "Manage"
+            ]
+        ],
+        "Targets": [
+            [
+                "Manage",
+                "Inspector Workload"
+            ]
+        ]
+    },
+    {
+        "Text": "#G03# As a Planning Staff member, I want to Evaluate Consistency with the Comprehensive Plan, so that I can complete my required review of a plan set and/or application.",
+        "Persona": [
+            "Planning Staff member"
+        ],
+        "Action": {
+            "Primary Action": [
+                "Evaluate"
+            ],
+            "Secondary Action": [
+                "complete"
+            ]
+        },
+        "Entity": {
+            "Primary Entity": [
+                "Consistency"
+            ],
+            "Secondary Entity": [
+                "Comprehensive Plan",
+                "required review",
+                "plan set",
+                "application"
+            ]
+        },
+        "Triggers": [
+            [
+                "Planning Staff member",
+                "Evaluate"
+            ]
+        ],
+        "Targets": [
+            [
+                "Evaluate",
+                "Consistency"
+            ]
+        ]
+    },
+    {
+        "Text": "#G03# As a Staff member, I want to Perform a Completeness Review, so that I can validate when an application is complete and eligible for further technical review.",
+        "Persona": [
+            "Staff member"
+        ],
+        "Action": {
+            "Primary Action": [
+                "Perform"
+            ],
+            "Secondary Action": [
+                "validate"
+            ]
+        },
+        "Entity": {
+            "Primary Entity": [
+                "Completeness Review"
+            ],
+            "Secondary Entity": [
+                "application is complete",
+                "further technical review"
+            ]
+        },
+        "Triggers": [
+            [
+                "Staff member",
+                "Perform"
+            ]
+        ],
+        "Targets": [
+            [
+                "Perform",
+                "Completeness Review"
+            ]
+        ]
+    },
+    {
+        "Text": "#G03# As a Staff member, I want to Manage Affidavits, so that I can ensure compliance with the requirements prior to the hearing.",
+        "Persona": [
+            "Staff member"
+        ],
+        "Action": {
+            "Primary Action": [
+                "Manage"
+            ],
+            "Secondary Action": [
+                "ensure"
+            ]
+        },
+        "Entity": {
+            "Primary Entity": [
+                "Affidavits"
+            ],
+            "Secondary Entity": [
+                "compliance",
+                "requirements",
+                "hearing"
+            ]
+        },
+        "Triggers": [
+            [
+                "Staff member",
+                "Manage"
+            ]
+        ],
+        "Targets": [
+            [
+                "Manage",
+                "Affidavits"
+            ]
+        ]
+    },
+    {
+        "Text": "#G03# As a Staff member, I want to Record an Internal Note, so that I can share information with other Staff collaborating on the record.",
+        "Persona": [
+            "Staff member"
+        ],
+        "Action": {
+            "Primary Action": [
+                "Record"
+            ],
+            "Secondary Action": [
+                "share"
+            ]
+        },
+        "Entity": {
+            "Primary Entity": [
+                "Internal Note"
+            ],
+            "Secondary Entity": [
+                "information",
+                "other Staff",
+                "record"
+            ]
+        },
+        "Triggers": [
+            [
+                "Staff member",
+                "Record"
+            ]
+        ],
+        "Targets": [
+            [
+                "Record",
+                "Internal Note"
+            ]
+        ]
+    },
+    {
+        "Text": "#G03# As an Applicant, I want to Pay Fee, so that I can satisfy outstanding charge associated with the service requested or received from the County.",
+        "Persona": [
+            "Applicant"
+        ],
+        "Action": {
+            "Primary Action": [
+                "Pay"
+            ],
+            "Secondary Action": [
+                "satisfy",
+                "received"
+            ]
+        },
+        "Entity": {
+            "Primary Entity": [
+                "Fee"
+            ],
+            "Secondary Entity": [
+                "outstanding charge",
+                "service",
+                "County"
+            ]
+        },
+        "Triggers": [
+            [
+                "Applicant",
+                "Pay"
+            ]
+        ],
+        "Targets": [
+            [
+                "Pay",
+                "Fee"
+            ]
+        ]
+    },
+    {
+        "Text": "#G03# As a Plan Review Staff member, I want to Assign Plans for Review, so that I can ensure plans have been assigned to the appropriate Plan Reviewer.",
+        "Persona": [
+            "Plan Review Staff member"
+        ],
+        "Action": {
+            "Primary Action": [
+                "Assign"
+            ],
+            "Secondary Action": [
+                "ensure",
+                "assigned"
+            ]
+        },
+        "Entity": {
+            "Primary Entity": [
+                "Plans for Review"
+            ],
+            "Secondary Entity": [
+                "plans",
+                "appropriate Plan Reviewer"
+            ]
+        },
+        "Triggers": [
+            [
+                "Plan Review Staff member",
+                "Assign"
+            ]
+        ],
+        "Targets": [
+            [
+                "Assign",
+                "Plans for Review"
+            ]
+        ]
+    }
+]

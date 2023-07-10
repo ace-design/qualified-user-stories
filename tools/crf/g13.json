@@ -1,0 +1,330 @@
+[
+    {
+        "Text": "#G13# As a moderator, I want to enter the agreed-upon estimate, so that we can move on to the next item when we agree.",
+        "Persona": [
+            "moderator"
+        ],
+        "Action": {
+            "Primary Action": [
+                "enter"
+            ],
+            "Secondary Action": [
+                "move"
+            ]
+        },
+        "Entity": {
+            "Primary Entity": [
+                "agreed-upon estimate"
+            ],
+            "Secondary Entity": [
+                "next item"
+            ]
+        },
+        "Triggers": [
+            [
+                "moderator",
+                "enter"
+            ]
+        ],
+        "Targets": [
+            [
+                "enter",
+                "agreed-upon estimate"
+            ]
+        ]
+    },
+    {
+        "Text": "#G13# As a Mike, I want to be able to see some metrics on use of the game, so that I can see how much it is being used.",
+        "Persona": [
+            "Mike"
+        ],
+        "Action": {
+            "Primary Action": [
+                "be"
+            ],
+            "Secondary Action": [
+                "see"
+            ]
+        },
+        "Entity": {
+            "Primary Entity": [
+                "able to see some metrics on use"
+            ],
+            "Secondary Entity": [
+                "game"
+            ]
+        },
+        "Triggers": [
+            [
+                "Mike",
+                "be"
+            ]
+        ],
+        "Targets": [
+            [
+                "be",
+                "able to see some metrics on use"
+            ]
+        ]
+    },
+    {
+        "Text": "#G13# As a moderator, I want to copy/paste stories from a spreadsheet, so that I can get started more quickly.",
+        "Persona": [
+            "moderator"
+        ],
+        "Action": {
+            "Primary Action": [
+                "copy"
+            ],
+            "Secondary Action": [
+                "get",
+                "started more quickly"
+            ]
+        },
+        "Entity": {
+            "Primary Entity": [
+                "/paste stories"
+            ],
+            "Secondary Entity": [
+                "spreadsheet"
+            ]
+        },
+        "Triggers": [
+            [
+                "moderator",
+                "copy"
+            ]
+        ],
+        "Targets": [
+            [
+                "copy",
+                "/paste stories"
+            ]
+        ]
+    },
+    {
+        "Text": "#G13# As a participant, I want to be able to change my estimate up until the last person selects a card and all are shown, so that I can change my mind based on information I hear.",
+        "Persona": [
+            "participant"
+        ],
+        "Action": {
+            "Primary Action": [],
+            "Secondary Action": [
+                "change",
+                "hear"
+            ]
+        },
+        "Entity": {
+            "Primary Entity": [],
+            "Secondary Entity": [
+                "estimate",
+                "last person",
+                "card",
+                "mind based on information"
+            ]
+        },
+        "Triggers": [],
+        "Targets": []
+    },
+    {
+        "Text": "#G13# As a user, I want to be able to use Unicode, so that I can use any language I like.",
+        "Persona": [
+            "user"
+        ],
+        "Action": {
+            "Primary Action": [],
+            "Secondary Action": [
+                "use",
+                "like"
+            ]
+        },
+        "Entity": {
+            "Primary Entity": [],
+            "Secondary Entity": [
+                "language"
+            ]
+        },
+        "Triggers": [],
+        "Targets": []
+    },
+    {
+        "Text": "#G13# As a user, I want to see sensible and predictable URLs, so that the application feels logical and transparent.",
+        "Persona": [
+            "user"
+        ],
+        "Action": {
+            "Primary Action": [
+                "see"
+            ],
+            "Secondary Action": [
+                "feels logical"
+            ]
+        },
+        "Entity": {
+            "Primary Entity": [
+                "sensible and predictable URLs"
+            ],
+            "Secondary Entity": [
+                "application"
+            ]
+        },
+        "Triggers": [
+            [
+                "user",
+                "see"
+            ]
+        ],
+        "Targets": [
+            [
+                "see",
+                "sensible and predictable URLs"
+            ]
+        ]
+    },
+    {
+        "Text": "#G13# As a moderator, I want to delete my account, so that account information and games are no longer stored.",
+        "Persona": [
+            "moderator"
+        ],
+        "Action": {
+            "Primary Action": [
+                "delete"
+            ],
+            "Secondary Action": [
+                "no longer stored"
+            ]
+        },
+        "Entity": {
+            "Primary Entity": [
+                "account"
+            ],
+            "Secondary Entity": [
+                "account information",
+                "games"
+            ]
+        },
+        "Triggers": [
+            [
+                "moderator",
+                "delete"
+            ]
+        ],
+        "Targets": [
+            [
+                "delete",
+                "account"
+            ]
+        ]
+    },
+    {
+        "Text": "#G13# As a moderator, I want to export a transcript of a game as a CSV file, so that I can further process the stories and estimates.",
+        "Persona": [
+            "moderator"
+        ],
+        "Action": {
+            "Primary Action": [
+                "export"
+            ],
+            "Secondary Action": [
+                "further process"
+            ]
+        },
+        "Entity": {
+            "Primary Entity": [
+                "transcript"
+            ],
+            "Secondary Entity": [
+                "game",
+                "CSV file",
+                "stories",
+                "estimates"
+            ]
+        },
+        "Triggers": [
+            [
+                "moderator",
+                "export"
+            ]
+        ],
+        "Targets": [
+            [
+                "export",
+                "transcript"
+            ]
+        ]
+    },
+    {
+        "Text": "#G13# As a developer, I want to have a list of definitions for commonly used terms, so that everyone working on the project can understand each other more easily.",
+        "Persona": [
+            "developer"
+        ],
+        "Action": {
+            "Primary Action": [
+                "have"
+            ],
+            "Secondary Action": [
+                "working on",
+                "understand"
+            ]
+        },
+        "Entity": {
+            "Primary Entity": [
+                "list"
+            ],
+            "Secondary Entity": [
+                "definitions for commonly used terms",
+                "project"
+            ]
+        },
+        "Triggers": [
+            [
+                "developer",
+                "have"
+            ]
+        ],
+        "Targets": [
+            [
+                "have",
+                "list"
+            ]
+        ]
+    },
+    {
+        "Text": "#G13# As a moderator, I want to add an item to the list of items to be estimated, so that so that we can be flexible and accommodate situations where we think of a new story while playing.",
+        "Persona": [
+            "moderator"
+        ],
+        "Action": {
+            "Primary Action": [
+                "add"
+            ],
+            "Secondary Action": [
+                "think",
+                "playing"
+            ]
+        },
+        "Entity": {
+            "Primary Entity": [
+                "item"
+            ],
+            "Secondary Entity": [
+                "list",
+                "items",
+                "accommodate situations",
+                "new story"
+            ]
+        },
+        "Triggers": [
+            [
+                "moderator",
+                "add"
+            ]
+        ],
+        "Targets": [
+            [
+                "add",
+                "item"
+            ]
+        ]
+    }
+]

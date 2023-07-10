@@ -1,0 +1,864 @@
+[
+    {
+        "Text": "#G27# As a researcher, I want to receive updates when new works are published in a given collection or by a given author, so that I can discover more of their work.",
+        "Persona": [
+            "researcher"
+        ],
+        "Action": {
+            "Primary Action": [
+                "receive"
+            ],
+            "Secondary Action": [
+                "published",
+                "discover"
+            ]
+        },
+        "Entity": {
+            "Primary Entity": [
+                "updates when new works"
+            ],
+            "Secondary Entity": [
+                "given collection",
+                "given author",
+                "more of their work"
+            ]
+        },
+        "Triggers": [
+            [
+                "researcher",
+                "receive"
+            ]
+        ],
+        "Targets": [
+            [
+                "receive",
+                "updates when new works"
+            ]
+        ]
+    },
+    {
+        "Text": "#G27# As a library staff member, I want to be able to tell the researchers I'm helping with DMPs that Cornell has a repository system I can use for archiving and sharing results of their research, so that I can easily meet the needs of funder DMP requirements.",
+        "Persona": [
+            "library staff member"
+        ],
+        "Action": {
+            "Primary Action": [
+                "tell"
+            ],
+            "Secondary Action": [
+                "helping",
+                "use",
+                "archiving",
+                "sharing",
+                "easily meet"
+            ]
+        },
+        "Entity": {
+            "Primary Entity": [],
+            "Secondary Entity": [
+                "researchers",
+                "DMPs",
+                "Cornell",
+                "repository system",
+                "results",
+                "research",
+                "needs",
+                "funder DMP requirements"
+            ]
+        },
+        "Triggers": [
+            [
+                "library staff member",
+                "tell"
+            ]
+        ],
+        "Targets": []
+    },
+    {
+        "Text": "#G27# As a researcher, I want to discover items in the repository through the library's discovery system and Google, so that I can facilitate my easy use of the content.",
+        "Persona": [
+            "researcher"
+        ],
+        "Action": {
+            "Primary Action": [
+                "discover"
+            ],
+            "Secondary Action": [
+                "facilitate"
+            ]
+        },
+        "Entity": {
+            "Primary Entity": [
+                "items"
+            ],
+            "Secondary Entity": [
+                "repository",
+                "library",
+                "discovery system",
+                "Google",
+                "easy use",
+                "content"
+            ]
+        },
+        "Triggers": [
+            [
+                "researcher",
+                "discover"
+            ]
+        ],
+        "Targets": [
+            [
+                "discover",
+                "items"
+            ]
+        ]
+    },
+    {
+        "Text": "#G27# As a library staff member, I want to make digital items held in trusted external system searchable within our system, so that I can provide seamless access to disparate collections.",
+        "Persona": [
+            "library staff member"
+        ],
+        "Action": {
+            "Primary Action": [
+                "make"
+            ],
+            "Secondary Action": [
+                "held",
+                "provide"
+            ]
+        },
+        "Entity": {
+            "Primary Entity": [
+                "digital items"
+            ],
+            "Secondary Entity": [
+                "in trusted external system searchable within our system",
+                "seamless access",
+                "disparate collections"
+            ]
+        },
+        "Triggers": [
+            [
+                "library staff member",
+                "make"
+            ]
+        ],
+        "Targets": [
+            [
+                "make",
+                "digital items"
+            ]
+        ]
+    },
+    {
+        "Text": "#G27# As a DB/IR administrator, I want to manage report/dataset name changes so patrons are able to find historic reports that have a different name from current report.",
+        "Persona": [
+            "DB/IR administrator"
+        ],
+        "Action": {
+            "Primary Action": [
+                "manage"
+            ],
+            "Secondary Action": [
+                "find"
+            ]
+        },
+        "Entity": {
+            "Primary Entity": [
+                "report"
+            ],
+            "Secondary Entity": [
+                "dataset name changes",
+                "patrons",
+                "historic reports",
+                "different name",
+                "current report"
+            ]
+        },
+        "Triggers": [
+            [
+                "DB/IR administrator",
+                "manage"
+            ]
+        ],
+        "Targets": [
+            [
+                "manage",
+                "report"
+            ]
+        ]
+    },
+    {
+        "Text": "#G27# As a Cornell faculty member, I want to upload data to the repository and associate it with a publication, so that I receive attribution for my data as well as my publications.",
+        "Persona": [
+            "Cornell faculty member"
+        ],
+        "Action": {
+            "Primary Action": [
+                "upload",
+                "associate"
+            ],
+            "Secondary Action": [
+                "receive"
+            ]
+        },
+        "Entity": {
+            "Primary Entity": [
+                "data"
+            ],
+            "Secondary Entity": [
+                "repository",
+                "publication",
+                "attribution",
+                "data",
+                "publications"
+            ]
+        },
+        "Triggers": [
+            [
+                "Cornell faculty member",
+                "upload"
+            ],
+            [
+                "Cornell faculty member",
+                "associate"
+            ]
+        ],
+        "Targets": [
+            [
+                "upload",
+                "data"
+            ],
+            [
+                "associate",
+                "data"
+            ]
+        ]
+    },
+    {
+        "Text": "#G27# As a library staff member, I want to have customizable metadata fields, so that each project is described in the most accurate way possible.",
+        "Persona": [
+            "library staff member"
+        ],
+        "Action": {
+            "Primary Action": [
+                "have"
+            ],
+            "Secondary Action": [
+                "described"
+            ]
+        },
+        "Entity": {
+            "Primary Entity": [
+                "customizable metadata fields"
+            ],
+            "Secondary Entity": [
+                "project"
+            ]
+        },
+        "Triggers": [
+            [
+                "library staff member",
+                "have"
+            ]
+        ],
+        "Targets": [
+            [
+                "have",
+                "customizable metadata fields"
+            ]
+        ]
+    },
+    {
+        "Text": "#G27# As a DB/IR administrator, I want to have a personal account with the ability to change passwords to make them more secure or to retrieve forgotten ones.",
+        "Persona": [
+            "DB/IR administrator"
+        ],
+        "Action": {
+            "Primary Action": [
+                "have"
+            ],
+            "Secondary Action": [
+                "change",
+                "make",
+                "retrieve"
+            ]
+        },
+        "Entity": {
+            "Primary Entity": [
+                "personal account"
+            ],
+            "Secondary Entity": [
+                "ability",
+                "passwords",
+                "forgotten ones"
+            ]
+        },
+        "Triggers": [
+            [
+                "DB/IR administrator",
+                "have"
+            ]
+        ],
+        "Targets": [
+            [
+                "have",
+                "personal account"
+            ]
+        ]
+    },
+    {
+        "Text": "#G27# As a Cornell faculty member, I want to easily find all the items in the repository that I have authored, by searching on my name (author name authority and/or identification issue), because I keeps my publications in the repository up-to-date and points people tithe repository.",
+        "Persona": [
+            "Cornell faculty member"
+        ],
+        "Action": {
+            "Primary Action": [
+                "easily find"
+            ],
+            "Secondary Action": [
+                "searching"
+            ]
+        },
+        "Entity": {
+            "Primary Entity": [
+                "items"
+            ],
+            "Secondary Entity": [
+                "repository",
+                "name",
+                "author name authority",
+                "identification issue",
+                "publications",
+                "repository",
+                "-date",
+                "points people tithe repository"
+            ]
+        },
+        "Triggers": [
+            [
+                "Cornell faculty member",
+                "easily find"
+            ]
+        ],
+        "Targets": [
+            [
+                "easily find",
+                "items"
+            ]
+        ]
+    },
+    {
+        "Text": "#G27# As a Cornell faculty member, I want to login remotely to the repository using Shibboleth, so that I can get remote access to Cornell campus-only content.",
+        "Persona": [
+            "Cornell faculty member"
+        ],
+        "Action": {
+            "Primary Action": [
+                "login"
+            ],
+            "Secondary Action": [
+                "using",
+                "get"
+            ]
+        },
+        "Entity": {
+            "Primary Entity": [],
+            "Secondary Entity": [
+                "repository",
+                "Shibboleth",
+                "remote access",
+                "Cornell campus",
+                "content"
+            ]
+        },
+        "Triggers": [
+            [
+                "Cornell faculty member",
+                "login"
+            ]
+        ],
+        "Targets": []
+    },
+    {
+        "Text": "#G27# As an asset manager, I want to have mechanism to pass ownership/management of the assets to a successor.",
+        "Persona": [
+            "asset manager"
+        ],
+        "Action": {
+            "Primary Action": [
+                "have"
+            ],
+            "Secondary Action": [
+                "pass"
+            ]
+        },
+        "Entity": {
+            "Primary Entity": [
+                "mechanism",
+                "management"
+            ],
+            "Secondary Entity": [
+                "ownership",
+                "assets",
+                "successor"
+            ]
+        },
+        "Triggers": [
+            [
+                "asset manager",
+                "have"
+            ]
+        ],
+        "Targets": [
+            [
+                "have",
+                "mechanism"
+            ],
+            [
+                "have",
+                "management"
+            ]
+        ]
+    },
+    {
+        "Text": "#G27# As an Extension Educator, I want to have a place to store a variety of documents, presentations and data sets I've created, that doesn't require an extra step in making available on my own County/Region/Project site (i.e. a list or directory of materials there is automatically updated when placed in a central archive/repository).",
+        "Persona": [
+            "Extension Educator"
+        ],
+        "Action": {
+            "Primary Action": [
+                "have"
+            ],
+            "Secondary Action": [
+                "store",
+                "created",
+                "require",
+                "making",
+                "placed"
+            ]
+        },
+        "Entity": {
+            "Primary Entity": [
+                "place"
+            ],
+            "Secondary Entity": [
+                "variety",
+                "documents",
+                "presentations",
+                "data sets",
+                "extra step",
+                "available",
+                "own County",
+                "Project site",
+                "list",
+                "directory",
+                "materials",
+                "central archive",
+                "repository"
+            ]
+        },
+        "Triggers": [
+            [
+                "Extension Educator",
+                "have"
+            ]
+        ],
+        "Targets": [
+            [
+                "have",
+                "place"
+            ]
+        ]
+    },
+    {
+        "Text": "#G27# As a student, I want to learn who at Cornell has or is engaged in research related to a particular topic, so that I can find an appropriate advisor, choose which courses to enroll in, and identify work/internship opportunities.",
+        "Persona": [
+            "student"
+        ],
+        "Action": {
+            "Primary Action": [
+                "learn"
+            ],
+            "Secondary Action": [
+                "engaged",
+                "find",
+                "enroll",
+                "identify"
+            ]
+        },
+        "Entity": {
+            "Primary Entity": [],
+            "Secondary Entity": [
+                "Cornell",
+                "research",
+                "particular topic",
+                "appropriate advisor",
+                "courses",
+                "work",
+                "internship opportunities"
+            ]
+        },
+        "Triggers": [
+            [
+                "student",
+                "learn"
+            ]
+        ],
+        "Targets": []
+    },
+    {
+        "Text": "#G27# As a repository support team member, I want to move a collection, so that I can fulfill the collection owner's request.",
+        "Persona": [
+            "repository support team member"
+        ],
+        "Action": {
+            "Primary Action": [
+                "move"
+            ],
+            "Secondary Action": [
+                "fulfill"
+            ]
+        },
+        "Entity": {
+            "Primary Entity": [
+                "collection"
+            ],
+            "Secondary Entity": [
+                "collection owner's request"
+            ]
+        },
+        "Triggers": [
+            [
+                "repository support team member",
+                "move"
+            ]
+        ],
+        "Targets": [
+            [
+                "move",
+                "collection"
+            ]
+        ]
+    },
+    {
+        "Text": "#G27# As a DB/IR administrator, I want to manage customizable relationship groups in support of patron see also option.",
+        "Persona": [
+            "DB/IR administrator"
+        ],
+        "Action": {
+            "Primary Action": [
+                "manage"
+            ],
+            "Secondary Action": []
+        },
+        "Entity": {
+            "Primary Entity": [
+                "customizable relationship groups"
+            ],
+            "Secondary Entity": [
+                "support",
+                "patron see also option"
+            ]
+        },
+        "Triggers": [
+            [
+                "DB/IR administrator",
+                "manage"
+            ]
+        ],
+        "Targets": [
+            [
+                "manage",
+                "customizable relationship groups"
+            ]
+        ]
+    },
+    {
+        "Text": "#G27# As a patron, I want to email system provider to report issues and ask questions.",
+        "Persona": [
+            "patron"
+        ],
+        "Action": {
+            "Primary Action": [
+                "email"
+            ],
+            "Secondary Action": [
+                "report",
+                "ask"
+            ]
+        },
+        "Entity": {
+            "Primary Entity": [
+                "system provider"
+            ],
+            "Secondary Entity": [
+                "issues",
+                "questions"
+            ]
+        },
+        "Triggers": [
+            [
+                "patron",
+                "email"
+            ]
+        ],
+        "Targets": [
+            [
+                "email",
+                "system provider"
+            ]
+        ]
+    },
+    {
+        "Text": "#G27# As an asset manager, I want to be assured that there is a formal plan for the disposition of assets if the IR should cease.",
+        "Persona": [
+            "asset manager"
+        ],
+        "Action": {
+            "Primary Action": [
+                "be",
+                "assured"
+            ],
+            "Secondary Action": [
+                "cease"
+            ]
+        },
+        "Entity": {
+            "Primary Entity": [],
+            "Secondary Entity": [
+                "formal plan",
+                "disposition",
+                "assets",
+                "IR"
+            ]
+        },
+        "Triggers": [
+            [
+                "asset manager",
+                "be"
+            ],
+            [
+                "asset manager",
+                "assured"
+            ]
+        ],
+        "Targets": []
+    },
+    {
+        "Text": "#G27# As a Cornell faculty member, I want to create a collection for my documents, or my organization's documents, and apply some distinctive branding to that collection, so that I can promote my work, or that of my organization.",
+        "Persona": [
+            "Cornell faculty member"
+        ],
+        "Action": {
+            "Primary Action": [
+                "create",
+                "apply"
+            ],
+            "Secondary Action": [
+                "promote"
+            ]
+        },
+        "Entity": {
+            "Primary Entity": [
+                "collection",
+                "distinctive branding"
+            ],
+            "Secondary Entity": [
+                "documents",
+                "organization",
+                "documents",
+                "collection",
+                "work",
+                "organization"
+            ]
+        },
+        "Triggers": [
+            [
+                "Cornell faculty member",
+                "create"
+            ],
+            [
+                "Cornell faculty member",
+                "apply"
+            ]
+        ],
+        "Targets": [
+            [
+                "create",
+                "collection"
+            ],
+            [
+                "apply",
+                "collection"
+            ],
+            [
+                "create",
+                "distinctive branding"
+            ],
+            [
+                "apply",
+                "distinctive branding"
+            ]
+        ]
+    },
+    {
+        "Text": "#G27# As an asset manager, I want to be assured that the redundant copies are continuously monitored for unwanted changes, and that if/when changes do occur, there is a mechanism by which I can determine the original object and restore it to all copies.",
+        "Persona": [
+            "asset manager"
+        ],
+        "Action": {
+            "Primary Action": [
+                "be",
+                "assured"
+            ],
+            "Secondary Action": [
+                "occur",
+                "determine",
+                "restore"
+            ]
+        },
+        "Entity": {
+            "Primary Entity": [
+                "mechanism"
+            ],
+            "Secondary Entity": [
+                "copies",
+                "unwanted changes",
+                "changes",
+                "original object",
+                "copies"
+            ]
+        },
+        "Triggers": [
+            [
+                "asset manager",
+                "be"
+            ],
+            [
+                "asset manager",
+                "assured"
+            ]
+        ],
+        "Targets": [
+            [
+                "be",
+                "mechanism"
+            ],
+            [
+                "assured",
+                "mechanism"
+            ]
+        ]
+    },
+    {
+        "Text": "#G27# As a DB/IR administrator, I want to upload new version of report/dataset while retaining previous versions for patron use.",
+        "Persona": [
+            "DB/IR administrator"
+        ],
+        "Action": {
+            "Primary Action": [
+                "upload"
+            ],
+            "Secondary Action": [
+                "retaining"
+            ]
+        },
+        "Entity": {
+            "Primary Entity": [
+                "new version"
+            ],
+            "Secondary Entity": [
+                "report",
+                "dataset",
+                "previous versions",
+                "patron use"
+            ]
+        },
+        "Triggers": [
+            [
+                "DB/IR administrator",
+                "upload"
+            ]
+        ],
+        "Targets": [
+            [
+                "upload",
+                "new version"
+            ]
+        ]
+    },
+    {
+        "Text": "#G27# As a library staff member, I want to upload material to the repository on the author's behalf, so that I can fulfill a service obligation.",
+        "Persona": [
+            "library staff member"
+        ],
+        "Action": {
+            "Primary Action": [
+                "upload"
+            ],
+            "Secondary Action": [
+                "fulfill"
+            ]
+        },
+        "Entity": {
+            "Primary Entity": [
+                "material"
+            ],
+            "Secondary Entity": [
+                "repository",
+                "author",
+                "behalf",
+                "service obligation"
+            ]
+        },
+        "Triggers": [
+            [
+                "library staff member",
+                "upload"
+            ]
+        ],
+        "Targets": [
+            [
+                "upload",
+                "material"
+            ]
+        ]
+    },
+    {
+        "Text": "#G27# As a Cornell faculty member, I want to associate a researcherID or ORCID with a submission, so that there is no ambiguity between my work and someone else with the same name.",
+        "Persona": [
+            "Cornell faculty member"
+        ],
+        "Action": {
+            "Primary Action": [
+                "associate"
+            ],
+            "Secondary Action": []
+        },
+        "Entity": {
+            "Primary Entity": [
+                "researcherID"
+            ],
+            "Secondary Entity": [
+                "ORCID",
+                "submission",
+                "ambiguity",
+                "work",
+                "same name"
+            ]
+        },
+        "Triggers": [
+            [
+                "Cornell faculty member",
+                "associate"
+            ]
+        ],
+        "Targets": [
+            [
+                "associate",
+                "researcherID"
+            ]
+        ]
+    }
+]
