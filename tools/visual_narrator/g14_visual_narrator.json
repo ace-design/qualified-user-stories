@@ -1,0 +1,1342 @@
+[
+    {
+        "Text": "#G14# As a Publisher, I want to publish a dataset, so that I can view just the dataset with a few people.",
+        "Persona": [
+            "Publisher"
+        ],
+        "Action": [
+            "publish"
+        ],
+        "Entity": [
+            "dataset"
+        ],
+        "Triggers": [
+            "Publisher",
+            "publish"
+        ],
+        "Targets": [
+            "publish",
+            "dataset"
+        ]
+    },
+    {
+        "Text": "#G14# As a Publisher, I want to publish a dataset, so that I can share the dataset publicly with everyone.",
+        "Persona": [
+            "Publisher"
+        ],
+        "Action": [
+            "publish"
+        ],
+        "Entity": [
+            "dataset"
+        ],
+        "Triggers": [
+            "Publisher",
+            "publish"
+        ],
+        "Targets": [
+            "publish",
+            "dataset"
+        ]
+    },
+    {
+        "Text": "#G14# As a Publisher, I want to sign up for an account, so that that I can publish my data package to the registry and to have a publisher account to publish my data package under.",
+        "Persona": [
+            "Publisher"
+        ],
+        "Action": [
+            "sign"
+        ],
+        "Entity": [
+            "account"
+        ],
+        "Triggers": [
+            "Publisher",
+            "sign"
+        ],
+        "Targets": [
+            "sign",
+            "account"
+        ]
+    },
+    {
+        "Text": "#G14# As a Visitor, I want to sign up via github or google, so that that I don't have to enter lots of information and remember my password for yet another website.",
+        "Persona": [
+            "Visitor"
+        ],
+        "Action": [
+            "sign"
+        ],
+        "Entity": [
+            "github"
+        ],
+        "Triggers": [
+            "Visitor",
+            "sign"
+        ],
+        "Targets": [
+            "sign",
+            "github"
+        ]
+    },
+    {
+        "Text": "#G14# As a Publisher, I want to know what do next after signing up, so that that I can get going quickly.",
+        "Persona": [
+            "Publisher"
+        ],
+        "Action": [
+            "know"
+        ],
+        "Entity": [
+            "System"
+        ],
+        "Triggers": [
+            "Publisher",
+            "know"
+        ],
+        "Targets": [
+            "know",
+            "System"
+        ]
+    },
+    {
+        "Text": "#G14# As an Admin, I want to invite someone to join the platform, so that that they can start contributing or using data.",
+        "Persona": [
+            "Admin"
+        ],
+        "Action": [
+            "invite"
+        ],
+        "Entity": [
+            "someone"
+        ],
+        "Triggers": [
+            "Admin",
+            "invite"
+        ],
+        "Targets": [
+            "invite",
+            "someone"
+        ]
+    },
+    {
+        "Text": "#G14# As a Publisher, I want to import my data package into the registry, so that my data has a permanent online home to access. ",
+        "Persona": [
+            "Publisher"
+        ],
+        "Action": [
+            "import"
+        ],
+        "Entity": [
+            "package"
+        ],
+        "Triggers": [
+            "Publisher",
+            "import"
+        ],
+        "Targets": [
+            "import",
+            "package"
+        ]
+    },
+    {
+        "Text": "#G14# As a Publisher, I want to configure my client, so that I can start publishing data packages.",
+        "Persona": [
+            "Publisher"
+        ],
+        "Action": [
+            "configure"
+        ],
+        "Entity": [
+            "client"
+        ],
+        "Triggers": [
+            "Publisher",
+            "configure"
+        ],
+        "Targets": [
+            "configure",
+            "client"
+        ]
+    },
+    {
+        "Text": "#G14# As a Publisher, I want to use a publish command to update a data package that is already in the registry, so that it appears there.",
+        "Persona": [
+            "Publisher"
+        ],
+        "Action": [
+            "use"
+        ],
+        "Entity": [
+            "command"
+        ],
+        "Triggers": [
+            "Publisher",
+            "use"
+        ],
+        "Targets": [
+            "use",
+            "command"
+        ]
+    },
+    {
+        "Text": "#G14# As a Publisher, I want to unpublish a data package, so that it is no longer visible to anyone.",
+        "Persona": [
+            "Publisher"
+        ],
+        "Action": [
+            "unpublish"
+        ],
+        "Entity": [
+            "package"
+        ],
+        "Triggers": [
+            "Publisher",
+            "unpublish"
+        ],
+        "Targets": [
+            "unpublish",
+            "package"
+        ]
+    },
+    {
+        "Text": "#G14# As a Publisher, I want to permanently delete a data package, so that that it no longer takes up storage space.",
+        "Persona": [
+            "Publisher"
+        ],
+        "Action": [
+            "delete"
+        ],
+        "Entity": [
+            "package"
+        ],
+        "Triggers": [
+            "Publisher",
+            "delete"
+        ],
+        "Targets": [
+            "delete",
+            "package"
+        ]
+    },
+    {
+        "Text": "#G14# As a Publisher, I want to validate the data I am about to publish to the registry, so that that I publish good data and know that I am doing.",
+        "Persona": [
+            "Publisher"
+        ],
+        "Action": [
+            "validate"
+        ],
+        "Entity": [
+            "data"
+        ],
+        "Triggers": [
+            "Publisher",
+            "validate"
+        ],
+        "Targets": [
+            "validate",
+            "data"
+        ]
+    },
+    {
+        "Text": "#G14# As a Publisher, I want to data to be validated when I publish it, so that that I know immediately if I have accidentally broken my data or have bugs and can take action to correct.",
+        "Persona": [
+            "Publisher"
+        ],
+        "Action": [
+            "publish"
+        ],
+        "Entity": [
+            "it"
+        ],
+        "Triggers": [
+            "Publisher",
+            "publish"
+        ],
+        "Targets": [
+            "publish",
+            "it"
+        ]
+    },
+    {
+        "Text": "#G14# As a Consumer, I want to know that the data I am downloading is good and can be relied on, so that that I don't have to check it myself or run into annoying bugs later on.",
+        "Persona": [
+            "Consumer"
+        ],
+        "Action": [
+            "know"
+        ],
+        "Entity": [
+            "System"
+        ],
+        "Triggers": [
+            "Consumer",
+            "know"
+        ],
+        "Targets": [
+            "know",
+            "System"
+        ]
+    },
+    {
+        "Text": "#G14# As a Publisher, I want to publish a data package where its resource data is stored on my servers but the registry caches a copy of that data, so that that if my data is lost or gets broken I still have a copy people can use.",
+        "Persona": [
+            "Publisher"
+        ],
+        "Action": [
+            "publish"
+        ],
+        "Entity": [
+            "package"
+        ],
+        "Triggers": [
+            "Publisher",
+            "publish"
+        ],
+        "Targets": [
+            "publish",
+            "package"
+        ]
+    },
+    {
+        "Text": "#G14# As a Consumer, I want to be able to get the data for a data package even if the original data has been moved or removed, so that that I can still use is and my app or analysis keeps working.",
+        "Persona": [
+            "Consumer"
+        ],
+        "Action": [
+            "get"
+        ],
+        "Entity": [
+            "data"
+        ],
+        "Triggers": [
+            "Consumer",
+            "get"
+        ],
+        "Targets": [
+            "get",
+            "data"
+        ]
+    },
+    {
+        "Text": "#G14# As a Publisher, I want to publish a data package in the UI, so that that it is available and published.",
+        "Persona": [
+            "Publisher"
+        ],
+        "Action": [
+            "publish"
+        ],
+        "Entity": [
+            "package"
+        ],
+        "Triggers": [
+            "Publisher",
+            "publish"
+        ],
+        "Targets": [
+            "publish",
+            "package"
+        ]
+    },
+    {
+        "Text": "#G14# As a Publisher, I want to create a data package in the UI so that it is available and published.",
+        "Persona": [
+            "Publisher"
+        ],
+        "Action": [
+            "create"
+        ],
+        "Entity": [
+            "package"
+        ],
+        "Triggers": [
+            "Publisher",
+            "create"
+        ],
+        "Targets": [
+            "create",
+            "package"
+        ]
+    },
+    {
+        "Text": "#G14# As a Publisher, I want to be able to restore the deleted data package via cli, so that that it is back visible and available to view, download.",
+        "Persona": [
+            "Publisher"
+        ],
+        "Action": [
+            "restore"
+        ],
+        "Entity": [
+            "package"
+        ],
+        "Triggers": [
+            "Publisher",
+            "restore"
+        ],
+        "Targets": [
+            "restore",
+            "package"
+        ]
+    },
+    {
+        "Text": "#G14# As a Publisher, I want to undelete the deleted data packages, so that that the deleted data packages is now visible again.",
+        "Persona": [
+            "Publisher"
+        ],
+        "Action": [
+            "undelete"
+        ],
+        "Entity": [
+            "packages"
+        ],
+        "Triggers": [
+            "Publisher",
+            "undelete"
+        ],
+        "Targets": [
+            "undelete",
+            "packages"
+        ]
+    },
+    {
+        "Text": "#G14# As a Publisher, I want to be able to preview the views of the current data package using cli prior to publishing, so that that I can refine the json declarations of datapackage view section to achieve a great looking result.",
+        "Persona": [
+            "Publisher"
+        ],
+        "Action": [
+            "preview"
+        ],
+        "Entity": [
+            "views"
+        ],
+        "Triggers": [
+            "Publisher",
+            "preview"
+        ],
+        "Targets": [
+            "preview",
+            "views"
+        ]
+    },
+    {
+        "Text": "#G14# As a Consumer, I want to view a data package online, so that I can get a sense of whether this is the dataset I want.",
+        "Persona": [
+            "Consumer"
+        ],
+        "Action": [
+            "view"
+        ],
+        "Entity": [
+            "package"
+        ],
+        "Triggers": [
+            "Consumer",
+            "view"
+        ],
+        "Targets": [
+            "view",
+            "package"
+        ]
+    },
+    {
+        "Text": "#G14# As a publisher, I want to show the world how my published data is, so that that it immediately catches consumer's attention. ",
+        "Persona": [
+            "publisher"
+        ],
+        "Action": [
+            "show"
+        ],
+        "Entity": [
+            "world"
+        ],
+        "Triggers": [
+            "publisher",
+            "show"
+        ],
+        "Targets": [
+            "show",
+            "world"
+        ]
+    },
+    {
+        "Text": "#G14# As a consumer, I want to view the data package, so that that I can get a sense of whether I want this dataset or not.",
+        "Persona": [
+            "consumer"
+        ],
+        "Action": [
+            "view"
+        ],
+        "Entity": [
+            "package"
+        ],
+        "Triggers": [
+            "consumer",
+            "view"
+        ],
+        "Targets": [
+            "view",
+            "package"
+        ]
+    },
+    {
+        "Text": "#G14# As a Publisher, I want to preview a datapackage I have prepared, so that that I can check it works and share the results.",
+        "Persona": [
+            "Publisher"
+        ],
+        "Action": [
+            "preview"
+        ],
+        "Entity": [
+            "datapackage"
+        ],
+        "Triggers": [
+            "Publisher",
+            "preview"
+        ],
+        "Targets": [
+            "preview",
+            "datapackage"
+        ]
+    },
+    {
+        "Text": "#G14# As a Consumer, I want to see how much the data has been downloaded, so that that I can choose most popular in the case when there are several alternatives for my use case.",
+        "Persona": [
+            "Consumer"
+        ],
+        "Action": [
+            "see"
+        ],
+        "Entity": [
+            "much"
+        ],
+        "Triggers": [
+            "Consumer",
+            "see"
+        ],
+        "Targets": [
+            "see",
+            "much"
+        ]
+    },
+    {
+        "Text": "#G14# As a Publisher, I want to see real examples of published packages so that I can understand how useful and simple the datapackage format and the registry is.",
+        "Persona": [
+            "Publisher"
+        ],
+        "Action": [
+            "see"
+        ],
+        "Entity": [
+            "examples"
+        ],
+        "Triggers": [
+            "Publisher",
+            "see"
+        ],
+        "Targets": [
+            "see",
+            "examples"
+        ]
+    },
+    {
+        "Text": "#G14# As a Consumer, I want to see some example data packages quickly, so that I get a sense of what is on this site and if it is useful to look further.",
+        "Persona": [
+            "Consumer"
+        ],
+        "Action": [
+            "see"
+        ],
+        "Entity": [
+            "packages"
+        ],
+        "Triggers": [
+            "Consumer",
+            "see"
+        ],
+        "Targets": [
+            "see",
+            "packages"
+        ]
+    },
+    {
+        "Text": "#G14# As a Consumer, I want to search data packages, so that that I can find the ones I want.",
+        "Persona": [
+            "Consumer"
+        ],
+        "Action": [
+            "search"
+        ],
+        "Entity": [
+            "packages"
+        ],
+        "Triggers": [
+            "Consumer",
+            "search"
+        ],
+        "Targets": [
+            "search",
+            "packages"
+        ]
+    },
+    {
+        "Text": "#G14# As a Consumer, I want to search based on description of data package, so that that I can find package which related to some key words.",
+        "Persona": [
+            "Consumer"
+        ],
+        "Action": [
+            "search"
+        ],
+        "Entity": [
+            "description"
+        ],
+        "Triggers": [
+            "Consumer",
+            "search"
+        ],
+        "Targets": [
+            "search",
+            "description"
+        ]
+    },
+    {
+        "Text": "#G14# As a Consumer, I want to download the data package in one file, so that that I don't have to download descriptor and each resource by hand.",
+        "Persona": [
+            "Consumer"
+        ],
+        "Action": [
+            "download"
+        ],
+        "Entity": [
+            "package"
+        ],
+        "Triggers": [
+            "Consumer",
+            "download"
+        ],
+        "Targets": [
+            "download",
+            "package"
+        ]
+    },
+    {
+        "Text": "#G14# As a Developer, I want to use data package as a node lib in my project, so that that I can depend on it using my normal dependency framework.",
+        "Persona": [
+            "Developer"
+        ],
+        "Action": [
+            "use"
+        ],
+        "Entity": [
+            "package"
+        ],
+        "Triggers": [
+            "Developer",
+            "use"
+        ],
+        "Targets": [
+            "use",
+            "package"
+        ]
+    },
+    {
+        "Text": "#G14# As a Consumer, I want to load a Data Package from R, so that that I can immediately start playing with it.",
+        "Persona": [
+            "Consumer"
+        ],
+        "Action": [
+            "load"
+        ],
+        "Entity": [
+            "Package"
+        ],
+        "Triggers": [
+            "Consumer",
+            "load"
+        ],
+        "Targets": [
+            "load",
+            "Package"
+        ]
+    },
+    {
+        "Text": "#G14# As a Data Analyst I want to download a data package, so that that I can study it and wrangle with it to infer new data or generate new insights.",
+        "Persona": [
+            "Data Analyst"
+        ],
+        "Action": [
+            "download"
+        ],
+        "Entity": [
+            "package"
+        ],
+        "Triggers": [
+            "Data Analyst",
+            "download"
+        ],
+        "Targets": [
+            "download",
+            "package"
+        ]
+    },
+    {
+        "Text": "#G14# As a Data Analyst, I want to update previously downloaded data package, so that that I can work with the most recent data.",
+        "Persona": [
+            "Data Analyst"
+        ],
+        "Action": [
+            "update"
+        ],
+        "Entity": [
+            "package"
+        ],
+        "Triggers": [
+            "Data Analyst",
+            "update"
+        ],
+        "Targets": [
+            "update",
+            "package"
+        ]
+    },
+    {
+        "Text": "#G14# As a Consumer, I want to download a DataPackage's data one coherent SQLite database, so that that I can get it easily in one form.",
+        "Persona": [
+            "Consumer"
+        ],
+        "Action": [
+            "download"
+        ],
+        "Entity": [
+            "database"
+        ],
+        "Triggers": [
+            "Consumer",
+            "download"
+        ],
+        "Targets": [
+            "download",
+            "database"
+        ]
+    },
+    {
+        "Text": "#G14# As a Data Analyst, I want to compare different versions of some datapackage locally, so that that I can see schema changes clearly and adjust my analytics code to the desired schema version.",
+        "Persona": [
+            "Data Analyst"
+        ],
+        "Action": [
+            "compare"
+        ],
+        "Entity": [
+            "versions"
+        ],
+        "Triggers": [
+            "Data Analyst",
+            "compare"
+        ],
+        "Targets": [
+            "compare",
+            "versions"
+        ]
+    },
+    {
+        "Text": "#G14# As a Web Developer, I want to be able to install multiple versions of the same datapackage separately, so that that all my projects could be developed independently and deployed locally.",
+        "Persona": [
+            "Web Developer"
+        ],
+        "Action": [
+            "install"
+        ],
+        "Entity": [
+            "versions"
+        ],
+        "Triggers": [
+            "Web Developer",
+            "install"
+        ],
+        "Targets": [
+            "install",
+            "versions"
+        ]
+    },
+    {
+        "Text": "#G14# As a Developer, I want to list all DataPackages requirements for my project in the file and pin the exact versions of any DataPackage that my project depends on, so that that the project can be deterministically deployed locally and won't break because of the DataPackage schema changes. ",
+        "Persona": [
+            "Developer"
+        ],
+        "Action": [
+            "list"
+        ],
+        "Entity": [
+            "requirements"
+        ],
+        "Triggers": [
+            "Developer",
+            "list"
+        ],
+        "Targets": [
+            "list",
+            "requirements"
+        ]
+    },
+    {
+        "Text": "#G14# As a Publisher, I want to tag datapackage to create a snapshot of data on the registry server, so that that consumers can refer to it.",
+        "Persona": [
+            "Publisher"
+        ],
+        "Action": [
+            "tag"
+        ],
+        "Entity": [
+            "datapackage"
+        ],
+        "Triggers": [
+            "Publisher",
+            "tag"
+        ],
+        "Targets": [
+            "tag",
+            "datapackage"
+        ]
+    },
+    {
+        "Text": "#G14# As a Publisher, I want to be warned that a tag exists when I try to overwrite it, so that that I don't accidentally overwrite stable tagged data which is relied on by consumers.",
+        "Persona": [
+            "Publisher"
+        ],
+        "Action": [
+            "warned"
+        ],
+        "Entity": [
+            "it"
+        ],
+        "Triggers": [
+            "Publisher",
+            "warned"
+        ],
+        "Targets": [
+            "warned",
+            "it"
+        ]
+    },
+    {
+        "Text": "#G14# As a Publisher, I want to be able to overwrite the previously tagged datapackage, so that that I can fix it if I mess up.",
+        "Persona": [
+            "Publisher"
+        ],
+        "Action": [
+            "overwrite"
+        ],
+        "Entity": [
+            "datapackage"
+        ],
+        "Triggers": [
+            "Publisher",
+            "overwrite"
+        ],
+        "Targets": [
+            "overwrite",
+            "datapackage"
+        ]
+    },
+    {
+        "Text": "#G14# As a Publisher, I want to version my Data Package and keep multiple versions around including older versions, so that that I do not break consumer systems when I change my datapackage.",
+        "Persona": [
+            "Publisher"
+        ],
+        "Action": [
+            "version"
+        ],
+        "Entity": [
+            "Package"
+        ],
+        "Triggers": [
+            "Publisher",
+            "version"
+        ],
+        "Targets": [
+            "version",
+            "Package"
+        ]
+    },
+    {
+        "Text": "#G14# As a Publisher, I want to be able to get access to a previous version I tagged, so that that I can return to it and review it. ",
+        "Persona": [
+            "Publisher"
+        ],
+        "Action": [
+            "get"
+        ],
+        "Entity": [
+            "access"
+        ],
+        "Triggers": [
+            "Publisher",
+            "get"
+        ],
+        "Targets": [
+            "get",
+            "access"
+        ]
+    },
+    {
+        "Text": "#G14# As a Consumer, I want to know full details of how the data package schema has changed, so that that I can adjust my scripts to handle it.",
+        "Persona": [
+            "Consumer"
+        ],
+        "Action": [
+            "know"
+        ],
+        "Entity": [
+            "details"
+        ],
+        "Triggers": [
+            "Consumer",
+            "know"
+        ],
+        "Targets": [
+            "know",
+            "details"
+        ]
+    },
+    {
+        "Text": "#G14# As a Consumer, I want to get a sense of the age of the datapackage that I have downloaded before, so that that I can decide if I should update or not.",
+        "Persona": [
+            "Consumer"
+        ],
+        "Action": [
+            "get"
+        ],
+        "Entity": [
+            "sense"
+        ],
+        "Triggers": [
+            "Consumer",
+            "get"
+        ],
+        "Targets": [
+            "get",
+            "sense"
+        ]
+    },
+    {
+        "Text": "#G14# As a Consumer, I want to view a Datapackage at a particular version online, so that that I can present/discuss the particular data timeslice of interest with other people.",
+        "Persona": [
+            "Consumer"
+        ],
+        "Action": [
+            "view"
+        ],
+        "Entity": [
+            "Datapackage"
+        ],
+        "Triggers": [
+            "Consumer",
+            "view"
+        ],
+        "Targets": [
+            "view",
+            "Datapackage"
+        ]
+    },
+    {
+        "Text": "#G14# As a Consumer, I want to download a Data package at a particular version, so that that I know it is compatible with my scripts and system.",
+        "Persona": [
+            "Consumer"
+        ],
+        "Action": [
+            "download"
+        ],
+        "Entity": [
+            "package"
+        ],
+        "Triggers": [
+            "Consumer",
+            "download"
+        ],
+        "Targets": [
+            "download",
+            "package"
+        ]
+    },
+    {
+        "Text": "#G14# As a Consumer, I want to be notified of changes to a package I care about, so that that I can check out what has changed and take action.",
+        "Persona": [
+            "Consumer"
+        ],
+        "Action": [
+            "notified"
+        ],
+        "Entity": [
+            "changes"
+        ],
+        "Triggers": [
+            "Consumer",
+            "notified"
+        ],
+        "Targets": [
+            "notified",
+            "changes"
+        ]
+    },
+    {
+        "Text": "#G14# As a Consumer, I want to see how active the site is, so that I can decide if I should get involved.",
+        "Persona": [
+            "Consumer"
+        ],
+        "Action": [
+            "see"
+        ],
+        "Entity": [
+            "System"
+        ],
+        "Triggers": [
+            "Consumer",
+            "see"
+        ],
+        "Targets": [
+            "see",
+            "System"
+        ]
+    },
+    {
+        "Text": "#G14# As a Consumer, I want to browse and find publishers, so that that I can find interesting publishers and their packages.",
+        "Persona": [
+            "Consumer"
+        ],
+        "Action": [
+            "browse"
+        ],
+        "Entity": [
+            "publishers"
+        ],
+        "Triggers": [
+            "Consumer",
+            "browse"
+        ],
+        "Targets": [
+            "browse",
+            "publishers"
+        ]
+    },
+    {
+        "Text": "#G14# As a Consumer, I want to see a publisher's profile, so that that I can discover their packages and get a sense of how active and good they are.",
+        "Persona": [
+            "Consumer"
+        ],
+        "Action": [
+            "see"
+        ],
+        "Entity": [
+            "profile"
+        ],
+        "Triggers": [
+            "Consumer",
+            "see"
+        ],
+        "Targets": [
+            "see",
+            "profile"
+        ]
+    },
+    {
+        "Text": "#G14# As a Consumer, I want to view a publisher's profile, so that that I can see who is behind a particular package or to see what other packages they produce. ",
+        "Persona": [
+            "Consumer"
+        ],
+        "Action": [
+            "view"
+        ],
+        "Entity": [
+            "profile"
+        ],
+        "Triggers": [
+            "Consumer",
+            "view"
+        ],
+        "Targets": [
+            "view",
+            "profile"
+        ]
+    },
+    {
+        "Text": "#G14# As a Consumer, I want to search among all data packages owned by a publisher, so that that I can easily find one data package amongst all the data packages by this publisher.",
+        "Persona": [
+            "Consumer"
+        ],
+        "Action": [
+            "search"
+        ],
+        "Entity": [
+            "packages"
+        ],
+        "Triggers": [
+            "Consumer",
+            "search"
+        ],
+        "Targets": [
+            "search",
+            "packages"
+        ]
+    },
+    {
+        "Text": "#G14# As an Owner, I want to edit my profile, so that that it is updated with new information.",
+        "Persona": [
+            "Owner"
+        ],
+        "Action": [
+            "edit"
+        ],
+        "Entity": [
+            "profile"
+        ],
+        "Triggers": [
+            "Owner",
+            "edit"
+        ],
+        "Targets": [
+            "edit",
+            "profile"
+        ]
+    },
+    {
+        "Text": "#G14# As an Owner, I want to invite an existing user, so that the user can become a member of my publisher.",
+        "Persona": [
+            "Owner"
+        ],
+        "Action": [
+            "invite"
+        ],
+        "Entity": [
+            "user"
+        ],
+        "Triggers": [
+            "Owner",
+            "invite"
+        ],
+        "Targets": [
+            "invite",
+            "user"
+        ]
+    },
+    {
+        "Text": "#G14# As an owner, I want to invite someone using their email to sign up and become a member of my Publisher, so that that they are authorized to publish data packages under my Publisher.",
+        "Persona": [
+            "owner"
+        ],
+        "Action": [
+            "invite"
+        ],
+        "Entity": [
+            "someone"
+        ],
+        "Triggers": [
+            "owner",
+            "invite"
+        ],
+        "Targets": [
+            "invite",
+            "someone"
+        ]
+    },
+    {
+        "Text": "#G14# As an owner, I want to remove someone from membership in my publisher, so that they no longer have ability to publish or modify my data packages.",
+        "Persona": [
+            "owner"
+        ],
+        "Action": [
+            "remove"
+        ],
+        "Entity": [
+            "membership"
+        ],
+        "Triggers": [
+            "owner",
+            "remove"
+        ],
+        "Targets": [
+            "remove",
+            "membership"
+        ]
+    },
+    {
+        "Text": "#G14# As an owner, I want to view all the people in my organization and what roles they have, so that that I can change these if I want.",
+        "Persona": [
+            "owner"
+        ],
+        "Action": [
+            "view"
+        ],
+        "Entity": [
+            "people"
+        ],
+        "Triggers": [
+            "owner",
+            "view"
+        ],
+        "Targets": [
+            "view",
+            "people"
+        ]
+    },
+    {
+        "Text": "#G14# As an owner, I want to make a user an owner, so that they have full control.",
+        "Persona": [
+            "owner"
+        ],
+        "Action": [
+            "make"
+        ],
+        "Entity": [
+            "System"
+        ],
+        "Triggers": [
+            "owner",
+            "make"
+        ],
+        "Targets": [
+            "make",
+            "System"
+        ]
+    },
+    {
+        "Text": "#G14# As an owner, I want to remove a user as an owner, so that they are just a member and no longer have full control.",
+        "Persona": [
+            "owner"
+        ],
+        "Action": [
+            "remove"
+        ],
+        "Entity": [
+            "user"
+        ],
+        "Triggers": [
+            "owner",
+            "remove"
+        ],
+        "Targets": [
+            "remove",
+            "user"
+        ]
+    },
+    {
+        "Text": "#G14# As an Admin, I want to set key configuration parameters for my site deployment, so that that I can change key information like the site title.",
+        "Persona": [
+            "Admin"
+        ],
+        "Action": [
+            "set"
+        ],
+        "Entity": [
+            "parameters"
+        ],
+        "Triggers": [
+            "Admin",
+            "set"
+        ],
+        "Targets": [
+            "set",
+            "parameters"
+        ]
+    },
+    {
+        "Text": "#G14# As an Admin, I want to see key metrics about usage such as users, API usage, downloads, so that that I know how things are going.",
+        "Persona": [
+            "Admin"
+        ],
+        "Action": [
+            "see"
+        ],
+        "Entity": [
+            "metrics"
+        ],
+        "Triggers": [
+            "Admin",
+            "see"
+        ],
+        "Targets": [
+            "see",
+            "metrics"
+        ]
+    },
+    {
+        "Text": "#G14# As an Admin, I want to have a pricing plan and billing system, so that that I can charge users and make my platform sustainable.",
+        "Persona": [
+            "Admin"
+        ],
+        "Action": [
+            "have"
+        ],
+        "Entity": [
+            "system"
+        ],
+        "Triggers": [
+            "Admin",
+            "have"
+        ],
+        "Targets": [
+            "have",
+            "system"
+        ]
+    },
+    {
+        "Text": "#G14# As a Publisher, I want to know if this site has a pricing plan and what the prices are, so that that I can work out what this will cost me in the future and have a sense that these guys are sustainable. ",
+        "Persona": [
+            "Publisher"
+        ],
+        "Action": [
+            "know"
+        ],
+        "Entity": [
+            "plan"
+        ],
+        "Triggers": [
+            "Publisher",
+            "know"
+        ],
+        "Targets": [
+            "know",
+            "plan"
+        ]
+    },
+    {
+        "Text": "#G14# As a Publisher, I want to sign up for a given pricing plan, so that that I am entitled to what it allows.",
+        "Persona": [
+            "Publisher"
+        ],
+        "Action": [
+            "sign"
+        ],
+        "Entity": [
+            "plan"
+        ],
+        "Triggers": [
+            "Publisher",
+            "sign"
+        ],
+        "Targets": [
+            "sign",
+            "plan"
+        ]
+    },
+    {
+        "Text": "#G14# As a Publisher, I want to have private data packages, so that I can share just with my team.",
+        "Persona": [
+            "Publisher"
+        ],
+        "Action": [
+            "have"
+        ],
+        "Entity": [
+            "packages"
+        ],
+        "Triggers": [
+            "Publisher",
+            "have"
+        ],
+        "Targets": [
+            "have",
+            "packages"
+        ]
+    }
+]

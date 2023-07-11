@@ -1,0 +1,1942 @@
+[
+    {
+        "Text": "#G10# As a site member, I want to describe myself on my own page in a semi-structured way, so that others can learn about me.",
+        "Persona": [
+            "site member"
+        ],
+        "Action": [
+            "describe"
+        ],
+        "Entity": [
+            "way"
+        ],
+        "Triggers": [
+            "site member",
+            "describe"
+        ],
+        "Targets": [
+            "describe",
+            "way"
+        ]
+    },
+    {
+        "Text": "#G10# As a site member, I want to fill out an application to become a Certified Scrum Practitioner, so that I can earn that designation.",
+        "Persona": [
+            "site member"
+        ],
+        "Action": [
+            "fill"
+        ],
+        "Entity": [
+            "application"
+        ],
+        "Triggers": [
+            "site member",
+            "fill"
+        ],
+        "Targets": [
+            "fill",
+            "application"
+        ]
+    },
+    {
+        "Text": "#G10# As a Practitioner, I want to include additional details about me in my profile page, so that I can showcase my experience.",
+        "Persona": [
+            "Practitioner"
+        ],
+        "Action": [
+            "include"
+        ],
+        "Entity": [
+            "details"
+        ],
+        "Triggers": [
+            "Practitioner",
+            "include"
+        ],
+        "Targets": [
+            "include",
+            "details"
+        ]
+    },
+    {
+        "Text": "#G10# As a site member, I want to fill out an application to become a Certified Scrum Trainer, so that I can teach CSM and CSPO courses and certify others.",
+        "Persona": [
+            "site member"
+        ],
+        "Action": [
+            "fill"
+        ],
+        "Entity": [
+            "application"
+        ],
+        "Triggers": [
+            "site member",
+            "fill"
+        ],
+        "Targets": [
+            "fill",
+            "application"
+        ]
+    },
+    {
+        "Text": "#G10# As a Trainer, I want to include additional details in my profile page about me, so that others can learn about me and decide if I am the right trainer for them.",
+        "Persona": [
+            "Trainer"
+        ],
+        "Action": [
+            "include"
+        ],
+        "Entity": [
+            "details"
+        ],
+        "Triggers": [
+            "Trainer",
+            "include"
+        ],
+        "Targets": [
+            "include",
+            "details"
+        ]
+    },
+    {
+        "Text": "#G10# As a Practitioner, I want to write an article for the site with a small graphic shown with the article showing my CSP or CST status, so that others know my certifications when reading.",
+        "Persona": [
+            "Practitioner"
+        ],
+        "Action": [
+            "write"
+        ],
+        "Entity": [
+            "article"
+        ],
+        "Triggers": [
+            "Practitioner",
+            "write"
+        ],
+        "Targets": [
+            "write",
+            "article"
+        ]
+    },
+    {
+        "Text": "#G10# As a trainer, I want to list my upcoming classes in my profile and include a link to a detailed page about each, so that prospective attendees can find my courses.",
+        "Persona": [
+            "trainer"
+        ],
+        "Action": [
+            "list"
+        ],
+        "Entity": [
+            "classes"
+        ],
+        "Triggers": [
+            "trainer",
+            "list"
+        ],
+        "Targets": [
+            "list",
+            "classes"
+        ]
+    },
+    {
+        "Text": "#G10# As a site member, I want to view the profiles of other members, so that I can find others I might want to connect with.",
+        "Persona": [
+            "site member"
+        ],
+        "Action": [
+            "view"
+        ],
+        "Entity": [
+            "profiles"
+        ],
+        "Triggers": [
+            "site member",
+            "view"
+        ],
+        "Targets": [
+            "view",
+            "profiles"
+        ]
+    },
+    {
+        "Text": "#G10# As a site member, I want to search for profiles based on a few fields, so that I can find others I might want to connect with.",
+        "Persona": [
+            "site member"
+        ],
+        "Action": [
+            "search"
+        ],
+        "Entity": [
+            "profiles"
+        ],
+        "Triggers": [
+            "site member",
+            "search"
+        ],
+        "Targets": [
+            "search",
+            "profiles"
+        ]
+    },
+    {
+        "Text": "#G10# As a site member, I want to mark my profile as private in which case only my name will appear, so that no one can learn things about me I don't want shared.",
+        "Persona": [
+            "site member"
+        ],
+        "Action": [
+            "mark"
+        ],
+        "Entity": [
+            "profile"
+        ],
+        "Triggers": [
+            "site member",
+            "mark"
+        ],
+        "Targets": [
+            "mark",
+            "profile"
+        ]
+    },
+    {
+        "Text": "#G10# As a site member, I want to mark my email address as private even if the rest of my profile is not, so that no one can contact me.",
+        "Persona": [
+            "site member"
+        ],
+        "Action": [
+            "mark"
+        ],
+        "Entity": [
+            "address"
+        ],
+        "Triggers": [
+            "site member",
+            "mark"
+        ],
+        "Targets": [
+            "mark",
+            "address"
+        ]
+    },
+    {
+        "Text": "#G10# As a site member, I want to send an email to any member via a form, so that we can connect.",
+        "Persona": [
+            "site member"
+        ],
+        "Action": [
+            "send"
+        ],
+        "Entity": [
+            "email"
+        ],
+        "Triggers": [
+            "site member",
+            "send"
+        ],
+        "Targets": [
+            "send",
+            "email"
+        ]
+    },
+    {
+        "Text": "#G10# As a site administrator, I want to read practicing and training applications and approve or reject them, so that only applicants who qualify can become CSPs or CSTs.",
+        "Persona": [
+            "site administrator"
+        ],
+        "Action": [
+            "read"
+        ],
+        "Entity": [
+            "applications"
+        ],
+        "Triggers": [
+            "site administrator",
+            "read"
+        ],
+        "Targets": [
+            "read",
+            "applications"
+        ]
+    },
+    {
+        "Text": "#G10# As a site administrator, I want to edit any site member profile, so that I can correct problems for members.",
+        "Persona": [
+            "site administrator"
+        ],
+        "Action": [
+            "edit"
+        ],
+        "Entity": [
+            "profile"
+        ],
+        "Triggers": [
+            "site administrator",
+            "edit"
+        ],
+        "Targets": [
+            "edit",
+            "profile"
+        ]
+    },
+    {
+        "Text": "#G10# As a site visitor, I want to read current news on the home page, so that I stay current on agile news.",
+        "Persona": [
+            "site visitor"
+        ],
+        "Action": [
+            "read"
+        ],
+        "Entity": [
+            "news"
+        ],
+        "Triggers": [
+            "site visitor",
+            "read"
+        ],
+        "Targets": [
+            "read",
+            "news"
+        ]
+    },
+    {
+        "Text": "#G10# As a site visitor, I want to access old news that is no longer on the home page, so that I can access things I remember from the past or that others mention to me.",
+        "Persona": [
+            "site visitor"
+        ],
+        "Action": [
+            "access"
+        ],
+        "Entity": [
+            "news"
+        ],
+        "Triggers": [
+            "site visitor",
+            "access"
+        ],
+        "Targets": [
+            "access",
+            "news"
+        ]
+    },
+    {
+        "Text": "#G10# As a site visitor, I want to email news items to the editor, so that they can be considered for publication.",
+        "Persona": [
+            "site visitor"
+        ],
+        "Action": [
+            "email"
+        ],
+        "Entity": [
+            "items"
+        ],
+        "Triggers": [
+            "site visitor",
+            "email"
+        ],
+        "Targets": [
+            "email",
+            "items"
+        ]
+    },
+    {
+        "Text": "#G10# As a site editor, I want to set the following dates on a news item: Start Publishing Date, Old News Date, Stop Publishing Date, so that articles are published on and through appropriate dates.",
+        "Persona": [
+            "site editor"
+        ],
+        "Action": [
+            "set"
+        ],
+        "Entity": [
+            "dates"
+        ],
+        "Triggers": [
+            "site editor",
+            "set"
+        ],
+        "Targets": [
+            "set",
+            "dates"
+        ]
+    },
+    {
+        "Text": "#G10# As a site member, I want to subscribe to an RSS feed of news, so that I remain sufficiently and easily informed.",
+        "Persona": [
+            "site member"
+        ],
+        "Action": [
+            "subscribe"
+        ],
+        "Entity": [
+            "feed"
+        ],
+        "Triggers": [
+            "site member",
+            "subscribe"
+        ],
+        "Targets": [
+            "subscribe",
+            "feed"
+        ]
+    },
+    {
+        "Text": "#G10# As a site editor, I want to assign priority numbers to news items, so that I can indicate which articles I want featured most prominently on the site.",
+        "Persona": [
+            "site editor"
+        ],
+        "Action": [
+            "assign"
+        ],
+        "Entity": [
+            "numbers"
+        ],
+        "Triggers": [
+            "site editor",
+            "assign"
+        ],
+        "Targets": [
+            "assign",
+            "numbers"
+        ]
+    },
+    {
+        "Text": "#G10# As a site visitor, I want to see a list of all upcoming Certification Courses and can page through them if there are a lot, so that I can choose the best course for me.",
+        "Persona": [
+            "site visitor"
+        ],
+        "Action": [
+            "see"
+        ],
+        "Entity": [
+            "list"
+        ],
+        "Triggers": [
+            "site visitor",
+            "see"
+        ],
+        "Targets": [
+            "see",
+            "list"
+        ]
+    },
+    {
+        "Text": "#G10# As a site visitor, I want to see a list of all upcoming Other Courses and can page through them if necessary, so that I can choose the best course for me.",
+        "Persona": [
+            "site visitor"
+        ],
+        "Action": [
+            "see"
+        ],
+        "Entity": [
+            "list"
+        ],
+        "Triggers": [
+            "site visitor",
+            "see"
+        ],
+        "Targets": [
+            "see",
+            "list"
+        ]
+    },
+    {
+        "Text": "#G10# As a site visitor, I want to see a list of all upcoming Events, so that I can decide if I want to attend any.",
+        "Persona": [
+            "site visitor"
+        ],
+        "Action": [
+            "see"
+        ],
+        "Entity": [
+            "list"
+        ],
+        "Triggers": [
+            "site visitor",
+            "see"
+        ],
+        "Targets": [
+            "see",
+            "list"
+        ]
+    },
+    {
+        "Text": "#G10# As a trainer, I want to create a new course or event, so that site visitors can see it.",
+        "Persona": [
+            "trainer"
+        ],
+        "Action": [
+            "create"
+        ],
+        "Entity": [
+            "course"
+        ],
+        "Triggers": [
+            "trainer",
+            "create"
+        ],
+        "Targets": [
+            "create",
+            "course"
+        ]
+    },
+    {
+        "Text": "#G10# As a trainer, I want to create an Other Course or Event I am charged a listing fee for that activity, so that I don't list events I don't really intend to hold.",
+        "Persona": [
+            "trainer"
+        ],
+        "Action": [
+            "create"
+        ],
+        "Entity": [
+            "Course"
+        ],
+        "Triggers": [
+            "trainer",
+            "create"
+        ],
+        "Targets": [
+            "create",
+            "Course"
+        ]
+    },
+    {
+        "Text": "#G10# As a site administrator, I want to create an Other Course or Event that is not charged a listing fee, so that the Scrum Alliance doesn't charge itself for Scrum Gatherings that it puts on.",
+        "Persona": [
+            "site administrator"
+        ],
+        "Action": [
+            "create"
+        ],
+        "Entity": [
+            "Course"
+        ],
+        "Triggers": [
+            "site administrator",
+            "create"
+        ],
+        "Targets": [
+            "create",
+            "Course"
+        ]
+    },
+    {
+        "Text": "#G10# As a site administrator, I want to set the listing fee per Other Course or Event, so that we have flexibility on what to charge in the future.",
+        "Persona": [
+            "site administrator"
+        ],
+        "Action": [
+            "set"
+        ],
+        "Entity": [
+            "fee"
+        ],
+        "Triggers": [
+            "site administrator",
+            "set"
+        ],
+        "Targets": [
+            "set",
+            "fee"
+        ]
+    },
+    {
+        "Text": "#G10# As a trainer, I want to update one of my existing courses or events, so that it reflects accurate information.",
+        "Persona": [
+            "trainer"
+        ],
+        "Action": [
+            "update"
+        ],
+        "Entity": [
+            "one"
+        ],
+        "Triggers": [
+            "trainer",
+            "update"
+        ],
+        "Targets": [
+            "update",
+            "one"
+        ]
+    },
+    {
+        "Text": "#G10# As a trainer, I want to delete one of my courses or events, so that it's no longer listed if I cancel for some reason.",
+        "Persona": [
+            "trainer"
+        ],
+        "Action": [
+            "delete"
+        ],
+        "Entity": [
+            "one"
+        ],
+        "Triggers": [
+            "trainer",
+            "delete"
+        ],
+        "Targets": [
+            "delete",
+            "one"
+        ]
+    },
+    {
+        "Text": "#G10# As a trainer, I want to copy one of my courses or events, so that I can create a new one.",
+        "Persona": [
+            "trainer"
+        ],
+        "Action": [
+            "copy"
+        ],
+        "Entity": [
+            "one"
+        ],
+        "Triggers": [
+            "trainer",
+            "copy"
+        ],
+        "Targets": [
+            "copy",
+            "one"
+        ]
+    },
+    {
+        "Text": "#G10# As a site admin, I want to delete any course or event, so that I can remove things that will no longer occur.",
+        "Persona": [
+            "site admin"
+        ],
+        "Action": [
+            "delete"
+        ],
+        "Entity": [
+            "course"
+        ],
+        "Triggers": [
+            "site admin",
+            "delete"
+        ],
+        "Targets": [
+            "delete",
+            "course"
+        ]
+    },
+    {
+        "Text": "#G10# As a site editor, I want to update any course or event, so that I can fix things the original author hasn't.",
+        "Persona": [
+            "site editor"
+        ],
+        "Action": [
+            "update"
+        ],
+        "Entity": [
+            "course"
+        ],
+        "Triggers": [
+            "site editor",
+            "update"
+        ],
+        "Targets": [
+            "update",
+            "course"
+        ]
+    },
+    {
+        "Text": "#G10# As a trainer, I want to turn a course into an event or an event into a course, so that I can correctly classify anything that was entered incorrectly.",
+        "Persona": [
+            "trainer"
+        ],
+        "Action": [
+            "turn"
+        ],
+        "Entity": [
+            "course"
+        ],
+        "Triggers": [
+            "trainer",
+            "turn"
+        ],
+        "Targets": [
+            "turn",
+            "course"
+        ]
+    },
+    {
+        "Text": "#G10# As a site visitor, I want to have an advanced search option that lets me fill in a form of search criteria, so that I can quickly find what I am looking for.",
+        "Persona": [
+            "site visitor"
+        ],
+        "Action": [
+            "have"
+        ],
+        "Entity": [
+            "option"
+        ],
+        "Triggers": [
+            "site visitor",
+            "have"
+        ],
+        "Targets": [
+            "have",
+            "option"
+        ]
+    },
+    {
+        "Text": "#G10# As a site visitor, I want to view a course I can click on the trainer's name and be taken to the trainer's profile, so that I can read more about a trainer before registering for a course.",
+        "Persona": [
+            "site visitor"
+        ],
+        "Action": [
+            "view"
+        ],
+        "Entity": [
+            "course"
+        ],
+        "Triggers": [
+            "site visitor",
+            "view"
+        ],
+        "Targets": [
+            "view",
+            "course"
+        ]
+    },
+    {
+        "Text": "#G10# As a site visitor, I want to subscribe to an RSS feed of upcoming courses and events, so that I am up to day without having to visit the site.",
+        "Persona": [
+            "site visitor"
+        ],
+        "Action": [
+            "subscribe"
+        ],
+        "Entity": [
+            "feed"
+        ],
+        "Triggers": [
+            "site visitor",
+            "subscribe"
+        ],
+        "Targets": [
+            "subscribe",
+            "feed"
+        ]
+    },
+    {
+        "Text": "#G10# As a site visitor, I want to read FAQs, so that I can get quick answers.",
+        "Persona": [
+            "site visitor"
+        ],
+        "Action": [
+            "read"
+        ],
+        "Entity": [
+            "FAQs"
+        ],
+        "Triggers": [
+            "site visitor",
+            "read"
+        ],
+        "Targets": [
+            "read",
+            "FAQs"
+        ]
+    },
+    {
+        "Text": "#G10# As a site editor, I want to maintain a FAQ section, so that support gets fewer easily answered questions.",
+        "Persona": [
+            "site editor"
+        ],
+        "Action": [
+            "maintain"
+        ],
+        "Entity": [
+            "section"
+        ],
+        "Triggers": [
+            "site editor",
+            "maintain"
+        ],
+        "Targets": [
+            "maintain",
+            "section"
+        ]
+    },
+    {
+        "Text": "#G10# As a site visitor, I want to do a full-text search of the FAQs, so that I can find an answer quickly.",
+        "Persona": [
+            "site visitor"
+        ],
+        "Action": [
+            "do"
+        ],
+        "Entity": [
+            "search"
+        ],
+        "Triggers": [
+            "site visitor",
+            "do"
+        ],
+        "Targets": [
+            "do",
+            "search"
+        ]
+    },
+    {
+        "Text": "#G10# As a site member, I want to download the latest training material and methodology PDFs, so that I have them.",
+        "Persona": [
+            "site member"
+        ],
+        "Action": [
+            "download"
+        ],
+        "Entity": [
+            "PDFs"
+        ],
+        "Triggers": [
+            "site member",
+            "download"
+        ],
+        "Targets": [
+            "download",
+            "PDFs"
+        ]
+    },
+    {
+        "Text": "#G10# As a visitor, I want to download presentations, PDFs, etc. on Scrum, so that I can learn from them or use them.",
+        "Persona": [
+            "visitor"
+        ],
+        "Action": [
+            "download"
+        ],
+        "Entity": [
+            "PDFs"
+        ],
+        "Triggers": [
+            "visitor",
+            "download"
+        ],
+        "Targets": [
+            "download",
+            "PDFs"
+        ]
+    },
+    {
+        "Text": "#G10# As a site member, I want to scroll through a listing of jobs, so that I can see if there any I am interested in.",
+        "Persona": [
+            "site member"
+        ],
+        "Action": [
+            "scroll"
+        ],
+        "Entity": [
+            "listing"
+        ],
+        "Triggers": [
+            "site member",
+            "scroll"
+        ],
+        "Targets": [
+            "scroll",
+            "listing"
+        ]
+    },
+    {
+        "Text": "#G10# As a recruiter, I want to post a help wanted ad, so that I can attract candidates.",
+        "Persona": [
+            "recruiter"
+        ],
+        "Action": [
+            "post"
+        ],
+        "Entity": [
+            "help"
+        ],
+        "Triggers": [
+            "recruiter",
+            "post"
+        ],
+        "Targets": [
+            "post",
+            "help"
+        ]
+    },
+    {
+        "Text": "#G10# As a site admin, I want to approve each help wanted ad before it gets to the site, so that we're sure of the quality of jobs being listed.",
+        "Persona": [
+            "site admin"
+        ],
+        "Action": [
+            "approve"
+        ],
+        "Entity": [
+            "help"
+        ],
+        "Triggers": [
+            "site admin",
+            "approve"
+        ],
+        "Targets": [
+            "approve",
+            "help"
+        ]
+    },
+    {
+        "Text": "#G10# As a site admin, I want to be emailed whenever a job is submitted, so that I am aware of it and can decide if I want to post it.",
+        "Persona": [
+            "site admin"
+        ],
+        "Action": [
+            "emailed"
+        ],
+        "Entity": [
+            "System"
+        ],
+        "Triggers": [
+            "site admin",
+            "emailed"
+        ],
+        "Targets": [
+            "emailed",
+            "System"
+        ]
+    },
+    {
+        "Text": "#G10# As a site member, I want to subscribe to an RSS feed of jobs available, so that I can read them without visiting the site.",
+        "Persona": [
+            "site member"
+        ],
+        "Action": [
+            "subscribe"
+        ],
+        "Entity": [
+            "feed"
+        ],
+        "Triggers": [
+            "site member",
+            "subscribe"
+        ],
+        "Targets": [
+            "subscribe",
+            "feed"
+        ]
+    },
+    {
+        "Text": "#G10# As a site admin, I want to edit and delete help wanted ads, so that I can correct small problems or make sure each ad complies with site guidelines.",
+        "Persona": [
+            "site admin"
+        ],
+        "Action": [
+            "edit"
+        ],
+        "Entity": [
+            "ads"
+        ],
+        "Triggers": [
+            "site admin",
+            "edit"
+        ],
+        "Targets": [
+            "edit",
+            "ads"
+        ]
+    },
+    {
+        "Text": "#G10# As a site admin, I want to stop publishing jobs on the site 30 days after being posted, so that jobs that may have been filled aren't still listed when the hiring party forgets to come back and delete the ad.",
+        "Persona": [
+            "site admin"
+        ],
+        "Action": [
+            "stop"
+        ],
+        "Entity": [
+            "jobs"
+        ],
+        "Triggers": [
+            "site admin",
+            "stop"
+        ],
+        "Targets": [
+            "stop",
+            "jobs"
+        ]
+    },
+    {
+        "Text": "#G10# As a recruiter, I want to be able to extend an ad for another 30 days by visiting the site and updating the posting, so that my ad remains active.",
+        "Persona": [
+            "recruiter"
+        ],
+        "Action": [
+            "extend"
+        ],
+        "Entity": [
+            "ad"
+        ],
+        "Triggers": [
+            "recruiter",
+            "extend"
+        ],
+        "Targets": [
+            "extend",
+            "ad"
+        ]
+    },
+    {
+        "Text": "#G10# As an advertiser, I want to be emailed a reminder seven day before an ad is about to expire, so that I can go extend the ad.",
+        "Persona": [
+            "advertiser"
+        ],
+        "Action": [
+            "emailed"
+        ],
+        "Entity": [
+            "reminder"
+        ],
+        "Triggers": [
+            "advertiser",
+            "emailed"
+        ],
+        "Targets": [
+            "emailed",
+            "reminder"
+        ]
+    },
+    {
+        "Text": "#G10# As a site visitor, I want to read a new article on the front page about once a week, so that I am up on all the latest happenings.",
+        "Persona": [
+            "site visitor"
+        ],
+        "Action": [
+            "read"
+        ],
+        "Entity": [
+            "article"
+        ],
+        "Triggers": [
+            "site visitor",
+            "read"
+        ],
+        "Targets": [
+            "read",
+            "article"
+        ]
+    },
+    {
+        "Text": "#G10# As the site editor, I want to include a teaser with each article, so that site visitors can decide if they want to read the rest.",
+        "Persona": [
+            "site editor"
+        ],
+        "Action": [
+            "include"
+        ],
+        "Entity": [
+            "teaser"
+        ],
+        "Triggers": [
+            "site editor",
+            "include"
+        ],
+        "Targets": [
+            "include",
+            "teaser"
+        ]
+    },
+    {
+        "Text": "#G10# As a site member who has read a teaser on the front page, I want to read the entire article so that I can finish articles that appeal to me.",
+        "Persona": [
+            "site member"
+        ],
+        "Action": [
+            "read"
+        ],
+        "Entity": [
+            "article"
+        ],
+        "Triggers": [
+            "site member",
+            "read"
+        ],
+        "Targets": [
+            "read",
+            "article"
+        ]
+    },
+    {
+        "Text": "#G10# As the site editor, I want to add an article to the site, so that the site has plenty of content.",
+        "Persona": [
+            "site editor"
+        ],
+        "Action": [
+            "add"
+        ],
+        "Entity": [
+            "article"
+        ],
+        "Triggers": [
+            "site editor",
+            "add"
+        ],
+        "Targets": [
+            "add",
+            "article"
+        ]
+    },
+    {
+        "Text": "#G10# As a site editor, I want to set start publishing dates, old article date, and stop publishing dates for articles, so that articles appear only during appropriate periods.",
+        "Persona": [
+            "site editor"
+        ],
+        "Action": [
+            "set"
+        ],
+        "Entity": [
+            "start"
+        ],
+        "Triggers": [
+            "site editor",
+            "set"
+        ],
+        "Targets": [
+            "set",
+            "start"
+        ]
+    },
+    {
+        "Text": "#G10# As a site editor, I want to be able to designate whether or not an ever makes the home page, so that the best content is featured most prominently.",
+        "Persona": [
+            "site editor"
+        ],
+        "Action": [
+            "designate"
+        ],
+        "Entity": [
+            "page"
+        ],
+        "Triggers": [
+            "site editor",
+            "designate"
+        ],
+        "Targets": [
+            "designate",
+            "page"
+        ]
+    },
+    {
+        "Text": "#G10# As the site editor, I want to have pretty good control over how the article, so that articles are visually appealing.",
+        "Persona": [
+            "site editor"
+        ],
+        "Action": [
+            "have"
+        ],
+        "Entity": [
+            "control"
+        ],
+        "Triggers": [
+            "site editor",
+            "have"
+        ],
+        "Targets": [
+            "have",
+            "control"
+        ]
+    },
+    {
+        "Text": "#G10# As a site visitor, I want to click the link from the article teaser to take me directly to the body of the article. not to another teaser setup, so that I can easily finish the article.",
+        "Persona": [
+            "site visitor"
+        ],
+        "Action": [
+            "click"
+        ],
+        "Entity": [
+            "link"
+        ],
+        "Triggers": [
+            "site visitor",
+            "click"
+        ],
+        "Targets": [
+            "click",
+            "link"
+        ]
+    },
+    {
+        "Text": "#G10# As a site editor, I want to be able to indicate whether an article is publicly available or for members only, so that visitors are incentivized to become members.",
+        "Persona": [
+            "site editor"
+        ],
+        "Action": [
+            "indicate"
+        ],
+        "Entity": [
+            "members"
+        ],
+        "Triggers": [
+            "site editor",
+            "indicate"
+        ],
+        "Targets": [
+            "indicate",
+            "members"
+        ]
+    },
+    {
+        "Text": "#G10# As a site visitor, I want to be able to read some of your articles, so that I can learn without first joining the site.",
+        "Persona": [
+            "site visitor"
+        ],
+        "Action": [
+            "read"
+        ],
+        "Entity": [
+            "some"
+        ],
+        "Triggers": [
+            "site visitor",
+            "read"
+        ],
+        "Targets": [
+            "read",
+            "some"
+        ]
+    },
+    {
+        "Text": "#G10# As a site member, I want to have full access to all articles, so that there is a benefit to being a member.",
+        "Persona": [
+            "site member"
+        ],
+        "Action": [
+            "have"
+        ],
+        "Entity": [
+            "access"
+        ],
+        "Triggers": [
+            "site member",
+            "have"
+        ],
+        "Targets": [
+            "have",
+            "access"
+        ]
+    },
+    {
+        "Text": "#G10# As a site visitor, I want to do a full-text search of article body, title, and author name, so that I can find what I want.",
+        "Persona": [
+            "site visitor"
+        ],
+        "Action": [
+            "do"
+        ],
+        "Entity": [
+            "search"
+        ],
+        "Triggers": [
+            "site visitor",
+            "do"
+        ],
+        "Targets": [
+            "do",
+            "search"
+        ]
+    },
+    {
+        "Text": "#G10# As a site visitor, I want to subscribe to an RSS feed of articles, so that I can read them without visiting the site.",
+        "Persona": [
+            "site visitor"
+        ],
+        "Action": [
+            "subscribe"
+        ],
+        "Entity": [
+            "feed"
+        ],
+        "Triggers": [
+            "site visitor",
+            "subscribe"
+        ],
+        "Targets": [
+            "subscribe",
+            "feed"
+        ]
+    },
+    {
+        "Text": "#G10# As a site visitor, I want to post comments about articles, so that others can read them.",
+        "Persona": [
+            "site visitor"
+        ],
+        "Action": [
+            "post"
+        ],
+        "Entity": [
+            "comments"
+        ],
+        "Triggers": [
+            "site visitor",
+            "post"
+        ],
+        "Targets": [
+            "post",
+            "comments"
+        ]
+    },
+    {
+        "Text": "#G10# As a site editor, I want to have a prominent area on the home page where I can put special announcements not necessarily news or articles, so that I can give them additional exposure.",
+        "Persona": [
+            "site editor"
+        ],
+        "Action": [
+            "have"
+        ],
+        "Entity": [
+            "area"
+        ],
+        "Triggers": [
+            "site editor",
+            "have"
+        ],
+        "Targets": [
+            "have",
+            "area"
+        ]
+    },
+    {
+        "Text": "#G10# As a site editor, I want to have some flexibility as to where things appear, so that I can accommodate different types of content.",
+        "Persona": [
+            "site editor"
+        ],
+        "Action": [
+            "have"
+        ],
+        "Entity": [
+            "flexibility"
+        ],
+        "Triggers": [
+            "site editor",
+            "have"
+        ],
+        "Targets": [
+            "have",
+            "flexibility"
+        ]
+    },
+    {
+        "Text": "#G10# As a trainer, I want to see the upcoming courses are what I want visitors to notice, so that they register and there's a benefit to my membership.",
+        "Persona": [
+            "trainer"
+        ],
+        "Action": [
+            "see"
+        ],
+        "Entity": [
+            "what"
+        ],
+        "Triggers": [
+            "trainer",
+            "see"
+        ],
+        "Targets": [
+            "see",
+            "what"
+        ]
+    },
+    {
+        "Text": "#G10# As a site visitor, I want to see new content when I come to the site, so that I come back more often.",
+        "Persona": [
+            "site visitor"
+        ],
+        "Action": [
+            "see"
+        ],
+        "Entity": [
+            "content"
+        ],
+        "Triggers": [
+            "site visitor",
+            "see"
+        ],
+        "Targets": [
+            "see",
+            "content"
+        ]
+    },
+    {
+        "Text": "#G10# As a site visitor, I want to have articles that interest me and are easy to get to, so that I come to the site for my agile news and learning.",
+        "Persona": [
+            "site visitor"
+        ],
+        "Action": [
+            "have"
+        ],
+        "Entity": [
+            "articles"
+        ],
+        "Triggers": [
+            "site visitor",
+            "have"
+        ],
+        "Targets": [
+            "have",
+            "articles"
+        ]
+    },
+    {
+        "Text": "#G10# As a site visitor, I want to know as soon as I visit what on earth Scrum is and why it needs an alliance, so that I don't bounce immediately oï¬€ the page.",
+        "Persona": [
+            "site visitor"
+        ],
+        "Action": [
+            "know"
+        ],
+        "Entity": [
+            "alliance"
+        ],
+        "Triggers": [
+            "site visitor",
+            "know"
+        ],
+        "Targets": [
+            "know",
+            "alliance"
+        ]
+    },
+    {
+        "Text": "#G10# As a site visitor, I want to know as I glance around the home page what on earth a CSM is and why I'd want to be one, so that I read more.",
+        "Persona": [
+            "site visitor"
+        ],
+        "Action": [
+            "know"
+        ],
+        "Entity": [
+            "page"
+        ],
+        "Triggers": [
+            "site visitor",
+            "know"
+        ],
+        "Targets": [
+            "know",
+            "page"
+        ]
+    },
+    {
+        "Text": "#G10# As a site visitor, I want to be able to get back to the home page quickly and easily, so that I don't get lost navigating.",
+        "Persona": [
+            "site visitor"
+        ],
+        "Action": [
+            "get"
+        ],
+        "Entity": [
+            "page"
+        ],
+        "Triggers": [
+            "site visitor",
+            "get"
+        ],
+        "Targets": [
+            "get",
+            "page"
+        ]
+    },
+    {
+        "Text": "#G10# As a site visitor, I want to see a list of the most popular items on the site, so that I am most likely to read the most important or best content.",
+        "Persona": [
+            "site visitor"
+        ],
+        "Action": [
+            "see"
+        ],
+        "Entity": [
+            "list"
+        ],
+        "Triggers": [
+            "site visitor",
+            "see"
+        ],
+        "Targets": [
+            "see",
+            "list"
+        ]
+    },
+    {
+        "Text": "#G10# As a trainer, I want to be assured that no one can submit the same answers multiple time and skew my results, so that my ratings are accurate.",
+        "Persona": [
+            "trainer"
+        ],
+        "Action": [
+            "assured"
+        ],
+        "Entity": [
+            "answers"
+        ],
+        "Triggers": [
+            "trainer",
+            "assured"
+        ],
+        "Targets": [
+            "assured",
+            "answers"
+        ]
+    },
+    {
+        "Text": "#G10# As a trainer, I want to be notified about the results of surveys about my classes, so that I can read them.",
+        "Persona": [
+            "trainer"
+        ],
+        "Action": [
+            "notified"
+        ],
+        "Entity": [
+            "results"
+        ],
+        "Triggers": [
+            "trainer",
+            "notified"
+        ],
+        "Targets": [
+            "notified",
+            "results"
+        ]
+    },
+    {
+        "Text": "#G10# As a site admin, I want to see the results for each trainer and averages for the class, so that I can identify any outliers or possible problems.",
+        "Persona": [
+            "site admin"
+        ],
+        "Action": [
+            "see"
+        ],
+        "Entity": [
+            "results"
+        ],
+        "Triggers": [
+            "site admin",
+            "see"
+        ],
+        "Targets": [
+            "see",
+            "results"
+        ]
+    },
+    {
+        "Text": "#G10# As a site visitor, I want to see a trainer's rating, so that I choose a course from an appropriate trainer.",
+        "Persona": [
+            "site visitor"
+        ],
+        "Action": [
+            "see"
+        ],
+        "Entity": [
+            "rating"
+        ],
+        "Triggers": [
+            "site visitor",
+            "see"
+        ],
+        "Targets": [
+            "see",
+            "rating"
+        ]
+    },
+    {
+        "Text": "#G10# As a trainer, I want to show my rating up on my profile page, so that site visitors can choose wisely.",
+        "Persona": [
+            "trainer"
+        ],
+        "Action": [
+            "show"
+        ],
+        "Entity": [
+            "rating"
+        ],
+        "Triggers": [
+            "trainer",
+            "show"
+        ],
+        "Targets": [
+            "show",
+            "rating"
+        ]
+    },
+    {
+        "Text": "#G10# As a site visitor, I want to view a section of the website that teaches me the basics of what Scrum is, so that I can learn that quickly.",
+        "Persona": [
+            "site visitor"
+        ],
+        "Action": [
+            "view"
+        ],
+        "Entity": [
+            "section"
+        ],
+        "Triggers": [
+            "site visitor",
+            "view"
+        ],
+        "Targets": [
+            "view",
+            "section"
+        ]
+    },
+    {
+        "Text": "#G10# As a site editor, I want to create the content of the What Is Scrum section, so that it's there for visitors.",
+        "Persona": [
+            "site editor"
+        ],
+        "Action": [
+            "create"
+        ],
+        "Entity": [
+            "content"
+        ],
+        "Triggers": [
+            "site editor",
+            "create"
+        ],
+        "Targets": [
+            "create",
+            "content"
+        ]
+    },
+    {
+        "Text": "#G10# As a site visitor, I want to view lists on the site of all Certified Scrum Masters, Practitioners, Trainers, and Certified Scrum Product Owners.",
+        "Persona": [
+            "site visitor"
+        ],
+        "Action": [
+            "view"
+        ],
+        "Entity": [
+            "lists"
+        ],
+        "Triggers": [
+            "site visitor",
+            "view"
+        ],
+        "Targets": [
+            "view",
+            "lists"
+        ]
+    },
+    {
+        "Text": "#G10# As a CSM, I want to have my name listed in the registry without becoming a member of the site, so that employers or others can verify my certification.",
+        "Persona": [
+            "CSM"
+        ],
+        "Action": [
+            "have"
+        ],
+        "Entity": [
+            "name"
+        ],
+        "Triggers": [
+            "CSM",
+            "have"
+        ],
+        "Targets": [
+            "have",
+            "name"
+        ]
+    },
+    {
+        "Text": "#G10# As a trainer, I want to load an Excel file into the site, so that the course participants are added to the Scrum Alliance records.",
+        "Persona": [
+            "trainer"
+        ],
+        "Action": [
+            "load"
+        ],
+        "Entity": [
+            "file"
+        ],
+        "Triggers": [
+            "trainer",
+            "load"
+        ],
+        "Targets": [
+            "load",
+            "file"
+        ]
+    },
+    {
+        "Text": "#G10# As a site admin, I want to view all classes in a pending state, so that I can approve any that need to be approved.",
+        "Persona": [
+            "site admin"
+        ],
+        "Action": [
+            "view"
+        ],
+        "Entity": [
+            "classes"
+        ],
+        "Triggers": [
+            "site admin",
+            "view"
+        ],
+        "Targets": [
+            "view",
+            "classes"
+        ]
+    },
+    {
+        "Text": "#G10# As a site admin, I want to move people in a trainer's class from a pending state to the registry once I have received proof of payment from the trainer.",
+        "Persona": [
+            "site admin"
+        ],
+        "Action": [
+            "move"
+        ],
+        "Entity": [
+            "people"
+        ],
+        "Triggers": [
+            "site admin",
+            "move"
+        ],
+        "Targets": [
+            "move",
+            "people"
+        ]
+    },
+    {
+        "Text": "#G10# As a CSM, I want to be sent an email welcoming me to the Scrum Alliance and with instructions to register or activate my membership once my name has been loaded to the registry.",
+        "Persona": [
+            "CSM"
+        ],
+        "Action": [
+            "sent"
+        ],
+        "Entity": [
+            "email"
+        ],
+        "Triggers": [
+            "CSM",
+            "sent"
+        ],
+        "Targets": [
+            "sent",
+            "email"
+        ]
+    },
+    {
+        "Text": "#G10# As a site editor, I want to edit the content of the email automatically sent to new Certified Scrum Masters and Product Owners, so that I don't need to involve a programmer on simple email edits.",
+        "Persona": [
+            "site editor"
+        ],
+        "Action": [
+            "edit"
+        ],
+        "Entity": [
+            "content"
+        ],
+        "Triggers": [
+            "site editor",
+            "edit"
+        ],
+        "Targets": [
+            "edit",
+            "content"
+        ]
+    },
+    {
+        "Text": "#G10# As a company, I want to join the Scrum Alliance by paying a corporate membership fee, so that I can show the company's support of Scrum.",
+        "Persona": [
+            "company"
+        ],
+        "Action": [
+            "join"
+        ],
+        "Entity": [
+            "Alliance"
+        ],
+        "Triggers": [
+            "company",
+            "join"
+        ],
+        "Targets": [
+            "join",
+            "Alliance"
+        ]
+    },
+    {
+        "Text": "#G10# As a corporatesponsor, I want to display my logo on a corporate sponsors page, so that others see the company's support of Scrum.",
+        "Persona": [
+            "corporatesponsor"
+        ],
+        "Action": [
+            "display"
+        ],
+        "Entity": [
+            "logo"
+        ],
+        "Triggers": [
+            "corporatesponsor",
+            "display"
+        ],
+        "Targets": [
+            "display",
+            "logo"
+        ]
+    },
+    {
+        "Text": "#G10# As a corporatesponsor, I want to make my logo randomly appear on the home page, so that others see the company's support of Scrum.",
+        "Persona": [
+            "corporatesponsor"
+        ],
+        "Action": [
+            "make"
+        ],
+        "Entity": [
+            "page"
+        ],
+        "Triggers": [
+            "corporatesponsor",
+            "make"
+        ],
+        "Targets": [
+            "make",
+            "page"
+        ]
+    },
+    {
+        "Text": "#G10# As a CSM, I want to be charged a fee once I am approved for Practitioner status, so that my certification status can be activated.",
+        "Persona": [
+            "CSM"
+        ],
+        "Action": [
+            "charged"
+        ],
+        "Entity": [
+            "fee"
+        ],
+        "Triggers": [
+            "CSM",
+            "charged"
+        ],
+        "Targets": [
+            "charged",
+            "fee"
+        ]
+    },
+    {
+        "Text": "#G10# As a CST, I want to pay an annual fee, so that my CST status is active.",
+        "Persona": [
+            "CST"
+        ],
+        "Action": [
+            "pay"
+        ],
+        "Entity": [
+            "fee"
+        ],
+        "Triggers": [
+            "CST",
+            "pay"
+        ],
+        "Targets": [
+            "pay",
+            "fee"
+        ]
+    },
+    {
+        "Text": "#G10# As a site administrator, I want to set the annual fees for members, Practitioners and Trainers, so that fees can be set without involving a programmer.",
+        "Persona": [
+            "site administrator"
+        ],
+        "Action": [
+            "set"
+        ],
+        "Entity": [
+            "fees"
+        ],
+        "Triggers": [
+            "site administrator",
+            "set"
+        ],
+        "Targets": [
+            "set",
+            "fees"
+        ]
+    },
+    {
+        "Text": "#G10# As a member, I want to receive a reminder and a link, so that I can renew my membership.",
+        "Persona": [
+            "member"
+        ],
+        "Action": [
+            "receive"
+        ],
+        "Entity": [
+            "reminder"
+        ],
+        "Triggers": [
+            "member",
+            "receive"
+        ],
+        "Targets": [
+            "receive",
+            "reminder"
+        ]
+    },
+    {
+        "Text": "#G10# As a member, I want to have the system email me a new password or a password reminder since i have short-term memory problems.",
+        "Persona": [
+            "member"
+        ],
+        "Action": [
+            "have"
+        ],
+        "Entity": [
+            "password"
+        ],
+        "Triggers": [
+            "member",
+            "have"
+        ],
+        "Targets": [
+            "have",
+            "password"
+        ]
+    },
+    {
+        "Text": "#G10# As a trainer, I want to read information of relevance only to trainers, so that the Scrum Alliance can share information with me easily.",
+        "Persona": [
+            "trainer"
+        ],
+        "Action": [
+            "read"
+        ],
+        "Entity": [
+            "information"
+        ],
+        "Triggers": [
+            "trainer",
+            "read"
+        ],
+        "Targets": [
+            "read",
+            "information"
+        ]
+    },
+    {
+        "Text": "#G10# As a site editor, I want to post information in a trainers-only section, so that only trainers see it.",
+        "Persona": [
+            "site editor"
+        ],
+        "Action": [
+            "post"
+        ],
+        "Entity": [
+            "information"
+        ],
+        "Triggers": [
+            "site editor",
+            "post"
+        ],
+        "Targets": [
+            "post",
+            "information"
+        ]
+    }
+]

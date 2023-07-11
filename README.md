@@ -76,4 +76,4 @@
 
 ### Submitted
 
-2. _Extracting Domain Models from Textual Requirements in the Era of Large Language Models_. Sathurshan Arulmohan, Marie-Jean Meurs, and Sébastien Mosser. _Submitted to the 5th Workshop on Artificial Intelligence and Model-driven Engineering, co-located with MODELS'2023_.
+1. _Extracting Domain Models from Textual Requirements in the Era of Large Language Models_. Sathurshan Arulmohan, Marie-Jean Meurs, and Sébastien Mosser. _Submitted to the 5th Workshop on Artificial Intelligence and Model-driven Engineering, co-located with MODELS'2023_.

@@ -1,0 +1,1962 @@
+[
+    {
+        "Text": "#G26# As an archivist, I want to apply a license or rights statement, so that I know what I can do with a file.",
+        "Persona": [
+            "archivist"
+        ],
+        "Action": [
+            "apply"
+        ],
+        "Entity": [
+            "statement"
+        ],
+        "Triggers": [
+            "archivist",
+            "apply"
+        ],
+        "Targets": [
+            "apply",
+            "statement"
+        ]
+    },
+    {
+        "Text": "#G26# As an archivist, I want to mark individual files as restricted, so that they don't get shared by mistake.",
+        "Persona": [
+            "archivist"
+        ],
+        "Action": [
+            "mark"
+        ],
+        "Entity": [
+            "files"
+        ],
+        "Triggers": [
+            "archivist",
+            "mark"
+        ],
+        "Targets": [
+            "mark",
+            "files"
+        ]
+    },
+    {
+        "Text": "#G26# As an archivist, I want to mark groups of files as restricted, so that they don't get shared by mistake.",
+        "Persona": [
+            "archivist"
+        ],
+        "Action": [
+            "mark"
+        ],
+        "Entity": [
+            "groups"
+        ],
+        "Triggers": [
+            "archivist",
+            "mark"
+        ],
+        "Targets": [
+            "mark",
+            "groups"
+        ]
+    },
+    {
+        "Text": "#G26# As an archivist, I want to restrict a file from view.",
+        "Persona": [
+            "archivist"
+        ],
+        "Action": [
+            "restrict"
+        ],
+        "Entity": [
+            "file"
+        ],
+        "Triggers": [
+            "archivist",
+            "restrict"
+        ],
+        "Targets": [
+            "restrict",
+            "file"
+        ]
+    },
+    {
+        "Text": "#G26# As an archivist, I want to restrict a group of files from view.",
+        "Persona": [
+            "archivist"
+        ],
+        "Action": [
+            "restrict"
+        ],
+        "Entity": [
+            "group"
+        ],
+        "Triggers": [
+            "archivist",
+            "restrict"
+        ],
+        "Targets": [
+            "restrict",
+            "group"
+        ]
+    },
+    {
+        "Text": "#G26# As an archivist, I want to set a date on which restrictions will be removed from a file, so that that I don't have to update this by hand.",
+        "Persona": [
+            "archivist"
+        ],
+        "Action": [
+            "set"
+        ],
+        "Entity": [
+            "date"
+        ],
+        "Triggers": [
+            "archivist",
+            "set"
+        ],
+        "Targets": [
+            "set",
+            "date"
+        ]
+    },
+    {
+        "Text": "#G26# As an archivist, I want to add restriction end date information to files, so that I can share files when they become open.",
+        "Persona": [
+            "archivist"
+        ],
+        "Action": [
+            "add"
+        ],
+        "Entity": [
+            "information"
+        ],
+        "Triggers": [
+            "archivist",
+            "add"
+        ],
+        "Targets": [
+            "add",
+            "information"
+        ]
+    },
+    {
+        "Text": "#G26# As an archivist, I want to add detailed restrictions to groups of files, so that I know if and how they can be shared.",
+        "Persona": [
+            "archivist"
+        ],
+        "Action": [
+            "add"
+        ],
+        "Entity": [
+            "restrictions"
+        ],
+        "Triggers": [
+            "archivist",
+            "add"
+        ],
+        "Targets": [
+            "add",
+            "restrictions"
+        ]
+    },
+    {
+        "Text": "#G26# As an archivist, I want to restrict access to some files by IP address, so that I can give reading room access only to certain digital files.",
+        "Persona": [
+            "archivist"
+        ],
+        "Action": [
+            "restrict"
+        ],
+        "Entity": [
+            "access"
+        ],
+        "Triggers": [
+            "archivist",
+            "restrict"
+        ],
+        "Targets": [
+            "restrict",
+            "access"
+        ]
+    },
+    {
+        "Text": "#G26# As an archivist, I want to restrict access to certain files by user, so that I can allow donor representatives to see certain files.",
+        "Persona": [
+            "archivist"
+        ],
+        "Action": [
+            "restrict"
+        ],
+        "Entity": [
+            "access"
+        ],
+        "Triggers": [
+            "archivist",
+            "restrict"
+        ],
+        "Targets": [
+            "restrict",
+            "access"
+        ]
+    },
+    {
+        "Text": "#G26# As an archivist, I want to know if a photo has already been scanned, so that I can license it to a researcher.",
+        "Persona": [
+            "archivist"
+        ],
+        "Action": [
+            "know"
+        ],
+        "Entity": [
+            "System"
+        ],
+        "Triggers": [
+            "archivist",
+            "know"
+        ],
+        "Targets": [
+            "know",
+            "System"
+        ]
+    },
+    {
+        "Text": "#G26# As an archivist, I want to select existing rights statuses and statements, so that I can easily create uniform rights statements.",
+        "Persona": [
+            "archivist"
+        ],
+        "Action": [
+            "select"
+        ],
+        "Entity": [
+            "statuses"
+        ],
+        "Triggers": [
+            "archivist",
+            "select"
+        ],
+        "Targets": [
+            "select",
+            "statuses"
+        ]
+    },
+    {
+        "Text": "#G26# As an archivist, I want to redact information in digital files for a period of time, so that I can provide access to non-sensitive portions of a record.",
+        "Persona": [
+            "archivist"
+        ],
+        "Action": [
+            "redact"
+        ],
+        "Entity": [
+            "information"
+        ],
+        "Triggers": [
+            "archivist",
+            "redact"
+        ],
+        "Targets": [
+            "redact",
+            "information"
+        ]
+    },
+    {
+        "Text": "#G26# As an archivist, I want to have an online form for licensing archival material, so that the process is more transparent and some of the back and forth can be eliminated.",
+        "Persona": [
+            "archivist"
+        ],
+        "Action": [
+            "have"
+        ],
+        "Entity": [
+            "form"
+        ],
+        "Triggers": [
+            "archivist",
+            "have"
+        ],
+        "Targets": [
+            "have",
+            "form"
+        ]
+    },
+    {
+        "Text": "#G26# As an archivist, I want to batch edit metadata about files.",
+        "Persona": [
+            "archivist"
+        ],
+        "Action": [
+            "batch"
+        ],
+        "Entity": [
+            "metadata"
+        ],
+        "Triggers": [
+            "archivist",
+            "batch"
+        ],
+        "Targets": [
+            "batch",
+            "metadata"
+        ]
+    },
+    {
+        "Text": "#G26# As an archivist, I want to upload a single file.",
+        "Persona": [
+            "archivist"
+        ],
+        "Action": [
+            "upload"
+        ],
+        "Entity": [
+            "file"
+        ],
+        "Triggers": [
+            "archivist",
+            "upload"
+        ],
+        "Targets": [
+            "upload",
+            "file"
+        ]
+    },
+    {
+        "Text": "#G26# As an archivist, I want to upload groups of files, so that I can save time.",
+        "Persona": [
+            "archivist"
+        ],
+        "Action": [
+            "upload"
+        ],
+        "Entity": [
+            "groups"
+        ],
+        "Triggers": [
+            "archivist",
+            "upload"
+        ],
+        "Targets": [
+            "upload",
+            "groups"
+        ]
+    },
+    {
+        "Text": "#G26# As an archivist, I want to automatically create access copies of files, so that I don't have to do this manually.",
+        "Persona": [
+            "archivist"
+        ],
+        "Action": [
+            "create"
+        ],
+        "Entity": [
+            "copies"
+        ],
+        "Triggers": [
+            "archivist",
+            "create"
+        ],
+        "Targets": [
+            "create",
+            "copies"
+        ]
+    },
+    {
+        "Text": "#G26# As an archivist, I want to automatically generate technical metadata, so that I know the file size.",
+        "Persona": [
+            "archivist"
+        ],
+        "Action": [
+            "generate"
+        ],
+        "Entity": [
+            "metadata"
+        ],
+        "Triggers": [
+            "archivist",
+            "generate"
+        ],
+        "Targets": [
+            "generate",
+            "metadata"
+        ]
+    },
+    {
+        "Text": "#G26# As an assistant archivist, I want to upload and tag staff generated working papers, so that staff and researchers are able to easily access them.",
+        "Persona": [
+            "assistant archivist"
+        ],
+        "Action": [
+            "upload"
+        ],
+        "Entity": [
+            "papers"
+        ],
+        "Triggers": [
+            "assistant archivist",
+            "upload"
+        ],
+        "Targets": [
+            "upload",
+            "papers"
+        ]
+    },
+    {
+        "Text": "#G26# As an archivist, I want to distinguish between digital objects digitized to preservation standards and those created for access purposes only, so that I know whether I should apply preservation actions.",
+        "Persona": [
+            "archivist"
+        ],
+        "Action": [
+            "distinguish"
+        ],
+        "Entity": [
+            "objects"
+        ],
+        "Triggers": [
+            "archivist",
+            "distinguish"
+        ],
+        "Targets": [
+            "distinguish",
+            "objects"
+        ]
+    },
+    {
+        "Text": "#G26# As an archivist, I want to link electronic versions of researchers' publications to citations, so that I can share them with other researchers.",
+        "Persona": [
+            "archivist"
+        ],
+        "Action": [
+            "link"
+        ],
+        "Entity": [
+            "versions"
+        ],
+        "Triggers": [
+            "archivist",
+            "link"
+        ],
+        "Targets": [
+            "link",
+            "versions"
+        ]
+    },
+    {
+        "Text": "#G26# As an archivist, I want to upload scans of images created while answering research requests, so that they can be used again for other research requests.",
+        "Persona": [
+            "archivist"
+        ],
+        "Action": [
+            "upload"
+        ],
+        "Entity": [
+            "scans"
+        ],
+        "Triggers": [
+            "archivist",
+            "upload"
+        ],
+        "Targets": [
+            "upload",
+            "scans"
+        ]
+    },
+    {
+        "Text": "#G26# As an archivist, I want to create quality scans of images and documents, so that they can be reused.",
+        "Persona": [
+            "archivist"
+        ],
+        "Action": [
+            "create"
+        ],
+        "Entity": [
+            "scans"
+        ],
+        "Triggers": [
+            "archivist",
+            "create"
+        ],
+        "Targets": [
+            "create",
+            "scans"
+        ]
+    },
+    {
+        "Text": "#G26# As an archivist, I want to automatically create access derivatives of digital objects, so that I don't have to do this manually.",
+        "Persona": [
+            "archivist"
+        ],
+        "Action": [
+            "create"
+        ],
+        "Entity": [
+            "derivatives"
+        ],
+        "Triggers": [
+            "archivist",
+            "create"
+        ],
+        "Targets": [
+            "create",
+            "derivatives"
+        ]
+    },
+    {
+        "Text": "#G26# As an archivist, I want to automatically assign unique identifiers to material I scan, so that I avoid potential errors.",
+        "Persona": [
+            "archivist"
+        ],
+        "Action": [
+            "assign"
+        ],
+        "Entity": [
+            "identifiers"
+        ],
+        "Triggers": [
+            "archivist",
+            "assign"
+        ],
+        "Targets": [
+            "assign",
+            "identifiers"
+        ]
+    },
+    {
+        "Text": "#G26# As an archivist, I want to automatically embed metadata in file headers, so that I avoid repetitive and easily-forgotten tasks.",
+        "Persona": [
+            "archivist"
+        ],
+        "Action": [
+            "embed"
+        ],
+        "Entity": [
+            "metadata"
+        ],
+        "Triggers": [
+            "archivist",
+            "embed"
+        ],
+        "Targets": [
+            "embed",
+            "metadata"
+        ]
+    },
+    {
+        "Text": "#G26# As an archivist, I want to rotate images, so that I can orient them correctly.",
+        "Persona": [
+            "archivist"
+        ],
+        "Action": [
+            "rotate"
+        ],
+        "Entity": [
+            "images"
+        ],
+        "Triggers": [
+            "archivist",
+            "rotate"
+        ],
+        "Targets": [
+            "rotate",
+            "images"
+        ]
+    },
+    {
+        "Text": "#G26# As an archivist, I want to apply automatic contrast and level operations to a scanned file, so that I can eliminate unnecessary work.",
+        "Persona": [
+            "archivist"
+        ],
+        "Action": [
+            "apply"
+        ],
+        "Entity": [
+            "operations"
+        ],
+        "Triggers": [
+            "archivist",
+            "apply"
+        ],
+        "Targets": [
+            "apply",
+            "operations"
+        ]
+    },
+    {
+        "Text": "#G26# As an archivist, I want to perform contrast, level and other manipulations manually, so that I can improve on results from automated tools.",
+        "Persona": [
+            "archivist"
+        ],
+        "Action": [
+            "perform"
+        ],
+        "Entity": [
+            "level"
+        ],
+        "Triggers": [
+            "archivist",
+            "perform"
+        ],
+        "Targets": [
+            "perform",
+            "level"
+        ]
+    },
+    {
+        "Text": "#G26# As a donor representative, I want to supply incremental accruals to new and existing collections, so that material can be transferred on an ongoing basis.",
+        "Persona": [
+            "donor representative"
+        ],
+        "Action": [
+            "supply"
+        ],
+        "Entity": [
+            "accruals"
+        ],
+        "Triggers": [
+            "donor representative",
+            "supply"
+        ],
+        "Targets": [
+            "supply",
+            "accruals"
+        ]
+    },
+    {
+        "Text": "#G26# As an archivist, I want to manage scans of archival material created for educational visits, so that find and refer to them for another visit.",
+        "Persona": [
+            "archivist"
+        ],
+        "Action": [
+            "manage"
+        ],
+        "Entity": [
+            "scans"
+        ],
+        "Triggers": [
+            "archivist",
+            "manage"
+        ],
+        "Targets": [
+            "manage",
+            "scans"
+        ]
+    },
+    {
+        "Text": "#G26# As an archivist, I want to manage loan documentation, including preservation photos, forms and correspondence, so that I can find it easily later.",
+        "Persona": [
+            "archivist"
+        ],
+        "Action": [
+            "manage"
+        ],
+        "Entity": [
+            "documentation"
+        ],
+        "Triggers": [
+            "archivist",
+            "manage"
+        ],
+        "Targets": [
+            "manage",
+            "documentation"
+        ]
+    },
+    {
+        "Text": "#G26# As a researcher, I want to generate structured citation data, so that so I can cite a file in a publication.",
+        "Persona": [
+            "researcher"
+        ],
+        "Action": [
+            "generate"
+        ],
+        "Entity": [
+            "data"
+        ],
+        "Triggers": [
+            "researcher",
+            "generate"
+        ],
+        "Targets": [
+            "generate",
+            "data"
+        ]
+    },
+    {
+        "Text": "#G26# As a researcher, I want to share a link to a file on social media, so that so I can show other people an interesting thing I found.",
+        "Persona": [
+            "researcher"
+        ],
+        "Action": [
+            "share"
+        ],
+        "Entity": [
+            "link"
+        ],
+        "Triggers": [
+            "researcher",
+            "share"
+        ],
+        "Targets": [
+            "share",
+            "link"
+        ]
+    },
+    {
+        "Text": "#G26# As a researcher, I want to understand the copyright status of the image, so that I know if I can use it.",
+        "Persona": [
+            "researcher"
+        ],
+        "Action": [
+            "understand"
+        ],
+        "Entity": [
+            "status"
+        ],
+        "Triggers": [
+            "researcher",
+            "understand"
+        ],
+        "Targets": [
+            "understand",
+            "status"
+        ]
+    },
+    {
+        "Text": "#G26# As a researcher, I want to share reports I've written, so that it is available to staff and researchers.",
+        "Persona": [
+            "researcher"
+        ],
+        "Action": [
+            "share"
+        ],
+        "Entity": [
+            "reports"
+        ],
+        "Triggers": [
+            "researcher",
+            "share"
+        ],
+        "Targets": [
+            "share",
+            "reports"
+        ]
+    },
+    {
+        "Text": "#G26# As a researcher, I want to download a file, so that I can use it for research without having to come to the reading room.",
+        "Persona": [
+            "researcher"
+        ],
+        "Action": [
+            "download"
+        ],
+        "Entity": [
+            "file"
+        ],
+        "Triggers": [
+            "researcher",
+            "download"
+        ],
+        "Targets": [
+            "download",
+            "file"
+        ]
+    },
+    {
+        "Text": "#G26# As a researcher, I want to download reports, so that I can use them in immediate and future in talks and articles.",
+        "Persona": [
+            "researcher"
+        ],
+        "Action": [
+            "download"
+        ],
+        "Entity": [
+            "reports"
+        ],
+        "Triggers": [
+            "researcher",
+            "download"
+        ],
+        "Targets": [
+            "download",
+            "reports"
+        ]
+    },
+    {
+        "Text": "#G26# As a researcher, I want to locate photographs and documents that I can share on social media.",
+        "Persona": [
+            "researcher"
+        ],
+        "Action": [
+            "locate"
+        ],
+        "Entity": [
+            "photographs"
+        ],
+        "Triggers": [
+            "researcher",
+            "locate"
+        ],
+        "Targets": [
+            "locate",
+            "photographs"
+        ]
+    },
+    {
+        "Text": "#G26# As a researcher, I want to request analog versions of digital objects, so that I can view them in the reading room.",
+        "Persona": [
+            "researcher"
+        ],
+        "Action": [
+            "request"
+        ],
+        "Entity": [
+            "versions"
+        ],
+        "Triggers": [
+            "researcher",
+            "request"
+        ],
+        "Targets": [
+            "request",
+            "versions"
+        ]
+    },
+    {
+        "Text": "#G26# As a researcher, I want to order copies of photos, so that I can use them in a publication.",
+        "Persona": [
+            "researcher"
+        ],
+        "Action": [
+            "order"
+        ],
+        "Entity": [
+            "copies"
+        ],
+        "Triggers": [
+            "researcher",
+            "order"
+        ],
+        "Targets": [
+            "order",
+            "copies"
+        ]
+    },
+    {
+        "Text": "#G26# As a researcher, I want to receive a notification if something I request in the reading room or for duplication is already digitized, so that I don't have to put in that request.",
+        "Persona": [
+            "researcher"
+        ],
+        "Action": [
+            "receive"
+        ],
+        "Entity": [
+            "notification"
+        ],
+        "Triggers": [
+            "researcher",
+            "receive"
+        ],
+        "Targets": [
+            "receive",
+            "notification"
+        ]
+    },
+    {
+        "Text": "#G26# As an archivist, I want to make information about rights available to researchers and donors, so that they know what they can do with images.",
+        "Persona": [
+            "archivist"
+        ],
+        "Action": [
+            "make"
+        ],
+        "Entity": [
+            "information"
+        ],
+        "Triggers": [
+            "archivist",
+            "make"
+        ],
+        "Targets": [
+            "make",
+            "information"
+        ]
+    },
+    {
+        "Text": "#G26# As an archivist, I want to ensure that emails sent about specific objects contain accurate citation information, so that I can confirm which object is being referred to.",
+        "Persona": [
+            "archivist"
+        ],
+        "Action": [
+            "ensure"
+        ],
+        "Entity": [
+            "information"
+        ],
+        "Triggers": [
+            "archivist",
+            "ensure"
+        ],
+        "Targets": [
+            "ensure",
+            "information"
+        ]
+    },
+    {
+        "Text": "#G26# As a researcher, I want to stream audio and video files in my web browser.",
+        "Persona": [
+            "researcher"
+        ],
+        "Action": [
+            "stream"
+        ],
+        "Entity": [
+            "files"
+        ],
+        "Triggers": [
+            "researcher",
+            "stream"
+        ],
+        "Targets": [
+            "stream",
+            "files"
+        ]
+    },
+    {
+        "Text": "#G26# As a researcher, I want to export descriptive data in a common format, so that I can use text mining tools on it.",
+        "Persona": [
+            "researcher"
+        ],
+        "Action": [
+            "export"
+        ],
+        "Entity": [
+            "data"
+        ],
+        "Triggers": [
+            "researcher",
+            "export"
+        ],
+        "Targets": [
+            "export",
+            "data"
+        ]
+    },
+    {
+        "Text": "#G26# As an archivist, I want to see what a particular user has downloaded, so that I can track use of assets.",
+        "Persona": [
+            "archivist"
+        ],
+        "Action": [
+            "see"
+        ],
+        "Entity": [
+            "what"
+        ],
+        "Triggers": [
+            "archivist",
+            "see"
+        ],
+        "Targets": [
+            "see",
+            "what"
+        ]
+    },
+    {
+        "Text": "#G26# As an archivist, I want to provide access to digital copies of unprocessed material, so that donors can access things they have given us.",
+        "Persona": [
+            "archivist"
+        ],
+        "Action": [
+            "provide"
+        ],
+        "Entity": [
+            "access"
+        ],
+        "Triggers": [
+            "archivist",
+            "provide"
+        ],
+        "Targets": [
+            "provide",
+            "access"
+        ]
+    },
+    {
+        "Text": "#G26# As an archivist, I want to make as much archival material as possible available for use, so that I can fulfill the RAC's mission.",
+        "Persona": [
+            "archivist"
+        ],
+        "Action": [
+            "make"
+        ],
+        "Entity": [
+            "material"
+        ],
+        "Triggers": [
+            "archivist",
+            "make"
+        ],
+        "Targets": [
+            "make",
+            "material"
+        ]
+    },
+    {
+        "Text": "#G26# As an archivist, I want to use archival content on the RAC website, so that I can integrate our collections into our web presence.",
+        "Persona": [
+            "archivist"
+        ],
+        "Action": [
+            "use"
+        ],
+        "Entity": [
+            "content"
+        ],
+        "Triggers": [
+            "archivist",
+            "use"
+        ],
+        "Targets": [
+            "use",
+            "content"
+        ]
+    },
+    {
+        "Text": "#G26# As a donor representative, I want to access the descriptive information about the images scanned for my institutions needs.",
+        "Persona": [
+            "donor representative"
+        ],
+        "Action": [
+            "access"
+        ],
+        "Entity": [
+            "information"
+        ],
+        "Triggers": [
+            "donor representative",
+            "access"
+        ],
+        "Targets": [
+            "access",
+            "information"
+        ]
+    },
+    {
+        "Text": "#G26# As a donor representative, I want to look at images that have been scanned from my collection, so that so that I can use them in my institutions exhibits, reports etc.",
+        "Persona": [
+            "donor representative"
+        ],
+        "Action": [
+            "look"
+        ],
+        "Entity": [
+            "images"
+        ],
+        "Triggers": [
+            "donor representative",
+            "look"
+        ],
+        "Targets": [
+            "look",
+            "images"
+        ]
+    },
+    {
+        "Text": "#G26# As a researcher, I want to search all files by keyword.",
+        "Persona": [
+            "researcher"
+        ],
+        "Action": [
+            "search"
+        ],
+        "Entity": [
+            "files"
+        ],
+        "Triggers": [
+            "researcher",
+            "search"
+        ],
+        "Targets": [
+            "search",
+            "files"
+        ]
+    },
+    {
+        "Text": "#G26# As a researcher, I want to search by keyword, so that I can learn what already exists digitally and avoid placing additional duplication requests.",
+        "Persona": [
+            "researcher"
+        ],
+        "Action": [
+            "search"
+        ],
+        "Entity": [
+            "keyword"
+        ],
+        "Triggers": [
+            "researcher",
+            "search"
+        ],
+        "Targets": [
+            "search",
+            "keyword"
+        ]
+    },
+    {
+        "Text": "#G26# As a researcher, I want to see common material across collections, so that so I can prepare a comprehensive analysis.",
+        "Persona": [
+            "researcher"
+        ],
+        "Action": [
+            "see"
+        ],
+        "Entity": [
+            "material"
+        ],
+        "Triggers": [
+            "researcher",
+            "see"
+        ],
+        "Targets": [
+            "see",
+            "material"
+        ]
+    },
+    {
+        "Text": "#G26# As a researcher, I want to browse through files in a collection.",
+        "Persona": [
+            "researcher"
+        ],
+        "Action": [
+            "browse"
+        ],
+        "Entity": [
+            "files"
+        ],
+        "Triggers": [
+            "researcher",
+            "browse"
+        ],
+        "Targets": [
+            "browse",
+            "files"
+        ]
+    },
+    {
+        "Text": "#G26# As an archivist, I want to browse through files in a collection.",
+        "Persona": [
+            "archivist"
+        ],
+        "Action": [
+            "browse"
+        ],
+        "Entity": [
+            "files"
+        ],
+        "Triggers": [
+            "archivist",
+            "browse"
+        ],
+        "Targets": [
+            "browse",
+            "files"
+        ]
+    },
+    {
+        "Text": "#G26# As an archivist, I want to search all files by keyword.",
+        "Persona": [
+            "archivist"
+        ],
+        "Action": [
+            "search"
+        ],
+        "Entity": [
+            "files"
+        ],
+        "Triggers": [
+            "archivist",
+            "search"
+        ],
+        "Targets": [
+            "search",
+            "files"
+        ]
+    },
+    {
+        "Text": "#G26# As an archivist, I want to upload inventories, so that our donor representatives have an easier time requesting their material.",
+        "Persona": [
+            "archivist"
+        ],
+        "Action": [
+            "upload"
+        ],
+        "Entity": [
+            "inventories"
+        ],
+        "Triggers": [
+            "archivist",
+            "upload"
+        ],
+        "Targets": [
+            "upload",
+            "inventories"
+        ]
+    },
+    {
+        "Text": "#G26# As an archivist, I want to search by tag, so that it makes finding particular photographs easier.",
+        "Persona": [
+            "archivist"
+        ],
+        "Action": [
+            "search"
+        ],
+        "Entity": [
+            "tag"
+        ],
+        "Triggers": [
+            "archivist",
+            "search"
+        ],
+        "Targets": [
+            "search",
+            "tag"
+        ]
+    },
+    {
+        "Text": "#G26# As an archivist, I want to access the digital files on the X-drive, so that I can use them.",
+        "Persona": [
+            "archivist"
+        ],
+        "Action": [
+            "access"
+        ],
+        "Entity": [
+            "files"
+        ],
+        "Triggers": [
+            "archivist",
+            "access"
+        ],
+        "Targets": [
+            "access",
+            "files"
+        ]
+    },
+    {
+        "Text": "#G26# As an assistant archivist, I want to easily access interdepartmental forms.",
+        "Persona": [
+            "assistant archivist"
+        ],
+        "Action": [
+            "access"
+        ],
+        "Entity": [
+            "forms"
+        ],
+        "Triggers": [
+            "assistant archivist",
+            "access"
+        ],
+        "Targets": [
+            "access",
+            "forms"
+        ]
+    },
+    {
+        "Text": "#G26# As an archivist, I want to have electronic versions of the collection files available for staff use, so that I increase accessibility and I do not lose the original files.",
+        "Persona": [
+            "archivist"
+        ],
+        "Action": [
+            "have"
+        ],
+        "Entity": [
+            "versions"
+        ],
+        "Triggers": [
+            "archivist",
+            "have"
+        ],
+        "Targets": [
+            "have",
+            "versions"
+        ]
+    },
+    {
+        "Text": "#G26# As a researcher, I want to be able to search across photo collection images, so that I can prepare presentations.",
+        "Persona": [
+            "researcher"
+        ],
+        "Action": [
+            "search"
+        ],
+        "Entity": [
+            "images"
+        ],
+        "Triggers": [
+            "researcher",
+            "search"
+        ],
+        "Targets": [
+            "search",
+            "images"
+        ]
+    },
+    {
+        "Text": "#G26# As a researcher, I want to search using structured data, so that I can find everything relevant to my inquiry across collections.",
+        "Persona": [
+            "researcher"
+        ],
+        "Action": [
+            "search"
+        ],
+        "Entity": [
+            "data"
+        ],
+        "Triggers": [
+            "researcher",
+            "search"
+        ],
+        "Targets": [
+            "search",
+            "data"
+        ]
+    },
+    {
+        "Text": "#G26# As a researcher, I want to access tagged working papers, so that my research process is better informed.",
+        "Persona": [
+            "researcher"
+        ],
+        "Action": [
+            "access"
+        ],
+        "Entity": [
+            "papers"
+        ],
+        "Triggers": [
+            "researcher",
+            "access"
+        ],
+        "Targets": [
+            "access",
+            "papers"
+        ]
+    },
+    {
+        "Text": "#G26# As a researcher, I want to access educational outreach materials, so that I can make connections with institutions.",
+        "Persona": [
+            "researcher"
+        ],
+        "Action": [
+            "access"
+        ],
+        "Entity": [
+            "materials"
+        ],
+        "Triggers": [
+            "researcher",
+            "access"
+        ],
+        "Targets": [
+            "access",
+            "materials"
+        ]
+    },
+    {
+        "Text": "#G26# As a researcher, I want to have accurate cross-collection citation information, so that I can find materials again.",
+        "Persona": [
+            "researcher"
+        ],
+        "Action": [
+            "have"
+        ],
+        "Entity": [
+            "information"
+        ],
+        "Triggers": [
+            "researcher",
+            "have"
+        ],
+        "Targets": [
+            "have",
+            "information"
+        ]
+    },
+    {
+        "Text": "#G26# As a researcher, I want to access digitized archival materials without mediation, so that I can decide what, I want to look at.",
+        "Persona": [
+            "researcher"
+        ],
+        "Action": [
+            "access"
+        ],
+        "Entity": [
+            "materials"
+        ],
+        "Triggers": [
+            "researcher",
+            "access"
+        ],
+        "Targets": [
+            "access",
+            "materials"
+        ]
+    },
+    {
+        "Text": "#G26# As an archivist, I want to distinguish between images scanned in color or black and white, so that I know whether or not these images meet publication requirements.",
+        "Persona": [
+            "archivist"
+        ],
+        "Action": [
+            "distinguish"
+        ],
+        "Entity": [
+            "images"
+        ],
+        "Triggers": [
+            "archivist",
+            "distinguish"
+        ],
+        "Targets": [
+            "distinguish",
+            "images"
+        ]
+    },
+    {
+        "Text": "#G26# As a researcher, I want to ask a question about a specific file, so that I can find out more information.",
+        "Persona": [
+            "researcher"
+        ],
+        "Action": [
+            "ask"
+        ],
+        "Entity": [
+            "question"
+        ],
+        "Triggers": [
+            "researcher",
+            "ask"
+        ],
+        "Targets": [
+            "ask",
+            "question"
+        ]
+    },
+    {
+        "Text": "#G26# As a researcher, I want to search OCRed text in all available digitized textual documents, so that I can more efficiently locate digitized documents relevant to my research.",
+        "Persona": [
+            "researcher"
+        ],
+        "Action": [
+            "search"
+        ],
+        "Entity": [
+            "text"
+        ],
+        "Triggers": [
+            "researcher",
+            "search"
+        ],
+        "Targets": [
+            "search",
+            "text"
+        ]
+    },
+    {
+        "Text": "#G26# As a researcher, I want to know the date on which something was digitized, so that I know if it's been digitized since I last looked.",
+        "Persona": [
+            "researcher"
+        ],
+        "Action": [
+            "know"
+        ],
+        "Entity": [
+            "date"
+        ],
+        "Triggers": [
+            "researcher",
+            "know"
+        ],
+        "Targets": [
+            "know",
+            "date"
+        ]
+    },
+    {
+        "Text": "#G26# As a researcher, I want to keyword search across all of an RF program officer's scanned diaries, rather than having to search each scanned diary segment separately, so that I can more efficiently locate diary entries relevant to my research.",
+        "Persona": [
+            "researcher"
+        ],
+        "Action": [
+            "search"
+        ],
+        "Entity": [
+            "segment"
+        ],
+        "Triggers": [
+            "researcher",
+            "search"
+        ],
+        "Targets": [
+            "search",
+            "segment"
+        ]
+    },
+    {
+        "Text": "#G26# As an archivist, I want to access inventories for unprocessed collections, so that I can provide reference services to donors.",
+        "Persona": [
+            "archivist"
+        ],
+        "Action": [
+            "access"
+        ],
+        "Entity": [
+            "inventories"
+        ],
+        "Triggers": [
+            "archivist",
+            "access"
+        ],
+        "Targets": [
+            "access",
+            "inventories"
+        ]
+    },
+    {
+        "Text": "#G26# As a researcher, I want to view thumbnails of photos, so that I can make a selection of which one I want to license.",
+        "Persona": [
+            "researcher"
+        ],
+        "Action": [
+            "view"
+        ],
+        "Entity": [
+            "thumbnails"
+        ],
+        "Triggers": [
+            "researcher",
+            "view"
+        ],
+        "Targets": [
+            "view",
+            "thumbnails"
+        ]
+    },
+    {
+        "Text": "#G26# As a researcher, I want to know when only part of a folder has been digitized, so that I know if I am seeing everything or only a portion.",
+        "Persona": [
+            "researcher"
+        ],
+        "Action": [
+            "know"
+        ],
+        "Entity": [
+            "folder"
+        ],
+        "Triggers": [
+            "researcher",
+            "know"
+        ],
+        "Targets": [
+            "know",
+            "folder"
+        ]
+    },
+    {
+        "Text": "#G26# As a donor representative, I want to see thumbnails of images, so that I can select which one I want.",
+        "Persona": [
+            "donor representative"
+        ],
+        "Action": [
+            "see"
+        ],
+        "Entity": [
+            "thumbnails"
+        ],
+        "Triggers": [
+            "donor representative",
+            "see"
+        ],
+        "Targets": [
+            "see",
+            "thumbnails"
+        ]
+    },
+    {
+        "Text": "#G26# As an researcher, I want to view film clips, so that I can see excerpts of films.",
+        "Persona": [
+            "researcher"
+        ],
+        "Action": [
+            "view"
+        ],
+        "Entity": [
+            "clips"
+        ],
+        "Triggers": [
+            "researcher",
+            "view"
+        ],
+        "Targets": [
+            "view",
+            "clips"
+        ]
+    },
+    {
+        "Text": "#G26# As an archivist, I want to search images by photographer.",
+        "Persona": [
+            "archivist"
+        ],
+        "Action": [
+            "search"
+        ],
+        "Entity": [
+            "images"
+        ],
+        "Triggers": [
+            "archivist",
+            "search"
+        ],
+        "Targets": [
+            "search",
+            "images"
+        ]
+    },
+    {
+        "Text": "#G26# As an archivist, I want to search images by people represented in them.",
+        "Persona": [
+            "archivist"
+        ],
+        "Action": [
+            "search"
+        ],
+        "Entity": [
+            "images"
+        ],
+        "Triggers": [
+            "archivist",
+            "search"
+        ],
+        "Targets": [
+            "search",
+            "images"
+        ]
+    },
+    {
+        "Text": "#G26# As an archivist, I want to search images by place the photo was taken.",
+        "Persona": [
+            "archivist"
+        ],
+        "Action": [
+            "search"
+        ],
+        "Entity": [
+            "images"
+        ],
+        "Triggers": [
+            "archivist",
+            "search"
+        ],
+        "Targets": [
+            "search",
+            "images"
+        ]
+    },
+    {
+        "Text": "#G26# As an archivist, I want to search images by rights.",
+        "Persona": [
+            "archivist"
+        ],
+        "Action": [
+            "search"
+        ],
+        "Entity": [
+            "images"
+        ],
+        "Triggers": [
+            "archivist",
+            "search"
+        ],
+        "Targets": [
+            "search",
+            "images"
+        ]
+    },
+    {
+        "Text": "#G26# As an archivist, I want to search index cards and other non-public finding aids, so that I can provide better research assistance.",
+        "Persona": [
+            "archivist"
+        ],
+        "Action": [
+            "search"
+        ],
+        "Entity": [
+            "cards"
+        ],
+        "Triggers": [
+            "archivist",
+            "search"
+        ],
+        "Targets": [
+            "search",
+            "cards"
+        ]
+    },
+    {
+        "Text": "#G26# As an archivist, I want to view collection files, so that I can gain background information for processing a collection.",
+        "Persona": [
+            "archivist"
+        ],
+        "Action": [
+            "view"
+        ],
+        "Entity": [
+            "files"
+        ],
+        "Triggers": [
+            "archivist",
+            "view"
+        ],
+        "Targets": [
+            "view",
+            "files"
+        ]
+    },
+    {
+        "Text": "#G26# As an archivist, I want to view physical locations for non-archival material, so that I can provide research services to donors.",
+        "Persona": [
+            "archivist"
+        ],
+        "Action": [
+            "view"
+        ],
+        "Entity": [
+            "locations"
+        ],
+        "Triggers": [
+            "archivist",
+            "view"
+        ],
+        "Targets": [
+            "view",
+            "locations"
+        ]
+    },
+    {
+        "Text": "#G26# As an archivist, I want to find files that cannot be made publicly available, so that I can easily access everything that's been digitized.",
+        "Persona": [
+            "archivist"
+        ],
+        "Action": [
+            "find"
+        ],
+        "Entity": [
+            "files"
+        ],
+        "Triggers": [
+            "archivist",
+            "find"
+        ],
+        "Targets": [
+            "find",
+            "files"
+        ]
+    },
+    {
+        "Text": "#G26# As an archivist, I want to access metadata and visual representations of index cards, so that I can use that information to assist researchers.",
+        "Persona": [
+            "archivist"
+        ],
+        "Action": [
+            "access"
+        ],
+        "Entity": [
+            "metadata"
+        ],
+        "Triggers": [
+            "archivist",
+            "access"
+        ],
+        "Targets": [
+            "access",
+            "metadata"
+        ]
+    },
+    {
+        "Text": "#G26# As an archivist, I want to search individual material types.",
+        "Persona": [
+            "archivist"
+        ],
+        "Action": [
+            "search"
+        ],
+        "Entity": [
+            "types"
+        ],
+        "Triggers": [
+            "archivist",
+            "search"
+        ],
+        "Targets": [
+            "search",
+            "types"
+        ]
+    },
+    {
+        "Text": "#G26# As an archivist, I want to search images by uploading an image, so that so I can find images when i don't have any metadata.",
+        "Persona": [
+            "archivist"
+        ],
+        "Action": [
+            "search"
+        ],
+        "Entity": [
+            "images"
+        ],
+        "Triggers": [
+            "archivist",
+            "search"
+        ],
+        "Targets": [
+            "search",
+            "images"
+        ]
+    },
+    {
+        "Text": "#G26# As an administrator, I want to create user groups, so that I can control user permissions.",
+        "Persona": [
+            "administrator"
+        ],
+        "Action": [
+            "create"
+        ],
+        "Entity": [
+            "groups"
+        ],
+        "Triggers": [
+            "administrator",
+            "create"
+        ],
+        "Targets": [
+            "create",
+            "groups"
+        ]
+    },
+    {
+        "Text": "#G26# As an administrator, I want to create user roles, so that I can group users by role.",
+        "Persona": [
+            "administrator"
+        ],
+        "Action": [
+            "create"
+        ],
+        "Entity": [
+            "roles"
+        ],
+        "Triggers": [
+            "administrator",
+            "create"
+        ],
+        "Targets": [
+            "create",
+            "roles"
+        ]
+    },
+    {
+        "Text": "#G26# As an administrator, I want to assign RAC staff to different user groups, so that I can control read/write access.",
+        "Persona": [
+            "administrator"
+        ],
+        "Action": [
+            "assign"
+        ],
+        "Entity": [
+            "staff"
+        ],
+        "Triggers": [
+            "administrator",
+            "assign"
+        ],
+        "Targets": [
+            "assign",
+            "staff"
+        ]
+    },
+    {
+        "Text": "#G26# As an administrator, I want to assign rights to user groups or roles, so that I can control what users can and can't do.",
+        "Persona": [
+            "administrator"
+        ],
+        "Action": [
+            "assign"
+        ],
+        "Entity": [
+            "rights"
+        ],
+        "Triggers": [
+            "administrator",
+            "assign"
+        ],
+        "Targets": [
+            "assign",
+            "rights"
+        ]
+    },
+    {
+        "Text": "#G26# As an administrator, I want to allow users to log in using Active Directory credentials, so that I don't have to manage another set of usernames and passwords.",
+        "Persona": [
+            "administrator"
+        ],
+        "Action": [
+            "allow"
+        ],
+        "Entity": [
+            "credentials"
+        ],
+        "Triggers": [
+            "administrator",
+            "allow"
+        ],
+        "Targets": [
+            "allow",
+            "credentials"
+        ]
+    },
+    {
+        "Text": "#G26# As an administrator, I want to have researchers reset their own passwords, so that I don't have to send passwords in cleartext.",
+        "Persona": [
+            "administrator"
+        ],
+        "Action": [
+            "have"
+        ],
+        "Entity": [
+            "passwords"
+        ],
+        "Triggers": [
+            "administrator",
+            "have"
+        ],
+        "Targets": [
+            "have",
+            "passwords"
+        ]
+    },
+    {
+        "Text": "#G26# As an administrator, I want to limit who can see certain metadata fields, so that I can show or hide things from display based on user groups.",
+        "Persona": [
+            "administrator"
+        ],
+        "Action": [
+            "limit"
+        ],
+        "Entity": [
+            "fields"
+        ],
+        "Triggers": [
+            "administrator",
+            "limit"
+        ],
+        "Targets": [
+            "limit",
+            "fields"
+        ]
+    }
+]

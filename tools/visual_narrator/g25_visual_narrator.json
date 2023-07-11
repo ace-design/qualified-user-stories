@@ -1,0 +1,1942 @@
+[
+    {
+        "Text": "#G25# As a repository manager, I want to know all the collections and objects in the DAMS for which I have custodial responsibility. ",
+        "Persona": [
+            "repository manager"
+        ],
+        "Action": [
+            "know"
+        ],
+        "Entity": [
+            "collections"
+        ],
+        "Triggers": [
+            "repository manager",
+            "know"
+        ],
+        "Targets": [
+            "know",
+            "collections"
+        ]
+    },
+    {
+        "Text": "#G25# As a repository manager, I want to be able to update repository information in one place and be assured updates will be propagated to all relevant places. ",
+        "Persona": [
+            "repository manager"
+        ],
+        "Action": [
+            "update"
+        ],
+        "Entity": [
+            "information"
+        ],
+        "Triggers": [
+            "repository manager",
+            "update"
+        ],
+        "Targets": [
+            "update",
+            "information"
+        ]
+    },
+    {
+        "Text": "#G25# As a repository manager, I want to constrain curatorial access to my units assets to staff members of my unit and to DAMS managers having universal access. ",
+        "Persona": [
+            "repository manager"
+        ],
+        "Action": [
+            "constrain"
+        ],
+        "Entity": [
+            "access"
+        ],
+        "Triggers": [
+            "repository manager",
+            "constrain"
+        ],
+        "Targets": [
+            "constrain",
+            "access"
+        ]
+    },
+    {
+        "Text": "#G25# As a user, I want to list all the collections and objects in the DAMS that belong to a library unit. ",
+        "Persona": [
+            "user"
+        ],
+        "Action": [
+            "list"
+        ],
+        "Entity": [
+            "collections"
+        ],
+        "Triggers": [
+            "user",
+            "list"
+        ],
+        "Targets": [
+            "list",
+            "collections"
+        ]
+    },
+    {
+        "Text": "#G25# As a user, I want to be able to contact repositories. ",
+        "Persona": [
+            "user"
+        ],
+        "Action": [
+            "contact"
+        ],
+        "Entity": [
+            "repositories"
+        ],
+        "Triggers": [
+            "user",
+            "contact"
+        ],
+        "Targets": [
+            "contact",
+            "repositories"
+        ]
+    },
+    {
+        "Text": "#G25# As the DAMS manager, I want to be able to list for browsing all formal collections represented in the DAMS along with the appropriate relationships. ",
+        "Persona": [
+            "DAMS manager"
+        ],
+        "Action": [
+            "list"
+        ],
+        "Entity": [
+            "collections"
+        ],
+        "Triggers": [
+            "DAMS manager",
+            "list"
+        ],
+        "Targets": [
+            "list",
+            "collections"
+        ]
+    },
+    {
+        "Text": "#G25# As a repository manager, I want to know all the collections for which I have curatorial responsibility.",
+        "Persona": [
+            "repository manager"
+        ],
+        "Action": [
+            "know"
+        ],
+        "Entity": [
+            "collections"
+        ],
+        "Triggers": [
+            "repository manager",
+            "know"
+        ],
+        "Targets": [
+            "know",
+            "collections"
+        ]
+    },
+    {
+        "Text": "#G25# As a repository manager, I want to compose collections, limiting the collection to the items sharing the same provenance, limiting the collection to represent a part of a collection have a singular provenance, or assembly a collection from other collections and objects.",
+        "Persona": [
+            "repository manager"
+        ],
+        "Action": [
+            "compose"
+        ],
+        "Entity": [
+            "collections"
+        ],
+        "Triggers": [
+            "repository manager",
+            "compose"
+        ],
+        "Targets": [
+            "compose",
+            "collections"
+        ]
+    },
+    {
+        "Text": "#G25# As a repository manager, I want to say one collection is related to another collection.  ",
+        "Persona": [
+            "repository manager"
+        ],
+        "Action": [
+            "say"
+        ],
+        "Entity": [
+            "collection"
+        ],
+        "Triggers": [
+            "repository manager",
+            "say"
+        ],
+        "Targets": [
+            "say",
+            "collection"
+        ]
+    },
+    {
+        "Text": "#G25# As a repository manager, I want to describe a collection, including its title, it's inclusive / bulk dates, its language(s), and many other aspects.",
+        "Persona": [
+            "repository manager"
+        ],
+        "Action": [
+            "describe"
+        ],
+        "Entity": [
+            "collection"
+        ],
+        "Triggers": [
+            "repository manager",
+            "describe"
+        ],
+        "Targets": [
+            "describe",
+            "collection"
+        ]
+    },
+    {
+        "Text": "#G25# As a repository manager, I want to indicate names related to the collection either as creator, source, or subject. ",
+        "Persona": [
+            "repository manager"
+        ],
+        "Action": [
+            "indicate"
+        ],
+        "Entity": [
+            "names"
+        ],
+        "Triggers": [
+            "repository manager",
+            "indicate"
+        ],
+        "Targets": [
+            "indicate",
+            "names"
+        ]
+    },
+    {
+        "Text": "#G25# As a repository manager, I want to indicate subjects related to the collection. ",
+        "Persona": [
+            "repository manager"
+        ],
+        "Action": [
+            "indicate"
+        ],
+        "Entity": [
+            "subjects"
+        ],
+        "Triggers": [
+            "repository manager",
+            "indicate"
+        ],
+        "Targets": [
+            "indicate",
+            "subjects"
+        ]
+    },
+    {
+        "Text": "#G25# As a repository manager, I want to indicate other descriptions of the collection that are outside the DAMS and of probable importance to users. ",
+        "Persona": [
+            "repository manager"
+        ],
+        "Action": [
+            "indicate"
+        ],
+        "Entity": [
+            "descriptions"
+        ],
+        "Triggers": [
+            "repository manager",
+            "indicate"
+        ],
+        "Targets": [
+            "indicate",
+            "descriptions"
+        ]
+    },
+    {
+        "Text": "#G25# As a repository manager, I want to know all events occurring to a collection. ",
+        "Persona": [
+            "repository manager"
+        ],
+        "Action": [
+            "know"
+        ],
+        "Entity": [
+            "events"
+        ],
+        "Triggers": [
+            "repository manager",
+            "know"
+        ],
+        "Targets": [
+            "know",
+            "events"
+        ]
+    },
+    {
+        "Text": "#G25# As a user, I want to be able to browse by collections in the DAMS. ",
+        "Persona": [
+            "user"
+        ],
+        "Action": [
+            "browse"
+        ],
+        "Entity": [
+            "collections"
+        ],
+        "Triggers": [
+            "user",
+            "browse"
+        ],
+        "Targets": [
+            "browse",
+            "collections"
+        ]
+    },
+    {
+        "Text": "#G25# As a user, I want to be able to limit my search to specified collection(s). ",
+        "Persona": [
+            "user"
+        ],
+        "Action": [
+            "limit"
+        ],
+        "Entity": [
+            "search"
+        ],
+        "Triggers": [
+            "user",
+            "limit"
+        ],
+        "Targets": [
+            "limit",
+            "search"
+        ]
+    },
+    {
+        "Text": "#G25# As repository manager, I want to know all the files belonging to an object. ",
+        "Persona": [
+            "repository manager"
+        ],
+        "Action": [
+            "know"
+        ],
+        "Entity": [
+            "files"
+        ],
+        "Triggers": [
+            "repository manager",
+            "know"
+        ],
+        "Targets": [
+            "know",
+            "files"
+        ]
+    },
+    {
+        "Text": "#G25# As a repository manager, I want to describe an object, including its title, date(s), language(s), and other aspects. ",
+        "Persona": [
+            "repository manager"
+        ],
+        "Action": [
+            "describe"
+        ],
+        "Entity": [
+            "object"
+        ],
+        "Triggers": [
+            "repository manager",
+            "describe"
+        ],
+        "Targets": [
+            "describe",
+            "object"
+        ]
+    },
+    {
+        "Text": "#G25# As a repository manager, I want to indicate names related to an object. ",
+        "Persona": [
+            "repository manager"
+        ],
+        "Action": [
+            "indicate"
+        ],
+        "Entity": [
+            "names"
+        ],
+        "Triggers": [
+            "repository manager",
+            "indicate"
+        ],
+        "Targets": [
+            "indicate",
+            "names"
+        ]
+    },
+    {
+        "Text": "#G25# As a repository manager, I want to indicate subjects that are related to an object. ",
+        "Persona": [
+            "repository manager"
+        ],
+        "Action": [
+            "indicate"
+        ],
+        "Entity": [
+            "subjects"
+        ],
+        "Triggers": [
+            "repository manager",
+            "indicate"
+        ],
+        "Targets": [
+            "indicate",
+            "subjects"
+        ]
+    },
+    {
+        "Text": "#G25# As a repository manager, I want to indicate the copyright status of an object. ",
+        "Persona": [
+            "repository manager"
+        ],
+        "Action": [
+            "indicate"
+        ],
+        "Entity": [
+            "status"
+        ],
+        "Triggers": [
+            "repository manager",
+            "indicate"
+        ],
+        "Targets": [
+            "indicate",
+            "status"
+        ]
+    },
+    {
+        "Text": "#G25# As a repository manager, I want to indicate any statutes pertinent to an object. ",
+        "Persona": [
+            "repository manager"
+        ],
+        "Action": [
+            "indicate"
+        ],
+        "Entity": [
+            "statutes"
+        ],
+        "Triggers": [
+            "repository manager",
+            "indicate"
+        ],
+        "Targets": [
+            "indicate",
+            "statutes"
+        ]
+    },
+    {
+        "Text": "#G25# As a repository manager, I want to indicate any license pertinent to an object. ",
+        "Persona": [
+            "repository manager"
+        ],
+        "Action": [
+            "indicate"
+        ],
+        "Entity": [
+            "object"
+        ],
+        "Triggers": [
+            "repository manager",
+            "indicate"
+        ],
+        "Targets": [
+            "indicate",
+            "object"
+        ]
+    },
+    {
+        "Text": "#G25# As a repository manager, I want to indicate any other rights pertinent to an object. ",
+        "Persona": [
+            "repository manager"
+        ],
+        "Action": [
+            "indicate"
+        ],
+        "Entity": [
+            "rights"
+        ],
+        "Triggers": [
+            "repository manager",
+            "indicate"
+        ],
+        "Targets": [
+            "indicate",
+            "rights"
+        ]
+    },
+    {
+        "Text": "#G25# As a repository manager, I want to indicate any external versions or descriptions of an object that may be of probable importance to an user. ",
+        "Persona": [
+            "repository manager"
+        ],
+        "Action": [
+            "indicate"
+        ],
+        "Entity": [
+            "versions"
+        ],
+        "Triggers": [
+            "repository manager",
+            "indicate"
+        ],
+        "Targets": [
+            "indicate",
+            "versions"
+        ]
+    },
+    {
+        "Text": "#G25# As a repository manager, I want to know all events done to an object over the object's life cycle. ",
+        "Persona": [
+            "repository manager"
+        ],
+        "Action": [
+            "know"
+        ],
+        "Entity": [
+            "object"
+        ],
+        "Triggers": [
+            "repository manager",
+            "know"
+        ],
+        "Targets": [
+            "know",
+            "object"
+        ]
+    },
+    {
+        "Text": "#G25# As a DAMS manager, I want to know what repository an object belongs to. ",
+        "Persona": [
+            "DAMS manager"
+        ],
+        "Action": [
+            "know"
+        ],
+        "Entity": [
+            "System"
+        ],
+        "Triggers": [
+            "DAMS manager",
+            "know"
+        ],
+        "Targets": [
+            "know",
+            "System"
+        ]
+    },
+    {
+        "Text": "#G25# As a DAMS manager I want to know what collection(s) an object belongs to. ",
+        "Persona": [
+            "DAMS manager"
+        ],
+        "Action": [
+            "know"
+        ],
+        "Entity": [
+            "collection"
+        ],
+        "Triggers": [
+            "DAMS manager",
+            "know"
+        ],
+        "Targets": [
+            "know",
+            "collection"
+        ]
+    },
+    {
+        "Text": "#G25# As a user, I want to know what repository an object belongs to. ",
+        "Persona": [
+            "user"
+        ],
+        "Action": [
+            "know"
+        ],
+        "Entity": [
+            "System"
+        ],
+        "Triggers": [
+            "user",
+            "know"
+        ],
+        "Targets": [
+            "know",
+            "System"
+        ]
+    },
+    {
+        "Text": "#G25# As a user, I want to know what collection(s) an object belongs to. ",
+        "Persona": [
+            "user"
+        ],
+        "Action": [
+            "know"
+        ],
+        "Entity": [
+            "collection"
+        ],
+        "Triggers": [
+            "user",
+            "know"
+        ],
+        "Targets": [
+            "know",
+            "collection"
+        ]
+    },
+    {
+        "Text": "#G25# As a user, I want to see all the component parts of an object. ",
+        "Persona": [
+            "user"
+        ],
+        "Action": [
+            "see"
+        ],
+        "Entity": [
+            "parts"
+        ],
+        "Triggers": [
+            "user",
+            "see"
+        ],
+        "Targets": [
+            "see",
+            "parts"
+        ]
+    },
+    {
+        "Text": "#G25# As a user, I want to have access to the content files for an object. ",
+        "Persona": [
+            "user"
+        ],
+        "Action": [
+            "have"
+        ],
+        "Entity": [
+            "access"
+        ],
+        "Triggers": [
+            "user",
+            "have"
+        ],
+        "Targets": [
+            "have",
+            "access"
+        ]
+    },
+    {
+        "Text": "#G25# As a user, I want to know the rights status of an object. ",
+        "Persona": [
+            "user"
+        ],
+        "Action": [
+            "know"
+        ],
+        "Entity": [
+            "status"
+        ],
+        "Triggers": [
+            "user",
+            "know"
+        ],
+        "Targets": [
+            "know",
+            "status"
+        ]
+    },
+    {
+        "Text": "#G25# As a user, I want to know about other versions of the object or its metadata that might be of use to me. ",
+        "Persona": [
+            "user"
+        ],
+        "Action": [
+            "know"
+        ],
+        "Entity": [
+            "versions"
+        ],
+        "Triggers": [
+            "user",
+            "know"
+        ],
+        "Targets": [
+            "know",
+            "versions"
+        ]
+    },
+    {
+        "Text": "#G25# As a repository manager, I want to represent the physical and/or logical structure of an object. ",
+        "Persona": [
+            "repository manager"
+        ],
+        "Action": [
+            "represent"
+        ],
+        "Entity": [
+            "structure"
+        ],
+        "Triggers": [
+            "repository manager",
+            "represent"
+        ],
+        "Targets": [
+            "represent",
+            "structure"
+        ]
+    },
+    {
+        "Text": "#G25# As a repository manager, I want to list all the components, in their appropriate order, for an object. ",
+        "Persona": [
+            "repository manager"
+        ],
+        "Action": [
+            "list"
+        ],
+        "Entity": [
+            "components"
+        ],
+        "Triggers": [
+            "repository manager",
+            "list"
+        ],
+        "Targets": [
+            "list",
+            "components"
+        ]
+    },
+    {
+        "Text": "#G25# As a repository manager, I want to link, when appropriate, a component to another component or to a file. ",
+        "Persona": [
+            "repository manager"
+        ],
+        "Action": [
+            "link"
+        ],
+        "Entity": [
+            "component"
+        ],
+        "Triggers": [
+            "repository manager",
+            "link"
+        ],
+        "Targets": [
+            "link",
+            "component"
+        ]
+    },
+    {
+        "Text": "#G25# As a repository manager, I want to describe each component as necessary, including title, date(s), language(s), and other facets. ",
+        "Persona": [
+            "repository manager"
+        ],
+        "Action": [
+            "describe"
+        ],
+        "Entity": [
+            "component"
+        ],
+        "Triggers": [
+            "repository manager",
+            "describe"
+        ],
+        "Targets": [
+            "describe",
+            "component"
+        ]
+    },
+    {
+        "Text": "#G25# As a repository manager, I want to indicate any name that is pertinent to the component. ",
+        "Persona": [
+            "repository manager"
+        ],
+        "Action": [
+            "indicate"
+        ],
+        "Entity": [
+            "name"
+        ],
+        "Triggers": [
+            "repository manager",
+            "indicate"
+        ],
+        "Targets": [
+            "indicate",
+            "name"
+        ]
+    },
+    {
+        "Text": "#G25# As a repository manager, I want to indicate any subject that is pertinent to the component. ",
+        "Persona": [
+            "repository manager"
+        ],
+        "Action": [
+            "indicate"
+        ],
+        "Entity": [
+            "subject"
+        ],
+        "Triggers": [
+            "repository manager",
+            "indicate"
+        ],
+        "Targets": [
+            "indicate",
+            "subject"
+        ]
+    },
+    {
+        "Text": "#G25# As a repository manager, I want to indicate if the component has a copyright status different than that of of the object as a whole. ",
+        "Persona": [
+            "repository manager"
+        ],
+        "Action": [
+            "indicate"
+        ],
+        "Entity": [
+            "status"
+        ],
+        "Triggers": [
+            "repository manager",
+            "indicate"
+        ],
+        "Targets": [
+            "indicate",
+            "status"
+        ]
+    },
+    {
+        "Text": "#G25# As a repository manager, I want to indicate if a statute pertains to the component, apart from the object as a whole. ",
+        "Persona": [
+            "repository manager"
+        ],
+        "Action": [
+            "indicate"
+        ],
+        "Entity": [
+            "component"
+        ],
+        "Triggers": [
+            "repository manager",
+            "indicate"
+        ],
+        "Targets": [
+            "indicate",
+            "component"
+        ]
+    },
+    {
+        "Text": "#G25# As a repository manager, I want to indicate if a license pertains to the component, apart from the object as a whole. ",
+        "Persona": [
+            "repository manager"
+        ],
+        "Action": [
+            "indicate"
+        ],
+        "Entity": [
+            "component"
+        ],
+        "Triggers": [
+            "repository manager",
+            "indicate"
+        ],
+        "Targets": [
+            "indicate",
+            "component"
+        ]
+    },
+    {
+        "Text": "#G25# As a repository manager, I want to indicate if other rights pertain to the component, apart from the object as a whole. ",
+        "Persona": [
+            "repository manager"
+        ],
+        "Action": [
+            "indicate"
+        ],
+        "Entity": [
+            "component"
+        ],
+        "Triggers": [
+            "repository manager",
+            "indicate"
+        ],
+        "Targets": [
+            "indicate",
+            "component"
+        ]
+    },
+    {
+        "Text": "#G25# As a repository manager, I want to know all events occurring to a component over its life cycle. ",
+        "Persona": [
+            "repository manager"
+        ],
+        "Action": [
+            "know"
+        ],
+        "Entity": [
+            "events"
+        ],
+        "Triggers": [
+            "repository manager",
+            "know"
+        ],
+        "Targets": [
+            "know",
+            "events"
+        ]
+    },
+    {
+        "Text": "#G25# As a DAMS manager, I want to present in their assigned order all components comprising an object. ",
+        "Persona": [
+            "DAMS manager"
+        ],
+        "Action": [
+            "present"
+        ],
+        "Entity": [
+            "components"
+        ],
+        "Triggers": [
+            "DAMS manager",
+            "present"
+        ],
+        "Targets": [
+            "present",
+            "components"
+        ]
+    },
+    {
+        "Text": "#G25# As a user, I want to be able to see and navigate the component hierarchy of an object. ",
+        "Persona": [
+            "user"
+        ],
+        "Action": [
+            "see"
+        ],
+        "Entity": [
+            "hierarchy"
+        ],
+        "Triggers": [
+            "user",
+            "see"
+        ],
+        "Targets": [
+            "see",
+            "hierarchy"
+        ]
+    },
+    {
+        "Text": "#G25# As a repository manager, I want to know all the content files in the DAMS for my repository's objects. ",
+        "Persona": [
+            "repository manager"
+        ],
+        "Action": [
+            "know"
+        ],
+        "Entity": [
+            "files"
+        ],
+        "Triggers": [
+            "repository manager",
+            "know"
+        ],
+        "Targets": [
+            "know",
+            "files"
+        ]
+    },
+    {
+        "Text": "#G25# As a repository manager, I want to associate a content file with either an object or an object component. ",
+        "Persona": [
+            "repository manager"
+        ],
+        "Action": [
+            "associate"
+        ],
+        "Entity": [
+            "file"
+        ],
+        "Triggers": [
+            "repository manager",
+            "associate"
+        ],
+        "Targets": [
+            "associate",
+            "file"
+        ]
+    },
+    {
+        "Text": "#G25# As a repository manager, I want to know any event that occurred to a content file for any of my repository's objects. ",
+        "Persona": [
+            "repository manager"
+        ],
+        "Action": [
+            "know"
+        ],
+        "Entity": [
+            "event"
+        ],
+        "Triggers": [
+            "repository manager",
+            "know"
+        ],
+        "Targets": [
+            "know",
+            "event"
+        ]
+    },
+    {
+        "Text": "#G25# As a DAMS manager, I want to indicate to preservation managers aspects of a master file useful for monitoring its integrity, and impending obsolescence, including file size, creation date, file format and format version. ",
+        "Persona": [
+            "DAMS manager"
+        ],
+        "Action": [
+            "indicate"
+        ],
+        "Entity": [
+            "aspects"
+        ],
+        "Triggers": [
+            "DAMS manager",
+            "indicate"
+        ],
+        "Targets": [
+            "indicate",
+            "aspects"
+        ]
+    },
+    {
+        "Text": "#G25# As a DAMS manager, I want to indicate to preservation managers the checksum and checksum method for each master file for a given object. ",
+        "Persona": [
+            "DAMS manager"
+        ],
+        "Action": [
+            "indicate"
+        ],
+        "Entity": [
+            "method"
+        ],
+        "Triggers": [
+            "DAMS manager",
+            "indicate"
+        ],
+        "Targets": [
+            "indicate",
+            "method"
+        ]
+    },
+    {
+        "Text": "#G25# As a DAMS manager, I want to indicate the source-capture information for a file where it is useful to do so. ",
+        "Persona": [
+            "DAMS manager"
+        ],
+        "Action": [
+            "indicate"
+        ],
+        "Entity": [
+            "information"
+        ],
+        "Triggers": [
+            "DAMS manager",
+            "indicate"
+        ],
+        "Targets": [
+            "indicate",
+            "information"
+        ]
+    },
+    {
+        "Text": "#G25# As a DAMS manager, I want to know, via preservation managers, of any object for which integrity or authenticity is in question or that has been updated to a more current file format. ",
+        "Persona": [
+            "DAMS manager"
+        ],
+        "Action": [
+            "know"
+        ],
+        "Entity": [
+            "managers"
+        ],
+        "Triggers": [
+            "DAMS manager",
+            "know"
+        ],
+        "Targets": [
+            "know",
+            "managers"
+        ]
+    },
+    {
+        "Text": "#G25# As a repository manager, I want to provide a title, in all useful forms, for my repository's collections, objects, and object components. ",
+        "Persona": [
+            "repository manager"
+        ],
+        "Action": [
+            "provide"
+        ],
+        "Entity": [
+            "title"
+        ],
+        "Triggers": [
+            "repository manager",
+            "provide"
+        ],
+        "Targets": [
+            "provide",
+            "title"
+        ]
+    },
+    {
+        "Text": "#G25# As a repository manager, I want to know any changes occurring to titles for repository's collections, objects, and object components. ",
+        "Persona": [
+            "repository manager"
+        ],
+        "Action": [
+            "know"
+        ],
+        "Entity": [
+            "changes"
+        ],
+        "Triggers": [
+            "repository manager",
+            "know"
+        ],
+        "Targets": [
+            "know",
+            "changes"
+        ]
+    },
+    {
+        "Text": "#G25# As a DAMS manager, I want to present collections, objects, and object components by title. ",
+        "Persona": [
+            "DAMS manager"
+        ],
+        "Action": [
+            "present"
+        ],
+        "Entity": [
+            "objects"
+        ],
+        "Triggers": [
+            "DAMS manager",
+            "present"
+        ],
+        "Targets": [
+            "present",
+            "objects"
+        ]
+    },
+    {
+        "Text": "#G25# As a user, I want to search collections, objects, and object components by title. ",
+        "Persona": [
+            "user"
+        ],
+        "Action": [
+            "search"
+        ],
+        "Entity": [
+            "objects"
+        ],
+        "Triggers": [
+            "user",
+            "search"
+        ],
+        "Targets": [
+            "search",
+            "objects"
+        ]
+    },
+    {
+        "Text": "#G25# As a repository manager, I want to indicate for an object or object component the place of publication, the publisher, edition, etc., when pertinent. ",
+        "Persona": [
+            "repository manager"
+        ],
+        "Action": [
+            "indicate"
+        ],
+        "Entity": [
+            "place"
+        ],
+        "Triggers": [
+            "repository manager",
+            "indicate"
+        ],
+        "Targets": [
+            "indicate",
+            "place"
+        ]
+    },
+    {
+        "Text": "#G25# As a repository manager, I want to know of any changes made to the origin Info for an object, including its component parts. ",
+        "Persona": [
+            "repository manager"
+        ],
+        "Action": [
+            "know"
+        ],
+        "Entity": [
+            "changes"
+        ],
+        "Triggers": [
+            "repository manager",
+            "know"
+        ],
+        "Targets": [
+            "know",
+            "changes"
+        ]
+    },
+    {
+        "Text": "#G25# As a user, I want to know for an object or its component parts the place of publication, the publisher, etc.",
+        "Persona": [
+            "user"
+        ],
+        "Action": [
+            "know"
+        ],
+        "Entity": [
+            "place"
+        ],
+        "Triggers": [
+            "user",
+            "know"
+        ],
+        "Targets": [
+            "know",
+            "place"
+        ]
+    },
+    {
+        "Text": "#G25# As a repository manager, I want to describe various facets of a collection, object, or object component that are not addressable via title, date, name, and subject entities. ",
+        "Persona": [
+            "repository manager"
+        ],
+        "Action": [
+            "describe"
+        ],
+        "Entity": [
+            "facets"
+        ],
+        "Triggers": [
+            "repository manager",
+            "describe"
+        ],
+        "Targets": [
+            "describe",
+            "facets"
+        ]
+    },
+    {
+        "Text": "#G25# As a repository manager, I want to know of all modifications made to notes for my repository's collections, objects, or object components. ",
+        "Persona": [
+            "repository manager"
+        ],
+        "Action": [
+            "know"
+        ],
+        "Entity": [
+            "components"
+        ],
+        "Triggers": [
+            "repository manager",
+            "know"
+        ],
+        "Targets": [
+            "know",
+            "components"
+        ]
+    },
+    {
+        "Text": "#G25# As a user, I want to know about various facets of a collection, object, or object component, such as scope and content, various identifiers, conditions governing use/access, etc.  ",
+        "Persona": [
+            "user"
+        ],
+        "Action": [
+            "know"
+        ],
+        "Entity": [
+            "component"
+        ],
+        "Triggers": [
+            "user",
+            "know"
+        ],
+        "Targets": [
+            "know",
+            "component"
+        ]
+    },
+    {
+        "Text": "#G25# As a repository manager, I want to indicate the language(s) for present in a collection, object, or object component. ",
+        "Persona": [
+            "repository manager"
+        ],
+        "Action": [
+            "indicate"
+        ],
+        "Entity": [
+            "language"
+        ],
+        "Triggers": [
+            "repository manager",
+            "indicate"
+        ],
+        "Targets": [
+            "indicate",
+            "language"
+        ]
+    },
+    {
+        "Text": "#G25# As a repository manager, I want to know of any changes made to language(s) indicated for a collection, object, or object component. ",
+        "Persona": [
+            "repository manager"
+        ],
+        "Action": [
+            "know"
+        ],
+        "Entity": [
+            "component"
+        ],
+        "Triggers": [
+            "repository manager",
+            "know"
+        ],
+        "Targets": [
+            "know",
+            "component"
+        ]
+    },
+    {
+        "Text": "#G25# As a user, I want to scope my searches for collections, objects, or object components to a specific language. ",
+        "Persona": [
+            "user"
+        ],
+        "Action": [
+            "scope"
+        ],
+        "Entity": [
+            "searches"
+        ],
+        "Triggers": [
+            "user",
+            "scope"
+        ],
+        "Targets": [
+            "scope",
+            "searches"
+        ]
+    },
+    {
+        "Text": "#G25# As a repository manager, I want to register a name record for each unique identity associated with my repository's collections and objects. ",
+        "Persona": [
+            "repository manager"
+        ],
+        "Action": [
+            "register"
+        ],
+        "Entity": [
+            "record"
+        ],
+        "Triggers": [
+            "repository manager",
+            "register"
+        ],
+        "Targets": [
+            "register",
+            "record"
+        ]
+    },
+    {
+        "Text": "#G25# As a user, I want to search by for collections and objects by name. ",
+        "Persona": [
+            "user"
+        ],
+        "Action": [
+            "search"
+        ],
+        "Entity": [
+            "collections"
+        ],
+        "Triggers": [
+            "user",
+            "search"
+        ],
+        "Targets": [
+            "search",
+            "collections"
+        ]
+    },
+    {
+        "Text": "#G25# As a repository manager, I want to indicate that a name pertinent to a collection, object, or object component has a specific role, such as illustrator, photographer, etc. ",
+        "Persona": [
+            "repository manager"
+        ],
+        "Action": [
+            "indicate"
+        ],
+        "Entity": [
+            "component"
+        ],
+        "Triggers": [
+            "repository manager",
+            "indicate"
+        ],
+        "Targets": [
+            "indicate",
+            "component"
+        ]
+    },
+    {
+        "Text": "#G25# As a user, I want to scope by searches by name to a specific role such as illustrator, photographer, etc. ",
+        "Persona": [
+            "user"
+        ],
+        "Action": [
+            "scope"
+        ],
+        "Entity": [
+            "searches"
+        ],
+        "Triggers": [
+            "user",
+            "scope"
+        ],
+        "Targets": [
+            "scope",
+            "searches"
+        ]
+    },
+    {
+        "Text": "#G25# As a repository manager, I want to indicate all subjects that are pertinent to a collection, object, or object component. ",
+        "Persona": [
+            "repository manager"
+        ],
+        "Action": [
+            "indicate"
+        ],
+        "Entity": [
+            "subjects"
+        ],
+        "Triggers": [
+            "repository manager",
+            "indicate"
+        ],
+        "Targets": [
+            "indicate",
+            "subjects"
+        ]
+    },
+    {
+        "Text": "#G25# As a user, I want to search for collections, objects, and object components by pertinent such headings, including title, topic, genre/form, geographical name, function, occupation, name, cartographics, etc. ",
+        "Persona": [
+            "user"
+        ],
+        "Action": [
+            "search"
+        ],
+        "Entity": [
+            "components"
+        ],
+        "Triggers": [
+            "user",
+            "search"
+        ],
+        "Targets": [
+            "search",
+            "components"
+        ]
+    },
+    {
+        "Text": "#G25# As a repository manager, I want to indicate the geo-coordinates for any resource that believe useful to an end user. ",
+        "Persona": [
+            "repository manager"
+        ],
+        "Action": [
+            "indicate"
+        ],
+        "Entity": [
+            "coordinates"
+        ],
+        "Triggers": [
+            "repository manager",
+            "indicate"
+        ],
+        "Targets": [
+            "indicate",
+            "coordinates"
+        ]
+    },
+    {
+        "Text": "#G25# As a user, I want to see the geographical context of a collection, object, or object component, where pertinent. ",
+        "Persona": [
+            "user"
+        ],
+        "Action": [
+            "see"
+        ],
+        "Entity": [
+            "context"
+        ],
+        "Triggers": [
+            "user",
+            "see"
+        ],
+        "Targets": [
+            "see",
+            "context"
+        ]
+    },
+    {
+        "Text": "#G25# As a repository manager, I want to indicate all other pertinent versions or descriptions of a resource that are external to the DAMS. ",
+        "Persona": [
+            "repository manager"
+        ],
+        "Action": [
+            "indicate"
+        ],
+        "Entity": [
+            "versions"
+        ],
+        "Triggers": [
+            "repository manager",
+            "indicate"
+        ],
+        "Targets": [
+            "indicate",
+            "versions"
+        ]
+    },
+    {
+        "Text": "#G25# As a user, I want to know of all other pertinent versions or descriptions of the resource. ",
+        "Persona": [
+            "user"
+        ],
+        "Action": [
+            "know"
+        ],
+        "Entity": [
+            "versions"
+        ],
+        "Triggers": [
+            "user",
+            "know"
+        ],
+        "Targets": [
+            "know",
+            "versions"
+        ]
+    },
+    {
+        "Text": "#G25# As a repository manager, I want to know if the checksum for any of my repository's content files that have changed.",
+        "Persona": [
+            "repository manager"
+        ],
+        "Action": [
+            "know"
+        ],
+        "Entity": [
+            "any"
+        ],
+        "Triggers": [
+            "repository manager",
+            "know"
+        ],
+        "Targets": [
+            "know",
+            "any"
+        ]
+    },
+    {
+        "Text": "#G25# As a DAMS manager, I want to know, via the preservation manager, of all files for which the checksum has changed since last registered.",
+        "Persona": [
+            "DAMS manager"
+        ],
+        "Action": [
+            "know"
+        ],
+        "Entity": [
+            "manager"
+        ],
+        "Triggers": [
+            "DAMS manager",
+            "know"
+        ],
+        "Targets": [
+            "know",
+            "manager"
+        ]
+    },
+    {
+        "Text": "#G25# As a repository manager, I want to know, where pertinent, the hardware and software used to generate a content file. ",
+        "Persona": [
+            "repository manager"
+        ],
+        "Action": [
+            "know"
+        ],
+        "Entity": [
+            "file"
+        ],
+        "Triggers": [
+            "repository manager",
+            "know"
+        ],
+        "Targets": [
+            "know",
+            "file"
+        ]
+    },
+    {
+        "Text": "#G25# As a DAMS manager, I want to know what objects or object components are still under copyright and cannot be displayed without either a license or incurring risk. ",
+        "Persona": [
+            "DAMS manager"
+        ],
+        "Action": [
+            "know"
+        ],
+        "Entity": [
+            "components"
+        ],
+        "Triggers": [
+            "DAMS manager",
+            "know"
+        ],
+        "Targets": [
+            "know",
+            "components"
+        ]
+    },
+    {
+        "Text": "#G25# As a DAMS manager, I want to know when copyright for an object or object component is likely to expire per jurisdictional copyright statute. ",
+        "Persona": [
+            "DAMS manager"
+        ],
+        "Action": [
+            "know"
+        ],
+        "Entity": [
+            "component"
+        ],
+        "Triggers": [
+            "DAMS manager",
+            "know"
+        ],
+        "Targets": [
+            "know",
+            "component"
+        ]
+    },
+    {
+        "Text": "#G25# As a DAMS manager, I want to know when the copyright status for an object or object component is modified, either manually or automatically. ",
+        "Persona": [
+            "DAMS manager"
+        ],
+        "Action": [
+            "know"
+        ],
+        "Entity": [
+            "component"
+        ],
+        "Triggers": [
+            "DAMS manager",
+            "know"
+        ],
+        "Targets": [
+            "know",
+            "component"
+        ]
+    },
+    {
+        "Text": "#G25# As a user, I want to know if an object or object component is under copyright and, where possible, who the rights holder is. ",
+        "Persona": [
+            "user"
+        ],
+        "Action": [
+            "know"
+        ],
+        "Entity": [
+            "component"
+        ],
+        "Triggers": [
+            "user",
+            "know"
+        ],
+        "Targets": [
+            "know",
+            "component"
+        ]
+    },
+    {
+        "Text": "#G25# As a DAMS manager, I want to know all the statutes pertinent to an object or object component. ",
+        "Persona": [
+            "DAMS manager"
+        ],
+        "Action": [
+            "know"
+        ],
+        "Entity": [
+            "statutes"
+        ],
+        "Triggers": [
+            "DAMS manager",
+            "know"
+        ],
+        "Targets": [
+            "know",
+            "statutes"
+        ]
+    },
+    {
+        "Text": "#G25# As a DAMS manager, I want to know when the pertinence of a statute to a object or object component is scheduled to expire. ",
+        "Persona": [
+            "DAMS manager"
+        ],
+        "Action": [
+            "know"
+        ],
+        "Entity": [
+            "component"
+        ],
+        "Triggers": [
+            "DAMS manager",
+            "know"
+        ],
+        "Targets": [
+            "know",
+            "component"
+        ]
+    },
+    {
+        "Text": "#G25# As a DAMS manager, I want to know when the application of a statute to an object or object component has been modified, either manually or automatically. ",
+        "Persona": [
+            "DAMS manager"
+        ],
+        "Action": [
+            "know"
+        ],
+        "Entity": [
+            "component"
+        ],
+        "Triggers": [
+            "DAMS manager",
+            "know"
+        ],
+        "Targets": [
+            "know",
+            "component"
+        ]
+    },
+    {
+        "Text": "#G25# As a DAMS manager, I want to know if copyrighted content has an applicable license. ",
+        "Persona": [
+            "DAMS manager"
+        ],
+        "Action": [
+            "know"
+        ],
+        "Entity": [
+            "license"
+        ],
+        "Triggers": [
+            "DAMS manager",
+            "know"
+        ],
+        "Targets": [
+            "know",
+            "license"
+        ]
+    },
+    {
+        "Text": "#G25# As a DAMS manager, I want to know if an object or object component is subject to a library policy that restricts access in any way. ",
+        "Persona": [
+            "DAMS manager"
+        ],
+        "Action": [
+            "know"
+        ],
+        "Entity": [
+            "component"
+        ],
+        "Triggers": [
+            "DAMS manager",
+            "know"
+        ],
+        "Targets": [
+            "know",
+            "component"
+        ]
+    },
+    {
+        "Text": "#G25# As a DAMS manager, I want to know when application of a library policy to an object or object component is scheduled to expire. ",
+        "Persona": [
+            "DAMS manager"
+        ],
+        "Action": [
+            "know"
+        ],
+        "Entity": [
+            "policy"
+        ],
+        "Triggers": [
+            "DAMS manager",
+            "know"
+        ],
+        "Targets": [
+            "know",
+            "policy"
+        ]
+    },
+    {
+        "Text": "#G25# As a DAMS manager, I want to know if application of a library policy to an object or object component has been modified, either manually or automatically.",
+        "Persona": [
+            "DAMS manager"
+        ],
+        "Action": [
+            "know"
+        ],
+        "Entity": [
+            "policy"
+        ],
+        "Triggers": [
+            "DAMS manager",
+            "know"
+        ],
+        "Targets": [
+            "know",
+            "policy"
+        ]
+    },
+    {
+        "Text": "#G25# As a DAMS manager, I want to know all the uses for an object or object component that are permitted or restricted per the rights status of the object or object component.",
+        "Persona": [
+            "DAMS manager"
+        ],
+        "Action": [
+            "know"
+        ],
+        "Entity": [
+            "uses"
+        ],
+        "Triggers": [
+            "DAMS manager",
+            "know"
+        ],
+        "Targets": [
+            "know",
+            "uses"
+        ]
+    },
+    {
+        "Text": "#G25# As a DAMS manager, I want to know when permitted and restricted acts and/or their active dates are modified. ",
+        "Persona": [
+            "DAMS manager"
+        ],
+        "Action": [
+            "know"
+        ],
+        "Entity": [
+            "acts"
+        ],
+        "Triggers": [
+            "DAMS manager",
+            "know"
+        ],
+        "Targets": [
+            "know",
+            "acts"
+        ]
+    },
+    {
+        "Text": "#G25# As a DAMS manager, I want to track all events scheduled for recording in the DAMS. ",
+        "Persona": [
+            "DAMS manager"
+        ],
+        "Action": [
+            "track"
+        ],
+        "Entity": [
+            "events"
+        ],
+        "Triggers": [
+            "DAMS manager",
+            "track"
+        ],
+        "Targets": [
+            "track",
+            "events"
+        ]
+    },
+    {
+        "Text": "#G25# As a DAMS manager, I want to know the agent(s) responsible for carrying out an event. ",
+        "Persona": [
+            "DAMS manager"
+        ],
+        "Action": [
+            "know"
+        ],
+        "Entity": [
+            "agent"
+        ],
+        "Triggers": [
+            "DAMS manager",
+            "know"
+        ],
+        "Targets": [
+            "know",
+            "agent"
+        ]
+    },
+    {
+        "Text": "#G25# As a DAMS manager, I want to know when the event occurred. ",
+        "Persona": [
+            "DAMS manager"
+        ],
+        "Action": [
+            "know"
+        ],
+        "Entity": [
+            "System"
+        ],
+        "Triggers": [
+            "DAMS manager",
+            "know"
+        ],
+        "Targets": [
+            "know",
+            "System"
+        ]
+    },
+    {
+        "Text": "#G25# As a DAMS manager, I want to know the outcome of the event, e.g., object NN was deleted. ",
+        "Persona": [
+            "DAMS manager"
+        ],
+        "Action": [
+            "know"
+        ],
+        "Entity": [
+            "outcome"
+        ],
+        "Triggers": [
+            "DAMS manager",
+            "know"
+        ],
+        "Targets": [
+            "know",
+            "outcome"
+        ]
+    }
+]

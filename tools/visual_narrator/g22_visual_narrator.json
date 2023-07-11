@@ -1,0 +1,1602 @@
+[
+    {
+        "Text": "#G22# As a PI, I want to properly record all metadata, so that I can ensure proper running of the project in case of staff changes.",
+        "Persona": [
+            "PI"
+        ],
+        "Action": [
+            "record"
+        ],
+        "Entity": [
+            "metadata"
+        ],
+        "Triggers": [
+            "PI",
+            "record"
+        ],
+        "Targets": [
+            "record",
+            "metadata"
+        ]
+    },
+    {
+        "Text": "#G22# As a researcher, I want to indicate where my data will be stored during the project and where after the project, so that it remains accessible during all stages of the data lifecycle.",
+        "Persona": [
+            "researcher"
+        ],
+        "Action": [
+            "indicate"
+        ],
+        "Entity": [
+            "project"
+        ],
+        "Triggers": [
+            "researcher",
+            "indicate"
+        ],
+        "Targets": [
+            "indicate",
+            "project"
+        ]
+    },
+    {
+        "Text": "#G22# As a researcher, I want to import metadata that I captured with a metadata tool, so that I do not have to capture it again in a DMP.",
+        "Persona": [
+            "researcher"
+        ],
+        "Action": [
+            "import"
+        ],
+        "Entity": [
+            "metadata"
+        ],
+        "Triggers": [
+            "researcher",
+            "import"
+        ],
+        "Targets": [
+            "import",
+            "metadata"
+        ]
+    },
+    {
+        "Text": "#G22# As a data manager, I want to know how the data is used, so that I can develop more detailed usage and support scenarios with researchers.",
+        "Persona": [
+            "data manager"
+        ],
+        "Action": [
+            "know"
+        ],
+        "Entity": [
+            "System"
+        ],
+        "Triggers": [
+            "data manager",
+            "know"
+        ],
+        "Targets": [
+            "know",
+            "System"
+        ]
+    },
+    {
+        "Text": "#G22# As a repository owner, I want to be able to check the planned provenance of the data that will be submitted at the end of a project, so that I can calculate necessary submission fees and check whether it belongs to our target group.",
+        "Persona": [
+            "repository owner"
+        ],
+        "Action": [
+            "check"
+        ],
+        "Entity": [
+            "provenance"
+        ],
+        "Triggers": [
+            "repository owner",
+            "check"
+        ],
+        "Targets": [
+            "check",
+            "provenance"
+        ]
+    },
+    {
+        "Text": "#G22# As an IT manager, I want to know about IT resource requirements early in the project lifecycle, so that I can enable resource acquisition planning.",
+        "Persona": [
+            "IT manager"
+        ],
+        "Action": [
+            "know"
+        ],
+        "Entity": [
+            "requirements"
+        ],
+        "Triggers": [
+            "IT manager",
+            "know"
+        ],
+        "Targets": [
+            "know",
+            "requirements"
+        ]
+    },
+    {
+        "Text": "#G22# As a PI, I want to plan what kind of data I want to record/store, so that I can ensure it will possible to store it.",
+        "Persona": [
+            "PI"
+        ],
+        "Action": [
+            "plan"
+        ],
+        "Entity": [
+            "kind"
+        ],
+        "Triggers": [
+            "PI",
+            "plan"
+        ],
+        "Targets": [
+            "plan",
+            "kind"
+        ]
+    },
+    {
+        "Text": "#G22# As an IT staff member, I want to know the security requirements of the data, so that I know which kind of security measures to apply.",
+        "Persona": [
+            "staff member"
+        ],
+        "Action": [
+            "know"
+        ],
+        "Entity": [
+            "requirements"
+        ],
+        "Triggers": [
+            "staff member",
+            "know"
+        ],
+        "Targets": [
+            "know",
+            "requirements"
+        ]
+    },
+    {
+        "Text": "#G22# As a data manager, I want to have the description of collected data sets that are used or updated throughout the project lifecycle, so that I can ensure the descriptions are current and add detail as the study proceeds.",
+        "Persona": [
+            "data manager"
+        ],
+        "Action": [
+            "have"
+        ],
+        "Entity": [
+            "description"
+        ],
+        "Triggers": [
+            "data manager",
+            "have"
+        ],
+        "Targets": [
+            "have",
+            "description"
+        ]
+    },
+    {
+        "Text": "#G22# As a researcher, I want to know which topics are mandatory and similar in all DMPs, so that I can save time through quickly writing it.",
+        "Persona": [
+            "researcher"
+        ],
+        "Action": [
+            "know"
+        ],
+        "Entity": [
+            "DMPs"
+        ],
+        "Triggers": [
+            "researcher",
+            "know"
+        ],
+        "Targets": [
+            "know",
+            "DMPs"
+        ]
+    },
+    {
+        "Text": "#G22# As a data manager, I want to know what the content of the data is, so that I can decide to which collection or repository the data fits.",
+        "Persona": [
+            "data manager"
+        ],
+        "Action": [
+            "know"
+        ],
+        "Entity": [
+            "data"
+        ],
+        "Triggers": [
+            "data manager",
+            "know"
+        ],
+        "Targets": [
+            "know",
+            "data"
+        ]
+    },
+    {
+        "Text": "#G22# As a PI, I want to record information about my DMP, so that an Ethics Committee can review this for compliance with ethical standards.",
+        "Persona": [
+            "PI"
+        ],
+        "Action": [
+            "record"
+        ],
+        "Entity": [
+            "information"
+        ],
+        "Triggers": [
+            "PI",
+            "record"
+        ],
+        "Targets": [
+            "record",
+            "information"
+        ]
+    },
+    {
+        "Text": "#G22# As a legalofficer, I want to know about data sensitivity, so that I can establish sharing options.",
+        "Persona": [
+            "legalofficer"
+        ],
+        "Action": [
+            "know"
+        ],
+        "Entity": [
+            "sensitivity"
+        ],
+        "Triggers": [
+            "legalofficer",
+            "know"
+        ],
+        "Targets": [
+            "know",
+            "sensitivity"
+        ]
+    },
+    {
+        "Text": "#G22# As a data librarian, I want to extract pointers from the DMP to metadata held in other systems, so that I can import this metadata into a data catalogue.",
+        "Persona": [
+            "data librarian"
+        ],
+        "Action": [
+            "extract"
+        ],
+        "Entity": [
+            "pointers"
+        ],
+        "Triggers": [
+            "data librarian",
+            "extract"
+        ],
+        "Targets": [
+            "extract",
+            "pointers"
+        ]
+    },
+    {
+        "Text": "#G22# As an IT staff member, I want to have an estimate of the produced data volume, so that I can plan the overall storage consumption.",
+        "Persona": [
+            "staff member"
+        ],
+        "Action": [
+            "have"
+        ],
+        "Entity": [
+            "estimate"
+        ],
+        "Triggers": [
+            "staff member",
+            "have"
+        ],
+        "Targets": [
+            "have",
+            "estimate"
+        ]
+    },
+    {
+        "Text": "#G22# As an administrator, I want to know who funded the project and their requirements, so that I can track the funder specific obligations.",
+        "Persona": [
+            "administrator"
+        ],
+        "Action": [
+            "know"
+        ],
+        "Entity": [
+            "project"
+        ],
+        "Triggers": [
+            "administrator",
+            "know"
+        ],
+        "Targets": [
+            "know",
+            "project"
+        ]
+    },
+    {
+        "Text": "#G22# As an archivemanager, I want to know the legal status of data, so that I can apply the legal requirements accordingly.",
+        "Persona": [
+            "archivemanager"
+        ],
+        "Action": [
+            "know"
+        ],
+        "Entity": [
+            "status"
+        ],
+        "Triggers": [
+            "archivemanager",
+            "know"
+        ],
+        "Targets": [
+            "know",
+            "status"
+        ]
+    },
+    {
+        "Text": "#G22# As a data manager, I want to know which kind of data types will be produced or collected, so that I can determine what basic support services and functionalities are required.",
+        "Persona": [
+            "data manager"
+        ],
+        "Action": [
+            "know"
+        ],
+        "Entity": [
+            "types"
+        ],
+        "Triggers": [
+            "data manager",
+            "know"
+        ],
+        "Targets": [
+            "know",
+            "types"
+        ]
+    },
+    {
+        "Text": "#G22# As an IT staff member, I want to know which kind of data types will be produced or collected, so that I can determine what basic support services and functionalities are required.",
+        "Persona": [
+            "staff member"
+        ],
+        "Action": [
+            "know"
+        ],
+        "Entity": [
+            "types"
+        ],
+        "Triggers": [
+            "staff member",
+            "know"
+        ],
+        "Targets": [
+            "know",
+            "types"
+        ]
+    },
+    {
+        "Text": "#G22# As an archivemanager, I want to know in advance the conservation period of data, so that I can better organize the service by adapting the preservation actions.",
+        "Persona": [
+            "archivemanager"
+        ],
+        "Action": [
+            "know"
+        ],
+        "Entity": [
+            "period"
+        ],
+        "Triggers": [
+            "archivemanager",
+            "know"
+        ],
+        "Targets": [
+            "know",
+            "period"
+        ]
+    },
+    {
+        "Text": "#G22# As a data manager, I want to document all rights necessary for managing the data, so that I can curate and preserve the data.",
+        "Persona": [
+            "data manager"
+        ],
+        "Action": [
+            "document"
+        ],
+        "Entity": [
+            "rights"
+        ],
+        "Triggers": [
+            "data manager",
+            "document"
+        ],
+        "Targets": [
+            "document",
+            "rights"
+        ]
+    },
+    {
+        "Text": "#G22# As a data manager, I want to know what the content of the data is, so that I can check whether the necessary expertise for maintaining intellectual reusability is available.",
+        "Persona": [
+            "data manager"
+        ],
+        "Action": [
+            "know"
+        ],
+        "Entity": [
+            "data"
+        ],
+        "Triggers": [
+            "data manager",
+            "know"
+        ],
+        "Targets": [
+            "know",
+            "data"
+        ]
+    },
+    {
+        "Text": "#G22# As a research head, I want to access to the persistent identifiers of datasets provided in the DMP, so that I can check that the DMP has been implemented.",
+        "Persona": [
+            "research head"
+        ],
+        "Action": [
+            "access"
+        ],
+        "Entity": [
+            "identifiers"
+        ],
+        "Triggers": [
+            "research head",
+            "access"
+        ],
+        "Targets": [
+            "access",
+            "identifiers"
+        ]
+    },
+    {
+        "Text": "#G22# As a funder, I want to be able to read the costs for data management from the DMP, so that I can check whether our policies work as intended.",
+        "Persona": [
+            "funder"
+        ],
+        "Action": [
+            "read"
+        ],
+        "Entity": [
+            "costs"
+        ],
+        "Triggers": [
+            "funder",
+            "read"
+        ],
+        "Targets": [
+            "read",
+            "costs"
+        ]
+    },
+    {
+        "Text": "#G22# As a stakeholder, I want to know when the data management plan was created or updated, so that I know how up-to-date the plan is or whether it needs to be updated.",
+        "Persona": [
+            "stakeholder"
+        ],
+        "Action": [
+            "know"
+        ],
+        "Entity": [
+            "System"
+        ],
+        "Triggers": [
+            "stakeholder",
+            "know"
+        ],
+        "Targets": [
+            "know",
+            "System"
+        ]
+    },
+    {
+        "Text": "#G22# As a stakeholder, I want to know who is responsible for the DMP, so that I can ask them about further details.",
+        "Persona": [
+            "stakeholder"
+        ],
+        "Action": [
+            "know"
+        ],
+        "Entity": [
+            "DMP"
+        ],
+        "Triggers": [
+            "stakeholder",
+            "know"
+        ],
+        "Targets": [
+            "know",
+            "DMP"
+        ]
+    },
+    {
+        "Text": "#G22# As a stakeholder, I want to have references to the project proposal, so that I can look up further general information.",
+        "Persona": [
+            "stakeholder"
+        ],
+        "Action": [
+            "have"
+        ],
+        "Entity": [
+            "references"
+        ],
+        "Triggers": [
+            "stakeholder",
+            "have"
+        ],
+        "Targets": [
+            "have",
+            "references"
+        ]
+    },
+    {
+        "Text": "#G22# As a metadata manager, I want to have a short description of project, so that I can be informed about the metadata description.",
+        "Persona": [
+            "metadata manager"
+        ],
+        "Action": [
+            "have"
+        ],
+        "Entity": [
+            "description"
+        ],
+        "Triggers": [
+            "metadata manager",
+            "have"
+        ],
+        "Targets": [
+            "have",
+            "description"
+        ]
+    },
+    {
+        "Text": "#G22# As a rector, I want to know how many data will be stored, so that I can plan long term resources.",
+        "Persona": [
+            "rector"
+        ],
+        "Action": [
+            "know"
+        ],
+        "Entity": [
+            "System"
+        ],
+        "Triggers": [
+            "rector",
+            "know"
+        ],
+        "Targets": [
+            "know",
+            "System"
+        ]
+    },
+    {
+        "Text": "#G22# As a data manager, I want to know the time plan for collecting data, so that I can plan the data management.",
+        "Persona": [
+            "data manager"
+        ],
+        "Action": [
+            "know"
+        ],
+        "Entity": [
+            "plan"
+        ],
+        "Triggers": [
+            "data manager",
+            "know"
+        ],
+        "Targets": [
+            "know",
+            "plan"
+        ]
+    },
+    {
+        "Text": "#G22# As a data librarian, I want to import administrative information regarding a project into DMP, so that I can prepopulate the DMP.",
+        "Persona": [
+            "data librarian"
+        ],
+        "Action": [
+            "import"
+        ],
+        "Entity": [
+            "information"
+        ],
+        "Triggers": [
+            "data librarian",
+            "import"
+        ],
+        "Targets": [
+            "import",
+            "information"
+        ]
+    },
+    {
+        "Text": "#G22# As a manager, I want to know about all resources and services used for the data, so that I can estimate the true cost of the project.",
+        "Persona": [
+            "manager"
+        ],
+        "Action": [
+            "know"
+        ],
+        "Entity": [
+            "resources"
+        ],
+        "Triggers": [
+            "manager",
+            "know"
+        ],
+        "Targets": [
+            "know",
+            "resources"
+        ]
+    },
+    {
+        "Text": "#G22# As an archivemanager, I want to reuse the information regarding file format, so that I can apply automated checks for the file validation.",
+        "Persona": [
+            "archivemanager"
+        ],
+        "Action": [
+            "reuse"
+        ],
+        "Entity": [
+            "information"
+        ],
+        "Triggers": [
+            "archivemanager",
+            "reuse"
+        ],
+        "Targets": [
+            "reuse",
+            "information"
+        ]
+    },
+    {
+        "Text": "#G22# As a researcher, I want to know how many resources are needed during the project, so that I can calculate costs.",
+        "Persona": [
+            "researcher"
+        ],
+        "Action": [
+            "know"
+        ],
+        "Entity": [
+            "project"
+        ],
+        "Triggers": [
+            "researcher",
+            "know"
+        ],
+        "Targets": [
+            "know",
+            "project"
+        ]
+    },
+    {
+        "Text": "#G22# As a researcher, I want to extract the description of the data collected, so that I can reuse it for the writing of a data paper.",
+        "Persona": [
+            "researcher"
+        ],
+        "Action": [
+            "extract"
+        ],
+        "Entity": [
+            "description"
+        ],
+        "Triggers": [
+            "researcher",
+            "extract"
+        ],
+        "Targets": [
+            "extract",
+            "description"
+        ]
+    },
+    {
+        "Text": "#G22# As a researcher, I want to record research publications in the institutional repository or CRIS with DMP records, so that I can generate reports of research output resulting from a project.",
+        "Persona": [
+            "researcher"
+        ],
+        "Action": [
+            "record"
+        ],
+        "Entity": [
+            "publications"
+        ],
+        "Triggers": [
+            "researcher",
+            "record"
+        ],
+        "Targets": [
+            "record",
+            "publications"
+        ]
+    },
+    {
+        "Text": "#G22# As a researcher, I want to link research publications in the institutional repository or CRIS with DMP records, so that I can generate reports of research output resulting from a project.",
+        "Persona": [
+            "researcher"
+        ],
+        "Action": [
+            "link"
+        ],
+        "Entity": [
+            "publications"
+        ],
+        "Triggers": [
+            "researcher",
+            "link"
+        ],
+        "Targets": [
+            "link",
+            "publications"
+        ]
+    },
+    {
+        "Text": "#G22# As a researcher, I want to store agreements relating to third party data used in a project, so that the data can be cited, attributed and used correctly.",
+        "Persona": [
+            "researcher"
+        ],
+        "Action": [
+            "store"
+        ],
+        "Entity": [
+            "agreements"
+        ],
+        "Triggers": [
+            "researcher",
+            "store"
+        ],
+        "Targets": [
+            "store",
+            "agreements"
+        ]
+    },
+    {
+        "Text": "#G22# As an ethics manager, I want to be informed about the data, so that I can check for sensitivity of data.",
+        "Persona": [
+            "ethics manager"
+        ],
+        "Action": [
+            "informed"
+        ],
+        "Entity": [
+            "data"
+        ],
+        "Triggers": [
+            "ethics manager",
+            "informed"
+        ],
+        "Targets": [
+            "informed",
+            "data"
+        ]
+    },
+    {
+        "Text": "#G22# As a repository operator, I want to know about the kind of data, so that I can evaluate the storage size and system.",
+        "Persona": [
+            "repository operator"
+        ],
+        "Action": [
+            "know"
+        ],
+        "Entity": [
+            "kind"
+        ],
+        "Triggers": [
+            "repository operator",
+            "know"
+        ],
+        "Targets": [
+            "know",
+            "kind"
+        ]
+    },
+    {
+        "Text": "#G22# As a researcher, I want to know about costs, so that I can plan my research.",
+        "Persona": [
+            "researcher"
+        ],
+        "Action": [
+            "know"
+        ],
+        "Entity": [
+            "costs"
+        ],
+        "Triggers": [
+            "researcher",
+            "know"
+        ],
+        "Targets": [
+            "know",
+            "costs"
+        ]
+    },
+    {
+        "Text": "#G22# As an IT officer, I want to know how secure data is, so that I can ensure legal compliance.",
+        "Persona": [
+            "IT officer"
+        ],
+        "Action": [
+            "know"
+        ],
+        "Entity": [
+            "System"
+        ],
+        "Triggers": [
+            "IT officer",
+            "know"
+        ],
+        "Targets": [
+            "know",
+            "System"
+        ]
+    },
+    {
+        "Text": "#G22# As a funder, I want to know how secure data is, so that I can ensure legal compliance.",
+        "Persona": [
+            "funder"
+        ],
+        "Action": [
+            "know"
+        ],
+        "Entity": [
+            "System"
+        ],
+        "Triggers": [
+            "funder",
+            "know"
+        ],
+        "Targets": [
+            "know",
+            "System"
+        ]
+    },
+    {
+        "Text": "#G22# As a Research Centre Director, I want to receive regular summary reports of research data, so that I understand trends in data use among staff and postgraduate students.",
+        "Persona": [
+            "Centre Director"
+        ],
+        "Action": [
+            "receive"
+        ],
+        "Entity": [
+            "reports"
+        ],
+        "Triggers": [
+            "Centre Director",
+            "receive"
+        ],
+        "Targets": [
+            "receive",
+            "reports"
+        ]
+    },
+    {
+        "Text": "#G22# As a Postgraduate Convenor, I want to receive regular summary reports of research data, so that I understand trends in data use among staff and postgraduate students.",
+        "Persona": [
+            "Postgraduate Convenor"
+        ],
+        "Action": [
+            "receive"
+        ],
+        "Entity": [
+            "reports"
+        ],
+        "Triggers": [
+            "Postgraduate Convenor",
+            "receive"
+        ],
+        "Targets": [
+            "receive",
+            "reports"
+        ]
+    },
+    {
+        "Text": "#G22# As a research support officer, I want to ensure compliance to the funders’ rules, so that I can ensure all costs will be accepted.",
+        "Persona": [
+            "support officer"
+        ],
+        "Action": [
+            "ensure"
+        ],
+        "Entity": [
+            "compliance"
+        ],
+        "Triggers": [
+            "support officer",
+            "ensure"
+        ],
+        "Targets": [
+            "ensure",
+            "compliance"
+        ]
+    },
+    {
+        "Text": "#G22# As a funder, I want to be able to check all the repositories mentioned in a DMP, so that I can verify whether the project has followed our funding rules.",
+        "Persona": [
+            "funder"
+        ],
+        "Action": [
+            "check"
+        ],
+        "Entity": [
+            "repositories"
+        ],
+        "Triggers": [
+            "funder",
+            "check"
+        ],
+        "Targets": [
+            "check",
+            "repositories"
+        ]
+    },
+    {
+        "Text": "#G22# As a PI, I want to plan what kind of data I want to store, so that I can ensure it will be possible to store it.",
+        "Persona": [
+            "PI"
+        ],
+        "Action": [
+            "plan"
+        ],
+        "Entity": [
+            "kind"
+        ],
+        "Triggers": [
+            "PI",
+            "plan"
+        ],
+        "Targets": [
+            "plan",
+            "kind"
+        ]
+    },
+    {
+        "Text": "#G22# As a PI, I want to know how secure data is, so that I can ensure legal compliance.",
+        "Persona": [
+            "PI"
+        ],
+        "Action": [
+            "know"
+        ],
+        "Entity": [
+            "System"
+        ],
+        "Triggers": [
+            "PI",
+            "know"
+        ],
+        "Targets": [
+            "know",
+            "System"
+        ]
+    },
+    {
+        "Text": "#G22# As a Director of Research Integrity, I want to access reports containing details of research projects in which data are classified as sensitive or highly sensitive, so that I can confirm security protocols are applied to these data.",
+        "Persona": [
+            "Research Integrity"
+        ],
+        "Action": [
+            "access"
+        ],
+        "Entity": [
+            "reports"
+        ],
+        "Triggers": [
+            "Research Integrity",
+            "access"
+        ],
+        "Targets": [
+            "access",
+            "reports"
+        ]
+    },
+    {
+        "Text": "#G22# As an archive, I want to get information about the volume of data to preserve at an early stage, so that I can provide the adequate storage infrastructure.",
+        "Persona": [
+            "archive"
+        ],
+        "Action": [
+            "get"
+        ],
+        "Entity": [
+            "information"
+        ],
+        "Triggers": [
+            "archive",
+            "get"
+        ],
+        "Targets": [
+            "get",
+            "information"
+        ]
+    },
+    {
+        "Text": "#G22# As a researcher, I want to know how long it will take to archive, so that I can plan further steps.",
+        "Persona": [
+            "researcher"
+        ],
+        "Action": [
+            "know"
+        ],
+        "Entity": [
+            "archive"
+        ],
+        "Triggers": [
+            "researcher",
+            "know"
+        ],
+        "Targets": [
+            "know",
+            "archive"
+        ]
+    },
+    {
+        "Text": "#G22# As a data manager, I want to have references to documentation of the data and its creation process, so that the data can be re-used and managed.",
+        "Persona": [
+            "data manager"
+        ],
+        "Action": [
+            "have"
+        ],
+        "Entity": [
+            "references"
+        ],
+        "Triggers": [
+            "data manager",
+            "have"
+        ],
+        "Targets": [
+            "have",
+            "references"
+        ]
+    },
+    {
+        "Text": "#G22# As an archivemanager, I want to make sure that detailed metadata are associated to data so that it will be understandable by future users.",
+        "Persona": [
+            "archivemanager"
+        ],
+        "Action": [
+            "make"
+        ],
+        "Entity": [
+            "data"
+        ],
+        "Triggers": [
+            "archivemanager",
+            "make"
+        ],
+        "Targets": [
+            "make",
+            "data"
+        ]
+    },
+    {
+        "Text": "#G22# As a data manager, I want to know which kind of data types will be produced or collected, so that I can ensure that the necessary technical resources and technical know-how is available.",
+        "Persona": [
+            "data manager"
+        ],
+        "Action": [
+            "know"
+        ],
+        "Entity": [
+            "types"
+        ],
+        "Triggers": [
+            "data manager",
+            "know"
+        ],
+        "Targets": [
+            "know",
+            "types"
+        ]
+    },
+    {
+        "Text": "#G22# As an IT staff member, I want to know which kind of data types will be produced or collected, so that I can ensure that the necessary technical resources and technical know-how is available.",
+        "Persona": [
+            "staff member"
+        ],
+        "Action": [
+            "know"
+        ],
+        "Entity": [
+            "types"
+        ],
+        "Triggers": [
+            "staff member",
+            "know"
+        ],
+        "Targets": [
+            "know",
+            "types"
+        ]
+    },
+    {
+        "Text": "#G22# As an IT staff member, I want to know how the data is used, so that I can determine what kind of basic services and functionalities are required.",
+        "Persona": [
+            "staff member"
+        ],
+        "Action": [
+            "know"
+        ],
+        "Entity": [
+            "System"
+        ],
+        "Triggers": [
+            "staff member",
+            "know"
+        ],
+        "Targets": [
+            "know",
+            "System"
+        ]
+    },
+    {
+        "Text": "#G22# As a data manager, I want to know whether the collected data depends on other data sets from my own or other institutions, so that I can ensure that these dependencies are maintained.",
+        "Persona": [
+            "data manager"
+        ],
+        "Action": [
+            "know"
+        ],
+        "Entity": [
+            "sets"
+        ],
+        "Triggers": [
+            "data manager",
+            "know"
+        ],
+        "Targets": [
+            "know",
+            "sets"
+        ]
+    },
+    {
+        "Text": "#G22# As an IT staff member, I want to know which formats are used, so that I can determine what kind of technical services and functionalities are required.",
+        "Persona": [
+            "staff member"
+        ],
+        "Action": [
+            "know"
+        ],
+        "Entity": [
+            "System"
+        ],
+        "Triggers": [
+            "staff member",
+            "know"
+        ],
+        "Targets": [
+            "know",
+            "System"
+        ]
+    },
+    {
+        "Text": "#G22# As an IT staff member, I want to know with which software or technology the data is produced or used, so that I can determine what kind of technical services and functionalities are required.",
+        "Persona": [
+            "staff member"
+        ],
+        "Action": [
+            "know"
+        ],
+        "Entity": [
+            "which"
+        ],
+        "Triggers": [
+            "staff member",
+            "know"
+        ],
+        "Targets": [
+            "know",
+            "which"
+        ]
+    },
+    {
+        "Text": "#G22# As a data manager, I want to know which information is necessary to re-use the data, so that it can be checked whether all necessary information is available for researchers interested in re-using the data.",
+        "Persona": [
+            "data manager"
+        ],
+        "Action": [
+            "know"
+        ],
+        "Entity": [
+            "data"
+        ],
+        "Triggers": [
+            "data manager",
+            "know"
+        ],
+        "Targets": [
+            "know",
+            "data"
+        ]
+    },
+    {
+        "Text": "#G22# As a data manager, I want to know which formats are used, so that I know what technology or background information might be necessary to use the data.",
+        "Persona": [
+            "data manager"
+        ],
+        "Action": [
+            "know"
+        ],
+        "Entity": [
+            "System"
+        ],
+        "Triggers": [
+            "data manager",
+            "know"
+        ],
+        "Targets": [
+            "know",
+            "System"
+        ]
+    },
+    {
+        "Text": "#G22# As a data manager, I want to know whether the data can be reproduced efficiently, so that I can determine whether and how the data has to be stored.",
+        "Persona": [
+            "data manager"
+        ],
+        "Action": [
+            "know"
+        ],
+        "Entity": [
+            "System"
+        ],
+        "Triggers": [
+            "data manager",
+            "know"
+        ],
+        "Targets": [
+            "know",
+            "System"
+        ]
+    },
+    {
+        "Text": "#G22# As a data manager, I want to know with which software or technology the data is produced or used, so that I know what technology or background information might be necessary to (re-)use the data.",
+        "Persona": [
+            "data manager"
+        ],
+        "Action": [
+            "know"
+        ],
+        "Entity": [
+            "which"
+        ],
+        "Triggers": [
+            "data manager",
+            "know"
+        ],
+        "Targets": [
+            "know",
+            "which"
+        ]
+    },
+    {
+        "Text": "#G22# As a research evaluation manager, I want to ensure all data are quoted correctly with our affiliation, so that they are counted towards our citation counts.",
+        "Persona": [
+            "evaluation manager"
+        ],
+        "Action": [
+            "ensure"
+        ],
+        "Entity": [
+            "affiliation"
+        ],
+        "Triggers": [
+            "evaluation manager",
+            "ensure"
+        ],
+        "Targets": [
+            "ensure",
+            "affiliation"
+        ]
+    },
+    {
+        "Text": "#G22# As an administrator, I want to check that all data has the appropriate security level, so that I can demonstrate compliance.",
+        "Persona": [
+            "administrator"
+        ],
+        "Action": [
+            "check"
+        ],
+        "Entity": [
+            "level"
+        ],
+        "Triggers": [
+            "administrator",
+            "check"
+        ],
+        "Targets": [
+            "check",
+            "level"
+        ]
+    },
+    {
+        "Text": "#G22# As a data manager, I want to know the security requirements of the data, so that I can check whether the data can be kept secure.",
+        "Persona": [
+            "data manager"
+        ],
+        "Action": [
+            "know"
+        ],
+        "Entity": [
+            "requirements"
+        ],
+        "Triggers": [
+            "data manager",
+            "know"
+        ],
+        "Targets": [
+            "know",
+            "requirements"
+        ]
+    },
+    {
+        "Text": "#G22# As a institutional data steward, I want to be able to extract the data sets that are submitted to external repositories, so that I can add them to an institutional data catalogue.",
+        "Persona": [
+            "data steward"
+        ],
+        "Action": [
+            "extract"
+        ],
+        "Entity": [
+            "sets"
+        ],
+        "Triggers": [
+            "data steward",
+            "extract"
+        ],
+        "Targets": [
+            "extract",
+            "sets"
+        ]
+    },
+    {
+        "Text": "#G22# As an institutional data manager, I want to know about the privacy and security requirements of the data, so that I can plan the right storage system and sharing permissions.",
+        "Persona": [
+            "data manager"
+        ],
+        "Action": [
+            "know"
+        ],
+        "Entity": [
+            "requirements"
+        ],
+        "Triggers": [
+            "data manager",
+            "know"
+        ],
+        "Targets": [
+            "know",
+            "requirements"
+        ]
+    },
+    {
+        "Text": "#G22# As a researcher, I want to see the sections on costing by other researchers in my department, so that I can see if we could share data manager posts.",
+        "Persona": [
+            "researcher"
+        ],
+        "Action": [
+            "see"
+        ],
+        "Entity": [
+            "sections"
+        ],
+        "Triggers": [
+            "researcher",
+            "see"
+        ],
+        "Targets": [
+            "see",
+            "sections"
+        ]
+    },
+    {
+        "Text": "#G22# As a researcher, I want to see the sections on roles submitted by other researchers in my department, so that I can see if we could share data manager posts.",
+        "Persona": [
+            "researcher"
+        ],
+        "Action": [
+            "see"
+        ],
+        "Entity": [
+            "sections"
+        ],
+        "Triggers": [
+            "researcher",
+            "see"
+        ],
+        "Targets": [
+            "see",
+            "sections"
+        ]
+    },
+    {
+        "Text": "#G22# As a researcher, I want to see the sections on responsibilities submitted by other researchers in my department, so that I can see if we could share data manager posts.",
+        "Persona": [
+            "researcher"
+        ],
+        "Action": [
+            "see"
+        ],
+        "Entity": [
+            "sections"
+        ],
+        "Triggers": [
+            "researcher",
+            "see"
+        ],
+        "Targets": [
+            "see",
+            "sections"
+        ]
+    },
+    {
+        "Text": "#G22# As a faculty data steward, I want to see the sections on costing, so that I can ensure sufficient expertise on data management to support the project.",
+        "Persona": [
+            "data steward"
+        ],
+        "Action": [
+            "see"
+        ],
+        "Entity": [
+            "sections"
+        ],
+        "Triggers": [
+            "data steward",
+            "see"
+        ],
+        "Targets": [
+            "see",
+            "sections"
+        ]
+    },
+    {
+        "Text": "#G22# As a faculty data steward, I want to see the sections on roles, so that I can ensure sufficient expertise on data management to support the project.",
+        "Persona": [
+            "data steward"
+        ],
+        "Action": [
+            "see"
+        ],
+        "Entity": [
+            "sections"
+        ],
+        "Triggers": [
+            "data steward",
+            "see"
+        ],
+        "Targets": [
+            "see",
+            "sections"
+        ]
+    },
+    {
+        "Text": "#G22# As a faculty data steward, I want to see the sections on responsibilities, so that I can ensure sufficient expertise on data management to support the project.",
+        "Persona": [
+            "data steward"
+        ],
+        "Action": [
+            "see"
+        ],
+        "Entity": [
+            "sections"
+        ],
+        "Triggers": [
+            "data steward",
+            "see"
+        ],
+        "Targets": [
+            "see",
+            "sections"
+        ]
+    },
+    {
+        "Text": "#G22# As a data manager, I want to clarify the necessary rights for re-using the data, so that it is legal to reuse the data.",
+        "Persona": [
+            "data manager"
+        ],
+        "Action": [
+            "clarify"
+        ],
+        "Entity": [
+            "rights"
+        ],
+        "Triggers": [
+            "data manager",
+            "clarify"
+        ],
+        "Targets": [
+            "clarify",
+            "rights"
+        ]
+    },
+    {
+        "Text": "#G22# As a researcher, I want to record my intention to share data I have collected under terms of a particular licence, so that other researchers who use the data understand the rights of use.",
+        "Persona": [
+            "researcher"
+        ],
+        "Action": [
+            "record"
+        ],
+        "Entity": [
+            "intention"
+        ],
+        "Triggers": [
+            "researcher",
+            "record"
+        ],
+        "Targets": [
+            "record",
+            "intention"
+        ]
+    },
+    {
+        "Text": "#G22# As a data manager, I want to plan the anonymization of data, so that we protect the privacy of the people participating in the research as good as possible and still ensure reusability of data.",
+        "Persona": [
+            "data manager"
+        ],
+        "Action": [
+            "plan"
+        ],
+        "Entity": [
+            "anonymization"
+        ],
+        "Triggers": [
+            "data manager",
+            "plan"
+        ],
+        "Targets": [
+            "plan",
+            "anonymization"
+        ]
+    },
+    {
+        "Text": "#G22# As a repository manager, I want to have metadata in additional languages, so that I can allow for multilingual data archive.",
+        "Persona": [
+            "repository manager"
+        ],
+        "Action": [
+            "have"
+        ],
+        "Entity": [
+            "metadata"
+        ],
+        "Triggers": [
+            "repository manager",
+            "have"
+        ],
+        "Targets": [
+            "have",
+            "metadata"
+        ]
+    },
+    {
+        "Text": "#G22# As a data manager, I want to know whether the DMP was approved, so that I can proceed with the required next steps.",
+        "Persona": [
+            "data manager"
+        ],
+        "Action": [
+            "know"
+        ],
+        "Entity": [
+            "System"
+        ],
+        "Triggers": [
+            "data manager",
+            "know"
+        ],
+        "Targets": [
+            "know",
+            "System"
+        ]
+    }
+]
