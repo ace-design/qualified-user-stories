@@ -1,0 +1,3208 @@
+[
+    {
+        "Text": "#G16# As a collection curator, I want to map an item or items from one collection to another, so that an item may administratively belong to one collection but could appear in other collections.",
+        "Persona": [
+            "collection curator"
+        ],
+        "Benefit": "An item may administratively belong to one collection but could appear in other collections.",
+        "Action": {
+            "Primary Action": [
+                "map",
+                "belong",
+                "appear"
+            ],
+            "Secondary Action": []
+        },
+        "Entity": {
+            "Primary Entity": [
+                "item",
+                "collection"
+            ],
+            "Secondary Entity": []
+        },
+        "Triggers": [
+            [
+                "collection curator",
+                "map"
+            ]
+        ],
+        "Targets": [
+            [
+                "map",
+                "item"
+            ],
+            [
+                "map",
+                "collection"
+            ],
+            [
+                "belong",
+                "collection"
+            ],
+            [
+                "appear",
+                "collection"
+            ]
+        ]
+    },
+    {
+        "Text": "#G16# As a repoadmin, I want to have users to be presented with a license or a selection of licenses, specific to the collection, and deposit to be denied if the submitter does not accept the license.",
+        "Persona": [
+            "repoadmin"
+        ],
+        "Benefit": "Users are presented with a license or a selection of licenses specific to the collection, and deposit is denied if the submitter does not accept the license.",
+        "Action": {
+            "Primary Action": [
+                "presented",
+                "accept",
+                "deny"
+            ],
+            "Secondary Action": []
+        },
+        "Entity": {
+            "Primary Entity": [
+                "users",
+                "license",
+                "collection",
+                "deposit"
+            ],
+            "Secondary Entity": [
+                "selection of licenses"
+            ]
+        },
+        "Triggers": [
+            [
+                "repoadmin",
+                "presented"
+            ],
+            [
+                "repoadmin",
+                "accept"
+            ]
+        ],
+        "Targets": [
+            [
+                "presented",
+                "users"
+            ],
+            [
+                "accept",
+                "license"
+            ],
+            [
+                "accept",
+                "selection of licenses"
+            ],
+            [
+                "accept",
+                "collection"
+            ],
+            [
+                "deny",
+                "deposit"
+            ]
+        ]
+    },
+    {
+        "Text": "#G16# As a batch submitter, I want to provide my data and metadata in a simple, documented format to the repository staff for ingest.",
+        "Persona": [
+            "batch submitter",
+            "repository staff"
+        ],
+        "Benefit": "to provide data and metadata in a simple, documented format to the repository staff for ingest",
+        "Action": {
+            "Primary Action": [
+                "provide",
+                "ingest"
+            ],
+            "Secondary Action": []
+        },
+        "Entity": {
+            "Primary Entity": [
+                "batch submitter",
+                "repository staff"
+            ],
+            "Secondary Entity": [
+                "data",
+                "metadata",
+                "repository"
+            ]
+        },
+        "Triggers": [
+            [
+                "batch submitter",
+                "provide"
+            ],
+            [
+                "repository staff",
+                "ingest"
+            ]
+        ],
+        "Targets": [
+            [
+                "provide",
+                "data"
+            ],
+            [
+                "provide",
+                "metadata"
+            ],
+            [
+                "provide",
+                "repository staff"
+            ]
+        ]
+    },
+    {
+        "Text": "#G16# As a collection curator, I want users to contact me directly from the repository to request access to restricted objects.",
+        "Persona": [
+            "collection curator",
+            "users"
+        ],
+        "Benefit": "Users can contact the collection curator directly to request access to restricted objects.",
+        "Action": {
+            "Primary Action": [
+                "contact",
+                "request access"
+            ],
+            "Secondary Action": []
+        },
+        "Entity": {
+            "Primary Entity": [
+                "collection curator",
+                "users"
+            ],
+            "Secondary Entity": [
+                "repository",
+                "restricted objects"
+            ]
+        },
+        "Triggers": [
+            [
+                "collection curator",
+                "contact"
+            ],
+            [
+                "users",
+                "request access"
+            ]
+        ],
+        "Targets": [
+            [
+                "contact",
+                "repository"
+            ],
+            [
+                "contact",
+                "restricted objects"
+            ],
+            [
+                "request access",
+                "repository"
+            ],
+            [
+                "request access",
+                "restricted objects"
+            ]
+        ]
+    },
+    {
+        "Text": "#G16# As a repository manager, I want to specify the remote replication policy for each collection.",
+        "Persona": [
+            "repository manager"
+        ],
+        "Benefit": "I can specify the remote replication policy for each collection",
+        "Action": {
+            "Primary Action": [
+                "specify"
+            ],
+            "Secondary Action": []
+        },
+        "Entity": {
+            "Primary Entity": [
+                "remote replication policy",
+                "collection"
+            ],
+            "Secondary Entity": []
+        },
+        "Triggers": [
+            [
+                "repository manager",
+                "specify"
+            ]
+        ],
+        "Targets": [
+            [
+                "specify",
+                "remote replication policy"
+            ],
+            [
+                "specify",
+                "collection"
+            ]
+        ]
+    },
+    {
+        "Text": "#G16# As a collection curator, I want to create deposit forms specific to the collection.",
+        "Persona": [
+            "collection curator"
+        ],
+        "Benefit": "specific to the collection",
+        "Action": {
+            "Primary Action": [
+                "create"
+            ],
+            "Secondary Action": []
+        },
+        "Entity": {
+            "Primary Entity": [
+                "collection curator",
+                "deposit forms"
+            ],
+            "Secondary Entity": [
+                "collection"
+            ]
+        },
+        "Triggers": [
+            [
+                "collection curator",
+                "create"
+            ]
+        ],
+        "Targets": [
+            [
+                "create",
+                "deposit forms"
+            ]
+        ]
+    },
+    {
+        "Text": "#G16# As a repository manager, I want to see a display of recent errors deduplicated for easy comprehension like Symplectic Elements provides.",
+        "Persona": [
+            "repository manager"
+        ],
+        "Benefit": "easy comprehension",
+        "Action": {
+            "Primary Action": [
+                "see",
+                "deduplicated"
+            ],
+            "Secondary Action": [
+                "provides"
+            ]
+        },
+        "Entity": {
+            "Primary Entity": [
+                "display",
+                "recent errors"
+            ],
+            "Secondary Entity": []
+        },
+        "Triggers": [
+            [
+                "repository manager",
+                "see"
+            ]
+        ],
+        "Targets": [
+            [
+                "see",
+                "display"
+            ],
+            [
+                "deduplicated",
+                "recent errors"
+            ]
+        ]
+    },
+    {
+        "Text": "#G16# As a depositor, I want to see what kinds of things the repository accepts and what formats are accepted and recommended.",
+        "Persona": [
+            "depositor"
+        ],
+        "Benefit": "I want to see what kinds of things the repository accepts and what formats are accepted and recommended.",
+        "Action": {
+            "Primary Action": [
+                "see"
+            ],
+            "Secondary Action": [
+                "accept",
+                "recommend"
+            ]
+        },
+        "Entity": {
+            "Primary Entity": [
+                "depositor",
+                "repository"
+            ],
+            "Secondary Entity": [
+                "things",
+                "formats"
+            ]
+        },
+        "Triggers": [
+            [
+                "depositor",
+                "see"
+            ]
+        ],
+        "Targets": [
+            [
+                "see",
+                "repository"
+            ],
+            [
+                "see",
+                "things"
+            ],
+            [
+                "see",
+                "formats"
+            ]
+        ]
+    },
+    {
+        "Text": "#G16# As a depositor, I want to easily find information about which data can be assigned a DOI, how to get one, and what metadata are required.",
+        "Persona": [
+            "depositor"
+        ],
+        "Benefit": "I want to easily find information about which data can be assigned a DOI, how to get one, and what metadata are required.",
+        "Action": {
+            "Primary Action": [
+                "find",
+                "get"
+            ],
+            "Secondary Action": []
+        },
+        "Entity": {
+            "Primary Entity": [
+                "depositor",
+                "information",
+                "data",
+                "DOI",
+                "metadata"
+            ],
+            "Secondary Entity": []
+        },
+        "Triggers": [
+            [
+                "depositor",
+                "find"
+            ],
+            [
+                "get",
+                "DOI"
+            ]
+        ],
+        "Targets": [
+            [
+                "find",
+                "information"
+            ],
+            [
+                "find",
+                "data"
+            ],
+            [
+                "find",
+                "DOI"
+            ],
+            [
+                "find",
+                "metadata"
+            ]
+        ]
+    },
+    {
+        "Text": "#G16# As a repository manager, I want to view a dashboard statistics about collections size including a list of collections, the number of items and components in each, total storage consumed by each collection, visualization of deposit activity.",
+        "Persona": [
+            "repository manager"
+        ],
+        "Benefit": "I can view dashboard statistics about collections size, including a list of collections, the number of items and components in each, total storage consumed by each collection, and visualization of deposit activity.",
+        "Action": {
+            "Primary Action": [
+                "view",
+                "include",
+                "visualize"
+            ],
+            "Secondary Action": []
+        },
+        "Entity": {
+            "Primary Entity": [
+                "dashboard",
+                "collections",
+                "items",
+                "components",
+                "storage",
+                "deposit activity"
+            ],
+            "Secondary Entity": []
+        },
+        "Triggers": [
+            [
+                "repository manager",
+                "view"
+            ]
+        ],
+        "Targets": [
+            [
+                "view",
+                "dashboard"
+            ],
+            [
+                "view",
+                "collections"
+            ],
+            [
+                "view",
+                "items"
+            ],
+            [
+                "view",
+                "components"
+            ],
+            [
+                "view",
+                "storage"
+            ],
+            [
+                "view",
+                "deposit activity"
+            ]
+        ]
+    },
+    {
+        "Text": "#G16# As a collection curator, I want to have items be made available under the permissions they were configured once the embargo date has been reached.",
+        "Persona": [
+            "collection curator"
+        ],
+        "Benefit": "Items are available under the permissions they were configured",
+        "Action": {
+            "Primary Action": [
+                "be made available",
+                "configured",
+                "reached"
+            ],
+            "Secondary Action": [
+                ""
+            ]
+        },
+        "Entity": {
+            "Primary Entity": [
+                "collection curator",
+                "items",
+                "permissions",
+                "embargo date"
+            ],
+            "Secondary Entity": []
+        },
+        "Triggers": [
+            [
+                "collection curator",
+                "be made available"
+            ]
+        ],
+        "Targets": [
+            [
+                "be made available",
+                "items"
+            ],
+            [
+                "be made available",
+                "permissions"
+            ],
+            [
+                "be made available",
+                "embargo date"
+            ],
+            [
+                "configured",
+                "items"
+            ],
+            [
+                "reached",
+                "embargo date"
+            ]
+        ]
+    },
+    {
+        "Text": "#G16# As a DPC, I want events to be created when a publication is published and unpublished, who did it, comment, so that I can record when and why something was made unavailable.",
+        "Persona": [
+            "DPC"
+        ],
+        "Benefit": "I can record when and why something was made unavailable",
+        "Action": {
+            "Primary Action": [
+                "created",
+                "published",
+                "unpublished",
+                "record"
+            ],
+            "Secondary Action": []
+        },
+        "Entity": {
+            "Primary Entity": [
+                "events",
+                "publication"
+            ],
+            "Secondary Entity": []
+        },
+        "Triggers": [
+            [
+                "DPC",
+                "events"
+            ],
+            [
+                "DPC",
+                "publication"
+            ]
+        ],
+        "Targets": [
+            [
+                "events",
+                "created"
+            ],
+            [
+                "events",
+                "published"
+            ],
+            [
+                "events",
+                "unpublished"
+            ],
+            [
+                "events",
+                "record"
+            ],
+            [
+                "publication",
+                "published"
+            ],
+            [
+                "publication",
+                "unpublished"
+            ]
+        ]
+    },
+    {
+        "Text": "#G16# As a collection owner, I want to have submitters to my collection to be unable to modify existing items in that collection.",
+        "Persona": [
+            "collection owner",
+            "submitters"
+        ],
+        "Benefit": "submitters to my collection to be unable to modify existing items in that collection",
+        "Action": {
+            "Primary Action": [
+                "have",
+                "modify"
+            ],
+            "Secondary Action": []
+        },
+        "Entity": {
+            "Primary Entity": [
+                "collection",
+                "existing items"
+            ],
+            "Secondary Entity": []
+        },
+        "Triggers": [
+            [
+                "collection owner",
+                "have"
+            ],
+            [
+                "have",
+                "modify"
+            ]
+        ],
+        "Targets": [
+            [
+                "have",
+                "collection"
+            ],
+            [
+                "modify",
+                "existing items"
+            ]
+        ]
+    },
+    {
+        "Text": "#G16# As a DigitalRecords Archivist, I want to view and download summary embargo metadata for all ETDs in the repository.",
+        "Persona": [
+            "DigitalRecords Archivist"
+        ],
+        "Benefit": "I want to view and download summary embargo metadata for all ETDs in the repository.",
+        "Action": {
+            "Primary Action": [
+                "view",
+                "download"
+            ],
+            "Secondary Action": []
+        },
+        "Entity": {
+            "Primary Entity": [
+                "ETDs",
+                "repository"
+            ],
+            "Secondary Entity": []
+        },
+        "Triggers": [
+            [
+                "DigitalRecords Archivist",
+                "view"
+            ],
+            [
+                "DigitalRecords Archivist",
+                "download"
+            ],
+            [
+                "DigitalRecords Archivist",
+                "view"
+            ],
+            [
+                "DigitalRecords Archivist",
+                "download"
+            ]
+        ],
+        "Targets": [
+            [
+                "view",
+                "ETDs"
+            ],
+            [
+                "download",
+                "ETDs"
+            ],
+            [
+                "view",
+                "repository"
+            ],
+            [
+                "download",
+                "repository"
+            ]
+        ]
+    },
+    {
+        "Text": "#G16# As a collection curator, I want to have the item to be allowed under the access permissions set on the object after the embargo data is reached.",
+        "Persona": [
+            "collection curator"
+        ],
+        "Benefit": "have the item to be allowed under the access permissions set on the object after the embargo data is reached",
+        "Action": {
+            "Primary Action": [
+                "allowed",
+                "set",
+                "reached"
+            ],
+            "Secondary Action": []
+        },
+        "Entity": {
+            "Primary Entity": [
+                "collection curator",
+                "item",
+                "access permissions",
+                "object"
+            ],
+            "Secondary Entity": []
+        },
+        "Triggers": [
+            [
+                "collection curator",
+                "allowed"
+            ]
+        ],
+        "Targets": [
+            [
+                "allowed",
+                "item"
+            ],
+            [
+                "allowed",
+                "access permissions"
+            ],
+            [
+                "allowed",
+                "object"
+            ],
+            [
+                "reached",
+                "object"
+            ]
+        ]
+    },
+    {
+        "Text": "#G16# As a repository manager, I want to be able t run a report periodically showing the storage consumed by each financial contact.",
+        "Persona": [
+            "repository manager"
+        ],
+        "Benefit": "be able to run a report periodically showing the storage consumed by each financial contact",
+        "Action": {
+            "Primary Action": [
+                "run"
+            ],
+            "Secondary Action": []
+        },
+        "Entity": {
+            "Primary Entity": [
+                "report",
+                "storage",
+                "financial contact"
+            ],
+            "Secondary Entity": []
+        },
+        "Triggers": [
+            [
+                "repository manager",
+                "run"
+            ]
+        ],
+        "Targets": [
+            [
+                "run",
+                "report"
+            ],
+            [
+                "run",
+                "storage"
+            ],
+            [
+                "run",
+                "financial contact"
+            ]
+        ]
+    },
+    {
+        "Text": "#G16# As a collection curator, I want to have the repository queue my collection for replication upon ingest to our remote storage site and to display the remote replication status in each item and component page in the staff interface.",
+        "Persona": [
+            "collection curator"
+        ],
+        "Benefit": "I want to have the repository queue my collection for replication upon ingest to our remote storage site and to display the remote replication status in each item and component page in the staff interface.",
+        "Action": {
+            "Primary Action": [
+                "queue",
+                "replication",
+                "display"
+            ],
+            "Secondary Action": []
+        },
+        "Entity": {
+            "Primary Entity": [
+                "collection",
+                "repository",
+                "remote storage site",
+                "item",
+                "component page",
+                "staff interface"
+            ],
+            "Secondary Entity": []
+        },
+        "Triggers": [
+            [
+                "collection curator",
+                "queue"
+            ]
+        ],
+        "Targets": [
+            [
+                "queue",
+                "repository"
+            ],
+            [
+                "queue",
+                "collection"
+            ],
+            [
+                "queue",
+                "remote storage site"
+            ],
+            [
+                "display",
+                "item"
+            ],
+            [
+                "display",
+                "component page"
+            ],
+            [
+                "display",
+                "staff interface"
+            ],
+            [
+                "replication",
+                "collection"
+            ]
+        ]
+    },
+    {
+        "Text": "#G16# As a repoadmin, I want to provide a Linked Data interface to the repository.",
+        "Persona": [
+            "repoadmin"
+        ],
+        "Benefit": "provide a Linked Data interface to the repository",
+        "Action": {
+            "Primary Action": [
+                "provide"
+            ],
+            "Secondary Action": []
+        },
+        "Entity": {
+            "Primary Entity": [
+                "Linked Data interface",
+                "repository"
+            ],
+            "Secondary Entity": []
+        },
+        "Triggers": [
+            [
+                "repoadmin",
+                "provide"
+            ]
+        ],
+        "Targets": [
+            [
+                "provide",
+                "Linked Data interface"
+            ],
+            [
+                "provide",
+                "repository"
+            ]
+        ]
+    },
+    {
+        "Text": "#G16# As a collection curator, I want to have metadata changes made to items with repository-assigned DOIs to be propagated to the EZID.",
+        "Persona": [
+            "collection curator"
+        ],
+        "Benefit": "Changes made to items with repository-assigned DOIs are propagated to the EZID",
+        "Action": {
+            "Primary Action": [
+                "have",
+                "propagated"
+            ],
+            "Secondary Action": [
+                "made"
+            ]
+        },
+        "Entity": {
+            "Primary Entity": [
+                "metadata",
+                "items",
+                "repository-assigned DOIs",
+                "EZID"
+            ],
+            "Secondary Entity": []
+        },
+        "Triggers": [
+            [
+                "collection curator",
+                "have"
+            ]
+        ],
+        "Targets": [
+            [
+                "have",
+                "metadata"
+            ],
+            [
+                "have",
+                "items"
+            ],
+            [
+                "have",
+                "repository-assigned DOIs"
+            ],
+            [
+                "propagated",
+                "EZID"
+            ]
+        ]
+    },
+    {
+        "Text": "#G16# As a repository manager, I want to track who is financially responsible for each item in the repository, who should probably be a person contact including name, phone, email, maybe title and address.",
+        "Persona": [
+            "repository manager"
+        ],
+        "Benefit": "I want to track who is financially responsible for each item in the repository",
+        "Action": {
+            "Primary Action": [
+                "track"
+            ],
+            "Secondary Action": []
+        },
+        "Entity": {
+            "Primary Entity": [
+                "item",
+                "person contact",
+                "name",
+                "phone",
+                "email",
+                "title",
+                "address"
+            ],
+            "Secondary Entity": []
+        },
+        "Triggers": [
+            [
+                "repository manager",
+                "track"
+            ]
+        ],
+        "Targets": [
+            [
+                "track",
+                "item"
+            ],
+            [
+                "track",
+                "person contact"
+            ],
+            [
+                "track",
+                "name"
+            ],
+            [
+                "track",
+                "phone"
+            ],
+            [
+                "track",
+                "email"
+            ],
+            [
+                "track",
+                "title"
+            ],
+            [
+                "track",
+                "address"
+            ]
+        ]
+    },
+    {
+        "Text": "#G16# As a DigitalRecords Archivist, I want to have a method to add and remove multiple people to deposit groups in specific collections, to set a date that the deposit window closes, and to have these permissions conferred on these depositors should pick up on the collection's default permission.",
+        "Persona": [
+            "DigitalRecords Archivist"
+        ],
+        "Benefit": "have a method to add and remove multiple people to deposit groups in specific collections, set a date that the deposit window closes, and have these permissions conferred on these depositors should pick up on the collection's default permission",
+        "Action": {
+            "Primary Action": [
+                "add",
+                "remove",
+                "set",
+                "conferred",
+                "pick up"
+            ],
+            "Secondary Action": []
+        },
+        "Entity": {
+            "Primary Entity": [
+                "DigitalRecords Archivist",
+                "multiple people",
+                "deposit groups",
+                "specific collections",
+                "date",
+                "permissions",
+                "depositors",
+                "collection's default permission"
+            ],
+            "Secondary Entity": []
+        },
+        "Triggers": [
+            [
+                "DigitalRecords Archivist",
+                "add"
+            ],
+            [
+                "DigitalRecords Archivist",
+                "remove"
+            ],
+            [
+                "DigitalRecords Archivist",
+                "set"
+            ],
+            [
+                "DigitalRecords Archivist",
+                "conferred"
+            ],
+            [
+                "DigitalRecords Archivist",
+                "pick up"
+            ]
+        ],
+        "Targets": [
+            [
+                "add",
+                "multiple people"
+            ],
+            [
+                "add",
+                "deposit groups"
+            ],
+            [
+                "add",
+                "specific collections"
+            ],
+            [
+                "set",
+                "date"
+            ],
+            [
+                "set",
+                "permissions"
+            ],
+            [
+                "conferred",
+                "depositors"
+            ],
+            [
+                "pick up",
+                "collection's default permission"
+            ]
+        ]
+    },
+    {
+        "Text": "#G16# As a DigitalRecords Archivist, I want to have a method to add and remove individual people from deposit groups.",
+        "Persona": [
+            "DigitalRecords Archivist"
+        ],
+        "Benefit": "have a method to add and remove individual people from deposit groups",
+        "Action": {
+            "Primary Action": [
+                "add",
+                "remove"
+            ],
+            "Secondary Action": []
+        },
+        "Entity": {
+            "Primary Entity": [
+                "individual people",
+                "deposit groups"
+            ],
+            "Secondary Entity": []
+        },
+        "Triggers": [
+            [
+                "DigitalRecords Archivist",
+                "add"
+            ],
+            [
+                "DigitalRecords Archivist",
+                "remove"
+            ]
+        ],
+        "Targets": [
+            [
+                "add",
+                "individual people"
+            ],
+            [
+                "remove",
+                "individual people"
+            ],
+            [
+                "add",
+                "deposit groups"
+            ],
+            [
+                "remove",
+                "deposit groups"
+            ]
+        ]
+    },
+    {
+        "Text": "#G16# As a collection curator, I want to view the permission on my objects all together.",
+        "Persona": [
+            "collection curator"
+        ],
+        "Benefit": "I want to view the permission on my objects all together.",
+        "Action": {
+            "Primary Action": [
+                "view"
+            ],
+            "Secondary Action": []
+        },
+        "Entity": {
+            "Primary Entity": [
+                "permission",
+                "objects"
+            ],
+            "Secondary Entity": []
+        },
+        "Triggers": [
+            [
+                "collection curator",
+                "view"
+            ]
+        ],
+        "Targets": [
+            [
+                "view",
+                "permission"
+            ],
+            [
+                "view",
+                "objects"
+            ]
+        ]
+    },
+    {
+        "Text": "#G16# As a non-Duke researcher, I want to describe my team and mine's objects in the repository after they've been deposited if we've been assigned permission to edit metadata.",
+        "Persona": [
+            "non-Duke researcher"
+        ],
+        "Benefit": "I can describe my team and mine's objects in the repository after they've been deposited if we've been assigned permission to edit metadata.",
+        "Action": {
+            "Primary Action": [
+                "describe",
+                "deposit",
+                "edit metadata"
+            ],
+            "Secondary Action": []
+        },
+        "Entity": {
+            "Primary Entity": [
+                "team",
+                "objects",
+                "repository"
+            ],
+            "Secondary Entity": []
+        },
+        "Triggers": [
+            [
+                "non-Duke researcher",
+                "describe"
+            ]
+        ],
+        "Targets": [
+            [
+                "describe",
+                "team"
+            ],
+            [
+                "describe",
+                "objects"
+            ],
+            [
+                "describe",
+                "repository"
+            ],
+            [
+                "deposit",
+                "team"
+            ],
+            [
+                "deposit",
+                "objects"
+            ],
+            [
+                "deposit",
+                "repository"
+            ],
+            [
+                "edit metadata",
+                "team"
+            ],
+            [
+                "edit metadata",
+                "objects"
+            ],
+            [
+                "edit metadata",
+                "repository"
+            ]
+        ]
+    },
+    {
+        "Text": "#G16# As a DigitalRecords Archivist, I want to grant embargo privileges to other repository administrators.",
+        "Persona": [
+            "DigitalRecords Archivist",
+            "repository administrators"
+        ],
+        "Benefit": "grant embargo privileges to other repository administrators",
+        "Action": {
+            "Primary Action": [
+                "grant"
+            ],
+            "Secondary Action": []
+        },
+        "Entity": {
+            "Primary Entity": [
+                "DigitalRecords Archivist",
+                "repository administrators"
+            ],
+            "Secondary Entity": [
+                "embargo privileges"
+            ]
+        },
+        "Triggers": [
+            [
+                "DigitalRecords Archivist",
+                "grant"
+            ]
+        ],
+        "Targets": [
+            [
+                "grant",
+                "embargo privileges"
+            ]
+        ]
+    },
+    {
+        "Text": "#G16# As a visitor, I want to see the embargo status and release date clearly displayed and perhaps highlighted in some way.",
+        "Persona": [
+            "visitor"
+        ],
+        "Benefit": "I want to see the embargo status and release date clearly displayed and perhaps highlighted in some way.",
+        "Action": {
+            "Primary Action": [
+                "see",
+                "display"
+            ],
+            "Secondary Action": [
+                "highlighted"
+            ]
+        },
+        "Entity": {
+            "Primary Entity": [
+                "embargo status",
+                "release date"
+            ],
+            "Secondary Entity": []
+        },
+        "Triggers": [
+            [
+                "visitor",
+                "see"
+            ]
+        ],
+        "Targets": [
+            [
+                "see",
+                "embargo status"
+            ],
+            [
+                "see",
+                "release date"
+            ],
+            [
+                "display",
+                "embargo status"
+            ],
+            [
+                "display",
+                "release date"
+            ],
+            [
+                "highlighted",
+                "embargo status"
+            ],
+            [
+                "highlighted",
+                "release date"
+            ]
+        ]
+    },
+    {
+        "Text": "#G16# As a collection curator, I want to see the scheduled records deletion date be displayed on the item and component pages.",
+        "Persona": [
+            "collection curator"
+        ],
+        "Benefit": "I want to see the scheduled records deletion date be displayed on the item and component pages.",
+        "Action": {
+            "Primary Action": [
+                "see"
+            ],
+            "Secondary Action": [
+                "displayed"
+            ]
+        },
+        "Entity": {
+            "Primary Entity": [
+                "collection curator"
+            ],
+            "Secondary Entity": [
+                "scheduled records deletion date",
+                "item",
+                "component pages"
+            ]
+        },
+        "Triggers": [
+            [
+                "collection curator",
+                "see"
+            ]
+        ],
+        "Targets": [
+            [
+                "see",
+                "scheduled records deletion date"
+            ],
+            [
+                "see",
+                "item"
+            ],
+            [
+                "see",
+                "component pages"
+            ]
+        ]
+    },
+    {
+        "Text": "#G16# As a collection curator, I want to canonically identify authors and creators of my items by unique identifier, so that it's easier to view all of the works by that person together.",
+        "Persona": [
+            "collection curator"
+        ],
+        "Benefit": "it's easier to view all of the works by that person together",
+        "Action": {
+            "Primary Action": [
+                "identify"
+            ],
+            "Secondary Action": []
+        },
+        "Entity": {
+            "Primary Entity": [
+                "authors",
+                "creators",
+                "items"
+            ],
+            "Secondary Entity": []
+        },
+        "Triggers": [
+            [
+                "collection curator",
+                "identify"
+            ]
+        ],
+        "Targets": [
+            [
+                "identify",
+                "authors"
+            ],
+            [
+                "identify",
+                "creators"
+            ],
+            [
+                "identify",
+                "items"
+            ]
+        ]
+    },
+    {
+        "Text": "#G16# As a repoadmin, I want to have Symplectic Elements to communicate",
+        "Persona": [
+            "repoadmin"
+        ],
+        "Benefit": "to have Symplectic Elements to communicate",
+        "Action": {
+            "Primary Action": [
+                "communicate"
+            ],
+            "Secondary Action": []
+        },
+        "Entity": {
+            "Primary Entity": [
+                "Symplectic Elements"
+            ],
+            "Secondary Entity": []
+        },
+        "Triggers": [
+            [
+                "repoadmin",
+                "communicate"
+            ]
+        ],
+        "Targets": [
+            [
+                "communicate",
+                "Symplectic Elements"
+            ]
+        ]
+    },
+    {
+        "Text": "#G16# As a repository manager, I want to elect to either replicate remotely or not and possibly to replicate beyond the primary remote site.",
+        "Persona": [
+            "repository manager"
+        ],
+        "Benefit": "to either replicate remotely or not and possibly to replicate beyond the primary remote site",
+        "Action": {
+            "Primary Action": [
+                "elect",
+                "replicate"
+            ],
+            "Secondary Action": []
+        },
+        "Entity": {
+            "Primary Entity": [
+                "replicate",
+                "remote site"
+            ],
+            "Secondary Entity": []
+        },
+        "Triggers": [
+            [
+                "repository manager",
+                "elect"
+            ]
+        ],
+        "Targets": [
+            [
+                "elect",
+                "replicate"
+            ],
+            [
+                "replicate",
+                "remote site"
+            ]
+        ]
+    },
+    {
+        "Text": "#G16# As a collection curator, I want to see the referers for visitors who use resolver-abstracted links to reach my items.",
+        "Persona": [
+            "collection curator"
+        ],
+        "Benefit": "I want to see the referers for visitors who use resolver-abstracted links to reach my items.",
+        "Action": {
+            "Primary Action": [
+                "see"
+            ],
+            "Secondary Action": []
+        },
+        "Entity": {
+            "Primary Entity": [
+                "referers",
+                "visitors",
+                "resolver-abstracted links",
+                "items"
+            ],
+            "Secondary Entity": []
+        },
+        "Triggers": [
+            [
+                "collection curator",
+                "see"
+            ]
+        ],
+        "Targets": [
+            [
+                "see",
+                "referers"
+            ],
+            [
+                "see",
+                "visitors"
+            ],
+            [
+                "see",
+                "resolver-abstracted links"
+            ],
+            [
+                "see",
+                "items"
+            ]
+        ]
+    },
+    {
+        "Text": "#G16# As a repoadmin, I want to provide the server SLA to data contributors.",
+        "Persona": [
+            "repoadmin"
+        ],
+        "Benefit": "data contributors can have clear expectations on server performance",
+        "Action": {
+            "Primary Action": [
+                "provide"
+            ],
+            "Secondary Action": []
+        },
+        "Entity": {
+            "Primary Entity": [
+                "server SLA",
+                "data contributors"
+            ],
+            "Secondary Entity": []
+        },
+        "Triggers": [
+            [
+                "repoadmin",
+                "provide"
+            ]
+        ],
+        "Targets": [
+            [
+                "provide",
+                "server SLA"
+            ],
+            [
+                "provide",
+                "data contributors"
+            ]
+        ]
+    },
+    {
+        "Text": "#G16# As a collection curator, I want to have my collection be encrypted with a key maintained on that server, a checksum made and stored of the encrypted file, and the encrypted file replicated to our remote storage site.",
+        "Persona": [
+            "collection curator"
+        ],
+        "Benefit": "to ensure the security and integrity of the collection",
+        "Action": {
+            "Primary Action": [
+                "have",
+                "maintained",
+                "stored",
+                "replicated"
+            ],
+            "Secondary Action": []
+        },
+        "Entity": {
+            "Primary Entity": [
+                "collection",
+                "key",
+                "server",
+                "checksum",
+                "encrypted file",
+                "remote storage site"
+            ],
+            "Secondary Entity": []
+        },
+        "Triggers": [
+            [
+                "collection curator",
+                "have"
+            ]
+        ],
+        "Targets": [
+            [
+                "have",
+                "collection"
+            ],
+            [
+                "have",
+                "key"
+            ],
+            [
+                "have",
+                "server"
+            ],
+            [
+                "have",
+                "checksum"
+            ],
+            [
+                "have",
+                "encrypted file"
+            ],
+            [
+                "have",
+                "remote storage site"
+            ],
+            [
+                "maintained",
+                "key"
+            ],
+            [
+                "made",
+                "checksum"
+            ],
+            [
+                "stored",
+                "encrypted file"
+            ],
+            [
+                "replicated",
+                "remote storage site"
+            ]
+        ]
+    },
+    {
+        "Text": "#G16# As a faculty member, I want to go to my repository dashboard to manage members of my classes, grant submit permissions by pasting in a list of NetIDs, see confirmation that DDR recognizes the NetIDs, ability to manually remove permissions, ability to set begin and end dates for a submission window, and a have a status screen to clearly illustrate who has and hasn't submitted.",
+        "Persona": [
+            "faculty member"
+        ],
+        "Benefit": "to manage members of my classes, grant submit permissions by pasting in a list of NetIDs, see confirmation that DDR recognizes the NetIDs, ability to manually remove permissions, ability to set begin and end dates for a submission window, and have a status screen to clearly illustrate who has and hasn't submitted",
+        "Action": {
+            "Primary Action": [
+                "manage",
+                "grant",
+                "paste",
+                "remove",
+                "set",
+                "illustrate"
+            ],
+            "Secondary Action": [
+                "recognizes"
+            ]
+        },
+        "Entity": {
+            "Primary Entity": [
+                "repository dashboard",
+                "members of my classes",
+                "submit permissions",
+                "NetIDs",
+                "permissions",
+                "submission window",
+                "status screen"
+            ],
+            "Secondary Entity": [
+                "DDR"
+            ]
+        },
+        "Triggers": [
+            [
+                "faculty member",
+                "manage"
+            ],
+            [
+                "faculty member",
+                "grant"
+            ],
+            [
+                "faculty member",
+                "paste"
+            ],
+            [
+                "faculty member",
+                "recognizes"
+            ],
+            [
+                "faculty member",
+                "remove"
+            ],
+            [
+                "faculty member",
+                "set"
+            ],
+            [
+                "faculty member",
+                "illustrate"
+            ]
+        ],
+        "Targets": [
+            [
+                "manage",
+                "repository dashboard"
+            ],
+            [
+                "manage",
+                "members of my classes"
+            ],
+            [
+                "grant",
+                "submit permissions"
+            ],
+            [
+                "paste",
+                "NetIDs"
+            ],
+            [
+                "recognizes",
+                "NetIDs"
+            ],
+            [
+                "remove",
+                "permissions"
+            ],
+            [
+                "set",
+                "submission window"
+            ],
+            [
+                "illustrate",
+                "status screen"
+            ]
+        ]
+    },
+    {
+        "Text": "#G16# As a DigitalRecords Archivist, I want to expose the descriptive record for each ETD item for re-use external to Fedora.",
+        "Persona": [
+            "DigitalRecords Archivist"
+        ],
+        "Benefit": "for re-use external to Fedora",
+        "Action": {
+            "Primary Action": [
+                "expose",
+                "re-use"
+            ],
+            "Secondary Action": []
+        },
+        "Entity": {
+            "Primary Entity": [
+                "DigitalRecords Archivist",
+                "descriptive record",
+                "ETD item",
+                "Fedora"
+            ],
+            "Secondary Entity": []
+        },
+        "Triggers": [
+            [
+                "DigitalRecords Archivist",
+                "expose"
+            ]
+        ],
+        "Targets": [
+            [
+                "expose",
+                "descriptive record"
+            ],
+            [
+                "expose",
+                "ETD item"
+            ],
+            [
+                "expose",
+                "Fedora"
+            ],
+            [
+                "re-use",
+                "Fedora"
+            ]
+        ]
+    },
+    {
+        "Text": "#G16# bidirectionally with the repository.",
+        "Persona": [],
+        "Benefit": "",
+        "Action": {
+            "Primary Action": [
+                "bidirectionally"
+            ],
+            "Secondary Action": []
+        },
+        "Entity": {
+            "Primary Entity": [
+                "repository"
+            ],
+            "Secondary Entity": []
+        },
+        "Triggers": [],
+        "Targets": [
+            [
+                "repository",
+                "bidirectionally"
+            ]
+        ]
+    },
+    {
+        "Text": "#G16# As a collection curator, I want to be able require authentication to access objects unless the request is coming from a whitelisted IP address, list of addresses.",
+        "Persona": [
+            "collection curator"
+        ],
+        "Benefit": "be able to require authentication to access objects unless the request is coming from a whitelisted IP address, list of addresses",
+        "Action": {
+            "Primary Action": [
+                "require",
+                "access"
+            ],
+            "Secondary Action": []
+        },
+        "Entity": {
+            "Primary Entity": [
+                "objects",
+                "whitelisted IP address",
+                "list of addresses"
+            ],
+            "Secondary Entity": []
+        },
+        "Triggers": [
+            [
+                "collection curator",
+                "require"
+            ]
+        ],
+        "Targets": [
+            [
+                "require",
+                "objects"
+            ],
+            [
+                "require",
+                "whitelisted IP address"
+            ],
+            [
+                "require",
+                "list of addresses"
+            ],
+            [
+                "access",
+                "objects"
+            ]
+        ]
+    },
+    {
+        "Text": "#G16# As a collection curator, I want to move items from one collection to another.",
+        "Persona": [
+            "collection curator"
+        ],
+        "Benefit": "move items from one collection to another",
+        "Action": {
+            "Primary Action": [
+                "move"
+            ],
+            "Secondary Action": []
+        },
+        "Entity": {
+            "Primary Entity": [
+                "collection curator",
+                "items",
+                "collection"
+            ],
+            "Secondary Entity": []
+        },
+        "Triggers": [
+            [
+                "collection curator",
+                "move"
+            ]
+        ],
+        "Targets": [
+            [
+                "move",
+                "items"
+            ],
+            [
+                "move",
+                "collection"
+            ]
+        ]
+    },
+    {
+        "Text": "#G16# As a DigitalRecords Archivist, I want to have the repository to lift embargoes on the release date and set the access controls to the configuration set on item on that date.",
+        "Persona": [
+            "DigitalRecords Archivist"
+        ],
+        "Benefit": "I want to have the repository to lift embargoes on the release date and set the access controls to the configuration set on item on that date.",
+        "Action": {
+            "Primary Action": [
+                "lift",
+                "set"
+            ],
+            "Secondary Action": []
+        },
+        "Entity": {
+            "Primary Entity": [
+                "repository",
+                "release date",
+                "access controls",
+                "configuration set"
+            ],
+            "Secondary Entity": [
+                "embargoes",
+                "item"
+            ]
+        },
+        "Triggers": [
+            [
+                "DigitalRecords Archivist",
+                "lift"
+            ],
+            [
+                "DigitalRecords Archivist",
+                "set"
+            ]
+        ],
+        "Targets": [
+            [
+                "lift",
+                "repository"
+            ],
+            [
+                "set",
+                "access controls"
+            ],
+            [
+                "set",
+                "configuration set"
+            ],
+            [
+                "set",
+                "item"
+            ]
+        ]
+    },
+    {
+        "Text": "#G16# As a collection curator, I want to set a date after which data will expire and be deleted or hidden then deleted.",
+        "Persona": [
+            "collection curator"
+        ],
+        "Benefit": "Data will be deleted or hidden then deleted after a certain date",
+        "Action": {
+            "Primary Action": [
+                "set",
+                "expire",
+                "delete",
+                "hide"
+            ],
+            "Secondary Action": []
+        },
+        "Entity": {
+            "Primary Entity": [
+                "data"
+            ],
+            "Secondary Entity": []
+        },
+        "Triggers": [
+            [
+                "collection curator",
+                "set"
+            ]
+        ],
+        "Targets": [
+            [
+                "set",
+                "data"
+            ],
+            [
+                "set",
+                "expire"
+            ],
+            [
+                "set",
+                "delete"
+            ],
+            [
+                "set",
+                "hide"
+            ]
+        ]
+    },
+    {
+        "Text": "#G16# As a DigitalRecords Archivist, I want to have the batch ingest tool to recognize and set embargoes, permissions for embargoed items should be allow everyone to view metadata, and collection curator and repository administrators to download the files.",
+        "Persona": [
+            "DigitalRecords Archivist",
+            "collection curator",
+            "repository administrators"
+        ],
+        "Benefit": "I want to have the batch ingest tool to recognize and set embargoes, permissions for embargoed items should be allow everyone to view metadata, and collection curator and repository administrators to download the files.",
+        "Action": {
+            "Primary Action": [
+                "recognize",
+                "set",
+                "allow",
+                "view",
+                "download"
+            ],
+            "Secondary Action": []
+        },
+        "Entity": {
+            "Primary Entity": [
+                "DigitalRecords Archivist",
+                "collection curator",
+                "repository administrators",
+                "batch ingest tool",
+                "embargoes",
+                "permissions",
+                "embargoed items",
+                "metadata",
+                "files"
+            ],
+            "Secondary Entity": []
+        },
+        "Triggers": [
+            [
+                "DigitalRecords Archivist",
+                "recognize"
+            ],
+            [
+                "DigitalRecords Archivist",
+                "set"
+            ]
+        ],
+        "Targets": [
+            [
+                "embargoes",
+                "allow"
+            ],
+            [
+                "permissions",
+                "allow"
+            ],
+            [
+                "embargoed items",
+                "allow"
+            ],
+            [
+                "embargoed items",
+                "view"
+            ],
+            [
+                "metadata",
+                "view"
+            ],
+            [
+                "collection curator",
+                "download"
+            ],
+            [
+                "repository administrators",
+                "download"
+            ]
+        ]
+    },
+    {
+        "Text": "#G16# As a collection curator, I want to have a tool to perform author authority control.",
+        "Persona": [
+            "collection curator"
+        ],
+        "Benefit": "have a tool to perform author authority control",
+        "Action": {
+            "Primary Action": [
+                "perform"
+            ],
+            "Secondary Action": [
+                ""
+            ]
+        },
+        "Entity": {
+            "Primary Entity": [
+                "tool",
+                "author"
+            ],
+            "Secondary Entity": []
+        },
+        "Triggers": [
+            [
+                "collection curator",
+                "perform"
+            ]
+        ],
+        "Targets": [
+            [
+                "perform",
+                "tool"
+            ],
+            [
+                "perform",
+                "author"
+            ]
+        ]
+    },
+    {
+        "Text": "#G16# As a repository manager, I want to view available versions of an object and restore a version from the staff interface.",
+        "Persona": [
+            "repository manager"
+        ],
+        "Benefit": "I want to view available versions of an object and restore a version from the staff interface.",
+        "Action": {
+            "Primary Action": [
+                "view",
+                "restore"
+            ],
+            "Secondary Action": []
+        },
+        "Entity": {
+            "Primary Entity": [
+                "object",
+                "staff interface"
+            ],
+            "Secondary Entity": [
+                "version"
+            ]
+        },
+        "Triggers": [
+            [
+                "repository manager",
+                "view"
+            ]
+        ],
+        "Targets": [
+            [
+                "view",
+                "object"
+            ],
+            [
+                "restore",
+                "version"
+            ]
+        ]
+    },
+    {
+        "Text": "#G16# As a developer, I want to upgrade to Fedora 4 and migrate our applications and data.",
+        "Persona": [
+            "developer"
+        ],
+        "Benefit": "upgrade to Fedora 4 and migrate applications and data",
+        "Action": {
+            "Primary Action": [
+                "upgrade",
+                "migrate"
+            ],
+            "Secondary Action": []
+        },
+        "Entity": {
+            "Primary Entity": [
+                "Fedora 4",
+                "applications",
+                "data"
+            ],
+            "Secondary Entity": []
+        },
+        "Triggers": [
+            [
+                "developer",
+                "upgrade"
+            ],
+            [
+                "developer",
+                "migrate"
+            ]
+        ],
+        "Targets": [
+            [
+                "upgrade",
+                "Fedora 4"
+            ],
+            [
+                "migrate",
+                "applications"
+            ],
+            [
+                "migrate",
+                "data"
+            ]
+        ]
+    },
+    {
+        "Text": "#G16# As a DigitalRecords Archivist, I want to edit the length of embargoes.",
+        "Persona": [
+            "DigitalRecords Archivist"
+        ],
+        "Benefit": "to manage access restrictions effectively",
+        "Action": {
+            "Primary Action": [
+                "edit"
+            ],
+            "Secondary Action": []
+        },
+        "Entity": {
+            "Primary Entity": [
+                "length of embargoes"
+            ],
+            "Secondary Entity": []
+        },
+        "Triggers": [
+            [
+                "DigitalRecords Archivist",
+                "edit"
+            ]
+        ],
+        "Targets": [
+            [
+                "edit",
+                "length of embargoes"
+            ]
+        ]
+    },
+    {
+        "Text": "#G16# As a collection curator, I want to have a summary of all remote replication status at collection level on my dashboard.",
+        "Persona": [
+            "collection curator"
+        ],
+        "Benefit": "I want to have a summary of all remote replication status at collection level on my dashboard.",
+        "Action": {
+            "Primary Action": [
+                "have"
+            ],
+            "Secondary Action": []
+        },
+        "Entity": {
+            "Primary Entity": [
+                "summary",
+                "collection level",
+                "dashboard"
+            ],
+            "Secondary Entity": [
+                "remote replication status"
+            ]
+        },
+        "Triggers": [
+            [
+                "collection curator",
+                "have"
+            ]
+        ],
+        "Targets": [
+            [
+                "have",
+                "summary"
+            ],
+            [
+                "have",
+                "collection level"
+            ],
+            [
+                "have",
+                "dashboard"
+            ],
+            [
+                "have",
+                "remote replication status"
+            ]
+        ]
+    },
+    {
+        "Text": "#G16# As a repoadmin, I want to update the repository index without disrupting access to the public interface.",
+        "Persona": [
+            "repoadmin"
+        ],
+        "Benefit": "without disrupting access to the public interface",
+        "Action": {
+            "Primary Action": [
+                "update"
+            ],
+            "Secondary Action": []
+        },
+        "Entity": {
+            "Primary Entity": [
+                "repository index",
+                "public interface"
+            ],
+            "Secondary Entity": []
+        },
+        "Triggers": [
+            [
+                "repoadmin",
+                "update"
+            ]
+        ],
+        "Targets": [
+            [
+                "update",
+                "repository index"
+            ],
+            [
+                "update",
+                "public interface"
+            ]
+        ]
+    },
+    {
+        "Text": "#G16# As a data contributor, I want to refer to the Disaster Recovery Plan in grant proposals and Data Management Plans.",
+        "Persona": [
+            "data contributor"
+        ],
+        "Benefit": "I want to refer to the Disaster Recovery Plan in grant proposals and Data Management Plans.",
+        "Action": {
+            "Primary Action": [
+                "refer"
+            ],
+            "Secondary Action": []
+        },
+        "Entity": {
+            "Primary Entity": [
+                "data contributor"
+            ],
+            "Secondary Entity": [
+                "Disaster Recovery Plan",
+                "grant proposals",
+                "Data Management Plans"
+            ]
+        },
+        "Triggers": [
+            [
+                "data contributor",
+                "refer"
+            ]
+        ],
+        "Targets": [
+            [
+                "refer",
+                "Disaster Recovery Plan"
+            ],
+            [
+                "refer",
+                "grant proposals"
+            ],
+            [
+                "refer",
+                "Data Management Plans"
+            ]
+        ]
+    },
+    {
+        "Text": "#G16# As a collection curator, I want to create groups of users to manage permissions in the repository in an easy way.",
+        "Persona": [
+            "collection curator"
+        ],
+        "Benefit": "to manage permissions in the repository in an easy way",
+        "Action": {
+            "Primary Action": [
+                "create",
+                "manage"
+            ],
+            "Secondary Action": []
+        },
+        "Entity": {
+            "Primary Entity": [
+                "groups of users",
+                "permissions",
+                "repository"
+            ],
+            "Secondary Entity": []
+        },
+        "Triggers": [
+            [
+                "collection curator",
+                "create"
+            ],
+            [
+                "collection curator",
+                "manage"
+            ]
+        ],
+        "Targets": [
+            [
+                "create",
+                "groups of users"
+            ],
+            [
+                "create",
+                "permissions"
+            ],
+            [
+                "create",
+                "repository"
+            ],
+            [
+                "manage",
+                "groups of users"
+            ],
+            [
+                "manage",
+                "permissions"
+            ],
+            [
+                "manage",
+                "repository"
+            ]
+        ]
+    },
+    {
+        "Text": "#G16# As a collection curator, I want to have item metadata to be discoverable while the item is under embargo.",
+        "Persona": [
+            "collection curator"
+        ],
+        "Benefit": "Item metadata can be discoverable while the item is under embargo",
+        "Action": {
+            "Primary Action": [
+                "have",
+                "be discoverable"
+            ],
+            "Secondary Action": [
+                "under embargo"
+            ]
+        },
+        "Entity": {
+            "Primary Entity": [
+                "collection curator",
+                "item metadata"
+            ],
+            "Secondary Entity": [
+                "item"
+            ]
+        },
+        "Triggers": [
+            [
+                "collection curator",
+                "have"
+            ]
+        ],
+        "Targets": [
+            [
+                "have",
+                "item metadata"
+            ],
+            [
+                "be discoverable",
+                "item metadata"
+            ],
+            [
+                "under embargo",
+                "item"
+            ]
+        ]
+    },
+    {
+        "Text": "#G16# As a superuser, I want to enter and exit the superuser scope.",
+        "Persona": [
+            "superuser"
+        ],
+        "Benefit": "I want to enter and exit the superuser scope.",
+        "Action": {
+            "Primary Action": [
+                "enter",
+                "exit"
+            ],
+            "Secondary Action": []
+        },
+        "Entity": {
+            "Primary Entity": [
+                "superuser scope"
+            ],
+            "Secondary Entity": []
+        },
+        "Triggers": [
+            [
+                "superuser",
+                "enter"
+            ],
+            [
+                "superuser",
+                "exit"
+            ]
+        ],
+        "Targets": [
+            [
+                "enter",
+                "superuser scope"
+            ],
+            [
+                "exit",
+                "superuser scope"
+            ]
+        ]
+    },
+    {
+        "Text": "#G16# Auditing & Reporting.",
+        "Persona": [
+            "Auditor",
+            "Reporter"
+        ],
+        "Benefit": "",
+        "Action": {
+            "Primary Action": [],
+            "Secondary Action": []
+        },
+        "Entity": {
+            "Primary Entity": [
+                "Auditing",
+                "Reporting"
+            ],
+            "Secondary Entity": []
+        },
+        "Triggers": [],
+        "Targets": [
+            [
+                "Auditor",
+                "Auditing"
+            ],
+            [
+                "Reporter",
+                "Reporting"
+            ]
+        ]
+    },
+    {
+        "Text": "#G16# As a DigitalRecords Archivist, I want to have a method to batch ingest ETDs we receive from ProQuest.",
+        "Persona": [
+            "DigitalRecords Archivist"
+        ],
+        "Benefit": "I want to have a method to batch ingest ETDs we receive from ProQuest.",
+        "Action": {
+            "Primary Action": [
+                "batch ingest"
+            ],
+            "Secondary Action": []
+        },
+        "Entity": {
+            "Primary Entity": [
+                "ETDs",
+                "ProQuest"
+            ],
+            "Secondary Entity": []
+        },
+        "Triggers": [
+            [
+                "DigitalRecords Archivist",
+                "batch ingest"
+            ]
+        ],
+        "Targets": [
+            [
+                "batch ingest",
+                "ETDs"
+            ],
+            [
+                "batch ingest",
+                "ProQuest"
+            ]
+        ]
+    },
+    {
+        "Text": "#G16# As a developer, I want to determine if we can use the in-built Fedora 4 event audit services.",
+        "Persona": [
+            "developer"
+        ],
+        "Benefit": "I want to determine if we can use the in-built Fedora 4 event audit services.",
+        "Action": {
+            "Primary Action": [
+                "determine"
+            ],
+            "Secondary Action": []
+        },
+        "Entity": {
+            "Primary Entity": [
+                "in-built Fedora 4 event audit services"
+            ],
+            "Secondary Entity": []
+        },
+        "Triggers": [
+            [
+                "developer",
+                "determine"
+            ]
+        ],
+        "Targets": [
+            [
+                "determine",
+                "in-built Fedora 4 event audit services"
+            ]
+        ]
+    },
+    {
+        "Text": "#G16# As a depositor, I want to get feedback post-ingest alerting me if files I submitted do not conform to their format specifications, if they are not valid, or if they are not wellformed.",
+        "Persona": [
+            "depositor"
+        ],
+        "Benefit": "I can be informed if files I submitted do not conform to their format specifications, are not valid, or are not wellformed.",
+        "Action": {
+            "Primary Action": [
+                "get feedback",
+                "alerting",
+                "submitted"
+            ],
+            "Secondary Action": [
+                "conform",
+                "valid",
+                "wellformed"
+            ]
+        },
+        "Entity": {
+            "Primary Entity": [
+                "files",
+                "format specifications"
+            ],
+            "Secondary Entity": []
+        },
+        "Triggers": [
+            [
+                "depositor",
+                "get feedback"
+            ]
+        ],
+        "Targets": [
+            [
+                "get feedback",
+                "files"
+            ],
+            [
+                "get feedback",
+                "format specifications"
+            ],
+            [
+                "alerting",
+                "files"
+            ],
+            [
+                "submitted",
+                "files"
+            ],
+            [
+                "conform",
+                "files"
+            ],
+            [
+                "valid",
+                "files"
+            ],
+            [
+                "wellformed",
+                "files"
+            ]
+        ]
+    },
+    {
+        "Text": "#G16# As a collection curator, I want to see a dashboard widget showing a summary of recent submissions to my collection.",
+        "Persona": [
+            "collection curator"
+        ],
+        "Benefit": "I want to see a dashboard widget showing a summary of recent submissions to my collection.",
+        "Action": {
+            "Primary Action": [
+                "see",
+                "showing"
+            ],
+            "Secondary Action": [
+                "summary"
+            ]
+        },
+        "Entity": {
+            "Primary Entity": [
+                "collection",
+                "dashboard widget"
+            ],
+            "Secondary Entity": [
+                "recent submissions"
+            ]
+        },
+        "Triggers": [
+            [
+                "collection curator",
+                "see"
+            ]
+        ],
+        "Targets": [
+            [
+                "see",
+                "dashboard widget"
+            ],
+            [
+                "see",
+                "recent submissions"
+            ],
+            [
+                "see",
+                "collection"
+            ]
+        ]
+    },
+    {
+        "Text": "#G16# As a repoadmin, I want to have Symplectic Elements bidirectionally communicate and integrate with DDR, which  provide a Fedora Connector and Emory is using a hidden Fedora instance that Hydra collects objects for.",
+        "Persona": [
+            "repoadmin"
+        ],
+        "Benefit": "have Symplectic Elements bidirectionally communicate and integrate with DDR, which provide a Fedora Connector and Emory is using a hidden Fedora instance that Hydra collects objects for",
+        "Action": {
+            "Primary Action": [
+                "communicate",
+                "integrate",
+                "provide"
+            ],
+            "Secondary Action": [
+                "collects"
+            ]
+        },
+        "Entity": {
+            "Primary Entity": [
+                "Symplectic Elements",
+                "DDR",
+                "Fedora Connector"
+            ],
+            "Secondary Entity": [
+                "Emory",
+                "hidden Fedora instance",
+                "Hydra"
+            ]
+        },
+        "Triggers": [
+            [
+                "repoadmin",
+                "communicate"
+            ]
+        ],
+        "Targets": [
+            [
+                "communicate",
+                "Symplectic Elements"
+            ],
+            [
+                "integrate",
+                "DDR"
+            ],
+            [
+                "provide",
+                "Fedora Connector"
+            ],
+            [
+                "Emory",
+                "collects"
+            ],
+            [
+                "hidden Fedora instance",
+                "Hydra"
+            ]
+        ]
+    },
+    {
+        "Text": "#G16# As a repository manager, I want to schedule a message to users to be displayed on each page on the repository between select times for things like notification of upcoming downtime.",
+        "Persona": [
+            "repository manager"
+        ],
+        "Benefit": "to notify users of upcoming downtime",
+        "Action": {
+            "Primary Action": [
+                "schedule",
+                "displayed",
+                "notification"
+            ],
+            "Secondary Action": []
+        },
+        "Entity": {
+            "Primary Entity": [
+                "message",
+                "users",
+                "page",
+                "repository",
+                "times"
+            ],
+            "Secondary Entity": []
+        },
+        "Triggers": [
+            [
+                "repository manager",
+                "schedule"
+            ]
+        ],
+        "Targets": [
+            [
+                "schedule",
+                "message"
+            ],
+            [
+                "schedule",
+                "users"
+            ],
+            [
+                "schedule",
+                "page"
+            ],
+            [
+                "schedule",
+                "repository"
+            ],
+            [
+                "schedule",
+                "times"
+            ],
+            [
+                "schedule",
+                "displayed"
+            ],
+            [
+                "schedule",
+                "notification"
+            ]
+        ]
+    },
+    {
+        "Text": "#G16# As repository manager, I want to view authenticated, active users and anonymous users.",
+        "Persona": [
+            "repository manager"
+        ],
+        "Benefit": "To view authenticated, active users and anonymous users",
+        "Action": {
+            "Primary Action": [
+                "view"
+            ],
+            "Secondary Action": []
+        },
+        "Entity": {
+            "Primary Entity": [
+                "authenticated users",
+                "active users",
+                "anonymous users"
+            ],
+            "Secondary Entity": []
+        },
+        "Triggers": [
+            [
+                "repository manager",
+                "view"
+            ]
+        ],
+        "Targets": [
+            [
+                "view",
+                "authenticated users"
+            ],
+            [
+                "view",
+                "active users"
+            ],
+            [
+                "view",
+                "anonymous users"
+            ]
+        ]
+    },
+    {
+        "Text": "#G16# As a collection curator, I want to lift an embargo for an object in a simple way.",
+        "Persona": [
+            "collection curator"
+        ],
+        "Benefit": "I want to lift an embargo for an object in a simple way.",
+        "Action": {
+            "Primary Action": [
+                "lift"
+            ],
+            "Secondary Action": []
+        },
+        "Entity": {
+            "Primary Entity": [
+                "embargo",
+                "object"
+            ],
+            "Secondary Entity": []
+        },
+        "Triggers": [
+            [
+                "collection curator",
+                "lift"
+            ]
+        ],
+        "Targets": [
+            [
+                "lift",
+                "embargo"
+            ],
+            [
+                "lift",
+                "object"
+            ]
+        ]
+    },
+    {
+        "Text": "#G16# As a repoadmin, I want to continue to provide access to the repository in the event that the server fails.",
+        "Persona": [
+            "repoadmin"
+        ],
+        "Benefit": "I can provide access to the repository in the event that the server fails.",
+        "Action": {
+            "Primary Action": [
+                "provide access",
+                "continue"
+            ],
+            "Secondary Action": []
+        },
+        "Entity": {
+            "Primary Entity": [
+                "repository",
+                "server"
+            ],
+            "Secondary Entity": []
+        },
+        "Triggers": [
+            [
+                "repoadmin",
+                "provide access"
+            ],
+            [
+                "repoadmin",
+                "continue"
+            ]
+        ],
+        "Targets": [
+            [
+                "provide access",
+                "repository"
+            ],
+            [
+                "continue",
+                "repository"
+            ],
+            [
+                "continue",
+                "server"
+            ]
+        ]
+    },
+    {
+        "Text": "#G16# As a batch submitter, I want to access documentation describing the folder ingest process.",
+        "Persona": [
+            "batch submitter"
+        ],
+        "Benefit": "I want to access documentation describing the folder ingest process.",
+        "Action": {
+            "Primary Action": [
+                "access"
+            ],
+            "Secondary Action": []
+        },
+        "Entity": {
+            "Primary Entity": [
+                "documentation",
+                "folder ingest process"
+            ],
+            "Secondary Entity": []
+        },
+        "Triggers": [
+            [
+                "batch submitter",
+                "access"
+            ]
+        ],
+        "Targets": [
+            [
+                "access",
+                "documentation"
+            ],
+            [
+                "access",
+                "folder ingest process"
+            ]
+        ]
+    },
+    {
+        "Text": "#G16# As a faculty member, I want to add a date delimiter to a search string, so that I can limit a search to return only results from before, after, or between a given date or dates.",
+        "Persona": [
+            "faculty member"
+        ],
+        "Benefit": "I can limit a search to return only results from before, after, or between a given date or dates.",
+        "Action": {
+            "Primary Action": [
+                "add",
+                "limit",
+                "return"
+            ],
+            "Secondary Action": []
+        },
+        "Entity": {
+            "Primary Entity": [
+                "faculty member",
+                "search string",
+                "search",
+                "results"
+            ],
+            "Secondary Entity": []
+        },
+        "Triggers": [
+            [
+                "faculty member",
+                "add"
+            ]
+        ],
+        "Targets": [
+            [
+                "add",
+                "search string"
+            ],
+            [
+                "add",
+                "search"
+            ],
+            [
+                "limit",
+                "results"
+            ],
+            [
+                "return",
+                "results"
+            ]
+        ]
+    },
+    {
+        "Text": "#G16# As a repoadmin, I want to have the license be recorded in metadata and displayed alongside the item.",
+        "Persona": [
+            "repoadmin"
+        ],
+        "Benefit": "The license is recorded in metadata and displayed alongside the item",
+        "Action": {
+            "Primary Action": [
+                "recorded",
+                "displayed"
+            ],
+            "Secondary Action": []
+        },
+        "Entity": {
+            "Primary Entity": [
+                "license",
+                "metadata",
+                "item"
+            ],
+            "Secondary Entity": []
+        },
+        "Triggers": [
+            [
+                "repoadmin",
+                "recorded"
+            ],
+            [
+                "repoadmin",
+                "displayed"
+            ]
+        ],
+        "Targets": [
+            [
+                "recorded",
+                "license"
+            ],
+            [
+                "displayed",
+                "metadata"
+            ],
+            [
+                "displayed",
+                "item"
+            ]
+        ]
+    },
+    {
+        "Text": "#G16# As a repoadmin, I want to expose repository contents via OAI-PMH.",
+        "Persona": [
+            "repoadmin"
+        ],
+        "Benefit": "I want to expose repository contents via OAI-PMH",
+        "Action": {
+            "Primary Action": [
+                "expose"
+            ],
+            "Secondary Action": []
+        },
+        "Entity": {
+            "Primary Entity": [
+                "repository contents",
+                "OAI-PMH"
+            ],
+            "Secondary Entity": []
+        },
+        "Triggers": [
+            [
+                "repoadmin",
+                "expose"
+            ]
+        ],
+        "Targets": [
+            [
+                "expose",
+                "repository contents"
+            ],
+            [
+                "expose",
+                "OAI-PMH"
+            ]
+        ]
+    },
+    {
+        "Text": "#G16# As a collection curator I want to change permissions on one or more items simultaneously.",
+        "Persona": [
+            "collection curator"
+        ],
+        "Benefit": "change permissions on one or more items simultaneously",
+        "Action": {
+            "Primary Action": [
+                "change"
+            ],
+            "Secondary Action": [
+                ""
+            ]
+        },
+        "Entity": {
+            "Primary Entity": [
+                "permissions",
+                "items"
+            ],
+            "Secondary Entity": []
+        },
+        "Triggers": [
+            [
+                "collection curator",
+                "change"
+            ]
+        ],
+        "Targets": [
+            [
+                "change",
+                "permissions"
+            ],
+            [
+                "change",
+                "items"
+            ]
+        ]
+    },
+    {
+        "Text": "#G16# As a collection curator, I want to allow some collections the option of setting an embargo date at deposit.",
+        "Persona": [
+            "collection curator"
+        ],
+        "Benefit": "Some collections can set an embargo date at deposit",
+        "Action": {
+            "Primary Action": [
+                "allow",
+                "setting"
+            ],
+            "Secondary Action": [
+                "deposit"
+            ]
+        },
+        "Entity": {
+            "Primary Entity": [
+                "collections",
+                "embargo date"
+            ],
+            "Secondary Entity": []
+        },
+        "Triggers": [
+            [
+                "collection curator",
+                "allow"
+            ]
+        ],
+        "Targets": [
+            [
+                "allow",
+                "collections"
+            ],
+            [
+                "allow",
+                "embargo date"
+            ],
+            [
+                "setting",
+                "collections"
+            ],
+            [
+                "setting",
+                "embargo date"
+            ],
+            [
+                "deposit",
+                "collections"
+            ]
+        ]
+    },
+    {
+        "Text": "#G16# As a collection curator, I want to restrict access to my collection or items to Duke IP addresses.",
+        "Persona": [
+            "collection curator"
+        ],
+        "Benefit": "I want to restrict access to my collection or items to Duke IP addresses.",
+        "Action": {
+            "Primary Action": [
+                "restrict access"
+            ],
+            "Secondary Action": [
+                ""
+            ]
+        },
+        "Entity": {
+            "Primary Entity": [
+                "collection",
+                "items",
+                "Duke IP addresses"
+            ],
+            "Secondary Entity": []
+        },
+        "Triggers": [
+            [
+                "collection curator",
+                "restrict access"
+            ]
+        ],
+        "Targets": [
+            [
+                "restrict access",
+                "collection"
+            ],
+            [
+                "restrict access",
+                "items"
+            ],
+            [
+                "restrict access",
+                "Duke IP addresses"
+            ]
+        ]
+    }
+]

@@ -1,0 +1,3933 @@
+[
+    {
+        "Text": "#G02# As a Developer, I want to add the updates on a FABS submission to be modified when the publishStatus changes, so that I know when the status of the submission has changed.",
+        "Persona": [
+            "Developer"
+        ],
+        "Benefit": "I know when the status of the submission has changed.",
+        "Action": {
+            "Primary Action": [
+                "add",
+                "modify",
+                "changes"
+            ],
+            "Secondary Action": []
+        },
+        "Entity": {
+            "Primary Entity": [
+                "FABS submission"
+            ],
+            "Secondary Entity": []
+        },
+        "Triggers": [
+            [
+                "Developer",
+                "add"
+            ],
+            [
+                "publishStatus",
+                "modify"
+            ],
+            [
+                "publishStatus",
+                "changes"
+            ]
+        ],
+        "Targets": [
+            [
+                "add",
+                "FABS submission"
+            ],
+            [
+                "modify",
+                "FABS submission"
+            ],
+            [
+                "changes",
+                "FABS submission"
+            ]
+        ]
+    },
+    {
+        "Text": "#G02# As a broker user, I want the historical FABS loader to derive fields, so that my agency codes are correct in the PublishedAwardFinancialAssistance table.",
+        "Persona": [
+            "broker user"
+        ],
+        "Benefit": "my agency codes are correct in the PublishedAwardFinancialAssistance table",
+        "Action": {
+            "Primary Action": [
+                "derive"
+            ],
+            "Secondary Action": []
+        },
+        "Entity": {
+            "Primary Entity": [
+                "historical FABS loader",
+                "PublishedAwardFinancialAssistance table"
+            ],
+            "Secondary Entity": []
+        },
+        "Triggers": [
+            [
+                "broker user",
+                "derive"
+            ]
+        ],
+        "Targets": [
+            [
+                "derive",
+                "historical FABS loader"
+            ],
+            [
+                "derive",
+                "PublishedAwardFinancialAssistance table"
+            ]
+        ]
+    },
+    {
+        "Text": "#G02# As a UI designer, I want to begin user testing, so that I can validate stakeholder UI improvement requests.",
+        "Persona": [
+            "UI designer"
+        ],
+        "Benefit": "I can validate stakeholder UI improvement requests",
+        "Action": {
+            "Primary Action": [
+                "begin"
+            ],
+            "Secondary Action": [
+                "validate"
+            ]
+        },
+        "Entity": {
+            "Primary Entity": [
+                "user testing"
+            ],
+            "Secondary Entity": [
+                "stakeholder UI improvement requests"
+            ]
+        },
+        "Triggers": [
+            [
+                "UI designer",
+                "begin"
+            ]
+        ],
+        "Targets": [
+            [
+                "begin",
+                "user testing"
+            ]
+        ]
+    },
+    {
+        "Text": "#G02# As an Agency user, I want to accurately see who created a submission, so that I'm not confused about who last updated a submission.",
+        "Persona": [
+            "Agency user"
+        ],
+        "Benefit": "I'm not confused about who last updated a submission",
+        "Action": {
+            "Primary Action": [
+                "see",
+                "created",
+                "updated"
+            ],
+            "Secondary Action": [
+                ""
+            ]
+        },
+        "Entity": {
+            "Primary Entity": [
+                "submission"
+            ],
+            "Secondary Entity": []
+        },
+        "Triggers": [
+            [
+                "Agency user",
+                "see"
+            ]
+        ],
+        "Targets": [
+            [
+                "see",
+                "submission"
+            ],
+            [
+                "created",
+                "submission"
+            ],
+            [
+                "updated",
+                "submission"
+            ]
+        ]
+    },
+    {
+        "Text": "#G02# As an Agency user, I want the header information box to show updated date AND time, so that I know when it was updated.",
+        "Persona": [
+            "Agency user"
+        ],
+        "Benefit": "I know when it was updated",
+        "Action": {
+            "Primary Action": [
+                "show"
+            ],
+            "Secondary Action": [
+                "know"
+            ]
+        },
+        "Entity": {
+            "Primary Entity": [
+                "header information box"
+            ],
+            "Secondary Entity": []
+        },
+        "Triggers": [
+            [
+                "Agency user",
+                "show"
+            ]
+        ],
+        "Targets": [
+            [
+                "show",
+                "header information box"
+            ]
+        ]
+    },
+    {
+        "Text": "#G02# As an agency user, I want to ensure that deleted FSRS records are not included in submissions.",
+        "Persona": [
+            "agency user"
+        ],
+        "Benefit": "deleted FSRS records are not included in submissions",
+        "Action": {
+            "Primary Action": [
+                "ensure",
+                "deleted"
+            ],
+            "Secondary Action": []
+        },
+        "Entity": {
+            "Primary Entity": [
+                "FSRS records",
+                "submissions"
+            ],
+            "Secondary Entity": []
+        },
+        "Triggers": [
+            [
+                "agency user",
+                "ensure"
+            ]
+        ],
+        "Targets": [
+            [
+                "ensure",
+                "FSRS records"
+            ],
+            [
+                "ensure",
+                "submissions"
+            ]
+        ]
+    },
+    {
+        "Text": "#G02# As a broker team member, I want to make some updates to the SQL codes for clarity.",
+        "Persona": [
+            "broker team member"
+        ],
+        "Benefit": "for clarity",
+        "Action": {
+            "Primary Action": [
+                "make updates"
+            ],
+            "Secondary Action": []
+        },
+        "Entity": {
+            "Primary Entity": [
+                "broker team member",
+                "SQL codes"
+            ],
+            "Secondary Entity": []
+        },
+        "Triggers": [
+            [
+                "broker team member",
+                "make updates"
+            ]
+        ],
+        "Targets": [
+            [
+                "make updates",
+                "SQL codes"
+            ]
+        ]
+    },
+    {
+        "Text": "#G02# As a UI designer, I want to move on to round 2 of DABS or FABS landing page edits, so that I can get approvals from leadership.",
+        "Persona": [
+            "UI designer"
+        ],
+        "Benefit": "I can get approvals from leadership",
+        "Action": {
+            "Primary Action": [
+                "move on",
+                "get"
+            ],
+            "Secondary Action": []
+        },
+        "Entity": {
+            "Primary Entity": [
+                "round 2 of DABS",
+                "FABS landing page edits",
+                "approvals",
+                "leadership"
+            ],
+            "Secondary Entity": []
+        },
+        "Triggers": [
+            [
+                "UI designer",
+                "move on"
+            ]
+        ],
+        "Targets": [
+            [
+                "move on",
+                "round 2 of DABS"
+            ],
+            [
+                "move on",
+                "FABS landing page edits"
+            ],
+            [
+                "get",
+                "approvals"
+            ],
+            [
+                "get",
+                "leadership"
+            ]
+        ]
+    },
+    {
+        "Text": "#G02# As a Broker user, I want to Upload and Validate the error message to have accurate text.",
+        "Persona": [
+            "Broker user"
+        ],
+        "Benefit": "to have accurate text",
+        "Action": {
+            "Primary Action": [
+                "Upload",
+                "Validate"
+            ],
+            "Secondary Action": []
+        },
+        "Entity": {
+            "Primary Entity": [
+                "error message"
+            ],
+            "Secondary Entity": []
+        },
+        "Triggers": [
+            [
+                "Broker user",
+                "Upload"
+            ],
+            [
+                "Broker user",
+                "Validate"
+            ]
+        ],
+        "Targets": [
+            [
+                "Upload",
+                "error message"
+            ],
+            [
+                "Validate",
+                "error message"
+            ]
+        ]
+    },
+    {
+        "Text": "#G02# As a user, I want the DUNS validations to accept records whose ActionTypes are B, C, or D and the DUNS is registered in SAM, even though it may have expired.",
+        "Persona": [
+            "user"
+        ],
+        "Benefit": "accept records whose ActionTypes are B, C, or D and the DUNS is registered in SAM, even though it may have expired",
+        "Action": {
+            "Primary Action": [
+                "accept",
+                "registered",
+                "expired"
+            ],
+            "Secondary Action": []
+        },
+        "Entity": {
+            "Primary Entity": [
+                "DUNS validations",
+                "ActionTypes",
+                "DUNS",
+                "SAM"
+            ],
+            "Secondary Entity": []
+        },
+        "Triggers": [
+            [
+                "user",
+                "accept"
+            ]
+        ],
+        "Targets": [
+            [
+                "accept",
+                "DUNS validations"
+            ],
+            [
+                "accept",
+                "ActionTypes"
+            ],
+            [
+                "accept",
+                "DUNS"
+            ],
+            [
+                "accept",
+                "SAM"
+            ],
+            [
+                "registered",
+                "DUNS"
+            ],
+            [
+                "expired",
+                "DUNS"
+            ]
+        ]
+    },
+    {
+        "Text": "#G02# As a Developer, I want to prevent users from double publishing FABS submissions after refreshing, so that there are no duplicates.",
+        "Persona": [
+            "Developer"
+        ],
+        "Benefit": "there are no duplicates",
+        "Action": {
+            "Primary Action": [
+                "prevent",
+                "publishing"
+            ],
+            "Secondary Action": [
+                "refreshing"
+            ]
+        },
+        "Entity": {
+            "Primary Entity": [
+                "users",
+                "FABS submissions",
+                "duplicates"
+            ],
+            "Secondary Entity": []
+        },
+        "Triggers": [
+            [
+                "Developer",
+                "prevent"
+            ],
+            [
+                "prevent",
+                "publishing"
+            ]
+        ],
+        "Targets": [
+            [
+                "prevent",
+                "users"
+            ],
+            [
+                "prevent",
+                "FABS submissions"
+            ],
+            [
+                "prevent",
+                "duplicates"
+            ]
+        ]
+    },
+    {
+        "Text": "#G02# As a Developer , I want to determine the best way to load historical FPDS data, so that I can load all FPDS data since 2007.",
+        "Persona": [
+            "Developer"
+        ],
+        "Benefit": "I can load all FPDS data since 2007.",
+        "Action": {
+            "Primary Action": [
+                "determine",
+                "load"
+            ],
+            "Secondary Action": []
+        },
+        "Entity": {
+            "Primary Entity": [
+                "historical FPDS data",
+                "FPDS data since 2007"
+            ],
+            "Secondary Entity": []
+        },
+        "Triggers": [
+            [
+                "Developer",
+                "determine"
+            ],
+            [
+                "Developer",
+                "load"
+            ]
+        ],
+        "Targets": [
+            [
+                "determine",
+                "historical FPDS data"
+            ],
+            [
+                "load",
+                "FPDS data since 2007"
+            ]
+        ]
+    },
+    {
+        "Text": "#G02# As a FABS user, I want the frontend URLs to more accurately reflect the page I'm accessing, so that I'm not confused.",
+        "Persona": [
+            "FABS user"
+        ],
+        "Benefit": "I'm not confused",
+        "Action": {
+            "Primary Action": [
+                "accessing"
+            ],
+            "Secondary Action": []
+        },
+        "Entity": {
+            "Primary Entity": [
+                "frontend URLs",
+                "page"
+            ],
+            "Secondary Entity": []
+        },
+        "Triggers": [
+            [
+                "FABS user",
+                "accessing"
+            ]
+        ],
+        "Targets": [
+            [
+                "accessing",
+                "frontend URLs"
+            ],
+            [
+                "accessing",
+                "page"
+            ]
+        ]
+    },
+    {
+        "Text": "#G02# As a data user, I want to access two additional fields from the FPDS data pull.",
+        "Persona": [
+            "data user"
+        ],
+        "Benefit": "I want to access two additional fields from the FPDS data pull",
+        "Action": {
+            "Primary Action": [
+                "access"
+            ],
+            "Secondary Action": []
+        },
+        "Entity": {
+            "Primary Entity": [
+                "FPDS data pull"
+            ],
+            "Secondary Entity": []
+        },
+        "Triggers": [
+            [
+                "data user",
+                "access"
+            ]
+        ],
+        "Targets": [
+            [
+                "access",
+                "FPDS data pull"
+            ]
+        ]
+    },
+    {
+        "Text": "#G02# As a FABS user, I want to submission errors to accurately represent FABS errors, so that I know why my submission didn't work.",
+        "Persona": [
+            "FABS user"
+        ],
+        "Benefit": "I know why my submission didn't work",
+        "Action": {
+            "Primary Action": [
+                "represent",
+                "know"
+            ],
+            "Secondary Action": []
+        },
+        "Entity": {
+            "Primary Entity": [
+                "submission errors",
+                "FABS errors"
+            ],
+            "Secondary Entity": []
+        },
+        "Triggers": [
+            [
+                "FABS user",
+                "submission errors"
+            ]
+        ],
+        "Targets": [
+            [
+                "represent",
+                "submission errors"
+            ],
+            [
+                "know",
+                "FABS errors"
+            ]
+        ]
+    },
+    {
+        "Text": "#G02# As a FABS user, I want additional helpful info in the submission dashboard, so that I can better manage submissions and IG requests.",
+        "Persona": [
+            "FABS user"
+        ],
+        "Benefit": "I can better manage submissions and IG requests",
+        "Action": {
+            "Primary Action": [
+                "manage",
+                "better"
+            ],
+            "Secondary Action": []
+        },
+        "Entity": {
+            "Primary Entity": [
+                "submission dashboard",
+                "submissions",
+                "IG requests"
+            ],
+            "Secondary Entity": []
+        },
+        "Triggers": [
+            [
+                "FABS user",
+                "manage"
+            ]
+        ],
+        "Targets": [
+            [
+                "manage",
+                "submission dashboard"
+            ],
+            [
+                "manage",
+                "submissions"
+            ],
+            [
+                "manage",
+                "IG requests"
+            ],
+            [
+                "better",
+                "submission dashboard"
+            ],
+            [
+                "better",
+                "submissions"
+            ],
+            [
+                "better",
+                "IG requests"
+            ]
+        ]
+    },
+    {
+        "Text": "#G02# As a FABS user, I want the language on FABS pages to be appropriate for me, so that I am not confused.",
+        "Persona": [
+            "FABS user"
+        ],
+        "Benefit": "I am not confused",
+        "Action": {
+            "Primary Action": [
+                "want",
+                "be"
+            ],
+            "Secondary Action": []
+        },
+        "Entity": {
+            "Primary Entity": [
+                "FABS pages"
+            ],
+            "Secondary Entity": []
+        },
+        "Triggers": [
+            [
+                "FABS user",
+                "want"
+            ]
+        ],
+        "Targets": [
+            [
+                "want",
+                "FABS pages"
+            ]
+        ]
+    },
+    {
+        "Text": "#G02# As an data user, I want to receive updates to FABS records.",
+        "Persona": [
+            "data user"
+        ],
+        "Benefit": "I want to receive updates to FABS records",
+        "Action": {
+            "Primary Action": [
+                "receive updates"
+            ],
+            "Secondary Action": []
+        },
+        "Entity": {
+            "Primary Entity": [
+                "FABS records"
+            ],
+            "Secondary Entity": []
+        },
+        "Triggers": [
+            [
+                "data user",
+                "receive updates"
+            ]
+        ],
+        "Targets": [
+            [
+                "receive updates",
+                "FABS records"
+            ]
+        ]
+    },
+    {
+        "Text": "#G02# As a user, I don't want to see NASA grants displayed as contracts.",
+        "Persona": [
+            "user"
+        ],
+        "Benefit": "I don't want to see NASA grants displayed as contracts.",
+        "Action": {
+            "Primary Action": [
+                "see"
+            ],
+            "Secondary Action": []
+        },
+        "Entity": {
+            "Primary Entity": [
+                "user"
+            ],
+            "Secondary Entity": [
+                "NASA grants",
+                "contracts"
+            ]
+        },
+        "Triggers": [
+            [
+                "user",
+                "see"
+            ]
+        ],
+        "Targets": [
+            [
+                "see",
+                "NASA grants"
+            ],
+            [
+                "see",
+                "contracts"
+            ]
+        ]
+    },
+    {
+        "Text": "#G02# As a Broker user, I want the D1 file generation to be synced with the FPDS data load, so that I don't have to regenerate a file if no data has been updated.",
+        "Persona": [
+            "Broker user"
+        ],
+        "Benefit": "I don't have to regenerate a file if no data has been updated.",
+        "Action": {
+            "Primary Action": [
+                "synced",
+                "regenerate"
+            ],
+            "Secondary Action": []
+        },
+        "Entity": {
+            "Primary Entity": [
+                "D1 file generation",
+                "FPDS data load"
+            ],
+            "Secondary Entity": []
+        },
+        "Triggers": [
+            [
+                "Broker user",
+                "synced"
+            ]
+        ],
+        "Targets": [
+            [
+                "synced",
+                "D1 file generation"
+            ],
+            [
+                "synced",
+                "FPDS data load"
+            ],
+            [
+                "regenerate",
+                "D1 file generation"
+            ]
+        ]
+    },
+    {
+        "Text": "#G02# As a UI designer, I want to move on to round 2 of Homepage edits, so that I can get approvals from leadership.",
+        "Persona": [
+            "UI designer"
+        ],
+        "Benefit": "I can get approvals from leadership",
+        "Action": {
+            "Primary Action": [
+                "move on",
+                "get"
+            ],
+            "Secondary Action": []
+        },
+        "Entity": {
+            "Primary Entity": [
+                "round 2 of Homepage edits",
+                "approvals",
+                "leadership"
+            ],
+            "Secondary Entity": [
+                "UI designer"
+            ]
+        },
+        "Triggers": [
+            [
+                "UI designer",
+                "move on"
+            ]
+        ],
+        "Targets": [
+            [
+                "move on",
+                "round 2 of Homepage edits"
+            ],
+            [
+                "get",
+                "approvals"
+            ],
+            [
+                "get",
+                "leadership"
+            ]
+        ]
+    },
+    {
+        "Text": "#G02# As an agency user, I want the FABS validation rules to accept zero and blank for non-loan records.",
+        "Persona": [
+            "agency user"
+        ],
+        "Benefit": "to accept zero and blank for non-loan records",
+        "Action": {
+            "Primary Action": [
+                "accept"
+            ],
+            "Secondary Action": []
+        },
+        "Entity": {
+            "Primary Entity": [
+                "FABS validation rules",
+                "non-loan records"
+            ],
+            "Secondary Entity": []
+        },
+        "Triggers": [
+            [
+                "agency user",
+                "accept"
+            ]
+        ],
+        "Targets": [
+            [
+                "accept",
+                "FABS validation rules"
+            ],
+            [
+                "accept",
+                "non-loan records"
+            ]
+        ]
+    },
+    {
+        "Text": "#G02# As a website user, I want to see updated financial assistance data daily.",
+        "Persona": [
+            "website user"
+        ],
+        "Benefit": "I want to see updated financial assistance data daily.",
+        "Action": {
+            "Primary Action": [
+                "see",
+                "updated"
+            ],
+            "Secondary Action": []
+        },
+        "Entity": {
+            "Primary Entity": [
+                "financial assistance data",
+                "website user"
+            ],
+            "Secondary Entity": []
+        },
+        "Triggers": [
+            [
+                "website user",
+                "see"
+            ]
+        ],
+        "Targets": [
+            [
+                "see",
+                "financial assistance data"
+            ]
+        ]
+    },
+    {
+        "Text": "#G02# As a user, I want to generate and validate D Files from FABS and FPDS data.",
+        "Persona": [
+            "user"
+        ],
+        "Benefit": "I can generate and validate D Files from FABS and FPDS data",
+        "Action": {
+            "Primary Action": [
+                "generate",
+                "validate"
+            ],
+            "Secondary Action": []
+        },
+        "Entity": {
+            "Primary Entity": [
+                "D Files",
+                "FABS",
+                "FPDS"
+            ],
+            "Secondary Entity": []
+        },
+        "Triggers": [
+            [
+                "user",
+                "generate"
+            ],
+            [
+                "user",
+                "validate"
+            ]
+        ],
+        "Targets": [
+            [
+                "generate",
+                "D Files"
+            ],
+            [
+                "validate",
+                "D Files"
+            ],
+            [
+                "validate",
+                "FABS"
+            ],
+            [
+                "validate",
+                "FPDS"
+            ]
+        ]
+    },
+    {
+        "Text": "#G02# As an Agency user, I want historical FPDS data loaded.",
+        "Persona": [
+            "Agency user"
+        ],
+        "Benefit": "to have access to historical FPDS data",
+        "Action": {
+            "Primary Action": [
+                "loaded"
+            ],
+            "Secondary Action": []
+        },
+        "Entity": {
+            "Primary Entity": [
+                "Agency user",
+                "historical FPDS data"
+            ],
+            "Secondary Entity": []
+        },
+        "Triggers": [
+            [
+                "Agency user",
+                "loaded"
+            ]
+        ],
+        "Targets": [
+            [
+                "loaded",
+                "historical FPDS data"
+            ]
+        ]
+    },
+    {
+        "Text": "#G02# As a UI designer, I want to schedule user testing, so that I can give the testers advanced notice to ensure buy-in.",
+        "Persona": [
+            "UI designer"
+        ],
+        "Benefit": "I can give the testers advanced notice to ensure buy-in.",
+        "Action": {
+            "Primary Action": [
+                "schedule",
+                "give"
+            ],
+            "Secondary Action": []
+        },
+        "Entity": {
+            "Primary Entity": [
+                "user testing",
+                "testers"
+            ],
+            "Secondary Entity": []
+        },
+        "Triggers": [
+            [
+                "UI designer",
+                "schedule"
+            ]
+        ],
+        "Targets": [
+            [
+                "schedule",
+                "user testing"
+            ]
+        ]
+    },
+    {
+        "Text": "#G02# As a data user, I want to see the office names derived from office codes, so that I can have appropriate context for understanding them.",
+        "Persona": [
+            "data user"
+        ],
+        "Benefit": "I can have appropriate context for understanding them.",
+        "Action": {
+            "Primary Action": [
+                "see",
+                "have"
+            ],
+            "Secondary Action": []
+        },
+        "Entity": {
+            "Primary Entity": [
+                "office names",
+                "office codes"
+            ],
+            "Secondary Entity": []
+        },
+        "Triggers": [
+            [
+                "data user",
+                "see"
+            ],
+            [
+                "data user",
+                "have"
+            ]
+        ],
+        "Targets": [
+            [
+                "see",
+                "office names"
+            ],
+            [
+                "have",
+                "office codes"
+            ]
+        ]
+    },
+    {
+        "Text": "#G02# As a DevOps engineer, I want New Relic to provide useful data across all applications.",
+        "Persona": [
+            "DevOps engineer"
+        ],
+        "Benefit": "to provide useful data across all applications",
+        "Action": {
+            "Primary Action": [
+                "provide"
+            ],
+            "Secondary Action": []
+        },
+        "Entity": {
+            "Primary Entity": [
+                "New Relic",
+                "useful data",
+                "applications"
+            ],
+            "Secondary Entity": []
+        },
+        "Triggers": [
+            [
+                "DevOps engineer",
+                "provide"
+            ]
+        ],
+        "Targets": [
+            [
+                "provide",
+                "New Relic"
+            ],
+            [
+                "provide",
+                "useful data"
+            ],
+            [
+                "provide",
+                "applications"
+            ]
+        ]
+    },
+    {
+        "Text": "#G02# As a Developer , I want my domain models to be indexed properly, so that I can get validation results back in a reasonable amount of time.",
+        "Persona": [
+            "Developer"
+        ],
+        "Benefit": "I can get validation results back in a reasonable amount of time.",
+        "Action": {
+            "Primary Action": [
+                "indexed",
+                "get"
+            ],
+            "Secondary Action": []
+        },
+        "Entity": {
+            "Primary Entity": [
+                "domain models",
+                "validation results"
+            ],
+            "Secondary Entity": []
+        },
+        "Triggers": [
+            [
+                "Developer",
+                "indexed"
+            ]
+        ],
+        "Targets": [
+            [
+                "indexed",
+                "domain models"
+            ],
+            [
+                "indexed",
+                "validation results"
+            ],
+            [
+                "get",
+                "validation results"
+            ]
+        ]
+    },
+    {
+        "Text": "#G02# As a UI designer, I want to redesign the Resources page, so that it matches the new Broker design styles.",
+        "Persona": [
+            "UI designer"
+        ],
+        "Benefit": "it matches the new Broker design styles",
+        "Action": {
+            "Primary Action": [
+                "redesign",
+                "matches"
+            ],
+            "Secondary Action": []
+        },
+        "Entity": {
+            "Primary Entity": [
+                "Resources page",
+                "Broker design styles"
+            ],
+            "Secondary Entity": []
+        },
+        "Triggers": [
+            [
+                "UI designer",
+                "redesign"
+            ]
+        ],
+        "Targets": [
+            [
+                "redesign",
+                "Resources page"
+            ],
+            [
+                "redesign",
+                "Broker design styles"
+            ]
+        ]
+    },
+    {
+        "Text": "#G02# As a Website user, I want to access published FABS files, so that I can see the new files as they come in.",
+        "Persona": [
+            "Website user"
+        ],
+        "Benefit": "I can see the new files as they come in.",
+        "Action": {
+            "Primary Action": [
+                "access",
+                "see"
+            ],
+            "Secondary Action": []
+        },
+        "Entity": {
+            "Primary Entity": [
+                "published FABS files",
+                "new files"
+            ],
+            "Secondary Entity": []
+        },
+        "Triggers": [
+            [
+                "Website user",
+                "access"
+            ]
+        ],
+        "Targets": [
+            [
+                "access",
+                "published FABS files"
+            ],
+            [
+                "see",
+                "new files"
+            ]
+        ]
+    },
+    {
+        "Text": "#G02# As a broker team member, I want to derive FundingAgencyCode, so that the data quality and completeness improves.",
+        "Persona": [
+            "broker team member"
+        ],
+        "Benefit": "the data quality and completeness improves",
+        "Action": {
+            "Primary Action": [
+                "derive"
+            ],
+            "Secondary Action": []
+        },
+        "Entity": {
+            "Primary Entity": [
+                "FundingAgencyCode"
+            ],
+            "Secondary Entity": []
+        },
+        "Triggers": [
+            [
+                "broker team member",
+                "derive"
+            ]
+        ],
+        "Targets": [
+            [
+                "derive",
+                "FundingAgencyCode"
+            ]
+        ]
+    },
+    {
+        "Text": "#G02# As a Broker user, I want to submit records for individual recipients without receiving a DUNS error.",
+        "Persona": [
+            "Broker user"
+        ],
+        "Benefit": "submit records for individual recipients without receiving a DUNS error",
+        "Action": {
+            "Primary Action": [
+                "submit"
+            ],
+            "Secondary Action": []
+        },
+        "Entity": {
+            "Primary Entity": [
+                "records",
+                "individual recipients"
+            ],
+            "Secondary Entity": [
+                "DUNS error"
+            ]
+        },
+        "Triggers": [
+            [
+                "Broker user",
+                "submit"
+            ]
+        ],
+        "Targets": [
+            [
+                "submit",
+                "records"
+            ],
+            [
+                "submit",
+                "individual recipients"
+            ],
+            [
+                "submit",
+                "DUNS error"
+            ]
+        ]
+    },
+    {
+        "Text": "#G02# As an agency user, I want to know when the submission periods start and end, so that I know when the submission starts and ends.",
+        "Persona": [
+            "agency user"
+        ],
+        "Benefit": "I know when the submission starts and ends",
+        "Action": {
+            "Primary Action": [
+                "know",
+                "start",
+                "end"
+            ],
+            "Secondary Action": []
+        },
+        "Entity": {
+            "Primary Entity": [
+                "submission periods"
+            ],
+            "Secondary Entity": []
+        },
+        "Triggers": [
+            [
+                "agency user",
+                "know"
+            ],
+            [
+                "agency user",
+                "start"
+            ],
+            [
+                "agency user",
+                "end"
+            ]
+        ],
+        "Targets": [
+            [
+                "know",
+                "submission periods"
+            ],
+            [
+                "start",
+                "submission periods"
+            ],
+            [
+                "end",
+                "submission periods"
+            ]
+        ]
+    },
+    {
+        "Text": "#G02# As a user, I want more information about how many rows will be published prior to deciding whether to publish.",
+        "Persona": [
+            "user"
+        ],
+        "Benefit": "I want more information about how many rows will be published prior to deciding whether to publish.",
+        "Action": {
+            "Primary Action": [
+                "deciding",
+                "publish"
+            ],
+            "Secondary Action": []
+        },
+        "Entity": {
+            "Primary Entity": [
+                "information",
+                "rows"
+            ],
+            "Secondary Entity": []
+        },
+        "Triggers": [
+            [
+                "user",
+                "deciding"
+            ],
+            [
+                "deciding",
+                "publish"
+            ]
+        ],
+        "Targets": [
+            [
+                "deciding",
+                "information"
+            ],
+            [
+                "deciding",
+                "rows"
+            ]
+        ]
+    },
+    {
+        "Text": "#G02# As a user, I want to have accurate and complete data related to PPoPCode and PPoPCongressionalDistrict.",
+        "Persona": [
+            "user"
+        ],
+        "Benefit": "I want to have accurate and complete data related to PPoPCode and PPoPCongressionalDistrict.",
+        "Action": {
+            "Primary Action": [
+                "have"
+            ],
+            "Secondary Action": [
+                ""
+            ]
+        },
+        "Entity": {
+            "Primary Entity": [
+                "PPoPCode",
+                "PPoPCongressionalDistrict"
+            ],
+            "Secondary Entity": []
+        },
+        "Triggers": [
+            [
+                "user",
+                "have"
+            ]
+        ],
+        "Targets": [
+            [
+                "have",
+                "PPoPCode"
+            ],
+            [
+                "have",
+                "PPoPCongressionalDistrict"
+            ]
+        ]
+    },
+    {
+        "Text": "#G02# As a Developer, I want D Files generation requests to be managed and cached, so that duplicate requests do not cause performance issues.",
+        "Persona": [
+            "Developer"
+        ],
+        "Benefit": "duplicate requests do not cause performance issues",
+        "Action": {
+            "Primary Action": [
+                "managed",
+                "cached"
+            ],
+            "Secondary Action": []
+        },
+        "Entity": {
+            "Primary Entity": [
+                "D Files generation requests"
+            ],
+            "Secondary Entity": []
+        },
+        "Triggers": [
+            [
+                "Developer",
+                "managed"
+            ],
+            [
+                "Developer",
+                "cached"
+            ]
+        ],
+        "Targets": [
+            [
+                "managed",
+                "D Files generation requests"
+            ],
+            [
+                "cached",
+                "D Files generation requests"
+            ]
+        ]
+    },
+    {
+        "Text": "#G02# As a Broker user, I want to have PPoPZIP+4 work the same as the Legal Entity ZIP validations.",
+        "Persona": [
+            "Broker user"
+        ],
+        "Benefit": "PPoPZIP+4 works the same as the Legal Entity ZIP validations",
+        "Action": {
+            "Primary Action": [
+                "work"
+            ],
+            "Secondary Action": [
+                ""
+            ]
+        },
+        "Entity": {
+            "Primary Entity": [
+                "PPoPZIP+4",
+                "Legal Entity ZIP validations"
+            ],
+            "Secondary Entity": []
+        },
+        "Triggers": [
+            [
+                "Broker user",
+                "work"
+            ]
+        ],
+        "Targets": [
+            [
+                "work",
+                "PPoPZIP+4"
+            ],
+            [
+                "work",
+                "Legal Entity ZIP validations"
+            ]
+        ]
+    },
+    {
+        "Text": "#G02# As a UI designer, I want to track the issues that come up in Tech Thursday, so that I know what to test and what want s to be fixed.",
+        "Persona": [
+            "UI designer"
+        ],
+        "Benefit": "I know what to test and what wants to be fixed",
+        "Action": {
+            "Primary Action": [
+                "track",
+                "test",
+                "fix"
+            ],
+            "Secondary Action": []
+        },
+        "Entity": {
+            "Primary Entity": [
+                "Tech Thursday",
+                "issues"
+            ],
+            "Secondary Entity": []
+        },
+        "Triggers": [
+            [
+                "UI designer",
+                "track"
+            ]
+        ],
+        "Targets": [
+            [
+                "track",
+                "Tech Thursday"
+            ],
+            [
+                "track",
+                "issues"
+            ],
+            [
+                "track",
+                "test"
+            ],
+            [
+                "track",
+                "fix"
+            ]
+        ]
+    },
+    {
+        "Text": "#G02# As an Agency user, I want to better understand my file-level errors.",
+        "Persona": [
+            "Agency user"
+        ],
+        "Benefit": "better understand my file-level errors",
+        "Action": {
+            "Primary Action": [
+                "understand"
+            ],
+            "Secondary Action": []
+        },
+        "Entity": {
+            "Primary Entity": [
+                "file-level errors"
+            ],
+            "Secondary Entity": []
+        },
+        "Triggers": [
+            [
+                "Agency user",
+                "understand"
+            ]
+        ],
+        "Targets": [
+            [
+                "understand",
+                "file-level errors"
+            ]
+        ]
+    },
+    {
+        "Text": "#G02# As a Developer , I want to determine how agencies will generate and validate D Files from FABS and FPDS data.",
+        "Persona": [
+            "Developer"
+        ],
+        "Benefit": "determine how agencies will generate and validate D Files from FABS and FPDS data",
+        "Action": {
+            "Primary Action": [
+                "generate",
+                "validate"
+            ],
+            "Secondary Action": []
+        },
+        "Entity": {
+            "Primary Entity": [
+                "agencies",
+                "D Files",
+                "FABS",
+                "FPDS data"
+            ],
+            "Secondary Entity": []
+        },
+        "Triggers": [
+            [
+                "Developer",
+                "generate"
+            ],
+            [
+                "Developer",
+                "validate"
+            ]
+        ],
+        "Targets": [
+            [
+                "generate",
+                "agencies"
+            ],
+            [
+                "validate",
+                "D Files"
+            ],
+            [
+                "validate",
+                "FABS"
+            ],
+            [
+                "validate",
+                "FPDS data"
+            ]
+        ]
+    },
+    {
+        "Text": "#G02# As a user, I want the publish button in FABS to deactivate after I click it while the derivations are happening, so that I cannot click it multiple times for the same submission.",
+        "Persona": [
+            "user"
+        ],
+        "Benefit": "I cannot click it multiple times for the same submission",
+        "Action": {
+            "Primary Action": [
+                "deactivate",
+                "click"
+            ],
+            "Secondary Action": []
+        },
+        "Entity": {
+            "Primary Entity": [
+                "publish button",
+                "FABS"
+            ],
+            "Secondary Entity": [
+                "derivations",
+                "submission"
+            ]
+        },
+        "Triggers": [
+            [
+                "user",
+                "deactivate"
+            ]
+        ],
+        "Targets": [
+            [
+                "click",
+                "publish button"
+            ],
+            [
+                "click",
+                "derivations"
+            ]
+        ]
+    },
+    {
+        "Text": "#G02# As a Developer , I want to ensure that attempts to correct or delete non-existent records don't create new published data.",
+        "Persona": [
+            "Developer"
+        ],
+        "Benefit": "Attempts to correct or delete non-existent records don't create new published data.",
+        "Action": {
+            "Primary Action": [
+                "ensure",
+                "correct",
+                "delete",
+                "create"
+            ],
+            "Secondary Action": []
+        },
+        "Entity": {
+            "Primary Entity": [
+                "attempts",
+                "non-existent records",
+                "published data"
+            ],
+            "Secondary Entity": []
+        },
+        "Triggers": [
+            [
+                "Developer",
+                "ensure"
+            ]
+        ],
+        "Targets": [
+            [
+                "ensure",
+                "attempts"
+            ],
+            [
+                "ensure",
+                "non-existent records"
+            ],
+            [
+                "ensure",
+                "published data"
+            ],
+            [
+                "correct",
+                "non-existent records"
+            ],
+            [
+                "delete",
+                "non-existent records"
+            ],
+            [
+                "create",
+                "published data"
+            ]
+        ]
+    },
+    {
+        "Text": "#G02# As a user, I want to access the raw agency published files from FABS via USAspending.",
+        "Persona": [
+            "user"
+        ],
+        "Benefit": "I want to access the raw agency published files from FABS via USAspending.",
+        "Action": {
+            "Primary Action": [
+                "access"
+            ],
+            "Secondary Action": []
+        },
+        "Entity": {
+            "Primary Entity": [
+                "user"
+            ],
+            "Secondary Entity": [
+                "raw agency published files",
+                "FABS",
+                "USAspending"
+            ]
+        },
+        "Triggers": [
+            [
+                "user",
+                "access"
+            ]
+        ],
+        "Targets": [
+            [
+                "access",
+                "raw agency published files"
+            ],
+            [
+                "access",
+                "FABS"
+            ],
+            [
+                "access",
+                "USAspending"
+            ]
+        ]
+    },
+    {
+        "Text": "#G02# As an agency user, I want to get File F in the correct format.",
+        "Persona": [
+            "agency user"
+        ],
+        "Benefit": "in the correct format",
+        "Action": {
+            "Primary Action": [
+                "get"
+            ],
+            "Secondary Action": []
+        },
+        "Entity": {
+            "Primary Entity": [
+                "File F"
+            ],
+            "Secondary Entity": []
+        },
+        "Triggers": [
+            [
+                "agency user",
+                "get"
+            ]
+        ],
+        "Targets": [
+            [
+                "get",
+                "File F"
+            ]
+        ]
+    },
+    {
+        "Text": "#G02# As an Owner, I want to create a user testing summary from the UI SME, so that I can know what UI improvements we will follow through on.",
+        "Persona": [
+            "Owner",
+            "UI SME"
+        ],
+        "Benefit": "I can know what UI improvements we will follow through on",
+        "Action": {
+            "Primary Action": [
+                "create",
+                "know"
+            ],
+            "Secondary Action": []
+        },
+        "Entity": {
+            "Primary Entity": [
+                "Owner",
+                "UI SME"
+            ],
+            "Secondary Entity": [
+                "user testing summary",
+                "UI improvements"
+            ]
+        },
+        "Triggers": [
+            [
+                "Owner",
+                "create"
+            ],
+            [
+                "UI SME",
+                "create"
+            ]
+        ],
+        "Targets": [
+            [
+                "create",
+                "user testing summary"
+            ],
+            [
+                "create",
+                "UI improvements"
+            ]
+        ]
+    },
+    {
+        "Text": "#G02# As a agency user, I want to map the FederalActionObligation properly to the Atom Feed.",
+        "Persona": [
+            "agency user"
+        ],
+        "Benefit": "properly map the FederalActionObligation to the Atom Feed",
+        "Action": {
+            "Primary Action": [
+                "map"
+            ],
+            "Secondary Action": []
+        },
+        "Entity": {
+            "Primary Entity": [
+                "FederalActionObligation",
+                "Atom Feed"
+            ],
+            "Secondary Entity": []
+        },
+        "Triggers": [
+            [
+                "agency user",
+                "map"
+            ]
+        ],
+        "Targets": [
+            [
+                "map",
+                "FederalActionObligation"
+            ],
+            [
+                "map",
+                "Atom Feed"
+            ]
+        ]
+    },
+    {
+        "Text": "#G02# As a user, I want to access the raw agency published files from FABS via USAspending.",
+        "Persona": [
+            "user"
+        ],
+        "Benefit": "I want to access the raw agency published files from FABS via USAspending.",
+        "Action": {
+            "Primary Action": [
+                "access"
+            ],
+            "Secondary Action": []
+        },
+        "Entity": {
+            "Primary Entity": [
+                "raw agency published files",
+                "FABS",
+                "USAspending"
+            ],
+            "Secondary Entity": []
+        },
+        "Triggers": [
+            [
+                "user",
+                "access"
+            ]
+        ],
+        "Targets": [
+            [
+                "access",
+                "raw agency published files"
+            ],
+            [
+                "access",
+                "FABS"
+            ],
+            [
+                "access",
+                "USAspending"
+            ]
+        ]
+    },
+    {
+        "Text": "#G02# As an agency user, I want the FABS validation rules to accept zero and blank for loan records.",
+        "Persona": [
+            "agency user"
+        ],
+        "Benefit": "to accept zero and blank for loan records",
+        "Action": {
+            "Primary Action": [
+                "accept"
+            ],
+            "Secondary Action": []
+        },
+        "Entity": {
+            "Primary Entity": [
+                "FABS validation rules",
+                "loan records"
+            ],
+            "Secondary Entity": []
+        },
+        "Triggers": [
+            [
+                "agency user",
+                "accept"
+            ]
+        ],
+        "Targets": [
+            [
+                "accept",
+                "FABS validation rules"
+            ],
+            [
+                "accept",
+                "loan records"
+            ]
+        ]
+    },
+    {
+        "Text": "#G02# As a Developer, I want to prevent duplicate transactions from being published and deal with the time gap between validation and the publishing decision.",
+        "Persona": [
+            "Developer"
+        ],
+        "Benefit": "Prevent duplicate transactions from being published and handle the time gap between validation and publishing decision",
+        "Action": {
+            "Primary Action": [
+                "prevent",
+                "deal with"
+            ],
+            "Secondary Action": []
+        },
+        "Entity": {
+            "Primary Entity": [
+                "duplicate transactions",
+                "time gap"
+            ],
+            "Secondary Entity": [
+                "validation",
+                "publishing decision"
+            ]
+        },
+        "Triggers": [
+            [
+                "Developer",
+                "prevent"
+            ],
+            [
+                "Developer",
+                "deal with"
+            ]
+        ],
+        "Targets": [
+            [
+                "prevent",
+                "duplicate transactions"
+            ],
+            [
+                "deal with",
+                "time gap"
+            ]
+        ]
+    },
+    {
+        "Text": "#G02# As an owner, I only want zero-padded fields, so that I can justify padding.",
+        "Persona": [
+            "owner"
+        ],
+        "Benefit": "I can justify padding",
+        "Action": {
+            "Primary Action": [
+                "justify padding"
+            ],
+            "Secondary Action": []
+        },
+        "Entity": {
+            "Primary Entity": [
+                "zero-padded fields"
+            ],
+            "Secondary Entity": []
+        },
+        "Triggers": [
+            [
+                "owner",
+                "justify padding"
+            ]
+        ],
+        "Targets": [
+            [
+                "justify padding",
+                "zero-padded fields"
+            ]
+        ]
+    },
+    {
+        "Text": "#G02# As an agency user, I want a landing page to navigate to either FABS or DABS pages, so that I can access both sides of the site.",
+        "Persona": [
+            "agency user"
+        ],
+        "Benefit": "I can access both sides of the site",
+        "Action": {
+            "Primary Action": [
+                "navigate",
+                "access"
+            ],
+            "Secondary Action": []
+        },
+        "Entity": {
+            "Primary Entity": [
+                "agency user",
+                "landing page"
+            ],
+            "Secondary Entity": [
+                "FABS",
+                "DABS pages"
+            ]
+        },
+        "Triggers": [
+            [
+                "agency user",
+                "navigate"
+            ]
+        ],
+        "Targets": [
+            [
+                "navigate",
+                "landing page"
+            ],
+            [
+                "landing page",
+                "FABS"
+            ],
+            [
+                "landing page",
+                "DABS pages"
+            ]
+        ]
+    },
+    {
+        "Text": "#G02# As a user, I want the DUNS validations to accept records whose ActionDates are before the current registration date in SAM, but after the initial registration date.",
+        "Persona": [
+            "user"
+        ],
+        "Benefit": "accept records whose ActionDates are before the current registration date in SAM, but after the initial registration date",
+        "Action": {
+            "Primary Action": [
+                "accept"
+            ],
+            "Secondary Action": []
+        },
+        "Entity": {
+            "Primary Entity": [
+                "DUNS validations",
+                "records",
+                "ActionDates",
+                "current registration date",
+                "SAM",
+                "initial registration date"
+            ],
+            "Secondary Entity": []
+        },
+        "Triggers": [
+            [
+                "user",
+                "accept"
+            ]
+        ],
+        "Targets": [
+            [
+                "accept",
+                "DUNS validations"
+            ],
+            [
+                "accept",
+                "records"
+            ],
+            [
+                "accept",
+                "ActionDates"
+            ],
+            [
+                "accept",
+                "current registration date"
+            ],
+            [
+                "accept",
+                "SAM"
+            ],
+            [
+                "accept",
+                "initial registration date"
+            ]
+        ]
+    },
+    {
+        "Text": "#G02# As an owner, I want to be sure that USAspending only send grant records to my system.",
+        "Persona": [
+            "owner"
+        ],
+        "Benefit": "USAspending only send grant records to my system",
+        "Action": {
+            "Primary Action": [
+                "be sure",
+                "send"
+            ],
+            "Secondary Action": []
+        },
+        "Entity": {
+            "Primary Entity": [
+                "owner",
+                "USAspending"
+            ],
+            "Secondary Entity": [
+                "grant records"
+            ]
+        },
+        "Triggers": [
+            [
+                "owner",
+                "be sure"
+            ],
+            [
+                "USAspending",
+                "send"
+            ]
+        ],
+        "Targets": [
+            [
+                "be sure",
+                "USAspending"
+            ],
+            [
+                "send",
+                "grant records"
+            ]
+        ]
+    },
+    {
+        "Text": "#G02# As a UI designer, I want to report to the Agencies about user testing, so that they are aware of their contributions to making Broker a better UX.",
+        "Persona": [
+            "UI designer",
+            "Agencies"
+        ],
+        "Benefit": "Agencies are aware of their contributions to making Broker a better UX",
+        "Action": {
+            "Primary Action": [
+                "report"
+            ],
+            "Secondary Action": [
+                "are aware"
+            ]
+        },
+        "Entity": {
+            "Primary Entity": [
+                "user testing",
+                "Broker",
+                "UX"
+            ],
+            "Secondary Entity": [
+                "Agencies"
+            ]
+        },
+        "Triggers": [
+            [
+                "UI designer",
+                "report"
+            ]
+        ],
+        "Targets": [
+            [
+                "report",
+                "user testing"
+            ]
+        ]
+    },
+    {
+        "Text": "#G02# As an agency user, I want to be confident that the data coming from SAM is complete.",
+        "Persona": [
+            "agency user"
+        ],
+        "Benefit": "data coming from SAM is complete",
+        "Action": {
+            "Primary Action": [
+                "be confident"
+            ],
+            "Secondary Action": []
+        },
+        "Entity": {
+            "Primary Entity": [
+                "SAM",
+                "data"
+            ],
+            "Secondary Entity": []
+        },
+        "Triggers": [
+            [
+                "agency user",
+                "be confident"
+            ]
+        ],
+        "Targets": [
+            [
+                "be confident",
+                "SAM"
+            ],
+            [
+                "be confident",
+                "data"
+            ]
+        ]
+    },
+    {
+        "Text": "#G02# As a FABS user, I want to submit a citywide as a PPoPZIP and pass validations.",
+        "Persona": [
+            "FABS user"
+        ],
+        "Benefit": "submit a citywide as a PPoPZIP and pass validations",
+        "Action": {
+            "Primary Action": [
+                "submit",
+                "pass validations"
+            ],
+            "Secondary Action": []
+        },
+        "Entity": {
+            "Primary Entity": [
+                "citywide",
+                "PPoPZIP"
+            ],
+            "Secondary Entity": []
+        },
+        "Triggers": [
+            [
+                "FABS user",
+                "submit"
+            ]
+        ],
+        "Targets": [
+            [
+                "submit",
+                "citywide"
+            ],
+            [
+                "submit",
+                "PPoPZIP"
+            ],
+            [
+                "pass validations",
+                "citywide"
+            ],
+            [
+                "pass validations",
+                "PPoPZIP"
+            ]
+        ]
+    },
+    {
+        "Text": "#G02# As a FABS user, I want to have my validations run in a reasonable amount of time.",
+        "Persona": [
+            "FABS user"
+        ],
+        "Benefit": "I want to have my validations run in a reasonable amount of time.",
+        "Action": {
+            "Primary Action": [
+                "run"
+            ],
+            "Secondary Action": []
+        },
+        "Entity": {
+            "Primary Entity": [
+                "validations"
+            ],
+            "Secondary Entity": []
+        },
+        "Triggers": [
+            [
+                "FABS user",
+                "run"
+            ]
+        ],
+        "Targets": [
+            [
+                "run",
+                "validations"
+            ]
+        ]
+    },
+    {
+        "Text": "#G02# As an agency user, I want to use the schema v1.1 headers in my FABS file.",
+        "Persona": [
+            "agency user"
+        ],
+        "Benefit": "I can use the schema v1.1 headers in my FABS file",
+        "Action": {
+            "Primary Action": [
+                "use"
+            ],
+            "Secondary Action": []
+        },
+        "Entity": {
+            "Primary Entity": [
+                "schema v1.1 headers",
+                "FABS file"
+            ],
+            "Secondary Entity": []
+        },
+        "Triggers": [
+            [
+                "agency user",
+                "use"
+            ]
+        ],
+        "Targets": [
+            [
+                "use",
+                "schema v1.1 headers"
+            ],
+            [
+                "use",
+                "FABS file"
+            ]
+        ]
+    },
+    {
+        "Text": "#G02# As a Developer, I want to update the Broker validation rule table to account for the rule updates in DB-2213.",
+        "Persona": [
+            "Developer"
+        ],
+        "Benefit": "to account for the rule updates in DB-2213",
+        "Action": {
+            "Primary Action": [
+                "update"
+            ],
+            "Secondary Action": []
+        },
+        "Entity": {
+            "Primary Entity": [
+                "Broker validation rule table",
+                "rule updates in DB-2213"
+            ],
+            "Secondary Entity": []
+        },
+        "Triggers": [
+            [
+                "Developer",
+                "update"
+            ]
+        ],
+        "Targets": [
+            [
+                "update",
+                "Broker validation rule table"
+            ],
+            [
+                "update",
+                "rule updates in DB-2213"
+            ]
+        ]
+    },
+    {
+        "Text": "#G02# As a Developer , I want to clarify to users what exactly is triggering the CFDA error code in each case.",
+        "Persona": [
+            "Developer"
+        ],
+        "Benefit": "users know what exactly is triggering the CFDA error code in each case",
+        "Action": {
+            "Primary Action": [
+                "clarify",
+                "triggering"
+            ],
+            "Secondary Action": []
+        },
+        "Entity": {
+            "Primary Entity": [
+                "users",
+                "CFDA error code"
+            ],
+            "Secondary Entity": []
+        },
+        "Triggers": [
+            [
+                "Developer",
+                "clarify"
+            ]
+        ],
+        "Targets": [
+            [
+                "clarify",
+                "users"
+            ],
+            [
+                "clarify",
+                "CFDA error code"
+            ]
+        ]
+    },
+    {
+        "Text": "#G02# As an Owner, I want to reset the environment to only take Staging MAX permissions, so that I can ensure that the FABS testers no longer have access.",
+        "Persona": [
+            "Owner"
+        ],
+        "Benefit": "I can ensure that the FABS testers no longer have access",
+        "Action": {
+            "Primary Action": [
+                "reset",
+                "take"
+            ],
+            "Secondary Action": []
+        },
+        "Entity": {
+            "Primary Entity": [
+                "Owner",
+                "environment",
+                "Staging MAX permissions",
+                "FABS testers"
+            ],
+            "Secondary Entity": []
+        },
+        "Triggers": [
+            [
+                "Owner",
+                "reset"
+            ]
+        ],
+        "Targets": [
+            [
+                "reset",
+                "environment"
+            ],
+            [
+                "reset",
+                "Staging MAX permissions"
+            ],
+            [
+                "reset",
+                "FABS testers"
+            ]
+        ]
+    },
+    {
+        "Text": "#G02# As an Agency user, I want FPDS data to be up-to-date daily.",
+        "Persona": [
+            "Agency user"
+        ],
+        "Benefit": "FPDS data to be up-to-date daily",
+        "Action": {
+            "Primary Action": [
+                "up-to-date"
+            ],
+            "Secondary Action": []
+        },
+        "Entity": {
+            "Primary Entity": [
+                "FPDS data"
+            ],
+            "Secondary Entity": []
+        },
+        "Triggers": [
+            [
+                "Agency user",
+                "up-to-date"
+            ]
+        ],
+        "Targets": [
+            [
+                "up-to-date",
+                "FPDS data"
+            ]
+        ]
+    },
+    {
+        "Text": "#G02# As an agency user, I want to submit my data elements surrounded by quotation marks, so that Excel won't strip off leading and trailing zeroes.",
+        "Persona": [
+            "agency user"
+        ],
+        "Benefit": "Excel won't strip off leading and trailing zeroes",
+        "Action": {
+            "Primary Action": [
+                "submit",
+                "strip off"
+            ],
+            "Secondary Action": []
+        },
+        "Entity": {
+            "Primary Entity": [
+                "agency user",
+                "data elements",
+                "Excel"
+            ],
+            "Secondary Entity": []
+        },
+        "Triggers": [
+            [
+                "agency user",
+                "submit"
+            ]
+        ],
+        "Targets": [
+            [
+                "submit",
+                "data elements"
+            ],
+            [
+                "submit",
+                "Excel"
+            ],
+            [
+                "strip off",
+                "Excel"
+            ]
+        ]
+    },
+    {
+        "Text": "#G02# As a tester, I want to ensure that FABS is deriving fields properly through a robust test file plus a follow up check.",
+        "Persona": [
+            "tester"
+        ],
+        "Benefit": "FABS is deriving fields properly",
+        "Action": {
+            "Primary Action": [
+                "ensure",
+                "deriving"
+            ],
+            "Secondary Action": [
+                "robust",
+                "check"
+            ]
+        },
+        "Entity": {
+            "Primary Entity": [
+                "FABS",
+                "fields"
+            ],
+            "Secondary Entity": [
+                "test file",
+                "follow up check"
+            ]
+        },
+        "Triggers": [
+            [
+                "tester",
+                "ensure"
+            ]
+        ],
+        "Targets": [
+            [
+                "ensure",
+                "FABS"
+            ],
+            [
+                "ensure",
+                "fields"
+            ],
+            [
+                "deriving",
+                "FABS"
+            ],
+            [
+                "deriving",
+                "fields"
+            ],
+            [
+                "robust",
+                "test file"
+            ],
+            [
+                "check",
+                "follow up check"
+            ]
+        ]
+    },
+    {
+        "Text": "#G02# As an Agency user, I want to be able to include a large number of flexfields without performance impact.",
+        "Persona": [
+            "Agency user"
+        ],
+        "Benefit": "be able to include a large number of flexfields without performance impact",
+        "Action": {
+            "Primary Action": [
+                "include"
+            ],
+            "Secondary Action": []
+        },
+        "Entity": {
+            "Primary Entity": [
+                "flexfields"
+            ],
+            "Secondary Entity": []
+        },
+        "Triggers": [
+            [
+                "Agency user",
+                "include"
+            ]
+        ],
+        "Targets": [
+            [
+                "include",
+                "flexfields"
+            ]
+        ]
+    },
+    {
+        "Text": "#G02# As a Broker user, I want  to help create content mockups, so that I can submit my data efficiently.",
+        "Persona": [
+            "Broker user"
+        ],
+        "Benefit": "I can submit my data efficiently.",
+        "Action": {
+            "Primary Action": [
+                "help create",
+                "submit"
+            ],
+            "Secondary Action": []
+        },
+        "Entity": {
+            "Primary Entity": [
+                "content mockups",
+                "data"
+            ],
+            "Secondary Entity": []
+        },
+        "Triggers": [
+            [
+                "Broker user",
+                "help create"
+            ]
+        ],
+        "Targets": [
+            [
+                "help create",
+                "content mockups"
+            ],
+            [
+                "submit",
+                "data"
+            ]
+        ]
+    },
+    {
+        "Text": "#G02# As a Developer , I want to provide FABS groups that function under the FREC paradigm.",
+        "Persona": [
+            "Developer"
+        ],
+        "Benefit": "function under the FREC paradigm",
+        "Action": {
+            "Primary Action": [
+                "provide"
+            ],
+            "Secondary Action": []
+        },
+        "Entity": {
+            "Primary Entity": [
+                "FABS groups",
+                "FREC paradigm"
+            ],
+            "Secondary Entity": []
+        },
+        "Triggers": [
+            [
+                "Developer",
+                "provide"
+            ]
+        ],
+        "Targets": [
+            [
+                "provide",
+                "FABS groups"
+            ],
+            [
+                "provide",
+                "FREC paradigm"
+            ]
+        ]
+    },
+    {
+        "Text": "#G02# As a FABS user, I want to link the SAMPLE FILE on the \"What you want  to submit\" dialog to point to the correct file, so that I have an accurate reference for my agency submissions.",
+        "Persona": [
+            "FABS user"
+        ],
+        "Benefit": "I have an accurate reference for my agency submissions",
+        "Action": {
+            "Primary Action": [
+                "link",
+                "point"
+            ],
+            "Secondary Action": []
+        },
+        "Entity": {
+            "Primary Entity": [
+                "SAMPLE FILE",
+                "What you want to submit dialog"
+            ],
+            "Secondary Entity": []
+        },
+        "Triggers": [
+            [
+                "FABS user",
+                "link"
+            ]
+        ],
+        "Targets": [
+            [
+                "link",
+                "SAMPLE FILE"
+            ],
+            [
+                "link",
+                "What you want to submit dialog"
+            ]
+        ]
+    },
+    {
+        "Text": "#G02# As a user, I want the flexfields in my submission file to appear in the warning and error files when the only error is a missing required element.",
+        "Persona": [
+            "user"
+        ],
+        "Benefit": "Flexfields in the submission file appear in the warning and error files when the only error is a missing required element",
+        "Action": {
+            "Primary Action": [
+                "appear"
+            ],
+            "Secondary Action": [
+                ""
+            ]
+        },
+        "Entity": {
+            "Primary Entity": [
+                "flexfields",
+                "submission file",
+                "warning files",
+                "error files",
+                "missing required element"
+            ],
+            "Secondary Entity": []
+        },
+        "Triggers": [
+            [
+                "user",
+                "appear"
+            ]
+        ],
+        "Targets": [
+            [
+                "appear",
+                "flexfields"
+            ],
+            [
+                "appear",
+                "submission file"
+            ],
+            [
+                "appear",
+                "warning files"
+            ],
+            [
+                "appear",
+                "error files"
+            ],
+            [
+                "appear",
+                "missing required element"
+            ]
+        ]
+    },
+    {
+        "Text": "#G02# As an Agency user, I want FABS deployed into production, so I can submit my Financial Assistance data.",
+        "Persona": [
+            "Agency user"
+        ],
+        "Benefit": "I can submit my Financial Assistance data",
+        "Action": {
+            "Primary Action": [
+                "deployed",
+                "submit"
+            ],
+            "Secondary Action": []
+        },
+        "Entity": {
+            "Primary Entity": [
+                "FABS",
+                "production",
+                "Financial Assistance data"
+            ],
+            "Secondary Entity": []
+        },
+        "Triggers": [
+            [
+                "Agency user",
+                "FABS"
+            ]
+        ],
+        "Targets": [
+            [
+                "FABS",
+                "production"
+            ],
+            [
+                "FABS",
+                "Financial Assistance data"
+            ]
+        ]
+    },
+    {
+        "Text": "#G02# As a Data user, I want to have the 12-19-2017 deletions processed.",
+        "Persona": [
+            "Data user"
+        ],
+        "Benefit": "to have the 12-19-2017 deletions processed",
+        "Action": {
+            "Primary Action": [
+                "have processed"
+            ],
+            "Secondary Action": []
+        },
+        "Entity": {
+            "Primary Entity": [
+                "12-19-2017 deletions"
+            ],
+            "Secondary Entity": []
+        },
+        "Triggers": [
+            [
+                "Data user",
+                "have processed"
+            ]
+        ],
+        "Targets": [
+            [
+                "have processed",
+                "12-19-2017 deletions"
+            ]
+        ]
+    },
+    {
+        "Text": "#G02# As a Developer, I want to add the GTAS window data to the database, so that I can ensure the site is locked down during the GTAS submission period.",
+        "Persona": [
+            "Developer"
+        ],
+        "Benefit": "I can ensure the site is locked down during the GTAS submission period.",
+        "Action": {
+            "Primary Action": [
+                "add",
+                "ensure",
+                "locked down"
+            ],
+            "Secondary Action": []
+        },
+        "Entity": {
+            "Primary Entity": [
+                "GTAS window data",
+                "database",
+                "site"
+            ],
+            "Secondary Entity": []
+        },
+        "Triggers": [
+            [
+                "Developer",
+                "add"
+            ]
+        ],
+        "Targets": [
+            [
+                "add",
+                "GTAS window data"
+            ],
+            [
+                "add",
+                "database"
+            ],
+            [
+                "add",
+                "site"
+            ],
+            [
+                "ensure",
+                "site"
+            ],
+            [
+                "locked down",
+                "site"
+            ]
+        ]
+    },
+    {
+        "Text": "#G02# As an agency user, I want the maximum length allowed for LegalEntityAddressLine3 to match Schema v1.1.",
+        "Persona": [
+            "agency user"
+        ],
+        "Benefit": "The maximum length allowed for LegalEntityAddressLine3 to match Schema v1.1",
+        "Action": {
+            "Primary Action": [
+                "match"
+            ],
+            "Secondary Action": []
+        },
+        "Entity": {
+            "Primary Entity": [
+                "LegalEntityAddressLine3",
+                "Schema v1.1"
+            ],
+            "Secondary Entity": []
+        },
+        "Triggers": [
+            [
+                "agency user",
+                "match"
+            ]
+        ],
+        "Targets": [
+            [
+                "match",
+                "LegalEntityAddressLine3"
+            ],
+            [
+                "match",
+                "Schema v1.1"
+            ]
+        ]
+    },
+    {
+        "Text": "#G02# As a FABS user, I want to see correct status labels on the Submission Dashboard, so that I can quickly see my submission history.",
+        "Persona": [
+            "FABS user"
+        ],
+        "Benefit": "I can quickly see my submission history",
+        "Action": {
+            "Primary Action": [
+                "see",
+                "quickly see"
+            ],
+            "Secondary Action": []
+        },
+        "Entity": {
+            "Primary Entity": [
+                "Submission Dashboard",
+                "submission history"
+            ],
+            "Secondary Entity": []
+        },
+        "Triggers": [
+            [
+                "FABS user",
+                "see"
+            ]
+        ],
+        "Targets": [
+            [
+                "see",
+                "Submission Dashboard"
+            ],
+            [
+                "see",
+                "submission history"
+            ]
+        ]
+    },
+    {
+        "Text": "#G02# As a Broker user, I want to have updated error codes that accurately reflect the logic and provide enough information, so that I can fix my submission.",
+        "Persona": [
+            "Broker user"
+        ],
+        "Benefit": "I can fix my submission",
+        "Action": {
+            "Primary Action": [
+                "have",
+                "fix"
+            ],
+            "Secondary Action": []
+        },
+        "Entity": {
+            "Primary Entity": [
+                "error codes",
+                "submission"
+            ],
+            "Secondary Entity": []
+        },
+        "Triggers": [
+            [
+                "Broker user",
+                "have"
+            ]
+        ],
+        "Targets": [
+            [
+                "have",
+                "error codes"
+            ],
+            [
+                "have",
+                "submission"
+            ],
+            [
+                "fix",
+                "submission"
+            ]
+        ]
+    },
+    {
+        "Text": "#G02# As an Agency user, I want to be able to include a large number of flexfields without performance impact.",
+        "Persona": [
+            "Agency user"
+        ],
+        "Benefit": "be able to include a large number of flexfields without performance impact",
+        "Action": {
+            "Primary Action": [
+                "include"
+            ],
+            "Secondary Action": []
+        },
+        "Entity": {
+            "Primary Entity": [
+                "flexfields"
+            ],
+            "Secondary Entity": []
+        },
+        "Triggers": [
+            [
+                "Agency user",
+                "include"
+            ]
+        ],
+        "Targets": [
+            [
+                "include",
+                "flexfields"
+            ]
+        ]
+    },
+    {
+        "Text": "#G02# As a FABS user, I want to download the uploaded FABS file, so that I can get the uploaded file.",
+        "Persona": [
+            "FABS user"
+        ],
+        "Benefit": "I can get the uploaded file.",
+        "Action": {
+            "Primary Action": [
+                "download",
+                "get"
+            ],
+            "Secondary Action": []
+        },
+        "Entity": {
+            "Primary Entity": [
+                "FABS file",
+                "uploaded file"
+            ],
+            "Secondary Entity": []
+        },
+        "Triggers": [
+            [
+                "FABS user",
+                "download"
+            ]
+        ],
+        "Targets": [
+            [
+                "download",
+                "FABS file"
+            ],
+            [
+                "download",
+                "uploaded file"
+            ]
+        ]
+    },
+    {
+        "Text": "#G02# As a tester, I want to have access to test features in environments other than Staging, so that I can test any nonProd feature in any environment.",
+        "Persona": [
+            "tester"
+        ],
+        "Benefit": "I can test any nonProd feature in any environment.",
+        "Action": {},
+        "Triggers": [
+            [
+                "tester",
+                "have access"
+            ]
+        ],
+        "Targets": [
+            [
+                "have access",
+                "test features"
+            ],
+            [
+                "have access",
+                "environments"
+            ],
+            [
+                "have access",
+                "Staging"
+            ],
+            [
+                "have access",
+                "nonProd feature"
+            ],
+            [
+                "have access",
+                "environment"
+            ]
+        ]
+    },
+    {
+        "Text": "#G02# As a Developer , I want the historical FPDS data loader to include both extracted historical data and FPDS feed data.",
+        "Persona": [
+            "Developer"
+        ],
+        "Benefit": "include both extracted historical data and FPDS feed data",
+        "Action": {
+            "Primary Action": [
+                "include"
+            ],
+            "Secondary Action": []
+        },
+        "Entity": {
+            "Primary Entity": [
+                "historical FPDS data loader",
+                "extracted historical data",
+                "FPDS feed data"
+            ],
+            "Secondary Entity": []
+        },
+        "Triggers": [
+            [
+                "Developer",
+                "include"
+            ]
+        ],
+        "Targets": [
+            [
+                "include",
+                "historical FPDS data loader"
+            ],
+            [
+                "include",
+                "extracted historical data"
+            ],
+            [
+                "include",
+                "FPDS feed data"
+            ]
+        ]
+    },
+    {
+        "Text": "#G02# As an Owner, I want to design a schedule from the UI SME, so that I know the potential timeline of the UI improvements wanted.",
+        "Persona": [
+            "Owner",
+            "UI SME"
+        ],
+        "Benefit": "I know the potential timeline of the UI improvements wanted.",
+        "Action": {
+            "Primary Action": [
+                "design",
+                "know"
+            ],
+            "Secondary Action": []
+        },
+        "Entity": {
+            "Primary Entity": [
+                "Owner",
+                "schedule",
+                "UI improvements"
+            ],
+            "Secondary Entity": [
+                "UI SME"
+            ]
+        },
+        "Triggers": [
+            [
+                "Owner",
+                "design"
+            ],
+            [
+                "Owner",
+                "know"
+            ]
+        ],
+        "Targets": [
+            [
+                "design",
+                "schedule"
+            ],
+            [
+                "know",
+                "UI improvements"
+            ]
+        ]
+    },
+    {
+        "Text": "#G02# As an agency user, I want to leave off the last 4 digits of the ZIP without an error, so that I can complete my submissions.",
+        "Persona": [
+            "agency user"
+        ],
+        "Benefit": "I can complete my submissions",
+        "Action": {
+            "Primary Action": [
+                "leave off",
+                "complete"
+            ],
+            "Secondary Action": []
+        },
+        "Entity": {
+            "Primary Entity": [
+                "ZIP",
+                "submissions"
+            ],
+            "Secondary Entity": []
+        },
+        "Triggers": [
+            [
+                "agency user",
+                "leave off"
+            ]
+        ],
+        "Targets": [
+            [
+                "leave off",
+                "ZIP"
+            ],
+            [
+                "complete",
+                "submissions"
+            ]
+        ]
+    },
+    {
+        "Text": "#G02# As a FABS user, I do not want  DABS banner messages and vice versa, so that I have the appropriate information for my application.",
+        "Persona": [
+            "FABS user"
+        ],
+        "Benefit": "I have the appropriate information for my application.",
+        "Action": {
+            "Primary Action": [
+                "do not want",
+                "have"
+            ],
+            "Secondary Action": []
+        },
+        "Entity": {
+            "Primary Entity": [
+                "FABS user",
+                "DABS banner messages",
+                "appropriate information",
+                "application"
+            ],
+            "Secondary Entity": []
+        },
+        "Triggers": [
+            [
+                "FABS user",
+                "do not want"
+            ]
+        ],
+        "Targets": [
+            [
+                "do not want",
+                "DABS banner messages"
+            ],
+            [
+                "have",
+                "appropriate information"
+            ]
+        ]
+    },
+    {
+        "Text": "#G02# As a Developer, I want the data loaded from historical FABS to include the FREC derivations, so that I can have consistent FREC data for USASpending.gov.",
+        "Persona": [
+            "Developer"
+        ],
+        "Benefit": "I can have consistent FREC data for USASpending.gov",
+        "Action": {
+            "Primary Action": [
+                "loaded",
+                "have"
+            ],
+            "Secondary Action": [
+                "include"
+            ]
+        },
+        "Entity": {
+            "Primary Entity": [
+                "data",
+                "FREC derivations",
+                "USASpending.gov"
+            ],
+            "Secondary Entity": [
+                "historical FABS"
+            ]
+        },
+        "Triggers": [
+            [
+                "Developer",
+                "loaded"
+            ],
+            [
+                "Developer",
+                "have"
+            ]
+        ],
+        "Targets": [
+            [
+                "loaded",
+                "data"
+            ],
+            [
+                "loaded",
+                "FREC derivations"
+            ],
+            [
+                "loaded",
+                "USASpending.gov"
+            ],
+            [
+                "have",
+                "data"
+            ],
+            [
+                "have",
+                "FREC derivations"
+            ],
+            [
+                "have",
+                "USASpending.gov"
+            ]
+        ]
+    },
+    {
+        "Text": "#G02# As a UI designer,  I want to move on to round 2 of the Help page edits, so that I can get approvals from leadership.",
+        "Persona": [
+            "UI designer",
+            "leadership"
+        ],
+        "Benefit": "I can get approvals from leadership",
+        "Action": {
+            "Primary Action": [
+                "move on",
+                "get approvals"
+            ],
+            "Secondary Action": []
+        },
+        "Entity": {
+            "Primary Entity": [
+                "UI designer",
+                "leadership"
+            ],
+            "Secondary Entity": []
+        },
+        "Triggers": [
+            [
+                "UI designer",
+                "move on"
+            ],
+            [
+                "UI designer",
+                "get approvals"
+            ]
+        ],
+        "Targets": [
+            [
+                "move on",
+                "round 2 of the Help page edits"
+            ],
+            [
+                "get approvals",
+                "leadership"
+            ]
+        ]
+    },
+    {
+        "Text": "#G02# As a UI designer, I want to move on to round 3 of the Help page edits, so that I can get approvals from leadership.",
+        "Persona": [
+            "UI designer"
+        ],
+        "Benefit": "I can get approvals from leadership",
+        "Action": {
+            "Primary Action": [
+                "move on",
+                "get"
+            ],
+            "Secondary Action": [
+                ""
+            ]
+        },
+        "Entity": {
+            "Primary Entity": [
+                "round 3 of the Help page edits",
+                "approvals",
+                "leadership"
+            ],
+            "Secondary Entity": []
+        },
+        "Triggers": [
+            [
+                "UI designer",
+                "move on"
+            ]
+        ],
+        "Targets": [
+            [
+                "move on",
+                "round 3 of the Help page edits"
+            ],
+            [
+                "move on",
+                "approvals"
+            ],
+            [
+                "get",
+                "leadership"
+            ]
+        ]
+    },
+    {
+        "Text": "#G02# As a broker team member, I want to add the 00***** and 00FORGN PPoPCode cases to the derivation logic.",
+        "Persona": [
+            "broker team member"
+        ],
+        "Benefit": "enhance the derivation logic",
+        "Action": {
+            "Primary Action": [
+                "add to the derivation logic"
+            ],
+            "Secondary Action": []
+        },
+        "Entity": {
+            "Primary Entity": [
+                "00*****",
+                "00FORGN PPoPCode"
+            ],
+            "Secondary Entity": []
+        },
+        "Triggers": [
+            [
+                "broker team member",
+                "add to the derivation logic"
+            ]
+        ],
+        "Targets": [
+            [
+                "add to the derivation logic",
+                "00*****"
+            ],
+            [
+                "add to the derivation logic",
+                "00FORGN PPoPCode"
+            ]
+        ]
+    },
+    {
+        "Text": "#G02# As an agency user, I want to have all derived data elements derived properly.",
+        "Persona": [
+            "agency user"
+        ],
+        "Benefit": "I want to have all derived data elements derived properly.",
+        "Action": {
+            "Primary Action": [
+                "have"
+            ],
+            "Secondary Action": []
+        },
+        "Entity": {
+            "Primary Entity": [
+                "derived data elements"
+            ],
+            "Secondary Entity": []
+        },
+        "Triggers": [
+            [
+                "agency user",
+                "have"
+            ]
+        ],
+        "Targets": [
+            [
+                "have",
+                "derived data elements"
+            ]
+        ]
+    },
+    {
+        "Text": "#G02# As a Developer , I want to be able to log better, so that I can troubleshoot issues with particular submissions and functions.",
+        "Persona": [
+            "Developer"
+        ],
+        "Benefit": "I can troubleshoot issues with particular submissions and functions",
+        "Action": {
+            "Primary Action": [
+                "troubleshoot"
+            ],
+            "Secondary Action": []
+        },
+        "Entity": {
+            "Primary Entity": [
+                "log",
+                "submissions",
+                "functions"
+            ],
+            "Secondary Entity": []
+        },
+        "Triggers": [
+            [
+                "Developer",
+                "troubleshoot"
+            ]
+        ],
+        "Targets": [
+            [
+                "troubleshoot",
+                "log"
+            ],
+            [
+                "troubleshoot",
+                "submissions"
+            ],
+            [
+                "troubleshoot",
+                "functions"
+            ]
+        ]
+    },
+    {
+        "Text": "#G02# As a UI designer, I want to move on to round 2 of Homepage edits, so that I can get approvals from leadership.",
+        "Persona": [
+            "UI designer"
+        ],
+        "Benefit": "I can get approvals from leadership",
+        "Action": {
+            "Primary Action": [
+                "move on",
+                "get"
+            ],
+            "Secondary Action": [
+                ""
+            ]
+        },
+        "Entity": {
+            "Primary Entity": [
+                "round 2 of Homepage edits",
+                "approvals",
+                "leadership"
+            ],
+            "Secondary Entity": []
+        },
+        "Triggers": [
+            [
+                "UI designer",
+                "move on"
+            ]
+        ],
+        "Targets": [
+            [
+                "move on",
+                "round 2 of Homepage edits"
+            ],
+            [
+                "move on",
+                "approvals"
+            ],
+            [
+                "move on",
+                "leadership"
+            ]
+        ]
+    },
+    {
+        "Text": "#G02# As a broker team member, I want to ensure the Broker resources, validations, and P&P pages are updated appropriately for the launch of FABS and DAIMS v1.1.",
+        "Persona": [
+            "broker team member"
+        ],
+        "Benefit": "for the launch of FABS and DAIMS v1.1",
+        "Action": {
+            "Primary Action": [
+                "ensure",
+                "updated"
+            ],
+            "Secondary Action": []
+        },
+        "Entity": {
+            "Primary Entity": [
+                "Broker resources",
+                "FABS",
+                "DAIMS v1.1"
+            ],
+            "Secondary Entity": [
+                "validations",
+                "P&P pages"
+            ]
+        },
+        "Triggers": [
+            [
+                "broker team member",
+                "ensure"
+            ]
+        ],
+        "Targets": [
+            [
+                "ensure",
+                "Broker resources"
+            ],
+            [
+                "ensure",
+                "validations"
+            ],
+            [
+                "ensure",
+                "P&P pages"
+            ],
+            [
+                "ensure",
+                "FABS"
+            ],
+            [
+                "ensure",
+                "DAIMS v1.1"
+            ]
+        ]
+    },
+    {
+        "Text": "#G02# As a FABS user, I want to have read-only access to DABS, so that I can view DABS pages without wanting two sets of permissions.",
+        "Persona": [
+            "FABS user"
+        ],
+        "Benefit": "I can view DABS pages without wanting two sets of permissions.",
+        "Action": {
+            "Primary Action": [
+                "have read-only access"
+            ],
+            "Secondary Action": [
+                "view"
+            ]
+        },
+        "Entity": {
+            "Primary Entity": [
+                "DABS"
+            ],
+            "Secondary Entity": [
+                "DABS pages"
+            ]
+        },
+        "Triggers": [
+            [
+                "FABS user",
+                "have read-only access"
+            ]
+        ],
+        "Targets": [
+            [
+                "have read-only access",
+                "DABS"
+            ]
+        ]
+    },
+    {
+        "Text": "#G02# As a FABS user, I want to make sure the historical data includes all necessary columns, so that the information in the database is correct.",
+        "Persona": [
+            "FABS user"
+        ],
+        "Benefit": "the information in the database is correct",
+        "Action": {
+            "Primary Action": [
+                "make sure",
+                "includes"
+            ],
+            "Secondary Action": []
+        },
+        "Entity": {
+            "Primary Entity": [
+                "historical data",
+                "database"
+            ],
+            "Secondary Entity": []
+        },
+        "Triggers": [
+            [
+                "FABS user",
+                "make sure"
+            ],
+            [
+                "FABS user",
+                "includes"
+            ]
+        ],
+        "Targets": [
+            [
+                "make sure",
+                "historical data"
+            ],
+            [
+                "includes",
+                "historical data"
+            ],
+            [
+                "includes",
+                "database"
+            ]
+        ]
+    },
+    {
+        "Text": "#G02# As an Owner, I want to design an audit from the UI SME, so that I know the potential scope of the UI improvements want ed.",
+        "Persona": [
+            "Owner",
+            "UI SME"
+        ],
+        "Benefit": "I know the potential scope of the UI improvements wanted.",
+        "Action": {
+            "Primary Action": [
+                "design",
+                "know"
+            ],
+            "Secondary Action": []
+        },
+        "Entity": {
+            "Primary Entity": [
+                "Owner",
+                "UI SME"
+            ],
+            "Secondary Entity": [
+                "audit",
+                "UI improvements"
+            ]
+        },
+        "Triggers": [
+            [
+                "Owner",
+                "design"
+            ],
+            [
+                "UI SME",
+                "design"
+            ]
+        ],
+        "Targets": [
+            [
+                "design",
+                "audit"
+            ],
+            [
+                "design",
+                "UI improvements"
+            ]
+        ]
+    },
+    {
+        "Text": "#G02# As an Agency user, I want all historical Financial Assistance data loaded for FABS go-live.",
+        "Persona": [
+            "Agency user"
+        ],
+        "Benefit": "have all historical Financial Assistance data loaded for FABS go-live",
+        "Action": {
+            "Primary Action": [
+                "loaded"
+            ],
+            "Secondary Action": []
+        },
+        "Entity": {
+            "Primary Entity": [
+                "historical Financial Assistance data",
+                "FABS"
+            ],
+            "Secondary Entity": []
+        },
+        "Triggers": [
+            [
+                "Agency user",
+                "loaded"
+            ]
+        ],
+        "Targets": [
+            [
+                "loaded",
+                "historical Financial Assistance data"
+            ],
+            [
+                "loaded",
+                "FABS"
+            ]
+        ]
+    },
+    {
+        "Text": "#G02# As a Developer I want to quickly access Broker application data, so that I can investigate issues.",
+        "Persona": [
+            "Developer"
+        ],
+        "Benefit": "I can investigate issues",
+        "Action": {
+            "Primary Action": [
+                "access",
+                "investigate"
+            ],
+            "Secondary Action": []
+        },
+        "Entity": {
+            "Primary Entity": [
+                "Broker application data"
+            ],
+            "Secondary Entity": []
+        },
+        "Triggers": [
+            [
+                "Developer",
+                "access"
+            ],
+            [
+                "Developer",
+                "investigate"
+            ]
+        ],
+        "Targets": [
+            [
+                "access",
+                "Broker application data"
+            ],
+            [
+                "investigate",
+                "Broker application data"
+            ]
+        ]
+    },
+    {
+        "Text": "#G02# As an Agency user, I want to receive a more helpful file-level error when I upload a file with the wrong extension.",
+        "Persona": [
+            "Agency user"
+        ],
+        "Benefit": "I want to receive a more helpful file-level error when I upload a file with the wrong extension.",
+        "Action": {
+            "Primary Action": [
+                "receive",
+                "upload"
+            ],
+            "Secondary Action": []
+        },
+        "Entity": {
+            "Primary Entity": [
+                "file",
+                "file-level error"
+            ],
+            "Secondary Entity": []
+        },
+        "Triggers": [
+            [
+                "Agency user",
+                "receive"
+            ]
+        ],
+        "Targets": [
+            [
+                "upload",
+                "file"
+            ],
+            [
+                "upload",
+                "file-level error"
+            ]
+        ]
+    },
+    {
+        "Text": "#G02# As a Developer , I want to update the FABS sample file to remove FundingAgencyCode after FABS is updated to no longer require the header.",
+        "Persona": [
+            "Developer"
+        ],
+        "Benefit": "to no longer require the header",
+        "Action": {
+            "Primary Action": [
+                "update",
+                "remove"
+            ],
+            "Secondary Action": []
+        },
+        "Entity": {
+            "Primary Entity": [
+                "FABS sample file",
+                "FundingAgencyCode"
+            ],
+            "Secondary Entity": []
+        },
+        "Triggers": [
+            [
+                "Developer",
+                "update"
+            ]
+        ],
+        "Targets": [
+            [
+                "update",
+                "FABS sample file"
+            ],
+            [
+                "update",
+                "FundingAgencyCode"
+            ]
+        ]
+    }
+]

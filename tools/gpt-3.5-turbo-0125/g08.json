@@ -1,0 +1,3004 @@
+[
+    {
+        "Text": "#G08# As a Repository Manager, I want a tool that makes it easy for researchers/ users to add basic metadata to their research data, so that it is more findable and therefore useful.",
+        "Persona": [
+            "Repository Manager",
+            "researchers/ users"
+        ],
+        "Benefit": "it is more findable and therefore useful",
+        "Action": {
+            "Primary Action": [
+                "add",
+                "make"
+            ],
+            "Secondary Action": [
+                "findable",
+                "useful"
+            ]
+        },
+        "Entity": {
+            "Primary Entity": [
+                "Repository Manager",
+                "tool",
+                "research data",
+                "basic metadata"
+            ],
+            "Secondary Entity": [
+                "researchers/ users"
+            ]
+        },
+        "Triggers": [
+            [
+                "Repository Manager",
+                "add"
+            ],
+            [
+                "Repository Manager",
+                "make"
+            ]
+        ],
+        "Targets": [
+            [
+                "add",
+                "tool"
+            ],
+            [
+                "make",
+                "research data"
+            ],
+            [
+                "make",
+                "basic metadata"
+            ]
+        ]
+    },
+    {
+        "Text": "#G08# As a Researcher, I want to get a Data Package into LibreOffice/OpenOffice in seconds, so that I can start using the data for doing analysis and visualizations.",
+        "Persona": [
+            "Researcher"
+        ],
+        "Benefit": "I can start using the data for doing analysis and visualizations",
+        "Action": {
+            "Primary Action": [
+                "get",
+                "start using"
+            ],
+            "Secondary Action": []
+        },
+        "Entity": {
+            "Primary Entity": [
+                "Data Package",
+                "LibreOffice/OpenOffice"
+            ],
+            "Secondary Entity": [
+                "data",
+                "analysis",
+                "visualizations"
+            ]
+        },
+        "Triggers": [
+            [
+                "Researcher",
+                "get"
+            ],
+            [
+                "Researcher",
+                "start using"
+            ]
+        ],
+        "Targets": [
+            [
+                "get",
+                "Data Package"
+            ],
+            [
+                "start using",
+                "data"
+            ],
+            [
+                "start using",
+                "analysis"
+            ],
+            [
+                "start using",
+                "visualizations"
+            ]
+        ]
+    },
+    {
+        "Text": "#G08# As a publisher, I want to embed a preview button on my site, so that users can preview the data and be encouraged that this is the correct data for them.",
+        "Persona": [
+            "publisher"
+        ],
+        "Benefit": "users can preview the data and be encouraged that this is the correct data for them",
+        "Action": {
+            "Primary Action": [
+                "embed",
+                "preview",
+                "encouraged"
+            ],
+            "Secondary Action": []
+        },
+        "Entity": {
+            "Primary Entity": [
+                "preview button",
+                "site",
+                "data"
+            ],
+            "Secondary Entity": []
+        },
+        "Triggers": [
+            [
+                "publisher",
+                "embed"
+            ]
+        ],
+        "Targets": [
+            [
+                "embed",
+                "preview button"
+            ],
+            [
+                "embed",
+                "site"
+            ],
+            [
+                "preview",
+                "data"
+            ]
+        ]
+    },
+    {
+        "Text": "#G08# As a ResearcherGovernment Publisher, I want to add reference data on inflation to my spending dataset, so that the spending lines in my dataset is more understandable.",
+        "Persona": [
+            "ResearcherGovernment Publisher"
+        ],
+        "Benefit": "the spending lines in my dataset is more understandable",
+        "Action": {
+            "Primary Action": [
+                "add"
+            ],
+            "Secondary Action": []
+        },
+        "Entity": {
+            "Primary Entity": [
+                "reference data",
+                "spending dataset"
+            ],
+            "Secondary Entity": [
+                "inflation",
+                "spending lines"
+            ]
+        },
+        "Triggers": [
+            [
+                "ResearcherGovernment Publisher",
+                "add"
+            ]
+        ],
+        "Targets": [
+            [
+                "add",
+                "reference data"
+            ],
+            [
+                "add",
+                "inflation"
+            ],
+            [
+                "add",
+                "spending dataset"
+            ],
+            [
+                "add",
+                "spending lines"
+            ]
+        ]
+    },
+    {
+        "Text": "#G08# As a Researcher, I want to be able to save new visualizations, so that I can share them with others or include them in the Data Package.",
+        "Persona": [
+            "Researcher"
+        ],
+        "Benefit": "I can share new visualizations with others or include them in the Data Package",
+        "Action": {
+            "Primary Action": [
+                "save",
+                "share",
+                "include"
+            ],
+            "Secondary Action": [
+                ""
+            ]
+        },
+        "Entity": {
+            "Primary Entity": [
+                "new visualizations",
+                "Data Package"
+            ],
+            "Secondary Entity": []
+        },
+        "Triggers": [
+            [
+                "Researcher",
+                "save"
+            ],
+            [
+                "Researcher",
+                "share"
+            ],
+            [
+                "Researcher",
+                "include"
+            ]
+        ],
+        "Targets": [
+            [
+                "save",
+                "new visualizations"
+            ],
+            [
+                "share",
+                "new visualizations"
+            ],
+            [
+                "include",
+                "new visualizations"
+            ],
+            [
+                "save",
+                "Data Package"
+            ],
+            [
+                "share",
+                "Data Package"
+            ],
+            [
+                "include",
+                "Data Package"
+            ]
+        ]
+    },
+    {
+        "Text": "#G08# As a developer, I want an online service that is connected to my data repository that validates data on update, so that I can delegate data validation to a third party.",
+        "Persona": [
+            "developer"
+        ],
+        "Benefit": "I can delegate data validation to a third party",
+        "Action": {
+            "Primary Action": [
+                "validate",
+                "update",
+                "delegate"
+            ],
+            "Secondary Action": []
+        },
+        "Entity": {
+            "Primary Entity": [
+                "online service",
+                "data repository",
+                "data"
+            ],
+            "Secondary Entity": []
+        },
+        "Triggers": [
+            [
+                "developer",
+                "validate"
+            ]
+        ],
+        "Targets": [
+            [
+                "validate",
+                "online service"
+            ],
+            [
+                "validate",
+                "data repository"
+            ],
+            [
+                "update",
+                "data"
+            ],
+            [
+                "delegate",
+                "data validation"
+            ]
+        ]
+    },
+    {
+        "Text": "#G08# As a Developer, I want a Mongo integration, so that I can integrate data-packaged data with pipelines that use Mongo.",
+        "Persona": [
+            "Developer"
+        ],
+        "Benefit": "I can integrate data-packaged data with pipelines that use Mongo",
+        "Action": {
+            "Primary Action": [
+                "integrate"
+            ],
+            "Secondary Action": []
+        },
+        "Entity": {
+            "Primary Entity": [
+                "Mongo",
+                "pipelines"
+            ],
+            "Secondary Entity": [
+                "data-packaged data"
+            ]
+        },
+        "Triggers": [
+            [
+                "Developer",
+                "integrate"
+            ]
+        ],
+        "Targets": [
+            [
+                "integrate",
+                "Mongo"
+            ],
+            [
+                "integrate",
+                "pipelines"
+            ]
+        ]
+    },
+    {
+        "Text": "#G08# As a Researcher, I want to get a Data Package into Excel in seconds, so that I can start using the data for doing analysis and visualizations.",
+        "Persona": [
+            "Researcher"
+        ],
+        "Benefit": "I can start using the data for doing analysis and visualizations",
+        "Action": {
+            "Primary Action": [
+                "get",
+                "start using"
+            ],
+            "Secondary Action": [
+                "doing analysis",
+                "visualizations"
+            ]
+        },
+        "Entity": {
+            "Primary Entity": [
+                "Researcher",
+                "Data Package",
+                "Excel"
+            ],
+            "Secondary Entity": []
+        },
+        "Triggers": [
+            [
+                "Researcher",
+                "get"
+            ]
+        ],
+        "Targets": [
+            [
+                "get",
+                "Data Package"
+            ],
+            [
+                "get",
+                "Excel"
+            ]
+        ]
+    },
+    {
+        "Text": "#G08# As a Publisher, I would like a tool to check data availability persistence after publication.",
+        "Persona": [
+            "Publisher"
+        ],
+        "Benefit": "I can check data availability persistence after publication",
+        "Action": {
+            "Primary Action": [
+                "check"
+            ],
+            "Secondary Action": []
+        },
+        "Entity": {
+            "Primary Entity": [
+                "tool",
+                "data availability persistence"
+            ],
+            "Secondary Entity": []
+        },
+        "Triggers": [
+            [
+                "Publisher",
+                "check"
+            ]
+        ],
+        "Targets": [
+            [
+                "check",
+                "tool"
+            ],
+            [
+                "check",
+                "data availability persistence"
+            ]
+        ]
+    },
+    {
+        "Text": "#G08# As a Developer, I want Feather integration, so that I can integrate data-packaged data with pipelines that use Feather.",
+        "Persona": [
+            "Developer"
+        ],
+        "Benefit": "I can integrate data-packaged data with pipelines that use Feather",
+        "Action": {
+            "Primary Action": [
+                "integrate"
+            ],
+            "Secondary Action": []
+        },
+        "Entity": {
+            "Primary Entity": [
+                "Feather integration",
+                "data-packaged data",
+                "pipelines"
+            ],
+            "Secondary Entity": []
+        },
+        "Triggers": [
+            [
+                "Developer",
+                "integrate"
+            ]
+        ],
+        "Targets": [
+            [
+                "integrate",
+                "Feather integration"
+            ],
+            [
+                "integrate",
+                "data-packaged data"
+            ],
+            [
+                "integrate",
+                "pipelines"
+            ]
+        ]
+    },
+    {
+        "Text": "#G08# As a developer, I want an DSpace integration, so that I can integrate data-packaged data with pipelines that use Dspace.",
+        "Persona": [
+            "developer"
+        ],
+        "Benefit": "I can integrate data-packaged data with pipelines that use DSpace",
+        "Action": {
+            "Primary Action": [
+                "integrate"
+            ],
+            "Secondary Action": []
+        },
+        "Entity": {
+            "Primary Entity": [
+                "DSpace",
+                "data-packaged data",
+                "pipelines"
+            ],
+            "Secondary Entity": []
+        },
+        "Triggers": [
+            [
+                "developer",
+                "integrate"
+            ]
+        ],
+        "Targets": [
+            [
+                "integrate",
+                "DSpace"
+            ],
+            [
+                "integrate",
+                "data-packaged data"
+            ],
+            [
+                "integrate",
+                "pipelines"
+            ]
+        ]
+    },
+    {
+        "Text": "#G08# As a ResearcherPublisher, I want to specify the funding that contributed to the creation of a given dataset, so that funding agencies can identify the funding, source for a given dataset.",
+        "Persona": [
+            "ResearcherPublisher",
+            "funding agencies"
+        ],
+        "Benefit": "funding agencies can identify the funding source for a given dataset",
+        "Action": {
+            "Primary Action": [
+                "specify",
+                "identify"
+            ],
+            "Secondary Action": []
+        },
+        "Entity": {
+            "Primary Entity": [
+                "dataset",
+                "funding"
+            ],
+            "Secondary Entity": []
+        },
+        "Triggers": [
+            [
+                "ResearcherPublisher",
+                "specify"
+            ],
+            [
+                "funding agencies",
+                "identify"
+            ],
+            [
+                "funding agencies",
+                "identify"
+            ]
+        ],
+        "Targets": [
+            [
+                "specify",
+                "funding"
+            ],
+            [
+                "identify",
+                "funding"
+            ],
+            [
+                "identify",
+                "source"
+            ],
+            [
+                "source",
+                "dataset"
+            ]
+        ]
+    },
+    {
+        "Text": "#G08# As a Researcher, I want to get a Data Package into R in seconds, so that I can start using the data for doing analysis and visualizations.",
+        "Persona": [
+            "Researcher"
+        ],
+        "Benefit": "I can start using the data for doing analysis and visualizations",
+        "Action": {
+            "Primary Action": [
+                "get",
+                "start using"
+            ],
+            "Secondary Action": [
+                "doing analysis",
+                "visualizations"
+            ]
+        },
+        "Entity": {
+            "Primary Entity": [
+                "Data Package",
+                "R"
+            ],
+            "Secondary Entity": []
+        },
+        "Triggers": [
+            [
+                "Researcher",
+                "get"
+            ],
+            [
+                "Researcher",
+                "start using"
+            ]
+        ],
+        "Targets": [
+            [
+                "get",
+                "Data Package"
+            ],
+            [
+                "start using",
+                "R"
+            ]
+        ]
+    },
+    {
+        "Text": "#G08# As a Developer, I want an EPrints integration, so that I can integrate data-packaged data with pipelines that use EPrints.",
+        "Persona": [
+            "Developer"
+        ],
+        "Benefit": "I can integrate data-packaged data with pipelines that use EPrints",
+        "Action": {
+            "Primary Action": [
+                "integrate"
+            ],
+            "Secondary Action": []
+        },
+        "Entity": {
+            "Primary Entity": [
+                "EPrints",
+                "data-packaged data",
+                "pipelines"
+            ],
+            "Secondary Entity": []
+        },
+        "Triggers": [
+            [
+                "Developer",
+                "integrate"
+            ]
+        ],
+        "Targets": [
+            [
+                "integrate",
+                "EPrints"
+            ],
+            [
+                "integrate",
+                "data-packaged data"
+            ],
+            [
+                "integrate",
+                "pipelines"
+            ]
+        ]
+    },
+    {
+        "Text": "#G08# As a government Publisher, I want to make it easy to prove that our published data is valid, so that I can claim that we are living up to our transparency commitments.",
+        "Persona": [
+            "government Publisher"
+        ],
+        "Benefit": "I can claim that we are living up to our transparency commitments",
+        "Action": {
+            "Primary Action": [
+                "make",
+                "claim"
+            ],
+            "Secondary Action": [
+                "prove"
+            ]
+        },
+        "Entity": {
+            "Primary Entity": [
+                "published data"
+            ],
+            "Secondary Entity": []
+        },
+        "Triggers": [
+            [
+                "government Publisher",
+                "make"
+            ]
+        ],
+        "Targets": [
+            [
+                "make",
+                "published data"
+            ],
+            [
+                "prove",
+                "published data"
+            ],
+            [
+                "claim",
+                "published data"
+            ]
+        ]
+    },
+    {
+        "Text": "#G08# As a Publisher, I want to be able to provide a visualization of data in the Data Package, so that I can provide my analysis and show my work to users of the data.",
+        "Persona": [
+            "Publisher"
+        ],
+        "Benefit": "I can provide my analysis and show my work to users of the data",
+        "Action": {
+            "Primary Action": [
+                "provide",
+                "show"
+            ],
+            "Secondary Action": []
+        },
+        "Entity": {
+            "Primary Entity": [
+                "visualization",
+                "Data Package",
+                "analysis",
+                "work",
+                "users"
+            ],
+            "Secondary Entity": []
+        },
+        "Triggers": [
+            [
+                "Publisher",
+                "provide"
+            ]
+        ],
+        "Targets": [
+            [
+                "provide",
+                "visualization"
+            ],
+            [
+                "provide",
+                "analysis"
+            ],
+            [
+                "provide",
+                "work"
+            ],
+            [
+                "show",
+                "users"
+            ]
+        ]
+    },
+    {
+        "Text": "#G08# As a ResearcherGovernment Publisher, I want to add general country names to my dataset that only contains country codes, so that my dataset is more readable.",
+        "Persona": [
+            "ResearcherGovernment Publisher"
+        ],
+        "Benefit": "my dataset is more readable",
+        "Action": {
+            "Primary Action": [
+                "add"
+            ],
+            "Secondary Action": [
+                ""
+            ]
+        },
+        "Entity": {
+            "Primary Entity": [
+                "dataset",
+                "country codes"
+            ],
+            "Secondary Entity": [
+                "ResearcherGovernment Publisher"
+            ]
+        },
+        "Triggers": [
+            [
+                "ResearcherGovernment Publisher",
+                "add"
+            ]
+        ],
+        "Targets": [
+            [
+                "add",
+                "dataset"
+            ],
+            [
+                "add",
+                "country codes"
+            ]
+        ]
+    },
+    {
+        "Text": "#G08# As a Publisher, I want to know how many users have previewed a dataset, so that I know how interest in a dataset relates to its actual download numbers.",
+        "Persona": [
+            "Publisher"
+        ],
+        "Benefit": "I know how interest in a dataset relates to its actual download numbers",
+        "Action": {
+            "Primary Action": [
+                "know",
+                "previewed",
+                "relates"
+            ],
+            "Secondary Action": []
+        },
+        "Entity": {
+            "Primary Entity": [
+                "users",
+                "dataset",
+                "download numbers"
+            ],
+            "Secondary Entity": []
+        },
+        "Triggers": [
+            [
+                "Publisher",
+                "know"
+            ]
+        ],
+        "Targets": [
+            [
+                "know",
+                "users"
+            ],
+            [
+                "know",
+                "dataset"
+            ],
+            [
+                "previewed",
+                "dataset"
+            ],
+            [
+                "relates",
+                "download numbers"
+            ]
+        ]
+    },
+    {
+        "Text": "#G08# As a Researcher, I want to be able to translate my EML dataset to a Data Package, so that I can benefit from the wide array of tools available for Data Packages.",
+        "Persona": [
+            "Researcher"
+        ],
+        "Benefit": "I can benefit from the wide array of tools available for Data Packages",
+        "Action": {
+            "Primary Action": [
+                "translate",
+                "benefit"
+            ],
+            "Secondary Action": []
+        },
+        "Entity": {
+            "Primary Entity": [
+                "EML dataset",
+                "Data Package",
+                "wide array of tools"
+            ],
+            "Secondary Entity": []
+        },
+        "Triggers": [
+            [
+                "Researcher",
+                "translate"
+            ]
+        ],
+        "Targets": [
+            [
+                "translate",
+                "EML dataset"
+            ],
+            [
+                "translate",
+                "Data Package"
+            ],
+            [
+                "benefit",
+                "wide array of tools"
+            ]
+        ]
+    },
+    {
+        "Text": "#G08# As a ResearcherPublisher, I want validate my data with a minimum of clicks, so that I can feel trust in the validity and usefulness of the data.",
+        "Persona": [
+            "ResearcherPublisher"
+        ],
+        "Benefit": "I can feel trust in the validity and usefulness of the data",
+        "Action": {
+            "Primary Action": [
+                "validate"
+            ],
+            "Secondary Action": []
+        },
+        "Entity": {
+            "Primary Entity": [
+                "data"
+            ],
+            "Secondary Entity": []
+        },
+        "Triggers": [
+            [
+                "ResearcherPublisher",
+                "validate"
+            ]
+        ],
+        "Targets": [
+            [
+                "validate",
+                "data"
+            ]
+        ]
+    },
+    {
+        "Text": "#G08# As a Developer, I want to get a Data Package into Julia in seconds, so that I can start using the data in doing analysis and visualizations.",
+        "Persona": [
+            "Developer"
+        ],
+        "Benefit": "I can start using the data in doing analysis and visualizations",
+        "Action": {
+            "Primary Action": [
+                "get",
+                "start using"
+            ],
+            "Secondary Action": [
+                "doing analysis",
+                "visualizations"
+            ]
+        },
+        "Entity": {
+            "Primary Entity": [
+                "Data Package",
+                "Julia"
+            ],
+            "Secondary Entity": [
+                "data"
+            ]
+        },
+        "Triggers": [
+            [
+                "Developer",
+                "get"
+            ],
+            [
+                "Developer",
+                "start using"
+            ]
+        ],
+        "Targets": [
+            [
+                "get",
+                "Data Package"
+            ],
+            [
+                "start using",
+                "data"
+            ]
+        ]
+    },
+    {
+        "Text": "#G08# As a Researcher, I want a tool that can generate basic statistics about a dataset, so that I can get a quick preview of the data.",
+        "Persona": [
+            "Researcher"
+        ],
+        "Benefit": "I can get a quick preview of the data",
+        "Action": {
+            "Primary Action": [
+                "generate",
+                "get"
+            ],
+            "Secondary Action": []
+        },
+        "Entity": {
+            "Primary Entity": [
+                "tool",
+                "dataset"
+            ],
+            "Secondary Entity": [
+                "basic statistics"
+            ]
+        },
+        "Triggers": [
+            [
+                "Researcher",
+                "generate"
+            ]
+        ],
+        "Targets": [
+            [
+                "generate",
+                "tool"
+            ],
+            [
+                "generate",
+                "basic statistics"
+            ],
+            [
+                "get",
+                "dataset"
+            ]
+        ]
+    },
+    {
+        "Text": "#G08# As a Developer, I want an SPSS integration, so that I can integrate data-packaged data with pipelines that use SPSS.",
+        "Persona": [
+            "Developer"
+        ],
+        "Benefit": "I can integrate data-packaged data with pipelines that use SPSS",
+        "Action": {
+            "Primary Action": [
+                "integrate"
+            ],
+            "Secondary Action": []
+        },
+        "Entity": {
+            "Primary Entity": [
+                "SPSS",
+                "data-packaged data",
+                "pipelines"
+            ],
+            "Secondary Entity": []
+        },
+        "Triggers": [
+            [
+                "Developer",
+                "integrate"
+            ]
+        ],
+        "Targets": [
+            [
+                "integrate",
+                "SPSS"
+            ],
+            [
+                "integrate",
+                "data-packaged data"
+            ],
+            [
+                "integrate",
+                "pipelines"
+            ]
+        ]
+    },
+    {
+        "Text": "#G08# As a RepositoryManagerResearcher, I want an app that acts as a match-making service for packaging data, so that owners are paired with data packagers.",
+        "Persona": [
+            "RepositoryManagerResearcher"
+        ],
+        "Benefit": "owners are paired with data packagers",
+        "Action": {
+            "Primary Action": [
+                "acts as",
+                "paired"
+            ],
+            "Secondary Action": []
+        },
+        "Entity": {
+            "Primary Entity": [
+                "app",
+                "packaging data",
+                "owners",
+                "data packagers"
+            ],
+            "Secondary Entity": [
+                "match-making service"
+            ]
+        },
+        "Triggers": [
+            [
+                "RepositoryManagerResearcher",
+                "acts as"
+            ]
+        ],
+        "Targets": [
+            [
+                "acts as",
+                "app"
+            ],
+            [
+                "acts as",
+                "match-making service"
+            ],
+            [
+                "acts as",
+                "packaging data"
+            ],
+            [
+                "acts as",
+                "owners"
+            ],
+            [
+                "acts as",
+                "data packagers"
+            ],
+            [
+                "paired",
+                "owners"
+            ],
+            [
+                "paired",
+                "data packagers"
+            ]
+        ]
+    },
+    {
+        "Text": "#G08# As a Researcher, working with data, I want an Microsoft Power BI integration, so that I can import datasets without downloading them locally.",
+        "Persona": [
+            "Researcher"
+        ],
+        "Benefit": "I can import datasets without downloading them locally.",
+        "Action": {
+            "Primary Action": [
+                "import"
+            ],
+            "Secondary Action": []
+        },
+        "Entity": {
+            "Primary Entity": [
+                "Microsoft Power BI",
+                "datasets"
+            ],
+            "Secondary Entity": []
+        },
+        "Triggers": [
+            [
+                "Researcher",
+                "import"
+            ]
+        ],
+        "Targets": [
+            [
+                "import",
+                "Microsoft Power BI"
+            ],
+            [
+                "import",
+                "datasets"
+            ]
+        ]
+    },
+    {
+        "Text": "#G08# As a Publisher, I would like an integration with Excel, so that I can output cleaned Data Packages.",
+        "Persona": [
+            "Publisher"
+        ],
+        "Benefit": "I can output cleaned Data Packages",
+        "Action": {
+            "Primary Action": [
+                "integration",
+                "output"
+            ],
+            "Secondary Action": []
+        },
+        "Entity": {
+            "Primary Entity": [
+                "Excel",
+                "Data Packages"
+            ],
+            "Secondary Entity": []
+        },
+        "Triggers": [
+            [
+                "Publisher",
+                "integration"
+            ]
+        ],
+        "Targets": [
+            [
+                "integration",
+                "Excel"
+            ],
+            [
+                "integration",
+                "Data Packages"
+            ]
+        ]
+    },
+    {
+        "Text": "#G08# As a Developer, I want a jQuery plugin for Core Data Packages, so that I can use it to apply to form control that uses a core dataset for autocompletion.",
+        "Persona": [
+            "Developer"
+        ],
+        "Benefit": "I can use it to apply to form control that uses a core dataset for autocompletion",
+        "Action": {
+            "Primary Action": [
+                "use",
+                "apply",
+                "autocompletion"
+            ],
+            "Secondary Action": []
+        },
+        "Entity": {
+            "Primary Entity": [
+                "jQuery plugin",
+                "Core Data Packages",
+                "form control",
+                "core dataset"
+            ],
+            "Secondary Entity": []
+        },
+        "Triggers": [
+            [
+                "Developer",
+                "use"
+            ],
+            [
+                "Developer",
+                "apply"
+            ],
+            [
+                "Developer",
+                "autocompletion"
+            ]
+        ],
+        "Targets": [
+            [
+                "use",
+                "jQuery plugin"
+            ],
+            [
+                "apply",
+                "jQuery plugin"
+            ],
+            [
+                "autocompletion",
+                "jQuery plugin"
+            ],
+            [
+                "use",
+                "Core Data Packages"
+            ],
+            [
+                "apply",
+                "Core Data Packages"
+            ],
+            [
+                "autocompletion",
+                "Core Data Packages"
+            ],
+            [
+                "use",
+                "form control"
+            ],
+            [
+                "apply",
+                "form control"
+            ],
+            [
+                "autocompletion",
+                "form control"
+            ],
+            [
+                "use",
+                "core dataset"
+            ],
+            [
+                "apply",
+                "core dataset"
+            ],
+            [
+                "autocompletion",
+                "core dataset"
+            ]
+        ]
+    },
+    {
+        "Text": "#G08# As a Developer, I want to customize an existing wizard for my specific type of data, so that I can give my users a great user experience.",
+        "Persona": [
+            "Developer"
+        ],
+        "Benefit": "I can give my users a great user experience.",
+        "Action": {
+            "Primary Action": [
+                "customize",
+                "give"
+            ],
+            "Secondary Action": []
+        },
+        "Entity": {
+            "Primary Entity": [
+                "existing wizard",
+                "specific type of data",
+                "users"
+            ],
+            "Secondary Entity": []
+        },
+        "Triggers": [
+            [
+                "Developer",
+                "customize"
+            ],
+            [
+                "Developer",
+                "give"
+            ]
+        ],
+        "Targets": [
+            [
+                "customize",
+                "existing wizard"
+            ],
+            [
+                "give",
+                "users"
+            ]
+        ]
+    },
+    {
+        "Text": "#G08# As a Publisher, I want to add type information to my data, so that it is more useful to others and can be used better with tools like visualization programs.",
+        "Persona": [
+            "Publisher"
+        ],
+        "Benefit": "it is more useful to others and can be used better with tools like visualization programs",
+        "Action": {
+            "Primary Action": [
+                "add",
+                "use"
+            ],
+            "Secondary Action": []
+        },
+        "Entity": {
+            "Primary Entity": [
+                "type information",
+                "data"
+            ],
+            "Secondary Entity": [
+                "tools",
+                "visualization programs"
+            ]
+        },
+        "Triggers": [
+            [
+                "Publisher",
+                "add"
+            ]
+        ],
+        "Targets": [
+            [
+                "add",
+                "type information"
+            ],
+            [
+                "add",
+                "data"
+            ],
+            [
+                "add",
+                "tools"
+            ],
+            [
+                "add",
+                "visualization programs"
+            ],
+            [
+                "use",
+                "data"
+            ],
+            [
+                "use",
+                "tools"
+            ],
+            [
+                "use",
+                "visualization programs"
+            ]
+        ]
+    },
+    {
+        "Text": "#G08# As a ResearcherDeveloper, would like the ability import/export from MS-SQL, so that I can use Data Packages in workflows that involve MS-SQL.",
+        "Persona": [
+            "ResearcherDeveloper"
+        ],
+        "Benefit": "I can use Data Packages in workflows that involve MS-SQL",
+        "Action": {
+            "Primary Action": [
+                "import/export",
+                "use"
+            ],
+            "Secondary Action": [
+                ""
+            ]
+        },
+        "Entity": {
+            "Primary Entity": [
+                "ResearcherDeveloper",
+                "MS-SQL",
+                "Data Packages"
+            ],
+            "Secondary Entity": []
+        },
+        "Triggers": [
+            [
+                "ResearcherDeveloper",
+                "import/export"
+            ]
+        ],
+        "Targets": [
+            [
+                "import/export",
+                "MS-SQL"
+            ],
+            [
+                "import/export",
+                "Data Packages"
+            ]
+        ]
+    },
+    {
+        "Text": "#G08# As a ResearcherPublisher, I want to publish Data Packages to CKAN, so that my data is findable, and I can have a data API.",
+        "Persona": [
+            "ResearcherPublisher"
+        ],
+        "Benefit": "my data is findable, and I can have a data API",
+        "Action": {
+            "Primary Action": [
+                "publish"
+            ],
+            "Secondary Action": [
+                "findable"
+            ]
+        },
+        "Entity": {
+            "Primary Entity": [
+                "Data Packages",
+                "CKAN"
+            ],
+            "Secondary Entity": [
+                "data",
+                "data API"
+            ]
+        },
+        "Triggers": [
+            [
+                "ResearcherPublisher",
+                "publish"
+            ]
+        ],
+        "Targets": [
+            [
+                "publish",
+                "Data Packages"
+            ],
+            [
+                "publish",
+                "CKAN"
+            ]
+        ]
+    },
+    {
+        "Text": "#G08# As a Researcher, I want to get a Data Package into Julia in seconds, so that I can start using the data for doing analysis and visualizations.",
+        "Persona": [
+            "Researcher"
+        ],
+        "Benefit": "I can start using the data for doing analysis and visualizations",
+        "Action": {
+            "Primary Action": [
+                "get",
+                "start using"
+            ],
+            "Secondary Action": [
+                "doing analysis",
+                "visualizations"
+            ]
+        },
+        "Entity": {
+            "Primary Entity": [
+                "Data Package",
+                "Julia"
+            ],
+            "Secondary Entity": [
+                "data"
+            ]
+        },
+        "Triggers": [
+            [
+                "Researcher",
+                "get"
+            ],
+            [
+                "Researcher",
+                "start using"
+            ]
+        ],
+        "Targets": [
+            [
+                "get",
+                "Data Package"
+            ],
+            [
+                "start using",
+                "data"
+            ]
+        ]
+    },
+    {
+        "Text": "#G08# As a Publisher, I want to add useful metadata or add in new data columns to make the dataset more useful.",
+        "Persona": [
+            "Publisher"
+        ],
+        "Benefit": "make the dataset more useful",
+        "Action": {
+            "Primary Action": [
+                "add"
+            ],
+            "Secondary Action": []
+        },
+        "Entity": {
+            "Primary Entity": [
+                "metadata",
+                "data columns"
+            ],
+            "Secondary Entity": [
+                "dataset"
+            ]
+        },
+        "Triggers": [
+            [
+                "Publisher",
+                "add"
+            ]
+        ],
+        "Targets": [
+            [
+                "add",
+                "metadata"
+            ],
+            [
+                "add",
+                "data columns"
+            ]
+        ]
+    },
+    {
+        "Text": "#G08# As a Developer, I want to get a Data Package into Python in seconds, so that I can start using the data for doing analysis and visualizations.",
+        "Persona": [
+            "Developer"
+        ],
+        "Benefit": "I can start using the data for doing analysis and visualizations",
+        "Action": {
+            "Primary Action": [
+                "get",
+                "start using"
+            ],
+            "Secondary Action": []
+        },
+        "Entity": {
+            "Primary Entity": [
+                "Data Package",
+                "Python"
+            ],
+            "Secondary Entity": []
+        },
+        "Triggers": [
+            [
+                "Developer",
+                "get"
+            ]
+        ],
+        "Targets": [
+            [
+                "get",
+                "Data Package"
+            ],
+            [
+                "get",
+                "Python"
+            ],
+            [
+                "start using",
+                "Data Package"
+            ]
+        ]
+    },
+    {
+        "Text": "#G08# As a Publisher, I want to store my data quickly and easily online.",
+        "Persona": [
+            "Publisher"
+        ],
+        "Benefit": "I can store my data quickly and easily online",
+        "Action": {
+            "Primary Action": [
+                "store"
+            ],
+            "Secondary Action": []
+        },
+        "Entity": {
+            "Primary Entity": [
+                "data",
+                "online"
+            ],
+            "Secondary Entity": []
+        },
+        "Triggers": [
+            [
+                "Publisher",
+                "store"
+            ]
+        ],
+        "Targets": [
+            [
+                "store",
+                "data"
+            ],
+            [
+                "store",
+                "online"
+            ]
+        ]
+    },
+    {
+        "Text": "#G08# As a Developer, I want HDF5 integration, so that I can integrate data-packaged data with pipelines that use HDF5.",
+        "Persona": [
+            "Developer"
+        ],
+        "Benefit": "I can integrate data-packaged data with pipelines that use HDF5.",
+        "Action": {
+            "Primary Action": [
+                "integrate"
+            ],
+            "Secondary Action": []
+        },
+        "Entity": {
+            "Primary Entity": [
+                "HDF5",
+                "pipelines"
+            ],
+            "Secondary Entity": [
+                "data-packaged data"
+            ]
+        },
+        "Triggers": [
+            [
+                "Developer",
+                "integrate"
+            ]
+        ],
+        "Targets": [
+            [
+                "integrate",
+                "HDF5"
+            ],
+            [
+                "integrate",
+                "pipelines"
+            ]
+        ]
+    },
+    {
+        "Text": "#G08# As a developer, I would like to create a web socket protocol for Frictionless data tools, so that I can easily use data packages with additional data analysis tools.",
+        "Persona": [
+            "developer"
+        ],
+        "Benefit": "I can easily use data packages with additional data analysis tools",
+        "Action": {
+            "Primary Action": [
+                "create",
+                "use"
+            ],
+            "Secondary Action": []
+        },
+        "Entity": {
+            "Primary Entity": [
+                "web socket protocol",
+                "Frictionless data tools"
+            ],
+            "Secondary Entity": [
+                "data packages",
+                "data analysis tools"
+            ]
+        },
+        "Triggers": [
+            [
+                "developer",
+                "create"
+            ],
+            [
+                "developer",
+                "use"
+            ]
+        ],
+        "Targets": [
+            [
+                "create",
+                "web socket protocol"
+            ],
+            [
+                "use",
+                "data packages"
+            ],
+            [
+                "use",
+                "data analysis tools"
+            ]
+        ]
+    },
+    {
+        "Text": "#G08# As a Developer, I want an Elasticsearch integration, so that I can integrate data-packaged data with pipelines that use Elasticsearch.",
+        "Persona": [
+            "Developer"
+        ],
+        "Benefit": "I can integrate data-packaged data with pipelines that use Elasticsearch",
+        "Action": {
+            "Primary Action": [
+                "integrate"
+            ],
+            "Secondary Action": []
+        },
+        "Entity": {
+            "Primary Entity": [
+                "Elasticsearch",
+                "pipelines"
+            ],
+            "Secondary Entity": [
+                "data-packaged data"
+            ]
+        },
+        "Triggers": [
+            [
+                "Developer",
+                "integrate"
+            ]
+        ],
+        "Targets": [
+            [
+                "integrate",
+                "Elasticsearch"
+            ],
+            [
+                "integrate",
+                "pipelines"
+            ]
+        ]
+    },
+    {
+        "Text": "#G08# As a DeveloperPublisher, I want a tool to create an embeddable data summary via iframe, so that I can embed data summaries across sites.",
+        "Persona": [
+            "DeveloperPublisher"
+        ],
+        "Benefit": "I can embed data summaries across sites",
+        "Action": {
+            "Primary Action": [
+                "create",
+                "embed"
+            ],
+            "Secondary Action": []
+        },
+        "Entity": {
+            "Primary Entity": [
+                "tool",
+                "embeddable data summary",
+                "iframe"
+            ],
+            "Secondary Entity": [
+                "data summaries",
+                "sites"
+            ]
+        },
+        "Triggers": [
+            [
+                "DeveloperPublisher",
+                "create"
+            ]
+        ],
+        "Targets": [
+            [
+                "create",
+                "tool"
+            ],
+            [
+                "create",
+                "embeddable data summary"
+            ],
+            [
+                "create",
+                "iframe"
+            ],
+            [
+                "embed",
+                "data summaries"
+            ],
+            [
+                "embed",
+                "sites"
+            ]
+        ]
+    },
+    {
+        "Text": "#G08# As a Developer, I want to get a Data Package into Clojure in seconds, so that I can start using the data in doing analysis and visualizations.",
+        "Persona": [
+            "Developer"
+        ],
+        "Benefit": "I can start using the data in doing analysis and visualizations",
+        "Action": {
+            "Primary Action": [
+                "get",
+                "start using"
+            ],
+            "Secondary Action": [
+                "doing analysis",
+                "visualizations"
+            ]
+        },
+        "Entity": {
+            "Primary Entity": [
+                "Data Package",
+                "Clojure"
+            ],
+            "Secondary Entity": [
+                "data"
+            ]
+        },
+        "Triggers": [
+            [
+                "Developer",
+                "get"
+            ],
+            [
+                "Developer",
+                "start using"
+            ]
+        ],
+        "Targets": [
+            [
+                "get",
+                "Data Package"
+            ],
+            [
+                "start using",
+                "data"
+            ]
+        ]
+    },
+    {
+        "Text": "#G08# As a Publisher, I would like an integration with Open Refine, so that I can output cleaned Data Packages.",
+        "Persona": [
+            "Publisher"
+        ],
+        "Benefit": "I can output cleaned Data Packages",
+        "Action": {
+            "Primary Action": [
+                "integration",
+                "output"
+            ],
+            "Secondary Action": []
+        },
+        "Entity": {
+            "Primary Entity": [
+                "Open Refine",
+                "Data Packages"
+            ],
+            "Secondary Entity": []
+        },
+        "Triggers": [
+            [
+                "Publisher",
+                "integration"
+            ],
+            [
+                "integration",
+                "output"
+            ]
+        ],
+        "Targets": [
+            [
+                "integration",
+                "Open Refine"
+            ],
+            [
+                "output",
+                "Data Packages"
+            ]
+        ]
+    },
+    {
+        "Text": "#G08# As a Researcher, I want an app that generates an OpenRefine reconciliation API endpoint from a Tabular Data Package, so that I can use it to clean messy data.",
+        "Persona": [
+            "Researcher"
+        ],
+        "Benefit": "I can use it to clean messy data",
+        "Action": {
+            "Primary Action": [
+                "generates",
+                "use",
+                "clean"
+            ],
+            "Secondary Action": []
+        },
+        "Entity": {
+            "Primary Entity": [
+                "app",
+                "OpenRefine reconciliation API endpoint",
+                "Tabular Data Package",
+                "messy data"
+            ],
+            "Secondary Entity": []
+        },
+        "Triggers": [
+            [
+                "Researcher",
+                "generates"
+            ]
+        ],
+        "Targets": [
+            [
+                "generates",
+                "OpenRefine reconciliation API endpoint"
+            ],
+            [
+                "generates",
+                "Tabular Data Package"
+            ],
+            [
+                "use",
+                "messy data"
+            ]
+        ]
+    },
+    {
+        "Text": "#G08# As a Machine Learning expert, I would like to package ML datasets as data packages, so that I can easily import them into my ML platform, so that I can start using the data in doing analysis.",
+        "Persona": [
+            "Machine Learning expert"
+        ],
+        "Benefit": "I can easily import ML datasets into my ML platform and start using the data in doing analysis.",
+        "Action": {
+            "Primary Action": [
+                "package",
+                "start using"
+            ],
+            "Secondary Action": [
+                "import"
+            ]
+        },
+        "Entity": {
+            "Primary Entity": [
+                "ML datasets",
+                "ML platform"
+            ],
+            "Secondary Entity": [
+                "data packages",
+                "data"
+            ]
+        },
+        "Triggers": [
+            [
+                "Machine Learning expert",
+                "package"
+            ]
+        ],
+        "Targets": [
+            [
+                "package",
+                "ML datasets"
+            ],
+            [
+                "package",
+                "data packages"
+            ],
+            [
+                "package",
+                "ML platform"
+            ],
+            [
+                "start using",
+                "data"
+            ]
+        ]
+    },
+    {
+        "Text": "#G08# As a Developer, I want to get a Data Package into Node, so that I can start using the data for doing analysis and visualizations.",
+        "Persona": [
+            "Developer"
+        ],
+        "Benefit": "I can start using the data for doing analysis and visualizations",
+        "Action": {
+            "Primary Action": [
+                "get",
+                "start using"
+            ],
+            "Secondary Action": []
+        },
+        "Entity": {
+            "Primary Entity": [
+                "Data Package",
+                "Node"
+            ],
+            "Secondary Entity": [
+                "data",
+                "analysis",
+                "visualizations"
+            ]
+        },
+        "Triggers": [
+            [
+                "Developer",
+                "get"
+            ],
+            [
+                "Developer",
+                "start using"
+            ]
+        ],
+        "Targets": [
+            [
+                "get",
+                "Data Package"
+            ],
+            [
+                "start using",
+                "data"
+            ],
+            [
+                "start using",
+                "analysis"
+            ],
+            [
+                "start using",
+                "visualizations"
+            ]
+        ]
+    },
+    {
+        "Text": "#G08# As a publisher, I want to package reproducible steps to get a certain data state, so my methodology is transparent and can be rerun by others.",
+        "Persona": [
+            "publisher"
+        ],
+        "Benefit": "My methodology is transparent and can be rerun by others.",
+        "Action": {
+            "Primary Action": [
+                "package",
+                "rerun"
+            ],
+            "Secondary Action": [
+                "get"
+            ]
+        },
+        "Entity": {
+            "Primary Entity": [
+                "reproducible steps",
+                "methodology"
+            ],
+            "Secondary Entity": [
+                "data state"
+            ]
+        },
+        "Triggers": [
+            [
+                "publisher",
+                "package"
+            ],
+            [
+                "publisher",
+                "rerun"
+            ]
+        ],
+        "Targets": [
+            [
+                "package",
+                "reproducible steps"
+            ],
+            [
+                "rerun",
+                "methodology"
+            ]
+        ]
+    },
+    {
+        "Text": "#G08# As a Developer, I want to do exploratory data analysis in R and operationalize that analysis in Python, so that I can use the best tool for the job.",
+        "Persona": [
+            "Developer"
+        ],
+        "Benefit": "I can use the best tool for the job.",
+        "Action": {
+            "Primary Action": [
+                "do",
+                "operationalize",
+                "use"
+            ],
+            "Secondary Action": []
+        },
+        "Entity": {
+            "Primary Entity": [
+                "exploratory data analysis",
+                "R",
+                "Python",
+                "best tool"
+            ],
+            "Secondary Entity": []
+        },
+        "Triggers": [
+            [
+                "Developer",
+                "do"
+            ],
+            [
+                "Developer",
+                "operationalize"
+            ],
+            [
+                "Developer",
+                "use"
+            ]
+        ],
+        "Targets": [
+            [
+                "do",
+                "exploratory data analysis"
+            ],
+            [
+                "do",
+                "R"
+            ],
+            [
+                "do",
+                "Python"
+            ],
+            [
+                "do",
+                "best tool"
+            ],
+            [
+                "operationalize",
+                "Python"
+            ],
+            [
+                "use",
+                "best tool"
+            ]
+        ]
+    },
+    {
+        "Text": "#G08# As a Researcher, working with data in NetCDF, I want NetCDF integration, so that I can store my data in plaintext while still retaining its metadata.",
+        "Persona": [
+            "Researcher"
+        ],
+        "Benefit": "I can store my data in plaintext while still retaining its metadata",
+        "Action": {
+            "Primary Action": [
+                "working",
+                "store",
+                "retaining"
+            ],
+            "Secondary Action": [
+                ""
+            ]
+        },
+        "Entity": {
+            "Primary Entity": [
+                "data",
+                "NetCDF",
+                "plaintext",
+                "metadata"
+            ],
+            "Secondary Entity": []
+        },
+        "Triggers": [
+            [
+                "Researcher",
+                "working"
+            ]
+        ],
+        "Targets": [
+            [
+                "working",
+                "data"
+            ],
+            [
+                "working",
+                "NetCDF"
+            ],
+            [
+                "working",
+                "plaintext"
+            ],
+            [
+                "working",
+                "metadata"
+            ]
+        ]
+    },
+    {
+        "Text": "#G08# As a Researcher, I want an integration with https://data.mendeley.com/, so that I can validate my data upon ingest to the service.",
+        "Persona": [
+            "Researcher"
+        ],
+        "Benefit": "I can validate my data upon ingest to the service.",
+        "Action": {
+            "Primary Action": [
+                "validate",
+                "ingest"
+            ],
+            "Secondary Action": []
+        },
+        "Entity": {
+            "Primary Entity": [
+                "https://data.mendeley.com/",
+                "service"
+            ],
+            "Secondary Entity": []
+        },
+        "Triggers": [
+            [
+                "Researcher",
+                "validate"
+            ]
+        ],
+        "Targets": [
+            [
+                "validate",
+                "https://data.mendeley.com/"
+            ],
+            [
+                "ingest",
+                "service"
+            ]
+        ]
+    },
+    {
+        "Text": "#G08# As a Researcher, I want to get my Excel spreadsheet into a Data Package, so that I can benefit from better tooling and standardization.",
+        "Persona": [
+            "Researcher"
+        ],
+        "Benefit": "I can benefit from better tooling and standardization",
+        "Action": {
+            "Primary Action": [
+                "get",
+                "benefit from"
+            ],
+            "Secondary Action": []
+        },
+        "Entity": {
+            "Primary Entity": [
+                "Researcher",
+                "Excel spreadsheet",
+                "Data Package"
+            ],
+            "Secondary Entity": []
+        },
+        "Triggers": [
+            [
+                "Researcher",
+                "get"
+            ]
+        ],
+        "Targets": [
+            [
+                "get",
+                "Excel spreadsheet"
+            ],
+            [
+                "get",
+                "Data Package"
+            ]
+        ]
+    },
+    {
+        "Text": "#G08# As a DeveloperDataWrangler, I want to store my Data Package in GitHub and have it automatically stored into CKAN, so that I get a data API and my dataset is listed in a relevant catalog.",
+        "Persona": [
+            "DeveloperDataWrangler"
+        ],
+        "Benefit": "I get a data API and my dataset is listed in a relevant catalog",
+        "Action": {
+            "Primary Action": [
+                "store"
+            ],
+            "Secondary Action": [
+                "automatically stored",
+                "listed"
+            ]
+        },
+        "Entity": {
+            "Primary Entity": [
+                "Data Package",
+                "GitHub",
+                "CKAN"
+            ],
+            "Secondary Entity": [
+                "data API",
+                "dataset",
+                "catalog"
+            ]
+        },
+        "Triggers": [
+            [
+                "DeveloperDataWrangler",
+                "store"
+            ]
+        ],
+        "Targets": [
+            [
+                "store",
+                "Data Package"
+            ],
+            [
+                "store",
+                "GitHub"
+            ],
+            [
+                "store",
+                "CKAN"
+            ]
+        ]
+    },
+    {
+        "Text": "#G08# As a Developer, I want to get a Data Package into C++ in seconds, so that I can start using the data in doing analysis and visualizations.",
+        "Persona": [
+            "Developer"
+        ],
+        "Benefit": "I can start using the data in doing analysis and visualizations",
+        "Action": {
+            "Primary Action": [
+                "get",
+                "start using"
+            ],
+            "Secondary Action": []
+        },
+        "Entity": {
+            "Primary Entity": [
+                "Data Package",
+                "C++"
+            ],
+            "Secondary Entity": [
+                "data",
+                "analysis",
+                "visualizations"
+            ]
+        },
+        "Triggers": [
+            [
+                "Developer",
+                "get"
+            ]
+        ],
+        "Targets": [
+            [
+                "get",
+                "Data Package"
+            ],
+            [
+                "get",
+                "C++"
+            ]
+        ]
+    },
+    {
+        "Text": "#G08# As a Researcher, I want an app that create proxy Data Packages for well know and reliable data, sources, so that I can load high quality data using Data Package tooling.",
+        "Persona": [
+            "Researcher"
+        ],
+        "Benefit": "I can load high quality data using Data Package tooling",
+        "Action": {
+            "Primary Action": [
+                "create",
+                "load"
+            ],
+            "Secondary Action": []
+        },
+        "Entity": {
+            "Primary Entity": [
+                "app",
+                "proxy Data Packages",
+                "well know and reliable data sources",
+                "high quality data",
+                "Data Package tooling"
+            ],
+            "Secondary Entity": []
+        },
+        "Triggers": [
+            [
+                "Researcher",
+                "create"
+            ]
+        ],
+        "Targets": [
+            [
+                "create",
+                "app"
+            ],
+            [
+                "create",
+                "proxy Data Packages"
+            ],
+            [
+                "create",
+                "well know and reliable data sources"
+            ],
+            [
+                "load",
+                "high quality data"
+            ],
+            [
+                "load",
+                "Data Package tooling"
+            ]
+        ]
+    },
+    {
+        "Text": "#G08# As a ResearcherPublisher, I want an integration with Zenodo, so that when I store my dataset in GitHub, I don’t have to retype descriptive information about my dataset.",
+        "Persona": [
+            "ResearcherPublisher"
+        ],
+        "Benefit": "I don’t have to retype descriptive information about my dataset",
+        "Action": {
+            "Primary Action": [
+                "store",
+                "retype"
+            ],
+            "Secondary Action": []
+        },
+        "Entity": {
+            "Primary Entity": [
+                "Zenodo",
+                "GitHub",
+                "dataset"
+            ],
+            "Secondary Entity": []
+        },
+        "Triggers": [
+            [
+                "ResearcherPublisher",
+                "store"
+            ],
+            [
+                "ResearcherPublisher",
+                "retype"
+            ]
+        ],
+        "Targets": [
+            [
+                "store",
+                "Zenodo"
+            ],
+            [
+                "store",
+                "GitHub"
+            ],
+            [
+                "store",
+                "dataset"
+            ],
+            [
+                "retype",
+                "dataset"
+            ]
+        ]
+    },
+    {
+        "Text": "#G08# As a ResearcherPublisher, I want to understand the ways in which my data is invalid, so that I can know how to fix it.",
+        "Persona": [
+            "ResearcherPublisher"
+        ],
+        "Benefit": "I can know how to fix it",
+        "Action": {
+            "Primary Action": [
+                "understand",
+                "fix"
+            ],
+            "Secondary Action": [
+                ""
+            ]
+        },
+        "Entity": {
+            "Primary Entity": [
+                "data"
+            ],
+            "Secondary Entity": []
+        },
+        "Triggers": [
+            [
+                "ResearcherPublisher",
+                "understand"
+            ],
+            [
+                "ResearcherPublisher",
+                "fix"
+            ]
+        ],
+        "Targets": [
+            [
+                "understand",
+                "data"
+            ],
+            [
+                "fix",
+                "data"
+            ]
+        ]
+    },
+    {
+        "Text": "#G08# As a Civic Tech Activist, I want to make it easy to assess the quality of data stored by the government, so that I can make sure that government is living up to its transparency commitments.",
+        "Persona": [
+            "Civic Tech Activist"
+        ],
+        "Benefit": "I can make sure that government is living up to its transparency commitments",
+        "Action": {
+            "Primary Action": [
+                "assess",
+                "make sure"
+            ],
+            "Secondary Action": []
+        },
+        "Entity": {
+            "Primary Entity": [
+                "quality of data stored by the government",
+                "government"
+            ],
+            "Secondary Entity": []
+        },
+        "Triggers": [
+            [
+                "Civic Tech Activist",
+                "assess"
+            ],
+            [
+                "Civic Tech Activist",
+                "make sure"
+            ]
+        ],
+        "Targets": [
+            [
+                "assess",
+                "quality of data stored by the government"
+            ],
+            [
+                "make sure",
+                "government"
+            ]
+        ]
+    },
+    {
+        "Text": "#G08# As a Researcher, I want to get a Data Package into STATA in seconds, so that I can start using the data for doing analysis and visualizations.",
+        "Persona": [
+            "Researcher"
+        ],
+        "Benefit": "I can start using the data for doing analysis and visualizations",
+        "Action": {
+            "Primary Action": [
+                "get",
+                "start using"
+            ],
+            "Secondary Action": [
+                "doing analysis",
+                "visualizations"
+            ]
+        },
+        "Entity": {
+            "Primary Entity": [
+                "Data Package",
+                "STATA"
+            ],
+            "Secondary Entity": [
+                "data"
+            ]
+        },
+        "Triggers": [
+            [
+                "Researcher",
+                "get"
+            ]
+        ],
+        "Targets": [
+            [
+                "get",
+                "Data Package"
+            ],
+            [
+                "Data Package",
+                "STATA"
+            ]
+        ]
+    },
+    {
+        "Text": "#G08# As a publisher, I want to be able to check that every time I update my data it is still good, so that I can catch errors early and store reliable data.",
+        "Persona": [
+            "publisher"
+        ],
+        "Benefit": "I can catch errors early and store reliable data",
+        "Action": {
+            "Primary Action": [
+                "update",
+                "store"
+            ],
+            "Secondary Action": [
+                "check",
+                "catch"
+            ]
+        },
+        "Entity": {
+            "Primary Entity": [
+                "data",
+                "reliable data"
+            ],
+            "Secondary Entity": [
+                "errors"
+            ]
+        },
+        "Triggers": [
+            [
+                "publisher",
+                "update"
+            ]
+        ],
+        "Targets": [
+            [
+                "update",
+                "data"
+            ],
+            [
+                "check",
+                "data"
+            ],
+            [
+                "catch",
+                "errors"
+            ],
+            [
+                "store",
+                "reliable data"
+            ]
+        ]
+    },
+    {
+        "Text": "#G08# As a Researcher, I want to be able to reference a remote-controlled vocabulary for my dataset, so that I can be sure that column of my dataset are valid against a single shard list of terms.",
+        "Persona": [
+            "Researcher"
+        ],
+        "Benefit": "I can be sure that column of my dataset are valid against a single shard list of terms",
+        "Action": {
+            "Primary Action": [
+                "reference"
+            ],
+            "Secondary Action": [
+                "be able",
+                "validate"
+            ]
+        },
+        "Entity": {
+            "Primary Entity": [
+                "remote-controlled vocabulary",
+                "dataset"
+            ],
+            "Secondary Entity": [
+                "column",
+                "single shard list of terms"
+            ]
+        },
+        "Triggers": [
+            [
+                "Researcher",
+                "reference"
+            ]
+        ],
+        "Targets": [
+            [
+                "reference",
+                "remote-controlled vocabulary"
+            ],
+            [
+                "reference",
+                "dataset"
+            ]
+        ]
+    },
+    {
+        "Text": "#G08# As a ResearcherPublisher, I want to add a DOI to a dataset, so that I can cite it in papers stored  with the data.",
+        "Persona": [
+            "ResearcherPublisher"
+        ],
+        "Benefit": "I can cite it in papers stored with the data",
+        "Action": {
+            "Primary Action": [
+                "add",
+                "cite"
+            ],
+            "Secondary Action": []
+        },
+        "Entity": {
+            "Primary Entity": [
+                "DOI",
+                "dataset",
+                "papers"
+            ],
+            "Secondary Entity": []
+        },
+        "Triggers": [
+            [
+                "ResearcherPublisher",
+                "add"
+            ]
+        ],
+        "Targets": [
+            [
+                "add",
+                "DOI"
+            ],
+            [
+                "add",
+                "dataset"
+            ],
+            [
+                "cite",
+                "papers"
+            ]
+        ]
+    },
+    {
+        "Text": "#G08# As a ResearcherGovernment Publisher, I want to add general reference data to my narrow dataset, so that my dataset is more useful.",
+        "Persona": [
+            "ResearcherGovernment Publisher"
+        ],
+        "Benefit": "my dataset is more useful",
+        "Action": {
+            "Primary Action": [
+                "add"
+            ],
+            "Secondary Action": []
+        },
+        "Entity": {
+            "Primary Entity": [
+                "general reference data",
+                "narrow dataset"
+            ],
+            "Secondary Entity": []
+        },
+        "Triggers": [
+            [
+                "ResearcherGovernment Publisher",
+                "add"
+            ]
+        ],
+        "Targets": [
+            [
+                "add",
+                "general reference data"
+            ],
+            [
+                "add",
+                "narrow dataset"
+            ]
+        ]
+    },
+    {
+        "Text": "#G08# As a Developer, I want a DAT integration, so that I can integrate data-packaged data with pipelines that use DAT.",
+        "Persona": [
+            "Developer"
+        ],
+        "Benefit": "I can integrate data-packaged data with pipelines that use DAT",
+        "Action": {
+            "Primary Action": [
+                "integrate"
+            ],
+            "Secondary Action": []
+        },
+        "Entity": {
+            "Primary Entity": [
+                "DAT integration",
+                "pipelines"
+            ],
+            "Secondary Entity": [
+                "data-packaged data",
+                "DAT"
+            ]
+        },
+        "Triggers": [
+            [
+                "Developer",
+                "integrate"
+            ]
+        ],
+        "Targets": [
+            [
+                "integrate",
+                "DAT integration"
+            ],
+            [
+                "integrate",
+                "pipelines"
+            ]
+        ]
+    },
+    {
+        "Text": "#G08#",
+        "Persona": [],
+        "Benefit": "",
+        "Action": {
+            "Primary Action": [],
+            "Secondary Action": []
+        },
+        "Entity": {
+            "Primary Entity": [],
+            "Secondary Entity": []
+        },
+        "Triggers": [
+            [
+                "UI designer",
+                "begin"
+            ]
+        ],
+        "Targets": [
+            [
+                "begin",
+                "user testing"
+            ]
+        ]
+    },
+    {
+        "Text": "#G08# As a ResearcherGovernment Publisher, I want to map lines in my dataset using geographic data in my dataset, so that my dataset is more engaging for non-technical users.",
+        "Persona": [
+            "ResearcherGovernment Publisher"
+        ],
+        "Benefit": "my dataset is more engaging for non-technical users",
+        "Action": {
+            "Primary Action": [
+                "map",
+                "using"
+            ],
+            "Secondary Action": []
+        },
+        "Entity": {
+            "Primary Entity": [
+                "dataset",
+                "geographic data"
+            ],
+            "Secondary Entity": []
+        },
+        "Triggers": [
+            [
+                "ResearcherGovernment Publisher",
+                "map"
+            ]
+        ],
+        "Targets": [
+            [
+                "map",
+                "dataset"
+            ],
+            [
+                "map",
+                "geographic data"
+            ]
+        ]
+    },
+    {
+        "Text": "#G08# As a DeveloperWrangler, I want to use a command line tool that allows met to validate data, so that I can feel trust in the validity and usefulness of the data quickly and in the context of my command line workflow.",
+        "Persona": [
+            "DeveloperWrangler"
+        ],
+        "Benefit": "I can feel trust in the validity and usefulness of the data quickly and in the context of my command line workflow",
+        "Action": {
+            "Primary Action": [
+                "use",
+                "validate"
+            ],
+            "Secondary Action": []
+        },
+        "Entity": {
+            "Primary Entity": [
+                "command line tool",
+                "data"
+            ],
+            "Secondary Entity": []
+        },
+        "Triggers": [
+            [
+                "DeveloperWrangler",
+                "use"
+            ]
+        ],
+        "Targets": [
+            [
+                "use",
+                "command line tool"
+            ],
+            [
+                "validate",
+                "data"
+            ]
+        ]
+    },
+    {
+        "Text": "#G08# As a Researcher, I want to get a Data Package into SPSS in seconds, so that I can start using the data for doing analysis and visualizations.",
+        "Persona": [
+            "Researcher"
+        ],
+        "Benefit": "I can start using the data for doing analysis and visualizations",
+        "Action": {
+            "Primary Action": [
+                "get",
+                "start using"
+            ],
+            "Secondary Action": []
+        },
+        "Entity": {
+            "Primary Entity": [
+                "Data Package",
+                "SPSS"
+            ],
+            "Secondary Entity": [
+                "data",
+                "analysis",
+                "visualizations"
+            ]
+        },
+        "Triggers": [
+            [
+                "Researcher",
+                "get"
+            ]
+        ],
+        "Targets": [
+            [
+                "get",
+                "Data Package"
+            ],
+            [
+                "get",
+                "SPSS"
+            ]
+        ]
+    },
+    {
+        "Text": "#G08# As a publisher, I want to embed an interactive preview of my data on my site, so that users can be encouraged that this is the correct data for them.",
+        "Persona": [
+            "publisher"
+        ],
+        "Benefit": "users can be encouraged that this is the correct data for them",
+        "Action": {
+            "Primary Action": [
+                "embed",
+                "encouraged"
+            ],
+            "Secondary Action": []
+        },
+        "Entity": {
+            "Primary Entity": [
+                "interactive preview",
+                "data",
+                "site",
+                "users"
+            ],
+            "Secondary Entity": []
+        },
+        "Triggers": [
+            [
+                "publisher",
+                "embed"
+            ]
+        ],
+        "Targets": [
+            [
+                "embed",
+                "interactive preview"
+            ],
+            [
+                "embed",
+                "site"
+            ],
+            [
+                "embed",
+                "data"
+            ],
+            [
+                "embed",
+                "users"
+            ],
+            [
+                "embed",
+                "encouraged"
+            ]
+        ]
+    },
+    {
+        "Text": "#G08# As a ResearcherPublisher, I want to know that my data conforms to its Data Package profile, so that I can feel trust in the validity and usefulness of the data.",
+        "Persona": [
+            "ResearcherPublisher"
+        ],
+        "Benefit": "I can feel trust in the validity and usefulness of the data",
+        "Action": {
+            "Primary Action": [
+                "know",
+                "feel trust"
+            ],
+            "Secondary Action": [
+                "conforms"
+            ]
+        },
+        "Entity": {
+            "Primary Entity": [
+                "data"
+            ],
+            "Secondary Entity": [
+                "Data Package profile"
+            ]
+        },
+        "Triggers": [
+            [
+                "ResearcherPublisher",
+                "know"
+            ],
+            [
+                "ResearcherPublisher",
+                "conforms"
+            ],
+            [
+                "ResearcherPublisher",
+                "feel trust"
+            ]
+        ],
+        "Targets": [
+            [
+                "know",
+                "data"
+            ],
+            [
+                "conforms",
+                "Data Package profile"
+            ],
+            [
+                "feel trust",
+                "data"
+            ]
+        ]
+    }
+]

@@ -69,11 +69,15 @@ def extractData(folderPath):
             extractedData["Persona"] = []
             extractedData["Benefit"] = ""
         extractedData["Action"] = {} 
-        extractedData["Action"]["Primary Action"] = data["categories"]["primary_actions"]
-        extractedData["Action"]["Secondary Action"] = data["categories"]["secondary_actions"]  
-        extractedData["Entity"] = {}
-        extractedData["Entity"]["Primary Entity"] = data["categories"]["primary_entities"]
-        extractedData["Entity"]["Secondary Entity"] = data["categories"]["secondary_entities"] 
+
+        if data["categories"] != None:
+            extractedData["Action"]["Primary Action"] = data["categories"]["primary_actions"]
+            extractedData["Action"]["Secondary Action"] = data["categories"]["secondary_actions"]  
+            extractedData["Entity"] = {}
+            extractedData["Entity"]["Primary Entity"] = data["categories"]["primary_entities"]
+            extractedData["Entity"]["Secondary Entity"] = data["categories"]["secondary_entities"]
+        else:
+            print('ERROR/RELATION' + json.dumps(data) + '\n' )
         
         extractedData["Triggers"] = []
         extractedData["Targets"] = []
