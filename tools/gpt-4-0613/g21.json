@@ -1,0 +1,3204 @@
+[
+    {
+        "Text": "#G21# As a trainer, I want to edit my training node myself, so that the training coordinators don't have to and links to slides.",
+        "Persona": [
+            "trainer"
+        ],
+        "Benefit": "the training coordinators don't have to and links to slides",
+        "Action": {
+            "Primary Action": [
+                "edit"
+            ],
+            "Secondary Action": []
+        },
+        "Entity": {
+            "Primary Entity": [
+                "training node"
+            ],
+            "Secondary Entity": [
+                "training coordinators",
+                "links to slides"
+            ]
+        },
+        "Triggers": [
+            [
+                "trainer",
+                "edit"
+            ]
+        ],
+        "Targets": [
+            [
+                "edit",
+                "training node"
+            ]
+        ]
+    },
+    {
+        "Text": "#G21# As a anonymoususer, I want to see specific details on summits, so that I can learn more about the summit I'm interested in to see if it matches my interests, register for the event, and get day-of knowledge to help me get to the location.",
+        "Persona": [
+            "anonymoususer"
+        ],
+        "Benefit": "I can learn more about the summit I'm interested in to see if it matches my interests, register for the event, and get day-of knowledge to help me get to the location",
+        "Action": {
+            "Primary Action": [
+                "see",
+                "learn"
+            ],
+            "Secondary Action": [
+                "register",
+                "get"
+            ]
+        },
+        "Entity": {
+            "Primary Entity": [
+                "specific details",
+                "summits"
+            ],
+            "Secondary Entity": [
+                "summit",
+                "interests",
+                "event",
+                "day-of knowledge",
+                "location"
+            ]
+        },
+        "Triggers": [
+            [
+                "anonymoususer",
+                "see"
+            ],
+            [
+                "anonymoususer",
+                "learn"
+            ]
+        ],
+        "Targets": [
+            [
+                "see",
+                "specific details"
+            ],
+            [
+                "see",
+                "summits"
+            ],
+            [
+                "learn",
+                "summit"
+            ],
+            [
+                "learn",
+                "interests"
+            ]
+        ]
+    },
+    {
+        "Text": "#G21# As a trainee, I want to add to \"my schedule\" if there is a schedule feature on the site, so that they can schedule their event experience.",
+        "Persona": [
+            "trainee"
+        ],
+        "Benefit": "they can schedule their event experience",
+        "Action": {
+            "Primary Action": [
+                "add",
+                "schedule"
+            ],
+            "Secondary Action": []
+        },
+        "Entity": {
+            "Primary Entity": [
+                "my schedule",
+                "event experience"
+            ],
+            "Secondary Entity": [
+                "schedule feature",
+                "site"
+            ]
+        },
+        "Triggers": [
+            [
+                "trainee",
+                "add"
+            ],
+            [
+                "trainee",
+                "schedule"
+            ]
+        ],
+        "Targets": [
+            [
+                "add",
+                "my schedule"
+            ],
+            [
+                "schedule",
+                "event experience"
+            ]
+        ]
+    },
+    {
+        "Text": "#G21# As a sponsor, I want to Link to my sponsorship profile from my job listings, so that recruits can learn more about my organization.",
+        "Persona": [
+            "sponsor"
+        ],
+        "Benefit": "recruits can learn more about my organization",
+        "Action": {
+            "Primary Action": [
+                "Link"
+            ],
+            "Secondary Action": [
+                "learn"
+            ]
+        },
+        "Entity": {
+            "Primary Entity": [
+                "sponsorship profile",
+                "job listings"
+            ],
+            "Secondary Entity": [
+                "recruits",
+                "my organization"
+            ]
+        },
+        "Triggers": [
+            [
+                "sponsor",
+                "Link"
+            ]
+        ],
+        "Targets": [
+            [
+                "Link",
+                "sponsorship profile"
+            ],
+            [
+                "Link",
+                "job listings"
+            ]
+        ]
+    },
+    {
+        "Text": "#G21# As a authenticateduser, I want to See a payment page to pay for my individual sponsorships as the third step of the registration process so that pay for my sponsorship.",
+        "Persona": [
+            "authenticated user"
+        ],
+        "Benefit": "pay for my sponsorship",
+        "Action": {
+            "Primary Action": [
+                "See",
+                "pay"
+            ],
+            "Secondary Action": []
+        },
+        "Entity": {
+            "Primary Entity": [
+                "payment page",
+                "individual sponsorships"
+            ],
+            "Secondary Entity": [
+                "third step of the registration process",
+                "sponsorship"
+            ]
+        },
+        "Triggers": [
+            [
+                "authenticated user",
+                "See"
+            ],
+            [
+                "authenticated user",
+                "pay"
+            ]
+        ],
+        "Targets": [
+            [
+                "See",
+                "payment page"
+            ],
+            [
+                "See",
+                "individual sponsorships"
+            ],
+            [
+                "pay",
+                "payment page"
+            ],
+            [
+                "pay",
+                "individual sponsorships"
+            ]
+        ]
+    },
+    {
+        "Text": "#G21# As a authenticateduser, I want to Be offered several choices of idividual sponsorship on the second page of registration, so that I can be awesome and financially support the camp.",
+        "Persona": [
+            "authenticated user"
+        ],
+        "Benefit": "I can be awesome and financially support the camp",
+        "Action": {
+            "Primary Action": [
+                "be offered"
+            ],
+            "Secondary Action": [
+                "financially support"
+            ]
+        },
+        "Entity": {
+            "Primary Entity": [
+                "choices of individual sponsorship",
+                "second page of registration"
+            ],
+            "Secondary Entity": [
+                "camp"
+            ]
+        },
+        "Triggers": [
+            [
+                "authenticated user",
+                "be offered"
+            ],
+            [
+                "authenticated user",
+                "financially support"
+            ]
+        ],
+        "Targets": [
+            [
+                "be offered",
+                "choices of individual sponsorship"
+            ],
+            [
+                "be offered",
+                "second page of registration"
+            ],
+            [
+                "financially support",
+                "camp"
+            ]
+        ]
+    },
+    {
+        "Text": "#G21# As a trainee, I want to must accept the cancellation terms with a checkbox, so that they can be accountable..",
+        "Persona": [
+            "trainee"
+        ],
+        "Benefit": "they can be accountable",
+        "Action": {
+            "Primary Action": [
+                "accept"
+            ],
+            "Secondary Action": []
+        },
+        "Entity": {
+            "Primary Entity": [
+                "cancellation terms",
+                "checkbox"
+            ],
+            "Secondary Entity": []
+        },
+        "Triggers": [
+            [
+                "trainee",
+                "accept"
+            ]
+        ],
+        "Targets": [
+            [
+                "accept",
+                "cancellation terms"
+            ],
+            [
+                "accept",
+                "checkbox"
+            ]
+        ]
+    },
+    {
+        "Text": "#G21# As a sponsor, I want to link BADCamp attendees to my sponsorship page, so that I can show off our level of attendance.",
+        "Persona": [
+            "sponsor"
+        ],
+        "Benefit": "I can show off our level of attendance",
+        "Action": {
+            "Primary Action": [
+                "link"
+            ],
+            "Secondary Action": [
+                "show off"
+            ]
+        },
+        "Entity": {
+            "Primary Entity": [
+                "BADCamp attendees",
+                "sponsorship page"
+            ],
+            "Secondary Entity": [
+                "level of attendance"
+            ]
+        },
+        "Triggers": [
+            [
+                "sponsor",
+                "link"
+            ],
+            [
+                "sponsor",
+                "show off"
+            ]
+        ],
+        "Targets": [
+            [
+                "link",
+                "BADCamp attendees"
+            ],
+            [
+                "link",
+                "sponsorship page"
+            ],
+            [
+                "show off",
+                "level of attendance"
+            ]
+        ]
+    },
+    {
+        "Text": "#G21# As a authenticateduser, I want to Enter payment information and have my card charged for an individual sponsorship, so that I can pay for an individual sponsorship.",
+        "Persona": [
+            "authenticated user"
+        ],
+        "Benefit": "I can pay for an individual sponsorship",
+        "Action": {
+            "Primary Action": [
+                "Enter",
+                "pay"
+            ],
+            "Secondary Action": [
+                "have my card charged"
+            ]
+        },
+        "Entity": {
+            "Primary Entity": [
+                "payment information",
+                "individual sponsorship"
+            ],
+            "Secondary Entity": [
+                "card"
+            ]
+        },
+        "Triggers": [
+            [
+                "authenticated user",
+                "Enter"
+            ],
+            [
+                "authenticated user",
+                "pay"
+            ]
+        ],
+        "Targets": [
+            [
+                "Enter",
+                "payment information"
+            ],
+            [
+                "Enter",
+                "individual sponsorship"
+            ],
+            [
+                "pay",
+                "individual sponsorship"
+            ],
+            [
+                "have my card charged",
+                "card"
+            ]
+        ]
+    },
+    {
+        "Text": "#G21# As a attendee, I want to be added to a training waitlist, so that so they can be considered for a class.",
+        "Persona": [
+            "attendee"
+        ],
+        "Benefit": "so they can be considered for a class",
+        "Action": {
+            "Primary Action": [
+                "be added"
+            ],
+            "Secondary Action": [
+                "be considered"
+            ]
+        },
+        "Entity": {
+            "Primary Entity": [
+                "training waitlist"
+            ],
+            "Secondary Entity": [
+                "class"
+            ]
+        },
+        "Triggers": [
+            [
+                "attendee",
+                "be added"
+            ]
+        ],
+        "Targets": [
+            [
+                "be added",
+                "training waitlist"
+            ]
+        ]
+    },
+    {
+        "Text": "#G21# As a anonymoususer, I want to easily find a link in the menu that links to the registration form, so that I can easily register for the camp.",
+        "Persona": [
+            "anonymoususer"
+        ],
+        "Benefit": "I can easily register for the camp",
+        "Action": {
+            "Primary Action": [
+                "find",
+                "register"
+            ],
+            "Secondary Action": [
+                "links"
+            ]
+        },
+        "Entity": {
+            "Primary Entity": [
+                "link",
+                "registration form"
+            ],
+            "Secondary Entity": [
+                "menu",
+                "camp"
+            ]
+        },
+        "Triggers": [
+            [
+                "anonymoususer",
+                "find"
+            ],
+            [
+                "anonymoususer",
+                "register"
+            ]
+        ],
+        "Targets": [
+            [
+                "find",
+                "link"
+            ],
+            [
+                "find",
+                "registration form"
+            ],
+            [
+                "register",
+                "registration form"
+            ]
+        ]
+    },
+    {
+        "Text": "#G21# As a anonymoususer, I want to see a list of the sessions associated with sponsor attendees, so that I know where I can engage with this sponsor and where they are thought leaders.",
+        "Persona": [
+            "anonymoususer"
+        ],
+        "Benefit": "I know where I can engage with this sponsor and where they are thought leaders",
+        "Action": {
+            "Primary Action": [
+                "see"
+            ],
+            "Secondary Action": [
+                "engage"
+            ]
+        },
+        "Entity": {
+            "Primary Entity": [
+                "list of the sessions",
+                "sponsor"
+            ],
+            "Secondary Entity": [
+                "sponsor attendees",
+                "thought leaders"
+            ]
+        },
+        "Triggers": [
+            [
+                "anonymoususer",
+                "see"
+            ]
+        ],
+        "Targets": [
+            [
+                "see",
+                "list of the sessions"
+            ],
+            [
+                "see",
+                "sponsor"
+            ],
+            [
+                "engage",
+                "sponsor attendees"
+            ],
+            [
+                "engage",
+                "thought leaders"
+            ]
+        ]
+    },
+    {
+        "Text": "#G21# As a anonymoususer, I want to learn about posting jobs as a sponsor and contact the sponsorship person, so that I have the opportunty to post my job listing on the BADCamp site.",
+        "Persona": [
+            "anonymoususer"
+        ],
+        "Benefit": "I have the opportunity to post my job listing on the BADCamp site",
+        "Action": {
+            "Primary Action": [
+                "learn",
+                "post"
+            ],
+            "Secondary Action": [
+                "contact"
+            ]
+        },
+        "Entity": {
+            "Primary Entity": [
+                "posting jobs",
+                "job listing",
+                "BADCamp site"
+            ],
+            "Secondary Entity": [
+                "sponsor",
+                "sponsorship person"
+            ]
+        },
+        "Triggers": [
+            [
+                "anonymoususer",
+                "learn"
+            ],
+            [
+                "anonymoususer",
+                "post"
+            ]
+        ],
+        "Targets": [
+            [
+                "learn",
+                "posting jobs"
+            ],
+            [
+                "post",
+                "job listing"
+            ],
+            [
+                "post",
+                "BADCamp site"
+            ]
+        ]
+    },
+    {
+        "Text": "#G21# As a trainingcoordinator, I want to tie in a cancellation deadline to whatever registration / cancellation workflow exists, so that so we don't loose money or spots.",
+        "Persona": [
+            "trainingcoordinator"
+        ],
+        "Benefit": "so we don't loose money or spots",
+        "Action": {
+            "Primary Action": [
+                "tie in"
+            ],
+            "Secondary Action": []
+        },
+        "Entity": {
+            "Primary Entity": [
+                "cancellation deadline"
+            ],
+            "Secondary Entity": [
+                "registration / cancellation workflow"
+            ]
+        },
+        "Triggers": [
+            [
+                "trainingcoordinator",
+                "tie in"
+            ]
+        ],
+        "Targets": [
+            [
+                "tie in",
+                "cancellation deadline"
+            ]
+        ]
+    },
+    {
+        "Text": "#G21# As a anonymoususer, I want to see a list of all the summits, so that I can determine which summit I might be interested and able to attend.",
+        "Persona": [
+            "anonymoususer"
+        ],
+        "Benefit": "I can determine which summit I might be interested and able to attend",
+        "Action": {
+            "Primary Action": [
+                "see",
+                "determine"
+            ],
+            "Secondary Action": [
+                "attend"
+            ]
+        },
+        "Entity": {
+            "Primary Entity": [
+                "list of all the summits"
+            ],
+            "Secondary Entity": [
+                "summit"
+            ]
+        },
+        "Triggers": [
+            [
+                "anonymoususer",
+                "see"
+            ],
+            [
+                "anonymoususer",
+                "determine"
+            ]
+        ],
+        "Targets": [
+            [
+                "see",
+                "list of all the summits"
+            ],
+            [
+                "determine",
+                "summit"
+            ]
+        ]
+    },
+    {
+        "Text": "#G21# As a attendee, I want to have a very clear map where the buildings and rooms are, so that I can make it to class on time.",
+        "Persona": [
+            "attendee"
+        ],
+        "Benefit": "I can make it to class on time",
+        "Action": {
+            "Primary Action": [
+                "have"
+            ],
+            "Secondary Action": [
+                "make it"
+            ]
+        },
+        "Entity": {
+            "Primary Entity": [
+                "map",
+                "class"
+            ],
+            "Secondary Entity": [
+                "buildings",
+                "rooms"
+            ]
+        },
+        "Triggers": [
+            [
+                "attendee",
+                "have"
+            ]
+        ],
+        "Targets": [
+            [
+                "have",
+                "map"
+            ],
+            [
+                "have",
+                "class"
+            ],
+            [
+                "make it",
+                "class"
+            ]
+        ]
+    },
+    {
+        "Text": "#G21# As a authenticateduser, I want to find a link on the sponsorships page to become a $350 level sponsor, so that I can pay for and become a sponsor role.",
+        "Persona": [
+            "authenticated user"
+        ],
+        "Benefit": "I can pay for and become a sponsor role",
+        "Action": {
+            "Primary Action": [
+                "find",
+                "become"
+            ],
+            "Secondary Action": [
+                "pay for"
+            ]
+        },
+        "Entity": {
+            "Primary Entity": [
+                "link",
+                "$350 level sponsor"
+            ],
+            "Secondary Entity": [
+                "sponsorships page",
+                "sponsor role"
+            ]
+        },
+        "Triggers": [
+            [
+                "authenticated user",
+                "find"
+            ],
+            [
+                "authenticated user",
+                "become"
+            ]
+        ],
+        "Targets": [
+            [
+                "find",
+                "link"
+            ],
+            [
+                "find",
+                "$350 level sponsor"
+            ],
+            [
+                "become",
+                "$350 level sponsor"
+            ]
+        ]
+    },
+    {
+        "Text": "#G21# As a anonymoususer, I want to receive a notification when I submit a session, so that know that my session went through ok.",
+        "Persona": [
+            "anonymoususer"
+        ],
+        "Benefit": "know that my session went through ok",
+        "Action": {
+            "Primary Action": [
+                "submit"
+            ],
+            "Secondary Action": [
+                "receive"
+            ]
+        },
+        "Entity": {
+            "Primary Entity": [
+                "session"
+            ],
+            "Secondary Entity": [
+                "notification"
+            ]
+        },
+        "Triggers": [
+            [
+                "anonymoususer",
+                "submit"
+            ]
+        ],
+        "Targets": [
+            [
+                "submit",
+                "session"
+            ]
+        ]
+    },
+    {
+        "Text": "#G21# As a sponsor, I want to sponsor a summit that matches my brand, so that I can get exposure to potential customers and otherwise tout my Drupal credentials.",
+        "Persona": [
+            "sponsor"
+        ],
+        "Benefit": "I can get exposure to potential customers and otherwise tout my Drupal credentials",
+        "Action": {
+            "Primary Action": [
+                "sponsor",
+                "matches"
+            ],
+            "Secondary Action": [
+                "get exposure",
+                "tout"
+            ]
+        },
+        "Entity": {
+            "Primary Entity": [
+                "summit",
+                "brand"
+            ],
+            "Secondary Entity": [
+                "potential customers",
+                "Drupal credentials"
+            ]
+        },
+        "Triggers": [
+            [
+                "sponsor",
+                "sponsor"
+            ],
+            [
+                "sponsor",
+                "matches"
+            ],
+            [
+                "sponsor",
+                "get exposure"
+            ],
+            [
+                "sponsor",
+                "tout"
+            ]
+        ],
+        "Targets": [
+            [
+                "sponsor",
+                "summit"
+            ],
+            [
+                "sponsor",
+                "brand"
+            ],
+            [
+                "get exposure",
+                "potential customers"
+            ],
+            [
+                "tout",
+                "Drupal credentials"
+            ]
+        ]
+    },
+    {
+        "Text": "#G21# As a trainingcoordinator, I want to email all the trainers at once from the website for info and updates, so that It is easier to use.",
+        "Persona": [
+            "trainingcoordinator"
+        ],
+        "Benefit": "It is easier to use",
+        "Action": {
+            "Primary Action": [
+                "email all the trainers at once"
+            ],
+            "Secondary Action": []
+        },
+        "Entity": {
+            "Primary Entity": [
+                "email",
+                "trainers"
+            ],
+            "Secondary Entity": [
+                "website",
+                "info and updates"
+            ]
+        },
+        "Triggers": [
+            [
+                "trainingcoordinator",
+                "email all the trainers at once"
+            ]
+        ],
+        "Targets": [
+            [
+                "email all the trainers at once",
+                "email"
+            ],
+            [
+                "email all the trainers at once",
+                "trainers"
+            ]
+        ]
+    },
+    {
+        "Text": "#G21# As a attendee, I want to see what summits I'm signed up for, so that I can confirm my attendence and prevent myself from accidentally double-booking with a training or another summit.",
+        "Persona": [
+            "attendee"
+        ],
+        "Benefit": "I can confirm my attendence and prevent myself from accidentally double-booking with a training or another summit",
+        "Action": {
+            "Primary Action": [
+                "see",
+                "signed up"
+            ],
+            "Secondary Action": [
+                "confirm",
+                "prevent"
+            ]
+        },
+        "Entity": {
+            "Primary Entity": [
+                "summits",
+                "attendence"
+            ],
+            "Secondary Entity": [
+                "double-booking",
+                "training"
+            ]
+        },
+        "Triggers": [
+            [
+                "attendee",
+                "see"
+            ],
+            [
+                "attendee",
+                "signed up"
+            ]
+        ],
+        "Targets": [
+            [
+                "see",
+                "summits"
+            ],
+            [
+                "signed up",
+                "attendence"
+            ],
+            [
+                "confirm",
+                "attendence"
+            ],
+            [
+                "prevent",
+                "double-booking"
+            ],
+            [
+                "prevent",
+                "training"
+            ]
+        ]
+    },
+    {
+        "Text": "#G21# As a anonymoususer, I want to have a training landing page with an intro section and a list of all training offerings and promote call for trainings, so that I can shop for training all with one page and we can have a call for trainings for selection.",
+        "Persona": [
+            "anonymoususer"
+        ],
+        "Benefit": "I can shop for training all with one page and we can have a call for trainings for selection",
+        "Action": {
+            "Primary Action": [
+                "have",
+                "shop"
+            ],
+            "Secondary Action": [
+                "promote"
+            ]
+        },
+        "Entity": {
+            "Primary Entity": [
+                "training landing page",
+                "list of all training offerings"
+            ],
+            "Secondary Entity": [
+                "intro section",
+                "call for trainings"
+            ]
+        },
+        "Triggers": [
+            [
+                "anonymoususer",
+                "have"
+            ],
+            [
+                "anonymoususer",
+                "shop"
+            ],
+            [
+                "anonymoususer",
+                "promote"
+            ]
+        ],
+        "Targets": [
+            [
+                "have",
+                "training landing page"
+            ],
+            [
+                "have",
+                "list of all training offerings"
+            ],
+            [
+                "shop",
+                "training landing page"
+            ],
+            [
+                "shop",
+                "list of all training offerings"
+            ],
+            [
+                "promote",
+                "call for trainings"
+            ]
+        ]
+    },
+    {
+        "Text": "#G21# As a anonymoususer, I want to see the final list of sessions approved, so that I can see what's going on at BADCamp .",
+        "Persona": [
+            "anonymoususer"
+        ],
+        "Benefit": "I can see what's going on at BADCamp",
+        "Action": {
+            "Primary Action": [
+                "see"
+            ],
+            "Secondary Action": [
+                "approved"
+            ]
+        },
+        "Entity": {
+            "Primary Entity": [
+                "final list of sessions"
+            ],
+            "Secondary Entity": [
+                "BADCamp"
+            ]
+        },
+        "Triggers": [
+            [
+                "anonymoususer",
+                "see"
+            ]
+        ],
+        "Targets": [
+            [
+                "see",
+                "final list of sessions"
+            ]
+        ]
+    },
+    {
+        "Text": "#G21# As a administrator, I want to bulk approve sessions as accepted, so that I can save time.",
+        "Persona": [
+            "administrator"
+        ],
+        "Benefit": "I can save time",
+        "Action": {
+            "Primary Action": [
+                "bulk approve"
+            ],
+            "Secondary Action": [
+                "save"
+            ]
+        },
+        "Entity": {
+            "Primary Entity": [
+                "sessions"
+            ],
+            "Secondary Entity": []
+        },
+        "Triggers": [
+            [
+                "administrator",
+                "bulk approve"
+            ]
+        ],
+        "Targets": [
+            [
+                "bulk approve",
+                "sessions"
+            ]
+        ]
+    },
+    {
+        "Text": "#G21# As a anonymoususer, I want to have the training options clearly marked for the following information: day and time of training, title, short summary, trainers, level, number of registrations, remaining registrations, location of training, link to full details of the training, register now link, so that I can shop for training all with one page AND find their class on on one page.",
+        "Persona": [
+            "anonymoususer"
+        ],
+        "Benefit": "I can shop for training all with one page AND find their class on on one page",
+        "Action": {
+            "Primary Action": [
+                "have",
+                "shop"
+            ],
+            "Secondary Action": [
+                "marked",
+                "find"
+            ]
+        },
+        "Entity": {
+            "Primary Entity": [
+                "training options"
+            ],
+            "Secondary Entity": [
+                "day and time of training",
+                "title",
+                "short summary",
+                "trainers",
+                "level",
+                "number of registrations",
+                "remaining registrations",
+                "location of training",
+                "link to full details of the training",
+                "register now link"
+            ]
+        },
+        "Triggers": [
+            [
+                "anonymoususer",
+                "have"
+            ],
+            [
+                "anonymoususer",
+                "shop"
+            ]
+        ],
+        "Targets": [
+            [
+                "have",
+                "training options"
+            ],
+            [
+                "shop",
+                "training options"
+            ]
+        ]
+    },
+    {
+        "Text": "#G21# As a summit coordinator, I want to see a list of attendees signed up for my summit, so that I can communicate with my attendees by email prior to the event.",
+        "Persona": [
+            "summit coordinator"
+        ],
+        "Benefit": "I can communicate with my attendees by email prior to the event",
+        "Action": {
+            "Primary Action": [
+                "see",
+                "communicate"
+            ],
+            "Secondary Action": []
+        },
+        "Entity": {
+            "Primary Entity": [
+                "list of attendees",
+                "my summit"
+            ],
+            "Secondary Entity": [
+                "email",
+                "event"
+            ]
+        },
+        "Triggers": [
+            [
+                "summit coordinator",
+                "see"
+            ],
+            [
+                "summit coordinator",
+                "communicate"
+            ]
+        ],
+        "Targets": [
+            [
+                "see",
+                "list of attendees"
+            ],
+            [
+                "see",
+                "my summit"
+            ],
+            [
+                "communicate",
+                "email"
+            ],
+            [
+                "communicate",
+                "event"
+            ]
+        ]
+    },
+    {
+        "Text": "#G21# As a anonymoususer, I want to view a list of user profiles, so that I know who is attending the conference.",
+        "Persona": [
+            "anonymoususer"
+        ],
+        "Benefit": "I know who is attending the conference",
+        "Action": {
+            "Primary Action": [
+                "view"
+            ],
+            "Secondary Action": [
+                "know"
+            ]
+        },
+        "Entity": {
+            "Primary Entity": [
+                "list of user profiles"
+            ],
+            "Secondary Entity": [
+                "conference"
+            ]
+        },
+        "Triggers": [
+            [
+                "anonymoususer",
+                "view"
+            ]
+        ],
+        "Targets": [
+            [
+                "view",
+                "list of user profiles"
+            ]
+        ]
+    },
+    {
+        "Text": "#G21# As a anonymoususer, I want to read the blog, so that I can stay informed about all the latest happenings with BADCamp.",
+        "Persona": [
+            "anonymous user"
+        ],
+        "Benefit": "I can stay informed about all the latest happenings with BADCamp",
+        "Action": {
+            "Primary Action": [
+                "read"
+            ],
+            "Secondary Action": [
+                "stay informed"
+            ]
+        },
+        "Entity": {
+            "Primary Entity": [
+                "blog"
+            ],
+            "Secondary Entity": [
+                "latest happenings",
+                "BADCamp"
+            ]
+        },
+        "Triggers": [
+            [
+                "anonymous user",
+                "read"
+            ]
+        ],
+        "Targets": [
+            [
+                "read",
+                "blog"
+            ]
+        ]
+    },
+    {
+        "Text": "#G21# As a authenticateduser, I want to edit my session, so that if I make a mistake, I can correct it.",
+        "Persona": [
+            "authenticated user"
+        ],
+        "Benefit": "if I make a mistake, I can correct it",
+        "Action": {
+            "Primary Action": [
+                "edit"
+            ],
+            "Secondary Action": [
+                "correct"
+            ]
+        },
+        "Entity": {
+            "Primary Entity": [
+                "session"
+            ],
+            "Secondary Entity": []
+        },
+        "Triggers": [
+            [
+                "authenticated user",
+                "edit"
+            ]
+        ],
+        "Targets": [
+            [
+                "edit",
+                "session"
+            ]
+        ]
+    },
+    {
+        "Text": "#G21# As a administrator, I want to refund sponsorship money that was processed via stripe, so that people get their monies back.",
+        "Persona": [
+            "administrator"
+        ],
+        "Benefit": "people get their monies back",
+        "Action": {
+            "Primary Action": [
+                "refund"
+            ],
+            "Secondary Action": [
+                "processed"
+            ]
+        },
+        "Entity": {
+            "Primary Entity": [
+                "sponsorship money",
+                "stripe"
+            ],
+            "Secondary Entity": [
+                "people",
+                "monies"
+            ]
+        },
+        "Triggers": [
+            [
+                "administrator",
+                "refund"
+            ]
+        ],
+        "Targets": [
+            [
+                "refund",
+                "sponsorship money"
+            ],
+            [
+                "refund",
+                "stripe"
+            ]
+        ]
+    },
+    {
+        "Text": "#G21# As a administrator, I want to mark a session as accepted, so that I can populate the schedule .",
+        "Persona": [
+            "administrator"
+        ],
+        "Benefit": "I can populate the schedule",
+        "Action": {
+            "Primary Action": [
+                "mark"
+            ],
+            "Secondary Action": [
+                "populate"
+            ]
+        },
+        "Entity": {
+            "Primary Entity": [
+                "session"
+            ],
+            "Secondary Entity": [
+                "schedule"
+            ]
+        },
+        "Triggers": [
+            [
+                "administrator",
+                "mark"
+            ],
+            [
+                "mark",
+                "populate"
+            ]
+        ],
+        "Targets": [
+            [
+                "mark",
+                "session"
+            ],
+            [
+                "populate",
+                "schedule"
+            ]
+        ]
+    },
+    {
+        "Text": "#G21# As a anonymoususer, I want to find out where the coding lounge is and what time it is open, so that I can code with my friends.",
+        "Persona": [
+            "anonymoususer"
+        ],
+        "Benefit": "I can code with my friends",
+        "Action": {
+            "Primary Action": [
+                "find out"
+            ],
+            "Secondary Action": [
+                "code"
+            ]
+        },
+        "Entity": {
+            "Primary Entity": [
+                "coding lounge"
+            ],
+            "Secondary Entity": [
+                "time"
+            ]
+        },
+        "Triggers": [
+            [
+                "anonymoususer",
+                "find out"
+            ]
+        ],
+        "Targets": [
+            [
+                "find out",
+                "coding lounge"
+            ]
+        ]
+    },
+    {
+        "Text": "#G21# As a administrator, I want to create blog posts, so that I can share the latest information about BADCamp with the public.",
+        "Persona": [
+            "administrator"
+        ],
+        "Benefit": "I can share the latest information about BADCamp with the public",
+        "Action": {
+            "Primary Action": [
+                "create"
+            ],
+            "Secondary Action": [
+                "share"
+            ]
+        },
+        "Entity": {
+            "Primary Entity": [
+                "blog posts"
+            ],
+            "Secondary Entity": [
+                "latest information",
+                "BADCamp",
+                "public"
+            ]
+        },
+        "Triggers": [
+            [
+                "administrator",
+                "create"
+            ],
+            [
+                "create",
+                "share"
+            ]
+        ],
+        "Targets": [
+            [
+                "create",
+                "blog posts"
+            ],
+            [
+                "share",
+                "latest information"
+            ],
+            [
+                "share",
+                "BADCamp"
+            ],
+            [
+                "share",
+                "public"
+            ]
+        ]
+    },
+    {
+        "Text": "#G21# As a anonymoususer, I want to register to speak at BADCamp, so that I submit a session.",
+        "Persona": [
+            "anonymous user"
+        ],
+        "Benefit": "I submit a session",
+        "Action": {
+            "Primary Action": [
+                "register",
+                "submit"
+            ],
+            "Secondary Action": []
+        },
+        "Entity": {
+            "Primary Entity": [
+                "BADCamp",
+                "session"
+            ],
+            "Secondary Entity": []
+        },
+        "Triggers": [
+            [
+                "anonymous user",
+                "register"
+            ],
+            [
+                "anonymous user",
+                "submit"
+            ]
+        ],
+        "Targets": [
+            [
+                "register",
+                "BADCamp"
+            ],
+            [
+                "submit",
+                "session"
+            ]
+        ]
+    },
+    {
+        "Text": "#G21# As a authenticateduser, I want to identify myself as and pay for a $350 company sponsorship, so that I can easily become a sponsor at this level without having to interface with badcamp personnel to get a sponsorship.",
+        "Persona": [
+            "authenticated user"
+        ],
+        "Benefit": "I can easily become a sponsor at this level without having to interface with badcamp personnel to get a sponsorship",
+        "Action": {
+            "Primary Action": [
+                "identify",
+                "pay",
+                "become"
+            ],
+            "Secondary Action": [
+                "interface"
+            ]
+        },
+        "Entity": {
+            "Primary Entity": [
+                "$350 company sponsorship",
+                "sponsorship"
+            ],
+            "Secondary Entity": [
+                "badcamp personnel"
+            ]
+        },
+        "Triggers": [
+            [
+                "authenticated user",
+                "identify"
+            ],
+            [
+                "authenticated user",
+                "pay"
+            ],
+            [
+                "authenticated user",
+                "become"
+            ]
+        ],
+        "Targets": [
+            [
+                "identify",
+                "$350 company sponsorship"
+            ],
+            [
+                "pay",
+                "$350 company sponsorship"
+            ],
+            [
+                "become",
+                "sponsorship"
+            ],
+            [
+                "interface",
+                "badcamp personnel"
+            ]
+        ]
+    },
+    {
+        "Text": "#G21# As a administrator, I want to assign a room to a time slot and a location, so that I can populate the schedule .",
+        "Persona": [
+            "administrator"
+        ],
+        "Benefit": "I can populate the schedule",
+        "Action": {
+            "Primary Action": [
+                "assign"
+            ],
+            "Secondary Action": [
+                "populate"
+            ]
+        },
+        "Entity": {
+            "Primary Entity": [
+                "room",
+                "time slot",
+                "location"
+            ],
+            "Secondary Entity": [
+                "schedule"
+            ]
+        },
+        "Triggers": [
+            [
+                "administrator",
+                "assign"
+            ],
+            [
+                "assign",
+                "populate"
+            ]
+        ],
+        "Targets": [
+            [
+                "assign",
+                "room"
+            ],
+            [
+                "assign",
+                "time slot"
+            ],
+            [
+                "assign",
+                "location"
+            ],
+            [
+                "populate",
+                "schedule"
+            ]
+        ]
+    },
+    {
+        "Text": "#G21# As a anonymoususer, I want to have a dedicated page for each class to learn more about the offering The following information must be shown: Logo, title, trainers, location, possibly a map view, datetime, skill level, registrations remaining, link to register for class. The URL path should be SEO friendly /training/training-title, so that I can choose the right class, AND the trainer can tweet and promote their class.",
+        "Persona": [
+            "anonymoususer",
+            "trainer"
+        ],
+        "Benefit": "I can choose the right class, AND the trainer can tweet and promote their class",
+        "Action": {
+            "Primary Action": [
+                "have",
+                "learn",
+                "choose"
+            ],
+            "Secondary Action": [
+                "shown",
+                "tweet",
+                "promote"
+            ]
+        },
+        "Entity": {
+            "Primary Entity": [
+                "dedicated page",
+                "class",
+                "URL path",
+                "SEO friendly /training/training-title"
+            ],
+            "Secondary Entity": [
+                "Logo",
+                "title",
+                "trainers",
+                "location",
+                "map view",
+                "datetime",
+                "skill level",
+                "registrations remaining",
+                "link to register for class"
+            ]
+        },
+        "Triggers": [
+            [
+                "anonymoususer",
+                "have"
+            ],
+            [
+                "anonymoususer",
+                "learn"
+            ],
+            [
+                "anonymoususer",
+                "choose"
+            ],
+            [
+                "trainer",
+                "tweet"
+            ],
+            [
+                "trainer",
+                "promote"
+            ]
+        ],
+        "Targets": [
+            [
+                "have",
+                "dedicated page"
+            ],
+            [
+                "have",
+                "class"
+            ],
+            [
+                "learn",
+                "dedicated page"
+            ],
+            [
+                "learn",
+                "class"
+            ],
+            [
+                "choose",
+                "class"
+            ],
+            [
+                "tweet",
+                "URL path"
+            ],
+            [
+                "promote",
+                "URL path"
+            ]
+        ]
+    },
+    {
+        "Text": "#G21# As a summit coordinator, I want to list basic information about my summit, so that I can inform potential attendees on why they should attend my summit.",
+        "Persona": [
+            "summit coordinator"
+        ],
+        "Benefit": "I can inform potential attendees on why they should attend my summit",
+        "Action": {
+            "Primary Action": [
+                "list"
+            ],
+            "Secondary Action": [
+                "inform"
+            ]
+        },
+        "Entity": {
+            "Primary Entity": [
+                "my summit"
+            ],
+            "Secondary Entity": [
+                "basic information",
+                "potential attendees"
+            ]
+        },
+        "Triggers": [
+            [
+                "summit coordinator",
+                "list"
+            ],
+            [
+                "summit coordinator",
+                "inform"
+            ]
+        ],
+        "Targets": [
+            [
+                "list",
+                "my summit"
+            ],
+            [
+                "list",
+                "basic information"
+            ],
+            [
+                "list",
+                "potential attendees"
+            ],
+            [
+                "inform",
+                "potential attendees"
+            ]
+        ]
+    },
+    {
+        "Text": "#G21# As a attendee, I want to get detailed directions to the summit venue, so that I can get to the summit easily on the day of the event.",
+        "Persona": [
+            "attendee"
+        ],
+        "Benefit": "I can get to the summit easily on the day of the event",
+        "Action": {
+            "Primary Action": [
+                "get"
+            ],
+            "Secondary Action": []
+        },
+        "Entity": {
+            "Primary Entity": [
+                "detailed directions",
+                "summit venue"
+            ],
+            "Secondary Entity": [
+                "summit",
+                "day of the event"
+            ]
+        },
+        "Triggers": [
+            [
+                "attendee",
+                "get"
+            ]
+        ],
+        "Targets": [
+            [
+                "get",
+                "detailed directions"
+            ],
+            [
+                "get",
+                "summit venue"
+            ]
+        ]
+    },
+    {
+        "Text": "#G21# As a anonymoususer, I want to view a list of sponsors, so that I can thank all the awesome sponsors.",
+        "Persona": [
+            "anonymous user"
+        ],
+        "Benefit": "I can thank all the awesome sponsors",
+        "Action": {
+            "Primary Action": [
+                "view"
+            ],
+            "Secondary Action": [
+                "thank"
+            ]
+        },
+        "Entity": {
+            "Primary Entity": [
+                "list of sponsors"
+            ],
+            "Secondary Entity": [
+                "awesome sponsors"
+            ]
+        },
+        "Triggers": [
+            [
+                "anonymous user",
+                "view"
+            ],
+            [
+                "anonymous user",
+                "thank"
+            ]
+        ],
+        "Targets": [
+            [
+                "view",
+                "list of sponsors"
+            ],
+            [
+                "thank",
+                "awesome sponsors"
+            ]
+        ]
+    },
+    {
+        "Text": "#G21# As a attendee, I want to register for a summit, so that I can reserve my seat at the summit.",
+        "Persona": [
+            "attendee"
+        ],
+        "Benefit": "I can reserve my seat at the summit",
+        "Action": {
+            "Primary Action": [
+                "register",
+                "reserve"
+            ],
+            "Secondary Action": []
+        },
+        "Entity": {
+            "Primary Entity": [
+                "summit",
+                "seat"
+            ],
+            "Secondary Entity": []
+        },
+        "Triggers": [
+            [
+                "attendee",
+                "register"
+            ],
+            [
+                "attendee",
+                "reserve"
+            ]
+        ],
+        "Targets": [
+            [
+                "register",
+                "summit"
+            ],
+            [
+                "reserve",
+                "seat"
+            ]
+        ]
+    },
+    {
+        "Text": "#G21# As a summit coordinator, I want to list sponsors for my summit, so that I can make sure sponsors feel rewarded and will be interested in sponsoring in future years.",
+        "Persona": [
+            "summit coordinator"
+        ],
+        "Benefit": "I can make sure sponsors feel rewarded and will be interested in sponsoring in future years",
+        "Action": {
+            "Primary Action": [
+                "list",
+                "make sure"
+            ],
+            "Secondary Action": [
+                "feel rewarded",
+                "be interested in sponsoring"
+            ]
+        },
+        "Entity": {
+            "Primary Entity": [
+                "sponsors",
+                "summit"
+            ],
+            "Secondary Entity": [
+                "future years"
+            ]
+        },
+        "Triggers": [
+            [
+                "summit coordinator",
+                "list"
+            ],
+            [
+                "summit coordinator",
+                "make sure"
+            ]
+        ],
+        "Targets": [
+            [
+                "list",
+                "sponsors"
+            ],
+            [
+                "list",
+                "summit"
+            ],
+            [
+                "make sure",
+                "sponsors"
+            ]
+        ]
+    },
+    {
+        "Text": "#G21# As a trainingcoordinator, I want to have an admin view where all trainee information is shown and can be filtered to show a single training session, so that I can see WTF is happening.",
+        "Persona": [
+            "trainingcoordinator"
+        ],
+        "Benefit": "I can see WTF is happening",
+        "Action": {
+            "Primary Action": [
+                "have",
+                "see"
+            ],
+            "Secondary Action": [
+                "shown",
+                "filtered"
+            ]
+        },
+        "Entity": {
+            "Primary Entity": [
+                "admin view",
+                "trainee information"
+            ],
+            "Secondary Entity": [
+                "single training session"
+            ]
+        },
+        "Triggers": [
+            [
+                "trainingcoordinator",
+                "have"
+            ],
+            [
+                "trainingcoordinator",
+                "see"
+            ]
+        ],
+        "Targets": [
+            [
+                "have",
+                "admin view"
+            ],
+            [
+                "have",
+                "trainee information"
+            ],
+            [
+                "see",
+                "admin view"
+            ],
+            [
+                "see",
+                "trainee information"
+            ]
+        ]
+    },
+    {
+        "Text": "#G21# As a anonymoususer, I want to see the schedule, so that I can plan my day and figure out where to go!.",
+        "Persona": [
+            "anonymous user"
+        ],
+        "Benefit": "I can plan my day and figure out where to go",
+        "Action": {
+            "Primary Action": [
+                "see"
+            ],
+            "Secondary Action": [
+                "plan",
+                "figure out"
+            ]
+        },
+        "Entity": {
+            "Primary Entity": [
+                "schedule"
+            ],
+            "Secondary Entity": []
+        },
+        "Triggers": [
+            [
+                "anonymous user",
+                "see"
+            ],
+            [
+                "see",
+                "plan"
+            ],
+            [
+                "plan",
+                "figure out"
+            ]
+        ],
+        "Targets": [
+            [
+                "see",
+                "schedule"
+            ],
+            [
+                "plan",
+                "schedule"
+            ],
+            [
+                "figure out",
+                "schedule"
+            ]
+        ]
+    },
+    {
+        "Text": "#G21# As a anonymoususer, I want to See a list of attendees associated with this company, so that I know who from this sponsor organization is attending.",
+        "Persona": [
+            "anonymoususer"
+        ],
+        "Benefit": "I know who from this sponsor organization is attending",
+        "Action": {
+            "Primary Action": [
+                "See"
+            ],
+            "Secondary Action": []
+        },
+        "Entity": {
+            "Primary Entity": [
+                "list of attendees"
+            ],
+            "Secondary Entity": [
+                "company",
+                "sponsor organization"
+            ]
+        },
+        "Triggers": [
+            [
+                "anonymoususer",
+                "See"
+            ]
+        ],
+        "Targets": [
+            [
+                "See",
+                "list of attendees"
+            ]
+        ]
+    },
+    {
+        "Text": "#G21# As a authenticateduser, I want to submit a session at BADCAMP, so that I can get my session evaluated.",
+        "Persona": [
+            "authenticated user"
+        ],
+        "Benefit": "I can get my session evaluated",
+        "Action": {
+            "Primary Action": [
+                "submit"
+            ],
+            "Secondary Action": [
+                "get evaluated"
+            ]
+        },
+        "Entity": {
+            "Primary Entity": [
+                "session",
+                "BADCAMP"
+            ],
+            "Secondary Entity": [
+                "session evaluation"
+            ]
+        },
+        "Triggers": [
+            [
+                "authenticated user",
+                "submit"
+            ]
+        ],
+        "Targets": [
+            [
+                "submit",
+                "session"
+            ],
+            [
+                "submit",
+                "BADCAMP"
+            ],
+            [
+                "get evaluated",
+                "session evaluation"
+            ]
+        ]
+    },
+    {
+        "Text": "#G21# As a administrator, I want to tag my blog posts for consumption by Drupal Planet, so that they will be listed on the Drupal Planet blog.",
+        "Persona": [
+            "administrator"
+        ],
+        "Benefit": "they will be listed on the Drupal Planet blog",
+        "Action": {
+            "Primary Action": [
+                "tag"
+            ],
+            "Secondary Action": [
+                "listed"
+            ]
+        },
+        "Entity": {
+            "Primary Entity": [
+                "blog posts"
+            ],
+            "Secondary Entity": [
+                "Drupal Planet",
+                "Drupal Planet blog"
+            ]
+        },
+        "Triggers": [
+            [
+                "administrator",
+                "tag"
+            ]
+        ],
+        "Targets": [
+            [
+                "tag",
+                "blog posts"
+            ]
+        ]
+    },
+    {
+        "Text": "#G21# As a anonymoususer, I want to have a link on the home page to a list of training options, so that I can take training.",
+        "Persona": [
+            "anonymoususer"
+        ],
+        "Benefit": "I can take training",
+        "Action": {
+            "Primary Action": [
+                "have",
+                "take"
+            ],
+            "Secondary Action": []
+        },
+        "Entity": {
+            "Primary Entity": [
+                "link",
+                "list of training options"
+            ],
+            "Secondary Entity": [
+                "home page",
+                "training"
+            ]
+        },
+        "Triggers": [
+            [
+                "anonymoususer",
+                "have"
+            ],
+            [
+                "anonymoususer",
+                "take"
+            ]
+        ],
+        "Targets": [
+            [
+                "have",
+                "link"
+            ],
+            [
+                "have",
+                "list of training options"
+            ],
+            [
+                "take",
+                "training"
+            ]
+        ]
+    },
+    {
+        "Text": "#G21# As a anonymoususer, I want to receive a notification when sessions have been evaluated, so that I know whether I've been accepted or rejected.",
+        "Persona": [
+            "anonymoususer"
+        ],
+        "Benefit": "I know whether I've been accepted or rejected",
+        "Action": {
+            "Primary Action": [
+                "receive",
+                "evaluated"
+            ],
+            "Secondary Action": [
+                "accepted",
+                "rejected"
+            ]
+        },
+        "Entity": {
+            "Primary Entity": [
+                "notification",
+                "sessions"
+            ],
+            "Secondary Entity": []
+        },
+        "Triggers": [
+            [
+                "anonymoususer",
+                "receive"
+            ],
+            [
+                "anonymoususer",
+                "evaluated"
+            ]
+        ],
+        "Targets": [
+            [
+                "receive",
+                "notification"
+            ],
+            [
+                "evaluated",
+                "sessions"
+            ]
+        ]
+    },
+    {
+        "Text": "#G21# As a sponsor, I want to post a job, so that I can hire top-tier Drupal talent.",
+        "Persona": [
+            "sponsor"
+        ],
+        "Benefit": "I can hire top-tier Drupal talent",
+        "Action": {
+            "Primary Action": [
+                "post"
+            ],
+            "Secondary Action": [
+                "hire"
+            ]
+        },
+        "Entity": {
+            "Primary Entity": [
+                "job"
+            ],
+            "Secondary Entity": [
+                "top-tier Drupal talent"
+            ]
+        },
+        "Triggers": [
+            [
+                "sponsor",
+                "post"
+            ]
+        ],
+        "Targets": [
+            [
+                "post",
+                "job"
+            ]
+        ]
+    },
+    {
+        "Text": "#G21# As a trainer, I want to have a view that is attached to their training node that shows all attendee information Trainers can see all class attendance at first because there are so little trainers and they are trusted with privacy, so that the training coordinator doesn't have to do all the work to get login info for environment setup.",
+        "Persona": [
+            "trainer",
+            "training coordinator"
+        ],
+        "Benefit": "the training coordinator doesn't have to do all the work to get login info for environment setup",
+        "Action": {
+            "Primary Action": [
+                "have",
+                "shows",
+                "see"
+            ],
+            "Secondary Action": [
+                "do",
+                "get"
+            ]
+        },
+        "Entity": {
+            "Primary Entity": [
+                "view",
+                "training node",
+                "attendee information"
+            ],
+            "Secondary Entity": [
+                "class attendance",
+                "login info",
+                "environment setup"
+            ]
+        },
+        "Triggers": [
+            [
+                "trainer",
+                "have"
+            ],
+            [
+                "trainer",
+                "shows"
+            ],
+            [
+                "trainer",
+                "see"
+            ],
+            [
+                "training coordinator",
+                "do"
+            ],
+            [
+                "training coordinator",
+                "get"
+            ]
+        ],
+        "Targets": [
+            [
+                "have",
+                "view"
+            ],
+            [
+                "have",
+                "training node"
+            ],
+            [
+                "shows",
+                "attendee information"
+            ],
+            [
+                "see",
+                "class attendance"
+            ],
+            [
+                "do",
+                "login info"
+            ],
+            [
+                "get",
+                "environment setup"
+            ]
+        ]
+    },
+    {
+        "Text": "#G21# As a summit coordinator, I want to list an agenda for my summit, so that I can entice attendees and give positive feedback to presenters to encourage participation.",
+        "Persona": [
+            "summit coordinator"
+        ],
+        "Benefit": "I can entice attendees and give positive feedback to presenters to encourage participation",
+        "Action": {
+            "Primary Action": [
+                "list",
+                "entice"
+            ],
+            "Secondary Action": [
+                "give positive feedback",
+                "encourage"
+            ]
+        },
+        "Entity": {
+            "Primary Entity": [
+                "agenda",
+                "summit"
+            ],
+            "Secondary Entity": [
+                "attendees",
+                "presenters",
+                "participation"
+            ]
+        },
+        "Triggers": [
+            [
+                "summit coordinator",
+                "list"
+            ],
+            [
+                "summit coordinator",
+                "entice"
+            ]
+        ],
+        "Targets": [
+            [
+                "list",
+                "agenda"
+            ],
+            [
+                "list",
+                "summit"
+            ],
+            [
+                "entice",
+                "attendees"
+            ],
+            [
+                "give positive feedback",
+                "presenters"
+            ],
+            [
+                "encourage",
+                "participation"
+            ]
+        ]
+    },
+    {
+        "Text": "#G21# As a anonymoususer, I want to fill out a user registration form, so that I can register for the camp and get an account on the website.",
+        "Persona": [
+            "anonymoususer"
+        ],
+        "Benefit": "I can register for the camp and get an account on the website",
+        "Action": {
+            "Primary Action": [
+                "fill out",
+                "register"
+            ],
+            "Secondary Action": [
+                "get"
+            ]
+        },
+        "Entity": {
+            "Primary Entity": [
+                "user registration form",
+                "account"
+            ],
+            "Secondary Entity": [
+                "camp",
+                "website"
+            ]
+        },
+        "Triggers": [
+            [
+                "anonymoususer",
+                "fill out"
+            ],
+            [
+                "anonymoususer",
+                "register"
+            ],
+            [
+                "anonymoususer",
+                "get"
+            ]
+        ],
+        "Targets": [
+            [
+                "fill out",
+                "user registration form"
+            ],
+            [
+                "register",
+                "camp"
+            ],
+            [
+                "register",
+                "account"
+            ],
+            [
+                "get",
+                "account"
+            ],
+            [
+                "get",
+                "website"
+            ]
+        ]
+    },
+    {
+        "Text": "#G21# As a trainingcoordinator, I want to have an admin view that helps track registration status for each attendee so that, so that we can see if attendend, refunded, no show.",
+        "Persona": [
+            "trainingcoordinator"
+        ],
+        "Benefit": "we can see if attendend, refunded, no show",
+        "Action": {
+            "Primary Action": [
+                "have",
+                "track"
+            ],
+            "Secondary Action": [
+                "see"
+            ]
+        },
+        "Entity": {
+            "Primary Entity": [
+                "admin view",
+                "registration status"
+            ],
+            "Secondary Entity": [
+                "attendee",
+                "attendend",
+                "refunded",
+                "no show"
+            ]
+        },
+        "Triggers": [
+            [
+                "trainingcoordinator",
+                "have"
+            ],
+            [
+                "trainingcoordinator",
+                "track"
+            ]
+        ],
+        "Targets": [
+            [
+                "have",
+                "admin view"
+            ],
+            [
+                "track",
+                "registration status"
+            ]
+        ]
+    },
+    {
+        "Text": "#G21# As a anonymoususer, I want to see all events, trainings and summits that a sponsor is sponsoring so that I know where I can engage with this sponsor and where they are thought leaders.",
+        "Persona": [
+            "anonymoususer"
+        ],
+        "Benefit": "I know where I can engage with this sponsor and where they are thought leaders",
+        "Action": {
+            "Primary Action": [
+                "see",
+                "engage"
+            ],
+            "Secondary Action": [
+                "thought leaders"
+            ]
+        },
+        "Entity": {
+            "Primary Entity": [
+                "events",
+                "sponsor"
+            ],
+            "Secondary Entity": [
+                "trainings",
+                "summits"
+            ]
+        },
+        "Triggers": [
+            [
+                "anonymoususer",
+                "see"
+            ],
+            [
+                "anonymoususer",
+                "engage"
+            ]
+        ],
+        "Targets": [
+            [
+                "see",
+                "events"
+            ],
+            [
+                "see",
+                "sponsor"
+            ],
+            [
+                "engage",
+                "sponsor"
+            ]
+        ]
+    },
+    {
+        "Text": "#G21# As a anonymoususer, I want to learn about sponsorship levels, so that I can determine the right level of sponsorship for my organization.",
+        "Persona": [
+            "anonymoususer"
+        ],
+        "Benefit": "I can determine the right level of sponsorship for my organization",
+        "Action": {
+            "Primary Action": [
+                "learn"
+            ],
+            "Secondary Action": [
+                "determine"
+            ]
+        },
+        "Entity": {
+            "Primary Entity": [
+                "sponsorship levels"
+            ],
+            "Secondary Entity": [
+                "my organization"
+            ]
+        },
+        "Triggers": [
+            [
+                "anonymoususer",
+                "learn"
+            ],
+            [
+                "learn",
+                "determine"
+            ]
+        ],
+        "Targets": [
+            [
+                "learn",
+                "sponsorship levels"
+            ],
+            [
+                "determine",
+                "my organization"
+            ]
+        ]
+    },
+    {
+        "Text": "#G21# As a anonymoususer, I want to sign up for the BADCamp newsletter, so that I can stay up to date with the latest communications about BADCamp.",
+        "Persona": [
+            "anonymoususer"
+        ],
+        "Benefit": "I can stay up to date with the latest communications about BADCamp",
+        "Action": {
+            "Primary Action": [
+                "sign up"
+            ],
+            "Secondary Action": [
+                "stay up to date"
+            ]
+        },
+        "Entity": {
+            "Primary Entity": [
+                "BADCamp newsletter"
+            ],
+            "Secondary Entity": [
+                "latest communications",
+                "BADCamp"
+            ]
+        },
+        "Triggers": [
+            [
+                "anonymoususer",
+                "sign up"
+            ]
+        ],
+        "Targets": [
+            [
+                "sign up",
+                "BADCamp newsletter"
+            ]
+        ]
+    },
+    {
+        "Text": "#G21# As a sponsor, I want to personalize my sponsorship page, so that I can promote my brand.",
+        "Persona": [
+            "sponsor"
+        ],
+        "Benefit": "I can promote my brand",
+        "Action": {
+            "Primary Action": [
+                "personalize"
+            ],
+            "Secondary Action": [
+                "promote"
+            ]
+        },
+        "Entity": {
+            "Primary Entity": [
+                "sponsorship page"
+            ],
+            "Secondary Entity": [
+                "brand"
+            ]
+        },
+        "Triggers": [
+            [
+                "sponsor",
+                "personalize"
+            ]
+        ],
+        "Targets": [
+            [
+                "personalize",
+                "sponsorship page"
+            ]
+        ]
+    },
+    {
+        "Text": "#G21# As a anonymoususer, I want to view venue details, so that I can get a sense of the location and see the events happening there.",
+        "Persona": [
+            "anonymous user"
+        ],
+        "Benefit": "I can get a sense of the location and see the events happening there",
+        "Action": {
+            "Primary Action": [
+                "view"
+            ],
+            "Secondary Action": [
+                "get",
+                "see"
+            ]
+        },
+        "Entity": {
+            "Primary Entity": [
+                "venue details"
+            ],
+            "Secondary Entity": [
+                "location",
+                "events"
+            ]
+        },
+        "Triggers": [
+            [
+                "anonymous user",
+                "view"
+            ]
+        ],
+        "Targets": [
+            [
+                "view",
+                "venue details"
+            ]
+        ]
+    },
+    {
+        "Text": "#G21# As a administrator, I want to create and maintain venues, so that I can provide location details to help users find what they're looking for.",
+        "Persona": [
+            "administrator"
+        ],
+        "Benefit": "I can provide location details to help users find what they're looking for",
+        "Action": {
+            "Primary Action": [
+                "create",
+                "maintain"
+            ],
+            "Secondary Action": [
+                "provide",
+                "find"
+            ]
+        },
+        "Entity": {
+            "Primary Entity": [
+                "venues"
+            ],
+            "Secondary Entity": [
+                "location details",
+                "users"
+            ]
+        },
+        "Triggers": [
+            [
+                "administrator",
+                "create"
+            ],
+            [
+                "administrator",
+                "maintain"
+            ]
+        ],
+        "Targets": [
+            [
+                "create",
+                "venues"
+            ],
+            [
+                "maintain",
+                "venues"
+            ],
+            [
+                "provide",
+                "location details"
+            ],
+            [
+                "find",
+                "users"
+            ]
+        ]
+    },
+    {
+        "Text": "#G21# As a anonymoususer, I want to see a list of all the summits that include when they are, so that I can determine which summit I want to attend.",
+        "Persona": [
+            "anonymous user"
+        ],
+        "Benefit": "I can determine which summit I want to attend",
+        "Action": {
+            "Primary Action": [
+                "see",
+                "determine"
+            ],
+            "Secondary Action": []
+        },
+        "Entity": {
+            "Primary Entity": [
+                "list of all the summits",
+                "summit"
+            ],
+            "Secondary Entity": [
+                "when they are"
+            ]
+        },
+        "Triggers": [
+            [
+                "anonymous user",
+                "see"
+            ],
+            [
+                "anonymous user",
+                "determine"
+            ]
+        ],
+        "Targets": [
+            [
+                "see",
+                "list of all the summits"
+            ],
+            [
+                "see",
+                "summit"
+            ],
+            [
+                "determine",
+                "summit"
+            ]
+        ]
+    },
+    {
+        "Text": "#G21# As a authenticateduser, I want to update my user profile, so that I can connect with other Drupalists at BADCamp.",
+        "Persona": [
+            "authenticated user"
+        ],
+        "Benefit": "I can connect with other Drupalists at BADCamp",
+        "Action": {
+            "Primary Action": [
+                "update"
+            ],
+            "Secondary Action": [
+                "connect"
+            ]
+        },
+        "Entity": {
+            "Primary Entity": [
+                "user profile"
+            ],
+            "Secondary Entity": [
+                "other Drupalists",
+                "BADCamp"
+            ]
+        },
+        "Triggers": [
+            [
+                "authenticated user",
+                "update"
+            ],
+            [
+                "update",
+                "connect"
+            ]
+        ],
+        "Targets": [
+            [
+                "update",
+                "user profile"
+            ],
+            [
+                "connect",
+                "other Drupalists"
+            ],
+            [
+                "connect",
+                "BADCamp"
+            ]
+        ]
+    },
+    {
+        "Text": "#G21# As a authenticateduser, I want to use a WYSIWYG editor for all long-form content, so that I don't have to know HTML to update my content.",
+        "Persona": [
+            "authenticated user"
+        ],
+        "Benefit": "I don't have to know HTML to update my content",
+        "Action": {
+            "Primary Action": [
+                "use"
+            ],
+            "Secondary Action": [
+                "update"
+            ]
+        },
+        "Entity": {
+            "Primary Entity": [
+                "WYSIWYG editor",
+                "long-form content"
+            ],
+            "Secondary Entity": [
+                "HTML",
+                "my content"
+            ]
+        },
+        "Triggers": [
+            [
+                "authenticated user",
+                "use"
+            ],
+            [
+                "authenticated user",
+                "update"
+            ]
+        ],
+        "Targets": [
+            [
+                "use",
+                "WYSIWYG editor"
+            ],
+            [
+                "use",
+                "long-form content"
+            ],
+            [
+                "update",
+                "my content"
+            ]
+        ]
+    },
+    {
+        "Text": "#G21# As a administrator, I want to assign sponsors to events, trainings and summits so that They will be featured on the sponsor detail page.",
+        "Persona": [
+            "administrator"
+        ],
+        "Benefit": "They will be featured on the sponsor detail page",
+        "Action": {
+            "Primary Action": [
+                "assign"
+            ],
+            "Secondary Action": []
+        },
+        "Entity": {
+            "Primary Entity": [
+                "sponsors",
+                "events",
+                "trainings",
+                "summits"
+            ],
+            "Secondary Entity": [
+                "sponsor detail page"
+            ]
+        },
+        "Triggers": [
+            [
+                "administrator",
+                "assign"
+            ]
+        ],
+        "Targets": [
+            [
+                "assign",
+                "sponsors"
+            ],
+            [
+                "assign",
+                "events"
+            ],
+            [
+                "assign",
+                "trainings"
+            ],
+            [
+                "assign",
+                "summits"
+            ]
+        ]
+    },
+    {
+        "Text": "#G21# As a trainee, I want to limit to one registration per day per authenticated user, so that we don't have duplicate spaces.",
+        "Persona": [
+            "trainee"
+        ],
+        "Benefit": "we don't have duplicate spaces",
+        "Action": {
+            "Primary Action": [
+                "limit"
+            ],
+            "Secondary Action": []
+        },
+        "Entity": {
+            "Primary Entity": [
+                "registration",
+                "authenticated user"
+            ],
+            "Secondary Entity": [
+                "duplicate spaces"
+            ]
+        },
+        "Triggers": [
+            [
+                "trainee",
+                "limit"
+            ]
+        ],
+        "Targets": [
+            [
+                "limit",
+                "registration"
+            ],
+            [
+                "limit",
+                "authenticated user"
+            ]
+        ]
+    },
+    {
+        "Text": "#G21# As a anonymoususer, I want to find session information, so that I can go to a session.",
+        "Persona": [
+            "anonymous user"
+        ],
+        "Benefit": "I can go to a session",
+        "Action": {
+            "Primary Action": [
+                "find"
+            ],
+            "Secondary Action": [
+                "go"
+            ]
+        },
+        "Entity": {
+            "Primary Entity": [
+                "session information"
+            ],
+            "Secondary Entity": [
+                "session"
+            ]
+        },
+        "Triggers": [
+            [
+                "anonymous user",
+                "find"
+            ]
+        ],
+        "Targets": [
+            [
+                "find",
+                "session information"
+            ]
+        ]
+    },
+    {
+        "Text": "#G21# As a anonymoususer, I want to see how many seats are left for the summit, so that I can make sure to register in-time to reserve my spot.",
+        "Persona": [
+            "anonymoususer"
+        ],
+        "Benefit": "I can make sure to register in-time to reserve my spot",
+        "Action": {
+            "Primary Action": [
+                "see",
+                "reserve"
+            ],
+            "Secondary Action": [
+                "make sure"
+            ]
+        },
+        "Entity": {
+            "Primary Entity": [
+                "seats",
+                "summit"
+            ],
+            "Secondary Entity": [
+                "register",
+                "spot"
+            ]
+        },
+        "Triggers": [
+            [
+                "anonymoususer",
+                "see"
+            ],
+            [
+                "anonymoususer",
+                "reserve"
+            ]
+        ],
+        "Targets": [
+            [
+                "see",
+                "seats"
+            ],
+            [
+                "see",
+                "summit"
+            ],
+            [
+                "reserve",
+                "spot"
+            ]
+        ]
+    },
+    {
+        "Text": "#G21# As a trainee, I want to see which trainings I have signed up for, so that they can schedule their event experience.",
+        "Persona": [
+            "trainee"
+        ],
+        "Benefit": "they can schedule their event experience",
+        "Action": {
+            "Primary Action": [
+                "see",
+                "signed up"
+            ],
+            "Secondary Action": [
+                "schedule"
+            ]
+        },
+        "Entity": {
+            "Primary Entity": [
+                "trainings"
+            ],
+            "Secondary Entity": [
+                "event experience"
+            ]
+        },
+        "Triggers": [
+            [
+                "trainee",
+                "see"
+            ],
+            [
+                "trainee",
+                "signed up"
+            ]
+        ],
+        "Targets": [
+            [
+                "see",
+                "trainings"
+            ],
+            [
+                "signed up",
+                "trainings"
+            ],
+            [
+                "schedule",
+                "event experience"
+            ]
+        ]
+    },
+    {
+        "Text": "#G21# As a authenticateduser, I want to view the job board, so that I can look for an interesting Drupal gig!.",
+        "Persona": [
+            "authenticated user"
+        ],
+        "Benefit": "I can look for an interesting Drupal gig",
+        "Action": {
+            "Primary Action": [
+                "view"
+            ],
+            "Secondary Action": [
+                "look for"
+            ]
+        },
+        "Entity": {
+            "Primary Entity": [
+                "job board"
+            ],
+            "Secondary Entity": [
+                "Drupal gig"
+            ]
+        },
+        "Triggers": [
+            [
+                "authenticated user",
+                "view"
+            ],
+            [
+                "view",
+                "look for"
+            ]
+        ],
+        "Targets": [
+            [
+                "view",
+                "job board"
+            ],
+            [
+                "look for",
+                "Drupal gig"
+            ]
+        ]
+    }
+]
