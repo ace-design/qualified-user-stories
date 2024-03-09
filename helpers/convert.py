@@ -65,6 +65,7 @@ def extractData(folderPath):
             extractedData["Persona"] = data["extraction"]["personas"]
             extractedData["Benefit"] = data["extraction"]["benefit"]
         else:
+            print('ERROR ' + json.dumps(data) + '\n' )
             extractedData["Persona"] = []
             extractedData["Benefit"] = ""
         extractedData["Action"] = {} 
@@ -76,16 +77,17 @@ def extractData(folderPath):
         
         extractedData["Triggers"] = []
         extractedData["Targets"] = []
-        for relationInfo in data["relations"]["relations"]:
-            if "kind" in relationInfo:
-                relationType = relationInfo["kind"]
-                relationStart = relationInfo["from"]
-                relationEnd = relationInfo["to"]
-                relation = [relationStart, relationEnd]
-                if relationType == "triggers":
-                    extractedData["Triggers"].append(relation)
-                elif relationType == "targets":
-                    extractedData["Targets"].append(relation)
+        if data["relations"] != None:
+            for relationInfo in data["relations"]["relations"]:
+                if "kind" in relationInfo:
+                    relationType = relationInfo["kind"]
+                    relationStart = relationInfo["from"]
+                    relationEnd = relationInfo["to"]
+                    relation = [relationStart, relationEnd]
+                    if relationType == "triggers":
+                        extractedData["Triggers"].append(relation)
+                    elif relationType == "targets":
+                        extractedData["Targets"].append(relation)
 
         dataset.append(extractedData)
 

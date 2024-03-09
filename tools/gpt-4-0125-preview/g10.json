@@ -1,0 +1,3889 @@
+[
+    {
+        "Text": "#G10# As a CST, I want to pay an annual fee, so that my CST status is active.",
+        "Persona": [
+            "CST"
+        ],
+        "Benefit": "my CST status is active",
+        "Action": {
+            "Primary Action": [
+                "pay"
+            ],
+            "Secondary Action": []
+        },
+        "Entity": {
+            "Primary Entity": [
+                "annual fee"
+            ],
+            "Secondary Entity": [
+                "CST status"
+            ]
+        },
+        "Triggers": [
+            [
+                "CST",
+                "pay"
+            ]
+        ],
+        "Targets": [
+            [
+                "pay",
+                "annual fee"
+            ]
+        ]
+    },
+    {
+        "Text": "#G10# As a site admin, I want to view all classes in a pending state, so that I can approve any that need to be approved.",
+        "Persona": [
+            "site admin"
+        ],
+        "Benefit": "I can approve any that need to be approved",
+        "Action": {
+            "Primary Action": [
+                "view",
+                "approve"
+            ],
+            "Secondary Action": []
+        },
+        "Entity": {
+            "Primary Entity": [
+                "classes in a pending state"
+            ],
+            "Secondary Entity": []
+        },
+        "Triggers": [
+            [
+                "site admin",
+                "view"
+            ],
+            [
+                "site admin",
+                "approve"
+            ]
+        ],
+        "Targets": [
+            [
+                "view",
+                "classes in a pending state"
+            ],
+            [
+                "approve",
+                "classes in a pending state"
+            ]
+        ]
+    },
+    {
+        "Text": "#G10# As a site admin, I want to edit and delete help wanted ads, so that I can correct small problems or make sure each ad complies with site guidelines.",
+        "Persona": [
+            "site admin"
+        ],
+        "Benefit": "I can correct small problems or make sure each ad complies with site guidelines",
+        "Action": {
+            "Primary Action": [
+                "edit",
+                "delete"
+            ],
+            "Secondary Action": []
+        },
+        "Entity": {
+            "Primary Entity": [
+                "help wanted ads"
+            ],
+            "Secondary Entity": []
+        },
+        "Triggers": [
+            [
+                "site admin",
+                "edit"
+            ],
+            [
+                "site admin",
+                "delete"
+            ]
+        ],
+        "Targets": [
+            [
+                "edit",
+                "help wanted ads"
+            ],
+            [
+                "delete",
+                "help wanted ads"
+            ]
+        ]
+    },
+    {
+        "Text": "#G10# As a site member, I want to mark my profile as private in which case only my name will appear, so that no one can learn things about me I don't want shared.",
+        "Persona": [
+            "site member"
+        ],
+        "Benefit": "no one can learn things about me I don't want shared",
+        "Action": {
+            "Primary Action": [
+                "mark"
+            ],
+            "Secondary Action": [
+                "appear"
+            ]
+        },
+        "Entity": {
+            "Primary Entity": [
+                "profile"
+            ],
+            "Secondary Entity": [
+                "name"
+            ]
+        },
+        "Triggers": [
+            [
+                "site member",
+                "mark"
+            ]
+        ],
+        "Targets": [
+            [
+                "mark",
+                "profile"
+            ],
+            [
+                "appear",
+                "name"
+            ]
+        ]
+    },
+    {
+        "Text": "#G10# As a site visitor, I want to read a new article on the front page about once a week, so that I am up on all the latest happenings.",
+        "Persona": [
+            "site visitor"
+        ],
+        "Benefit": "I am up on all the latest happenings",
+        "Action": {
+            "Primary Action": [
+                "read"
+            ],
+            "Secondary Action": []
+        },
+        "Entity": {
+            "Primary Entity": [
+                "new article",
+                "front page"
+            ],
+            "Secondary Entity": []
+        },
+        "Triggers": [
+            [
+                "site visitor",
+                "read"
+            ]
+        ],
+        "Targets": [
+            [
+                "read",
+                "new article"
+            ],
+            [
+                "read",
+                "front page"
+            ]
+        ]
+    },
+    {
+        "Text": "#G10# As a site administrator, I want to create an Other Course or Event that is not charged a listing fee, so that the Scrum Alliance doesn't charge itself for Scrum Gatherings that it puts on.",
+        "Persona": [
+            "site administrator"
+        ],
+        "Benefit": "the Scrum Alliance doesn't charge itself for Scrum Gatherings that it puts on",
+        "Action": {
+            "Primary Action": [
+                "create"
+            ],
+            "Secondary Action": []
+        },
+        "Entity": {
+            "Primary Entity": [
+                "Other Course or Event",
+                "listing fee"
+            ],
+            "Secondary Entity": [
+                "Scrum Alliance",
+                "Scrum Gatherings"
+            ]
+        },
+        "Triggers": [
+            [
+                "site administrator",
+                "create"
+            ]
+        ],
+        "Targets": [
+            [
+                "create",
+                "Other Course or Event"
+            ],
+            [
+                "create",
+                "listing fee"
+            ]
+        ]
+    },
+    {
+        "Text": "#G10# As a site visitor, I want to know as I glance around the home page what on earth a CSM is and why I'd want to be one, so that I read more.",
+        "Persona": [
+            "site visitor"
+        ],
+        "Benefit": "I read more",
+        "Action": {
+            "Primary Action": [
+                "know",
+                "glance around"
+            ],
+            "Secondary Action": [
+                "read"
+            ]
+        },
+        "Entity": {
+            "Primary Entity": [
+                "home page",
+                "CSM"
+            ],
+            "Secondary Entity": []
+        },
+        "Triggers": [
+            [
+                "site visitor",
+                "know"
+            ],
+            [
+                "site visitor",
+                "glance around"
+            ]
+        ],
+        "Targets": [
+            [
+                "know",
+                "home page"
+            ],
+            [
+                "know",
+                "CSM"
+            ],
+            [
+                "glance around",
+                "home page"
+            ]
+        ]
+    },
+    {
+        "Text": "#G10# As a Practitioner, I want to include additional details about me in my profile page, so that I can showcase my experience.",
+        "Persona": [
+            "Practitioner"
+        ],
+        "Benefit": "I can showcase my experience",
+        "Action": {
+            "Primary Action": [
+                "include"
+            ],
+            "Secondary Action": []
+        },
+        "Entity": {
+            "Primary Entity": [
+                "profile page"
+            ],
+            "Secondary Entity": [
+                "additional details"
+            ]
+        },
+        "Triggers": [
+            [
+                "Practitioner",
+                "include"
+            ]
+        ],
+        "Targets": [
+            [
+                "include",
+                "profile page"
+            ]
+        ]
+    },
+    {
+        "Text": "#G10# As a company, I want to join the Scrum Alliance by paying a corporate membership fee, so that I can show the company's support of Scrum.",
+        "Persona": [
+            "company"
+        ],
+        "Benefit": "I can show the company's support of Scrum",
+        "Action": {
+            "Primary Action": [
+                "join",
+                "paying"
+            ],
+            "Secondary Action": []
+        },
+        "Entity": {
+            "Primary Entity": [
+                "Scrum Alliance",
+                "corporate membership fee"
+            ],
+            "Secondary Entity": []
+        },
+        "Triggers": [
+            [
+                "company",
+                "join"
+            ],
+            [
+                "company",
+                "paying"
+            ]
+        ],
+        "Targets": [
+            [
+                "join",
+                "Scrum Alliance"
+            ],
+            [
+                "paying",
+                "corporate membership fee"
+            ]
+        ]
+    },
+    {
+        "Text": "#G10# As a trainer, I want to see the upcoming courses are what I want visitors to notice, so that they register and there's a benefit to my membership.",
+        "Persona": [
+            "trainer"
+        ],
+        "Benefit": "there's a benefit to my membership",
+        "Action": {
+            "Primary Action": [
+                "see",
+                "register"
+            ],
+            "Secondary Action": []
+        },
+        "Entity": {
+            "Primary Entity": [
+                "upcoming courses"
+            ],
+            "Secondary Entity": [
+                "visitors",
+                "membership"
+            ]
+        },
+        "Triggers": [
+            [
+                "trainer",
+                "see"
+            ],
+            [
+                "trainer",
+                "register"
+            ]
+        ],
+        "Targets": [
+            [
+                "see",
+                "upcoming courses"
+            ],
+            [
+                "register",
+                "visitors"
+            ]
+        ]
+    },
+    {
+        "Text": "#G10# As a trainer, I want to copy one of my courses or events, so that I can create a new one.",
+        "Persona": [
+            "trainer"
+        ],
+        "Benefit": "I can create a new one",
+        "Action": {
+            "Primary Action": [
+                "copy",
+                "create"
+            ],
+            "Secondary Action": []
+        },
+        "Entity": {
+            "Primary Entity": [
+                "courses",
+                "events"
+            ],
+            "Secondary Entity": []
+        },
+        "Triggers": [
+            [
+                "trainer",
+                "copy"
+            ],
+            [
+                "trainer",
+                "create"
+            ]
+        ],
+        "Targets": [
+            [
+                "copy",
+                "courses"
+            ],
+            [
+                "copy",
+                "events"
+            ]
+        ]
+    },
+    {
+        "Text": "#G10# As a site admin, I want to delete any course or event, so that I can remove things that will no longer occur.",
+        "Persona": [
+            "site admin"
+        ],
+        "Benefit": "I can remove things that will no longer occur",
+        "Action": {
+            "Primary Action": [
+                "delete"
+            ],
+            "Secondary Action": [
+                "remove"
+            ]
+        },
+        "Entity": {
+            "Primary Entity": [
+                "course",
+                "event"
+            ],
+            "Secondary Entity": []
+        },
+        "Triggers": [
+            [
+                "site admin",
+                "delete"
+            ]
+        ],
+        "Targets": [
+            [
+                "delete",
+                "course"
+            ],
+            [
+                "delete",
+                "event"
+            ]
+        ]
+    },
+    {
+        "Text": "#G10# As a corporatesponsor, I want to display my logo on a corporate sponsors page, so that others see the company's support of Scrum.",
+        "Persona": [
+            "corporate sponsor"
+        ],
+        "Benefit": "others see the company's support of Scrum",
+        "Action": {
+            "Primary Action": [
+                "display"
+            ],
+            "Secondary Action": []
+        },
+        "Entity": {
+            "Primary Entity": [
+                "logo",
+                "corporate sponsors page"
+            ],
+            "Secondary Entity": []
+        },
+        "Triggers": [
+            [
+                "corporate sponsor",
+                "display"
+            ]
+        ],
+        "Targets": [
+            [
+                "display",
+                "logo"
+            ],
+            [
+                "display",
+                "corporate sponsors page"
+            ]
+        ]
+    },
+    {
+        "Text": "#G10# As a site editor, I want to have some flexibility as to where things appear, so that I can accommodate different types of content.",
+        "Persona": [
+            "site editor"
+        ],
+        "Benefit": "I can accommodate different types of content",
+        "Action": {
+            "Primary Action": [
+                "have some flexibility"
+            ],
+            "Secondary Action": [
+                "accommodate"
+            ]
+        },
+        "Entity": {
+            "Primary Entity": [
+                "things"
+            ],
+            "Secondary Entity": [
+                "types of content"
+            ]
+        },
+        "Triggers": [
+            [
+                "site editor",
+                "have some flexibility"
+            ],
+            [
+                "site editor",
+                "accommodate"
+            ]
+        ],
+        "Targets": [
+            [
+                "have some flexibility",
+                "things"
+            ],
+            [
+                "accommodate",
+                "types of content"
+            ]
+        ]
+    },
+    {
+        "Text": "#G10# As a site visitor, I want to know as soon as I visit what on earth Scrum is and why it needs an alliance, so that I don't bounce immediately oﬀ the page.",
+        "Persona": [
+            "site visitor"
+        ],
+        "Benefit": "I don't bounce immediately off the page",
+        "Action": {
+            "Primary Action": [
+                "know",
+                "visit"
+            ],
+            "Secondary Action": [
+                "bounce off"
+            ]
+        },
+        "Entity": {
+            "Primary Entity": [
+                "Scrum",
+                "alliance"
+            ],
+            "Secondary Entity": []
+        },
+        "Triggers": [
+            [
+                "site visitor",
+                "know"
+            ],
+            [
+                "site visitor",
+                "visit"
+            ]
+        ],
+        "Targets": [
+            [
+                "know",
+                "Scrum"
+            ],
+            [
+                "know",
+                "alliance"
+            ],
+            [
+                "visit",
+                "Scrum"
+            ],
+            [
+                "visit",
+                "alliance"
+            ]
+        ]
+    },
+    {
+        "Text": "#G10# As a site member, I want to fill out an application to become a Certified Scrum Practitioner, so that I can earn that designation.",
+        "Persona": [
+            "site member"
+        ],
+        "Benefit": "I can earn that designation",
+        "Action": {
+            "Primary Action": [
+                "fill out"
+            ],
+            "Secondary Action": []
+        },
+        "Entity": {
+            "Primary Entity": [
+                "application",
+                "Certified Scrum Practitioner"
+            ],
+            "Secondary Entity": []
+        },
+        "Triggers": [
+            [
+                "site member",
+                "fill out"
+            ]
+        ],
+        "Targets": [
+            [
+                "fill out",
+                "application"
+            ]
+        ]
+    },
+    {
+        "Text": "#G10# As a site administrator, I want to set the listing fee per Other Course or Event, so that we have flexibility on what to charge in the future.",
+        "Persona": [
+            "site administrator"
+        ],
+        "Benefit": "we have flexibility on what to charge in the future",
+        "Action": {
+            "Primary Action": [
+                "set"
+            ],
+            "Secondary Action": []
+        },
+        "Entity": {
+            "Primary Entity": [
+                "listing fee",
+                "Other Course",
+                "Event"
+            ],
+            "Secondary Entity": []
+        },
+        "Triggers": [
+            [
+                "site administrator",
+                "set"
+            ]
+        ],
+        "Targets": [
+            [
+                "set",
+                "listing fee"
+            ],
+            [
+                "set",
+                "Other Course"
+            ],
+            [
+                "set",
+                "Event"
+            ]
+        ]
+    },
+    {
+        "Text": "#G10# As an advertiser, I want to be emailed a reminder seven day before an ad is about to expire, so that I can go extend the ad.",
+        "Persona": [
+            "advertiser"
+        ],
+        "Benefit": "I can go extend the ad",
+        "Action": {
+            "Primary Action": [
+                "be emailed",
+                "extend"
+            ],
+            "Secondary Action": []
+        },
+        "Entity": {
+            "Primary Entity": [
+                "email",
+                "reminder",
+                "ad"
+            ],
+            "Secondary Entity": []
+        },
+        "Triggers": [
+            [
+                "advertiser",
+                "be emailed"
+            ],
+            [
+                "advertiser",
+                "extend"
+            ]
+        ],
+        "Targets": [
+            [
+                "be emailed",
+                "email"
+            ],
+            [
+                "be emailed",
+                "reminder"
+            ],
+            [
+                "be emailed",
+                "ad"
+            ],
+            [
+                "extend",
+                "ad"
+            ]
+        ]
+    },
+    {
+        "Text": "#G10# As a site member, I want to mark my email address as private even if the rest of my profile is not, so that no one can contact me.",
+        "Persona": [
+            "site member"
+        ],
+        "Benefit": "no one can contact me",
+        "Action": {
+            "Primary Action": [
+                "mark"
+            ],
+            "Secondary Action": []
+        },
+        "Entity": {
+            "Primary Entity": [
+                "email address"
+            ],
+            "Secondary Entity": [
+                "profile"
+            ]
+        },
+        "Triggers": [
+            [
+                "site member",
+                "mark"
+            ]
+        ],
+        "Targets": [
+            [
+                "mark",
+                "email address"
+            ]
+        ]
+    },
+    {
+        "Text": "#G10# As a site member, I want to subscribe to an RSS feed of jobs available, so that I can read them without visiting the site.",
+        "Persona": [
+            "site member"
+        ],
+        "Benefit": "I can read them without visiting the site",
+        "Action": {
+            "Primary Action": [
+                "subscribe"
+            ],
+            "Secondary Action": [
+                "read"
+            ]
+        },
+        "Entity": {
+            "Primary Entity": [
+                "RSS feed of jobs available"
+            ],
+            "Secondary Entity": []
+        },
+        "Triggers": [
+            [
+                "site member",
+                "subscribe"
+            ],
+            [
+                "site member",
+                "read"
+            ]
+        ],
+        "Targets": [
+            [
+                "subscribe",
+                "RSS feed of jobs available"
+            ]
+        ]
+    },
+    {
+        "Text": "#G10# As a site admin, I want to move people in a trainer's class from a pending state to the registry once I have received proof of payment from the trainer.",
+        "Persona": [
+            "site admin"
+        ],
+        "Benefit": "I want to move people in a trainer's class from a pending state to the registry once I have received proof of payment from the trainer",
+        "Action": {
+            "Primary Action": [
+                "move",
+                "received"
+            ],
+            "Secondary Action": []
+        },
+        "Entity": {
+            "Primary Entity": [
+                "people",
+                "trainer's class",
+                "registry"
+            ],
+            "Secondary Entity": [
+                "pending state",
+                "proof of payment",
+                "trainer"
+            ]
+        },
+        "Triggers": [
+            [
+                "site admin",
+                "move"
+            ],
+            [
+                "site admin",
+                "received"
+            ]
+        ],
+        "Targets": [
+            [
+                "move",
+                "people"
+            ],
+            [
+                "move",
+                "trainer's class"
+            ],
+            [
+                "move",
+                "registry"
+            ],
+            [
+                "received",
+                "proof of payment"
+            ],
+            [
+                "received",
+                "trainer"
+            ]
+        ]
+    },
+    {
+        "Text": "#G10# As a site administrator, I want to set the annual fees for members, Practitioners and Trainers, so that fees can be set without involving a programmer.",
+        "Persona": [
+            "site administrator"
+        ],
+        "Benefit": "fees can be set without involving a programmer",
+        "Action": {
+            "Primary Action": [
+                "set"
+            ],
+            "Secondary Action": []
+        },
+        "Entity": {
+            "Primary Entity": [
+                "annual fees"
+            ],
+            "Secondary Entity": [
+                "members",
+                "Practitioners",
+                "Trainers"
+            ]
+        },
+        "Triggers": [
+            [
+                "site administrator",
+                "set"
+            ]
+        ],
+        "Targets": [
+            [
+                "set",
+                "annual fees"
+            ]
+        ]
+    },
+    {
+        "Text": "#G10# As a site editor, I want to assign priority numbers to news items, so that I can indicate which articles I want featured most prominently on the site.",
+        "Persona": [
+            "site editor"
+        ],
+        "Benefit": "I can indicate which articles I want featured most prominently on the site",
+        "Action": {
+            "Primary Action": [
+                "assign",
+                "indicate"
+            ],
+            "Secondary Action": []
+        },
+        "Entity": {
+            "Primary Entity": [
+                "priority numbers",
+                "news items",
+                "site"
+            ],
+            "Secondary Entity": [
+                "articles"
+            ]
+        },
+        "Triggers": [
+            [
+                "site editor",
+                "assign"
+            ],
+            [
+                "site editor",
+                "indicate"
+            ]
+        ],
+        "Targets": [
+            [
+                "assign",
+                "priority numbers"
+            ],
+            [
+                "assign",
+                "news items"
+            ],
+            [
+                "indicate",
+                "articles"
+            ],
+            [
+                "indicate",
+                "site"
+            ]
+        ]
+    },
+    {
+        "Text": "#G10# As a Trainer, I want to include additional details in my profile page about me, so that others can learn about me and decide if I am the right trainer for them.",
+        "Persona": [
+            "Trainer"
+        ],
+        "Benefit": "others can learn about me and decide if I am the right trainer for them",
+        "Action": {
+            "Primary Action": [
+                "include"
+            ],
+            "Secondary Action": []
+        },
+        "Entity": {
+            "Primary Entity": [
+                "profile page"
+            ],
+            "Secondary Entity": [
+                "additional details"
+            ]
+        },
+        "Triggers": [
+            [
+                "Trainer",
+                "include"
+            ]
+        ],
+        "Targets": [
+            [
+                "include",
+                "profile page"
+            ]
+        ]
+    },
+    {
+        "Text": "#G10# As a site visitor, I want to see a trainer's rating, so that I choose a course from an appropriate trainer.",
+        "Persona": [
+            "site visitor"
+        ],
+        "Benefit": "I choose a course from an appropriate trainer",
+        "Action": {
+            "Primary Action": [
+                "see",
+                "choose"
+            ],
+            "Secondary Action": []
+        },
+        "Entity": {
+            "Primary Entity": [
+                "trainer's rating",
+                "course"
+            ],
+            "Secondary Entity": [
+                "trainer"
+            ]
+        },
+        "Triggers": [
+            [
+                "site visitor",
+                "see"
+            ],
+            [
+                "site visitor",
+                "choose"
+            ]
+        ],
+        "Targets": [
+            [
+                "see",
+                "trainer's rating"
+            ],
+            [
+                "choose",
+                "course"
+            ]
+        ]
+    },
+    {
+        "Text": "#G10# As a site member, I want to have full access to all articles, so that there is a benefit to being a member.",
+        "Persona": [
+            "site member"
+        ],
+        "Benefit": "there is a benefit to being a member",
+        "Action": {
+            "Primary Action": [
+                "have"
+            ],
+            "Secondary Action": []
+        },
+        "Entity": {
+            "Primary Entity": [
+                "full access",
+                "all articles"
+            ],
+            "Secondary Entity": []
+        },
+        "Triggers": [
+            [
+                "site member",
+                "have"
+            ]
+        ],
+        "Targets": [
+            [
+                "have",
+                "full access"
+            ],
+            [
+                "have",
+                "all articles"
+            ]
+        ]
+    },
+    {
+        "Text": "#G10# As a site visitor, I want to subscribe to an RSS feed of upcoming courses and events, so that I am up to day without having to visit the site.",
+        "Persona": [
+            "site visitor"
+        ],
+        "Benefit": "I am up to day without having to visit the site",
+        "Action": {
+            "Primary Action": [
+                "subscribe"
+            ],
+            "Secondary Action": []
+        },
+        "Entity": {
+            "Primary Entity": [
+                "RSS feed",
+                "upcoming courses",
+                "events"
+            ],
+            "Secondary Entity": []
+        },
+        "Triggers": [
+            [
+                "site visitor",
+                "subscribe"
+            ]
+        ],
+        "Targets": [
+            [
+                "subscribe",
+                "RSS feed"
+            ],
+            [
+                "subscribe",
+                "upcoming courses"
+            ],
+            [
+                "subscribe",
+                "events"
+            ]
+        ]
+    },
+    {
+        "Text": "#G10# As a member, I want to receive a reminder and a link, so that I can renew my membership.",
+        "Persona": [
+            "member"
+        ],
+        "Benefit": "I can renew my membership",
+        "Action": {
+            "Primary Action": [
+                "receive",
+                "renew"
+            ],
+            "Secondary Action": []
+        },
+        "Entity": {
+            "Primary Entity": [
+                "reminder",
+                "link",
+                "membership"
+            ],
+            "Secondary Entity": []
+        },
+        "Triggers": [
+            [
+                "member",
+                "receive"
+            ],
+            [
+                "member",
+                "renew"
+            ]
+        ],
+        "Targets": [
+            [
+                "receive",
+                "reminder"
+            ],
+            [
+                "receive",
+                "link"
+            ],
+            [
+                "renew",
+                "membership"
+            ]
+        ]
+    },
+    {
+        "Text": "#G10# As a site member, I want to search for profiles based on a few fields, so that I can find others I might want to connect with.",
+        "Persona": [
+            "site member"
+        ],
+        "Benefit": "I can find others I might want to connect with",
+        "Action": {
+            "Primary Action": [
+                "search"
+            ],
+            "Secondary Action": [
+                "find",
+                "connect"
+            ]
+        },
+        "Entity": {
+            "Primary Entity": [
+                "profiles",
+                "fields"
+            ],
+            "Secondary Entity": []
+        },
+        "Triggers": [
+            [
+                "site member",
+                "search"
+            ]
+        ],
+        "Targets": [
+            [
+                "search",
+                "profiles"
+            ],
+            [
+                "search",
+                "fields"
+            ]
+        ]
+    },
+    {
+        "Text": "#G10# As a CSM, I want to have my name listed in the registry without becoming a member of the site, so that employers or others can verify my certification.",
+        "Persona": [
+            "CSM"
+        ],
+        "Benefit": "employers or others can verify my certification",
+        "Action": {
+            "Primary Action": [
+                "have listed",
+                "verify"
+            ],
+            "Secondary Action": [
+                "becoming"
+            ]
+        },
+        "Entity": {
+            "Primary Entity": [
+                "name",
+                "registry",
+                "certification"
+            ],
+            "Secondary Entity": [
+                "member of the site"
+            ]
+        },
+        "Triggers": [
+            [
+                "CSM",
+                "have listed"
+            ],
+            [
+                "CSM",
+                "verify"
+            ]
+        ],
+        "Targets": [
+            [
+                "have listed",
+                "name"
+            ],
+            [
+                "have listed",
+                "registry"
+            ],
+            [
+                "verify",
+                "certification"
+            ]
+        ]
+    },
+    {
+        "Text": "#G10# As a visitor, I want to download presentations, PDFs, etc. on Scrum, so that I can learn from them or use them.",
+        "Persona": [
+            "visitor"
+        ],
+        "Benefit": "I can learn from them or use them",
+        "Action": {
+            "Primary Action": [
+                "download"
+            ],
+            "Secondary Action": []
+        },
+        "Entity": {
+            "Primary Entity": [
+                "presentations",
+                "PDFs"
+            ],
+            "Secondary Entity": [
+                "Scrum"
+            ]
+        },
+        "Triggers": [
+            [
+                "visitor",
+                "download"
+            ]
+        ],
+        "Targets": [
+            [
+                "download",
+                "presentations"
+            ],
+            [
+                "download",
+                "PDFs"
+            ]
+        ]
+    },
+    {
+        "Text": "#G10# As a site visitor, I want to access old news that is no longer on the home page, so that I can access things I remember from the past or that others mention to me.",
+        "Persona": [
+            "site visitor"
+        ],
+        "Benefit": "I can access things I remember from the past or that others mention to me",
+        "Action": {
+            "Primary Action": [
+                "access"
+            ],
+            "Secondary Action": []
+        },
+        "Entity": {
+            "Primary Entity": [
+                "old news",
+                "home page"
+            ],
+            "Secondary Entity": []
+        },
+        "Triggers": [
+            [
+                "site visitor",
+                "access"
+            ]
+        ],
+        "Targets": [
+            [
+                "access",
+                "old news"
+            ],
+            [
+                "access",
+                "home page"
+            ]
+        ]
+    },
+    {
+        "Text": "#G10# As the site editor, I want to have pretty good control over how the article, so that articles are visually appealing.",
+        "Persona": [
+            "site editor"
+        ],
+        "Benefit": "articles are visually appealing",
+        "Action": {
+            "Primary Action": [
+                "have",
+                "control over"
+            ],
+            "Secondary Action": []
+        },
+        "Entity": {
+            "Primary Entity": [
+                "article"
+            ],
+            "Secondary Entity": []
+        },
+        "Triggers": [
+            [
+                "site editor",
+                "have"
+            ],
+            [
+                "site editor",
+                "control over"
+            ]
+        ],
+        "Targets": [
+            [
+                "have",
+                "article"
+            ],
+            [
+                "control over",
+                "article"
+            ]
+        ]
+    },
+    {
+        "Text": "#G10# As a site editor, I want to be able to designate whether or not an ever makes the home page, so that the best content is featured most prominently.",
+        "Persona": [
+            "site editor"
+        ],
+        "Benefit": "the best content is featured most prominently",
+        "Action": {
+            "Primary Action": [
+                "designate"
+            ],
+            "Secondary Action": [
+                "featured"
+            ]
+        },
+        "Entity": {
+            "Primary Entity": [
+                "home page"
+            ],
+            "Secondary Entity": [
+                "best content"
+            ]
+        },
+        "Triggers": [
+            [
+                "site editor",
+                "designate"
+            ]
+        ],
+        "Targets": [
+            [
+                "designate",
+                "home page"
+            ],
+            [
+                "featured",
+                "best content"
+            ]
+        ]
+    },
+    {
+        "Text": "#G10# As a site visitor, I want to email news items to the editor, so that they can be considered for publication.",
+        "Persona": [
+            "site visitor"
+        ],
+        "Benefit": "they can be considered for publication",
+        "Action": {
+            "Primary Action": [
+                "email"
+            ],
+            "Secondary Action": []
+        },
+        "Entity": {
+            "Primary Entity": [
+                "news items",
+                "editor"
+            ],
+            "Secondary Entity": []
+        },
+        "Triggers": [
+            [
+                "site visitor",
+                "email"
+            ]
+        ],
+        "Targets": [
+            [
+                "email",
+                "news items"
+            ],
+            [
+                "email",
+                "editor"
+            ]
+        ]
+    },
+    {
+        "Text": "#G10# As a site member, I want to download the latest training material and methodology PDFs, so that I have them.",
+        "Persona": [
+            "site member"
+        ],
+        "Benefit": "I have them",
+        "Action": {
+            "Primary Action": [
+                "download"
+            ],
+            "Secondary Action": []
+        },
+        "Entity": {
+            "Primary Entity": [
+                "training material",
+                "methodology PDFs"
+            ],
+            "Secondary Entity": []
+        },
+        "Triggers": [
+            [
+                "site member",
+                "download"
+            ]
+        ],
+        "Targets": [
+            [
+                "download",
+                "training material"
+            ],
+            [
+                "download",
+                "methodology PDFs"
+            ]
+        ]
+    },
+    {
+        "Text": "#G10# As a trainer, I want to load an Excel file into the site, so that the course participants are added to the Scrum Alliance records.",
+        "Persona": [
+            "trainer"
+        ],
+        "Benefit": "the course participants are added to the Scrum Alliance records",
+        "Action": {
+            "Primary Action": [
+                "load"
+            ],
+            "Secondary Action": [
+                "added"
+            ]
+        },
+        "Entity": {
+            "Primary Entity": [
+                "Excel file",
+                "site"
+            ],
+            "Secondary Entity": [
+                "course participants",
+                "Scrum Alliance records"
+            ]
+        },
+        "Triggers": [
+            [
+                "trainer",
+                "load"
+            ]
+        ],
+        "Targets": [
+            [
+                "load",
+                "Excel file"
+            ],
+            [
+                "load",
+                "site"
+            ],
+            [
+                "added",
+                "course participants"
+            ],
+            [
+                "added",
+                "Scrum Alliance records"
+            ]
+        ]
+    },
+    {
+        "Text": "#G10# As a member, I want to have the system email me a new password or a password reminder since i have short-term memory problems.",
+        "Persona": [
+            "member"
+        ],
+        "Benefit": "I have short-term memory problems",
+        "Action": {
+            "Primary Action": [
+                "have"
+            ],
+            "Secondary Action": []
+        },
+        "Entity": {
+            "Primary Entity": [
+                "system",
+                "new password",
+                "password reminder"
+            ],
+            "Secondary Entity": [
+                "email"
+            ]
+        },
+        "Triggers": [
+            [
+                "member",
+                "have"
+            ]
+        ],
+        "Targets": [
+            [
+                "have",
+                "system"
+            ],
+            [
+                "have",
+                "new password"
+            ],
+            [
+                "have",
+                "password reminder"
+            ]
+        ]
+    },
+    {
+        "Text": "#G10# As a site member, I want to view the profiles of other members, so that I can find others I might want to connect with.",
+        "Persona": [
+            "site member"
+        ],
+        "Benefit": "I can find others I might want to connect with",
+        "Action": {
+            "Primary Action": [
+                "view"
+            ],
+            "Secondary Action": []
+        },
+        "Entity": {
+            "Primary Entity": [
+                "profiles of other members"
+            ],
+            "Secondary Entity": []
+        },
+        "Triggers": [
+            [
+                "site member",
+                "view"
+            ]
+        ],
+        "Targets": [
+            [
+                "view",
+                "profiles of other members"
+            ]
+        ]
+    },
+    {
+        "Text": "#G10# As a site visitor, I want to read FAQs, so that I can get quick answers.",
+        "Persona": [
+            "site visitor"
+        ],
+        "Benefit": "I can get quick answers",
+        "Action": {
+            "Primary Action": [
+                "read"
+            ],
+            "Secondary Action": []
+        },
+        "Entity": {
+            "Primary Entity": [
+                "FAQs"
+            ],
+            "Secondary Entity": []
+        },
+        "Triggers": [
+            [
+                "site visitor",
+                "read"
+            ]
+        ],
+        "Targets": [
+            [
+                "read",
+                "FAQs"
+            ]
+        ]
+    },
+    {
+        "Text": "#G10# As a site visitor, I want to be able to read some of your articles, so that I can learn without first joining the site.",
+        "Persona": [
+            "site visitor"
+        ],
+        "Benefit": "I can learn without first joining the site",
+        "Action": {
+            "Primary Action": [
+                "read"
+            ],
+            "Secondary Action": [
+                "learn"
+            ]
+        },
+        "Entity": {
+            "Primary Entity": [
+                "articles"
+            ],
+            "Secondary Entity": []
+        },
+        "Triggers": [
+            [
+                "site visitor",
+                "read"
+            ]
+        ],
+        "Targets": [
+            [
+                "read",
+                "articles"
+            ]
+        ]
+    },
+    {
+        "Text": "#G10# As a site member, I want to fill out an application to become a Certified Scrum Trainer, so that I can teach CSM and CSPO courses and certify others.",
+        "Persona": [
+            "site member"
+        ],
+        "Benefit": "I can teach CSM and CSPO courses and certify others",
+        "Action": {
+            "Primary Action": [
+                "fill out"
+            ],
+            "Secondary Action": [
+                "teach",
+                "certify"
+            ]
+        },
+        "Entity": {
+            "Primary Entity": [
+                "application",
+                "Certified Scrum Trainer"
+            ],
+            "Secondary Entity": [
+                "CSM courses",
+                "CSPO courses"
+            ]
+        },
+        "Triggers": [
+            [
+                "site member",
+                "fill out"
+            ],
+            [
+                "site member",
+                "teach"
+            ],
+            [
+                "site member",
+                "certify"
+            ]
+        ],
+        "Targets": [
+            [
+                "fill out",
+                "application"
+            ],
+            [
+                "teach",
+                "CSM courses"
+            ],
+            [
+                "teach",
+                "CSPO courses"
+            ],
+            [
+                "certify",
+                "Certified Scrum Trainer"
+            ]
+        ]
+    },
+    {
+        "Text": "#G10# As a site admin, I want to see the results for each trainer and averages for the class, so that I can identify any outliers or possible problems.",
+        "Persona": [
+            "site admin"
+        ],
+        "Benefit": "I can identify any outliers or possible problems",
+        "Action": {
+            "Primary Action": [
+                "see"
+            ],
+            "Secondary Action": [
+                "identify"
+            ]
+        },
+        "Entity": {
+            "Primary Entity": [
+                "results for each trainer",
+                "averages for the class"
+            ],
+            "Secondary Entity": []
+        },
+        "Triggers": [
+            [
+                "site admin",
+                "see"
+            ],
+            [
+                "site admin",
+                "identify"
+            ]
+        ],
+        "Targets": [
+            [
+                "see",
+                "results for each trainer"
+            ],
+            [
+                "see",
+                "averages for the class"
+            ]
+        ]
+    },
+    {
+        "Text": "#G10# As a site visitor, I want to see a list of all upcoming Certification Courses and can page through them if there are a lot, so that I can choose the best course for me.",
+        "Persona": [
+            "site visitor"
+        ],
+        "Benefit": "I can choose the best course for me",
+        "Action": {
+            "Primary Action": [
+                "see",
+                "page through"
+            ],
+            "Secondary Action": []
+        },
+        "Entity": {
+            "Primary Entity": [
+                "list of all upcoming Certification Courses"
+            ],
+            "Secondary Entity": []
+        },
+        "Triggers": [
+            [
+                "site visitor",
+                "see"
+            ],
+            [
+                "site visitor",
+                "page through"
+            ]
+        ],
+        "Targets": [
+            [
+                "see",
+                "list of all upcoming Certification Courses"
+            ],
+            [
+                "page through",
+                "list of all upcoming Certification Courses"
+            ]
+        ]
+    },
+    {
+        "Text": "#G10# As a site editor, I want to be able to indicate whether an article is publicly available or for members only, so that visitors are incentivized to become members.",
+        "Persona": [
+            "site editor"
+        ],
+        "Benefit": "visitors are incentivized to become members",
+        "Action": {
+            "Primary Action": [
+                "indicate"
+            ],
+            "Secondary Action": [
+                "become"
+            ]
+        },
+        "Entity": {
+            "Primary Entity": [
+                "article"
+            ],
+            "Secondary Entity": [
+                "members",
+                "visitors"
+            ]
+        },
+        "Triggers": [
+            [
+                "site editor",
+                "indicate"
+            ]
+        ],
+        "Targets": [
+            [
+                "indicate",
+                "article"
+            ],
+            [
+                "become",
+                "members"
+            ]
+        ]
+    },
+    {
+        "Text": "#G10# As a site editor, I want to set the following dates on a news item: Start Publishing Date, Old News Date, Stop Publishing Date, so that articles are published on and through appropriate dates.",
+        "Persona": [
+            "site editor"
+        ],
+        "Benefit": "articles are published on and through appropriate dates",
+        "Action": {
+            "Primary Action": [
+                "set"
+            ],
+            "Secondary Action": []
+        },
+        "Entity": {
+            "Primary Entity": [
+                "news item",
+                "Start Publishing Date",
+                "Old News Date",
+                "Stop Publishing Date"
+            ],
+            "Secondary Entity": [
+                "articles"
+            ]
+        },
+        "Triggers": [
+            [
+                "site editor",
+                "set"
+            ]
+        ],
+        "Targets": [
+            [
+                "set",
+                "news item"
+            ],
+            [
+                "set",
+                "Start Publishing Date"
+            ],
+            [
+                "set",
+                "Old News Date"
+            ],
+            [
+                "set",
+                "Stop Publishing Date"
+            ]
+        ]
+    },
+    {
+        "Text": "#G10# As a site visitor, I want to have an advanced search option that lets me fill in a form of search criteria, so that I can quickly find what I am looking for.",
+        "Persona": [
+            "site visitor"
+        ],
+        "Benefit": "I can quickly find what I am looking for",
+        "Action": {
+            "Primary Action": [
+                "fill in"
+            ],
+            "Secondary Action": [
+                "quickly find"
+            ]
+        },
+        "Entity": {
+            "Primary Entity": [
+                "advanced search option"
+            ],
+            "Secondary Entity": [
+                "form of search criteria"
+            ]
+        },
+        "Triggers": [
+            [
+                "site visitor",
+                "fill in"
+            ]
+        ],
+        "Targets": [
+            [
+                "fill in",
+                "advanced search option"
+            ],
+            [
+                "fill in",
+                "form of search criteria"
+            ],
+            [
+                "quickly find",
+                "advanced search option"
+            ]
+        ]
+    },
+    {
+        "Text": "#G10# As a site visitor, I want to subscribe to an RSS feed of articles, so that I can read them without visiting the site.",
+        "Persona": [
+            "site visitor"
+        ],
+        "Benefit": "I can read them without visiting the site",
+        "Action": {
+            "Primary Action": [
+                "subscribe"
+            ],
+            "Secondary Action": [
+                "read"
+            ]
+        },
+        "Entity": {
+            "Primary Entity": [
+                "RSS feed of articles"
+            ],
+            "Secondary Entity": []
+        },
+        "Triggers": [
+            [
+                "site visitor",
+                "subscribe"
+            ],
+            [
+                "site visitor",
+                "read"
+            ]
+        ],
+        "Targets": [
+            [
+                "subscribe",
+                "RSS feed of articles"
+            ]
+        ]
+    },
+    {
+        "Text": "#G10# As a trainer, I want to be notified about the results of surveys about my classes, so that I can read them.",
+        "Persona": [
+            "trainer"
+        ],
+        "Benefit": "I can read them",
+        "Action": {
+            "Primary Action": [
+                "notified"
+            ],
+            "Secondary Action": [
+                "read"
+            ]
+        },
+        "Entity": {
+            "Primary Entity": [
+                "results of surveys"
+            ],
+            "Secondary Entity": [
+                "my classes"
+            ]
+        },
+        "Triggers": [
+            [
+                "trainer",
+                "notified"
+            ]
+        ],
+        "Targets": [
+            [
+                "notified",
+                "results of surveys"
+            ],
+            [
+                "read",
+                "results of surveys"
+            ]
+        ]
+    },
+    {
+        "Text": "#G10# As a trainer, I want to list my upcoming classes in my profile and include a link to a detailed page about each, so that prospective attendees can find my courses.",
+        "Persona": [
+            "trainer"
+        ],
+        "Benefit": "prospective attendees can find my courses",
+        "Action": {
+            "Primary Action": [
+                "list",
+                "include"
+            ],
+            "Secondary Action": []
+        },
+        "Entity": {
+            "Primary Entity": [
+                "upcoming classes",
+                "profile",
+                "link",
+                "detailed page"
+            ],
+            "Secondary Entity": [
+                "courses"
+            ]
+        },
+        "Triggers": [
+            [
+                "trainer",
+                "list"
+            ],
+            [
+                "trainer",
+                "include"
+            ]
+        ],
+        "Targets": [
+            [
+                "list",
+                "upcoming classes"
+            ],
+            [
+                "list",
+                "profile"
+            ],
+            [
+                "include",
+                "link"
+            ],
+            [
+                "include",
+                "detailed page"
+            ]
+        ]
+    },
+    {
+        "Text": "#G10# As a site visitor, I want to see a list of all upcoming Other Courses and can page through them if necessary, so that I can choose the best course for me.",
+        "Persona": [
+            "site visitor"
+        ],
+        "Benefit": "I can choose the best course for me",
+        "Action": {
+            "Primary Action": [
+                "see",
+                "page through"
+            ],
+            "Secondary Action": []
+        },
+        "Entity": {
+            "Primary Entity": [
+                "list of all upcoming Other Courses"
+            ],
+            "Secondary Entity": []
+        },
+        "Triggers": [
+            [
+                "site visitor",
+                "see"
+            ],
+            [
+                "site visitor",
+                "page through"
+            ]
+        ],
+        "Targets": [
+            [
+                "see",
+                "list of all upcoming Other Courses"
+            ],
+            [
+                "page through",
+                "list of all upcoming Other Courses"
+            ]
+        ]
+    },
+    {
+        "Text": "#G10# As a site editor, I want to set start publishing dates, old article date, and stop publishing dates for articles, so that articles appear only during appropriate periods.",
+        "Persona": [
+            "site editor"
+        ],
+        "Benefit": "articles appear only during appropriate periods",
+        "Action": {
+            "Primary Action": [
+                "set"
+            ],
+            "Secondary Action": []
+        },
+        "Entity": {
+            "Primary Entity": [
+                "start publishing dates",
+                "old article date",
+                "stop publishing dates",
+                "articles"
+            ],
+            "Secondary Entity": []
+        },
+        "Triggers": [
+            [
+                "site editor",
+                "set"
+            ]
+        ],
+        "Targets": [
+            [
+                "set",
+                "start publishing dates"
+            ],
+            [
+                "set",
+                "old article date"
+            ],
+            [
+                "set",
+                "stop publishing dates"
+            ],
+            [
+                "set",
+                "articles"
+            ]
+        ]
+    },
+    {
+        "Text": "#G10# As a site administrator, I want to edit any site member profile, so that I can correct problems for members.",
+        "Persona": [
+            "site administrator"
+        ],
+        "Benefit": "I can correct problems for members",
+        "Action": {
+            "Primary Action": [
+                "edit"
+            ],
+            "Secondary Action": []
+        },
+        "Entity": {
+            "Primary Entity": [
+                "site member profile"
+            ],
+            "Secondary Entity": []
+        },
+        "Triggers": [
+            [
+                "site administrator",
+                "edit"
+            ]
+        ],
+        "Targets": [
+            [
+                "edit",
+                "site member profile"
+            ]
+        ]
+    },
+    {
+        "Text": "#G10# As a recruiter, I want to post a help wanted ad, so that I can attract candidates.",
+        "Persona": [
+            "recruiter"
+        ],
+        "Benefit": "I can attract candidates",
+        "Action": {
+            "Primary Action": [
+                "post"
+            ],
+            "Secondary Action": []
+        },
+        "Entity": {
+            "Primary Entity": [
+                "help wanted ad"
+            ],
+            "Secondary Entity": []
+        },
+        "Triggers": [
+            [
+                "recruiter",
+                "post"
+            ]
+        ],
+        "Targets": [
+            [
+                "post",
+                "help wanted ad"
+            ]
+        ]
+    },
+    {
+        "Text": "#G10# As a site editor, I want to maintain a FAQ section, so that support gets fewer easily answered questions.",
+        "Persona": [
+            "site editor"
+        ],
+        "Benefit": "support gets fewer easily answered questions",
+        "Action": {
+            "Primary Action": [
+                "maintain"
+            ],
+            "Secondary Action": []
+        },
+        "Entity": {
+            "Primary Entity": [
+                "FAQ section"
+            ],
+            "Secondary Entity": []
+        },
+        "Triggers": [
+            [
+                "site editor",
+                "maintain"
+            ]
+        ],
+        "Targets": [
+            [
+                "maintain",
+                "FAQ section"
+            ]
+        ]
+    },
+    {
+        "Text": "#G10# As a site editor, I want to create the content of the What Is Scrum section, so that it's there for visitors.",
+        "Persona": [
+            "site editor"
+        ],
+        "Benefit": "it's there for visitors",
+        "Action": {
+            "Primary Action": [
+                "create"
+            ],
+            "Secondary Action": []
+        },
+        "Entity": {
+            "Primary Entity": [
+                "content",
+                "What Is Scrum section"
+            ],
+            "Secondary Entity": []
+        },
+        "Triggers": [
+            [
+                "site editor",
+                "create"
+            ]
+        ],
+        "Targets": [
+            [
+                "create",
+                "content"
+            ],
+            [
+                "create",
+                "What Is Scrum section"
+            ]
+        ]
+    },
+    {
+        "Text": "#G10# As a site visitor, I want to view a section of the website that teaches me the basics of what Scrum is, so that I can learn that quickly.",
+        "Persona": [
+            "site visitor"
+        ],
+        "Benefit": "I can learn that quickly",
+        "Action": {
+            "Primary Action": [
+                "view",
+                "learn"
+            ],
+            "Secondary Action": [
+                "teaches"
+            ]
+        },
+        "Entity": {
+            "Primary Entity": [
+                "section of the website"
+            ],
+            "Secondary Entity": [
+                "basics of what Scrum is"
+            ]
+        },
+        "Triggers": [
+            [
+                "site visitor",
+                "view"
+            ],
+            [
+                "site visitor",
+                "learn"
+            ]
+        ],
+        "Targets": [
+            [
+                "view",
+                "section of the website"
+            ],
+            [
+                "learn",
+                "basics of what Scrum is"
+            ]
+        ]
+    },
+    {
+        "Text": "#G10# As a trainer, I want to read information of relevance only to trainers, so that the Scrum Alliance can share information with me easily.",
+        "Persona": [
+            "trainer"
+        ],
+        "Benefit": "the Scrum Alliance can share information with me easily",
+        "Action": {
+            "Primary Action": [
+                "read"
+            ],
+            "Secondary Action": [
+                "share"
+            ]
+        },
+        "Entity": {
+            "Primary Entity": [
+                "information of relevance only to trainers"
+            ],
+            "Secondary Entity": [
+                "Scrum Alliance"
+            ]
+        },
+        "Triggers": [
+            [
+                "trainer",
+                "read"
+            ]
+        ],
+        "Targets": [
+            [
+                "read",
+                "information of relevance only to trainers"
+            ],
+            [
+                "Scrum Alliance",
+                "share"
+            ]
+        ]
+    },
+    {
+        "Text": "#G10# As a trainer, I want to show my rating up on my profile page, so that site visitors can choose wisely.",
+        "Persona": [
+            "trainer"
+        ],
+        "Benefit": "site visitors can choose wisely",
+        "Action": {
+            "Primary Action": [
+                "show"
+            ],
+            "Secondary Action": []
+        },
+        "Entity": {
+            "Primary Entity": [
+                "rating",
+                "profile page"
+            ],
+            "Secondary Entity": [
+                "site visitors"
+            ]
+        },
+        "Triggers": [
+            [
+                "trainer",
+                "show"
+            ]
+        ],
+        "Targets": [
+            [
+                "show",
+                "rating"
+            ],
+            [
+                "show",
+                "profile page"
+            ]
+        ]
+    },
+    {
+        "Text": "#G10# As a site editor, I want to post information in a trainers-only section, so that only trainers see it.",
+        "Persona": [
+            "site editor"
+        ],
+        "Benefit": "only trainers see it",
+        "Action": {
+            "Primary Action": [
+                "post"
+            ],
+            "Secondary Action": []
+        },
+        "Entity": {
+            "Primary Entity": [
+                "information",
+                "trainers-only section"
+            ],
+            "Secondary Entity": []
+        },
+        "Triggers": [
+            [
+                "site editor",
+                "post"
+            ]
+        ],
+        "Targets": [
+            [
+                "post",
+                "information"
+            ],
+            [
+                "post",
+                "trainers-only section"
+            ]
+        ]
+    },
+    {
+        "Text": "#G10# As a site visitor, I want to view lists on the site of all Certified Scrum Masters, Practitioners, Trainers, and Certified Scrum Product Owners.",
+        "Persona": [
+            "site visitor"
+        ],
+        "Benefit": "view lists on the site of all Certified Scrum Masters, Practitioners, Trainers, and Certified Scrum Product Owners",
+        "Action": {
+            "Primary Action": [
+                "view"
+            ],
+            "Secondary Action": []
+        },
+        "Entity": {
+            "Primary Entity": [
+                "lists",
+                "Certified Scrum Masters",
+                "Practitioners",
+                "Trainers",
+                "Certified Scrum Product Owners"
+            ],
+            "Secondary Entity": []
+        },
+        "Triggers": [
+            [
+                "site visitor",
+                "view"
+            ]
+        ],
+        "Targets": [
+            [
+                "view",
+                "lists"
+            ],
+            [
+                "view",
+                "Certified Scrum Masters"
+            ],
+            [
+                "view",
+                "Practitioners"
+            ],
+            [
+                "view",
+                "Trainers"
+            ],
+            [
+                "view",
+                "Certified Scrum Product Owners"
+            ]
+        ]
+    },
+    {
+        "Text": "#G10# As a site visitor, I want to do a full-text search of the FAQs, so that I can find an answer quickly.",
+        "Persona": [
+            "site visitor"
+        ],
+        "Benefit": "I can find an answer quickly",
+        "Action": {
+            "Primary Action": [
+                "do"
+            ],
+            "Secondary Action": []
+        },
+        "Entity": {
+            "Primary Entity": [
+                "full-text search",
+                "FAQs"
+            ],
+            "Secondary Entity": []
+        },
+        "Triggers": [
+            [
+                "site visitor",
+                "do"
+            ]
+        ],
+        "Targets": [
+            [
+                "do",
+                "full-text search"
+            ],
+            [
+                "do",
+                "FAQs"
+            ]
+        ]
+    },
+    {
+        "Text": "#G10# As a site member, I want to scroll through a listing of jobs, so that I can see if there any I am interested in.",
+        "Persona": [
+            "site member"
+        ],
+        "Benefit": "I can see if there any I am interested in",
+        "Action": {
+            "Primary Action": [
+                "scroll through"
+            ],
+            "Secondary Action": []
+        },
+        "Entity": {
+            "Primary Entity": [
+                "listing of jobs"
+            ],
+            "Secondary Entity": []
+        },
+        "Triggers": [
+            [
+                "site member",
+                "scroll through"
+            ]
+        ],
+        "Targets": [
+            [
+                "scroll through",
+                "listing of jobs"
+            ]
+        ]
+    },
+    {
+        "Text": "#G10# As a site visitor, I want to read current news on the home page, so that I stay current on agile news.",
+        "Persona": [
+            "site visitor"
+        ],
+        "Benefit": "I stay current on agile news",
+        "Action": {
+            "Primary Action": [
+                "read"
+            ],
+            "Secondary Action": []
+        },
+        "Entity": {
+            "Primary Entity": [
+                "current news",
+                "home page"
+            ],
+            "Secondary Entity": [
+                "agile news"
+            ]
+        },
+        "Triggers": [
+            [
+                "site visitor",
+                "read"
+            ]
+        ],
+        "Targets": [
+            [
+                "read",
+                "current news"
+            ],
+            [
+                "read",
+                "home page"
+            ]
+        ]
+    },
+    {
+        "Text": "#G10# As the site editor, I want to add an article to the site, so that the site has plenty of content.",
+        "Persona": [
+            "site editor"
+        ],
+        "Benefit": "the site has plenty of content",
+        "Action": {
+            "Primary Action": [
+                "add"
+            ],
+            "Secondary Action": []
+        },
+        "Entity": {
+            "Primary Entity": [
+                "article",
+                "site"
+            ],
+            "Secondary Entity": [
+                "content"
+            ]
+        },
+        "Triggers": [
+            [
+                "site editor",
+                "add"
+            ]
+        ],
+        "Targets": [
+            [
+                "add",
+                "article"
+            ],
+            [
+                "add",
+                "site"
+            ]
+        ]
+    },
+    {
+        "Text": "#G10# As a site visitor, I want to see a list of all upcoming Events, so that I can decide if I want to attend any.",
+        "Persona": [
+            "site visitor"
+        ],
+        "Benefit": "I can decide if I want to attend any",
+        "Action": {
+            "Primary Action": [
+                "see"
+            ],
+            "Secondary Action": []
+        },
+        "Entity": {
+            "Primary Entity": [
+                "list of all upcoming Events"
+            ],
+            "Secondary Entity": []
+        },
+        "Triggers": [
+            [
+                "site visitor",
+                "see"
+            ]
+        ],
+        "Targets": [
+            [
+                "see",
+                "list of all upcoming Events"
+            ]
+        ]
+    },
+    {
+        "Text": "#G10# As a trainer, I want to be assured that no one can submit the same answers multiple time and skew my results, so that my ratings are accurate.",
+        "Persona": [
+            "trainer"
+        ],
+        "Benefit": "my ratings are accurate",
+        "Action": {
+            "Primary Action": [
+                "submit",
+                "assured"
+            ],
+            "Secondary Action": [
+                "skew"
+            ]
+        },
+        "Entity": {
+            "Primary Entity": [
+                "answers",
+                "ratings"
+            ],
+            "Secondary Entity": [
+                "results"
+            ]
+        },
+        "Triggers": [
+            [
+                "trainer",
+                "submit"
+            ],
+            [
+                "trainer",
+                "assured"
+            ]
+        ],
+        "Targets": [
+            [
+                "submit",
+                "answers"
+            ],
+            [
+                "assured",
+                "ratings"
+            ],
+            [
+                "skew",
+                "results"
+            ]
+        ]
+    },
+    {
+        "Text": "#G10# As a Practitioner, I want to write an article for the site with a small graphic shown with the article showing my CSP or CST status, so that others know my certifications when reading.",
+        "Persona": [
+            "Practitioner"
+        ],
+        "Benefit": "others know my certifications when reading",
+        "Action": {
+            "Primary Action": [
+                "write"
+            ],
+            "Secondary Action": [
+                "shown"
+            ]
+        },
+        "Entity": {
+            "Primary Entity": [
+                "article",
+                "small graphic"
+            ],
+            "Secondary Entity": [
+                "site",
+                "CSP or CST status"
+            ]
+        },
+        "Triggers": [
+            [
+                "Practitioner",
+                "write"
+            ]
+        ],
+        "Targets": [
+            [
+                "write",
+                "article"
+            ],
+            [
+                "write",
+                "small graphic"
+            ],
+            [
+                "shown",
+                "small graphic"
+            ]
+        ]
+    },
+    {
+        "Text": "#G10# As a site visitor, I want to do a full-text search of article body, title, and author name, so that I can find what I want.",
+        "Persona": [
+            "site visitor"
+        ],
+        "Benefit": "I can find what I want",
+        "Action": {
+            "Primary Action": [
+                "do"
+            ],
+            "Secondary Action": []
+        },
+        "Entity": {
+            "Primary Entity": [
+                "full-text search"
+            ],
+            "Secondary Entity": [
+                "article body",
+                "title",
+                "author name"
+            ]
+        },
+        "Triggers": [
+            [
+                "site visitor",
+                "do"
+            ]
+        ],
+        "Targets": [
+            [
+                "do",
+                "full-text search"
+            ]
+        ]
+    },
+    {
+        "Text": "#G10# As a site visitor, I want to view a course I can click on the trainer's name and be taken to the trainer's profile, so that I can read more about a trainer before registering for a course.",
+        "Persona": [
+            "site visitor"
+        ],
+        "Benefit": "I can read more about a trainer before registering for a course",
+        "Action": {
+            "Primary Action": [
+                "view",
+                "click"
+            ],
+            "Secondary Action": [
+                "be taken",
+                "read"
+            ]
+        },
+        "Entity": {
+            "Primary Entity": [
+                "course",
+                "trainer's profile"
+            ],
+            "Secondary Entity": [
+                "trainer's name"
+            ]
+        },
+        "Triggers": [
+            [
+                "site visitor",
+                "view"
+            ],
+            [
+                "site visitor",
+                "click"
+            ]
+        ],
+        "Targets": [
+            [
+                "view",
+                "course"
+            ],
+            [
+                "click",
+                "trainer's name"
+            ],
+            [
+                "be taken",
+                "trainer's profile"
+            ],
+            [
+                "read",
+                "trainer's profile"
+            ]
+        ]
+    },
+    {
+        "Text": "#G10# As a site member, I want to subscribe to an RSS feed of news, so that I remain sufficiently and easily informed.",
+        "Persona": [
+            "site member"
+        ],
+        "Benefit": "I remain sufficiently and easily informed",
+        "Action": {
+            "Primary Action": [
+                "subscribe"
+            ],
+            "Secondary Action": []
+        },
+        "Entity": {
+            "Primary Entity": [
+                "RSS feed of news"
+            ],
+            "Secondary Entity": []
+        },
+        "Triggers": [
+            [
+                "site member",
+                "subscribe"
+            ]
+        ],
+        "Targets": [
+            [
+                "subscribe",
+                "RSS feed of news"
+            ]
+        ]
+    },
+    {
+        "Text": "#G10# As a site visitor, I want to click the link from the article teaser to take me directly to the body of the article. not to another teaser setup, so that I can easily finish the article.",
+        "Persona": [
+            "site visitor"
+        ],
+        "Benefit": "I can easily finish the article",
+        "Action": {
+            "Primary Action": [
+                "click",
+                "take"
+            ],
+            "Secondary Action": []
+        },
+        "Entity": {
+            "Primary Entity": [
+                "link",
+                "body of the article"
+            ],
+            "Secondary Entity": [
+                "article teaser"
+            ]
+        },
+        "Triggers": [
+            [
+                "site visitor",
+                "click"
+            ]
+        ],
+        "Targets": [
+            [
+                "click",
+                "link"
+            ],
+            [
+                "take",
+                "body of the article"
+            ]
+        ]
+    },
+    {
+        "Text": "#G10# As a site member who has read a teaser on the front page, I want to read the entire article so that I can finish articles that appeal to me.",
+        "Persona": [
+            "site member"
+        ],
+        "Benefit": "I can finish articles that appeal to me",
+        "Action": {
+            "Primary Action": [
+                "read"
+            ],
+            "Secondary Action": []
+        },
+        "Entity": {
+            "Primary Entity": [
+                "entire article"
+            ],
+            "Secondary Entity": [
+                "teaser",
+                "front page"
+            ]
+        },
+        "Triggers": [
+            [
+                "site member",
+                "read"
+            ]
+        ],
+        "Targets": [
+            [
+                "read",
+                "entire article"
+            ]
+        ]
+    },
+    {
+        "Text": "#G10# As a site member, I want to send an email to any member via a form, so that we can connect.",
+        "Persona": [
+            "site member"
+        ],
+        "Benefit": "we can connect",
+        "Action": {
+            "Primary Action": [
+                "send"
+            ],
+            "Secondary Action": []
+        },
+        "Entity": {
+            "Primary Entity": [
+                "email",
+                "form"
+            ],
+            "Secondary Entity": [
+                "member"
+            ]
+        },
+        "Triggers": [
+            [
+                "site member",
+                "send"
+            ]
+        ],
+        "Targets": [
+            [
+                "send",
+                "email"
+            ],
+            [
+                "send",
+                "form"
+            ]
+        ]
+    },
+    {
+        "Text": "#G10# As a site admin, I want to be emailed whenever a job is submitted, so that I am aware of it and can decide if I want to post it.",
+        "Persona": [
+            "site admin"
+        ],
+        "Benefit": "I am aware of it and can decide if I want to post it",
+        "Action": {
+            "Primary Action": [
+                "be emailed",
+                "submitted"
+            ],
+            "Secondary Action": [
+                "decide",
+                "post"
+            ]
+        },
+        "Entity": {
+            "Primary Entity": [
+                "job",
+                "email"
+            ],
+            "Secondary Entity": []
+        },
+        "Triggers": [
+            [
+                "site admin",
+                "be emailed"
+            ],
+            [
+                "site admin",
+                "submitted"
+            ],
+            [
+                "site admin",
+                "decide"
+            ],
+            [
+                "site admin",
+                "post"
+            ]
+        ],
+        "Targets": [
+            [
+                "be emailed",
+                "email"
+            ],
+            [
+                "submitted",
+                "job"
+            ],
+            [
+                "decide",
+                "job"
+            ],
+            [
+                "post",
+                "job"
+            ]
+        ]
+    },
+    {
+        "Text": "#G10# As a site visitor, I want to have articles that interest me and are easy to get to, so that I come to the site for my agile news and learning.",
+        "Persona": [
+            "site visitor"
+        ],
+        "Benefit": "I come to the site for my agile news and learning",
+        "Action": {
+            "Primary Action": [
+                "have",
+                "get to"
+            ],
+            "Secondary Action": []
+        },
+        "Entity": {
+            "Primary Entity": [
+                "articles"
+            ],
+            "Secondary Entity": []
+        },
+        "Triggers": [
+            [
+                "site visitor",
+                "have"
+            ],
+            [
+                "site visitor",
+                "get to"
+            ]
+        ],
+        "Targets": [
+            [
+                "have",
+                "articles"
+            ],
+            [
+                "get to",
+                "articles"
+            ]
+        ]
+    },
+    {
+        "Text": "#G10# As a CSM, I want to be sent an email welcoming me to the Scrum Alliance and with instructions to register or activate my membership once my name has been loaded to the registry.",
+        "Persona": [
+            "CSM"
+        ],
+        "Benefit": "welcoming me to the Scrum Alliance and with instructions to register or activate my membership once my name has been loaded to the registry",
+        "Action": {
+            "Primary Action": [
+                "be sent"
+            ],
+            "Secondary Action": [
+                "register",
+                "activate"
+            ]
+        },
+        "Entity": {
+            "Primary Entity": [
+                "email",
+                "Scrum Alliance",
+                "membership",
+                "registry"
+            ],
+            "Secondary Entity": []
+        },
+        "Triggers": [
+            [
+                "CSM",
+                "be sent"
+            ]
+        ],
+        "Targets": [
+            [
+                "be sent",
+                "email"
+            ],
+            [
+                "be sent",
+                "Scrum Alliance"
+            ],
+            [
+                "be sent",
+                "membership"
+            ],
+            [
+                "be sent",
+                "registry"
+            ],
+            [
+                "register",
+                "membership"
+            ],
+            [
+                "activate",
+                "membership"
+            ]
+        ]
+    },
+    {
+        "Text": "#G10# As a corporatesponsor, I want to make my logo randomly appear on the home page, so that others see the company's support of Scrum.",
+        "Persona": [
+            "corporate sponsor"
+        ],
+        "Benefit": "others see the company's support of Scrum",
+        "Action": {
+            "Primary Action": [
+                "make appear randomly"
+            ],
+            "Secondary Action": []
+        },
+        "Entity": {
+            "Primary Entity": [
+                "logo",
+                "home page"
+            ],
+            "Secondary Entity": []
+        },
+        "Triggers": [
+            [
+                "corporate sponsor",
+                "make appear randomly"
+            ]
+        ],
+        "Targets": [
+            [
+                "make appear randomly",
+                "logo"
+            ],
+            [
+                "make appear randomly",
+                "home page"
+            ]
+        ]
+    },
+    {
+        "Text": "#G10# As a trainer, I want to update one of my existing courses or events, so that it reflects accurate information.",
+        "Persona": [
+            "trainer"
+        ],
+        "Benefit": "it reflects accurate information",
+        "Action": {
+            "Primary Action": [
+                "update"
+            ],
+            "Secondary Action": []
+        },
+        "Entity": {
+            "Primary Entity": [
+                "one of my existing courses",
+                "events"
+            ],
+            "Secondary Entity": []
+        },
+        "Triggers": [
+            [
+                "trainer",
+                "update"
+            ]
+        ],
+        "Targets": [
+            [
+                "update",
+                "one of my existing courses"
+            ],
+            [
+                "update",
+                "events"
+            ]
+        ]
+    },
+    {
+        "Text": "#G10# As a recruiter, I want to be able to extend an ad for another 30 days by visiting the site and updating the posting, so that my ad remains active.",
+        "Persona": [
+            "recruiter"
+        ],
+        "Benefit": "my ad remains active",
+        "Action": {
+            "Primary Action": [
+                "extend",
+                "visiting",
+                "updating"
+            ],
+            "Secondary Action": []
+        },
+        "Entity": {
+            "Primary Entity": [
+                "ad",
+                "site",
+                "posting"
+            ],
+            "Secondary Entity": []
+        },
+        "Triggers": [
+            [
+                "recruiter",
+                "extend"
+            ],
+            [
+                "recruiter",
+                "visiting"
+            ],
+            [
+                "recruiter",
+                "updating"
+            ]
+        ],
+        "Targets": [
+            [
+                "extend",
+                "ad"
+            ],
+            [
+                "visiting",
+                "site"
+            ],
+            [
+                "updating",
+                "posting"
+            ]
+        ]
+    },
+    {
+        "Text": "#G10# As a site editor, I want to update any course or event, so that I can fix things the original author hasn't.",
+        "Persona": [
+            "site editor"
+        ],
+        "Benefit": "I can fix things the original author hasn't",
+        "Action": {
+            "Primary Action": [
+                "update"
+            ],
+            "Secondary Action": []
+        },
+        "Entity": {
+            "Primary Entity": [
+                "course",
+                "event"
+            ],
+            "Secondary Entity": []
+        },
+        "Triggers": [
+            [
+                "site editor",
+                "update"
+            ]
+        ],
+        "Targets": [
+            [
+                "update",
+                "course"
+            ],
+            [
+                "update",
+                "event"
+            ]
+        ]
+    },
+    {
+        "Text": "#G10# As a site editor, I want to have a prominent area on the home page where I can put special announcements not necessarily news or articles, so that I can give them additional exposure.",
+        "Persona": [
+            "site editor"
+        ],
+        "Benefit": "I can give them additional exposure",
+        "Action": {
+            "Primary Action": [
+                "put"
+            ],
+            "Secondary Action": []
+        },
+        "Entity": {
+            "Primary Entity": [
+                "prominent area",
+                "home page",
+                "special announcements"
+            ],
+            "Secondary Entity": []
+        },
+        "Triggers": [
+            [
+                "site editor",
+                "put"
+            ]
+        ],
+        "Targets": [
+            [
+                "put",
+                "prominent area"
+            ],
+            [
+                "put",
+                "home page"
+            ],
+            [
+                "put",
+                "special announcements"
+            ]
+        ]
+    },
+    {
+        "Text": "#G10# As a site member, I want to describe myself on my own page in a semi-structured way, so that others can learn about me.",
+        "Persona": [
+            "site member"
+        ],
+        "Benefit": "others can learn about me",
+        "Action": {
+            "Primary Action": [
+                "describe"
+            ],
+            "Secondary Action": []
+        },
+        "Entity": {
+            "Primary Entity": [
+                "my own page"
+            ],
+            "Secondary Entity": []
+        },
+        "Triggers": [
+            [
+                "site member",
+                "describe"
+            ]
+        ],
+        "Targets": [
+            [
+                "describe",
+                "my own page"
+            ]
+        ]
+    },
+    {
+        "Text": "#G10# As a site visitor, I want to see a list of the most popular items on the site, so that I am most likely to read the most important or best content.",
+        "Persona": [
+            "site visitor"
+        ],
+        "Benefit": "I am most likely to read the most important or best content",
+        "Action": {
+            "Primary Action": [
+                "see"
+            ],
+            "Secondary Action": []
+        },
+        "Entity": {
+            "Primary Entity": [
+                "list of the most popular items"
+            ],
+            "Secondary Entity": []
+        },
+        "Triggers": [
+            [
+                "site visitor",
+                "see"
+            ]
+        ],
+        "Targets": [
+            [
+                "see",
+                "list of the most popular items"
+            ]
+        ]
+    },
+    {
+        "Text": "#G10# As a trainer, I want to create a new course or event, so that site visitors can see it.",
+        "Persona": [
+            "trainer"
+        ],
+        "Benefit": "site visitors can see it",
+        "Action": {
+            "Primary Action": [
+                "create"
+            ],
+            "Secondary Action": []
+        },
+        "Entity": {
+            "Primary Entity": [
+                "course",
+                "event"
+            ],
+            "Secondary Entity": [
+                "site visitors"
+            ]
+        },
+        "Triggers": [
+            [
+                "trainer",
+                "create"
+            ]
+        ],
+        "Targets": [
+            [
+                "create",
+                "course"
+            ],
+            [
+                "create",
+                "event"
+            ]
+        ]
+    },
+    {
+        "Text": "#G10# As a trainer, I want to create an Other Course or Event I am charged a listing fee for that activity, so that I don't list events I don't really intend to hold.",
+        "Persona": [
+            "trainer"
+        ],
+        "Benefit": "I don't list events I don't really intend to hold",
+        "Action": {
+            "Primary Action": [
+                "create",
+                "charged"
+            ],
+            "Secondary Action": []
+        },
+        "Entity": {
+            "Primary Entity": [
+                "Other Course",
+                "Event",
+                "listing fee"
+            ],
+            "Secondary Entity": []
+        },
+        "Triggers": [
+            [
+                "trainer",
+                "create"
+            ],
+            [
+                "trainer",
+                "charged"
+            ]
+        ],
+        "Targets": [
+            [
+                "create",
+                "Other Course"
+            ],
+            [
+                "create",
+                "Event"
+            ],
+            [
+                "charged",
+                "listing fee"
+            ]
+        ]
+    },
+    {
+        "Text": "#G10# As a site visitor, I want to be able to get back to the home page quickly and easily, so that I don't get lost navigating.",
+        "Persona": [
+            "site visitor"
+        ],
+        "Benefit": "I don't get lost navigating",
+        "Action": {
+            "Primary Action": [
+                "get back"
+            ],
+            "Secondary Action": []
+        },
+        "Entity": {
+            "Primary Entity": [
+                "home page"
+            ],
+            "Secondary Entity": []
+        },
+        "Triggers": [
+            [
+                "site visitor",
+                "get back"
+            ]
+        ],
+        "Targets": [
+            [
+                "get back",
+                "home page"
+            ]
+        ]
+    },
+    {
+        "Text": "#G10# As a site visitor, I want to post comments about articles, so that others can read them.",
+        "Persona": [
+            "site visitor"
+        ],
+        "Benefit": "others can read them",
+        "Action": {
+            "Primary Action": [
+                "post"
+            ],
+            "Secondary Action": [
+                "read"
+            ]
+        },
+        "Entity": {
+            "Primary Entity": [
+                "comments",
+                "articles"
+            ],
+            "Secondary Entity": []
+        },
+        "Triggers": [
+            [
+                "site visitor",
+                "post"
+            ]
+        ],
+        "Targets": [
+            [
+                "post",
+                "comments"
+            ],
+            [
+                "post",
+                "articles"
+            ]
+        ]
+    },
+    {
+        "Text": "#G10# As a trainer, I want to turn a course into an event or an event into a course, so that I can correctly classify anything that was entered incorrectly.",
+        "Persona": [
+            "trainer"
+        ],
+        "Benefit": "I can correctly classify anything that was entered incorrectly",
+        "Action": {
+            "Primary Action": [
+                "turn"
+            ],
+            "Secondary Action": []
+        },
+        "Entity": {
+            "Primary Entity": [
+                "course",
+                "event"
+            ],
+            "Secondary Entity": []
+        },
+        "Triggers": [
+            [
+                "trainer",
+                "turn"
+            ]
+        ],
+        "Targets": [
+            [
+                "turn",
+                "course"
+            ],
+            [
+                "turn",
+                "event"
+            ]
+        ]
+    },
+    {
+        "Text": "#G10# As a site admin, I want to stop publishing jobs on the site 30 days after being posted, so that jobs that may have been filled aren't still listed when the hiring party forgets to come back and delete the ad.",
+        "Persona": [
+            "site admin"
+        ],
+        "Benefit": "jobs that may have been filled aren't still listed when the hiring party forgets to come back and delete the ad",
+        "Action": {
+            "Primary Action": [
+                "stop publishing"
+            ],
+            "Secondary Action": []
+        },
+        "Entity": {
+            "Primary Entity": [
+                "jobs",
+                "site"
+            ],
+            "Secondary Entity": [
+                "30 days",
+                "ad"
+            ]
+        },
+        "Triggers": [
+            [
+                "site admin",
+                "stop publishing"
+            ]
+        ],
+        "Targets": [
+            [
+                "stop publishing",
+                "jobs"
+            ],
+            [
+                "stop publishing",
+                "site"
+            ]
+        ]
+    },
+    {
+        "Text": "#G10# As a trainer, I want to delete one of my courses or events, so that it's no longer listed if I cancel for some reason.",
+        "Persona": [
+            "trainer"
+        ],
+        "Benefit": "it's no longer listed if I cancel for some reason",
+        "Action": {
+            "Primary Action": [
+                "delete"
+            ],
+            "Secondary Action": []
+        },
+        "Entity": {
+            "Primary Entity": [
+                "courses",
+                "events"
+            ],
+            "Secondary Entity": []
+        },
+        "Triggers": [
+            [
+                "trainer",
+                "delete"
+            ]
+        ],
+        "Targets": [
+            [
+                "delete",
+                "courses"
+            ],
+            [
+                "delete",
+                "events"
+            ]
+        ]
+    },
+    {
+        "Text": "#G10# As a CSM, I want to be charged a fee once I am approved for Practitioner status, so that my certification status can be activated.",
+        "Persona": [
+            "CSM"
+        ],
+        "Benefit": "my certification status can be activated",
+        "Action": {
+            "Primary Action": [
+                "be charged",
+                "am approved"
+            ],
+            "Secondary Action": [
+                "be activated"
+            ]
+        },
+        "Entity": {
+            "Primary Entity": [
+                "fee",
+                "Practitioner status"
+            ],
+            "Secondary Entity": [
+                "certification status"
+            ]
+        },
+        "Triggers": [
+            [
+                "CSM",
+                "be charged"
+            ],
+            [
+                "CSM",
+                "am approved"
+            ]
+        ],
+        "Targets": [
+            [
+                "be charged",
+                "fee"
+            ],
+            [
+                "am approved",
+                "Practitioner status"
+            ],
+            [
+                "be activated",
+                "certification status"
+            ]
+        ]
+    },
+    {
+        "Text": "#G10# As a site visitor, I want to see new content when I come to the site, so that I come back more often.",
+        "Persona": [
+            "site visitor"
+        ],
+        "Benefit": "I come back more often",
+        "Action": {
+            "Primary Action": [
+                "see"
+            ],
+            "Secondary Action": [
+                "come back"
+            ]
+        },
+        "Entity": {
+            "Primary Entity": [
+                "new content"
+            ],
+            "Secondary Entity": []
+        },
+        "Triggers": [
+            [
+                "site visitor",
+                "see"
+            ],
+            [
+                "site visitor",
+                "come back"
+            ]
+        ],
+        "Targets": [
+            [
+                "see",
+                "new content"
+            ]
+        ]
+    },
+    {
+        "Text": "#G10# As a site editor, I want to edit the content of the email automatically sent to new Certified Scrum Masters and Product Owners, so that I don't need to involve a programmer on simple email edits.",
+        "Persona": [
+            "site editor"
+        ],
+        "Benefit": "I don't need to involve a programmer on simple email edits",
+        "Action": {
+            "Primary Action": [
+                "edit"
+            ],
+            "Secondary Action": []
+        },
+        "Entity": {
+            "Primary Entity": [
+                "content of the email"
+            ],
+            "Secondary Entity": [
+                "Certified Scrum Masters",
+                "Product Owners"
+            ]
+        },
+        "Triggers": [
+            [
+                "site editor",
+                "edit"
+            ]
+        ],
+        "Targets": [
+            [
+                "edit",
+                "content of the email"
+            ]
+        ]
+    },
+    {
+        "Text": "#G10# As a site admin, I want to approve each help wanted ad before it gets to the site, so that we're sure of the quality of jobs being listed.",
+        "Persona": [
+            "site admin"
+        ],
+        "Benefit": "we're sure of the quality of jobs being listed",
+        "Action": {
+            "Primary Action": [
+                "approve"
+            ],
+            "Secondary Action": []
+        },
+        "Entity": {
+            "Primary Entity": [
+                "help wanted ad",
+                "site"
+            ],
+            "Secondary Entity": []
+        },
+        "Triggers": [
+            [
+                "site admin",
+                "approve"
+            ]
+        ],
+        "Targets": [
+            [
+                "approve",
+                "help wanted ad"
+            ],
+            [
+                "approve",
+                "site"
+            ]
+        ]
+    },
+    {
+        "Text": "#G10# As a site administrator, I want to read practicing and training applications and approve or reject them, so that only applicants who qualify can become CSPs or CSTs.",
+        "Persona": [
+            "site administrator"
+        ],
+        "Benefit": "only applicants who qualify can become CSPs or CSTs",
+        "Action": {
+            "Primary Action": [
+                "read",
+                "approve",
+                "reject"
+            ],
+            "Secondary Action": []
+        },
+        "Entity": {
+            "Primary Entity": [
+                "practicing and training applications"
+            ],
+            "Secondary Entity": [
+                "CSPs",
+                "CSTs"
+            ]
+        },
+        "Triggers": [
+            [
+                "site administrator",
+                "read"
+            ],
+            [
+                "site administrator",
+                "approve"
+            ],
+            [
+                "site administrator",
+                "reject"
+            ]
+        ],
+        "Targets": [
+            [
+                "read",
+                "practicing and training applications"
+            ],
+            [
+                "approve",
+                "practicing and training applications"
+            ],
+            [
+                "reject",
+                "practicing and training applications"
+            ]
+        ]
+    },
+    {
+        "Text": "#G10# As the site editor, I want to include a teaser with each article, so that site visitors can decide if they want to read the rest.",
+        "Persona": [
+            "site editor"
+        ],
+        "Benefit": "site visitors can decide if they want to read the rest",
+        "Action": {
+            "Primary Action": [
+                "include"
+            ],
+            "Secondary Action": []
+        },
+        "Entity": {
+            "Primary Entity": [
+                "teaser",
+                "article"
+            ],
+            "Secondary Entity": []
+        },
+        "Triggers": [
+            [
+                "site editor",
+                "include"
+            ]
+        ],
+        "Targets": [
+            [
+                "include",
+                "teaser"
+            ],
+            [
+                "include",
+                "article"
+            ]
+        ]
+    }
+]

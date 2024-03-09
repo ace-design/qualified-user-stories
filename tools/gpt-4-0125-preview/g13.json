@@ -1,0 +1,2223 @@
+[
+    {
+        "Text": "#G13# As a participant, I want to be able start a two-minute countdown timer that all participants can see, so that I can limit the time spent discussing the estimates when I think we've talked long enough.",
+        "Persona": [
+            "participant"
+        ],
+        "Benefit": "I can limit the time spent discussing the estimates when I think we've talked long enough",
+        "Action": {
+            "Primary Action": [
+                "start"
+            ],
+            "Secondary Action": [
+                "limit",
+                "discussing"
+            ]
+        },
+        "Entity": {
+            "Primary Entity": [
+                "two-minute countdown timer"
+            ],
+            "Secondary Entity": [
+                "estimates"
+            ]
+        },
+        "Triggers": [
+            [
+                "participant",
+                "start"
+            ],
+            [
+                "participant",
+                "limit"
+            ],
+            [
+                "participant",
+                "discussing"
+            ]
+        ],
+        "Targets": [
+            [
+                "start",
+                "two-minute countdown timer"
+            ],
+            [
+                "limit",
+                "estimates"
+            ],
+            [
+                "discussing",
+                "estimates"
+            ]
+        ]
+    },
+    {
+        "Text": "#G13# As a moderator, I want to create an account for the application by entering my name, email address, a password and a username, so that I can start using the application.",
+        "Persona": [
+            "moderator"
+        ],
+        "Benefit": "I can start using the application",
+        "Action": {
+            "Primary Action": [
+                "create",
+                "start using"
+            ],
+            "Secondary Action": [
+                "entering"
+            ]
+        },
+        "Entity": {
+            "Primary Entity": [
+                "account",
+                "application"
+            ],
+            "Secondary Entity": [
+                "name",
+                "email address",
+                "password",
+                "username"
+            ]
+        },
+        "Triggers": [
+            [
+                "moderator",
+                "create"
+            ],
+            [
+                "moderator",
+                "start using"
+            ]
+        ],
+        "Targets": [
+            [
+                "create",
+                "account"
+            ],
+            [
+                "create",
+                "application"
+            ],
+            [
+                "entering",
+                "name"
+            ],
+            [
+                "entering",
+                "email address"
+            ],
+            [
+                "entering",
+                "password"
+            ],
+            [
+                "entering",
+                "username"
+            ],
+            [
+                "start using",
+                "application"
+            ]
+        ]
+    },
+    {
+        "Text": "#G13# As a moderator, I want to edit an item in the list of items to be estimated, so that I can make it better reflect the team's understanding of the item.",
+        "Persona": [
+            "moderator"
+        ],
+        "Benefit": "I can make it better reflect the team's understanding of the item",
+        "Action": {
+            "Primary Action": [
+                "edit"
+            ],
+            "Secondary Action": []
+        },
+        "Entity": {
+            "Primary Entity": [
+                "item",
+                "list of items to be estimated"
+            ],
+            "Secondary Entity": []
+        },
+        "Triggers": [
+            [
+                "moderator",
+                "edit"
+            ]
+        ],
+        "Targets": [
+            [
+                "edit",
+                "item"
+            ],
+            [
+                "edit",
+                "list of items to be estimated"
+            ]
+        ]
+    },
+    {
+        "Text": "#G13# As a participant, I want to always have the cards in the same order across multiple draws, so that it's easy to compare estimates.",
+        "Persona": [
+            "participant"
+        ],
+        "Benefit": "it's easy to compare estimates",
+        "Action": {
+            "Primary Action": [
+                "have",
+                "compare"
+            ],
+            "Secondary Action": []
+        },
+        "Entity": {
+            "Primary Entity": [
+                "cards",
+                "multiple draws",
+                "estimates"
+            ],
+            "Secondary Entity": []
+        },
+        "Triggers": [
+            [
+                "participant",
+                "have"
+            ],
+            [
+                "participant",
+                "compare"
+            ]
+        ],
+        "Targets": [
+            [
+                "have",
+                "cards"
+            ],
+            [
+                "have",
+                "multiple draws"
+            ],
+            [
+                "compare",
+                "estimates"
+            ]
+        ]
+    },
+    {
+        "Text": "#G13# As a moderator, I want to view a transcript of a game, so that I can see the stories and estimates.",
+        "Persona": [
+            "moderator"
+        ],
+        "Benefit": "I can see the stories and estimates",
+        "Action": {
+            "Primary Action": [
+                "view"
+            ],
+            "Secondary Action": []
+        },
+        "Entity": {
+            "Primary Entity": [
+                "transcript of a game"
+            ],
+            "Secondary Entity": [
+                "stories",
+                "estimates"
+            ]
+        },
+        "Triggers": [
+            [
+                "moderator",
+                "view"
+            ]
+        ],
+        "Targets": [
+            [
+                "view",
+                "transcript of a game"
+            ]
+        ]
+    },
+    {
+        "Text": "#G13# As a moderator, I want to browse through previous games, so that I can find the previous game I'm looking for.",
+        "Persona": [
+            "moderator"
+        ],
+        "Benefit": "I can find the previous game I'm looking for",
+        "Action": {
+            "Primary Action": [
+                "browse through"
+            ],
+            "Secondary Action": []
+        },
+        "Entity": {
+            "Primary Entity": [
+                "previous games"
+            ],
+            "Secondary Entity": []
+        },
+        "Triggers": [
+            [
+                "moderator",
+                "browse through"
+            ]
+        ],
+        "Targets": [
+            [
+                "browse through",
+                "previous games"
+            ]
+        ]
+    },
+    {
+        "Text": "#G13# As a participant, I want to change my estimate as long as the draw has not been completed, so that I can change my mind.",
+        "Persona": [
+            "participant"
+        ],
+        "Benefit": "I can change my mind",
+        "Action": {
+            "Primary Action": [
+                "change"
+            ],
+            "Secondary Action": [
+                "completed"
+            ]
+        },
+        "Entity": {
+            "Primary Entity": [
+                "estimate",
+                "draw"
+            ],
+            "Secondary Entity": []
+        },
+        "Triggers": [
+            [
+                "participant",
+                "change"
+            ]
+        ],
+        "Targets": [
+            [
+                "change",
+                "estimate"
+            ],
+            [
+                "completed",
+                "draw"
+            ]
+        ]
+    },
+    {
+        "Text": "#G13# As a moderator, I want to add an item to the list of items to be estimated, so that so that we can be flexible and accommodate situations where we think of a new story while playing.",
+        "Persona": [
+            "moderator"
+        ],
+        "Benefit": "we can be flexible and accommodate situations where we think of a new story while playing",
+        "Action": {
+            "Primary Action": [
+                "add"
+            ],
+            "Secondary Action": []
+        },
+        "Entity": {
+            "Primary Entity": [
+                "item",
+                "list of items to be estimated"
+            ],
+            "Secondary Entity": []
+        },
+        "Triggers": [
+            [
+                "moderator",
+                "add"
+            ]
+        ],
+        "Targets": [
+            [
+                "add",
+                "item"
+            ],
+            [
+                "add",
+                "list of items to be estimated"
+            ]
+        ]
+    },
+    {
+        "Text": "#G13# As a moderator, I want to delete a game, so that stories and estimates for this game are no longer stored.",
+        "Persona": [
+            "moderator"
+        ],
+        "Benefit": "stories and estimates for this game are no longer stored",
+        "Action": {
+            "Primary Action": [
+                "delete"
+            ],
+            "Secondary Action": []
+        },
+        "Entity": {
+            "Primary Entity": [
+                "game"
+            ],
+            "Secondary Entity": [
+                "stories",
+                "estimates"
+            ]
+        },
+        "Triggers": [
+            [
+                "moderator",
+                "delete"
+            ]
+        ],
+        "Targets": [
+            [
+                "delete",
+                "game"
+            ]
+        ]
+    },
+    {
+        "Text": "#G13# As a participant, I want to see who gave what estimates during the current round, so that I know this when we're discussing the estimates.",
+        "Persona": [
+            "participant"
+        ],
+        "Benefit": "I know this when we're discussing the estimates",
+        "Action": {
+            "Primary Action": [
+                "see"
+            ],
+            "Secondary Action": [
+                "discussing"
+            ]
+        },
+        "Entity": {
+            "Primary Entity": [
+                "estimates",
+                "current round"
+            ],
+            "Secondary Entity": []
+        },
+        "Triggers": [
+            [
+                "participant",
+                "see"
+            ],
+            [
+                "participant",
+                "discussing"
+            ]
+        ],
+        "Targets": [
+            [
+                "see",
+                "estimates"
+            ],
+            [
+                "see",
+                "current round"
+            ]
+        ]
+    },
+    {
+        "Text": "#G13# As a user, I want to see sensible and predictable URLs, so that the application feels logical and transparent.",
+        "Persona": [
+            "user"
+        ],
+        "Benefit": "the application feels logical and transparent",
+        "Action": {
+            "Primary Action": [
+                "see"
+            ],
+            "Secondary Action": [
+                "feels"
+            ]
+        },
+        "Entity": {
+            "Primary Entity": [
+                "URLs"
+            ],
+            "Secondary Entity": [
+                "application"
+            ]
+        },
+        "Triggers": [
+            [
+                "user",
+                "see"
+            ]
+        ],
+        "Targets": [
+            [
+                "see",
+                "URLs"
+            ]
+        ]
+    },
+    {
+        "Text": "#G13# As a developer, I want to have the application function correctly in Internet Explorer 6 and 7, Firefox 1.5 and 2, and Safari 2, so that as many people as possible can fully use the application.",
+        "Persona": [
+            "developer"
+        ],
+        "Benefit": "as many people as possible can fully use the application",
+        "Action": {
+            "Primary Action": [
+                "have function correctly"
+            ],
+            "Secondary Action": []
+        },
+        "Entity": {
+            "Primary Entity": [
+                "application"
+            ],
+            "Secondary Entity": [
+                "Internet Explorer 6",
+                "Internet Explorer 7",
+                "Firefox 1.5",
+                "Firefox 2",
+                "Safari 2"
+            ]
+        },
+        "Triggers": [
+            [
+                "developer",
+                "have function correctly"
+            ]
+        ],
+        "Targets": [
+            [
+                "have function correctly",
+                "application"
+            ]
+        ]
+    },
+    {
+        "Text": "#G13# As a moderator, I want to have the \"estimate\" field filled in automatically if all estimators show the same card, so that I can accept it more quickly.",
+        "Persona": [
+            "moderator"
+        ],
+        "Benefit": "I can accept it more quickly",
+        "Action": {
+            "Primary Action": [
+                "filled in automatically",
+                "show"
+            ],
+            "Secondary Action": [
+                "accept"
+            ]
+        },
+        "Entity": {
+            "Primary Entity": [
+                "estimate field",
+                "card"
+            ],
+            "Secondary Entity": [
+                "estimators"
+            ]
+        },
+        "Triggers": [
+            [
+                "moderator",
+                "filled in automatically"
+            ],
+            [
+                "moderator",
+                "show"
+            ],
+            [
+                "moderator",
+                "accept"
+            ]
+        ],
+        "Targets": [
+            [
+                "filled in automatically",
+                "estimate field"
+            ],
+            [
+                "show",
+                "card"
+            ],
+            [
+                "accept",
+                "estimate field"
+            ]
+        ]
+    },
+    {
+        "Text": "#G13# As an estimator, I want to see all items we will try to estimate this session, so that I have a feel for the sizes of the various items.",
+        "Persona": [
+            "estimator"
+        ],
+        "Benefit": "I have a feel for the sizes of the various items",
+        "Action": {
+            "Primary Action": [
+                "see",
+                "try to estimate"
+            ],
+            "Secondary Action": []
+        },
+        "Entity": {
+            "Primary Entity": [
+                "items"
+            ],
+            "Secondary Entity": []
+        },
+        "Triggers": [
+            [
+                "estimator",
+                "see"
+            ],
+            [
+                "estimator",
+                "try to estimate"
+            ]
+        ],
+        "Targets": [
+            [
+                "see",
+                "items"
+            ],
+            [
+                "try to estimate",
+                "items"
+            ]
+        ]
+    },
+    {
+        "Text": "#G13# As a moderator, I want to select whether to have the team estimate with {0, 1/2, 1, 2, 3, 5, 8, etc.} or {0, 1, 2, 4, 8, 16, 32, etc.}, so that the team can use either the modified Fibonacci sequence or powers of 2.",
+        "Persona": [
+            "moderator"
+        ],
+        "Benefit": "the team can use either the modified Fibonacci sequence or powers of 2",
+        "Action": {
+            "Primary Action": [
+                "select"
+            ],
+            "Secondary Action": []
+        },
+        "Entity": {
+            "Primary Entity": [
+                "team estimate"
+            ],
+            "Secondary Entity": [
+                "modified Fibonacci sequence",
+                "powers of 2"
+            ]
+        },
+        "Triggers": [
+            [
+                "moderator",
+                "select"
+            ]
+        ],
+        "Targets": [
+            [
+                "select",
+                "team estimate"
+            ]
+        ]
+    },
+    {
+        "Text": "#G13# As a moderator, I want to create a new game by entering a name and an optional description, so that I can start inviting estimators.",
+        "Persona": [
+            "moderator"
+        ],
+        "Benefit": "I can start inviting estimators",
+        "Action": {
+            "Primary Action": [
+                "create",
+                "entering",
+                "start inviting"
+            ],
+            "Secondary Action": []
+        },
+        "Entity": {
+            "Primary Entity": [
+                "game",
+                "name",
+                "optional description"
+            ],
+            "Secondary Entity": []
+        },
+        "Triggers": [
+            [
+                "moderator",
+                "create"
+            ],
+            [
+                "moderator",
+                "entering"
+            ],
+            [
+                "moderator",
+                "start inviting"
+            ]
+        ],
+        "Targets": [
+            [
+                "create",
+                "game"
+            ],
+            [
+                "entering",
+                "name"
+            ],
+            [
+                "entering",
+                "optional description"
+            ]
+        ]
+    },
+    {
+        "Text": "#G13# As a moderator, I want to get a password reminder by email, so that I can get back to using the application when I've forgotten my password.",
+        "Persona": [
+            "moderator"
+        ],
+        "Benefit": "I can get back to using the application when I've forgotten my password",
+        "Action": {
+            "Primary Action": [
+                "get"
+            ],
+            "Secondary Action": []
+        },
+        "Entity": {
+            "Primary Entity": [
+                "password reminder",
+                "email"
+            ],
+            "Secondary Entity": [
+                "application"
+            ]
+        },
+        "Triggers": [
+            [
+                "moderator",
+                "get"
+            ]
+        ],
+        "Targets": [
+            [
+                "get",
+                "password reminder"
+            ],
+            [
+                "get",
+                "email"
+            ]
+        ]
+    },
+    {
+        "Text": "#G13# As an estimator, I want to see the item we're estimating, so that I know what I'm giving an estimate for.",
+        "Persona": [
+            "estimator"
+        ],
+        "Benefit": "I know what I'm giving an estimate for",
+        "Action": {
+            "Primary Action": [
+                "see",
+                "giving an estimate"
+            ],
+            "Secondary Action": []
+        },
+        "Entity": {
+            "Primary Entity": [
+                "item"
+            ],
+            "Secondary Entity": []
+        },
+        "Triggers": [
+            [
+                "estimator",
+                "see"
+            ],
+            [
+                "estimator",
+                "giving an estimate"
+            ]
+        ],
+        "Targets": [
+            [
+                "see",
+                "item"
+            ],
+            [
+                "giving an estimate",
+                "item"
+            ]
+        ]
+    },
+    {
+        "Text": "#G13# As a moderator, I want to accept the average of all estimates, so that we can move on to the next item when we agree.",
+        "Persona": [
+            "moderator"
+        ],
+        "Benefit": "we can move on to the next item when we agree",
+        "Action": {
+            "Primary Action": [
+                "accept"
+            ],
+            "Secondary Action": []
+        },
+        "Entity": {
+            "Primary Entity": [
+                "average of all estimates",
+                "next item"
+            ],
+            "Secondary Entity": []
+        },
+        "Triggers": [
+            [
+                "moderator",
+                "accept"
+            ]
+        ],
+        "Targets": [
+            [
+                "accept",
+                "average of all estimates"
+            ],
+            [
+                "accept",
+                "next item"
+            ]
+        ]
+    },
+    {
+        "Text": "#G13# As a developer, I want to have the site comply with the W3C accessibility guidelines where possible, so that people with accessibility issues can use the application.",
+        "Persona": [
+            "developer"
+        ],
+        "Benefit": "people with accessibility issues can use the application",
+        "Action": {
+            "Primary Action": [
+                "have comply"
+            ],
+            "Secondary Action": []
+        },
+        "Entity": {
+            "Primary Entity": [
+                "site",
+                "W3C accessibility guidelines"
+            ],
+            "Secondary Entity": [
+                "accessibility issues",
+                "application"
+            ]
+        },
+        "Triggers": [
+            [
+                "developer",
+                "have comply"
+            ]
+        ],
+        "Targets": [
+            [
+                "have comply",
+                "site"
+            ],
+            [
+                "have comply",
+                "W3C accessibility guidelines"
+            ]
+        ]
+    },
+    {
+        "Text": "#G13# As a user, I want to have nice error pages when something goes wrong, so that I can trust the system and its developers.",
+        "Persona": [
+            "user"
+        ],
+        "Benefit": "I can trust the system and its developers",
+        "Action": {
+            "Primary Action": [
+                "have"
+            ],
+            "Secondary Action": []
+        },
+        "Entity": {
+            "Primary Entity": [
+                "nice error pages"
+            ],
+            "Secondary Entity": []
+        },
+        "Triggers": [
+            [
+                "user",
+                "have"
+            ]
+        ],
+        "Targets": [
+            [
+                "have",
+                "nice error pages"
+            ]
+        ]
+    },
+    {
+        "Text": "#G13# As an estimator, I want to join a game by entering my name on the page I received the URL for, so that I can participate.",
+        "Persona": [
+            "estimator"
+        ],
+        "Benefit": "I can participate",
+        "Action": {
+            "Primary Action": [
+                "join",
+                "entering"
+            ],
+            "Secondary Action": []
+        },
+        "Entity": {
+            "Primary Entity": [
+                "game",
+                "name",
+                "page",
+                "URL"
+            ],
+            "Secondary Entity": []
+        },
+        "Triggers": [
+            [
+                "estimator",
+                "join"
+            ],
+            [
+                "estimator",
+                "entering"
+            ]
+        ],
+        "Targets": [
+            [
+                "join",
+                "game"
+            ],
+            [
+                "entering",
+                "name"
+            ],
+            [
+                "entering",
+                "page"
+            ],
+            [
+                "entering",
+                "URL"
+            ]
+        ]
+    },
+    {
+        "Text": "#G13# As a moderator, I want to estimate a story we estimated earlier in the session again, so that we can give a new estimate if we feel different about the story after estimating other related stories.",
+        "Persona": [
+            "moderator"
+        ],
+        "Benefit": "we can give a new estimate if we feel different about the story after estimating other related stories",
+        "Action": {
+            "Primary Action": [
+                "estimate",
+                "give a new estimate"
+            ],
+            "Secondary Action": [
+                "feel different"
+            ]
+        },
+        "Entity": {
+            "Primary Entity": [
+                "story",
+                "session",
+                "estimate"
+            ],
+            "Secondary Entity": []
+        },
+        "Triggers": [
+            [
+                "moderator",
+                "estimate"
+            ],
+            [
+                "moderator",
+                "give a new estimate"
+            ]
+        ],
+        "Targets": [
+            [
+                "estimate",
+                "story"
+            ],
+            [
+                "estimate",
+                "session"
+            ],
+            [
+                "estimate",
+                "estimate"
+            ],
+            [
+                "give a new estimate",
+                "story"
+            ],
+            [
+                "give a new estimate",
+                "session"
+            ],
+            [
+                "give a new estimate",
+                "estimate"
+            ]
+        ]
+    },
+    {
+        "Text": "#G13# As a developer, I want to have a list of definitions for commonly used terms, so that everyone working on the project can understand each other more easily.",
+        "Persona": [
+            "developer"
+        ],
+        "Benefit": "everyone working on the project can understand each other more easily",
+        "Action": {
+            "Primary Action": [
+                "have"
+            ],
+            "Secondary Action": []
+        },
+        "Entity": {
+            "Primary Entity": [
+                "list of definitions",
+                "commonly used terms"
+            ],
+            "Secondary Entity": [
+                "project"
+            ]
+        },
+        "Triggers": [
+            [
+                "developer",
+                "have"
+            ]
+        ],
+        "Targets": [
+            [
+                "have",
+                "list of definitions"
+            ],
+            [
+                "have",
+                "commonly used terms"
+            ]
+        ]
+    },
+    {
+        "Text": "#G13# As a Researcher, I want results to be stored in a non-identifiable way, so that I can study the data to see things like whether estimates converged around the first opinion given by \"estimator A\" for example.",
+        "Persona": [
+            "Researcher"
+        ],
+        "Benefit": "I can study the data to see things like whether estimates converged around the first opinion given by \"estimator A\" for example.",
+        "Action": {
+            "Primary Action": [
+                "stored",
+                "study"
+            ],
+            "Secondary Action": [
+                "see"
+            ]
+        },
+        "Entity": {
+            "Primary Entity": [
+                "results",
+                "data"
+            ],
+            "Secondary Entity": [
+                "non-identifiable way",
+                "estimates",
+                "first opinion",
+                "estimator A"
+            ]
+        },
+        "Triggers": [
+            [
+                "Researcher",
+                "stored"
+            ],
+            [
+                "Researcher",
+                "study"
+            ],
+            [
+                "Researcher",
+                "see"
+            ]
+        ],
+        "Targets": [
+            [
+                "stored",
+                "results"
+            ],
+            [
+                "study",
+                "data"
+            ],
+            [
+                "see",
+                "non-identifiable way"
+            ],
+            [
+                "see",
+                "estimates"
+            ],
+            [
+                "see",
+                "first opinion"
+            ],
+            [
+                "see",
+                "estimator A"
+            ]
+        ]
+    },
+    {
+        "Text": "#G13# As a moderator, I want to start a round by entering an item in a single multi-line text field, so that we can estimate it.",
+        "Persona": [
+            "moderator"
+        ],
+        "Benefit": "we can estimate it",
+        "Action": {
+            "Primary Action": [
+                "start",
+                "entering"
+            ],
+            "Secondary Action": []
+        },
+        "Entity": {
+            "Primary Entity": [
+                "round",
+                "single multi-line text field"
+            ],
+            "Secondary Entity": [
+                "item"
+            ]
+        },
+        "Triggers": [
+            [
+                "moderator",
+                "start"
+            ],
+            [
+                "moderator",
+                "entering"
+            ]
+        ],
+        "Targets": [
+            [
+                "start",
+                "round"
+            ],
+            [
+                "entering",
+                "single multi-line text field"
+            ],
+            [
+                "entering",
+                "item"
+            ]
+        ]
+    },
+    {
+        "Text": "#G13# As a moderator, I want to see dates and times in my local timezone, so that I don't have to do timezone conversion myself.",
+        "Persona": [
+            "moderator"
+        ],
+        "Benefit": "I don't have to do timezone conversion myself",
+        "Action": {
+            "Primary Action": [
+                "see"
+            ],
+            "Secondary Action": [
+                "do"
+            ]
+        },
+        "Entity": {
+            "Primary Entity": [
+                "dates",
+                "times",
+                "local timezone"
+            ],
+            "Secondary Entity": [
+                "timezone conversion"
+            ]
+        },
+        "Triggers": [
+            [
+                "moderator",
+                "see"
+            ]
+        ],
+        "Targets": [
+            [
+                "see",
+                "dates"
+            ],
+            [
+                "see",
+                "times"
+            ],
+            [
+                "see",
+                "local timezone"
+            ]
+        ]
+    },
+    {
+        "Text": "#G13# As a participant, I want to be shown all estimates at the same time after all estimators have given their estimate, so that I can be sure estimates are independent and not influenced by other estimates given in the same draw.",
+        "Persona": [
+            "participant"
+        ],
+        "Benefit": "I can be sure estimates are independent and not influenced by other estimates given in the same draw",
+        "Action": {
+            "Primary Action": [
+                "be shown",
+                "given"
+            ],
+            "Secondary Action": []
+        },
+        "Entity": {
+            "Primary Entity": [
+                "estimates",
+                "estimators",
+                "draw"
+            ],
+            "Secondary Entity": [
+                "estimate"
+            ]
+        },
+        "Triggers": [
+            [
+                "participant",
+                "be shown"
+            ],
+            [
+                "participant",
+                "given"
+            ]
+        ],
+        "Targets": [
+            [
+                "be shown",
+                "estimates"
+            ],
+            [
+                "given",
+                "estimate"
+            ]
+        ]
+    },
+    {
+        "Text": "#G13# As a user, I want to have the application respond quickly to my actions, so that I don't get bored.",
+        "Persona": [
+            "user"
+        ],
+        "Benefit": "I don't get bored",
+        "Action": {
+            "Primary Action": [
+                "respond quickly"
+            ],
+            "Secondary Action": []
+        },
+        "Entity": {
+            "Primary Entity": [
+                "application"
+            ],
+            "Secondary Entity": []
+        },
+        "Triggers": [
+            [
+                "user",
+                "respond quickly"
+            ]
+        ],
+        "Targets": []
+    },
+    {
+        "Text": "#G13# As a user, I want to be able to use Unicode, so that I can use any language I like.",
+        "Persona": [
+            "user"
+        ],
+        "Benefit": "I can use any language I like",
+        "Action": {
+            "Primary Action": [
+                "use"
+            ],
+            "Secondary Action": []
+        },
+        "Entity": {
+            "Primary Entity": [
+                "Unicode"
+            ],
+            "Secondary Entity": [
+                "language"
+            ]
+        },
+        "Triggers": [
+            [
+                "user",
+                "use"
+            ]
+        ],
+        "Targets": [
+            [
+                "use",
+                "Unicode"
+            ]
+        ]
+    },
+    {
+        "Text": "#G13# As a participant, I want to immediately see that an estimate has been given by a specific estimator, so that I know who has already given an estimate and who we're still waiting for.",
+        "Persona": [
+            "participant"
+        ],
+        "Benefit": "I know who has already given an estimate and who we're still waiting for",
+        "Action": {
+            "Primary Action": [
+                "see",
+                "given"
+            ],
+            "Secondary Action": []
+        },
+        "Entity": {
+            "Primary Entity": [
+                "estimate",
+                "estimator"
+            ],
+            "Secondary Entity": []
+        },
+        "Triggers": [
+            [
+                "participant",
+                "see"
+            ],
+            [
+                "participant",
+                "given"
+            ]
+        ],
+        "Targets": [
+            [
+                "see",
+                "estimate"
+            ],
+            [
+                "given",
+                "estimator"
+            ]
+        ]
+    },
+    {
+        "Text": "#G13# As a moderator, I want to delete my account, so that account information and games are no longer stored.",
+        "Persona": [
+            "moderator"
+        ],
+        "Benefit": "account information and games are no longer stored",
+        "Action": {
+            "Primary Action": [
+                "delete"
+            ],
+            "Secondary Action": []
+        },
+        "Entity": {
+            "Primary Entity": [
+                "account"
+            ],
+            "Secondary Entity": [
+                "account information",
+                "games"
+            ]
+        },
+        "Triggers": [
+            [
+                "moderator",
+                "delete"
+            ]
+        ],
+        "Targets": [
+            [
+                "delete",
+                "account"
+            ]
+        ]
+    },
+    {
+        "Text": "#G13# As a moderator, I want to invite estimators by giving them a URL where they can access the game, so that we can start the game.",
+        "Persona": [
+            "moderator"
+        ],
+        "Benefit": "we can start the game",
+        "Action": {
+            "Primary Action": [
+                "invite",
+                "start"
+            ],
+            "Secondary Action": [
+                "giving",
+                "access"
+            ]
+        },
+        "Entity": {
+            "Primary Entity": [
+                "URL",
+                "game"
+            ],
+            "Secondary Entity": [
+                "estimators"
+            ]
+        },
+        "Triggers": [
+            [
+                "moderator",
+                "invite"
+            ],
+            [
+                "moderator",
+                "start"
+            ]
+        ],
+        "Targets": [
+            [
+                "invite",
+                "URL"
+            ],
+            [
+                "start",
+                "game"
+            ]
+        ]
+    },
+    {
+        "Text": "#G13# As a Mike, I want to be able to see some metrics on use of the game, so that I can see how much it is being used.",
+        "Persona": [
+            "Mike"
+        ],
+        "Benefit": "I can see how much it is being used",
+        "Action": {
+            "Primary Action": [
+                "see"
+            ],
+            "Secondary Action": []
+        },
+        "Entity": {
+            "Primary Entity": [
+                "metrics on use of the game"
+            ],
+            "Secondary Entity": []
+        },
+        "Triggers": [
+            [
+                "Mike",
+                "see"
+            ]
+        ],
+        "Targets": [
+            [
+                "see",
+                "metrics on use of the game"
+            ]
+        ]
+    },
+    {
+        "Text": "#G13# As a developer, I want to have created database indexes, so that the queries run as fast as possible.",
+        "Persona": [
+            "developer"
+        ],
+        "Benefit": "the queries run as fast as possible",
+        "Action": {
+            "Primary Action": [
+                "have created"
+            ],
+            "Secondary Action": [
+                "run"
+            ]
+        },
+        "Entity": {
+            "Primary Entity": [
+                "database indexes"
+            ],
+            "Secondary Entity": [
+                "queries"
+            ]
+        },
+        "Triggers": [
+            [
+                "developer",
+                "have created"
+            ]
+        ],
+        "Targets": [
+            [
+                "have created",
+                "database indexes"
+            ],
+            [
+                "run",
+                "queries"
+            ]
+        ]
+    },
+    {
+        "Text": "#G13# As a moderator, I want to enter the agreed-upon estimate, so that we can move on to the next item when we agree.",
+        "Persona": [
+            "moderator"
+        ],
+        "Benefit": "we can move on to the next item when we agree",
+        "Action": {
+            "Primary Action": [
+                "enter",
+                "move on"
+            ],
+            "Secondary Action": []
+        },
+        "Entity": {
+            "Primary Entity": [
+                "agreed-upon estimate",
+                "next item"
+            ],
+            "Secondary Entity": []
+        },
+        "Triggers": [
+            [
+                "moderator",
+                "enter"
+            ],
+            [
+                "moderator",
+                "move on"
+            ]
+        ],
+        "Targets": [
+            [
+                "enter",
+                "agreed-upon estimate"
+            ],
+            [
+                "move on",
+                "next item"
+            ]
+        ]
+    },
+    {
+        "Text": "#G13# As a moderator, I want to invite up to 15 estimators, so that we can play with large but not immense teams.",
+        "Persona": [
+            "moderator"
+        ],
+        "Benefit": "we can play with large but not immense teams",
+        "Action": {
+            "Primary Action": [
+                "invite"
+            ],
+            "Secondary Action": []
+        },
+        "Entity": {
+            "Primary Entity": [
+                "estimators",
+                "teams"
+            ],
+            "Secondary Entity": []
+        },
+        "Triggers": [
+            [
+                "moderator",
+                "invite"
+            ]
+        ],
+        "Targets": [
+            [
+                "invite",
+                "estimators"
+            ],
+            [
+                "invite",
+                "teams"
+            ]
+        ]
+    },
+    {
+        "Text": "#G13# As a moderator, I want to select an item to be estimated or re-estimated, so that the team sees that item and can estimate it.",
+        "Persona": [
+            "moderator"
+        ],
+        "Benefit": "the team sees that item and can estimate it",
+        "Action": {
+            "Primary Action": [
+                "select",
+                "estimate",
+                "re-estimate"
+            ],
+            "Secondary Action": [
+                "sees"
+            ]
+        },
+        "Entity": {
+            "Primary Entity": [
+                "item"
+            ],
+            "Secondary Entity": []
+        },
+        "Triggers": [
+            [
+                "moderator",
+                "select"
+            ],
+            [
+                "moderator",
+                "estimate"
+            ],
+            [
+                "moderator",
+                "re-estimate"
+            ]
+        ],
+        "Targets": [
+            [
+                "select",
+                "item"
+            ],
+            [
+                "estimate",
+                "item"
+            ],
+            [
+                "re-estimate",
+                "item"
+            ]
+        ]
+    },
+    {
+        "Text": "#G13# As a moderator, I want to change my account details, so that I can keep my account details up-to-date.",
+        "Persona": [
+            "moderator"
+        ],
+        "Benefit": "I can keep my account details up-to-date",
+        "Action": {
+            "Primary Action": [
+                "change"
+            ],
+            "Secondary Action": []
+        },
+        "Entity": {
+            "Primary Entity": [
+                "account details"
+            ],
+            "Secondary Entity": []
+        },
+        "Triggers": [
+            [
+                "moderator",
+                "change"
+            ]
+        ],
+        "Targets": [
+            [
+                "change",
+                "account details"
+            ]
+        ]
+    },
+    {
+        "Text": "#G13# As a participant, I want to be able to see each estimator's prior estimates for the story being estimated, so that I can see how his or her opinion has changed so I can ask questions.",
+        "Persona": [
+            "participant"
+        ],
+        "Benefit": "I can see how his or her opinion has changed so I can ask questions",
+        "Action": {
+            "Primary Action": [
+                "see"
+            ],
+            "Secondary Action": [
+                "ask"
+            ]
+        },
+        "Entity": {
+            "Primary Entity": [
+                "estimator's prior estimates",
+                "story being estimated"
+            ],
+            "Secondary Entity": []
+        },
+        "Triggers": [
+            [
+                "participant",
+                "see"
+            ],
+            [
+                "participant",
+                "ask"
+            ]
+        ],
+        "Targets": [
+            [
+                "see",
+                "estimator's prior estimates"
+            ],
+            [
+                "see",
+                "story being estimated"
+            ]
+        ]
+    },
+    {
+        "Text": "#G13# As a moderator, I want to export a transcript of a game as a CSV file, so that I can further process the stories and estimates.",
+        "Persona": [
+            "moderator"
+        ],
+        "Benefit": "I can further process the stories and estimates",
+        "Action": {
+            "Primary Action": [
+                "export"
+            ],
+            "Secondary Action": []
+        },
+        "Entity": {
+            "Primary Entity": [
+                "transcript of a game",
+                "CSV file"
+            ],
+            "Secondary Entity": [
+                "stories",
+                "estimates"
+            ]
+        },
+        "Triggers": [
+            [
+                "moderator",
+                "export"
+            ]
+        ],
+        "Targets": [
+            [
+                "export",
+                "transcript of a game"
+            ],
+            [
+                "export",
+                "CSV file"
+            ]
+        ]
+    },
+    {
+        "Text": "#G13# As a moderator, I want to show all estimates immediately, so that I can decide to show the estimates that have been given even though not all estimators have given their estimate.",
+        "Persona": [
+            "moderator"
+        ],
+        "Benefit": "I can decide to show the estimates that have been given even though not all estimators have given their estimate",
+        "Action": {
+            "Primary Action": [
+                "show"
+            ],
+            "Secondary Action": [
+                "decide"
+            ]
+        },
+        "Entity": {
+            "Primary Entity": [
+                "estimates"
+            ],
+            "Secondary Entity": []
+        },
+        "Triggers": [
+            [
+                "moderator",
+                "show"
+            ],
+            [
+                "moderator",
+                "decide"
+            ]
+        ],
+        "Targets": [
+            [
+                "show",
+                "estimates"
+            ]
+        ]
+    },
+    {
+        "Text": "#G13# As a participant, I want to scroll back through the stories and estimates from prior rounds, so that I can use this information when I estimate the item of the current round.",
+        "Persona": [
+            "participant"
+        ],
+        "Benefit": "I can use this information when I estimate the item of the current round",
+        "Action": {
+            "Primary Action": [
+                "scroll back",
+                "use"
+            ],
+            "Secondary Action": []
+        },
+        "Entity": {
+            "Primary Entity": [
+                "stories",
+                "estimates",
+                "item of the current round"
+            ],
+            "Secondary Entity": [
+                "prior rounds"
+            ]
+        },
+        "Triggers": [
+            [
+                "participant",
+                "scroll back"
+            ],
+            [
+                "participant",
+                "use"
+            ]
+        ],
+        "Targets": [
+            [
+                "scroll back",
+                "stories"
+            ],
+            [
+                "scroll back",
+                "estimates"
+            ],
+            [
+                "scroll back",
+                "prior rounds"
+            ],
+            [
+                "use",
+                "item of the current round"
+            ]
+        ]
+    },
+    {
+        "Text": "#G13# As a moderator, I want to copy/paste stories from a spreadsheet, so that I can get started more quickly.",
+        "Persona": [
+            "moderator"
+        ],
+        "Benefit": "I can get started more quickly",
+        "Action": {
+            "Primary Action": [
+                "copy/paste"
+            ],
+            "Secondary Action": [
+                "get started"
+            ]
+        },
+        "Entity": {
+            "Primary Entity": [
+                "stories",
+                "spreadsheet"
+            ],
+            "Secondary Entity": []
+        },
+        "Triggers": [
+            [
+                "moderator",
+                "copy/paste"
+            ],
+            [
+                "moderator",
+                "get started"
+            ]
+        ],
+        "Targets": [
+            [
+                "copy/paste",
+                "stories"
+            ],
+            [
+                "copy/paste",
+                "spreadsheet"
+            ]
+        ]
+    },
+    {
+        "Text": "#G13# As a participant, I want to have a small thumbnail photo displayed near where my cards are played, so that the game is more personal because I see who I'm estimating with.",
+        "Persona": [
+            "participant"
+        ],
+        "Benefit": "the game is more personal because I see who I'm estimating with",
+        "Action": {
+            "Primary Action": [
+                "have displayed"
+            ],
+            "Secondary Action": []
+        },
+        "Entity": {
+            "Primary Entity": [
+                "small thumbnail photo",
+                "cards"
+            ],
+            "Secondary Entity": []
+        },
+        "Triggers": [
+            [
+                "participant",
+                "have displayed"
+            ]
+        ],
+        "Targets": [
+            [
+                "have displayed",
+                "small thumbnail photo"
+            ],
+            [
+                "have displayed",
+                "cards"
+            ]
+        ]
+    },
+    {
+        "Text": "#G13# As a developer, I want to have written a site which is compliant with XHTML and CSS standards, so that as many people as possible can access the site and view it as intended.",
+        "Persona": [
+            "developer"
+        ],
+        "Benefit": "as many people as possible can access the site and view it as intended",
+        "Action": {
+            "Primary Action": [
+                "have written",
+                "compliant"
+            ],
+            "Secondary Action": [
+                "access",
+                "view"
+            ]
+        },
+        "Entity": {
+            "Primary Entity": [
+                "site",
+                "XHTML and CSS standards"
+            ],
+            "Secondary Entity": []
+        },
+        "Triggers": [
+            [
+                "developer",
+                "have written"
+            ],
+            [
+                "developer",
+                "compliant"
+            ]
+        ],
+        "Targets": [
+            [
+                "have written",
+                "site"
+            ],
+            [
+                "compliant",
+                "XHTML and CSS standards"
+            ],
+            [
+                "access",
+                "site"
+            ],
+            [
+                "view",
+                "site"
+            ]
+        ]
+    },
+    {
+        "Text": "#G13# As a moderator, I want to import stories from a spreadsheet, so that I don't have to copy and paste each individual story.",
+        "Persona": [
+            "moderator"
+        ],
+        "Benefit": "I don't have to copy and paste each individual story",
+        "Action": {
+            "Primary Action": [
+                "import"
+            ],
+            "Secondary Action": []
+        },
+        "Entity": {
+            "Primary Entity": [
+                "spreadsheet"
+            ],
+            "Secondary Entity": [
+                "stories"
+            ]
+        },
+        "Triggers": [
+            [
+                "moderator",
+                "import"
+            ]
+        ],
+        "Targets": [
+            [
+                "import",
+                "spreadsheet"
+            ]
+        ]
+    },
+    {
+        "Text": "#G13# As a participant, I want to have the two-minute timer reset itself as soon as we all play an estimate, so that it's ready for use on the next round.",
+        "Persona": [
+            "participant"
+        ],
+        "Benefit": "it's ready for use on the next round",
+        "Action": {
+            "Primary Action": [
+                "have reset",
+                "play"
+            ],
+            "Secondary Action": []
+        },
+        "Entity": {
+            "Primary Entity": [
+                "two-minute timer",
+                "estimate"
+            ],
+            "Secondary Entity": [
+                "next round"
+            ]
+        },
+        "Triggers": [
+            [
+                "participant",
+                "have reset"
+            ],
+            [
+                "participant",
+                "play"
+            ]
+        ],
+        "Targets": [
+            [
+                "have reset",
+                "two-minute timer"
+            ],
+            [
+                "play",
+                "estimate"
+            ]
+        ]
+    },
+    {
+        "Text": "#G13# As a moderator, I want to delete an item from the list of items to be estimated, so that we can remove it and not estimate it.",
+        "Persona": [
+            "moderator"
+        ],
+        "Benefit": "we can remove it and not estimate it",
+        "Action": {
+            "Primary Action": [
+                "delete"
+            ],
+            "Secondary Action": [
+                "remove",
+                "not estimate"
+            ]
+        },
+        "Entity": {
+            "Primary Entity": [
+                "item",
+                "list of items to be estimated"
+            ],
+            "Secondary Entity": []
+        },
+        "Triggers": [
+            [
+                "moderator",
+                "delete"
+            ]
+        ],
+        "Targets": [
+            [
+                "delete",
+                "item"
+            ],
+            [
+                "delete",
+                "list of items to be estimated"
+            ]
+        ]
+    },
+    {
+        "Text": "#G13# As a moderator, I want to export a transcript of a game as a HTML file, so that I can save the stories and estimates locally.",
+        "Persona": [
+            "moderator"
+        ],
+        "Benefit": "I can save the stories and estimates locally",
+        "Action": {
+            "Primary Action": [
+                "export"
+            ],
+            "Secondary Action": [
+                "save"
+            ]
+        },
+        "Entity": {
+            "Primary Entity": [
+                "transcript of a game",
+                "HTML file"
+            ],
+            "Secondary Entity": [
+                "stories",
+                "estimates"
+            ]
+        },
+        "Triggers": [
+            [
+                "moderator",
+                "export"
+            ]
+        ],
+        "Targets": [
+            [
+                "export",
+                "transcript of a game"
+            ],
+            [
+                "export",
+                "HTML file"
+            ],
+            [
+                "save",
+                "stories"
+            ],
+            [
+                "save",
+                "estimates"
+            ]
+        ]
+    },
+    {
+        "Text": "#G13# As a participant, I want to be able to change my estimate up until the last person selects a card and all are shown, so that I can change my mind based on information I hear.",
+        "Persona": [
+            "participant"
+        ],
+        "Benefit": "I can change my mind based on information I hear",
+        "Action": {
+            "Primary Action": [
+                "change",
+                "selects",
+                "shown"
+            ],
+            "Secondary Action": []
+        },
+        "Entity": {
+            "Primary Entity": [
+                "estimate",
+                "card"
+            ],
+            "Secondary Entity": []
+        },
+        "Triggers": [
+            [
+                "participant",
+                "change"
+            ],
+            [
+                "participant",
+                "selects"
+            ],
+            [
+                "participant",
+                "shown"
+            ]
+        ],
+        "Targets": [
+            [
+                "change",
+                "estimate"
+            ],
+            [
+                "selects",
+                "card"
+            ]
+        ]
+    },
+    {
+        "Text": "#G13# As a moderator, I want to log in using my account name and password, so that I can start using the application.",
+        "Persona": [
+            "moderator"
+        ],
+        "Benefit": "I can start using the application",
+        "Action": {
+            "Primary Action": [
+                "log in"
+            ],
+            "Secondary Action": [
+                "start using"
+            ]
+        },
+        "Entity": {
+            "Primary Entity": [
+                "account name",
+                "password"
+            ],
+            "Secondary Entity": [
+                "application"
+            ]
+        },
+        "Triggers": [
+            [
+                "moderator",
+                "log in"
+            ],
+            [
+                "moderator",
+                "start using"
+            ]
+        ],
+        "Targets": [
+            [
+                "log in",
+                "account name"
+            ],
+            [
+                "log in",
+                "password"
+            ],
+            [
+                "start using",
+                "application"
+            ]
+        ]
+    },
+    {
+        "Text": "#G13# As a moderator, I want to see all items we try to estimate this session, so that I can answer questions about the current story such as \"does this include ___\".",
+        "Persona": [
+            "moderator"
+        ],
+        "Benefit": "I can answer questions about the current story such as \"does this include ___\".",
+        "Action": {
+            "Primary Action": [
+                "see",
+                "answer questions"
+            ],
+            "Secondary Action": []
+        },
+        "Entity": {
+            "Primary Entity": [
+                "items",
+                "session",
+                "current story"
+            ],
+            "Secondary Entity": []
+        },
+        "Triggers": [
+            [
+                "moderator",
+                "see"
+            ],
+            [
+                "moderator",
+                "answer questions"
+            ]
+        ],
+        "Targets": [
+            [
+                "see",
+                "items"
+            ],
+            [
+                "see",
+                "session"
+            ],
+            [
+                "see",
+                "current story"
+            ],
+            [
+                "answer questions",
+                "current story"
+            ]
+        ]
+    }
+]

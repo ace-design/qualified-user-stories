@@ -12,7 +12,7 @@
 
 Run the tool as described on its webpage. 
 It produces one file per user stories, in a specific JSON format.
-To transform this format into our unified one, run the `convert.py` script.
+To transform this format into our unified one, run the `convert.py` script in the `helpers` directory.
 
 
 ## Example
