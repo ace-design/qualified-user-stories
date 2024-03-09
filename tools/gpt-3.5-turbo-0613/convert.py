@@ -50,7 +50,7 @@ def extractData(folderPath):
     stories = []
 
     for fileName in folder:
-        file = open(folderPath + "\\" + fileName)
+        file = open(folderPath + "/" + fileName)
         data = json.load(file) 
 
         #Collect the data
@@ -60,14 +60,20 @@ def extractData(folderPath):
         story = story.replace('\\\"', "\"")
         extractedData["Text"] = story
         stories.append(story)
-        extractedData["Persona"] = data["extraction"]["personas"]
+
+        if data["extraction"] != None:
+            extractedData["Persona"] = data["extraction"]["personas"]
+            extractedData["Benefit"] = data["extraction"]["benefit"]
+        else:
+            extractedData["Persona"] = []
+            extractedData["Benefit"] = ""
         extractedData["Action"] = {} 
         extractedData["Action"]["Primary Action"] = data["categories"]["primary_actions"]
         extractedData["Action"]["Secondary Action"] = data["categories"]["secondary_actions"]  
         extractedData["Entity"] = {}
         extractedData["Entity"]["Primary Entity"] = data["categories"]["primary_entities"]
         extractedData["Entity"]["Secondary Entity"] = data["categories"]["secondary_entities"] 
-        extractedData["Benefit"] = data["extraction"]["benefit"]
+        
         extractedData["Triggers"] = []
         extractedData["Targets"] = []
         for relationInfo in data["relations"]["relations"]:
@@ -96,14 +102,10 @@ def saveResults(dataset, stories, savingName):
     '''
     
     json.dumps(dataset)
-    resultsSavingPath = "nlp\\nlp_outputs\\individual_backlog\\nlp_outputs_original\\chatgpt\\" + savingName + ".json"
+    resultsSavingPath = "./" + savingName + ".json"
     with open(resultsSavingPath,"w", encoding="utf-8") as file:
         json.dump(dataset, file, ensure_ascii=False, indent = 4) 
 
-    storiesSavingPath = "inputs\individual_backlog\chatgpt_stories\\" + savingName + ".txt"
-    file = open(storiesSavingPath, "w", encoding="utf-8")
-    for story in stories:
-        file.writelines(story + "\n")
 
 if __name__ == "__main__":
     main()  
